@@ -2,6 +2,9 @@ name: Create Overview
 
 on:
   workflow_dispatch:
+  # Every day at 07:00
+  schedule:
+    - cron: '0 7 * * *'
 
 jobs:
   create-overview:
