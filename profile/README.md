@@ -1,7 +1,7 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T03:08:50+01:00
+Component Status overview. Last update 2024-03-01T03:17:19+01:00
 
 
 ## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.13.0
@@ -114,6 +114,21 @@ Component Status overview. Last update 2024-03-01T03:08:50+01:00
 
 
 
+### [Workflows requiring approval](github.com/prodyna-yasm/yasm-frontend/actions) (6)
+
+- [CI/CD](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/8061634815)
+
+- [CI/CD](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/7991772586)
+
+- [CI/CD](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/7974154828)
+
+- [CI/CD](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/7901568980)
+
+- [CI/CD](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/7884692415)
+
+- [CI/CD](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/7755820341)
+
+
 
 
 ## [yasmctl](https://github.com/prodyna-yasm/yasmctl) 1.13.2
@@ -157,6 +172,11 @@ Component Status overview. Last update 2024-03-01T03:08:50+01:00
 - [New scope, API 1.13.0](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.13.0) on 2024-02-21 08:33:17 +0000 UTC
 
 
+
+
+### [Workflows requiring approval](github.com/prodyna-yasm/yasmctl/actions) (1)
+
+- [yasmctl Build and Deploy](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/7986182383)
 
 
 
@@ -274,6 +294,13 @@ Component Status overview. Last update 2024-03-01T03:08:50+01:00
 - [Fix resources including DAPRd](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.0.1) on 2023-11-24 22:17:24 +0000 UTC
 
 
+
+
+### [Workflows requiring approval](github.com/prodyna-yasm/yasm-geocoding/actions) (2)
+
+- [yasm-geocoding Build and Deploy](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/8052535738)
+
+- [yasm-geocoding Build and Deploy](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/7961892641)
 
 
 
