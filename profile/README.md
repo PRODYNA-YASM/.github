@@ -1,15 +1,15 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T13:33:06+01:00
+Component Status overview. Last update 2024-03-01T13:36:36+01:00
 
 | Repository | Commits | PRs | Latest Release | [dev](https://dev-yasm.prodyna.com) | [staging](https://dev-yasm.prodyna.com) | [prod](https://yasm.prodyna.com) |
 | --- | --- | --- | -- | --- | --- | --- |
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: 7 | :yellow_square: 2 | 1.13.0 |  :red_square: 705a4d6 |  :green_square: 1.13.0 |  :green_square: 1.13.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: 10 | :yellow_square: 1 | 1.13.0 |  :red_square: e8b1aa8 |  :green_square: 1.13.0 |  :green_square: 1.13.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: 9 | :yellow_square: 5 | 1.13.4 |  :red_square: 2c0340a |  :green_square: 1.13.4 |  :green_square: 1.13.4 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: 1 | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :red_square: 1.13.4 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: 1 | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: 2 | :yellow_square: 2 | 1.8.0 |  :red_square: 691b03b |  :green_square: 1.8.0 |  :green_square: 1.8.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.0-3 |  :green_square: 8.2.0-3 |  :green_square: 8.2.0-3 |  :green_square: 8.2.0-3 | 
@@ -21,7 +21,9 @@ Component Status overview. Last update 2024-03-01T13:33:06+01:00
 
 
 
-### [Commits on master since 1.13.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.0..HEAD) (7)
+### [Commits on master since 1.13.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.0..HEAD) (10)
+
+- [Merge pull request #519 from PRODYNA-YASM/#322_special-characters-in-admin-search](https://github.com/prodyna-yasm/yasm-backend/commit/3e32cb01a6914029367d2fd814a1d5aeef4e2089) by [irhox](https://github.com/irhox) on 2024-03-01 12:34:19 +0000 UTC
 
 - [Bump azure/setup-helm from 3 to 4 (#523)](https://github.com/prodyna-yasm/yasm-backend/commit/e8b1aa8f69f0988d2c0b2d2ed771ac61d7f82bfd) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-03-01 12:30:12 +0000 UTC
 
@@ -37,14 +39,16 @@ Component Status overview. Last update 2024-03-01T13:33:06+01:00
 
 - [Set db.name and span type to client](https://github.com/prodyna-yasm/yasm-backend/commit/76c76fbe09f7f4abba7ad01ef20a156c6654db48) by [dkrizic](https://github.com/dkrizic) on 2024-02-26 00:58:30 +0000 UTC
 
+- [yasm community requests #322 change test company name](https://github.com/prodyna-yasm/yasm-backend/commit/53cd3347aff51f8c112ccca76a5252dc31467e66) by [irhox](https://github.com/irhox) on 2024-02-25 14:27:44 +0000 UTC
+
+- [yasm community requests #322 delete urldecoder from admin search methods](https://github.com/prodyna-yasm/yasm-backend/commit/5b3c242f06de110a45b2c78a2630048f2920c67a) by [irhox](https://github.com/irhox) on 2024-02-25 13:18:52 +0000 UTC
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (2)
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (1)
 
 - [Bump quarkus.platform.version from 3.7.3 to 3.8.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/524)
-
-- [yasm community requests #322 delete urldecoder from admin search methods](https://github.com/PRODYNA-YASM/yasm-backend/pull/519)
 
 
 
@@ -52,7 +56,7 @@ Component Status overview. Last update 2024-03-01T13:33:06+01:00
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  705a4d6 |  1.13.0 |  1.13.0 | 
+| Version |  e8b1aa8 |  1.13.0 |  1.13.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -211,9 +215,9 @@ Component Status overview. Last update 2024-03-01T13:33:06+01:00
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.13.5 |  1.13.5 |  1.13.4 | 
+| Version |  1.13.5 |  1.13.5 |  1.13.5 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -225,11 +229,6 @@ Component Status overview. Last update 2024-03-01T13:33:06+01:00
 - [1.13.3](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.13.3) on 2024-02-23 14:45:59 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #367 from PRODYNA-YASM/feature/msgraph-update](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8109670951) created on 2024-03-01 10:03:50 +0000 UTC
 
 
 
