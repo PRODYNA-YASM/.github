@@ -1,7 +1,7 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T01:22:07+01:00
+Component Status overview. Last update 2024-03-01T01:39:31+01:00
 
 
 ## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.13.0
@@ -9,7 +9,7 @@ Component Status overview. Last update 2024-03-01T01:22:07+01:00
 
 
 
-### [Commits on master since 1.13.0](https://github.com/%!/(string=prodyna-yasm)%!/(string=yasm-backend)compare/1.13.0...HEAD) (6)
+### [Commits on master since 1.13.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.0..HEAD) (6)
 
 - [Merge pull request #522 from PRODYNA-YASM/chore/adding-some-spans](https://github.com/prodyna-yasm/yasm-backend/commit/705a4d62962e849fb5b3bba1887dfa6375188627) by [dkrizic](https://github.com/dkrizic) on 2024-02-28 12:09:21 +0000 UTC
 
@@ -61,7 +61,7 @@ Component Status overview. Last update 2024-03-01T01:22:07+01:00
 
 
 
-### [Commits on master since 1.13.4](https://github.com/%!/(string=prodyna-yasm)%!/(string=yasm-frontend)compare/1.13.4...HEAD) (5)
+### [Commits on master since 1.13.4](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.4..HEAD) (5)
 
 - [Merge pull request #516 from PRODYNA-YASM/fix/412-project-selection-list](https://github.com/prodyna-yasm/yasm-frontend/commit/32f42e296d5cde7b072db621db0815a6b1923517) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-02-29 13:31:34 +0000 UTC
 
@@ -117,7 +117,7 @@ Component Status overview. Last update 2024-03-01T01:22:07+01:00
 
 
 
-### [Commits on master since 1.13.2](https://github.com/%!/(string=prodyna-yasm)%!/(string=yasmctl)compare/1.13.2...HEAD) (6)
+### [Commits on master since 1.13.2](https://github.com/prodyna-yasm/yasmctl/compare/1.13.2..HEAD) (6)
 
 - [Merge pull request #269 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-4](https://github.com/prodyna-yasm/yasmctl/commit/cc6e1687afdee99adf4ed4127788fcc05f437f7c) by [dkrizic](https://github.com/dkrizic) on 2024-02-28 23:46:01 +0000 UTC
 
@@ -160,7 +160,7 @@ Component Status overview. Last update 2024-03-01T01:22:07+01:00
 
 
 
-### [Commits on master since 1.9.0](https://github.com/%!/(string=prodyna-yasm)%!/(string=yasm-proxy-odbc)compare/1.9.0...HEAD) (2)
+### [Commits on master since 1.9.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.9.0..HEAD) (2)
 
 - [Merge pull request #163 from PRODYNA-YASM/feature/update-libs4](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/f9495425d92f99545040ab44baa810d1239b616a) by [dkrizic](https://github.com/dkrizic) on 2024-02-26 13:21:22 +0000 UTC
 
@@ -234,7 +234,7 @@ Component Status overview. Last update 2024-03-01T01:22:07+01:00
 
 
 
-### [Commits on master since 1.2.0](https://github.com/%!/(string=prodyna-yasm)%!/(string=yasm-geocoding)compare/1.2.0...HEAD) (2)
+### [Commits on master since 1.2.0](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.2.0..HEAD) (2)
 
 - [Merge pull request #82 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-4](https://github.com/prodyna-yasm/yasm-geocoding/commit/36e1ac10780f8a25b4ef7bbd7ef78e13c4d31be8) by [dkrizic](https://github.com/dkrizic) on 2024-02-29 16:32:20 +0000 UTC
 
@@ -269,7 +269,7 @@ Component Status overview. Last update 2024-03-01T01:22:07+01:00
 
 
 
-### [Commits on master since 1.8.0](https://github.com/%!/(string=prodyna-yasm)%!/(string=yasm-data)compare/1.8.0...HEAD) (2)
+### [Commits on master since 1.8.0](https://github.com/prodyna-yasm/yasm-data/compare/1.8.0..HEAD) (2)
 
 - [Merge pull request #106 from PRODYNA-YASM/105-add-skill-profile-quality-manager](https://github.com/prodyna-yasm/yasm-data/commit/691b03b57a4ee2411410ee05b0204d00688a94b5) by [mopore](https://github.com/mopore) on 2024-01-17 15:38:40 +0000 UTC
 
@@ -337,7 +337,7 @@ Component Status overview. Last update 2024-03-01T01:22:07+01:00
 
 
 
-### [Commits on main since 8.2.0-2](https://github.com/%!/(string=prodyna-yasm)%!/(string=yasm-gotenberg)compare/8.2.0-2...HEAD) (12)
+### [Commits on main since 8.2.0-2](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.2.0-2..HEAD) (12)
 
 - [Merge pull request #34 from PRODYNA-YASM/feature/update-actions](https://github.com/prodyna-yasm/yasm-gotenberg/commit/26eeefa944527273d7e39c6f4b24c31588beccf9) by [dkrizic](https://github.com/dkrizic) on 2024-02-27 02:00:10 +0000 UTC
 
