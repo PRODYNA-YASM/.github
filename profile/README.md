@@ -1,7 +1,7 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T03:17:19+01:00
+Component Status overview. Last update 2024-03-01T03:23:14+01:00
 
 
 ## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.13.0
@@ -114,19 +114,19 @@ Component Status overview. Last update 2024-03-01T03:17:19+01:00
 
 
 
-### [Workflows requiring approval](github.com/prodyna-yasm/yasm-frontend/actions) (6)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions) (6)
 
-- [CI/CD](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/8061634815)
+- [Merge pull request #506 from PRODYNA-YASM/fix/406-remove-internal-badge](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/8061634815) created on 2024-02-27 08:18:47 +0000 UTC
 
-- [CI/CD](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/7991772586)
+- [Merge pull request #496 from PRODYNA-YASM/chore/appid_change](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/7991772586) created on 2024-02-21 15:47:20 +0000 UTC
 
-- [CI/CD](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/7974154828)
+- [Merge pull request #495 from PRODYNA-YASM/feature/24-add-manager-to-p…](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/7974154828) created on 2024-02-20 13:20:18 +0000 UTC
 
-- [CI/CD](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/7901568980)
+- [Merge pull request #490 from PRODYNA-YASM/feature/363-maintainer-admi…](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/7901568980) created on 2024-02-14 12:58:48 +0000 UTC
 
-- [CI/CD](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/7884692415)
+- [Merge pull request #489 from PRODYNA-YASM/feature/191-seniority-override](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/7884692415) created on 2024-02-13 09:56:53 +0000 UTC
 
-- [CI/CD](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/7755820341)
+- [Merge pull request #485 from PRODYNA-YASM/bugfix/373-fix-admin-skill-…](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/7755820341) created on 2024-02-02 12:19:31 +0000 UTC
 
 
 
@@ -174,9 +174,9 @@ Component Status overview. Last update 2024-03-01T03:17:19+01:00
 
 
 
-### [Workflows requiring approval](github.com/prodyna-yasm/yasmctl/actions) (1)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions) (1)
 
-- [yasmctl Build and Deploy](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/7986182383)
+- [Merge pull request #259 from PRODYNA-YASM/feature/api1-13](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/7986182383) created on 2024-02-21 08:36:31 +0000 UTC
 
 
 
@@ -296,11 +296,11 @@ Component Status overview. Last update 2024-03-01T03:17:19+01:00
 
 
 
-### [Workflows requiring approval](github.com/prodyna-yasm/yasm-geocoding/actions) (2)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions) (2)
 
-- [yasm-geocoding Build and Deploy](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/8052535738)
+- [Merge pull request #81 from PRODYNA-YASM/feature/otel-1.24.0](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/8052535738) created on 2024-02-26 16:47:42 +0000 UTC
 
-- [yasm-geocoding Build and Deploy](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/7961892641)
+- [Merge pull request #49 from PRODYNA-YASM/feature/47-implement-command](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/7961892641) created on 2024-02-19 15:28:26 +0000 UTC
 
 
 
