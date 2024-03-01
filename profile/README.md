@@ -1,12 +1,12 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T13:52:54+01:00
+Component Status overview. Last update 2024-03-01T13:54:27+01:00
 
 | Repository | Commits | PRs | Latest Release | [dev](https://dev-yasm.prodyna.com) | [staging](https://dev-yasm.prodyna.com) | [prod](https://yasm.prodyna.com) |
 | --- | --- | --- | -- | --- | --- | --- |
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: 1 | 1.13.1 |  :green_square: 1.13.1 |  :red_square: 1.13.0 |  :red_square: 1.13.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: 5 | 1.13.5 |  :red_square: 2c0340a |  :red_square: 1.13.4 |  :red_square: 1.13.4 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: 1 | 1.13.1 |  :green_square: 1.13.1 |  :green_square: 1.13.1 |  :red_square: 1.13.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: 5 | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :red_square: 1.13.4 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: 1 | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
@@ -33,9 +33,9 @@ Component Status overview. Last update 2024-03-01T13:52:54+01:00
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.13.1 |  1.13.0 |  1.13.0 | 
+| Version |  1.13.1 |  1.13.1 |  1.13.0 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :red_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
@@ -47,6 +47,11 @@ Component Status overview. Last update 2024-03-01T13:52:54+01:00
 - [1.12.1](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.12.1) on 2024-02-14 13:39:08 +0000 UTC
 
 
+
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting) (1)
+
+- [Merge pull request #519 from PRODYNA-YASM/#322_special-characters-in-…](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/8111576232) created on 2024-03-01 12:46:56 +0000 UTC
 
 
 
@@ -76,9 +81,9 @@ Component Status overview. Last update 2024-03-01T13:52:54+01:00
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  2c0340a |  1.13.4 |  1.13.4 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :red_square: |  :red_square: | 
+| Version |  1.13.5 |  1.13.5 |  1.13.4 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
@@ -90,6 +95,11 @@ Component Status overview. Last update 2024-03-01T13:52:54+01:00
 - [1.13.3](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.13.3) on 2024-02-27 08:04:54 +0000 UTC
 
 
+
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
+
+- [Merge pull request #509 from PRODYNA-YASM/bugfix/171_filters-are-kept…](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/8111638180) created on 2024-03-01 12:51:42 +0000 UTC
 
 
 
