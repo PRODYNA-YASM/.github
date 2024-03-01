@@ -1,7 +1,7 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T01:39:31+01:00
+Component Status overview. Last update 2024-03-01T01:43:25+01:00
 
 
 ## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.13.0
@@ -41,8 +41,8 @@ Component Status overview. Last update 2024-03-01T01:39:31+01:00
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
 | Version |  705a4d6 |  1.13.0 |  1.13.0 | 
-| Release |  :x: |  :heavy_check_mark: |  :heavy_check_mark: | 
-| Current |  :x: |  :heavy_check_mark: |  :heavy_check_mark: | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -97,8 +97,8 @@ Component Status overview. Last update 2024-03-01T01:39:31+01:00
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
 | Version |  32f42e2 |  1.13.4 |  1.13.4 | 
-| Release |  :x: |  :heavy_check_mark: |  :heavy_check_mark: | 
-| Current |  :x: |  :heavy_check_mark: |  :heavy_check_mark: | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -140,8 +140,8 @@ Component Status overview. Last update 2024-03-01T01:39:31+01:00
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
 | Version |  cc6e168 |  1.13.2 |  1.13.2 | 
-| Release |  :x: |  :heavy_check_mark: |  :heavy_check_mark: | 
-| Current |  :x: |  :heavy_check_mark: |  :heavy_check_mark: | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -175,8 +175,8 @@ Component Status overview. Last update 2024-03-01T01:39:31+01:00
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
 | Version |  f949542 |  1.9.0 |  1.9.0 | 
-| Release |  :x: |  :heavy_check_mark: |  :heavy_check_mark: | 
-| Current |  :x: |  :heavy_check_mark: |  :heavy_check_mark: | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -214,8 +214,8 @@ Component Status overview. Last update 2024-03-01T01:39:31+01:00
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
 | Version |  1.13.4 |  1.13.4 |  1.13.4 | 
-| Release |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: | 
-| Current |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -249,8 +249,8 @@ Component Status overview. Last update 2024-03-01T01:39:31+01:00
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
 | Version |  36e1ac1 |  1.2.0 |  1.1.0 | 
-| Release |  :x: |  :heavy_check_mark: |  :heavy_check_mark: | 
-| Current |  :x: |  :heavy_check_mark: |  :x: | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
@@ -291,8 +291,8 @@ Component Status overview. Last update 2024-03-01T01:39:31+01:00
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
 | Version |  691b03b |  1.8.0 |  1.8.0 | 
-| Release |  :x: |  :heavy_check_mark: |  :heavy_check_mark: | 
-| Current |  :x: |  :heavy_check_mark: |  :heavy_check_mark: | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -372,8 +372,8 @@ Component Status overview. Last update 2024-03-01T01:39:31+01:00
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
 | Version |  8.2.0-2 |  8.2.0-2 |  8.2.0-2 | 
-| Release |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: | 
-| Current |  :heavy_check_mark: |  :heavy_check_mark: |  :heavy_check_mark: | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
