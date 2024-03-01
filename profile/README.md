@@ -1,7 +1,7 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T01:54:17+01:00
+Component Status overview. Last update 2024-03-01T02:48:32+01:00
 
 
 ## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.13.0
@@ -52,6 +52,8 @@ Component Status overview. Last update 2024-03-01T01:54:17+01:00
 - [1.12.1](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.12.1) on 2024-02-14 13:39:08 +0000 UTC
 
 - [1.12.0](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.12.0) on 2024-02-12 16:20:25 +0000 UTC
+
+
 
 
 
@@ -112,6 +114,8 @@ Component Status overview. Last update 2024-03-01T01:54:17+01:00
 
 
 
+
+
 ## [yasmctl](https://github.com/prodyna-yasm/yasmctl) 1.13.2
 
 
@@ -155,6 +159,8 @@ Component Status overview. Last update 2024-03-01T01:54:17+01:00
 
 
 
+
+
 ## [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) 1.9.0
 
 
@@ -190,6 +196,8 @@ Component Status overview. Last update 2024-03-01T01:54:17+01:00
 
 
 
+
+
 ## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.13.4
 
 
@@ -197,7 +205,9 @@ Component Status overview. Last update 2024-03-01T01:54:17+01:00
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (4)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (5)
+
+- [Bump github.com/microsoftgraph/msgraph-sdk-go from 1.34.0 to 1.35.0](https://github.com/PRODYNA-YASM/yasm-integration/pull/369)
 
 - [Bump azure/setup-helm from 3 to 4](https://github.com/PRODYNA-YASM/yasm-integration/pull/368)
 
@@ -225,6 +235,8 @@ Component Status overview. Last update 2024-03-01T01:54:17+01:00
 - [1.13.3](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.13.3) on 2024-02-23 14:45:59 +0000 UTC
 
 - [Fix production deployment for umantis sync](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.13.2) on 2024-02-21 10:13:51 +0000 UTC
+
+
 
 
 
@@ -260,6 +272,8 @@ Component Status overview. Last update 2024-03-01T01:54:17+01:00
 - [Update libs, some new features](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.1.0) on 2024-02-19 15:22:12 +0000 UTC
 
 - [Fix resources including DAPRd](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.0.1) on 2023-11-24 22:17:24 +0000 UTC
+
+
 
 
 
@@ -306,6 +320,8 @@ Component Status overview. Last update 2024-03-01T01:54:17+01:00
 
 
 
+
+
 ## [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) 1.25.4-2
 
 
@@ -328,6 +344,8 @@ Component Status overview. Last update 2024-03-01T01:54:17+01:00
 - [Brotli + OTEL](https://github.com/PRODYNA-YASM/yasm-nginx/releases/tag/1.25.4-2) on 2024-02-28 17:47:02 +0000 UTC
 
 - [Brotli support](https://github.com/PRODYNA-YASM/yasm-nginx/releases/tag/1.25.4-1) on 2024-02-27 22:17:41 +0000 UTC
+
+
 
 
 
@@ -383,6 +401,8 @@ Component Status overview. Last update 2024-03-01T01:54:17+01:00
 - [8.2.0-1](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.2.0-1) on 2024-02-26 07:54:37 +0000 UTC
 
 - [8.1.0-1](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.1.0-1) on 2024-02-19 07:53:38 +0000 UTC
+
+
 
 
 
