@@ -1,7 +1,7 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T03:27:37+01:00
+Component Status overview. Last update 2024-03-01T10:09:16+01:00
 
 
 ## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.13.0
@@ -131,24 +131,9 @@ Component Status overview. Last update 2024-03-01T03:27:37+01:00
 
 
 
-## [yasmctl](https://github.com/prodyna-yasm/yasmctl) 1.13.2
+## [yasmctl](https://github.com/prodyna-yasm/yasmctl) 1.13.3
 
 
-
-
-### [Commits on master since 1.13.2](https://github.com/prodyna-yasm/yasmctl/compare/1.13.2..HEAD) (6)
-
-- [Merge pull request #269 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-4](https://github.com/prodyna-yasm/yasmctl/commit/cc6e1687afdee99adf4ed4127788fcc05f437f7c) by [dkrizic](https://github.com/dkrizic) on 2024-02-28 23:46:01 +0000 UTC
-
-- [Use go 1.21 for now](https://github.com/prodyna-yasm/yasmctl/commit/22f3cb7ebc4fd177aee467d3f03f50c75290cc19) by [dkrizic](https://github.com/dkrizic) on 2024-02-28 23:40:59 +0000 UTC
-
-- [Install Go 1.22](https://github.com/prodyna-yasm/yasmctl/commit/468b51c8f0a7ca8082bee9a65d859868979f8162) by [dkrizic](https://github.com/dkrizic) on 2024-02-28 23:34:58 +0000 UTC
-
-- [Use version 4.0.0](https://github.com/prodyna-yasm/yasmctl/commit/b27a414417774ce733c3096098c4a40554ba0152) by [dkrizic](https://github.com/dkrizic) on 2024-02-28 23:31:50 +0000 UTC
-
-- [Fix with version](https://github.com/prodyna-yasm/yasmctl/commit/998fc02d6d24e0059b25d6112c72a32daf494bbc) by [dkrizic](https://github.com/dkrizic) on 2024-02-28 23:28:20 +0000 UTC
-
-- [Bump azure/setup-helm from 3 to 4](https://github.com/prodyna-yasm/yasmctl/commit/e6a5560d85aa9e5ec5ebeb79324b2a19bdc9bbf3) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-02-28 21:26:22 +0000 UTC
 
 
 
@@ -158,25 +143,20 @@ Component Status overview. Last update 2024-03-01T03:27:37+01:00
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  cc6e168 |  1.13.2 |  1.13.2 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.13.3 |  1.13.3 |  1.13.3 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
+
+- [1.13.3](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.13.3) on 2024-02-28 23:46:01 +0000 UTC
 
 - [1.13.2](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.13.2) on 2024-02-26 01:21:07 +0000 UTC
 
 - [1.13.1](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.13.1) on 2024-02-21 15:48:54 +0000 UTC
 
-- [New scope, API 1.13.0](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.13.0) on 2024-02-21 08:33:17 +0000 UTC
 
-
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #259 from PRODYNA-YASM/feature/api1-13](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/7986182383) created on 2024-02-21 08:36:31 +0000 UTC
 
 
 
