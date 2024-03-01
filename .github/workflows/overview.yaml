@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deployment overview
-        uses: prodyna/deployment-overview@v1
+        uses: prodyna/deployment-overview@v0.1
         with:
           organization: prodyna-yasm
           target-repository: .github
