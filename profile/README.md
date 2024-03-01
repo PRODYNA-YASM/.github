@@ -1,17 +1,17 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T14:13:21+01:00
+Component Status overview. Last update 2024-03-01T14:54:18+01:00
 
 | Repository | Commits | PRs | Latest Release | [dev](https://dev-yasm.prodyna.com) | [staging](https://dev-yasm.prodyna.com) | [prod](https://yasm.prodyna.com) |
 | --- | --- | --- | -- | --- | --- | --- |
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: 2 | 1.13.1 |  :green_square: 1.13.1 |  :green_square: 1.13.1 |  :red_square: 1.13.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: 1 | :yellow_square: 1 | 1.13.1 |  :red_square: e6e2948 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: 5 | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :red_square: 1.13.4 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: 1 | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
-| [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: 2 | :yellow_square: 2 | 1.8.0 |  :red_square: 691b03b |  :green_square: 1.8.0 |  :green_square: 1.8.0 | 
+| [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :red_square: 65c394e |  :red_square: 1.8.0 |  :red_square: 1.8.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.0-3 |  :green_square: 8.2.0-3 |  :green_square: 8.2.0-3 |  :green_square: 8.2.0-3 | 
 
 
@@ -21,11 +21,14 @@ Component Status overview. Last update 2024-03-01T14:13:21+01:00
 
 
 
+### [Commits on master since 1.13.1](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.1..HEAD) (1)
+
+- [update quarkus (#525)](https://github.com/prodyna-yasm/yasm-backend/commit/e6e29489e1a1eb074ad0c013af2b19852b839157) by [coding4kay](https://github.com/coding4kay) on 2024-03-01 13:26:54 +0000 UTC
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (2)
 
-- [update quarkus](https://github.com/PRODYNA-YASM/yasm-backend/pull/525)
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (1)
 
 - [Bump quarkus.platform.version from 3.7.3 to 3.8.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/524)
 
@@ -35,9 +38,9 @@ Component Status overview. Last update 2024-03-01T14:13:21+01:00
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.13.1 |  1.13.1 |  1.13.0 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Version |  e6e2948 |  1.13.1 |  1.13.1 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -49,11 +52,6 @@ Component Status overview. Last update 2024-03-01T14:13:21+01:00
 - [1.12.1](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.12.1) on 2024-02-14 13:39:08 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #519 from PRODYNA-YASM/#322_special-characters-in-…](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/8111576232) created on 2024-03-01 12:46:56 +0000 UTC
 
 
 
@@ -231,25 +229,11 @@ Component Status overview. Last update 2024-03-01T14:13:21+01:00
 
 
 
-## [yasm-data](https://github.com/prodyna-yasm/yasm-data) 1.8.0
+## [yasm-data](https://github.com/prodyna-yasm/yasm-data) 1.9.0
 
 
 
 
-### [Commits on master since 1.8.0](https://github.com/prodyna-yasm/yasm-data/compare/1.8.0..HEAD) (2)
-
-- [Merge pull request #106 from PRODYNA-YASM/105-add-skill-profile-quality-manager](https://github.com/prodyna-yasm/yasm-data/commit/691b03b57a4ee2411410ee05b0204d00688a94b5) by [mopore](https://github.com/mopore) on 2024-01-17 15:38:40 +0000 UTC
-
-- [Add Skill Profile: Quality Manager #105](https://github.com/prodyna-yasm/yasm-data/commit/74f54f38b47a613e58755da3334779ebb6f7ad93) by [mopore](https://github.com/mopore) on 2024-01-17 15:37:25 +0000 UTC
-
-
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-data/pulls) (2)
-
-- [Bump azure/setup-helm from 3 to 4](https://github.com/PRODYNA-YASM/yasm-data/pull/108)
-
-- [Bump styfle/cancel-workflow-action from 0.12.0 to 0.12.1](https://github.com/PRODYNA-YASM/yasm-data/pull/107)
 
 
 
@@ -257,18 +241,18 @@ Component Status overview. Last update 2024-03-01T14:13:21+01:00
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  691b03b |  1.8.0 |  1.8.0 | 
+| Version |  65c394e |  1.8.0 |  1.8.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :red_square: |  :red_square: | 
 
 
 ### Last releases
 
+- [1.9.0](https://github.com/PRODYNA-YASM/yasm-data/releases/tag/1.9.0) on 2024-03-01 13:51:07 +0000 UTC
+
 - [International office names](https://github.com/PRODYNA-YASM/yasm-data/releases/tag/1.8.0) on 2023-12-14 13:10:13 +0000 UTC
 
 - [Dusseldorf synonym für Düsseldorf](https://github.com/PRODYNA-YASM/yasm-data/releases/tag/1.6.1) on 2023-11-30 18:39:48 +0000 UTC
-
-- [Neo4j, locations updated, some cleanups](https://github.com/PRODYNA-YASM/yasm-data/releases/tag/1.6.0) on 2023-11-30 17:39:17 +0000 UTC
 
 
 
