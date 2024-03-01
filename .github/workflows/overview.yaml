@@ -4,8 +4,16 @@ on:
   workflow_dispatch:
 
 jobs:
-  hello-world:
+  create-overview:
     runs-on: ubuntu-latest
     steps:
-      - name: Hello world
-        run: echo "Hello world"
+      - name: Deployment overview
+        uses: prodyna/deployment-overview@v1
+        with:
+          organization: prodyna-yasm
+          target-repository: .github
+          target-repository-file: profile/README.md
+          repositories: yasm-backend,yasm-frontend,yasmctl,yasm-proxy-odbc,yasm-integration,yasm-geocoding,yasm-data,yasm-gotenberg
+          environments: dev,staging,prod
+          verbose: 1
+          github-token: ${{ secrets.OVERVIEW_GITHUB_TOKEN }}
