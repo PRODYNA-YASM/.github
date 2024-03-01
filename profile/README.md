@@ -1,18 +1,18 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T12:35:57+01:00
+Component Status overview. Last update 2024-03-01T13:18:57+01:00
 
 | Repository | Commits | PRs | Latest Release | [dev](https://dev-yasm.prodyna.com) | [staging](https://dev-yasm.prodyna.com) | [prod](https://yasm.prodyna.com) |
 | --- | --- | --- | -- | --- | --- | --- |
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: 6 | :yellow_square: 3 | 1.13.0 |  :red_square: 705a4d6 |  :green_square: 1.13.0 |  :green_square: 1.13.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: 5 | :yellow_square: 6 | 1.13.4 |  :red_square: 32f42e2 |  :green_square: 1.13.4 |  :green_square: 1.13.4 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: 9 | :yellow_square: 5 | 1.13.4 |  :red_square: 2c0340a |  :green_square: 1.13.4 |  :green_square: 1.13.4 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: 1 | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :red_square: 1.13.4 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: 2 | :yellow_square: 2 | 1.8.0 |  :red_square: 691b03b |  :green_square: 1.8.0 |  :green_square: 1.8.0 | 
-| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.0-3 |  :green_square: 8.2.0-3 |  :green_square: 8.2.0-3 |  :red_square: 8.2.0-2 | 
+| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.0-3 |  :green_square: 8.2.0-3 |  :green_square: 8.2.0-3 |  :green_square: 8.2.0-3 | 
 
 
 
@@ -75,7 +75,13 @@ Component Status overview. Last update 2024-03-01T12:35:57+01:00
 
 
 
-### [Commits on master since 1.13.4](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.4..HEAD) (5)
+### [Commits on master since 1.13.4](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.4..HEAD) (9)
+
+- [Merge pull request #509 from PRODYNA-YASM/bugfix/171_filters-are-kept-after-back-button](https://github.com/prodyna-yasm/yasm-frontend/commit/2c0340ac6b34a80346068d4e97b0ed957204fea6) by [irhox](https://github.com/irhox) on 2024-03-01 12:05:21 +0000 UTC
+
+- [yasm community requests #171 small fix](https://github.com/prodyna-yasm/yasm-frontend/commit/5e0fcff21341f3de0ca5006ec387322089ad2466) by [irhox](https://github.com/irhox) on 2024-03-01 12:01:36 +0000 UTC
+
+- [yasm community requests #171 global filters in employee page are part of the history and stay there when going back.](https://github.com/prodyna-yasm/yasm-frontend/commit/90416c2868a1bf28c34b386173459d4496fb981c) by [irhox](https://github.com/irhox) on 2024-02-29 14:27:43 +0000 UTC
 
 - [Merge pull request #516 from PRODYNA-YASM/fix/412-project-selection-list](https://github.com/prodyna-yasm/yasm-frontend/commit/32f42e296d5cde7b072db621db0815a6b1923517) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-02-29 13:31:34 +0000 UTC
 
@@ -87,10 +93,12 @@ Component Status overview. Last update 2024-03-01T12:35:57+01:00
 
 - [Use own nginx image with brotli support](https://github.com/prodyna-yasm/yasm-frontend/commit/39c368e60a578d2caf8a9454f3727000d6c5a84b) by [dkrizic](https://github.com/dkrizic) on 2024-02-27 22:36:00 +0000 UTC
 
+- [yasm community requests #171 wip location and seniority filters stay in history when going back to search](https://github.com/prodyna-yasm/yasm-frontend/commit/72d427ed4523083bebb41d2dedb3854384e78f7c) by [irhox](https://github.com/irhox) on 2024-02-27 16:01:06 +0000 UTC
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (5)
 
 - [Feature/100 add possibility to edit project type confidentiality](https://github.com/PRODYNA-YASM/yasm-frontend/pull/518)
 
@@ -102,15 +110,13 @@ Component Status overview. Last update 2024-03-01T12:35:57+01:00
 
 - [357: add copilot button](https://github.com/PRODYNA-YASM/yasm-frontend/pull/512)
 
-- [yasm community requests #171 global filters stay in history when going back to search](https://github.com/PRODYNA-YASM/yasm-frontend/pull/509)
-
 
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  32f42e2 |  1.13.4 |  1.13.4 | 
+| Version |  2c0340a |  1.13.4 |  1.13.4 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -314,9 +320,9 @@ Component Status overview. Last update 2024-03-01T12:35:57+01:00
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  8.2.0-3 |  8.2.0-3 |  8.2.0-2 | 
+| Version |  8.2.0-3 |  8.2.0-3 |  8.2.0-3 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -328,11 +334,6 @@ Component Status overview. Last update 2024-03-01T12:35:57+01:00
 - [8.2.0-1](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.2.0-1) on 2024-02-26 07:54:37 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #34 from PRODYNA-YASM/feature/update-actions](https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/8109959013) created on 2024-03-01 10:25:44 +0000 UTC
 
 
 
