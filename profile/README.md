@@ -1,7 +1,7 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T03:04:36+01:00
+Component Status overview. Last update 2024-03-01T03:06:32+01:00
 
 
 ## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.13.0
@@ -54,6 +54,11 @@ Component Status overview. Last update 2024-03-01T03:04:36+01:00
 - [1.12.0](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.12.0) on 2024-02-12 16:20:25 +0000 UTC
 
 
+
+
+### [Workflows](github.com/prodyna-yasm/yasm-backend/actions) (1)
+
+- [Backend Build and Deploy](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/4576739405)
 
 
 
