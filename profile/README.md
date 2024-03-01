@@ -1,7 +1,32 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T11:50:23+01:00
+Component Status overview. Last update 2024-03-01T11:55:28+01:00
+
+## Full overview
+
+| Repository | Latest Release | dev | staging | prod |
+| --- | --- | --- | --- | --- |
+
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | 1.13.0 |  705a4d6 |  1.13.0 |  1.13.0 | 
+
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | 1.13.4 |  32f42e2 |  1.13.4 |  1.13.4 | 
+
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | 1.13.3 |  1.13.3 |  1.13.3 |  1.13.3 | 
+
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | 1.10.0 |  1.10.0 |  1.10.0 |  1.10.0 | 
+
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | 1.13.5 |  1.13.5 |  1.13.5 |  1.13.4 | 
+
+| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | 1.3.0 |  1.3.0 |  1.3.0 |  1.3.0 | 
+
+| [yasm-data](https://github.com/prodyna-yasm/yasm-data) | 1.8.0 |  691b03b |  1.8.0 |  1.8.0 | 
+
+| [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | 1.25.4-2 | 
+
+| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | 8.2.0-3 |  8.2.0-3 |  8.2.0-3 |  8.2.0-2 | 
+
+
 
 
 ## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.13.0
