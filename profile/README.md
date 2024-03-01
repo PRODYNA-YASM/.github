@@ -1,7 +1,7 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T01:43:25+01:00
+Component Status overview. Last update 2024-03-01T01:54:17+01:00
 
 
 ## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.13.0
@@ -155,7 +155,7 @@ Component Status overview. Last update 2024-03-01T01:43:25+01:00
 
 
 
-## [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) Create virtual node in Service Graph
+## [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) 1.9.0
 
 
 
@@ -190,7 +190,7 @@ Component Status overview. Last update 2024-03-01T01:43:25+01:00
 
 
 
-## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) Virtual nodes, libs updated
+## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.13.4
 
 
 
@@ -229,7 +229,7 @@ Component Status overview. Last update 2024-03-01T01:43:25+01:00
 
 
 
-## [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) OpenTelemetry 1.24.0
+## [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) 1.2.0
 
 
 
@@ -264,7 +264,7 @@ Component Status overview. Last update 2024-03-01T01:43:25+01:00
 
 
 
-## [yasm-data](https://github.com/prodyna-yasm/yasm-data) International office names
+## [yasm-data](https://github.com/prodyna-yasm/yasm-data) 1.8.0
 
 
 
@@ -306,7 +306,7 @@ Component Status overview. Last update 2024-03-01T01:43:25+01:00
 
 
 
-## [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) Brotli + OTEL
+## [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) 1.25.4-2
 
 
 
@@ -332,7 +332,7 @@ Component Status overview. Last update 2024-03-01T01:43:25+01:00
 
 
 
-## [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) Chart 1.1.0
+## [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) 8.2.0-2
 
 
 
