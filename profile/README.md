@@ -1,13 +1,14 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T12:01:45+01:00
+Component Status overview. Last update 2024-03-01T12:03:32+01:00
 
 ## Full overview
 
 | --- | --- | --- | --- | --- |
 | Repository | Latest Release | dev | staging | prod |
 | --- | --- | --- | --- | --- |
+
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | 1.13.0 |  705a4d6 |  1.13.0 |  1.13.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | 1.13.4 |  32f42e2 |  1.13.4 |  1.13.4 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | 1.13.3 |  1.13.3 |  1.13.3 |  1.13.3 | 
@@ -17,7 +18,6 @@ Component Status overview. Last update 2024-03-01T12:01:45+01:00
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | 1.8.0 |  691b03b |  1.8.0 |  1.8.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | 1.25.4-2 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | 8.2.0-3 |  8.2.0-3 |  8.2.0-3 |  8.2.0-2 | 
-| --- | --- | --- | --- | --- |
 
 
 
