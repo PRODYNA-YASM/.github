@@ -1,7 +1,7 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T10:15:24+01:00
+Component Status overview. Last update 2024-03-01T10:22:59+01:00
 
 
 ## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.13.0
@@ -234,16 +234,9 @@ Component Status overview. Last update 2024-03-01T10:15:24+01:00
 
 
 
-## [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) 1.2.0
+## [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) 1.3.0
 
 
-
-
-### [Commits on master since 1.2.0](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.2.0..HEAD) (2)
-
-- [Merge pull request #82 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-4](https://github.com/prodyna-yasm/yasm-geocoding/commit/36e1ac10780f8a25b4ef7bbd7ef78e13c4d31be8) by [dkrizic](https://github.com/dkrizic) on 2024-02-29 16:32:20 +0000 UTC
-
-- [Bump azure/setup-helm from 3 to 4](https://github.com/prodyna-yasm/yasm-geocoding/commit/7b31c8555c7e085ad722776b7a334e21b1828654) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-02-29 16:28:55 +0000 UTC
 
 
 
@@ -253,25 +246,23 @@ Component Status overview. Last update 2024-03-01T10:15:24+01:00
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  36e1ac1 |  1.2.0 |  1.1.0 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :red_square: | 
+| Version |  1.3.0 |  1.2.0 |  1.1.0 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :red_square: |  :red_square: | 
 
 
 ### Last releases
+
+- [1.3.0](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.3.0) on 2024-02-29 16:32:20 +0000 UTC
 
 - [OpenTelemetry 1.24.0](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.2.0) on 2024-02-26 16:44:36 +0000 UTC
 
 - [Update libs, some new features](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.1.0) on 2024-02-19 15:22:12 +0000 UTC
 
-- [Fix resources including DAPRd](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.0.1) on 2023-11-24 22:17:24 +0000 UTC
 
 
 
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (2)
-
-- [Merge pull request #81 from PRODYNA-YASM/feature/otel-1.24.0](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/8052535738) created on 2024-02-26 16:47:42 +0000 UTC
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (1)
 
 - [Merge pull request #49 from PRODYNA-YASM/feature/47-implement-command](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/7961892641) created on 2024-02-19 15:28:26 +0000 UTC
 
