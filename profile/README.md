@@ -1,7 +1,7 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T03:23:14+01:00
+Component Status overview. Last update 2024-03-01T03:26:45+01:00
 
 
 ## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.13.0
@@ -114,7 +114,7 @@ Component Status overview. Last update 2024-03-01T03:23:14+01:00
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions) (6)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%!A(MISSING)waiting) (6)
 
 - [Merge pull request #506 from PRODYNA-YASM/fix/406-remove-internal-badge](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/8061634815) created on 2024-02-27 08:18:47 +0000 UTC
 
@@ -174,7 +174,7 @@ Component Status overview. Last update 2024-03-01T03:23:14+01:00
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions) (1)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions?query=is%!A(MISSING)waiting) (1)
 
 - [Merge pull request #259 from PRODYNA-YASM/feature/api1-13](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/7986182383) created on 2024-02-21 08:36:31 +0000 UTC
 
@@ -296,7 +296,7 @@ Component Status overview. Last update 2024-03-01T03:23:14+01:00
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions) (2)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%!A(MISSING)waiting) (2)
 
 - [Merge pull request #81 from PRODYNA-YASM/feature/otel-1.24.0](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/8052535738) created on 2024-02-26 16:47:42 +0000 UTC
 
