@@ -1,12 +1,12 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T15:11:07+01:00
+Component Status overview. Last update 2024-03-01T15:18:47+01:00
 
 | Repository | Commits | PRs | Latest Release | [dev](https://dev-yasm.prodyna.com) | [staging](https://dev-yasm.prodyna.com) | [prod](https://yasm.prodyna.com) |
 | --- | --- | --- | -- | --- | --- | --- |
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: 1 | :yellow_square: 1 | 1.13.1 |  :red_square: e6e2948 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: 3 | :yellow_square: 3 | 1.13.5 |  :red_square: 6390b62 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: 3 | :yellow_square: 4 | 1.13.5 |  :red_square: 45bc7d8 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: 1 | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
@@ -72,7 +72,9 @@ Component Status overview. Last update 2024-03-01T15:11:07+01:00
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (3)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (4)
+
+- [Missing tag "endpoint"](https://github.com/PRODYNA-YASM/yasm-frontend/pull/520)
 
 - [Feature/100 add possibility to edit project type confidentiality](https://github.com/PRODYNA-YASM/yasm-frontend/pull/518)
 
@@ -86,7 +88,7 @@ Component Status overview. Last update 2024-03-01T15:11:07+01:00
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  6390b62 |  1.13.5 |  1.13.5 | 
+| Version |  45bc7d8 |  1.13.5 |  1.13.5 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
