@@ -1,7 +1,7 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T10:09:16+01:00
+Component Status overview. Last update 2024-03-01T10:13:06+01:00
 
 
 ## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.13.0
@@ -161,16 +161,9 @@ Component Status overview. Last update 2024-03-01T10:09:16+01:00
 
 
 
-## [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) 1.9.0
+## [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) 1.10.0
 
 
-
-
-### [Commits on master since 1.9.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.9.0..HEAD) (2)
-
-- [Merge pull request #163 from PRODYNA-YASM/feature/update-libs4](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/f9495425d92f99545040ab44baa810d1239b616a) by [dkrizic](https://github.com/dkrizic) on 2024-02-26 13:21:22 +0000 UTC
-
-- [Update all new libs](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/2074903e6815afedf3b77891e885c5e4af5d0ea8) by [dkrizic](https://github.com/dkrizic) on 2024-02-26 13:14:49 +0000 UTC
 
 
 
@@ -182,16 +175,16 @@ Component Status overview. Last update 2024-03-01T10:09:16+01:00
 | --- |  --- |  --- |  --- | 
 | Version |  f949542 |  1.9.0 |  1.9.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :red_square: |  :red_square: | 
 
 
 ### Last releases
 
+- [Libs updated](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.10.0) on 2024-02-26 13:21:22 +0000 UTC
+
 - [Create virtual node in Service Graph](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.9.0) on 2024-02-24 22:44:44 +0000 UTC
 
 - [Using slog](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.8.0) on 2024-02-20 11:55:47 +0000 UTC
-
-- [Fix problem with Open Telemetry](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.7.4) on 2024-01-24 08:46:58 +0000 UTC
 
 
 
