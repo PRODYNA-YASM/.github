@@ -1,16 +1,16 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T15:29:12+01:00
+Component Status overview. Last update 2024-03-01T17:33:34+01:00
 
 | Repository | Commits | PRs | Latest Release | [dev](https://dev-yasm.prodyna.com) | [staging](https://dev-yasm.prodyna.com) | [prod](https://yasm.prodyna.com) |
 | --- | --- | --- | -- | --- | --- | --- |
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: 1 | :yellow_square: 1 | 1.13.1 |  :red_square: e6e2948 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: 3 | :yellow_square: 4 | 1.13.5 |  :red_square: 45bc7d8 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: 9 | :yellow_square: 3 | 1.13.5 |  :red_square: cabdd66 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: 1 | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
-| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
+| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :yellow_square: 1 | 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.0-3 |  :green_square: 8.2.0-3 |  :green_square: 8.2.0-3 |  :green_square: 8.2.0-3 | 
 
@@ -61,7 +61,19 @@ Component Status overview. Last update 2024-03-01T15:29:12+01:00
 
 
 
-### [Commits on master since 1.13.5](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) (3)
+### [Commits on master since 1.13.5](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) (9)
+
+- [Merge pull request #522 from PRODYNA-YASM/feature/511-activate-opentelemetry](https://github.com/prodyna-yasm/yasm-frontend/commit/cabdd66b63c1b3783644d551ae1c6263046013e5) by [dkrizic](https://github.com/dkrizic) on 2024-03-01 16:15:01 +0000 UTC
+
+- [Move otel_service_name to root](https://github.com/prodyna-yasm/yasm-frontend/commit/1724a6bda6ed4e633ec888f1fae33fb6880a4fa8) by [dkrizic](https://github.com/dkrizic) on 2024-03-01 16:10:38 +0000 UTC
+
+- [Merge pull request #521 from PRODYNA-YASM/feature/511-activate-opentelemetry](https://github.com/prodyna-yasm/yasm-frontend/commit/908e4fb370a5b4a1e2d40cdc0e49a23f977b2daf) by [dkrizic](https://github.com/dkrizic) on 2024-03-01 16:05:44 +0000 UTC
+
+- [Fix syntax on default.conf](https://github.com/prodyna-yasm/yasm-frontend/commit/f7c39e6e0f3a4cc9fe33a36d48164cf3f3026234) by [dkrizic](https://github.com/dkrizic) on 2024-03-01 15:58:55 +0000 UTC
+
+- [Merge pull request #520 from PRODYNA-YASM/feature/511-activate-opentelemetry](https://github.com/prodyna-yasm/yasm-frontend/commit/24947c9c8992a4e3a086c1251481d1659a0af90f) by [dkrizic](https://github.com/dkrizic) on 2024-03-01 15:31:37 +0000 UTC
+
+- [Missing tag "endpoint"](https://github.com/prodyna-yasm/yasm-frontend/commit/7c6ca2209c5d4f759249e18d6e236a93c661b578) by [dkrizic](https://github.com/dkrizic) on 2024-03-01 14:17:16 +0000 UTC
 
 - [Merge pull request #513 from PRODYNA-YASM/feature/511-activate-opentelemetry](https://github.com/prodyna-yasm/yasm-frontend/commit/45bc7d8d45804c19dde49c1e395810aa422b45be) by [dkrizic](https://github.com/dkrizic) on 2024-03-01 14:10:22 +0000 UTC
 
@@ -72,9 +84,7 @@ Component Status overview. Last update 2024-03-01T15:29:12+01:00
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (4)
-
-- [Missing tag "endpoint"](https://github.com/PRODYNA-YASM/yasm-frontend/pull/520)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (3)
 
 - [Feature/100 add possibility to edit project type confidentiality](https://github.com/PRODYNA-YASM/yasm-frontend/pull/518)
 
@@ -88,7 +98,7 @@ Component Status overview. Last update 2024-03-01T15:29:12+01:00
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  45bc7d8 |  1.13.5 |  1.13.5 | 
+| Version |  cabdd66 |  1.13.5 |  1.13.5 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -208,6 +218,11 @@ Component Status overview. Last update 2024-03-01T15:29:12+01:00
 
 
 
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-geocoding/pulls) (1)
+
+- [Bump github.com/stretchr/testify from 1.8.4 to 1.9.0](https://github.com/PRODYNA-YASM/yasm-geocoding/pull/83)
+
+
 
 ### Environments
 
@@ -224,7 +239,7 @@ Component Status overview. Last update 2024-03-01T15:29:12+01:00
 
 - [OpenTelemetry 1.24.0](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.2.0) on 2024-02-26 16:44:36 +0000 UTC
 
-- [Update libs, some new features](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.1.0) on 2024-02-19 15:22:12 +0000 UTC
+- [Fix resources including DAPRd](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.0.1) on 2023-11-24 22:17:24 +0000 UTC
 
 
 
