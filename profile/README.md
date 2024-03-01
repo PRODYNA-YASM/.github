@@ -1,7 +1,7 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T11:12:56+01:00
+Component Status overview. Last update 2024-03-01T11:43:05+01:00
 
 
 ## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.13.0
@@ -206,11 +206,11 @@ Component Status overview. Last update 2024-03-01T11:12:56+01:00
 
 ### Environments
 
-| Environment |  dev |  staging |  prod | 
-| --- |  --- |  --- |  --- | 
-| Version |  1.13.5 |  1.13.5 |  1.13.5 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Environment |  dev |  staging | 
+| --- |  --- |  --- | 
+| Version |  1.13.5 |  1.13.5 | 
+| Release |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -338,36 +338,9 @@ Component Status overview. Last update 2024-03-01T11:12:56+01:00
 
 
 
-## [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) 8.2.0-2
+## [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) 8.2.0-3
 
 
-
-
-### [Commits on main since 8.2.0-2](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.2.0-2..HEAD) (12)
-
-- [Merge pull request #34 from PRODYNA-YASM/feature/update-actions](https://github.com/prodyna-yasm/yasm-gotenberg/commit/26eeefa944527273d7e39c6f4b24c31588beccf9) by [dkrizic](https://github.com/dkrizic) on 2024-02-27 02:00:10 +0000 UTC
-
-- [Back to version 3](https://github.com/prodyna-yasm/yasm-gotenberg/commit/25aa1493df08ef1901e4cc77f2f734e35dfb08e6) by [dkrizic](https://github.com/dkrizic) on 2024-02-27 01:59:05 +0000 UTC
-
-- [Merge pull request #33 from PRODYNA-YASM/feature/update-actions](https://github.com/prodyna-yasm/yasm-gotenberg/commit/ded0d2d0fd9b3b8bea9b8d7164b609a525a109d8) by [dkrizic](https://github.com/dkrizic) on 2024-02-27 01:56:35 +0000 UTC
-
-- [Try this version](https://github.com/prodyna-yasm/yasm-gotenberg/commit/364bcb52287d47c670398517ab3a517a98deb3ec) by [dkrizic](https://github.com/dkrizic) on 2024-02-27 01:53:02 +0000 UTC
-
-- [Merge pull request #32 from PRODYNA-YASM/feature/update-actions](https://github.com/prodyna-yasm/yasm-gotenberg/commit/4d886663f25b0c37221b4e7fcc0eb0c2858def8f) by [dkrizic](https://github.com/dkrizic) on 2024-02-27 01:49:57 +0000 UTC
-
-- [No specific version](https://github.com/prodyna-yasm/yasm-gotenberg/commit/a4c58a53bbf06e3a4da6e2d6023edf0a36cde91e) by [dkrizic](https://github.com/dkrizic) on 2024-02-27 01:44:38 +0000 UTC
-
-- [Merge pull request #30 from PRODYNA-YASM/dependabot/github_actions/docker/login-action-3](https://github.com/prodyna-yasm/yasm-gotenberg/commit/508b40b2f684c2b51e1222a8f8bcb907224457e5) by [dkrizic](https://github.com/dkrizic) on 2024-02-27 01:42:54 +0000 UTC
-
-- [Bump docker/login-action from 2 to 3](https://github.com/prodyna-yasm/yasm-gotenberg/commit/a0a8e60e863ab52a2f3d90057605f486a176dcb4) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-02-27 01:39:28 +0000 UTC
-
-- [Merge pull request #31 from PRODYNA-YASM/dependabot/github_actions/actions/checkout-4](https://github.com/prodyna-yasm/yasm-gotenberg/commit/455189868efd5762c78a7516d261d182db748228) by [dkrizic](https://github.com/dkrizic) on 2024-02-27 01:38:49 +0000 UTC
-
-- [Bump actions/checkout from 3 to 4](https://github.com/prodyna-yasm/yasm-gotenberg/commit/8ecffdae6af5081690a961bc677fbc1de74e5cd6) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-02-27 01:38:40 +0000 UTC
-
-- [Merge pull request #29 from PRODYNA-YASM/feature/update-actions](https://github.com/prodyna-yasm/yasm-gotenberg/commit/c513d9bfd532537581c6e796b081d140f71cf26d) by [dkrizic](https://github.com/dkrizic) on 2024-02-27 01:38:11 +0000 UTC
-
-- [Add to dependabot](https://github.com/prodyna-yasm/yasm-gotenberg/commit/a2fcb345549678ec2214366af5760ddaab70e6c6) by [dkrizic](https://github.com/dkrizic) on 2024-02-27 01:29:43 +0000 UTC
 
 
 
@@ -375,22 +348,27 @@ Component Status overview. Last update 2024-03-01T11:12:56+01:00
 
 ### Environments
 
-| Environment |  dev |  staging |  prod | 
-| --- |  --- |  --- |  --- | 
-| Version |  8.2.0-2 |  8.2.0-2 |  8.2.0-2 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Environment |  dev |  staging | 
+| --- |  --- |  --- | 
+| Version |  8.2.0-3 |  8.2.0-3 | 
+| Release |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: | 
 
 
 ### Last releases
+
+- [Update actions](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.2.0-3) on 2024-02-27 02:00:10 +0000 UTC
 
 - [Chart 1.1.0](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.2.0-2) on 2024-02-27 01:05:04 +0000 UTC
 
 - [8.2.0-1](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.2.0-1) on 2024-02-26 07:54:37 +0000 UTC
 
-- [8.1.0-1](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.1.0-1) on 2024-02-19 07:53:38 +0000 UTC
 
 
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting) (1)
+
+- [Merge pull request #34 from PRODYNA-YASM/feature/update-actions](https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/8109959013) created on 2024-03-01 10:25:44 +0000 UTC
 
 
 
