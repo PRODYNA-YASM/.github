@@ -1,11 +1,11 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T13:18:57+01:00
+Component Status overview. Last update 2024-03-01T13:33:06+01:00
 
 | Repository | Commits | PRs | Latest Release | [dev](https://dev-yasm.prodyna.com) | [staging](https://dev-yasm.prodyna.com) | [prod](https://yasm.prodyna.com) |
 | --- | --- | --- | -- | --- | --- | --- |
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: 6 | :yellow_square: 3 | 1.13.0 |  :red_square: 705a4d6 |  :green_square: 1.13.0 |  :green_square: 1.13.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: 7 | :yellow_square: 2 | 1.13.0 |  :red_square: 705a4d6 |  :green_square: 1.13.0 |  :green_square: 1.13.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: 9 | :yellow_square: 5 | 1.13.4 |  :red_square: 2c0340a |  :green_square: 1.13.4 |  :green_square: 1.13.4 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
@@ -21,7 +21,9 @@ Component Status overview. Last update 2024-03-01T13:18:57+01:00
 
 
 
-### [Commits on master since 1.13.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.0..HEAD) (6)
+### [Commits on master since 1.13.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.0..HEAD) (7)
+
+- [Bump azure/setup-helm from 3 to 4 (#523)](https://github.com/prodyna-yasm/yasm-backend/commit/e8b1aa8f69f0988d2c0b2d2ed771ac61d7f82bfd) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-03-01 12:30:12 +0000 UTC
 
 - [Merge pull request #522 from PRODYNA-YASM/chore/adding-some-spans](https://github.com/prodyna-yasm/yasm-backend/commit/705a4d62962e849fb5b3bba1887dfa6375188627) by [dkrizic](https://github.com/dkrizic) on 2024-02-28 12:09:21 +0000 UTC
 
@@ -38,11 +40,9 @@ Component Status overview. Last update 2024-03-01T13:18:57+01:00
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (3)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (2)
 
 - [Bump quarkus.platform.version from 3.7.3 to 3.8.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/524)
-
-- [Bump azure/setup-helm from 3 to 4](https://github.com/PRODYNA-YASM/yasm-backend/pull/523)
 
 - [yasm community requests #322 delete urldecoder from admin search methods](https://github.com/PRODYNA-YASM/yasm-backend/pull/519)
 
