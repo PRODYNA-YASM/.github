@@ -1,12 +1,12 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T15:08:34+01:00
+Component Status overview. Last update 2024-03-01T15:11:07+01:00
 
 | Repository | Commits | PRs | Latest Release | [dev](https://dev-yasm.prodyna.com) | [staging](https://dev-yasm.prodyna.com) | [prod](https://yasm.prodyna.com) |
 | --- | --- | --- | -- | --- | --- | --- |
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: 1 | :yellow_square: 1 | 1.13.1 |  :red_square: e6e2948 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: 2 | :yellow_square: 4 | 1.13.5 |  :red_square: 6390b62 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: 3 | :yellow_square: 3 | 1.13.5 |  :red_square: 6390b62 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: 1 | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
@@ -61,7 +61,9 @@ Component Status overview. Last update 2024-03-01T15:08:34+01:00
 
 
 
-### [Commits on master since 1.13.5](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) (2)
+### [Commits on master since 1.13.5](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) (3)
+
+- [Merge pull request #513 from PRODYNA-YASM/feature/511-activate-opentelemetry](https://github.com/prodyna-yasm/yasm-frontend/commit/45bc7d8d45804c19dde49c1e395810aa422b45be) by [dkrizic](https://github.com/dkrizic) on 2024-03-01 14:10:22 +0000 UTC
 
 - [Merge pull request #519 from PRODYNA-YASM/feature/update-actions](https://github.com/prodyna-yasm/yasm-frontend/commit/6390b6234e073976566f6e7816e87e5229dd33f4) by [dkrizic](https://github.com/dkrizic) on 2024-03-01 14:05:43 +0000 UTC
 
@@ -70,13 +72,11 @@ Component Status overview. Last update 2024-03-01T15:08:34+01:00
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (4)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (3)
 
 - [Feature/100 add possibility to edit project type confidentiality](https://github.com/PRODYNA-YASM/yasm-frontend/pull/518)
 
 - [411: fix overlap clickable area project component e.g. in allSearch](https://github.com/PRODYNA-YASM/yasm-frontend/pull/515)
-
-- [Enable Otel module](https://github.com/PRODYNA-YASM/yasm-frontend/pull/513)
 
 - [357: add copilot button](https://github.com/PRODYNA-YASM/yasm-frontend/pull/512)
 
