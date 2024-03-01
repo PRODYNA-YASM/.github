@@ -1,7 +1,7 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T12:07:58+01:00
+Component Status overview. Last update 2024-03-01T12:08:50+01:00
 
 ## Full overview
 
@@ -15,7 +15,6 @@ Component Status overview. Last update 2024-03-01T12:07:58+01:00
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :red_square: 1.13.4 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | 1.8.0 |  :red_square: 691b03b |  :green_square: 1.8.0 |  :green_square: 1.8.0 | 
-| [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | 1.25.4-2 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | 8.2.0-3 |  :green_square: 8.2.0-3 |  :green_square: 8.2.0-3 |  :red_square: 8.2.0-2 | 
 
 
@@ -300,34 +299,6 @@ Component Status overview. Last update 2024-03-01T12:07:58+01:00
 - [Dusseldorf synonym für Düsseldorf](https://github.com/PRODYNA-YASM/yasm-data/releases/tag/1.6.1) on 2023-11-30 18:39:48 +0000 UTC
 
 - [Neo4j, locations updated, some cleanups](https://github.com/PRODYNA-YASM/yasm-data/releases/tag/1.6.0) on 2023-11-30 17:39:17 +0000 UTC
-
-
-
-
-
-
-## [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) 1.25.4-2
-
-
-
-
-
-
-
-### Environments
-
-| Environment | 
-| --- | 
-| Version | 
-| Release | 
-| Current | 
-
-
-### Last releases
-
-- [Brotli + OTEL](https://github.com/PRODYNA-YASM/yasm-nginx/releases/tag/1.25.4-2) on 2024-02-28 17:47:02 +0000 UTC
-
-- [Brotli support](https://github.com/PRODYNA-YASM/yasm-nginx/releases/tag/1.25.4-1) on 2024-02-27 22:17:41 +0000 UTC
 
 
 
