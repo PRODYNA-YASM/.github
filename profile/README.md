@@ -1,7 +1,7 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T11:46:10+01:00
+Component Status overview. Last update 2024-03-01T11:50:23+01:00
 
 
 ## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.13.0
@@ -112,21 +112,6 @@ Component Status overview. Last update 2024-03-01T11:46:10+01:00
 - [1.13.2](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.13.2) on 2024-02-22 15:13:48 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (6)
-
-- [Merge pull request #506 from PRODYNA-YASM/fix/406-remove-internal-badge](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/8061634815) created on 2024-02-27 08:18:47 +0000 UTC
-
-- [Merge pull request #496 from PRODYNA-YASM/chore/appid_change](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/7991772586) created on 2024-02-21 15:47:20 +0000 UTC
-
-- [Merge pull request #495 from PRODYNA-YASM/feature/24-add-manager-to-p…](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/7974154828) created on 2024-02-20 13:20:18 +0000 UTC
-
-- [Merge pull request #490 from PRODYNA-YASM/feature/363-maintainer-admi…](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/7901568980) created on 2024-02-14 12:58:48 +0000 UTC
-
-- [Merge pull request #489 from PRODYNA-YASM/feature/191-seniority-override](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/7884692415) created on 2024-02-13 09:56:53 +0000 UTC
-
-- [Merge pull request #485 from PRODYNA-YASM/bugfix/373-fix-admin-skill-…](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/7755820341) created on 2024-02-02 12:19:31 +0000 UTC
 
 
 
@@ -257,11 +242,6 @@ Component Status overview. Last update 2024-03-01T11:46:10+01:00
 - [Update libs, some new features](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.1.0) on 2024-02-19 15:22:12 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #49 from PRODYNA-YASM/feature/47-implement-command](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/7961892641) created on 2024-02-19 15:28:26 +0000 UTC
 
 
 
