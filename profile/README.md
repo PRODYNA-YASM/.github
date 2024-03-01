@@ -1,12 +1,12 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T15:00:27+01:00
+Component Status overview. Last update 2024-03-01T15:04:21+01:00
 
 | Repository | Commits | PRs | Latest Release | [dev](https://dev-yasm.prodyna.com) | [staging](https://dev-yasm.prodyna.com) | [prod](https://yasm.prodyna.com) |
 | --- | --- | --- | -- | --- | --- | --- |
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: 1 | :yellow_square: 1 | 1.13.1 |  :red_square: e6e2948 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: 5 | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: 6 | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: 1 | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
@@ -63,7 +63,9 @@ Component Status overview. Last update 2024-03-01T15:00:27+01:00
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (5)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
+
+- [Setup Helm v4](https://github.com/PRODYNA-YASM/yasm-frontend/pull/519)
 
 - [Feature/100 add possibility to edit project type confidentiality](https://github.com/PRODYNA-YASM/yasm-frontend/pull/518)
 
