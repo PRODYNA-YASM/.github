@@ -8,25 +8,15 @@ Component Status overview. Last update 2024-03-01T12:05:44+01:00
 | --- | --- | --- | --- | --- |
 | Repository | Latest Release | dev | staging | prod |
 | --- | --- | --- | --- | --- |
-
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | 1.13.0 |  :red_square: 705a4d6 |  :green_square: 1.13.0 |  :green_square: 1.13.0 | 
-
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | 1.13.4 |  :red_square: 32f42e2 |  :green_square: 1.13.4 |  :green_square: 1.13.4 | 
-
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 | 
-
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
-
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :red_square: 1.13.4 | 
-
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
-
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | 1.8.0 |  :red_square: 691b03b |  :green_square: 1.8.0 |  :green_square: 1.8.0 | 
-
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | 1.25.4-2 | 
-
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | 8.2.0-3 |  :green_square: 8.2.0-3 |  :green_square: 8.2.0-3 |  :red_square: 8.2.0-2 | 
-
 
 
 ## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.13.0
