@@ -1,7 +1,7 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T10:24:10+01:00
+Component Status overview. Last update 2024-03-01T11:10:27+01:00
 
 
 ## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.13.0
@@ -191,22 +191,14 @@ Component Status overview. Last update 2024-03-01T10:24:10+01:00
 
 
 
-## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.13.4
+## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.13.5
 
 
 
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (5)
-
-- [Bump github.com/microsoftgraph/msgraph-sdk-go from 1.34.0 to 1.35.0](https://github.com/PRODYNA-YASM/yasm-integration/pull/369)
-
-- [Bump azure/setup-helm from 3 to 4](https://github.com/PRODYNA-YASM/yasm-integration/pull/368)
-
-- [MS Graph Update](https://github.com/PRODYNA-YASM/yasm-integration/pull/367)
-
-- [Bump github.com/microsoftgraph/msgraph-sdk-go-core from 1.0.2 to 1.1.0](https://github.com/PRODYNA-YASM/yasm-integration/pull/366)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (1)
 
 - [Base structure for Geocoding](https://github.com/PRODYNA-YASM/yasm-integration/pull/216)
 
@@ -216,20 +208,25 @@ Component Status overview. Last update 2024-03-01T10:24:10+01:00
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.13.4 |  1.13.4 |  1.13.4 | 
+| Version |  1.13.5 |  1.13.5 |  1.13.5 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
 | Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Current libs for MS Graph and Helm deployment](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.13.5) on 2024-03-01 09:52:21 +0000 UTC
+
 - [Virtual nodes, libs updated](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.13.4) on 2024-02-26 15:32:38 +0000 UTC
 
 - [1.13.3](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.13.3) on 2024-02-23 14:45:59 +0000 UTC
 
-- [Fix production deployment for umantis sync](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.13.2) on 2024-02-21 10:13:51 +0000 UTC
 
 
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (1)
+
+- [Merge pull request #367 from PRODYNA-YASM/feature/msgraph-update](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8109670951) created on 2024-03-01 10:03:50 +0000 UTC
 
 
 
@@ -246,9 +243,9 @@ Component Status overview. Last update 2024-03-01T10:24:10+01:00
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.3.0 |  1.3.0 |  1.1.0 | 
+| Version |  1.3.0 |  1.3.0 |  1.3.0 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -262,9 +259,7 @@ Component Status overview. Last update 2024-03-01T10:24:10+01:00
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (2)
-
-- [Merge pull request #82 from PRODYNA-YASM/dependabot/github_actions/az…](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/8109180097) created on 2024-03-01 09:21:26 +0000 UTC
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (1)
 
 - [Merge pull request #49 from PRODYNA-YASM/feature/47-implement-command](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/7961892641) created on 2024-02-19 15:28:26 +0000 UTC
 
