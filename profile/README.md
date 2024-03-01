@@ -1,11 +1,11 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T13:46:44+01:00
+Component Status overview. Last update 2024-03-01T13:48:14+01:00
 
 | Repository | Commits | PRs | Latest Release | [dev](https://dev-yasm.prodyna.com) | [staging](https://dev-yasm.prodyna.com) | [prod](https://yasm.prodyna.com) |
 | --- | --- | --- | -- | --- | --- | --- |
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: 10 | :yellow_square: 1 | 1.13.0 |  :red_square: 3e32cb0 |  :green_square: 1.13.0 |  :green_square: 1.13.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: 1 | 1.13.1 |  :red_square: 3e32cb0 |  :red_square: 1.13.0 |  :red_square: 1.13.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: 9 | :yellow_square: 5 | 1.13.4 |  :red_square: 2c0340a |  :green_square: 1.13.4 |  :green_square: 1.13.4 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 |  :green_square: 1.13.3 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
@@ -16,32 +16,9 @@ Component Status overview. Last update 2024-03-01T13:46:44+01:00
 
 
 
-## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.13.0
+## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.13.1
 
 
-
-
-### [Commits on master since 1.13.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.0..HEAD) (10)
-
-- [Merge pull request #519 from PRODYNA-YASM/#322_special-characters-in-admin-search](https://github.com/prodyna-yasm/yasm-backend/commit/3e32cb01a6914029367d2fd814a1d5aeef4e2089) by [irhox](https://github.com/irhox) on 2024-03-01 12:34:19 +0000 UTC
-
-- [Bump azure/setup-helm from 3 to 4 (#523)](https://github.com/prodyna-yasm/yasm-backend/commit/e8b1aa8f69f0988d2c0b2d2ed771ac61d7f82bfd) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-03-01 12:30:12 +0000 UTC
-
-- [Merge pull request #522 from PRODYNA-YASM/chore/adding-some-spans](https://github.com/prodyna-yasm/yasm-backend/commit/705a4d62962e849fb5b3bba1887dfa6375188627) by [dkrizic](https://github.com/dkrizic) on 2024-02-28 12:09:21 +0000 UTC
-
-- [Adding some spans](https://github.com/prodyna-yasm/yasm-backend/commit/825f547bb7cca65ebd3a388b76c798b3cd325594) by [bibamus](https://github.com/bibamus) on 2024-02-28 11:58:45 +0000 UTC
-
-- [Merge pull request #521 from PRODYNA-YASM/chore/adding-some-spans](https://github.com/prodyna-yasm/yasm-backend/commit/a38194695cda26d7647a9bbdd71a809ad1e28fe4) by [bibamus](https://github.com/bibamus) on 2024-02-28 10:32:31 +0000 UTC
-
-- [Adding some spans](https://github.com/prodyna-yasm/yasm-backend/commit/b6c241159cd5c2015b47c5d2a29567dd180a55ee) by [bibamus](https://github.com/bibamus) on 2024-02-28 10:10:21 +0000 UTC
-
-- [Merge pull request #520 from PRODYNA-YASM/feature/518-span-calling-neo4j-should-be-client-span-and-set-dbname](https://github.com/prodyna-yasm/yasm-backend/commit/6ba166b13a3e84c7190d68cf454f563c55e1199f) by [dkrizic](https://github.com/dkrizic) on 2024-02-26 01:09:27 +0000 UTC
-
-- [Set db.name and span type to client](https://github.com/prodyna-yasm/yasm-backend/commit/76c76fbe09f7f4abba7ad01ef20a156c6654db48) by [dkrizic](https://github.com/dkrizic) on 2024-02-26 00:58:30 +0000 UTC
-
-- [yasm community requests #322 change test company name](https://github.com/prodyna-yasm/yasm-backend/commit/53cd3347aff51f8c112ccca76a5252dc31467e66) by [irhox](https://github.com/irhox) on 2024-02-25 14:27:44 +0000 UTC
-
-- [yasm community requests #322 delete urldecoder from admin search methods](https://github.com/prodyna-yasm/yasm-backend/commit/5b3c242f06de110a45b2c78a2630048f2920c67a) by [irhox](https://github.com/irhox) on 2024-02-25 13:18:52 +0000 UTC
 
 
 
@@ -58,16 +35,16 @@ Component Status overview. Last update 2024-03-01T13:46:44+01:00
 | --- |  --- |  --- |  --- | 
 | Version |  3e32cb0 |  1.13.0 |  1.13.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :red_square: |  :red_square: | 
 
 
 ### Last releases
 
+- [1.13.1](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.13.1) on 2024-03-01 12:34:19 +0000 UTC
+
 - [1.13.0](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.13.0) on 2024-02-20 13:10:35 +0000 UTC
 
 - [1.12.1](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.12.1) on 2024-02-14 13:39:08 +0000 UTC
-
-- [1.12.0](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.12.0) on 2024-02-12 16:20:25 +0000 UTC
 
 
 
