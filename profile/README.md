@@ -1,7 +1,7 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T10:22:59+01:00
+Component Status overview. Last update 2024-03-01T10:24:10+01:00
 
 
 ## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.13.0
@@ -246,9 +246,9 @@ Component Status overview. Last update 2024-03-01T10:22:59+01:00
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.3.0 |  1.2.0 |  1.1.0 | 
+| Version |  1.3.0 |  1.3.0 |  1.1.0 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :red_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
@@ -262,7 +262,9 @@ Component Status overview. Last update 2024-03-01T10:22:59+01:00
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (1)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (2)
+
+- [Merge pull request #82 from PRODYNA-YASM/dependabot/github_actions/az…](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/8109180097) created on 2024-03-01 09:21:26 +0000 UTC
 
 - [Merge pull request #49 from PRODYNA-YASM/feature/47-implement-command](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/7961892641) created on 2024-02-19 15:28:26 +0000 UTC
 
