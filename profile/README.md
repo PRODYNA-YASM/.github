@@ -1,10 +1,11 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T11:55:28+01:00
+Component Status overview. Last update 2024-03-01T12:01:45+01:00
 
 ## Full overview
 
+| --- | --- | --- | --- | --- |
 | Repository | Latest Release | dev | staging | prod |
 | --- | --- | --- | --- | --- |
 
@@ -26,6 +27,7 @@ Component Status overview. Last update 2024-03-01T11:55:28+01:00
 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | 8.2.0-3 |  8.2.0-3 |  8.2.0-3 |  8.2.0-2 | 
 
+| --- | --- | --- | --- | --- |
 
 
 
