@@ -27,8 +27,8 @@ jobs:
           verbose: 1
           github-token: ${{ secrets.OVERVIEW_GITHUB_TOKEN }}
           title: "YASM Deployment Overview"
-          targetJsonFile: profile/deployment-overview.json
-          targetMdFile: profile/README.md
+          target-json-file: profile/deployment-overview.json
+          target-md-file: profile/README.md
 
       - name: Commit changes
         run: |
