@@ -36,3 +36,4 @@ jobs:
           git config --local user.name "Deployment Overview"
           git add profile
           git commit -m "Add/update deployment overview"
+          git push
