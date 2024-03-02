@@ -1,17 +1,17 @@
 # Organization Overview
 
-Component Status overview. Last update 2024-03-02T16:07:06Z
+Component Status overview. Last update 2024-03-02T16:07:47Z
 
-| Repository | Commits | PRs | Latest Release |  [dev]() | 
-| --- | --- | --- | -- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: 5 | :green_square: 0 | 1.13.1 |  :red_square: d554cb9 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: 12 | :yellow_square: 2 | 1.13.5 |  :red_square: 6e87994 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.13.4 |  :green_square: 1.13.4 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: 1 | 1.13.5 |  :green_square: 1.13.5 | 
-| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: 2 | :green_square: 0 | 1.3.0 |  :red_square: ec76731 | 
-| [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 | 
-| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.0-3 |  :green_square: 8.2.0-3 | 
+| Repository | Commits | PRs | Latest Release |  [dev]() |  [staging]() |  [prod]() | 
+| --- | --- | --- | -- |  --- |  --- |  --- | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: 5 | :green_square: 0 | 1.13.1 |  :red_square: d554cb9 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: 12 | :yellow_square: 2 | 1.13.5 |  :red_square: 6e87994 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.13.4 |  :green_square: 1.13.4 |  :green_square: 1.13.4 |  :red_square: 1.13.3 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: 1 | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
+| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: 2 | :green_square: 0 | 1.3.0 |  :red_square: ec76731 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
+| [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
+| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.0-3 |  :green_square: 8.2.0-3 |  :green_square: 8.2.0-3 |  :green_square: 8.2.0-3 | 
 
 
 
@@ -38,11 +38,11 @@ Component Status overview. Last update 2024-03-02T16:07:06Z
 
 ### Environments
 
-| Environment |  dev | 
-| --- |  --- | 
-| Version |  d554cb9 | 
-| Release |  :red_square: | 
-| Current |  :red_square: | 
+| Environment |  dev |  staging |  prod | 
+| --- |  --- |  --- |  --- | 
+| Version |  d554cb9 |  1.13.1 |  1.13.1 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -102,11 +102,11 @@ Component Status overview. Last update 2024-03-02T16:07:06Z
 
 ### Environments
 
-| Environment |  dev | 
-| --- |  --- | 
-| Version |  6e87994 | 
-| Release |  :red_square: | 
-| Current |  :red_square: | 
+| Environment |  dev |  staging |  prod | 
+| --- |  --- |  --- |  --- | 
+| Version |  6e87994 |  1.13.5 |  1.13.5 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -132,11 +132,11 @@ Component Status overview. Last update 2024-03-02T16:07:06Z
 
 ### Environments
 
-| Environment |  dev | 
-| --- |  --- | 
-| Version |  1.13.4 | 
-| Release |  :green_square: | 
-| Current |  :green_square: | 
+| Environment |  dev |  staging |  prod | 
+| --- |  --- |  --- |  --- | 
+| Version |  1.13.4 |  1.13.4 |  1.13.3 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
@@ -167,11 +167,11 @@ Component Status overview. Last update 2024-03-02T16:07:06Z
 
 ### Environments
 
-| Environment |  dev | 
-| --- |  --- | 
-| Version |  1.10.0 | 
-| Release |  :green_square: | 
-| Current |  :green_square: | 
+| Environment |  dev |  staging |  prod | 
+| --- |  --- |  --- |  --- | 
+| Version |  1.10.0 |  1.10.0 |  1.10.0 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -202,11 +202,11 @@ Component Status overview. Last update 2024-03-02T16:07:06Z
 
 ### Environments
 
-| Environment |  dev | 
-| --- |  --- | 
-| Version |  1.13.5 | 
-| Release |  :green_square: | 
-| Current |  :green_square: | 
+| Environment |  dev |  staging |  prod | 
+| --- |  --- |  --- |  --- | 
+| Version |  1.13.5 |  1.13.5 |  1.13.5 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -239,11 +239,11 @@ Component Status overview. Last update 2024-03-02T16:07:06Z
 
 ### Environments
 
-| Environment |  dev | 
-| --- |  --- | 
-| Version |  ec76731 | 
-| Release |  :red_square: | 
-| Current |  :red_square: | 
+| Environment |  dev |  staging |  prod | 
+| --- |  --- |  --- |  --- | 
+| Version |  ec76731 |  1.3.0 |  1.3.0 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -269,11 +269,11 @@ Component Status overview. Last update 2024-03-02T16:07:06Z
 
 ### Environments
 
-| Environment |  dev | 
-| --- |  --- | 
-| Version |  1.9.0 | 
-| Release |  :green_square: | 
-| Current |  :green_square: | 
+| Environment |  dev |  staging |  prod | 
+| --- |  --- |  --- |  --- | 
+| Version |  1.9.0 |  1.9.0 |  1.9.0 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -299,11 +299,11 @@ Component Status overview. Last update 2024-03-02T16:07:06Z
 
 ### Environments
 
-| Environment |  dev | 
-| --- |  --- | 
-| Version |  8.2.0-3 | 
-| Release |  :green_square: | 
-| Current |  :green_square: | 
+| Environment |  dev |  staging |  prod | 
+| --- |  --- |  --- |  --- | 
+| Version |  8.2.0-3 |  8.2.0-3 |  8.2.0-3 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
