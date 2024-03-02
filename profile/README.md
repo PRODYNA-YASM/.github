@@ -1,17 +1,17 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-02T20:56:13Z
+Component Status overview. Last update 2024-03-02T21:27:24Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: 5 | :green_square: 0 | 1.13.1 |  :red_square: d554cb9 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: 12 | :yellow_square: 2 | 1.13.5 |  :red_square: 6e87994 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.13.4 |  :green_square: 1.13.4 |  :green_square: 1.13.4 |  :red_square: 1.13.3 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: 1 | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
-| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: 2 | :green_square: 0 | 1.3.0 |  :red_square: ec76731 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
-| [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
-| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.0-3 |  :green_square: 8.2.0-3 |  :green_square: 8.2.0-3 |  :green_square: 8.2.0-3 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [5](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.1..HEAD) | :green_square: [0](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.13.1 |  :red_square: d554cb9 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [12](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.13.5 |  :red_square: 6e87994 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: [0](https://github.com/prodyna-yasm/yasmctl/compare/1.13.4..HEAD) | :green_square: [0](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.13.4 |  :green_square: 1.13.4 |  :green_square: 1.13.4 |  :red_square: 1.13.3 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: [0](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.10.0..HEAD) | :green_square: [0](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: [0](https://github.com/prodyna-yasm/yasm-integration/compare/1.13.5..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
+| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [2](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.3.0..HEAD) | :green_square: [0](https://github.com/prodyna-yasm/yasm-geocoding/pulls) | 1.3.0 |  :red_square: ec76731 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
+| [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: [0](https://github.com/prodyna-yasm/yasm-data/compare/1.9.0..HEAD) | :green_square: [0](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
+| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: [0](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.2.0-3..HEAD) | :green_square: [0](https://github.com/prodyna-yasm/yasm-gotenberg/pulls) | 8.2.0-3 |  :green_square: 8.2.0-3 |  :green_square: 8.2.0-3 |  :green_square: 8.2.0-3 | 
 
 
 
