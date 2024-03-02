@@ -11,12 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deployment overview
-        uses: prodyna/deployment-overview@v0.1
+        uses: prodyna/deployment-overview@v0.2
         with:
           organization: prodyna-yasm
           target-repository: .github
           target-repository-file: profile/README.md
           repositories: yasm-backend,yasm-frontend,yasmctl,yasm-proxy-odbc,yasm-integration,yasm-geocoding,yasm-data,yasm-gotenberg
           environments: dev,staging,prod
+          environment-links: https://dev-yasm.prodyna.com,https://staging-yasm.prodyna.com,https://yasm.prodyna.com
           verbose: 1
           github-token: ${{ secrets.OVERVIEW_GITHUB_TOKEN }}
+          title: "YASM Deployment Overview"
