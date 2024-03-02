@@ -1,13 +1,13 @@
 
 # YASM - Yet Another Skill Management
 
-Component Status overview. Last update 2024-03-01T22:14:11Z
+Component Status overview. Last update 2024-03-02T01:58:08Z
 
 | Repository | Commits | PRs | Latest Release | [dev](https://dev-yasm.prodyna.com) | [staging](https://dev-yasm.prodyna.com) | [prod](https://yasm.prodyna.com) |
 | --- | --- | --- | -- | --- | --- | --- |
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: 3 | :green_square: 0 | 1.13.1 |  :red_square: 44a755b |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: 5 | :green_square: 0 | 1.13.1 |  :red_square: d554cb9 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: 12 | :yellow_square: 2 | 1.13.5 |  :red_square: 6e87994 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: 2 | :green_square: 0 | 1.13.3 |  :red_square: e732298 |  :green_square: 1.13.3 |  :green_square: 1.13.3 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.13.4 |  :green_square: 1.13.4 |  :green_square: 1.13.4 |  :red_square: 1.13.3 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: 1 | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: 2 | :green_square: 0 | 1.3.0 |  :red_square: ec76731 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
@@ -21,7 +21,11 @@ Component Status overview. Last update 2024-03-01T22:14:11Z
 
 
 
-### [Commits on master since 1.13.1](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.1..HEAD) (3)
+### [Commits on master since 1.13.1](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.1..HEAD) (5)
+
+- [fix project time range filter (#529)](https://github.com/prodyna-yasm/yasm-backend/commit/d554cb937f3ca9315a59f0ec03fdd386f34e4079) by [coding4kay](https://github.com/coding4kay) on 2024-03-02 00:59:42 +0000 UTC
+
+- [sort person skills by experiece of month (#528)](https://github.com/prodyna-yasm/yasm-backend/commit/2f0974129abcf713839a7f6534218f493af74be3) by [coding4kay](https://github.com/coding4kay) on 2024-03-01 23:19:32 +0000 UTC
 
 - [improve logging (#527)](https://github.com/prodyna-yasm/yasm-backend/commit/44a755b64acbfc9f0629b5bcb6f58676332086aa) by [coding4kay](https://github.com/coding4kay) on 2024-03-01 20:48:43 +0000 UTC
 
@@ -37,7 +41,7 @@ Component Status overview. Last update 2024-03-01T22:14:11Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  44a755b |  1.13.1 |  1.13.1 | 
+| Version |  d554cb9 |  1.13.1 |  1.13.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -119,16 +123,9 @@ Component Status overview. Last update 2024-03-01T22:14:11Z
 
 
 
-## [yasmctl](https://github.com/prodyna-yasm/yasmctl) 1.13.3
+## [yasmctl](https://github.com/prodyna-yasm/yasmctl) 1.13.4
 
 
-
-
-### [Commits on master since 1.13.3](https://github.com/prodyna-yasm/yasmctl/compare/1.13.3..HEAD) (2)
-
-- [Merge pull request #270 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-4.1.0](https://github.com/prodyna-yasm/yasmctl/commit/e732298bb40123256e5cbf12bc783a088847be7e) by [dkrizic](https://github.com/dkrizic) on 2024-03-01 21:25:10 +0000 UTC
-
-- [Bump azure/setup-helm from 4.0.0 to 4.1.0](https://github.com/prodyna-yasm/yasmctl/commit/5a8f5a2e675d9b47498d0bd2a5d59531dbbb3c7c) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-03-01 21:08:16 +0000 UTC
 
 
 
@@ -138,20 +135,25 @@ Component Status overview. Last update 2024-03-01T22:14:11Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  e732298 |  1.13.3 |  1.13.3 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.13.4 |  1.13.4 |  1.13.3 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
+
+- [1.13.4](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.13.4) on 2024-03-01 21:25:10 +0000 UTC
 
 - [1.13.3](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.13.3) on 2024-02-28 23:46:01 +0000 UTC
 
 - [1.13.2](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.13.2) on 2024-02-26 01:21:07 +0000 UTC
 
-- [1.13.1](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.13.1) on 2024-02-21 15:48:54 +0000 UTC
 
 
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting) (1)
+
+- [Merge pull request #270 from PRODYNA-YASM/dependabot/github_actions/a…](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8119545149) created on 2024-03-02 01:55:16 +0000 UTC
 
 
 
