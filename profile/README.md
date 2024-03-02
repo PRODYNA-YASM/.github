@@ -1,8 +1,8 @@
 # Organization Overview
 
-Component Status overview. Last update 2024-03-02T16:36:24+01:00
+Component Status overview. Last update 2024-03-02T16:37:37+01:00
 
-| Repository | Commits | PRs | Latest Release |  dev  staging  prod  |
+| Repository | Commits | PRs | Latest Release |  [dev](.Link) |  [staging](.Link) |  [prod](.Link) |  |
 | --- | --- | --- | -- |  | ---  | ---  | ---  |
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: 5 | :green_square: 0 | 1.13.1 |  :red_square: d554cb9 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: 12 | :yellow_square: 2 | 1.13.5 |  :red_square: 6e87994 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
