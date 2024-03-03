@@ -18,7 +18,7 @@ jobs:
         run: mkdir -p profile
 
       - name: Deployment overview
-        uses: prodyna/deployment-overview@v0.3
+        uses: prodyna/deployment-overview@v0.4
         with:
           organization: prodyna-yasm
           repositories: yasm-backend,yasm-frontend,yasmctl,yasm-proxy-odbc,yasm-integration,yasm-geocoding,yasm-data,yasm-gotenberg
