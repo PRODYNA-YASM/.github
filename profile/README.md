@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-04T13:09:27Z
+Component Status overview. Last update 2024-03-04T13:12:40Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -11,7 +11,7 @@ Component Status overview. Last update 2024-03-04T13:09:27Z
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.13.5..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.13.5 |  :red_square: df47a0c |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [2](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.3.0..HEAD) | :green_square: 0 | 1.3.0 |  :red_square: ec76731 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
-| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.0-4 |  :green_square: 8.2.0-4 |  :green_square: 8.2.0-4 |  :red_square: 8.2.0-3 | 
+| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.0-4 |  :green_square: 8.2.0-4 |  :green_square: 8.2.0-4 |  :green_square: 8.2.0-4 | 
 
 
 
@@ -315,9 +315,9 @@ Component Status overview. Last update 2024-03-04T13:09:27Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  8.2.0-4 |  8.2.0-4 |  8.2.0-3 | 
+| Version |  8.2.0-4 |  8.2.0-4 |  8.2.0-4 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -329,11 +329,6 @@ Component Status overview. Last update 2024-03-04T13:09:27Z
 - [Chart 1.1.0](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.2.0-2) on 2024-02-27 01:05:04 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #35 from PRODYNA-YASM/dependabot/github_actions/az…](https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/8140363127) created on 2024-03-04 12:43:11 +0000 UTC
 
 
 

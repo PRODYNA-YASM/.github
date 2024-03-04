@@ -790,9 +790,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "8.2.0-3",
+          "Version": "8.2.0-4",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -840,14 +840,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #35 from PRODYNA-YASM/dependabot/github_actions/az…",
-            "Timestamp": "2024-03-04T12:43:11Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/8140363127"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     }
   ],
@@ -865,5 +859,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-04T13:09:27Z"
+  "LastUpdated": "2024-03-04T13:12:40Z"
 }
