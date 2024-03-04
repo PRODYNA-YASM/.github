@@ -546,8 +546,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "Bump github.com/stretchr/testify from 1.8.4 to 1.9.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/372"
+          },
           {
             "Title": "Base structure for Geocoding",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/216"
@@ -746,9 +750,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8.2.0-3",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "19ecf5f",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -803,8 +807,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.2.0-3..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #35 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-4",
+            "SHA": "19ecf5f102df2ee038905b084397d33f6289d099",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-04T01:27:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/19ecf5f102df2ee038905b084397d33f6289d099"
+          },
+          {
+            "Text": "Bump azure/setup-helm from 3 to 4",
+            "SHA": "8a43bd734b816949f8e74da741436ebbede469d9",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-03-04T00:50:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/8a43bd734b816949f8e74da741436ebbede469d9"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -829,5 +854,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-03T20:39:17Z"
+  "LastUpdated": "2024-03-04T07:15:00Z"
 }

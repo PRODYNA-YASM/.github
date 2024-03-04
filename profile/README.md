@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-03T20:39:17Z
+Component Status overview. Last update 2024-03-04T07:15:00Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -8,10 +8,10 @@ Component Status overview. Last update 2024-03-03T20:39:17Z
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [12](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.13.5 |  :red_square: 6e87994 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: [0](https://github.com/prodyna-yasm/yasmctl/compare/1.13.4..HEAD) | :green_square: [0](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.13.4 |  :green_square: 1.13.4 |  :green_square: 1.13.4 |  :red_square: 1.13.3 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: [0](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.10.0..HEAD) | :green_square: [0](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: [0](https://github.com/prodyna-yasm/yasm-integration/compare/1.13.5..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: [0](https://github.com/prodyna-yasm/yasm-integration/compare/1.13.5..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [2](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.3.0..HEAD) | :green_square: [0](https://github.com/prodyna-yasm/yasm-geocoding/pulls) | 1.3.0 |  :red_square: ec76731 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: [0](https://github.com/prodyna-yasm/yasm-data/compare/1.9.0..HEAD) | :green_square: [0](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
-| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: [0](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.2.0-3..HEAD) | :green_square: [0](https://github.com/prodyna-yasm/yasm-gotenberg/pulls) | 8.2.0-3 |  :green_square: 8.2.0-3 |  :green_square: 8.2.0-3 |  :green_square: 8.2.0-3 | 
+| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [2](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.2.0-3..HEAD) | :green_square: [0](https://github.com/prodyna-yasm/yasm-gotenberg/pulls) | 8.2.0-3 |  :red_square: 19ecf5f |  :green_square: 8.2.0-3 |  :green_square: 8.2.0-3 | 
 
 
 
@@ -194,7 +194,9 @@ Component Status overview. Last update 2024-03-03T20:39:17Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (1)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (2)
+
+- [Bump github.com/stretchr/testify from 1.8.4 to 1.9.0](https://github.com/PRODYNA-YASM/yasm-integration/pull/372)
 
 - [Base structure for Geocoding](https://github.com/PRODYNA-YASM/yasm-integration/pull/216)
 
@@ -294,6 +296,13 @@ Component Status overview. Last update 2024-03-03T20:39:17Z
 
 
 
+### [Commits on main since 8.2.0-3](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.2.0-3..HEAD) (2)
+
+- [Merge pull request #35 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-4](https://github.com/prodyna-yasm/yasm-gotenberg/commit/19ecf5f102df2ee038905b084397d33f6289d099) by [dkrizic](https://github.com/dkrizic) on 2024-03-04 01:27:19 +0000 UTC
+
+- [Bump azure/setup-helm from 3 to 4](https://github.com/prodyna-yasm/yasm-gotenberg/commit/8a43bd734b816949f8e74da741436ebbede469d9) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-03-04 00:50:27 +0000 UTC
+
+
 
 
 
@@ -301,9 +310,9 @@ Component Status overview. Last update 2024-03-03T20:39:17Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  8.2.0-3 |  8.2.0-3 |  8.2.0-3 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  19ecf5f |  8.2.0-3 |  8.2.0-3 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
