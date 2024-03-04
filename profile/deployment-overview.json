@@ -185,8 +185,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Fix/412 project selection list",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/523"
+          },
           {
             "Title": "Feature/100 add possibility to edit project type confidentiality",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/518"
@@ -471,8 +475,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump azure/setup-helm from 3 to 4",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/164"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
@@ -495,9 +504,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.13.5",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "df47a0c",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -546,12 +555,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "Bump github.com/stretchr/testify from 1.8.4 to 1.9.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/372"
-          },
           {
             "Title": "Base structure for Geocoding",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/216"
@@ -561,8 +566,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.13.5..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #372 from PRODYNA-YASM/dependabot/go_modules/github.com/stretchr/testify-1.9.0",
+            "SHA": "df47a0c7b2d5dc274a4c7399604bfe342942a77d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-04T07:16:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/df47a0c7b2d5dc274a4c7399604bfe342942a77d"
+          },
+          {
+            "Text": "Bump github.com/stretchr/testify from 1.8.4 to 1.9.0",
+            "SHA": "26749d4366a34f7a14c28e0f02a1080501dfae23",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-03-04T01:52:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/26749d4366a34f7a14c28e0f02a1080501dfae23"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -750,33 +776,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "19ecf5f",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "8.2.0-4",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "8.2.0-3",
+          "Version": "8.2.0-4",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "8.2.0-3",
+          "Version": "8.2.0-4",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "8.2.0-3",
+        "Tag": "8.2.0-4",
         "SHA": "",
-        "Title": "Update actions",
-        "Timestamp": "2024-03-01T10:25:42Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.2.0-3"
+        "Title": "8.2.0-4",
+        "Timestamp": "2024-03-04T12:43:09Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.2.0-4"
       },
       "Releases": [
+        {
+          "Tag": "8.2.0-4",
+          "SHA": "",
+          "Title": "8.2.0-4",
+          "Timestamp": "2024-03-04T01:27:19Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.2.0-4"
+        },
         {
           "Tag": "8.2.0-3",
           "SHA": "",
@@ -790,13 +823,6 @@
           "Title": "Chart 1.1.0",
           "Timestamp": "2024-02-27T01:05:04Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.2.0-2"
-        },
-        {
-          "Tag": "8.2.0-1",
-          "SHA": "",
-          "Title": "8.2.0-1",
-          "Timestamp": "2024-02-26T07:54:37Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.2.0-1"
         }
       ],
       "PullRequests": {
@@ -806,30 +832,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.2.0-3..HEAD",
-        "Count": 2,
-        "Commits": [
-          {
-            "Text": "Merge pull request #35 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-4",
-            "SHA": "19ecf5f102df2ee038905b084397d33f6289d099",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-04T01:27:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/19ecf5f102df2ee038905b084397d33f6289d099"
-          },
-          {
-            "Text": "Bump azure/setup-helm from 3 to 4",
-            "SHA": "8a43bd734b816949f8e74da741436ebbede469d9",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-03-04T00:50:27Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/8a43bd734b816949f8e74da741436ebbede469d9"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.2.0-4..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -854,5 +859,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-04T07:15:00Z"
+  "LastUpdated": "2024-03-04T13:12:40Z"
 }
