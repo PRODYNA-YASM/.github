@@ -185,8 +185,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Fix/412 project selection list",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/523"
+          },
           {
             "Title": "Feature/100 add possibility to edit project type confidentiality",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/518"
@@ -871,5 +875,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-04T09:28:22Z"
+  "LastUpdated": "2024-03-04T10:34:39Z"
 }
