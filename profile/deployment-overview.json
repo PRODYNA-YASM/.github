@@ -353,16 +353,16 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "6b2274c",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.14.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.13.5",
+          "Version": "1.14.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -417,8 +417,14 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #273 from PRODYNA-YASM/feature/api-1.4.0",
+            "Timestamp": "2024-03-05T22:59:56Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8164164282"
+          }
+        ]
       }
     },
     {
@@ -931,5 +937,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-05T23:01:17Z"
+  "LastUpdated": "2024-03-05T23:09:26Z"
 }
