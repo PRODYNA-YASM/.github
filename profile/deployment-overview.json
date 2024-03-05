@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d554cb9",
+          "Version": "12aa647",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -59,19 +59,24 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump io.quarkiverse.neo4j:quarkus-neo4j from 3.7.0 to 3.8.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/531"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.13.1..HEAD",
-        "Count": 5,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "update api 1.14.0 (#532)",
+            "SHA": "12aa64794b7f9ebfa53db2d760c6d13298df75cc",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-03-05T22:37:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/12aa64794b7f9ebfa53db2d760c6d13298df75cc"
+          },
           {
             "Text": "fix project time range filter (#529)",
             "SHA": "d554cb937f3ca9315a59f0ec03fdd386f34e4079",
@@ -348,33 +353,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.13.5",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "6b2274c",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
           "Version": "1.13.5",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         },
         {
           "Name": "prod",
           "Link": "",
           "Version": "1.13.5",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.13.5",
+        "Tag": "1.14.0",
         "SHA": "",
-        "Title": "Just a demo",
-        "Timestamp": "2024-03-05T09:41:46Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.13.5"
+        "Title": "Use API 1.4.0, remove merge skills",
+        "Timestamp": "2024-03-05T22:59:54Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.14.0"
       },
       "Releases": [
+        {
+          "Tag": "1.14.0",
+          "SHA": "",
+          "Title": "Use API 1.4.0, remove merge skills",
+          "Timestamp": "2024-03-05T22:56:02Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.14.0"
+        },
         {
           "Tag": "1.13.5",
           "SHA": "",
@@ -388,13 +400,6 @@
           "Title": "1.13.4",
           "Timestamp": "2024-03-01T21:25:10Z",
           "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.13.4"
-        },
-        {
-          "Tag": "1.13.3",
-          "SHA": "",
-          "Title": "1.13.3",
-          "Timestamp": "2024-02-28T23:46:01Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.13.3"
         }
       ],
       "PullRequests": {
@@ -404,7 +409,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.13.5..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.14.0..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -926,5 +931,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-05T22:01:22Z"
+  "LastUpdated": "2024-03-05T23:01:17Z"
 }
