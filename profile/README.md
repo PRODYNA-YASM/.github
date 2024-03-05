@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-05T11:23:39Z
+Component Status overview. Last update 2024-03-05T11:39:37Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -12,7 +12,7 @@ Component Status overview. Last update 2024-03-05T11:23:39Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [2](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.3.0..HEAD) | :green_square: 0 | 1.3.0 |  :red_square: ec76731 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.0-4 |  :green_square: 8.2.0-4 |  :green_square: 8.2.0-4 |  :green_square: 8.2.0-4 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [30](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/..HEAD) | :green_square: 0 |  |  :red_square: fae37da |  :red_square: af07d88 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.13.0..HEAD) | :green_square: 0 | 1.13.0 |  :green_square: 1.13.0 |  :red_square: af07d88 | 
 
 
 
@@ -334,11 +334,37 @@ Component Status overview. Last update 2024-03-05T11:23:39Z
 
 
 
-## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 
+## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 1.13.0
 
 
-> [!WARNING]
-> GET https://api.github.com/repos/prodyna-yasm/yasm-infrastructure-staged/releases/latest: 404 Not Found []
+
+
+### [Commits on main since 1.13.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.13.0..HEAD) (2)
+
+- [Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/be13533bdb5753db203b577d2b4cb36bd2ef0535) by [dkrizic](https://github.com/dkrizic) on 2024-03-05 11:36:07 +0000 UTC
+
+- [Run on tag as well](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f3bc87bb4bbb79faf1d405c24b64527bbfeb9788) by [dkrizic](https://github.com/dkrizic) on 2024-03-05 11:35:56 +0000 UTC
+
+
+
+
+
+### Environments
+
+| Environment |  dev |  staging | 
+| --- |  --- |  --- | 
+| Version |  1.13.0 |  af07d88 | 
+| Release |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :red_square: | 
+
+
+### Last releases
+
+- [1.13.0](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.13.0) on 2024-03-05 11:36:07 +0000 UTC
+
+
+
+
 
 
 
