@@ -857,9 +857,9 @@
         {
           "Name": "staging",
           "Link": "",
-          "Version": "af07d88",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.13.0",
+          "IsRelease": true,
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -914,8 +914,14 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-st…",
+            "Timestamp": "2024-03-05T11:36:54Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/8155599388"
+          }
+        ]
       }
     }
   ],
@@ -933,5 +939,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-05T11:39:37Z"
+  "LastUpdated": "2024-03-05T11:47:10Z"
 }
