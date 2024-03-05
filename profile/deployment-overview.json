@@ -850,9 +850,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.13.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "625fa7f",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -886,8 +886,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.13.0..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #440 from PRODYNA-YASM/feature/update-some-charts",
+            "SHA": "625fa7fc65fa9daffa1cd61d28d0dcae5e3c3331",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-05T12:12:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/625fa7fc65fa9daffa1cd61d28d0dcae5e3c3331"
+          },
+          {
+            "Text": "Update some helm charts",
+            "SHA": "b9d5b1210b81b8b9f68ff762731f47303dd4e40d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-05T11:54:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b9d5b1210b81b8b9f68ff762731f47303dd4e40d"
+          },
           {
             "Text": "Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-staged",
             "SHA": "be13533bdb5753db203b577d2b4cb36bd2ef0535",
@@ -939,5 +959,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-05T11:47:10Z"
+  "LastUpdated": "2024-03-05T12:16:11Z"
 }

@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-05T11:47:10Z
+Component Status overview. Last update 2024-03-05T12:16:11Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -12,7 +12,7 @@ Component Status overview. Last update 2024-03-05T11:47:10Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [2](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.3.0..HEAD) | :green_square: 0 | 1.3.0 |  :red_square: ec76731 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.0-4 |  :green_square: 8.2.0-4 |  :green_square: 8.2.0-4 |  :green_square: 8.2.0-4 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.13.0..HEAD) | :green_square: 0 | 1.13.0 |  :green_square: 1.13.0 |  :green_square: 1.13.0 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [4](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.13.0..HEAD) | :green_square: 0 | 1.13.0 |  :red_square: 625fa7f |  :green_square: 1.13.0 | 
 
 
 
@@ -339,7 +339,11 @@ Component Status overview. Last update 2024-03-05T11:47:10Z
 
 
 
-### [Commits on main since 1.13.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.13.0..HEAD) (2)
+### [Commits on main since 1.13.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.13.0..HEAD) (4)
+
+- [Merge pull request #440 from PRODYNA-YASM/feature/update-some-charts](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/625fa7fc65fa9daffa1cd61d28d0dcae5e3c3331) by [dkrizic](https://github.com/dkrizic) on 2024-03-05 12:12:26 +0000 UTC
+
+- [Update some helm charts](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b9d5b1210b81b8b9f68ff762731f47303dd4e40d) by [dkrizic](https://github.com/dkrizic) on 2024-03-05 11:54:15 +0000 UTC
 
 - [Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/be13533bdb5753db203b577d2b4cb36bd2ef0535) by [dkrizic](https://github.com/dkrizic) on 2024-03-05 11:36:07 +0000 UTC
 
@@ -353,9 +357,9 @@ Component Status overview. Last update 2024-03-05T11:47:10Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  1.13.0 |  1.13.0 | 
-| Release |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: | 
+| Version |  625fa7f |  1.13.0 | 
+| Release |  :red_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: | 
 
 
 ### Last releases
