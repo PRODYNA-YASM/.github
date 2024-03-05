@@ -348,14 +348,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "3b1a59c",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.13.5",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.13.4",
+          "Version": "1.13.5",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -368,13 +368,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "1.13.4",
+        "Tag": "1.13.5",
         "SHA": "",
-        "Title": "1.13.4",
-        "Timestamp": "2024-03-02T01:55:14Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.13.4"
+        "Title": "Just a demo",
+        "Timestamp": "2024-03-05T09:41:46Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.13.5"
       },
       "Releases": [
+        {
+          "Tag": "1.13.5",
+          "SHA": "",
+          "Title": "Just a demo",
+          "Timestamp": "2024-03-05T09:35:38Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.13.5"
+        },
         {
           "Tag": "1.13.4",
           "SHA": "",
@@ -388,13 +395,6 @@
           "Title": "1.13.3",
           "Timestamp": "2024-02-28T23:46:01Z",
           "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.13.3"
-        },
-        {
-          "Tag": "1.13.2",
-          "SHA": "",
-          "Title": "1.13.2",
-          "Timestamp": "2024-02-26T01:21:07Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.13.2"
         }
       ],
       "PullRequests": {
@@ -404,30 +404,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.13.4..HEAD",
-        "Count": 2,
-        "Commits": [
-          {
-            "Text": "Merge pull request #272 from PRODYNA-YASM/feature/271-demo-issue-for-uros",
-            "SHA": "3b1a59c4066f5603aa4367ce3358a822b52e2d44",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-05T09:35:38Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/3b1a59c4066f5603aa4367ce3358a822b52e2d44"
-          },
-          {
-            "Text": "Dummy change",
-            "SHA": "9529fde7e18448ee119fdd0620faabea940d2b38",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-05T09:32:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/9529fde7e18448ee119fdd0620faabea940d2b38"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.13.5..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -436,9 +415,9 @@
         "Count": 1,
         "Workflows": [
           {
-            "Name": "Merge pull request #270 from PRODYNA-YASM/dependabot/github_actions/a…",
-            "Timestamp": "2024-03-02T01:55:16Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8119545149"
+            "Name": "Merge pull request #272 from PRODYNA-YASM/feature/271-demo-issue-for-…",
+            "Timestamp": "2024-03-05T09:41:48Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8154126373"
           }
         ]
       }
@@ -885,5 +864,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-05T09:39:16Z"
+  "LastUpdated": "2024-03-05T09:49:32Z"
 }
