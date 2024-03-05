@@ -934,14 +934,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-st…",
-            "Timestamp": "2024-03-05T11:36:54Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/8155599388"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     }
   ],
@@ -959,5 +953,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-05T15:01:18Z"
+  "LastUpdated": "2024-03-05T16:01:18Z"
 }

@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-05T15:01:18Z
+Component Status overview. Last update 2024-03-05T16:01:18Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -367,11 +367,6 @@ Component Status overview. Last update 2024-03-05T15:01:18Z
 - [1.13.0](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.13.0) on 2024-03-05 11:36:07 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting) (1)
-
-- [Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-st…](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/8155599388) created on 2024-03-05 11:36:54 +0000 UTC
 
 
 
