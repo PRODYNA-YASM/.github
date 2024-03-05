@@ -348,9 +348,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.13.4",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "3b1a59c",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -405,8 +405,29 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.13.4..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #272 from PRODYNA-YASM/feature/271-demo-issue-for-uros",
+            "SHA": "3b1a59c4066f5603aa4367ce3358a822b52e2d44",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-05T09:35:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/3b1a59c4066f5603aa4367ce3358a822b52e2d44"
+          },
+          {
+            "Text": "Dummy change",
+            "SHA": "9529fde7e18448ee119fdd0620faabea940d2b38",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-05T09:32:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/9529fde7e18448ee119fdd0620faabea940d2b38"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -864,5 +885,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-05T07:05:09Z"
+  "LastUpdated": "2024-03-05T09:39:16Z"
 }
