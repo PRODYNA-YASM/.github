@@ -864,9 +864,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.13.0",
+          "Version": "1.13.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -907,14 +907,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #442 from PRODYNA-YASM/feature/441-fix-maintenance…",
-            "Timestamp": "2024-03-05T16:37:56Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/8159798142"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     }
   ],
@@ -932,5 +926,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-05T16:44:20Z"
+  "LastUpdated": "2024-03-05T17:01:15Z"
 }
