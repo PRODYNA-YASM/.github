@@ -850,14 +850,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "240d0c4",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.13.1",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.13.0",
+          "Version": "1.13.1",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -866,17 +866,24 @@
           "Link": "",
           "Version": "1.13.0",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.13.0",
+        "Tag": "1.13.1",
         "SHA": "",
-        "Title": "1.13.0",
-        "Timestamp": "2024-03-05T11:34:54Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.13.0"
+        "Title": "Fix maintenance windows",
+        "Timestamp": "2024-03-05T16:37:54Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.13.1"
       },
       "Releases": [
+        {
+          "Tag": "1.13.1",
+          "SHA": "",
+          "Title": "Fix maintenance windows",
+          "Timestamp": "2024-03-05T16:32:55Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.13.1"
+        },
         {
           "Tag": "1.13.0",
           "SHA": "",
@@ -892,77 +899,22 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.13.0..HEAD",
-        "Count": 6,
-        "Commits": [
-          {
-            "Text": "Merge pull request #442 from PRODYNA-YASM/feature/441-fix-maintenance-windows-future-date",
-            "SHA": "240d0c4507de996a9a4eef95c88dfd247f7e9aff",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-05T16:32:55Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/240d0c4507de996a9a4eef95c88dfd247f7e9aff"
-          },
-          {
-            "Text": "Update kubernetes-aks.tf",
-            "SHA": "23957d88a35fb2d35eba7c96424d9a2b2d01da23",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-05T16:29:31Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/23957d88a35fb2d35eba7c96424d9a2b2d01da23"
-          },
-          {
-            "Text": "Merge pull request #440 from PRODYNA-YASM/feature/update-some-charts",
-            "SHA": "625fa7fc65fa9daffa1cd61d28d0dcae5e3c3331",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-05T12:12:26Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/625fa7fc65fa9daffa1cd61d28d0dcae5e3c3331"
-          },
-          {
-            "Text": "Update some helm charts",
-            "SHA": "b9d5b1210b81b8b9f68ff762731f47303dd4e40d",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-05T11:54:15Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b9d5b1210b81b8b9f68ff762731f47303dd4e40d"
-          },
-          {
-            "Text": "Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-staged",
-            "SHA": "be13533bdb5753db203b577d2b4cb36bd2ef0535",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-05T11:36:07Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/be13533bdb5753db203b577d2b4cb36bd2ef0535"
-          },
-          {
-            "Text": "Run on tag as well",
-            "SHA": "f3bc87bb4bbb79faf1d405c24b64527bbfeb9788",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-05T11:35:56Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f3bc87bb4bbb79faf1d405c24b64527bbfeb9788"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.13.1..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #442 from PRODYNA-YASM/feature/441-fix-maintenance…",
+            "Timestamp": "2024-03-05T16:37:56Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/8159798142"
+          }
+        ]
       }
     }
   ],
@@ -980,5 +932,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-05T16:34:52Z"
+  "LastUpdated": "2024-03-05T16:44:20Z"
 }
