@@ -362,9 +362,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.13.3",
+          "Version": "1.13.5",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -412,14 +412,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #272 from PRODYNA-YASM/feature/271-demo-issue-for-…",
-            "Timestamp": "2024-03-05T09:41:48Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8154126373"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -864,5 +858,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-05T09:49:32Z"
+  "LastUpdated": "2024-03-05T09:58:51Z"
 }
