@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-05T16:01:18Z
+Component Status overview. Last update 2024-03-05T16:34:52Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -12,7 +12,7 @@ Component Status overview. Last update 2024-03-05T16:01:18Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [2](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.3.0..HEAD) | :green_square: 0 | 1.3.0 |  :red_square: ec76731 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.0-4 |  :green_square: 8.2.0-4 |  :green_square: 8.2.0-4 |  :green_square: 8.2.0-4 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [4](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.13.0..HEAD) | :green_square: 0 | 1.13.0 |  :red_square: 625fa7f |  :green_square: 1.13.0 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [6](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.13.0..HEAD) | :green_square: 0 | 1.13.0 |  :red_square: 240d0c4 |  :green_square: 1.13.0 |  :green_square: 1.13.0 | 
 
 
 
@@ -339,7 +339,11 @@ Component Status overview. Last update 2024-03-05T16:01:18Z
 
 
 
-### [Commits on main since 1.13.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.13.0..HEAD) (4)
+### [Commits on main since 1.13.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.13.0..HEAD) (6)
+
+- [Merge pull request #442 from PRODYNA-YASM/feature/441-fix-maintenance-windows-future-date](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/240d0c4507de996a9a4eef95c88dfd247f7e9aff) by [dkrizic](https://github.com/dkrizic) on 2024-03-05 16:32:55 +0000 UTC
+
+- [Update kubernetes-aks.tf](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/23957d88a35fb2d35eba7c96424d9a2b2d01da23) by [dkrizic](https://github.com/dkrizic) on 2024-03-05 16:29:31 +0000 UTC
 
 - [Merge pull request #440 from PRODYNA-YASM/feature/update-some-charts](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/625fa7fc65fa9daffa1cd61d28d0dcae5e3c3331) by [dkrizic](https://github.com/dkrizic) on 2024-03-05 12:12:26 +0000 UTC
 
@@ -355,11 +359,11 @@ Component Status overview. Last update 2024-03-05T16:01:18Z
 
 ### Environments
 
-| Environment |  dev |  staging | 
-| --- |  --- |  --- | 
-| Version |  625fa7f |  1.13.0 | 
-| Release |  :red_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: | 
+| Environment |  dev |  staging |  prod | 
+| --- |  --- |  --- |  --- | 
+| Version |  240d0c4 |  1.13.0 |  1.13.0 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases

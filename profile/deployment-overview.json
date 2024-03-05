@@ -850,12 +850,19 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "625fa7f",
+          "Version": "240d0c4",
           "IsRelease": false,
           "IsCurrent": false
         },
         {
           "Name": "staging",
+          "Link": "",
+          "Version": "1.13.0",
+          "IsRelease": true,
+          "IsCurrent": true
+        },
+        {
+          "Name": "prod",
           "Link": "",
           "Version": "1.13.0",
           "IsRelease": true,
@@ -886,8 +893,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.13.0..HEAD",
-        "Count": 4,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #442 from PRODYNA-YASM/feature/441-fix-maintenance-windows-future-date",
+            "SHA": "240d0c4507de996a9a4eef95c88dfd247f7e9aff",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-05T16:32:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/240d0c4507de996a9a4eef95c88dfd247f7e9aff"
+          },
+          {
+            "Text": "Update kubernetes-aks.tf",
+            "SHA": "23957d88a35fb2d35eba7c96424d9a2b2d01da23",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-05T16:29:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/23957d88a35fb2d35eba7c96424d9a2b2d01da23"
+          },
           {
             "Text": "Merge pull request #440 from PRODYNA-YASM/feature/update-some-charts",
             "SHA": "625fa7fc65fa9daffa1cd61d28d0dcae5e3c3331",
@@ -953,5 +980,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-05T16:01:18Z"
+  "LastUpdated": "2024-03-05T16:34:52Z"
 }
