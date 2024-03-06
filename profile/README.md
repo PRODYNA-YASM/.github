@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-06T13:01:09Z
+Component Status overview. Last update 2024-03-06T14:01:16Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [6](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.1..HEAD) | :green_square: 0 | 1.13.1 |  :red_square: 12aa647 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [12](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.13.5 |  :red_square: 6e87994 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [12](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.13.5 |  :red_square: 6e87994 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.14.0..HEAD) | :green_square: 0 | 1.14.0 |  :red_square: 5de4e15 |  :green_square: 1.14.0 |  :red_square: 1.13.5 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [6](https://github.com/prodyna-yasm/yasm-integration/compare/1.13.5..HEAD) | :green_square: 0 | 1.13.5 |  :red_square: ee4d3c3 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
@@ -95,7 +95,9 @@ Component Status overview. Last update 2024-03-06T13:01:09Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (3)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (4)
+
+- [yasm community requests #414 fix global filters in projects page](https://github.com/PRODYNA-YASM/yasm-frontend/pull/524)
 
 - [Fix/412 project selection list](https://github.com/PRODYNA-YASM/yasm-frontend/pull/523)
 

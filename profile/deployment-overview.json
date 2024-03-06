@@ -195,8 +195,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 3,
+        "Count": 4,
         "PullRequests": [
+          {
+            "Title": "yasm community requests #414 fix global filters in projects page",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/524"
+          },
           {
             "Title": "Fix/412 project selection list",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/523"
@@ -993,5 +997,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-06T13:01:09Z"
+  "LastUpdated": "2024-03-06T14:01:16Z"
 }
