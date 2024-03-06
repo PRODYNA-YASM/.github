@@ -535,7 +535,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "df47a0c",
+          "Version": "ee4d3c3",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -586,23 +586,54 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 2,
-        "PullRequests": [
-          {
-            "Title": "Bump github.com/prodyna-yasm/yasm-api-go from 1.13.0 to 1.14.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/374"
-          },
-          {
-            "Title": "Bump google.golang.org/grpc from 1.62.0 to 1.62.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/373"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.13.5..HEAD",
-        "Count": 2,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #373 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.62.1",
+            "SHA": "ee4d3c32e7bfef253d5c61fd85d68e0c0234552b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-06T07:33:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/ee4d3c32e7bfef253d5c61fd85d68e0c0234552b"
+          },
+          {
+            "Text": "Merge pull request #374 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.14.0",
+            "SHA": "bfe11ed67b437677c779a1f1f733b504702f7202",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-06T07:33:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/bfe11ed67b437677c779a1f1f733b504702f7202"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.13.0 to 1.14.0",
+            "SHA": "02e3a34b9c795baa5127b7f9a6cdf464826f3a91",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-03-06T01:15:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/02e3a34b9c795baa5127b7f9a6cdf464826f3a91"
+          },
+          {
+            "Text": "Bump google.golang.org/grpc from 1.62.0 to 1.62.1",
+            "SHA": "515eefecc04e83c90496b862fed872e572752682",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-03-06T01:15:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/515eefecc04e83c90496b862fed872e572752682"
+          },
           {
             "Text": "Merge pull request #372 from PRODYNA-YASM/dependabot/go_modules/github.com/stretchr/testify-1.9.0",
             "SHA": "df47a0c7b2d5dc274a4c7399604bfe342942a77d",
@@ -962,5 +993,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-06T07:01:11Z"
+  "LastUpdated": "2024-03-06T08:01:18Z"
 }
