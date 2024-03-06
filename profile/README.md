@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-06T17:01:25Z
+Component Status overview. Last update 2024-03-06T18:01:12Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -9,7 +9,7 @@ Component Status overview. Last update 2024-03-06T17:01:25Z
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.14.0..HEAD) | :green_square: 0 | 1.14.0 |  :red_square: 5de4e15 |  :green_square: 1.14.0 |  :red_square: 1.13.5 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [6](https://github.com/prodyna-yasm/yasm-integration/compare/1.13.5..HEAD) | :green_square: 0 | 1.13.5 |  :red_square: ee4d3c3 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
-| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [2](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.3.0..HEAD) | :green_square: 0 | 1.3.0 |  :red_square: ec76731 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
+| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [6](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.3.0..HEAD) | :green_square: 0 | 1.3.0 |  :red_square: d7a1462 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.0-4 |  :green_square: 8.2.0-4 |  :green_square: 8.2.0-4 |  :green_square: 8.2.0-4 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.13.1 |  :green_square: 1.13.1 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
@@ -256,7 +256,15 @@ Component Status overview. Last update 2024-03-06T17:01:25Z
 
 
 
-### [Commits on master since 1.3.0](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.3.0..HEAD) (2)
+### [Commits on master since 1.3.0](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.3.0..HEAD) (6)
+
+- [Merge pull request #84 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.62.1](https://github.com/prodyna-yasm/yasm-geocoding/commit/d7a14622be28203973a05aca8100524bfb12462d) by [dkrizic](https://github.com/dkrizic) on 2024-03-06 17:05:01 +0000 UTC
+
+- [Merge pull request #85 from PRODYNA-YASM/dependabot/go_modules/github.com/dapr/go-sdk-1.10.1](https://github.com/prodyna-yasm/yasm-geocoding/commit/d01deaf04456bf4c6df9cbfdf63b061ff904c0a1) by [dkrizic](https://github.com/dkrizic) on 2024-03-06 17:04:46 +0000 UTC
+
+- [Bump github.com/dapr/go-sdk from 1.9.1 to 1.10.1](https://github.com/prodyna-yasm/yasm-geocoding/commit/bb507658a34a3f60bd2bcf5123def17eba7ecd76) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-03-06 17:02:23 +0000 UTC
+
+- [Bump google.golang.org/grpc from 1.62.0 to 1.62.1](https://github.com/prodyna-yasm/yasm-geocoding/commit/4986fe55eda2e794ee0319c15956096581e62495) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-03-06 17:02:11 +0000 UTC
 
 - [Merge pull request #83 from PRODYNA-YASM/dependabot/go_modules/github.com/stretchr/testify-1.9.0](https://github.com/prodyna-yasm/yasm-geocoding/commit/ec7673179e5b77687d3f8172a647e2709d0ba8db) by [dkrizic](https://github.com/dkrizic) on 2024-03-01 16:34:23 +0000 UTC
 
@@ -270,7 +278,7 @@ Component Status overview. Last update 2024-03-06T17:01:25Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  ec76731 |  1.3.0 |  1.3.0 | 
+| Version |  d7a1462 |  1.3.0 |  1.3.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 

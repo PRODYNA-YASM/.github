@@ -675,7 +675,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "ec76731",
+          "Version": "d7a1462",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -732,8 +732,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.3.0..HEAD",
-        "Count": 2,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #84 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.62.1",
+            "SHA": "d7a14622be28203973a05aca8100524bfb12462d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-06T17:05:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/d7a14622be28203973a05aca8100524bfb12462d"
+          },
+          {
+            "Text": "Merge pull request #85 from PRODYNA-YASM/dependabot/go_modules/github.com/dapr/go-sdk-1.10.1",
+            "SHA": "d01deaf04456bf4c6df9cbfdf63b061ff904c0a1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-06T17:04:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/d01deaf04456bf4c6df9cbfdf63b061ff904c0a1"
+          },
+          {
+            "Text": "Bump github.com/dapr/go-sdk from 1.9.1 to 1.10.1",
+            "SHA": "bb507658a34a3f60bd2bcf5123def17eba7ecd76",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-03-06T17:02:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/bb507658a34a3f60bd2bcf5123def17eba7ecd76"
+          },
+          {
+            "Text": "Bump google.golang.org/grpc from 1.62.0 to 1.62.1",
+            "SHA": "4986fe55eda2e794ee0319c15956096581e62495",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-03-06T17:02:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/4986fe55eda2e794ee0319c15956096581e62495"
+          },
           {
             "Text": "Merge pull request #83 from PRODYNA-YASM/dependabot/go_modules/github.com/stretchr/testify-1.9.0",
             "SHA": "ec7673179e5b77687d3f8172a647e2709d0ba8db",
@@ -997,5 +1037,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-06T17:01:25Z"
+  "LastUpdated": "2024-03-06T18:01:12Z"
 }
