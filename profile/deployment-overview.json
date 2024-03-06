@@ -459,9 +459,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.10.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "b9b63d0",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -510,19 +510,35 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump azure/setup-helm from 3 to 4",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/164"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.10.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #164 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-4",
+            "SHA": "b9b63d0bc7393307eeb68bbeea03475647acd738",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-06T19:30:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/b9b63d0bc7393307eeb68bbeea03475647acd738"
+          },
+          {
+            "Text": "Bump azure/setup-helm from 3 to 4",
+            "SHA": "4a80a07ea87b6ca0e5c87e86aa1f4065d9ed24be",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-03-04T13:03:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/4a80a07ea87b6ca0e5c87e86aa1f4065d9ed24be"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -1037,5 +1053,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-06T19:01:12Z"
+  "LastUpdated": "2024-03-06T20:01:23Z"
 }
