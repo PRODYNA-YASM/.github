@@ -353,9 +353,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.14.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "5de4e15",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -410,8 +410,29 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.14.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #274 from PRODYNA-YASM/dkrizic-patch-1",
+            "SHA": "5de4e15b7d9ba252cf94e8df9e90b9d141a7f20b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-05T23:40:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/5de4e15b7d9ba252cf94e8df9e90b9d141a7f20b"
+          },
+          {
+            "Text": "Update README.md",
+            "SHA": "40a396afbba4413333f612e375a9953e6c93bc0d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-05T23:30:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/40a396afbba4413333f612e375a9953e6c93bc0d"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -565,13 +586,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Base structure for Geocoding",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/216"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -937,5 +953,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-05T23:09:26Z"
+  "LastUpdated": "2024-03-06T00:02:01Z"
 }
