@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-07T09:01:09Z
+Component Status overview. Last update 2024-03-07T10:01:21Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [6](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.1..HEAD) | :green_square: 0 | 1.13.1 |  :red_square: 12aa647 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [13](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.13.5 |  :red_square: 709b376 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [17](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.13.5 |  :red_square: 26fba56 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.14.0..HEAD) | :green_square: 0 | 1.14.0 |  :red_square: 5de4e15 |  :green_square: 1.14.0 |  :red_square: 1.13.5 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.10.0..HEAD) | :green_square: 0 | 1.10.0 |  :red_square: b9b63d0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [6](https://github.com/prodyna-yasm/yasm-integration/compare/1.13.5..HEAD) | :green_square: 0 | 1.13.5 |  :red_square: ee4d3c3 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
@@ -66,7 +66,15 @@ Component Status overview. Last update 2024-03-07T09:01:09Z
 
 
 
-### [Commits on master since 1.13.5](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) (13)
+### [Commits on master since 1.13.5](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) (17)
+
+- [Merge pull request #518 from PRODYNA-YASM/feature/100-add-possibility-to-edit-project-type-confidentiality](https://github.com/prodyna-yasm/yasm-frontend/commit/26fba56d17640767232d0d52f19e25a47466b95e) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-07 09:54:26 +0000 UTC
+
+- [100: add padding to Chips in CardView](https://github.com/prodyna-yasm/yasm-frontend/commit/0178d9aefca5ee6997f4d033928bedad073a8ffe) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-07 09:50:35 +0000 UTC
+
+- [100: fixed merge conflict issues](https://github.com/prodyna-yasm/yasm-frontend/commit/b51c3b93fec029c361b2cf672ccd5f94b443bdb5) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-07 08:45:22 +0000 UTC
+
+- [Merge branch 'master' into feature/100-add-possibility-to-edit-project-type-confidentiality](https://github.com/prodyna-yasm/yasm-frontend/commit/0ae77482472608a9ef58c224129025ecc8841f5f) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-07 08:29:56 +0000 UTC
 
 - [Merge pull request #515 from PRODYNA-YASM/bugfix/411-overlap-clickable-area-projects](https://github.com/prodyna-yasm/yasm-frontend/commit/709b37602c58d89964bb3026f03d6461bb7fe2d7) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-07 08:25:31 +0000 UTC
 
@@ -97,13 +105,11 @@ Component Status overview. Last update 2024-03-07T09:01:09Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (3)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (2)
 
 - [yasm community requests #414 fix global filters in projects page](https://github.com/PRODYNA-YASM/yasm-frontend/pull/524)
 
 - [Fix/412 project selection list](https://github.com/PRODYNA-YASM/yasm-frontend/pull/523)
-
-- [Feature/100 add possibility to edit project type confidentiality](https://github.com/PRODYNA-YASM/yasm-frontend/pull/518)
 
 
 
@@ -111,7 +117,7 @@ Component Status overview. Last update 2024-03-07T09:01:09Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  709b376 |  1.13.5 |  1.13.5 | 
+| Version |  26fba56 |  1.13.5 |  1.13.5 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 

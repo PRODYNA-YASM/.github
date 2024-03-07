@@ -144,7 +144,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "709b376",
+          "Version": "26fba56",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -195,7 +195,7 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 3,
+        "Count": 2,
         "PullRequests": [
           {
             "Title": "yasm community requests #414 fix global filters in projects page",
@@ -204,18 +204,54 @@
           {
             "Title": "Fix/412 project selection list",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/523"
-          },
-          {
-            "Title": "Feature/100 add possibility to edit project type confidentiality",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/518"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD",
-        "Count": 13,
+        "Count": 17,
         "Commits": [
+          {
+            "Text": "Merge pull request #518 from PRODYNA-YASM/feature/100-add-possibility-to-edit-project-type-confidentiality",
+            "SHA": "26fba56d17640767232d0d52f19e25a47466b95e",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-03-07T09:54:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/26fba56d17640767232d0d52f19e25a47466b95e"
+          },
+          {
+            "Text": "100: add padding to Chips in CardView",
+            "SHA": "0178d9aefca5ee6997f4d033928bedad073a8ffe",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-03-07T09:50:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/0178d9aefca5ee6997f4d033928bedad073a8ffe"
+          },
+          {
+            "Text": "100: fixed merge conflict issues",
+            "SHA": "b51c3b93fec029c361b2cf672ccd5f94b443bdb5",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-03-07T08:45:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b51c3b93fec029c361b2cf672ccd5f94b443bdb5"
+          },
+          {
+            "Text": "Merge branch 'master' into feature/100-add-possibility-to-edit-project-type-confidentiality",
+            "SHA": "0ae77482472608a9ef58c224129025ecc8841f5f",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-03-07T08:29:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/0ae77482472608a9ef58c224129025ecc8841f5f"
+          },
           {
             "Text": "Merge pull request #515 from PRODYNA-YASM/bugfix/411-overlap-clickable-area-projects",
             "SHA": "709b37602c58d89964bb3026f03d6461bb7fe2d7",
@@ -1059,5 +1095,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-07T09:01:09Z"
+  "LastUpdated": "2024-03-07T10:01:21Z"
 }
