@@ -144,7 +144,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "6e87994",
+          "Version": "709b376",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -195,7 +195,7 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 4,
+        "Count": 3,
         "PullRequests": [
           {
             "Title": "yasm community requests #414 fix global filters in projects page",
@@ -208,18 +208,24 @@
           {
             "Title": "Feature/100 add possibility to edit project type confidentiality",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/518"
-          },
-          {
-            "Title": "411: fix overlap clickable area project component e.g. in allSearch",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/515"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD",
-        "Count": 12,
+        "Count": 13,
         "Commits": [
+          {
+            "Text": "Merge pull request #515 from PRODYNA-YASM/bugfix/411-overlap-clickable-area-projects",
+            "SHA": "709b37602c58d89964bb3026f03d6461bb7fe2d7",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-03-07T08:25:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/709b37602c58d89964bb3026f03d6461bb7fe2d7"
+          },
           {
             "Text": "Fix broken url in dev mode",
             "SHA": "6e87994c7ee8b375101ed04de47163282d4947f6",
@@ -1053,5 +1059,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-07T08:01:31Z"
+  "LastUpdated": "2024-03-07T08:34:28Z"
 }
