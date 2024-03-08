@@ -653,19 +653,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.35.0 to 1.36.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/375"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.13.5..HEAD",
-        "Count": 6,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Merge pull request #375 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.36.0",
+            "SHA": "38964d57e18cf825a6e910651ef1fa1e67928e60",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-08T07:59:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/38964d57e18cf825a6e910651ef1fa1e67928e60"
+          },
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.35.0 to 1.36.0",
+            "SHA": "7c40fccb64b13a87f8c074caa204e4aa81d72e4c",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-03-08T01:06:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/7c40fccb64b13a87f8c074caa204e4aa81d72e4c"
+          },
           {
             "Text": "Merge pull request #373 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.62.1",
             "SHA": "ee4d3c32e7bfef253d5c61fd85d68e0c0234552b",
@@ -1105,5 +1120,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-08T07:01:10Z"
+  "LastUpdated": "2024-03-08T08:01:21Z"
 }
