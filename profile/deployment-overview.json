@@ -1128,9 +1128,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.13.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "831abd5",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1172,19 +1172,45 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Remove cosmosdb",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/443"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.13.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 3,
+        "Commits": [
+          {
+            "Text": "Merge pull request #443 from PRODYNA-YASM/feature/remove-cosmos",
+            "SHA": "831abd55a30a4ce229fcafdefffdcc57ad5a34e0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-08T17:13:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/831abd55a30a4ce229fcafdefffdcc57ad5a34e0"
+          },
+          {
+            "Text": "Remove cosmos output",
+            "SHA": "760607913e7ee5ad78b06441cf69d2f0f88a433c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-08T17:10:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/760607913e7ee5ad78b06441cf69d2f0f88a433c"
+          },
+          {
+            "Text": "Remove cosmosdb",
+            "SHA": "82d36b957be55fd1dd78b3666631e62520d10253",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-08T16:30:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/82d36b957be55fd1dd78b3666631e62520d10253"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1209,5 +1235,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-08T17:01:16Z"
+  "LastUpdated": "2024-03-08T18:01:21Z"
 }

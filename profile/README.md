@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-08T17:01:16Z
+Component Status overview. Last update 2024-03-08T18:01:21Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -12,7 +12,7 @@ Component Status overview. Last update 2024-03-08T17:01:16Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [6](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.3.0..HEAD) | :green_square: 0 | 1.3.0 |  :red_square: d7a1462 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.0-4 |  :green_square: 8.2.0-4 |  :green_square: 8.2.0-4 |  :green_square: 8.2.0-4 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.13.1 |  :green_square: 1.13.1 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.13.1..HEAD) | :green_square: 0 | 1.13.1 |  :red_square: 831abd5 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
 
 
 
@@ -396,11 +396,15 @@ Component Status overview. Last update 2024-03-08T17:01:16Z
 
 
 
+### [Commits on main since 1.13.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.13.1..HEAD) (3)
+
+- [Merge pull request #443 from PRODYNA-YASM/feature/remove-cosmos](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/831abd55a30a4ce229fcafdefffdcc57ad5a34e0) by [dkrizic](https://github.com/dkrizic) on 2024-03-08 17:13:16 +0000 UTC
+
+- [Remove cosmos output](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/760607913e7ee5ad78b06441cf69d2f0f88a433c) by [dkrizic](https://github.com/dkrizic) on 2024-03-08 17:10:47 +0000 UTC
+
+- [Remove cosmosdb](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/82d36b957be55fd1dd78b3666631e62520d10253) by [dkrizic](https://github.com/dkrizic) on 2024-03-08 16:30:04 +0000 UTC
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (1)
-
-- [Remove cosmosdb](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/443)
 
 
 
@@ -408,9 +412,9 @@ Component Status overview. Last update 2024-03-08T17:01:16Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.13.1 |  1.13.1 |  1.13.1 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  831abd5 |  1.13.1 |  1.13.1 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
