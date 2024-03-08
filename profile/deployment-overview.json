@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "12aa647",
+          "Version": "11f92a8",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "Skip build on master (ant not a tag)",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/536"
+          },
           {
             "Title": "Bump quarkus.platform.version from 3.8.1 to 3.8.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/533"
@@ -662,7 +666,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "38964d5",
+          "Version": "68f71e5",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -713,19 +717,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Use API 1.14.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/376"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.13.5..HEAD",
-        "Count": 8,
+        "Count": 10,
         "Commits": [
+          {
+            "Text": "Merge pull request #376 from PRODYNA-YASM/feature/api-1.14.2",
+            "SHA": "68f71e57650fab41744eeee0cccdce1939a882c1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-08T15:08:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/68f71e57650fab41744eeee0cccdce1939a882c1"
+          },
+          {
+            "Text": "Use API 1.14.2",
+            "SHA": "e254315cc5183b11fa0530bf19fd900e19f2337c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-08T14:59:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/e254315cc5183b11fa0530bf19fd900e19f2337c"
+          },
           {
             "Text": "Merge pull request #375 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.36.0",
             "SHA": "38964d57e18cf825a6e910651ef1fa1e67928e60",
@@ -1185,5 +1204,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-08T15:01:18Z"
+  "LastUpdated": "2024-03-08T16:01:07Z"
 }
