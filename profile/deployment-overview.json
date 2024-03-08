@@ -455,8 +455,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Feature/275 unable to get version on api 114",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/276"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
@@ -1120,5 +1125,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-08T10:01:16Z"
+  "LastUpdated": "2024-03-08T11:01:10Z"
 }
