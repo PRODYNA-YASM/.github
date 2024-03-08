@@ -602,7 +602,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "ee4d3c3",
+          "Version": "38964d5",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1120,5 +1120,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-08T08:01:21Z"
+  "LastUpdated": "2024-03-08T09:01:31Z"
 }
