@@ -1172,8 +1172,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Remove cosmosdb",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/443"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -1204,5 +1209,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-08T16:01:07Z"
+  "LastUpdated": "2024-03-08T17:01:16Z"
 }
