@@ -59,8 +59,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump quarkus.platform.version from 3.8.1 to 3.8.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/533"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
@@ -1100,5 +1105,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-08T01:21:20Z"
+  "LastUpdated": "2024-03-08T02:06:18Z"
 }

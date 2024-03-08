@@ -1,10 +1,10 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-08T01:21:20Z
+Component Status overview. Last update 2024-03-08T02:06:18Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [6](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.1..HEAD) | :green_square: 0 | 1.13.1 |  :red_square: 12aa647 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [6](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.13.1 |  :red_square: 12aa647 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [17](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.13.5 |  :red_square: 26fba56 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.14.0..HEAD) | :green_square: 0 | 1.14.0 |  :red_square: 5de4e15 |  :green_square: 1.14.0 |  :red_square: 1.13.5 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.10.0..HEAD) | :green_square: 0 | 1.10.0 |  :red_square: b9b63d0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
@@ -36,6 +36,11 @@ Component Status overview. Last update 2024-03-08T01:21:20Z
 - [update quarkus (#525)](https://github.com/prodyna-yasm/yasm-backend/commit/e6e29489e1a1eb074ad0c013af2b19852b839157) by [coding4kay](https://github.com/coding4kay) on 2024-03-01 13:26:54 +0000 UTC
 
 
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (1)
+
+- [Bump quarkus.platform.version from 3.8.1 to 3.8.2](https://github.com/PRODYNA-YASM/yasm-backend/pull/533)
 
 
 
