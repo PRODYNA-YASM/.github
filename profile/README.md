@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-10T10:49:47Z
+Component Status overview. Last update 2024-03-10T11:01:08Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -13,7 +13,7 @@ Component Status overview. Last update 2024-03-10T10:49:47Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.0-4 |  :green_square: 8.2.0-4 |  :green_square: 8.2.0-4 |  :green_square: 8.2.0-4 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.14.0 |  :green_square: 1.14.0 |  :green_square: 1.14.0 |  :red_square: 1.13.1 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [1](https://github.com/prodyna-yasm/yasm-api/compare/1.14.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.14.1 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.14.2 | 
 | [yasm-api-go](https://github.com/prodyna-yasm/yasm-api-go) | :red_square: [30](https://github.com/prodyna-yasm/yasm-api-go/compare/v0.4.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api-go/pulls) | v0.4.2 | 
 
 
@@ -428,14 +428,9 @@ Component Status overview. Last update 2024-03-10T10:49:47Z
 
 
 
-## [yasm-api](https://github.com/prodyna-yasm/yasm-api) 1.14.1
+## [yasm-api](https://github.com/prodyna-yasm/yasm-api) 1.14.2
 
 
-
-
-### [Commits on master since 1.14.1](https://github.com/prodyna-yasm/yasm-api/compare/1.14.1..HEAD) (1)
-
-- [Use 7.0.1 for Go again](https://github.com/prodyna-yasm/yasm-api/commit/1b55438cd98742a74ee4e4b45bedfe57d72bceab) by [dkrizic](https://github.com/dkrizic) on 2024-03-08 14:46:51 +0000 UTC
 
 
 
@@ -457,11 +452,11 @@ Component Status overview. Last update 2024-03-10T10:49:47Z
 
 ### Last releases
 
+- [Using Generator 7.0.1 for Go](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.14.2) on 2024-03-08 14:46:51 +0000 UTC
+
 - [GitHub user in Person, fix server URLs, updates of generators](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.14.1) on 2024-03-08 14:24:32 +0000 UTC
 
 - [1.14.0](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.14.0) on 2024-03-05 22:07:16 +0000 UTC
-
-- [1.13.0](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.13.0) on 2024-02-20 12:35:05 +0000 UTC
 
 
 
