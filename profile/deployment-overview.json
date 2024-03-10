@@ -1249,8 +1249,19 @@
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.14.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "Remove axios from the delete script",
+            "SHA": "634cf58e276f8ce219077e94dd936d66fba72544",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-10T11:22:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/634cf58e276f8ce219077e94dd936d66fba72544"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -1275,5 +1286,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-10T11:20:49Z"
+  "LastUpdated": "2024-03-10T12:01:22Z"
 }
