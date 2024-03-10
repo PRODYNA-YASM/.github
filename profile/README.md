@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-10T10:01:00Z
+Component Status overview. Last update 2024-03-10T11:01:08Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -13,6 +13,8 @@ Component Status overview. Last update 2024-03-10T10:01:00Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.0-4 |  :green_square: 8.2.0-4 |  :green_square: 8.2.0-4 |  :green_square: 8.2.0-4 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.14.0 |  :green_square: 1.14.0 |  :green_square: 1.14.0 |  :red_square: 1.13.1 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.14.2 | 
+| [yasm-api-go](https://github.com/prodyna-yasm/yasm-api-go) | :red_square: [30](https://github.com/prodyna-yasm/yasm-api-go/compare/v0.4.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api-go/pulls) | v0.4.2 | 
 
 
 
@@ -422,6 +424,137 @@ Component Status overview. Last update 2024-03-10T10:01:00Z
 ### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting) (1)
 
 - [Merge pull request #443 from PRODYNA-YASM/feature/remove-cosmos](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/8208199950) created on 2024-03-08 19:39:55 +0000 UTC
+
+
+
+
+## [yasm-api](https://github.com/prodyna-yasm/yasm-api) 1.14.2
+
+
+
+
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (1)
+
+- [Draft: Skill kind giver refactoring](https://github.com/PRODYNA-YASM/yasm-api/pull/105)
+
+
+
+### Environments
+
+| Environment | 
+| --- | 
+| Version | 
+| Release | 
+| Current | 
+
+
+### Last releases
+
+- [Using Generator 7.0.1 for Go](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.14.2) on 2024-03-08 14:46:51 +0000 UTC
+
+- [GitHub user in Person, fix server URLs, updates of generators](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.14.1) on 2024-03-08 14:24:32 +0000 UTC
+
+- [1.14.0](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.14.0) on 2024-03-05 22:07:16 +0000 UTC
+
+
+
+
+
+
+## [yasm-api-go](https://github.com/prodyna-yasm/yasm-api-go) v0.4.2
+
+
+
+
+### [Commits on master since v0.4.2](https://github.com/prodyna-yasm/yasm-api-go/compare/v0.4.2..HEAD) (30)
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/1b55438cd98742a74ee4e4b45bedfe57d72bceab](https://github.com/prodyna-yasm/yasm-api-go/commit/0e7df1e628038fda8f4217ccd428de62bdc79f19) by [dkrizic](https://github.com/dkrizic) on 2024-03-08 14:49:23 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/1439463b302531dfcddcee9391cd0e53df514f7c](https://github.com/prodyna-yasm/yasm-api-go/commit/93fa264a8bee5fce01584f103c0e2000bb217213) by [dkrizic](https://github.com/dkrizic) on 2024-03-08 14:30:07 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/a6f2d0a120e04ff223444d1bced171357d2e5bae](https://github.com/prodyna-yasm/yasm-api-go/commit/0810d492a535a4c481e0afb7dd26003b5fec0ad0) by [dkrizic](https://github.com/dkrizic) on 2024-03-05 22:11:22 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/344018cc8aba5a5ecc911185906b5d54ef640e3e](https://github.com/prodyna-yasm/yasm-api-go/commit/7c2a7e5a1499c113769bdcbc7206b78c09efac95) by [dkrizic](https://github.com/dkrizic) on 2024-02-20 12:36:42 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/6e8528592af8d8ed151e4a5348031fa6a3bda139](https://github.com/prodyna-yasm/yasm-api-go/commit/07232a2dcb3aed98de759c90cd8b3ed67772d86c) by [dkrizic](https://github.com/dkrizic) on 2024-02-09 17:38:49 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/2da22ac6f275be8b38c1cd851797e40dc21a7759](https://github.com/prodyna-yasm/yasm-api-go/commit/5a3b1ce16cb470fda8d8afc08981088ecafd3405) by [dkrizic](https://github.com/dkrizic) on 2024-02-09 17:36:21 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/d0d7e8a6f2f04d5e63e56bf52c5cba96e6b828a1](https://github.com/prodyna-yasm/yasm-api-go/commit/ff760e51b2db1fa1606b71736bdca16ca2ee8381) by [dkrizic](https://github.com/dkrizic) on 2023-12-15 18:10:10 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/f36f86d0ddc310b5ef790b047142799cf631e918](https://github.com/prodyna-yasm/yasm-api-go/commit/7cb3bdb38ff8de6358020bb34914c9939300eb59) by [dkrizic](https://github.com/dkrizic) on 2023-12-15 17:22:06 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/f36f86d0ddc310b5ef790b047142799cf631e918](https://github.com/prodyna-yasm/yasm-api-go/commit/0a7bf95fd94d7567c8b0b620d3428a2a7e79f474) by [dkrizic](https://github.com/dkrizic) on 2023-12-15 16:39:00 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/879498174e1a3d350e95f3e5887dea4dab832363](https://github.com/prodyna-yasm/yasm-api-go/commit/6b14ec6c53db6d89dc89bad3f11a817643c47e1a) by [dkrizic](https://github.com/dkrizic) on 2023-12-14 18:06:48 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/7d7c8fd29d65a782dd42deeeaa24535691a7261e](https://github.com/prodyna-yasm/yasm-api-go/commit/15a42b7412563396a74bfb21869c87a557dccda8) by [dkrizic](https://github.com/dkrizic) on 2023-12-12 21:50:45 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/e470d334fc92fae1a71f61fc7aa807a4d129bf9a](https://github.com/prodyna-yasm/yasm-api-go/commit/d669e9c8a742f62e141d88c1bf0059243e89477a) by [dkrizic](https://github.com/dkrizic) on 2023-12-01 15:32:01 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/318c94d6adc695c4827560d4084ff45d6ca7c78e](https://github.com/prodyna-yasm/yasm-api-go/commit/8ab9330e82263b05f0130d020726c7cecd646439) by [dkrizic](https://github.com/dkrizic) on 2023-12-01 13:23:38 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/866da5514d723f0a47579b58d4d2e7a92a1bb805](https://github.com/prodyna-yasm/yasm-api-go/commit/16a0baf09dda372670747a27db923770ab15c993) by [dkrizic](https://github.com/dkrizic) on 2023-11-28 22:34:18 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/fa4a4f0ec985c6af948a9036d3f993fd9df76a16](https://github.com/prodyna-yasm/yasm-api-go/commit/09bab10302fc53e84a429daeda5978104b14ff3f) by [dkrizic](https://github.com/dkrizic) on 2023-11-24 15:51:53 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/75aef72815edc7294b8341f0bbf63122b047cd6d](https://github.com/prodyna-yasm/yasm-api-go/commit/9663490345077e2fb1f4dc669a5f0841d9454d94) by [dkrizic](https://github.com/dkrizic) on 2023-11-08 15:02:36 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/326056a038a0a3d73cf840ff7ce3ff9f8b85156a](https://github.com/prodyna-yasm/yasm-api-go/commit/0a6981d694795d84ba6b78f205fd0faf8bdcc4b4) by [dkrizic](https://github.com/dkrizic) on 2023-10-27 11:30:47 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/d7b65b3d77483bcb930496e4d3eff8b5a9340652](https://github.com/prodyna-yasm/yasm-api-go/commit/23d6efc775e73fdf078ee8ee6dbb2f6b1b1dcf6a) by [dkrizic](https://github.com/dkrizic) on 2023-10-27 11:22:39 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/dac968c26b7e82c8541ae1e397c83794c2b52ec4](https://github.com/prodyna-yasm/yasm-api-go/commit/eeb37e4b4d05c13e771d816abdd1314f94b24de9) by [dkrizic](https://github.com/dkrizic) on 2023-10-26 10:18:00 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/8e06918f973f4162ef4dcac6efadba0b42747359](https://github.com/prodyna-yasm/yasm-api-go/commit/33dc4d1d9ea4c42db813a60f038fd57290813001) by [dkrizic](https://github.com/dkrizic) on 2023-10-24 09:04:47 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/f118335640ddb4294fa36c01b18126230cd47e58](https://github.com/prodyna-yasm/yasm-api-go/commit/b6ec4f53a70dd7b499a7a2274babd18372bd32e3) by [dkrizic](https://github.com/dkrizic) on 2023-10-21 15:14:01 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/2381f19d0b3e939b90f2c30db36d2fe1f7410db0](https://github.com/prodyna-yasm/yasm-api-go/commit/a6e041e61cd7f86bb83abed24c6cc12bbc302f8f) by [dkrizic](https://github.com/dkrizic) on 2023-10-19 17:51:34 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/a2cd39cd6ec540f8899a780d1adfc56f3680f8d0](https://github.com/prodyna-yasm/yasm-api-go/commit/9c1b86df19952f0a79e96b542bb1f8e9df85443b) by [dkrizic](https://github.com/dkrizic) on 2023-10-17 12:01:11 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/1fbd1603030e9c454653b34e165f15038a280aea](https://github.com/prodyna-yasm/yasm-api-go/commit/8e0139a6e1a66d809086ffc42f8cbfee3a1d4fed) by [dkrizic](https://github.com/dkrizic) on 2023-10-14 22:42:06 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/247cdfe2235d8cc7301868b383ab2251f852949e](https://github.com/prodyna-yasm/yasm-api-go/commit/d3a7beff3fa4268d080b209e1b5df21d059aec87) by [dkrizic](https://github.com/dkrizic) on 2023-09-14 13:13:29 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/5572cf560bfcc4993e97d9a3c6a8d5978b437d8b](https://github.com/prodyna-yasm/yasm-api-go/commit/6f604f1888c8bd839f4aec9726ea454517105e42) by [dkrizic](https://github.com/dkrizic) on 2023-09-14 08:29:39 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/866681703c3f781691944711b54d33dedc50f969](https://github.com/prodyna-yasm/yasm-api-go/commit/ca9544e9eaf8740ab8664decb4c3243d1dc37e42) by [dkrizic](https://github.com/dkrizic) on 2023-09-06 11:48:23 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/43505682e8b0b6b0a022a84ffda32b3c4007f284](https://github.com/prodyna-yasm/yasm-api-go/commit/19099b00f88725a914b1b78c994e7c46fd2c3f25) by [dkrizic](https://github.com/dkrizic) on 2023-09-04 15:21:48 +0000 UTC
+
+- [Update from https://github.com/PRODYNA-YASM/yasm-api/commit/9c1c2f5413c2e5002db0222453d49b1c7be06a36](https://github.com/prodyna-yasm/yasm-api-go/commit/b2667e49824c7adabe09ce60b49636246b1df679) by [dkrizic](https://github.com/dkrizic) on 2023-07-07 16:43:22 +0000 UTC
+
+- [Merge pull request #4 from PRODYNA-YASM/feature/dependabot-1](https://github.com/prodyna-yasm/yasm-api-go/commit/6e811b58da9fc3188e8ece7238349b8cfffccf46) by [dkrizic](https://github.com/dkrizic) on 2023-06-26 11:33:49 +0000 UTC
+
+
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api-go/pulls) (1)
+
+- [Bump golang.org/x/oauth2 from 0.0.0-20210323180902-22b0adad7558 to 0.9.0](https://github.com/PRODYNA-YASM/yasm-api-go/pull/6)
+
+
+
+### Environments
+
+| Environment | 
+| --- | 
+| Version | 
+| Release | 
+| Current | 
+
+
+### Last releases
+
+- [Generated by yasm-api](https://github.com/PRODYNA-YASM/yasm-api-go/releases/tag/v0.4.2) on 2021-04-17 00:34:08 +0000 UTC
+
+- [First generated go client](https://github.com/PRODYNA-YASM/yasm-api-go/releases/tag/v0.4.0) on 2021-04-16 17:28:54 +0000 UTC
+
+
 
 
 
