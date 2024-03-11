@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-11T06:01:05Z
+Component Status overview. Last update 2024-03-11T07:01:02Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -11,9 +11,9 @@ Component Status overview. Last update 2024-03-11T06:01:05Z
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [10](https://github.com/prodyna-yasm/yasm-integration/compare/1.13.5..HEAD) | :green_square: 0 | 1.13.5 |  :red_square: 68f71e5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [6](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.3.0..HEAD) | :green_square: 0 | 1.3.0 |  :red_square: d7a1462 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
-| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-gotenberg/pulls) | 8.2.0-4 |  :green_square: 8.2.0-4 |  :green_square: 8.2.0-4 |  :green_square: 8.2.0-4 | 
+| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [2](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.2.0-4..HEAD) | :green_square: 0 | 8.2.0-4 |  :red_square: b1bf2d2 |  :green_square: 8.2.0-4 |  :green_square: 8.2.0-4 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.14.0 |  :green_square: 1.14.0 |  :green_square: 1.14.0 |  :red_square: 1.13.1 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [1](https://github.com/prodyna-yasm/yasm-api/compare/1.14.2..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.14.2 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.14.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.14.2 | 
 
 
 
@@ -369,11 +369,13 @@ Component Status overview. Last update 2024-03-11T06:01:05Z
 
 
 
+### [Commits on main since 8.2.0-4](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.2.0-4..HEAD) (2)
+
+- [Merge pull request #36 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.2.1](https://github.com/prodyna-yasm/yasm-gotenberg/commit/b1bf2d2d1b153acf16ae48e9a844aa35f22a1c89) by [dkrizic](https://github.com/dkrizic) on 2024-03-11 06:18:26 +0000 UTC
+
+- [Bump gotenberg/gotenberg from 8.2.0 to 8.2.1](https://github.com/prodyna-yasm/yasm-gotenberg/commit/3b4d7d8d0d189e80364295cd68e696534ed50fd9) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-03-11 00:26:57 +0000 UTC
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-gotenberg/pulls) (1)
-
-- [Bump gotenberg/gotenberg from 8.2.0 to 8.2.1](https://github.com/PRODYNA-YASM/yasm-gotenberg/pull/36)
 
 
 
@@ -381,9 +383,9 @@ Component Status overview. Last update 2024-03-11T06:01:05Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  8.2.0-4 |  8.2.0-4 |  8.2.0-4 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  b1bf2d2 |  8.2.0-4 |  8.2.0-4 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -439,16 +441,18 @@ Component Status overview. Last update 2024-03-11T06:01:05Z
 
 
 
-### [Commits on master since 1.14.2](https://github.com/prodyna-yasm/yasm-api/compare/1.14.2..HEAD) (1)
+### [Commits on master since 1.14.2](https://github.com/prodyna-yasm/yasm-api/compare/1.14.2..HEAD) (3)
+
+- [Merge pull request #159 from PRODYNA-YASM/dependabot/maven/com.fasterxml.jackson.core-jackson-databind-2.16.2](https://github.com/prodyna-yasm/yasm-api/commit/76085627d808078cb135234361ddf5409c003222) by [dkrizic](https://github.com/dkrizic) on 2024-03-11 06:15:41 +0000 UTC
+
+- [Bump com.fasterxml.jackson.core:jackson-databind from 2.16.1 to 2.16.2](https://github.com/prodyna-yasm/yasm-api/commit/0014e48d3f35b31f800fdcf00344bf3fb730ea76) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-03-11 01:08:54 +0000 UTC
 
 - [Remove axios from the delete script](https://github.com/prodyna-yasm/yasm-api/commit/634cf58e276f8ce219077e94dd936d66fba72544) by [dkrizic](https://github.com/dkrizic) on 2024-03-10 11:22:48 +0000 UTC
 
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (2)
-
-- [Bump com.fasterxml.jackson.core:jackson-databind from 2.16.1 to 2.16.2](https://github.com/PRODYNA-YASM/yasm-api/pull/159)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (1)
 
 - [Draft: Skill kind giver refactoring](https://github.com/PRODYNA-YASM/yasm-api/pull/105)
 

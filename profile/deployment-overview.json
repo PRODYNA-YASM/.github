@@ -1057,9 +1057,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8.2.0-4",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "b1bf2d2",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1108,19 +1108,35 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump gotenberg/gotenberg from 8.2.0 to 8.2.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/pull/36"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.2.0-4..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #36 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.2.1",
+            "SHA": "b1bf2d2d1b153acf16ae48e9a844aa35f22a1c89",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-11T06:18:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/b1bf2d2d1b153acf16ae48e9a844aa35f22a1c89"
+          },
+          {
+            "Text": "Bump gotenberg/gotenberg from 8.2.0 to 8.2.1",
+            "SHA": "3b4d7d8d0d189e80364295cd68e696534ed50fd9",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-03-11T00:26:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/3b4d7d8d0d189e80364295cd68e696534ed50fd9"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1247,12 +1263,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "Bump com.fasterxml.jackson.core:jackson-databind from 2.16.1 to 2.16.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/159"
-          },
           {
             "Title": "Draft: Skill kind giver refactoring",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/105"
@@ -1262,8 +1274,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.14.2..HEAD",
-        "Count": 1,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "Merge pull request #159 from PRODYNA-YASM/dependabot/maven/com.fasterxml.jackson.core-jackson-databind-2.16.2",
+            "SHA": "76085627d808078cb135234361ddf5409c003222",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-11T06:15:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/76085627d808078cb135234361ddf5409c003222"
+          },
+          {
+            "Text": "Bump com.fasterxml.jackson.core:jackson-databind from 2.16.1 to 2.16.2",
+            "SHA": "0014e48d3f35b31f800fdcf00344bf3fb730ea76",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-03-11T01:08:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/0014e48d3f35b31f800fdcf00344bf3fb730ea76"
+          },
           {
             "Text": "Remove axios from the delete script",
             "SHA": "634cf58e276f8ce219077e94dd936d66fba72544",
@@ -1299,5 +1331,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-11T06:01:05Z"
+  "LastUpdated": "2024-03-11T07:01:02Z"
 }
