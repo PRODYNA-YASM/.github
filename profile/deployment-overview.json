@@ -574,7 +574,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "b9b63d0",
+          "Version": "5aabe0d",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -631,8 +631,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.10.0..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #165 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.62.1",
+            "SHA": "5aabe0dd21c9869745384c935992662711a769fb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-11T13:54:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/5aabe0dd21c9869745384c935992662711a769fb"
+          },
+          {
+            "Text": "Bump google.golang.org/grpc from 1.62.0 to 1.62.1",
+            "SHA": "f8b377f08d5f554e3638bd9b24f37ff9671ce321",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-03-11T13:19:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/f8b377f08d5f554e3638bd9b24f37ff9671ce321"
+          },
           {
             "Text": "Merge pull request #164 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-4",
             "SHA": "b9b63d0bc7393307eeb68bbeea03475647acd738",
@@ -1316,5 +1336,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-11T13:01:11Z"
+  "LastUpdated": "2024-03-11T14:01:25Z"
 }
