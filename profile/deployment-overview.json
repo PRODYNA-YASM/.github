@@ -62,8 +62,8 @@
         "Count": 3,
         "PullRequests": [
           {
-            "Title": "Bump jackson.version from 2.16.1 to 2.16.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/537"
+            "Title": "Bump jackson.version from 2.16.1 to 2.17.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/538"
           },
           {
             "Title": "Skip build on master (ant not a tag)",
@@ -1268,8 +1268,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Bump com.fasterxml.jackson.core:jackson-databind from 2.16.2 to 2.17.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/161"
+          },
           {
             "Title": "Bump org.openapitools:openapi-generator-maven-plugin from 7.3.0 to 7.4.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/160"
@@ -1340,5 +1344,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-13T00:02:06Z"
+  "LastUpdated": "2024-03-13T01:24:38Z"
 }
