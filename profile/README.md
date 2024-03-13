@@ -1,12 +1,12 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-13T10:01:17Z
+Component Status overview. Last update 2024-03-13T10:07:22Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [7](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.1..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.13.1 |  :red_square: 11f92a8 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [17](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.13.5 |  :red_square: 26fba56 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [9](https://github.com/prodyna-yasm/yasmctl/compare/1.14.0..HEAD) | :green_square: 0 | 1.14.0 |  :red_square: 01c40b8 |  :green_square: 1.14.0 |  :red_square: 1.13.5 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.14.1 |  :green_square: 1.14.1 |  :green_square: 1.14.1 |  :green_square: 1.14.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [4](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.10.0..HEAD) | :green_square: 0 | 1.10.0 |  :red_square: 5aabe0d |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [10](https://github.com/prodyna-yasm/yasm-integration/compare/1.13.5..HEAD) | :green_square: 0 | 1.13.5 |  :red_square: 68f71e5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [6](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.3.0..HEAD) | :green_square: 0 | 1.3.0 |  :red_square: d7a1462 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
@@ -147,30 +147,9 @@ Component Status overview. Last update 2024-03-13T10:01:17Z
 
 
 
-## [yasmctl](https://github.com/prodyna-yasm/yasmctl) 1.14.0
+## [yasmctl](https://github.com/prodyna-yasm/yasmctl) 1.14.1
 
 
-
-
-### [Commits on master since 1.14.0](https://github.com/prodyna-yasm/yasmctl/compare/1.14.0..HEAD) (9)
-
-- [Merge pull request #278 from PRODYNA-YASM/feature/277-dummy-feature](https://github.com/prodyna-yasm/yasmctl/commit/b0472133458826a6fe89c852168d01ff358bb0ee) by [dkrizic](https://github.com/dkrizic) on 2024-03-13 09:59:33 +0000 UTC
-
-- [dummy change](https://github.com/prodyna-yasm/yasmctl/commit/b6f0c51fe98626b2548a7fe6e0dd38a35a9a700c) by [dkrizic](https://github.com/dkrizic) on 2024-03-13 09:56:05 +0000 UTC
-
-- [Merge pull request #276 from PRODYNA-YASM/feature/275-unable-to-get-version-on-api-114](https://github.com/prodyna-yasm/yasmctl/commit/01c40b8b30a42f8a442b44e0a02d7b716a4207c3) by [dkrizic](https://github.com/dkrizic) on 2024-03-08 14:56:00 +0000 UTC
-
-- [Remove dead code](https://github.com/prodyna-yasm/yasmctl/commit/2df34f90823f233ac1d0536b6f4aaadefb9493bb) by [dkrizic](https://github.com/dkrizic) on 2024-03-08 14:52:34 +0000 UTC
-
-- [Use API 1.14.2](https://github.com/prodyna-yasm/yasmctl/commit/810382052480e33213567c5d7f3eaaa5f443a2f6) by [dkrizic](https://github.com/dkrizic) on 2024-03-08 14:52:14 +0000 UTC
-
-- [Use slog](https://github.com/prodyna-yasm/yasmctl/commit/55e5b3ef577372f1fd52dc59c69bdf0dff51a369) by [dkrizic](https://github.com/dkrizic) on 2024-03-08 11:00:00 +0000 UTC
-
-- [Some cleanups](https://github.com/prodyna-yasm/yasmctl/commit/dcba3f945eeb09392a3c3739df03b0ee30144e23) by [dkrizic](https://github.com/dkrizic) on 2024-03-08 10:21:01 +0000 UTC
-
-- [Merge pull request #274 from PRODYNA-YASM/dkrizic-patch-1](https://github.com/prodyna-yasm/yasmctl/commit/5de4e15b7d9ba252cf94e8df9e90b9d141a7f20b) by [dkrizic](https://github.com/dkrizic) on 2024-03-05 23:40:03 +0000 UTC
-
-- [Update README.md](https://github.com/prodyna-yasm/yasmctl/commit/40a396afbba4413333f612e375a9953e6c93bc0d) by [dkrizic](https://github.com/dkrizic) on 2024-03-05 23:30:17 +0000 UTC
 
 
 
@@ -180,18 +159,18 @@ Component Status overview. Last update 2024-03-13T10:01:17Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  01c40b8 |  1.14.0 |  1.13.5 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :red_square: | 
+| Version |  1.14.1 |  1.14.1 |  1.14.1 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Dummy change](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.14.1) on 2024-03-13 09:59:33 +0000 UTC
+
 - [Use API 1.4.0, remove merge skills](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.14.0) on 2024-03-05 22:56:02 +0000 UTC
 
 - [Just a demo](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.13.5) on 2024-03-05 09:35:38 +0000 UTC
-
-- [1.13.4](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.13.4) on 2024-03-01 21:25:10 +0000 UTC
 
 
 
