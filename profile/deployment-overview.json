@@ -222,8 +222,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "263: set cursor pointer when hovering the image of employee",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/525"
+          },
           {
             "Title": "yasm community requests #414 fix global filters in projects page",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/524"
@@ -1281,5 +1285,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-13T13:01:12Z"
+  "LastUpdated": "2024-03-13T14:01:36Z"
 }
