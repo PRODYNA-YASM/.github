@@ -479,8 +479,28 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.14.0..HEAD",
-        "Count": 7,
+        "Count": 9,
         "Commits": [
+          {
+            "Text": "Merge pull request #278 from PRODYNA-YASM/feature/277-dummy-feature",
+            "SHA": "b0472133458826a6fe89c852168d01ff358bb0ee",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-13T09:59:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/b0472133458826a6fe89c852168d01ff358bb0ee"
+          },
+          {
+            "Text": "dummy change",
+            "SHA": "b6f0c51fe98626b2548a7fe6e0dd38a35a9a700c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-13T09:56:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/b6f0c51fe98626b2548a7fe6e0dd38a35a9a700c"
+          },
           {
             "Text": "Merge pull request #276 from PRODYNA-YASM/feature/275-unable-to-get-version-on-api-114",
             "SHA": "01c40b8b30a42f8a442b44e0a02d7b716a4207c3",
@@ -1344,5 +1364,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-13T09:01:13Z"
+  "LastUpdated": "2024-03-13T10:01:17Z"
 }
