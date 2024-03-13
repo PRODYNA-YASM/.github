@@ -1197,8 +1197,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 3,
+        "Count": 4,
         "PullRequests": [
+          {
+            "Title": "yasm community requests #414 add new attributes in ProjectSearch",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/162"
+          },
           {
             "Title": "Bump com.fasterxml.jackson.core:jackson-databind from 2.16.2 to 2.17.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/161"
@@ -1273,5 +1277,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-13T10:07:22Z"
+  "LastUpdated": "2024-03-13T11:01:18Z"
 }

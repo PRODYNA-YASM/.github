@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-13T10:07:22Z
+Component Status overview. Last update 2024-03-13T11:01:18Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -13,7 +13,7 @@ Component Status overview. Last update 2024-03-13T10:07:22Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.1-1 |  :green_square: 8.2.1-1 |  :green_square: 8.2.1-1 |  :red_square: 8.2.0-4 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.14.0 |  :green_square: 1.14.0 |  :green_square: 1.14.0 |  :red_square: 1.13.1 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.14.2..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.14.2 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.14.2..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.14.2 | 
 
 
 
@@ -437,7 +437,9 @@ Component Status overview. Last update 2024-03-13T10:07:22Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (3)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (4)
+
+- [yasm community requests #414 add new attributes in ProjectSearch](https://github.com/PRODYNA-YASM/yasm-api/pull/162)
 
 - [Bump com.fasterxml.jackson.core:jackson-databind from 2.16.2 to 2.17.0](https://github.com/PRODYNA-YASM/yasm-api/pull/161)
 
