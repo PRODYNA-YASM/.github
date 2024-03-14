@@ -222,8 +222,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 4,
+        "Count": 5,
         "PullRequests": [
+          {
+            "Title": "427: change yasm guide link to sharepoint",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/527"
+          },
           {
             "Title": "415: when adding skill to a parent, kindGiver need to be set",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/526"
@@ -1390,5 +1394,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-14T15:01:22Z"
+  "LastUpdated": "2024-03-14T16:01:25Z"
 }
