@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-14T09:01:14Z
+Component Status overview. Last update 2024-03-14T10:01:22Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -12,7 +12,7 @@ Component Status overview. Last update 2024-03-14T09:01:14Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [6](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.3.0..HEAD) | :green_square: 0 | 1.3.0 |  :red_square: d7a1462 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.1-1 |  :green_square: 8.2.1-1 |  :green_square: 8.2.1-1 |  :red_square: 8.2.0-4 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.14.0..HEAD) | :green_square: 0 | 1.14.0 |  :red_square: 0d4f819 |  :green_square: 1.14.0 |  :red_square: 1.13.1 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [6](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.14.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.14.0 |  :red_square: b72367d |  :green_square: 1.14.0 |  :red_square: 1.13.1 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.14.2..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.14.2 | 
 
 
@@ -399,7 +399,15 @@ Component Status overview. Last update 2024-03-14T09:01:14Z
 
 
 
-### [Commits on main since 1.14.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.14.0..HEAD) (2)
+### [Commits on main since 1.14.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.14.0..HEAD) (6)
+
+- [Merge pull request #448 from PRODYNA-YASM/feature/445-enable-geoip-module](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b72367df975abf4a70b32b6008cfdf2b0652ce0b) by [dkrizic](https://github.com/dkrizic) on 2024-03-14 09:38:40 +0000 UTC
+
+- [Merge pull request #447 from PRODYNA-YASM/feature/446-better-default-backend](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/27a651a92d276f9b5b977ca0905e0f971a80e331) by [dkrizic](https://github.com/dkrizic) on 2024-03-14 09:30:13 +0000 UTC
+
+- [use custom error page](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ce20cfe94610c3691760385d06a3f474b3c65bfa) by [dkrizic](https://github.com/dkrizic) on 2024-03-14 09:27:16 +0000 UTC
+
+- [Prepration for GeoIP2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e53ecaf876d1b2fb6c06a179997590e29da5bb0f) by [dkrizic](https://github.com/dkrizic) on 2024-03-14 09:21:16 +0000 UTC
 
 - [Merge pull request #444 from PRODYNA-YASM/feature/ingress-4.10.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0d4f819bb0f4cbacdbd913e14b38d990a22af6c3) by [dkrizic](https://github.com/dkrizic) on 2024-03-14 08:26:04 +0000 UTC
 
@@ -408,12 +416,17 @@ Component Status overview. Last update 2024-03-14T09:01:14Z
 
 
 
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (1)
+
+- [Fix typo in configmap](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/449)
+
+
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  0d4f819 |  1.14.0 |  1.13.1 | 
+| Version |  b72367d |  1.14.0 |  1.13.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :red_square: | 
 

@@ -1115,7 +1115,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0d4f819",
+          "Version": "b72367d",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1166,14 +1166,59 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Fix typo in configmap",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/449"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.14.0..HEAD",
-        "Count": 2,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #448 from PRODYNA-YASM/feature/445-enable-geoip-module",
+            "SHA": "b72367df975abf4a70b32b6008cfdf2b0652ce0b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-14T09:38:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b72367df975abf4a70b32b6008cfdf2b0652ce0b"
+          },
+          {
+            "Text": "Merge pull request #447 from PRODYNA-YASM/feature/446-better-default-backend",
+            "SHA": "27a651a92d276f9b5b977ca0905e0f971a80e331",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-14T09:30:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/27a651a92d276f9b5b977ca0905e0f971a80e331"
+          },
+          {
+            "Text": "use custom error page",
+            "SHA": "ce20cfe94610c3691760385d06a3f474b3c65bfa",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-14T09:27:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ce20cfe94610c3691760385d06a3f474b3c65bfa"
+          },
+          {
+            "Text": "Prepration for GeoIP2",
+            "SHA": "e53ecaf876d1b2fb6c06a179997590e29da5bb0f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-14T09:21:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e53ecaf876d1b2fb6c06a179997590e29da5bb0f"
+          },
           {
             "Text": "Merge pull request #444 from PRODYNA-YASM/feature/ingress-4.10.0",
             "SHA": "0d4f819bb0f4cbacdbd913e14b38d990a22af6c3",
@@ -1326,5 +1371,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-14T09:01:14Z"
+  "LastUpdated": "2024-03-14T10:01:22Z"
 }
