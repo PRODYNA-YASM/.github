@@ -1115,9 +1115,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.14.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "0d4f819",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1172,8 +1172,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.14.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #444 from PRODYNA-YASM/feature/ingress-4.10.0",
+            "SHA": "0d4f819bb0f4cbacdbd913e14b38d990a22af6c3",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-14T08:26:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0d4f819bb0f4cbacdbd913e14b38d990a22af6c3"
+          },
+          {
+            "Text": "New ingress and Grafana",
+            "SHA": "5e07bf3b9df19a8e0beca85f7f42e7ee7a278db3",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-14T08:14:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/5e07bf3b9df19a8e0beca85f7f42e7ee7a278db3"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1305,5 +1326,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-14T08:01:17Z"
+  "LastUpdated": "2024-03-14T09:01:14Z"
 }

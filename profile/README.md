@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-14T08:01:17Z
+Component Status overview. Last update 2024-03-14T09:01:14Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -12,7 +12,7 @@ Component Status overview. Last update 2024-03-14T08:01:17Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [6](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.3.0..HEAD) | :green_square: 0 | 1.3.0 |  :red_square: d7a1462 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.1-1 |  :green_square: 8.2.1-1 |  :green_square: 8.2.1-1 |  :red_square: 8.2.0-4 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.14.0 |  :green_square: 1.14.0 |  :green_square: 1.14.0 |  :red_square: 1.13.1 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.14.0..HEAD) | :green_square: 0 | 1.14.0 |  :red_square: 0d4f819 |  :green_square: 1.14.0 |  :red_square: 1.13.1 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.14.2..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.14.2 | 
 
 
@@ -399,6 +399,13 @@ Component Status overview. Last update 2024-03-14T08:01:17Z
 
 
 
+### [Commits on main since 1.14.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.14.0..HEAD) (2)
+
+- [Merge pull request #444 from PRODYNA-YASM/feature/ingress-4.10.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0d4f819bb0f4cbacdbd913e14b38d990a22af6c3) by [dkrizic](https://github.com/dkrizic) on 2024-03-14 08:26:04 +0000 UTC
+
+- [New ingress and Grafana](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/5e07bf3b9df19a8e0beca85f7f42e7ee7a278db3) by [dkrizic](https://github.com/dkrizic) on 2024-03-14 08:14:22 +0000 UTC
+
+
 
 
 
@@ -406,9 +413,9 @@ Component Status overview. Last update 2024-03-14T08:01:17Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.14.0 |  1.14.0 |  1.13.1 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Version |  0d4f819 |  1.14.0 |  1.13.1 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
