@@ -511,7 +511,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "5aabe0d",
+          "Version": "3305228",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -568,8 +568,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.10.0..HEAD",
-        "Count": 4,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #166 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/protobuf-1.33.0",
+            "SHA": "330522811a0cd83e05f5138e7b2d51de2dced47f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-13T23:32:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/330522811a0cd83e05f5138e7b2d51de2dced47f"
+          },
+          {
+            "Text": "Bump google.golang.org/protobuf from 1.32.0 to 1.33.0",
+            "SHA": "74b2763577f5c9d62aece9abc3a32d02efde4fad",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-03-13T23:28:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/74b2763577f5c9d62aece9abc3a32d02efde4fad"
+          },
           {
             "Text": "Merge pull request #165 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.62.1",
             "SHA": "5aabe0dd21c9869745384c935992662711a769fb",
@@ -1285,5 +1305,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-13T23:01:20Z"
+  "LastUpdated": "2024-03-14T00:02:05Z"
 }
