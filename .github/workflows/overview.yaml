@@ -1,6 +1,7 @@
 name: Create Overview
 
 on:
+  workflow_call:
   workflow_dispatch:
   # Every day at 07:00
   schedule:
