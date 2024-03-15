@@ -36,6 +36,7 @@ jobs:
 
       - name: Commit changes
         run: |
+          git pull --rebase origin main
           git config --local user.email "darko@krizic.net"
           git config --local user.name "Deployment Overview"
           git add profile
