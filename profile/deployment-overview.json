@@ -220,8 +220,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Only if deployment was successful",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/285"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
@@ -789,5 +794,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-15T15:19:10Z"
+  "LastUpdated": "2024-03-15T15:23:00Z"
 }
