@@ -536,23 +536,23 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "093fc56",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.11.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.10.0",
+          "Version": "1.11.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.10.0",
+          "Version": "1.11.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1076,5 +1076,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-15T10:35:36Z"
+  "LastUpdated": "2024-03-15T10:38:01Z"
 }

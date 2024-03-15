@@ -1,13 +1,13 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-15T10:35:36Z
+Component Status overview. Last update 2024-03-15T10:38:01Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [7](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.1..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.13.1 |  :red_square: 11f92a8 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [17](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.13.5 |  :red_square: 26fba56 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.14.1 |  :green_square: 1.14.1 |  :green_square: 1.14.1 |  :green_square: 1.14.1 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.0 |  :red_square: 093fc56 |  :red_square: 1.10.0 |  :red_square: 1.10.0 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 |  :red_square: 1.3.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
@@ -213,9 +213,9 @@ Component Status overview. Last update 2024-03-15T10:35:36Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  093fc56 |  1.10.0 |  1.10.0 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :red_square: |  :red_square: | 
+| Version |  1.11.0 |  1.11.0 |  1.11.0 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
