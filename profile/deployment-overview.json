@@ -226,8 +226,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 5,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "357: deactivate copilot button for prod",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/528"
+          },
           {
             "Title": "427: change yasm guide link to sharepoint",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/527"
@@ -574,8 +578,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Some new golang stuff",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/168"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
@@ -659,7 +668,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "68f71e5",
+          "Version": "2f93d02",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -716,8 +725,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.13.5..HEAD",
-        "Count": 10,
+        "Count": 12,
         "Commits": [
+          {
+            "Text": "Merge pull request #378 from PRODYNA-YASM/feature/377-api-115",
+            "SHA": "2f93d02ce5ecb9fd89dd945ced0bc9717105f85d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-15T10:19:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/2f93d02ce5ecb9fd89dd945ced0bc9717105f85d"
+          },
+          {
+            "Text": "Using API 1.15 and other updates",
+            "SHA": "ccfde4c88eeab8718f3cd224ee0b0a98f954db53",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-15T10:10:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/ccfde4c88eeab8718f3cd224ee0b0a98f954db53"
+          },
           {
             "Text": "Merge pull request #376 from PRODYNA-YASM/feature/api-1.14.2",
             "SHA": "68f71e57650fab41744eeee0cccdce1939a882c1",
@@ -1060,9 +1089,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "8.2.0-4",
+          "Version": "8.2.1-1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1110,14 +1139,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #36 from PRODYNA-YASM/dependabot/docker/gotenberg/…",
-            "Timestamp": "2024-03-11T07:07:00Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/8228921052"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1127,16 +1150,16 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "f0b7c4f",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.15.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
           "Version": "1.14.0",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         },
         {
           "Name": "prod",
@@ -1147,13 +1170,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "1.14.0",
+        "Tag": "1.15.0",
         "SHA": "",
-        "Title": "Remove CosmosDB",
-        "Timestamp": "2024-03-08T19:39:53Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.14.0"
+        "Title": "Ingress-Nginx 1.10, new Grafana, custom error page",
+        "Timestamp": "2024-03-15T10:20:33Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.15.0"
       },
       "Releases": [
+        {
+          "Tag": "1.15.0",
+          "SHA": "",
+          "Title": "Ingress-Nginx 1.10, new Grafana, custom error page",
+          "Timestamp": "2024-03-14T10:44:54Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.15.0"
+        },
         {
           "Tag": "1.14.0",
           "SHA": "",
@@ -1167,13 +1197,6 @@
           "Title": "Fix maintenance windows",
           "Timestamp": "2024-03-05T16:32:55Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.13.1"
-        },
-        {
-          "Tag": "1.13.0",
-          "SHA": "",
-          "Title": "1.13.0",
-          "Timestamp": "2024-03-05T11:36:07Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.13.0"
         }
       ],
       "PullRequests": {
@@ -1183,97 +1206,21 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.14.0..HEAD",
-        "Count": 8,
-        "Commits": [
-          {
-            "Text": "Merge pull request #449 from PRODYNA-YASM/feature/445-enable-geoip-module",
-            "SHA": "f0b7c4f2ed33a4aedc6d934f6eb75423b8e5660d",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-14T10:44:54Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f0b7c4f2ed33a4aedc6d934f6eb75423b8e5660d"
-          },
-          {
-            "Text": "Fix typo in configmap",
-            "SHA": "4953c25e2d5079d22fc212dc84fba41dee70a9ab",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-14T09:40:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/4953c25e2d5079d22fc212dc84fba41dee70a9ab"
-          },
-          {
-            "Text": "Merge pull request #448 from PRODYNA-YASM/feature/445-enable-geoip-module",
-            "SHA": "b72367df975abf4a70b32b6008cfdf2b0652ce0b",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-14T09:38:40Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b72367df975abf4a70b32b6008cfdf2b0652ce0b"
-          },
-          {
-            "Text": "Merge pull request #447 from PRODYNA-YASM/feature/446-better-default-backend",
-            "SHA": "27a651a92d276f9b5b977ca0905e0f971a80e331",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-14T09:30:13Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/27a651a92d276f9b5b977ca0905e0f971a80e331"
-          },
-          {
-            "Text": "use custom error page",
-            "SHA": "ce20cfe94610c3691760385d06a3f474b3c65bfa",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-14T09:27:16Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ce20cfe94610c3691760385d06a3f474b3c65bfa"
-          },
-          {
-            "Text": "Prepration for GeoIP2",
-            "SHA": "e53ecaf876d1b2fb6c06a179997590e29da5bb0f",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-14T09:21:16Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e53ecaf876d1b2fb6c06a179997590e29da5bb0f"
-          },
-          {
-            "Text": "Merge pull request #444 from PRODYNA-YASM/feature/ingress-4.10.0",
-            "SHA": "0d4f819bb0f4cbacdbd913e14b38d990a22af6c3",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-14T08:26:04Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0d4f819bb0f4cbacdbd913e14b38d990a22af6c3"
-          },
-          {
-            "Text": "New ingress and Grafana",
-            "SHA": "5e07bf3b9df19a8e0beca85f7f42e7ee7a278db3",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-14T08:14:22Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/5e07bf3b9df19a8e0beca85f7f42e7ee7a278db3"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.15.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "Merge pull request #449 from PRODYNA-YASM/feature/445-enable-geoip-mo…",
+            "Timestamp": "2024-03-15T10:20:35Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/8294687130"
+          },
           {
             "Name": "Merge pull request #443 from PRODYNA-YASM/feature/remove-cosmos",
             "Timestamp": "2024-03-08T19:39:55Z",
@@ -1363,5 +1310,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-15T10:01:19Z"
+  "LastUpdated": "2024-03-15T10:24:22Z"
 }
