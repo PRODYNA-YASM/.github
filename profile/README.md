@@ -1,18 +1,18 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-15T13:28:22Z
+Component Status overview. Last update 2024-03-15T14:01:17Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 |  :red_square: 1.13.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) | :green_square: 0 | 1.13.5 |  :red_square: 74a7c24 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :green_square: 0 | 1.15.1 |  :green_square: 1.15.1 |  :green_square: 1.15.1 |  :red_square: 1.13.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [9](https://github.com/prodyna-yasm/yasmctl/compare/1.14.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.14.1 |  :red_square: 54de4ff |  :green_square: 1.14.1 |  :green_square: 1.14.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.1-1 |  :green_square: 8.2.1-1 |  :green_square: 8.2.1-1 |  :green_square: 8.2.1-1 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.15.1 |  :green_square: 1.15.1 |  :green_square: 1.15.1 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.15.1 |  :green_square: 1.15.1 |  :green_square: 1.15.1 |  :green_square: 1.15.1 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.15.0 | 
 
 
@@ -57,72 +57,9 @@ Component Status overview. Last update 2024-03-15T13:28:22Z
 
 
 
-## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.13.5
+## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.15.1
 
 
-
-
-### [Commits on master since 1.13.5](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) (30)
-
-- [Merge pull request #525 from PRODYNA-YASM/feature/263-set-cursor-pointer](https://github.com/prodyna-yasm/yasm-frontend/commit/74a7c24485c6dcfe7571e8e7dac90420662f333e) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-15 12:49:59 +0000 UTC
-
-- [Merge pull request #526 from PRODYNA-YASM/bugfix/415-fix-set-parent-admin-skills](https://github.com/prodyna-yasm/yasm-frontend/commit/35a0c6bc4df1d11f4d5843b673bf4031d1d809de) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-15 12:49:39 +0000 UTC
-
-- [Merge pull request #527 from PRODYNA-YASM/feature/427-change-yasm-guide-link-to-sharepoint](https://github.com/prodyna-yasm/yasm-frontend/commit/34ba504f95626829860cb884c266bf5f5b8d178c) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-15 12:49:23 +0000 UTC
-
-- [Merge pull request #528 from PRODYNA-YASM/feature/357-deactivate-copilot-button-on-prod-temporarily](https://github.com/prodyna-yasm/yasm-frontend/commit/76b1a182bb6ab8f991d7ef354250de9c7eec9d4a) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-15 12:42:37 +0000 UTC
-
-- [Merge pull request #530 from PRODYNA-YASM/bugfix/414_fix-global-filter-projects-page](https://github.com/prodyna-yasm/yasm-frontend/commit/8f68b5cbbbea7735253253c2299ae67935fb6f3d) by [irhox](https://github.com/irhox) on 2024-03-15 12:35:20 +0000 UTC
-
-- [yasm-community-request #414 add filters to searchProjects endpoint request](https://github.com/prodyna-yasm/yasm-frontend/commit/e1307c337de8ca9d6578093fd0c15e4ba4046db9) by [irhox](https://github.com/irhox) on 2024-03-15 12:31:47 +0000 UTC
-
-- [Merge pull request #523 from PRODYNA-YASM/fix/412-project-selection-list](https://github.com/prodyna-yasm/yasm-frontend/commit/03ce8d274f40e983dbd4d01798a99151bcf6b7ef) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-15 11:27:51 +0000 UTC
-
-- [Merge pull request #524 from PRODYNA-YASM/bugfix/414_fix-global-filter-projects-page](https://github.com/prodyna-yasm/yasm-frontend/commit/dca0b2ddc208ab4d39935dd072f14f863ae566cc) by [irhox](https://github.com/irhox) on 2024-03-15 10:48:58 +0000 UTC
-
-- [Merge pull request #529 from PRODYNA-YASM/feature/293-increase-the-amount-of-focus-skills-to-20-for-export](https://github.com/prodyna-yasm/yasm-frontend/commit/3deb35ed1482c0a9fcbb6da6d34c83f4e07c2bd8) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-15 10:41:38 +0000 UTC
-
-- [delete the additional changes. Just increase the Skill limit](https://github.com/prodyna-yasm/yasm-frontend/commit/d0c6bddca11415f457388d8fe8df8e0ceb5f9bd0) by [TimSFunk](https://github.com/TimSFunk) on 2024-03-15 10:38:14 +0000 UTC
-
-- [yasm-community-request #421 fix back to search results button](https://github.com/prodyna-yasm/yasm-frontend/commit/6431c0f4ed80c7771a9235466c0a8534aac08968) by [irhox](https://github.com/irhox) on 2024-03-15 10:26:12 +0000 UTC
-
-- [yasm-community-requests #414 fixed organizationCountry filters and involvedCountry filters](https://github.com/prodyna-yasm/yasm-frontend/commit/22701612d0127a16319d4e4e52c274717be3b075) by [irhox](https://github.com/irhox) on 2024-03-15 10:22:17 +0000 UTC
-
-- [357: deactivate copilot button for prod](https://github.com/prodyna-yasm/yasm-frontend/commit/997dd6077c32bee1a419d408a0c3ae1128667b03) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-15 10:19:42 +0000 UTC
-
-- [Increased the selected skill limit to 20 and changed the text input to show the placeholder text when a skill/methodology/certificate is entered. It now shows the placeholder when the maximum is reached before that just the last input](https://github.com/prodyna-yasm/yasm-frontend/commit/07cad57969be6fd9308ccac35108b6c4208e4972) by [TimSFunk](https://github.com/TimSFunk) on 2024-03-15 10:18:49 +0000 UTC
-
-- [427: change yasm guide link to sharepoint](https://github.com/prodyna-yasm/yasm-frontend/commit/c801df5475868fcd51c7b1546300accefad12561) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-14 15:02:38 +0000 UTC
-
-- [415: when adding skill to a parent, kindGiver need to be set](https://github.com/prodyna-yasm/yasm-frontend/commit/cfe236826e0d5abd392ad659c6c2773dbec0bff5) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-13 13:36:08 +0000 UTC
-
-- [263: set cursor pointer when hovering the image of employee](https://github.com/prodyna-yasm/yasm-frontend/commit/7e42472a9f38a36aa47fa93b9afb028b43252af4) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-13 13:20:25 +0000 UTC
-
-- [yasm community requests #414 duration and numberOfEmployees filters are added to history state](https://github.com/prodyna-yasm/yasm-frontend/commit/8d1229d20e5ab831582950fc64028ec64ef8419b) by [irhox](https://github.com/irhox) on 2024-03-12 14:39:41 +0000 UTC
-
-- [yasm community requests #414 startYear and endYear filters are added to history state](https://github.com/prodyna-yasm/yasm-frontend/commit/69383a5c6bf94f8f4fe7882266445d7ad12849cc) by [irhox](https://github.com/irhox) on 2024-03-11 23:43:58 +0000 UTC
-
-- [Merge branch 'master' into bugfix/414_fix-global-filter-projects-page](https://github.com/prodyna-yasm/yasm-frontend/commit/bca3db48bed8ad5b29c45da09893674fc35ecb72) by [irhox](https://github.com/irhox) on 2024-03-11 22:08:10 +0000 UTC
-
-- [Merge pull request #518 from PRODYNA-YASM/feature/100-add-possibility-to-edit-project-type-confidentiality](https://github.com/prodyna-yasm/yasm-frontend/commit/26fba56d17640767232d0d52f19e25a47466b95e) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-07 09:54:26 +0000 UTC
-
-- [100: add padding to Chips in CardView](https://github.com/prodyna-yasm/yasm-frontend/commit/0178d9aefca5ee6997f4d033928bedad073a8ffe) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-07 09:50:35 +0000 UTC
-
-- [100: fixed merge conflict issues](https://github.com/prodyna-yasm/yasm-frontend/commit/b51c3b93fec029c361b2cf672ccd5f94b443bdb5) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-07 08:45:22 +0000 UTC
-
-- [Merge branch 'master' into feature/100-add-possibility-to-edit-project-type-confidentiality](https://github.com/prodyna-yasm/yasm-frontend/commit/0ae77482472608a9ef58c224129025ecc8841f5f) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-07 08:29:56 +0000 UTC
-
-- [Merge pull request #515 from PRODYNA-YASM/bugfix/411-overlap-clickable-area-projects](https://github.com/prodyna-yasm/yasm-frontend/commit/709b37602c58d89964bb3026f03d6461bb7fe2d7) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-07 08:25:31 +0000 UTC
-
-- [yasm community requests #414 fixed status filter](https://github.com/prodyna-yasm/yasm-frontend/commit/2534bbb932d55b2eb30bec8fbd4ec71a1b2ef5e2) by [irhox](https://github.com/irhox) on 2024-03-06 13:57:37 +0000 UTC
-
-- [Fix broken url in dev mode](https://github.com/prodyna-yasm/yasm-frontend/commit/6e87994c7ee8b375101ed04de47163282d4947f6) by [Milos5611](https://github.com/Milos5611) on 2024-03-01 16:56:10 +0000 UTC
-
-- [Merge pull request #512 from PRODYNA-YASM/feature/357-copilot-button](https://github.com/prodyna-yasm/yasm-frontend/commit/4aa310d9351df67160b8ce4c176fb70a655d395d) by [Milos5611](https://github.com/Milos5611) on 2024-03-01 16:43:21 +0000 UTC
-
-- [Fix hostname](https://github.com/prodyna-yasm/yasm-frontend/commit/bff170347a25b05df6990022eef2f5c9ea79358f) by [dkrizic](https://github.com/dkrizic) on 2024-03-01 16:38:54 +0000 UTC
-
-- [Merge pull request #522 from PRODYNA-YASM/feature/511-activate-opentelemetry](https://github.com/prodyna-yasm/yasm-frontend/commit/cabdd66b63c1b3783644d551ae1c6263046013e5) by [dkrizic](https://github.com/dkrizic) on 2024-03-01 16:15:01 +0000 UTC
 
 
 
@@ -132,18 +69,18 @@ Component Status overview. Last update 2024-03-15T13:28:22Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  74a7c24 |  1.13.5 |  1.13.5 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.15.1 |  1.15.1 |  1.13.5 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
 
+- [Fixed staging helm chart](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.15.1) on 2024-03-15 13:48:03 +0000 UTC
+
+- [Fixed Global Filters in Projects, Add Copilot Github Button (dev and stage), Edit Project type confidentiality and internal](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.15.0) on 2024-03-15 12:49:59 +0000 UTC
+
 - [Global filter stay in history, brotli support](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.13.5) on 2024-03-01 12:05:21 +0000 UTC
-
-- [1.13.4](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.13.4) on 2024-02-27 10:16:06 +0000 UTC
-
-- [1.13.3](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.13.3) on 2024-02-27 08:04:54 +0000 UTC
 
 
 
@@ -376,11 +313,11 @@ Component Status overview. Last update 2024-03-15T13:28:22Z
 
 ### Environments
 
-| Environment |  dev |  staging | 
-| --- |  --- |  --- | 
-| Version |  1.15.1 |  1.15.1 | 
-| Release |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: | 
+| Environment |  dev |  staging |  prod | 
+| --- |  --- |  --- |  --- | 
+| Version |  1.15.1 |  1.15.1 |  1.15.1 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
