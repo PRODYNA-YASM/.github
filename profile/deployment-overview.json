@@ -30,7 +30,7 @@
       "LatestRelease": {
         "Tag": "1.15.0",
         "SHA": "",
-        "Title": "1.15.0",
+        "Title": "Sort person skills by experience, json logging",
         "Timestamp": "2024-03-15T12:15:57Z",
         "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.15.0"
       },
@@ -38,7 +38,7 @@
         {
           "Tag": "1.15.0",
           "SHA": "",
-          "Title": "1.15.0",
+          "Title": "Sort person skills by experience, json logging",
           "Timestamp": "2024-03-15T12:06:51Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.15.0"
         },
@@ -94,7 +94,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "03ce8d2",
+          "Version": "74a7c24",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -116,7 +116,7 @@
       "LatestRelease": {
         "Tag": "1.13.5",
         "SHA": "",
-        "Title": "1.13.5",
+        "Title": "Global filter stay in history, brotli support",
         "Timestamp": "2024-03-01T12:51:40Z",
         "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.13.5"
       },
@@ -124,7 +124,7 @@
         {
           "Tag": "1.13.5",
           "SHA": "",
-          "Title": "1.13.5",
+          "Title": "Global filter stay in history, brotli support",
           "Timestamp": "2024-03-01T12:05:21Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.13.5"
         },
@@ -145,31 +145,74 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 4,
-        "PullRequests": [
-          {
-            "Title": "357: deactivate copilot button for prod",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/528"
-          },
-          {
-            "Title": "427: change yasm guide link to sharepoint",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/527"
-          },
-          {
-            "Title": "415: when adding skill to a parent, kindGiver need to be set",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/526"
-          },
-          {
-            "Title": "263: set cursor pointer when hovering the image of employee",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/525"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD",
-        "Count": 28,
+        "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #525 from PRODYNA-YASM/feature/263-set-cursor-pointer",
+            "SHA": "74a7c24485c6dcfe7571e8e7dac90420662f333e",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-03-15T12:49:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/74a7c24485c6dcfe7571e8e7dac90420662f333e"
+          },
+          {
+            "Text": "Merge pull request #526 from PRODYNA-YASM/bugfix/415-fix-set-parent-admin-skills",
+            "SHA": "35a0c6bc4df1d11f4d5843b673bf4031d1d809de",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-03-15T12:49:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/35a0c6bc4df1d11f4d5843b673bf4031d1d809de"
+          },
+          {
+            "Text": "Merge pull request #527 from PRODYNA-YASM/feature/427-change-yasm-guide-link-to-sharepoint",
+            "SHA": "34ba504f95626829860cb884c266bf5f5b8d178c",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-03-15T12:49:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/34ba504f95626829860cb884c266bf5f5b8d178c"
+          },
+          {
+            "Text": "Merge pull request #528 from PRODYNA-YASM/feature/357-deactivate-copilot-button-on-prod-temporarily",
+            "SHA": "76b1a182bb6ab8f991d7ef354250de9c7eec9d4a",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-03-15T12:42:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/76b1a182bb6ab8f991d7ef354250de9c7eec9d4a"
+          },
+          {
+            "Text": "Merge pull request #530 from PRODYNA-YASM/bugfix/414_fix-global-filter-projects-page",
+            "SHA": "8f68b5cbbbea7735253253c2299ae67935fb6f3d",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-03-15T12:35:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/8f68b5cbbbea7735253253c2299ae67935fb6f3d"
+          },
+          {
+            "Text": "yasm-community-request #414 add filters to searchProjects endpoint request",
+            "SHA": "e1307c337de8ca9d6578093fd0c15e4ba4046db9",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-03-15T12:31:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/e1307c337de8ca9d6578093fd0c15e4ba4046db9"
+          },
           {
             "Text": "Merge pull request #523 from PRODYNA-YASM/fix/412-project-selection-list",
             "SHA": "03ce8d274f40e983dbd4d01798a99151bcf6b7ef",
@@ -231,6 +274,16 @@
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/22701612d0127a16319d4e4e52c274717be3b075"
           },
           {
+            "Text": "357: deactivate copilot button for prod",
+            "SHA": "997dd6077c32bee1a419d408a0c3ae1128667b03",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-03-15T10:19:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/997dd6077c32bee1a419d408a0c3ae1128667b03"
+          },
+          {
             "Text": "Increased the selected skill limit to 20 and changed the text input to show the placeholder text when a skill/methodology/certificate is entered. It now shows the placeholder when the maximum is reached before that just the last input",
             "SHA": "07cad57969be6fd9308ccac35108b6c4208e4972",
             "Author": {
@@ -239,6 +292,36 @@
             },
             "Timestamp": "2024-03-15T10:18:49Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/07cad57969be6fd9308ccac35108b6c4208e4972"
+          },
+          {
+            "Text": "427: change yasm guide link to sharepoint",
+            "SHA": "c801df5475868fcd51c7b1546300accefad12561",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-03-14T15:02:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/c801df5475868fcd51c7b1546300accefad12561"
+          },
+          {
+            "Text": "415: when adding skill to a parent, kindGiver need to be set",
+            "SHA": "cfe236826e0d5abd392ad659c6c2773dbec0bff5",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-03-13T13:36:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/cfe236826e0d5abd392ad659c6c2773dbec0bff5"
+          },
+          {
+            "Text": "263: set cursor pointer when hovering the image of employee",
+            "SHA": "7e42472a9f38a36aa47fa93b9afb028b43252af4",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-03-13T13:20:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7e42472a9f38a36aa47fa93b9afb028b43252af4"
           },
           {
             "Text": "yasm community requests #414 duration and numberOfEmployees filters are added to history state",
@@ -369,86 +452,6 @@
             },
             "Timestamp": "2024-03-01T16:15:01Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/cabdd66b63c1b3783644d551ae1c6263046013e5"
-          },
-          {
-            "Text": "Move otel_service_name to root",
-            "SHA": "1724a6bda6ed4e633ec888f1fae33fb6880a4fa8",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-01T16:10:38Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/1724a6bda6ed4e633ec888f1fae33fb6880a4fa8"
-          },
-          {
-            "Text": "Merge pull request #521 from PRODYNA-YASM/feature/511-activate-opentelemetry",
-            "SHA": "908e4fb370a5b4a1e2d40cdc0e49a23f977b2daf",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-01T16:05:44Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/908e4fb370a5b4a1e2d40cdc0e49a23f977b2daf"
-          },
-          {
-            "Text": "Fix syntax on default.conf",
-            "SHA": "f7c39e6e0f3a4cc9fe33a36d48164cf3f3026234",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-01T15:58:55Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/f7c39e6e0f3a4cc9fe33a36d48164cf3f3026234"
-          },
-          {
-            "Text": "Merge pull request #520 from PRODYNA-YASM/feature/511-activate-opentelemetry",
-            "SHA": "24947c9c8992a4e3a086c1251481d1659a0af90f",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-01T15:31:37Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/24947c9c8992a4e3a086c1251481d1659a0af90f"
-          },
-          {
-            "Text": "Missing tag \"endpoint\"",
-            "SHA": "7c6ca2209c5d4f759249e18d6e236a93c661b578",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-01T14:17:16Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7c6ca2209c5d4f759249e18d6e236a93c661b578"
-          },
-          {
-            "Text": "Merge pull request #513 from PRODYNA-YASM/feature/511-activate-opentelemetry",
-            "SHA": "45bc7d8d45804c19dde49c1e395810aa422b45be",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-01T14:10:22Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/45bc7d8d45804c19dde49c1e395810aa422b45be"
-          },
-          {
-            "Text": "Merge pull request #519 from PRODYNA-YASM/feature/update-actions",
-            "SHA": "6390b6234e073976566f6e7816e87e5229dd33f4",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-01T14:05:43Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/6390b6234e073976566f6e7816e87e5229dd33f4"
-          },
-          {
-            "Text": "Setup Helm v4",
-            "SHA": "008261be30c4c5a8b32e2bdf5c9e1ef7c09c7d1a",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-01T14:02:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/008261be30c4c5a8b32e2bdf5c9e1ef7c09c7d1a"
           }
         ]
       },
@@ -666,7 +669,7 @@
       "LatestRelease": {
         "Tag": "1.11.0",
         "SHA": "",
-        "Title": "1.11.0",
+        "Title": "Technical updates",
         "Timestamp": "2024-03-15T10:33:41Z",
         "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.0"
       },
@@ -674,7 +677,7 @@
         {
           "Tag": "1.11.0",
           "SHA": "",
-          "Title": "1.11.0",
+          "Title": "Technical updates",
           "Timestamp": "2024-03-15T10:28:15Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.0"
         },
@@ -1069,8 +1072,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "feature/450 disable geoip for now",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/451"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -1178,5 +1186,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-15T12:25:25Z"
+  "LastUpdated": "2024-03-15T12:55:21Z"
 }
