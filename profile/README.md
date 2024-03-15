@@ -1,10 +1,10 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-15T12:01:18Z
+Component Status overview. Last update 2024-03-15T12:25:25Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [9](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.1..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.13.1 |  :red_square: ccf9c97 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 |  :red_square: 1.13.1 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [28](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.13.5 |  :red_square: 03ce8d2 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [9](https://github.com/prodyna-yasm/yasmctl/compare/1.14.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.14.1 |  :red_square: 54de4ff |  :green_square: 1.14.1 |  :green_square: 1.14.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 | 
@@ -17,43 +17,16 @@ Component Status overview. Last update 2024-03-15T12:01:18Z
 
 
 
-## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.13.1
+## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.15.0
 
 
 
 
-### [Commits on master since 1.13.1](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.1..HEAD) (9)
-
-- [yasm community requests #414 fix projects global filters (#539)](https://github.com/prodyna-yasm/yasm-backend/commit/ccf9c97cdce8b41020e64e1ca4a693c453dd6952) by [irhox](https://github.com/irhox) on 2024-03-15 11:27:24 +0000 UTC
-
-- [Skip build on master (ant not a tag) (#536)](https://github.com/prodyna-yasm/yasm-backend/commit/09c4b8e5a65f8a58c8a0824c9600a5fe86b6b6c0) by [dkrizic](https://github.com/dkrizic) on 2024-03-15 11:20:16 +0000 UTC
-
-- [update api 14.0.1 (#534)](https://github.com/prodyna-yasm/yasm-backend/commit/11f92a8541a24fc8eeaeea483a023db4103d5d46) by [coding4kay](https://github.com/coding4kay) on 2024-03-08 15:00:46 +0000 UTC
-
-- [update api 1.14.0 (#532)](https://github.com/prodyna-yasm/yasm-backend/commit/12aa64794b7f9ebfa53db2d760c6d13298df75cc) by [coding4kay](https://github.com/coding4kay) on 2024-03-05 22:37:31 +0000 UTC
-
-- [fix project time range filter (#529)](https://github.com/prodyna-yasm/yasm-backend/commit/d554cb937f3ca9315a59f0ec03fdd386f34e4079) by [coding4kay](https://github.com/coding4kay) on 2024-03-02 00:59:42 +0000 UTC
-
-- [sort person skills by experiece of month (#528)](https://github.com/prodyna-yasm/yasm-backend/commit/2f0974129abcf713839a7f6534218f493af74be3) by [coding4kay](https://github.com/coding4kay) on 2024-03-01 23:19:32 +0000 UTC
-
-- [improve logging (#527)](https://github.com/prodyna-yasm/yasm-backend/commit/44a755b64acbfc9f0629b5bcb6f58676332086aa) by [coding4kay](https://github.com/coding4kay) on 2024-03-01 20:48:43 +0000 UTC
-
-- [change to json logging (#526)](https://github.com/prodyna-yasm/yasm-backend/commit/a93de7d359a5f2f7254cf00b58b00cd8249d7daf) by [coding4kay](https://github.com/coding4kay) on 2024-03-01 19:58:30 +0000 UTC
-
-- [update quarkus (#525)](https://github.com/prodyna-yasm/yasm-backend/commit/e6e29489e1a1eb074ad0c013af2b19852b839157) by [coding4kay](https://github.com/coding4kay) on 2024-03-01 13:26:54 +0000 UTC
 
 
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (4)
-
-- [update quarkus](https://github.com/PRODYNA-YASM/yasm-backend/pull/541)
-
-- [Bump io.smallrye:jandex-maven-plugin from 3.1.6 to 3.1.7](https://github.com/PRODYNA-YASM/yasm-backend/pull/540)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (1)
 
 - [Bump jackson.version from 2.16.1 to 2.17.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/538)
-
-- [Bump quarkus.platform.version from 3.8.1 to 3.8.2](https://github.com/PRODYNA-YASM/yasm-backend/pull/533)
 
 
 
@@ -61,20 +34,25 @@ Component Status overview. Last update 2024-03-15T12:01:18Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  ccf9c97 |  1.13.1 |  1.13.1 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.15.0 |  1.15.0 |  1.13.1 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
+
+- [1.15.0](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.15.0) on 2024-03-15 12:06:51 +0000 UTC
 
 - [1.13.1](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.13.1) on 2024-03-01 12:34:19 +0000 UTC
 
 - [1.13.0](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.13.0) on 2024-02-20 13:10:35 +0000 UTC
 
-- [1.12.1](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.12.1) on 2024-02-14 13:39:08 +0000 UTC
 
 
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting) (1)
+
+- [update quarkus (#541)](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/8296018731) created on 2024-03-15 12:15:58 +0000 UTC
 
 
 
