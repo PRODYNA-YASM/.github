@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-15T11:21:04Z
+Component Status overview. Last update 2024-03-15T11:43:03Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [8](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.1..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.13.1 |  :red_square: 11f92a8 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [27](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.13.5 |  :red_square: dca0b2d |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [9](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.1..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.13.1 |  :red_square: ccf9c97 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [28](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.13.5 |  :red_square: 03ce8d2 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [9](https://github.com/prodyna-yasm/yasmctl/compare/1.14.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.14.1 |  :red_square: 54de4ff |  :green_square: 1.14.1 |  :green_square: 1.14.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 | 
@@ -22,7 +22,9 @@ Component Status overview. Last update 2024-03-15T11:21:04Z
 
 
 
-### [Commits on master since 1.13.1](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.1..HEAD) (8)
+### [Commits on master since 1.13.1](https://github.com/prodyna-yasm/yasm-backend/compare/1.13.1..HEAD) (9)
+
+- [yasm community requests #414 fix projects global filters (#539)](https://github.com/prodyna-yasm/yasm-backend/commit/ccf9c97cdce8b41020e64e1ca4a693c453dd6952) by [irhox](https://github.com/irhox) on 2024-03-15 11:27:24 +0000 UTC
 
 - [Skip build on master (ant not a tag) (#536)](https://github.com/prodyna-yasm/yasm-backend/commit/09c4b8e5a65f8a58c8a0824c9600a5fe86b6b6c0) by [dkrizic](https://github.com/dkrizic) on 2024-03-15 11:20:16 +0000 UTC
 
@@ -43,11 +45,9 @@ Component Status overview. Last update 2024-03-15T11:21:04Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (4)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (3)
 
 - [Bump io.smallrye:jandex-maven-plugin from 3.1.6 to 3.1.7](https://github.com/PRODYNA-YASM/yasm-backend/pull/540)
-
-- [yasm community requests #414 fix projects global filters](https://github.com/PRODYNA-YASM/yasm-backend/pull/539)
 
 - [Bump jackson.version from 2.16.1 to 2.17.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/538)
 
@@ -59,7 +59,7 @@ Component Status overview. Last update 2024-03-15T11:21:04Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  11f92a8 |  1.13.1 |  1.13.1 | 
+| Version |  ccf9c97 |  1.13.1 |  1.13.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -82,7 +82,9 @@ Component Status overview. Last update 2024-03-15T11:21:04Z
 
 
 
-### [Commits on master since 1.13.5](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) (27)
+### [Commits on master since 1.13.5](https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD) (28)
+
+- [Merge pull request #523 from PRODYNA-YASM/fix/412-project-selection-list](https://github.com/prodyna-yasm/yasm-frontend/commit/03ce8d274f40e983dbd4d01798a99151bcf6b7ef) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-15 11:27:51 +0000 UTC
 
 - [Merge pull request #524 from PRODYNA-YASM/bugfix/414_fix-global-filter-projects-page](https://github.com/prodyna-yasm/yasm-frontend/commit/dca0b2ddc208ab4d39935dd072f14f863ae566cc) by [irhox](https://github.com/irhox) on 2024-03-15 10:48:58 +0000 UTC
 
@@ -141,7 +143,7 @@ Component Status overview. Last update 2024-03-15T11:21:04Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (5)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (4)
 
 - [357: deactivate copilot button for prod](https://github.com/PRODYNA-YASM/yasm-frontend/pull/528)
 
@@ -151,15 +153,13 @@ Component Status overview. Last update 2024-03-15T11:21:04Z
 
 - [263: set cursor pointer when hovering the image of employee](https://github.com/PRODYNA-YASM/yasm-frontend/pull/525)
 
-- [Fix/412 project selection list](https://github.com/PRODYNA-YASM/yasm-frontend/pull/523)
-
 
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  dca0b2d |  1.13.5 |  1.13.5 | 
+| Version |  03ce8d2 |  1.13.5 |  1.13.5 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
