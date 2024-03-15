@@ -764,20 +764,6 @@
           "Version": "1.15.1",
           "IsRelease": true,
           "IsCurrent": true
-        },
-        {
-          "Name": "staging",
-          "Link": "",
-          "Version": "1.15.1",
-          "IsRelease": true,
-          "IsCurrent": true
-        },
-        {
-          "Name": "prod",
-          "Link": "",
-          "Version": "1.15.1",
-          "IsRelease": true,
-          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -839,72 +825,6 @@
           }
         ]
       }
-    },
-    {
-      "Name": "yasm-api",
-      "Error": "",
-      "Environments": null,
-      "LatestRelease": {
-        "Tag": "1.15.0",
-        "SHA": "",
-        "Title": "1.15.0",
-        "Timestamp": "2024-03-15T09:32:23Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.15.0"
-      },
-      "Releases": [
-        {
-          "Tag": "1.15.0",
-          "SHA": "",
-          "Title": "1.15.0",
-          "Timestamp": "2024-03-15T09:31:07Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.15.0"
-        },
-        {
-          "Tag": "1.14.2",
-          "SHA": "",
-          "Title": "Using Generator 7.0.1 for Go",
-          "Timestamp": "2024-03-08T14:46:51Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.14.2"
-        },
-        {
-          "Tag": "1.14.1",
-          "SHA": "",
-          "Title": "GitHub user in Person, fix server URLs, updates of generators",
-          "Timestamp": "2024-03-08T14:24:32Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.14.1"
-        }
-      ],
-      "PullRequests": {
-        "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 3,
-        "PullRequests": [
-          {
-            "Title": "Bump com.fasterxml.jackson.core:jackson-databind from 2.16.2 to 2.17.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/161"
-          },
-          {
-            "Title": "Bump org.openapitools:openapi-generator-maven-plugin from 7.3.0 to 7.4.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/160"
-          },
-          {
-            "Title": "Draft: Skill kind giver refactoring",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/105"
-          }
-        ]
-      },
-      "Link": "https://github.com/prodyna-yasm/yasm-api",
-      "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.15.0..HEAD",
-        "Count": 0,
-        "Commits": null
-      },
-      "DefaultBranch": "master",
-      "Tags": null,
-      "Workflows": {
-        "Link": "https://github.com/prodyna-yasm/yasm-api/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
-      }
     }
   ],
   "EnvironmentDescription": [
@@ -921,5 +841,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-15T14:55:42Z"
+  "LastUpdated": "2024-03-15T14:56:23Z"
 }

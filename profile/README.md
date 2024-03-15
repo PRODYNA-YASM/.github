@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-15T14:55:42Z
+Component Status overview. Last update 2024-03-15T14:56:23Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -12,8 +12,7 @@ Component Status overview. Last update 2024-03-15T14:55:42Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.1-1 |  :green_square: 8.2.1-1 |  :green_square: 8.2.1-1 |  :green_square: 8.2.1-1 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.15.1 |  :green_square: 1.15.1 |  :green_square: 1.15.1 |  :green_square: 1.15.1 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.15.0 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.15.1 |  :green_square: 1.15.1 | 
 
 
 
@@ -321,11 +320,11 @@ Component Status overview. Last update 2024-03-15T14:55:42Z
 
 ### Environments
 
-| Environment |  dev |  staging |  prod | 
-| --- |  --- |  --- |  --- | 
-| Version |  1.15.1 |  1.15.1 |  1.15.1 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Environment |  dev | 
+| --- |  --- | 
+| Version |  1.15.1 | 
+| Release |  :green_square: | 
+| Current |  :green_square: | 
 
 
 ### Last releases
@@ -344,45 +343,6 @@ Component Status overview. Last update 2024-03-15T14:55:42Z
 - [Merge pull request #449 from PRODYNA-YASM/feature/445-enable-geoip-mo…](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/8294687130) created on 2024-03-15 10:20:35 +0000 UTC
 
 - [Merge pull request #443 from PRODYNA-YASM/feature/remove-cosmos](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/8208199950) created on 2024-03-08 19:39:55 +0000 UTC
-
-
-
-
-## [yasm-api](https://github.com/prodyna-yasm/yasm-api) 1.15.0
-
-
-
-
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (3)
-
-- [Bump com.fasterxml.jackson.core:jackson-databind from 2.16.2 to 2.17.0](https://github.com/PRODYNA-YASM/yasm-api/pull/161)
-
-- [Bump org.openapitools:openapi-generator-maven-plugin from 7.3.0 to 7.4.0](https://github.com/PRODYNA-YASM/yasm-api/pull/160)
-
-- [Draft: Skill kind giver refactoring](https://github.com/PRODYNA-YASM/yasm-api/pull/105)
-
-
-
-### Environments
-
-| Environment | 
-| --- | 
-| Version | 
-| Release | 
-| Current | 
-
-
-### Last releases
-
-- [1.15.0](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.15.0) on 2024-03-15 09:31:07 +0000 UTC
-
-- [Using Generator 7.0.1 for Go](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.14.2) on 2024-03-08 14:46:51 +0000 UTC
-
-- [GitHub user in Person, fix server URLs, updates of generators](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.14.1) on 2024-03-08 14:24:32 +0000 UTC
-
-
 
 
 
