@@ -59,7 +59,7 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 5,
+        "Count": 4,
         "PullRequests": [
           {
             "Title": "Bump io.smallrye:jandex-maven-plugin from 3.1.6 to 3.1.7",
@@ -74,10 +74,6 @@
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/538"
           },
           {
-            "Title": "Skip build on master (ant not a tag)",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/536"
-          },
-          {
             "Title": "Bump quarkus.platform.version from 3.8.1 to 3.8.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/533"
           }
@@ -86,8 +82,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.13.1..HEAD",
-        "Count": 7,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Skip build on master (ant not a tag) (#536)",
+            "SHA": "09c4b8e5a65f8a58c8a0824c9600a5fe86b6b6c0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-15T11:20:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/09c4b8e5a65f8a58c8a0824c9600a5fe86b6b6c0"
+          },
           {
             "Text": "update api 14.0.1 (#534)",
             "SHA": "11f92a8541a24fc8eeaeea483a023db4103d5d46",
@@ -593,8 +599,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "feature/281 auto update after change on deployment",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/284"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
@@ -1248,5 +1259,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-15T11:14:37Z"
+  "LastUpdated": "2024-03-15T11:21:04Z"
 }
