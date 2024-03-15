@@ -13,6 +13,9 @@ on:
 jobs:
   create-overview:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.OVERVIEW_TOKEN }}
+    
     steps:
       - name: Checkout
         uses: actions/checkout@v4
