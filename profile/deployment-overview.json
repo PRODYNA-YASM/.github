@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 4,
+        "Count": 5,
         "PullRequests": [
+          {
+            "Title": "Bump io.smallrye:jandex-maven-plugin from 3.1.6 to 3.1.7",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/540"
+          },
           {
             "Title": "yasm community requests #414 fix projects global filters",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/539"
@@ -1394,5 +1398,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-15T01:21:49Z"
+  "LastUpdated": "2024-03-15T02:07:13Z"
 }
