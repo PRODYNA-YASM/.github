@@ -169,16 +169,16 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.15.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "fab2aa8",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
           "Version": "1.15.0",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         },
         {
           "Name": "prod",
@@ -189,13 +189,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "1.15.0",
+        "Tag": "1.15.1",
         "SHA": "",
-        "Title": "API 1.5, overview integration",
-        "Timestamp": "2024-03-15T15:15:31Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.15.0"
+        "Title": "Auto update deployments",
+        "Timestamp": "2024-03-15T15:31:56Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.15.1"
       },
       "Releases": [
+        {
+          "Tag": "1.15.1",
+          "SHA": "",
+          "Title": "Auto update deployments",
+          "Timestamp": "2024-03-15T15:25:19Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.15.1"
+        },
         {
           "Tag": "1.15.0",
           "SHA": "",
@@ -209,13 +216,6 @@
           "Title": "Dummy change",
           "Timestamp": "2024-03-13T09:59:33Z",
           "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.14.1"
-        },
-        {
-          "Tag": "1.14.0",
-          "SHA": "",
-          "Title": "Use API 1.4.0, remove merge skills",
-          "Timestamp": "2024-03-05T22:56:02Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.14.0"
         }
       ],
       "PullRequests": {
@@ -225,30 +225,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.15.0..HEAD",
-        "Count": 2,
-        "Commits": [
-          {
-            "Text": "Merge pull request #285 from PRODYNA-YASM/feature/281-auto-update-after-change-on-deployment",
-            "SHA": "fab2aa86d076cafd8b2fd01cd33950ce3746cdf0",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-15T15:25:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/fab2aa86d076cafd8b2fd01cd33950ce3746cdf0"
-          },
-          {
-            "Text": "Only if deployment was successful",
-            "SHA": "81a9e413ad12c15b3ee002b2b69bbcd1e28fe610",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-15T15:22:10Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/81a9e413ad12c15b3ee002b2b69bbcd1e28fe610"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.15.1..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -810,5 +789,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-15T15:25:55Z"
+  "LastUpdated": "2024-03-15T15:32:38Z"
 }

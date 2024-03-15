@@ -1,12 +1,12 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-15T15:25:55Z
+Component Status overview. Last update 2024-03-15T15:32:38Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 |  :red_square: 1.13.1 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :green_square: 0 | 1.15.2 |  :green_square: 1.15.2 |  :green_square: 1.15.2 |  :red_square: 1.13.5 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.15.0..HEAD) | :green_square: 0 | 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 |  :red_square: 1.14.1 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.15.1 |  :red_square: fab2aa8 |  :red_square: 1.15.0 |  :red_square: 1.14.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 | 
@@ -87,16 +87,9 @@ Component Status overview. Last update 2024-03-15T15:25:55Z
 
 
 
-## [yasmctl](https://github.com/prodyna-yasm/yasmctl) 1.15.0
+## [yasmctl](https://github.com/prodyna-yasm/yasmctl) 1.15.1
 
 
-
-
-### [Commits on master since 1.15.0](https://github.com/prodyna-yasm/yasmctl/compare/1.15.0..HEAD) (2)
-
-- [Merge pull request #285 from PRODYNA-YASM/feature/281-auto-update-after-change-on-deployment](https://github.com/prodyna-yasm/yasmctl/commit/fab2aa86d076cafd8b2fd01cd33950ce3746cdf0) by [dkrizic](https://github.com/dkrizic) on 2024-03-15 15:25:19 +0000 UTC
-
-- [Only if deployment was successful](https://github.com/prodyna-yasm/yasmctl/commit/81a9e413ad12c15b3ee002b2b69bbcd1e28fe610) by [dkrizic](https://github.com/dkrizic) on 2024-03-15 15:22:10 +0000 UTC
 
 
 
@@ -106,18 +99,18 @@ Component Status overview. Last update 2024-03-15T15:25:55Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.15.0 |  1.15.0 |  1.14.1 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Version |  fab2aa8 |  1.15.0 |  1.14.1 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :red_square: |  :red_square: | 
 
 
 ### Last releases
 
+- [Auto update deployments](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.15.1) on 2024-03-15 15:25:19 +0000 UTC
+
 - [API 1.5, overview integration](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.15.0) on 2024-03-15 14:46:34 +0000 UTC
 
 - [Dummy change](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.14.1) on 2024-03-13 09:59:33 +0000 UTC
-
-- [Use API 1.4.0, remove merge skills](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.14.0) on 2024-03-05 22:56:02 +0000 UTC
 
 
 
