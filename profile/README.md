@@ -1,12 +1,12 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-15T14:43:32Z
+Component Status overview. Last update 2024-03-15T14:50:16Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 |  :red_square: 1.13.1 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :green_square: 0 | 1.15.2 |  :green_square: 1.15.2 |  :green_square: 1.15.2 |  :red_square: 1.13.5 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [9](https://github.com/prodyna-yasm/yasmctl/compare/1.14.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.14.1 |  :red_square: 54de4ff |  :green_square: 1.14.1 |  :green_square: 1.14.1 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [13](https://github.com/prodyna-yasm/yasmctl/compare/1.14.1..HEAD) | :green_square: 0 | 1.14.1 |  :red_square: 5b0e809 |  :green_square: 1.14.1 |  :green_square: 1.14.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 | 
@@ -97,7 +97,15 @@ Component Status overview. Last update 2024-03-15T14:43:32Z
 
 
 
-### [Commits on master since 1.14.1](https://github.com/prodyna-yasm/yasmctl/compare/1.14.1..HEAD) (9)
+### [Commits on master since 1.14.1](https://github.com/prodyna-yasm/yasmctl/compare/1.14.1..HEAD) (13)
+
+- [Merge pull request #284 from PRODYNA-YASM/feature/281-auto-update-after-change-on-deployment](https://github.com/prodyna-yasm/yasmctl/commit/5b0e809cadde6deda7cecadcfff577cb6243b4b6) by [dkrizic](https://github.com/dkrizic) on 2024-03-15 14:46:34 +0000 UTC
+
+- [Call it this way](https://github.com/prodyna-yasm/yasmctl/commit/0412df4325ecfd4c142e244fac6b6d8affa28cdc) by [dkrizic](https://github.com/dkrizic) on 2024-03-15 14:45:48 +0000 UTC
+
+- [Dummy change](https://github.com/prodyna-yasm/yasmctl/commit/392010abaaf5d7953fdd15af28a1fe647745d822) by [dkrizic](https://github.com/dkrizic) on 2024-03-15 11:52:50 +0000 UTC
+
+- [Inherit security](https://github.com/prodyna-yasm/yasmctl/commit/f573fab62a62ea21ee07a7c5ed0cbc8aa15f7df8) by [dkrizic](https://github.com/dkrizic) on 2024-03-15 11:16:25 +0000 UTC
 
 - [Merge pull request #283 from PRODYNA-YASM/feature/281-auto-update-after-change-on-deployment](https://github.com/prodyna-yasm/yasmctl/commit/54de4ff6dd21b0df6ecaca00549e6113d88145ed) by [dkrizic](https://github.com/dkrizic) on 2024-03-15 11:07:49 +0000 UTC
 
@@ -120,17 +128,12 @@ Component Status overview. Last update 2024-03-15T14:43:32Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasmctl/pulls) (1)
-
-- [feature/281 auto update after change on deployment](https://github.com/PRODYNA-YASM/yasmctl/pull/284)
-
-
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  54de4ff |  1.14.1 |  1.14.1 | 
+| Version |  5b0e809 |  1.14.1 |  1.14.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 

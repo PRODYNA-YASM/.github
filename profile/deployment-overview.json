@@ -175,7 +175,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "54de4ff",
+          "Version": "5b0e809",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -226,19 +226,54 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "feature/281 auto update after change on deployment",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/284"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.14.1..HEAD",
-        "Count": 9,
+        "Count": 13,
         "Commits": [
+          {
+            "Text": "Merge pull request #284 from PRODYNA-YASM/feature/281-auto-update-after-change-on-deployment",
+            "SHA": "5b0e809cadde6deda7cecadcfff577cb6243b4b6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-15T14:46:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/5b0e809cadde6deda7cecadcfff577cb6243b4b6"
+          },
+          {
+            "Text": "Call it this way",
+            "SHA": "0412df4325ecfd4c142e244fac6b6d8affa28cdc",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-15T14:45:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/0412df4325ecfd4c142e244fac6b6d8affa28cdc"
+          },
+          {
+            "Text": "Dummy change",
+            "SHA": "392010abaaf5d7953fdd15af28a1fe647745d822",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-15T11:52:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/392010abaaf5d7953fdd15af28a1fe647745d822"
+          },
+          {
+            "Text": "Inherit security",
+            "SHA": "f573fab62a62ea21ee07a7c5ed0cbc8aa15f7df8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-15T11:16:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/f573fab62a62ea21ee07a7c5ed0cbc8aa15f7df8"
+          },
           {
             "Text": "Merge pull request #283 from PRODYNA-YASM/feature/281-auto-update-after-change-on-deployment",
             "SHA": "54de4ff6dd21b0df6ecaca00549e6113d88145ed",
@@ -886,5 +921,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-15T14:43:32Z"
+  "LastUpdated": "2024-03-15T14:50:16Z"
 }
