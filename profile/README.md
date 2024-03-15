@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-15T09:01:24Z
+Component Status overview. Last update 2024-03-15T10:01:19Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -13,7 +13,7 @@ Component Status overview. Last update 2024-03-15T09:01:24Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.1-1 |  :green_square: 8.2.1-1 |  :green_square: 8.2.1-1 |  :red_square: 8.2.0-4 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [8](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.14.0..HEAD) | :green_square: 0 | 1.14.0 |  :red_square: f0b7c4f |  :green_square: 1.14.0 |  :red_square: 1.13.1 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.14.2..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.14.2 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.15.0 | 
 
 
 
@@ -454,25 +454,14 @@ Component Status overview. Last update 2024-03-15T09:01:24Z
 
 
 
-## [yasm-api](https://github.com/prodyna-yasm/yasm-api) 1.14.2
+## [yasm-api](https://github.com/prodyna-yasm/yasm-api) 1.15.0
 
 
 
 
-### [Commits on master since 1.14.2](https://github.com/prodyna-yasm/yasm-api/compare/1.14.2..HEAD) (3)
-
-- [Merge pull request #159 from PRODYNA-YASM/dependabot/maven/com.fasterxml.jackson.core-jackson-databind-2.16.2](https://github.com/prodyna-yasm/yasm-api/commit/76085627d808078cb135234361ddf5409c003222) by [dkrizic](https://github.com/dkrizic) on 2024-03-11 06:15:41 +0000 UTC
-
-- [Bump com.fasterxml.jackson.core:jackson-databind from 2.16.1 to 2.16.2](https://github.com/prodyna-yasm/yasm-api/commit/0014e48d3f35b31f800fdcf00344bf3fb730ea76) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-03-11 01:08:54 +0000 UTC
-
-- [Remove axios from the delete script](https://github.com/prodyna-yasm/yasm-api/commit/634cf58e276f8ce219077e94dd936d66fba72544) by [dkrizic](https://github.com/dkrizic) on 2024-03-10 11:22:48 +0000 UTC
 
 
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (4)
-
-- [yasm community requests #414 add new attributes in ProjectSearch](https://github.com/PRODYNA-YASM/yasm-api/pull/162)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (3)
 
 - [Bump com.fasterxml.jackson.core:jackson-databind from 2.16.2 to 2.17.0](https://github.com/PRODYNA-YASM/yasm-api/pull/161)
 
@@ -493,11 +482,11 @@ Component Status overview. Last update 2024-03-15T09:01:24Z
 
 ### Last releases
 
+- [1.15.0](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.15.0) on 2024-03-15 09:31:07 +0000 UTC
+
 - [Using Generator 7.0.1 for Go](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.14.2) on 2024-03-08 14:46:51 +0000 UTC
 
 - [GitHub user in Person, fix server URLs, updates of generators](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.14.1) on 2024-03-08 14:24:32 +0000 UTC
-
-- [1.14.0](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.14.0) on 2024-03-05 22:07:16 +0000 UTC
 
 
 
