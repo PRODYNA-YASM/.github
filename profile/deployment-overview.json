@@ -1021,9 +1021,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.15.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "7240163",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1072,19 +1072,55 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "feature/450 disable geoip for now",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/451"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.15.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "Merge pull request #451 from PRODYNA-YASM/feature/450-disable-geoip-for-now",
+            "SHA": "7240163e07b5bab289dda77f1585f5997047f72b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-15T12:56:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/7240163e07b5bab289dda77f1585f5997047f72b"
+          },
+          {
+            "Text": "Uupdate some more componets",
+            "SHA": "6692412bd9d009f985ab5ab8f4559e27fe62c973",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-15T12:53:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6692412bd9d009f985ab5ab8f4559e27fe62c973"
+          },
+          {
+            "Text": "Update some components",
+            "SHA": "3907b356ac893971cc3fbf0dc3216a0f421b4119",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-15T12:50:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3907b356ac893971cc3fbf0dc3216a0f421b4119"
+          },
+          {
+            "Text": "Deactivate GeoIP2",
+            "SHA": "0ac4b0d3765dfc97d56d5ce808b2e4ee6880a67c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-15T12:49:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0ac4b0d3765dfc97d56d5ce808b2e4ee6880a67c"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1186,5 +1222,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-15T12:55:21Z"
+  "LastUpdated": "2024-03-15T13:01:13Z"
 }

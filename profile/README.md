@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-15T12:55:21Z
+Component Status overview. Last update 2024-03-15T13:01:13Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -12,7 +12,7 @@ Component Status overview. Last update 2024-03-15T12:55:21Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.1-1 |  :green_square: 8.2.1-1 |  :green_square: 8.2.1-1 |  :green_square: 8.2.1-1 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 |  :red_square: 1.13.1 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [4](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.15.0..HEAD) | :green_square: 0 | 1.15.0 |  :red_square: 7240163 |  :green_square: 1.15.0 |  :red_square: 1.13.1 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.15.0 | 
 
 
@@ -371,11 +371,17 @@ Component Status overview. Last update 2024-03-15T12:55:21Z
 
 
 
+### [Commits on main since 1.15.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.15.0..HEAD) (4)
+
+- [Merge pull request #451 from PRODYNA-YASM/feature/450-disable-geoip-for-now](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/7240163e07b5bab289dda77f1585f5997047f72b) by [dkrizic](https://github.com/dkrizic) on 2024-03-15 12:56:06 +0000 UTC
+
+- [Uupdate some more componets](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6692412bd9d009f985ab5ab8f4559e27fe62c973) by [dkrizic](https://github.com/dkrizic) on 2024-03-15 12:53:15 +0000 UTC
+
+- [Update some components](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3907b356ac893971cc3fbf0dc3216a0f421b4119) by [dkrizic](https://github.com/dkrizic) on 2024-03-15 12:50:44 +0000 UTC
+
+- [Deactivate GeoIP2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0ac4b0d3765dfc97d56d5ce808b2e4ee6880a67c) by [dkrizic](https://github.com/dkrizic) on 2024-03-15 12:49:28 +0000 UTC
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (1)
-
-- [feature/450 disable geoip for now](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/451)
 
 
 
@@ -383,9 +389,9 @@ Component Status overview. Last update 2024-03-15T12:55:21Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.15.0 |  1.15.0 |  1.13.1 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Version |  7240163 |  1.15.0 |  1.13.1 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
