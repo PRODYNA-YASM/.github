@@ -593,8 +593,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "feature/281 auto update after change on deployment",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/283"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
@@ -1208,5 +1213,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-15T11:01:15Z"
+  "LastUpdated": "2024-03-15T11:04:57Z"
 }
