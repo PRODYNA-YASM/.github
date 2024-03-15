@@ -2,25 +2,19 @@ name: Create Overview
 
 on:
   workflow_call:
-  workflow_dispatch:
-  # Every day at 07:00
-  schedule:
-    - cron: '0 7 * * *'
-  push:
-    branches:
-      - main
+    secrets:
+      token:
+        required: true
 
 jobs:
   create-overview:
     runs-on: ubuntu-latest
-    env:
-      GITHUB_TOKEN: ${{ secrets.OVERVIEW_TOKEN }}
-    
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.OVERVIEW_TOKEN }}
+          token: ${{ secrets.token }}
           repository: prodyna-yasm/.github
 
       # Create directory profile if it does not exist
@@ -35,7 +29,7 @@ jobs:
           environments: dev,staging,prod
           environment-links: https://dev-yasm.prodyna.com,https://staging-yasm.prodyna.com,https://yasm.prodyna.com
           verbose: 1
-          github-token: ${{ secrets.OVERVIEW_TOKEN }}
+          github-token: ${{ secrets.token }}
           title: "YASM Deployment Overview"
           target-json-file: profile/deployment-overview.json
           target-md-file: profile/README.md
