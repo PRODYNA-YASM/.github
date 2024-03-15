@@ -158,14 +158,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #533 from PRODYNA-YASM/bugfix/fix-modal-width-to-1…",
-            "Timestamp": "2024-03-15T14:26:24Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/8297768830"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -921,5 +915,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-15T15:06:00Z"
+  "LastUpdated": "2024-03-15T15:06:36Z"
 }

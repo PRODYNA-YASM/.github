@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-15T15:06:00Z
+Component Status overview. Last update 2024-03-15T15:06:36Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -83,11 +83,6 @@ Component Status overview. Last update 2024-03-15T15:06:00Z
 - [Fixed Global Filters in Projects, Add Copilot Github Button (dev and stage), Edit Project type confidentiality and internal](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.15.0) on 2024-03-15 12:49:59 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #533 from PRODYNA-YASM/bugfix/fix-modal-width-to-1…](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/8297768830) created on 2024-03-15 14:26:24 +0000 UTC
 
 
 
