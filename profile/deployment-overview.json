@@ -176,9 +176,9 @@
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.14.1",
+          "Version": "1.15.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -233,8 +233,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "Merge pull request #284 from PRODYNA-YASM/feature/281-auto-update-aft…",
+            "Timestamp": "2024-03-15T15:15:33Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8298432302"
+          },
           {
             "Name": "Merge pull request #273 from PRODYNA-YASM/feature/api-1.4.0",
             "Timestamp": "2024-03-05T22:59:56Z",
@@ -784,5 +789,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-15T15:17:17Z"
+  "LastUpdated": "2024-03-15T15:17:50Z"
 }
