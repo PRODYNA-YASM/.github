@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 3,
+        "Count": 4,
         "PullRequests": [
+          {
+            "Title": "update quarkus",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/541"
+          },
           {
             "Title": "Bump io.smallrye:jandex-maven-plugin from 3.1.6 to 3.1.7",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/540"
@@ -1271,5 +1275,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-15T11:49:07Z"
+  "LastUpdated": "2024-03-15T12:01:18Z"
 }
