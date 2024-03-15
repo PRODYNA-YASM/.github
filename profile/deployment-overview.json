@@ -94,14 +94,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.15.1",
+          "Version": "1.15.2",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.15.1",
+          "Version": "1.15.2",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -114,13 +114,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "1.15.1",
+        "Tag": "1.15.2",
         "SHA": "",
-        "Title": "Fixed staging helm chart",
-        "Timestamp": "2024-03-15T13:48:49Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.15.1"
+        "Title": "Hotfix: Fix modal width now shown correctly",
+        "Timestamp": "2024-03-15T14:26:22Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.15.2"
       },
       "Releases": [
+        {
+          "Tag": "1.15.2",
+          "SHA": "",
+          "Title": "Hotfix: Fix modal width now shown correctly",
+          "Timestamp": "2024-03-15T14:11:39Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.15.2"
+        },
         {
           "Tag": "1.15.1",
           "SHA": "",
@@ -134,13 +141,6 @@
           "Title": "Fixed Global Filters in Projects, Add Copilot Github Button (dev and stage), Edit Project type confidentiality and internal",
           "Timestamp": "2024-03-15T12:49:59Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.15.0"
-        },
-        {
-          "Tag": "1.13.5",
-          "SHA": "",
-          "Title": "Global filter stay in history, brotli support",
-          "Timestamp": "2024-03-01T12:05:21Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.13.5"
         }
       ],
       "PullRequests": {
@@ -150,7 +150,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.15.1..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.15.2..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -158,8 +158,14 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #533 from PRODYNA-YASM/bugfix/fix-modal-width-to-1…",
+            "Timestamp": "2024-03-15T14:26:24Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/8297768830"
+          }
+        ]
       }
     },
     {
@@ -880,5 +886,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-15T14:01:17Z"
+  "LastUpdated": "2024-03-15T14:37:48Z"
 }

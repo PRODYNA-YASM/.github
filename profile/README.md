@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-15T14:01:17Z
+Component Status overview. Last update 2024-03-15T14:37:48Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 |  :red_square: 1.13.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :green_square: 0 | 1.15.1 |  :green_square: 1.15.1 |  :green_square: 1.15.1 |  :red_square: 1.13.5 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :green_square: 0 | 1.15.2 |  :green_square: 1.15.2 |  :green_square: 1.15.2 |  :red_square: 1.13.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [9](https://github.com/prodyna-yasm/yasmctl/compare/1.14.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.14.1 |  :red_square: 54de4ff |  :green_square: 1.14.1 |  :green_square: 1.14.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 | 
@@ -57,7 +57,7 @@ Component Status overview. Last update 2024-03-15T14:01:17Z
 
 
 
-## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.15.1
+## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.15.2
 
 
 
@@ -69,20 +69,25 @@ Component Status overview. Last update 2024-03-15T14:01:17Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.15.1 |  1.15.1 |  1.13.5 | 
+| Version |  1.15.2 |  1.15.2 |  1.13.5 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
 | Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
 
+- [Hotfix: Fix modal width now shown correctly](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.15.2) on 2024-03-15 14:11:39 +0000 UTC
+
 - [Fixed staging helm chart](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.15.1) on 2024-03-15 13:48:03 +0000 UTC
 
 - [Fixed Global Filters in Projects, Add Copilot Github Button (dev and stage), Edit Project type confidentiality and internal](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.15.0) on 2024-03-15 12:49:59 +0000 UTC
 
-- [Global filter stay in history, brotli support](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.13.5) on 2024-03-01 12:05:21 +0000 UTC
 
 
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
+
+- [Merge pull request #533 from PRODYNA-YASM/bugfix/fix-modal-width-to-1…](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/8297768830) created on 2024-03-15 14:26:24 +0000 UTC
 
 
 
