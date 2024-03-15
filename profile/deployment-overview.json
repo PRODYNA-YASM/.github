@@ -175,7 +175,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "26fba56",
+          "Version": "dca0b2d",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -226,12 +226,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 5,
         "PullRequests": [
-          {
-            "Title": "Increased the selected skill limit to 20 and bugfix/refactor",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/529"
-          },
           {
             "Title": "357: deactivate copilot button for prod",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/528"
@@ -249,10 +245,6 @@
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/525"
           },
           {
-            "Title": "yasm community requests #414 fix global filters in projects page",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/524"
-          },
-          {
             "Title": "Fix/412 project selection list",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/523"
           }
@@ -261,8 +253,98 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.13.5..HEAD",
-        "Count": 17,
+        "Count": 27,
         "Commits": [
+          {
+            "Text": "Merge pull request #524 from PRODYNA-YASM/bugfix/414_fix-global-filter-projects-page",
+            "SHA": "dca0b2ddc208ab4d39935dd072f14f863ae566cc",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-03-15T10:48:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/dca0b2ddc208ab4d39935dd072f14f863ae566cc"
+          },
+          {
+            "Text": "Merge pull request #529 from PRODYNA-YASM/feature/293-increase-the-amount-of-focus-skills-to-20-for-export",
+            "SHA": "3deb35ed1482c0a9fcbb6da6d34c83f4e07c2bd8",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-03-15T10:41:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/3deb35ed1482c0a9fcbb6da6d34c83f4e07c2bd8"
+          },
+          {
+            "Text": "delete the additional changes. Just increase the Skill limit",
+            "SHA": "d0c6bddca11415f457388d8fe8df8e0ceb5f9bd0",
+            "Author": {
+              "name": "TimSFunk",
+              "link": "https://github.com/TimSFunk"
+            },
+            "Timestamp": "2024-03-15T10:38:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d0c6bddca11415f457388d8fe8df8e0ceb5f9bd0"
+          },
+          {
+            "Text": "yasm-community-request #421 fix back to search results button",
+            "SHA": "6431c0f4ed80c7771a9235466c0a8534aac08968",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-03-15T10:26:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/6431c0f4ed80c7771a9235466c0a8534aac08968"
+          },
+          {
+            "Text": "yasm-community-requests #414 fixed organizationCountry filters and involvedCountry filters",
+            "SHA": "22701612d0127a16319d4e4e52c274717be3b075",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-03-15T10:22:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/22701612d0127a16319d4e4e52c274717be3b075"
+          },
+          {
+            "Text": "Increased the selected skill limit to 20 and changed the text input to show the placeholder text when a skill/methodology/certificate is entered. It now shows the placeholder when the maximum is reached before that just the last input",
+            "SHA": "07cad57969be6fd9308ccac35108b6c4208e4972",
+            "Author": {
+              "name": "TimSFunk",
+              "link": "https://github.com/TimSFunk"
+            },
+            "Timestamp": "2024-03-15T10:18:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/07cad57969be6fd9308ccac35108b6c4208e4972"
+          },
+          {
+            "Text": "yasm community requests #414 duration and numberOfEmployees filters are added to history state",
+            "SHA": "8d1229d20e5ab831582950fc64028ec64ef8419b",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-03-12T14:39:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/8d1229d20e5ab831582950fc64028ec64ef8419b"
+          },
+          {
+            "Text": "yasm community requests #414 startYear and endYear filters are added to history state",
+            "SHA": "69383a5c6bf94f8f4fe7882266445d7ad12849cc",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-03-11T23:43:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/69383a5c6bf94f8f4fe7882266445d7ad12849cc"
+          },
+          {
+            "Text": "Merge branch 'master' into bugfix/414_fix-global-filter-projects-page",
+            "SHA": "bca3db48bed8ad5b29c45da09893674fc35ecb72",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-03-11T22:08:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/bca3db48bed8ad5b29c45da09893674fc35ecb72"
+          },
           {
             "Text": "Merge pull request #518 from PRODYNA-YASM/feature/100-add-possibility-to-edit-project-type-confidentiality",
             "SHA": "26fba56d17640767232d0d52f19e25a47466b95e",
@@ -312,6 +394,16 @@
             },
             "Timestamp": "2024-03-07T08:25:31Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/709b37602c58d89964bb3026f03d6461bb7fe2d7"
+          },
+          {
+            "Text": "yasm community requests #414 fixed status filter",
+            "SHA": "2534bbb932d55b2eb30bec8fbd4ec71a1b2ef5e2",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-03-06T13:57:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2534bbb932d55b2eb30bec8fbd4ec71a1b2ef5e2"
           },
           {
             "Text": "Fix broken url in dev mode",
@@ -450,9 +542,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.14.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "42b124b",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -501,19 +593,65 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Using API 1.15",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/280"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.14.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 5,
+        "Commits": [
+          {
+            "Text": "Merge pull request #282 from PRODYNA-YASM/feature/281-auto-update-after-change-on-deployment",
+            "SHA": "42b124befa29612c3e1e85244ea754db603fd657",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-15T10:56:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/42b124befa29612c3e1e85244ea754db603fd657"
+          },
+          {
+            "Text": "Append @v1",
+            "SHA": "edf3b9a7e5263d32b27d9f33faeb1446efd4030c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-15T10:53:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/edf3b9a7e5263d32b27d9f33faeb1446efd4030c"
+          },
+          {
+            "Text": "Trigger on deployment",
+            "SHA": "8c24f5d1a8211c897ee93ae2d25fc6e14fd7a4e1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-15T10:51:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/8c24f5d1a8211c897ee93ae2d25fc6e14fd7a4e1"
+          },
+          {
+            "Text": "Merge pull request #280 from PRODYNA-YASM/feature/279-api-115",
+            "SHA": "46e685ea71e8152384f3642eba628d6ea136d705",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-15T10:40:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/46e685ea71e8152384f3642eba628d6ea136d705"
+          },
+          {
+            "Text": "Using API 1.15",
+            "SHA": "33b953cdd679d78ffd865f46f6af95bcee5511ec",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-15T10:33:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/33b953cdd679d78ffd865f46f6af95bcee5511ec"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -699,9 +837,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.3.0",
+          "Version": "1.4.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -749,14 +887,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #84 from PRODYNA-YASM/dependabot/go_modules/google…",
-            "Timestamp": "2024-03-15T10:25:04Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/8294745958"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1076,5 +1208,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-15T10:38:01Z"
+  "LastUpdated": "2024-03-15T11:01:15Z"
 }
