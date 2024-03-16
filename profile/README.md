@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-15T23:16:41Z
+Component Status overview. Last update 2024-03-16T07:31:17Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 |  :red_square: 1.13.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.16.2..HEAD) | :green_square: 0 | 1.16.2 |  :red_square: d05609d |  :green_square: 1.16.2 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :green_square: 0 | 1.16.3 |  :green_square: 1.16.3 |  :green_square: 1.16.3 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.16.0 |  :green_square: 1.16.0 |  :green_square: 1.16.0 |  :red_square: 1.15.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 | 
@@ -59,16 +59,9 @@ Component Status overview. Last update 2024-03-15T23:16:41Z
 
 
 
-## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.16.2
+## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.16.3
 
 
-
-
-### [Commits on master since 1.16.2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.16.2..HEAD) (2)
-
-- [Merge pull request #538 from PRODYNA-YASM/feature/537-copilot-url-on-prod-empty](https://github.com/prodyna-yasm/yasm-frontend/commit/d05609dde65ff94ffd2950bc55bc4353a44bfa49) by [dkrizic](https://github.com/dkrizic) on 2024-03-15 22:31:06 +0000 UTC
-
-- [URL on prod empty](https://github.com/prodyna-yasm/yasm-frontend/commit/932ef2916db005ed434396272f2ea419e2179992) by [dkrizic](https://github.com/dkrizic) on 2024-03-15 22:18:15 +0000 UTC
 
 
 
@@ -78,25 +71,25 @@ Component Status overview. Last update 2024-03-15T23:16:41Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  d05609d |  1.16.2 | 
-| Release |  :red_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: | 
+| Version |  1.16.3 |  1.16.3 | 
+| Release |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Set SALES_COPILOT URL on prod to empty](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.16.3) on 2024-03-15 22:31:06 +0000 UTC
+
 - [Initialize COPILOT_PROJECTS_URL in base webpack config](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.16.2) on 2024-03-15 19:27:59 +0000 UTC
 
 - [Update API to 1.16.1 and removed hacky copilot link check in prod](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.16.1) on 2024-03-15 18:48:26 +0000 UTC
-
-- [Hotfix: Fix modal width now shown correctly](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.15.2) on 2024-03-15 14:11:39 +0000 UTC
 
 
 
 
 ### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
 
-- [Merge pull request #536 from PRODYNA-YASM/bugfix/fix-copilot-projects…](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/8301401546) created on 2024-03-15 19:31:01 +0000 UTC
+- [Merge pull request #538 from PRODYNA-YASM/feature/537-copilot-url-on-…](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/8306005512) created on 2024-03-16 06:41:01 +0000 UTC
 
 
 
