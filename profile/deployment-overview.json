@@ -349,6 +349,13 @@
           "Version": "1.15.0",
           "IsRelease": true,
           "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.15.0",
+          "IsRelease": true,
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -396,14 +403,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #378 from PRODYNA-YASM/feature/377-api-115",
-            "Timestamp": "2024-03-15T10:25:54Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8294756781"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -803,5 +804,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-17T21:16:26Z"
+  "LastUpdated": "2024-03-17T21:39:53Z"
 }
