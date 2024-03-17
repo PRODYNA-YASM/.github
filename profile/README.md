@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-16T07:31:17Z
+Component Status overview. Last update 2024-03-17T07:31:21Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -10,7 +10,7 @@ Component Status overview. Last update 2024-03-16T07:31:17Z
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 | 
-| [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
+| [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.1-1 |  :green_square: 8.2.1-1 |  :green_square: 8.2.1-1 |  :green_square: 8.2.1-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.15.1 |  :green_square: 1.15.1 |  :green_square: 1.15.1 |  :green_square: 1.15.1 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.16.1 | 
@@ -233,6 +233,11 @@ Component Status overview. Last update 2024-03-16T07:31:17Z
 
 
 
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-data/pulls) (1)
+
+- [Remove organizations, change address of PRODYNA HQ to Neo-Isenburg](https://github.com/PRODYNA-YASM/yasm-data/pull/114)
 
 
 
