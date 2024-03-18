@@ -335,14 +335,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "a9ab673",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.16.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.15.0",
+          "Version": "1.16.0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -351,17 +351,24 @@
           "Link": "",
           "Version": "1.15.0",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.15.0",
+        "Tag": "1.16.0",
         "SHA": "",
-        "Title": "API 1.15, Go updates",
-        "Timestamp": "2024-03-15T10:25:52Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.15.0"
+        "Title": "API 1.16.1",
+        "Timestamp": "2024-03-18T16:00:43Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.16.0"
       },
       "Releases": [
+        {
+          "Tag": "1.16.0",
+          "SHA": "",
+          "Title": "API 1.16.1",
+          "Timestamp": "2024-03-18T06:03:04Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.16.0"
+        },
         {
           "Tag": "1.15.0",
           "SHA": "",
@@ -375,13 +382,6 @@
           "Title": "Current libs for MS Graph and Helm deployment",
           "Timestamp": "2024-03-01T09:52:21Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.13.5"
-        },
-        {
-          "Tag": "1.13.4",
-          "SHA": "",
-          "Title": "Virtual nodes, libs updated",
-          "Timestamp": "2024-02-26T15:32:38Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.13.4"
         }
       ],
       "PullRequests": {
@@ -391,37 +391,22 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.15.0..HEAD",
-        "Count": 2,
-        "Commits": [
-          {
-            "Text": "Merge pull request #380 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.16.1",
-            "SHA": "a9ab673c77fe51f7a24aa1d63bcf1555775b8df7",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-18T06:03:04Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/a9ab673c77fe51f7a24aa1d63bcf1555775b8df7"
-          },
-          {
-            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.15.0 to 1.16.1",
-            "SHA": "f2bbb1cedf4f1174dad0cc72a6554c35ffab9410",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-03-18T01:36:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/f2bbb1cedf4f1174dad0cc72a6554c35ffab9410"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.16.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "master",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #380 from PRODYNA-YASM/dependabot/go_modules/githu…",
+            "Timestamp": "2024-03-18T16:00:46Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8329728151"
+          }
+        ]
       }
     },
     {
@@ -828,5 +813,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-18T14:23:11Z"
+  "LastUpdated": "2024-03-18T16:06:32Z"
 }
