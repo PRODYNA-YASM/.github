@@ -184,8 +184,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Enable depandabot",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/542"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
@@ -723,16 +728,16 @@
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.15.1",
+          "Version": "v1.16.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.15.1",
+          "Version": "v1.16.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -780,13 +785,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 2,
         "Workflows": [
-          {
-            "Name": "Merge pull request #453 from PRODYNA-YASM/feature/updates",
-            "Timestamp": "2024-03-19T14:13:14Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/8344568955"
-          },
           {
             "Name": "Merge pull request #449 from PRODYNA-YASM/feature/445-enable-geoip-mo…",
             "Timestamp": "2024-03-15T10:20:35Z",
@@ -922,5 +922,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-19T14:18:33Z"
+  "LastUpdated": "2024-03-19T16:55:04Z"
 }
