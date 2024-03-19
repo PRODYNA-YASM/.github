@@ -1,19 +1,19 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-18T16:06:32Z
+Component Status overview. Last update 2024-03-19T07:31:36Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :green_square: 0 | 1.16.4 |  :green_square: 1.16.4 |  :green_square: 1.16.4 |  :green_square: 1.16.4 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.16.4 |  :green_square: 1.16.4 |  :green_square: 1.16.4 |  :green_square: 1.16.4 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.16.0 |  :green_square: 1.16.0 |  :green_square: 1.16.0 |  :red_square: 1.15.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.16.0 |  :green_square: 1.16.0 |  :green_square: 1.16.0 |  :red_square: 1.15.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :red_square: 1.9.0 | 
-| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.2-2 |  :green_square: 8.2.2-2 |  :green_square: 8.2.2-2 |  :red_square: 8.2.1-1 | 
+| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.2-2 |  :green_square: 8.2.2-2 |  :green_square: 8.2.2-2 |  :green_square: 8.2.2-2 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.15.1 |  :green_square: 1.15.1 |  :green_square: 1.15.1 |  :green_square: 1.15.1 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.16.1 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [4](https://github.com/prodyna-yasm/yasm-api/compare/1.16.1..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.16.1 | 
 
 
 
@@ -24,7 +24,11 @@ Component Status overview. Last update 2024-03-18T16:06:32Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (1)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (3)
+
+- [Bump org.apache.maven.plugins:maven-compiler-plugin from 3.12.1 to 3.13.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/547)
+
+- [Bump io.quarkiverse.neo4j:quarkus-neo4j from 3.8.0 to 3.8.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/546)
 
 - [Bump jackson.version from 2.16.1 to 2.17.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/538)
 
@@ -62,6 +66,11 @@ Component Status overview. Last update 2024-03-18T16:06:32Z
 
 
 
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (1)
+
+- [Modal height increase for better view](https://github.com/PRODYNA-YASM/yasm-frontend/pull/540)
 
 
 
@@ -268,9 +277,9 @@ Component Status overview. Last update 2024-03-18T16:06:32Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  8.2.2-2 |  8.2.2-2 |  8.2.1-1 | 
+| Version |  8.2.2-2 |  8.2.2-2 |  8.2.2-2 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -282,11 +291,6 @@ Component Status overview. Last update 2024-03-18T16:06:32Z
 - [8.2.0-4](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.2.0-4) on 2024-03-04 01:27:19 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #37 from PRODYNA-YASM/dependabot/docker/gotenberg/…](https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/8328034883) created on 2024-03-18 14:10:04 +0000 UTC
 
 
 
@@ -331,6 +335,17 @@ Component Status overview. Last update 2024-03-18T16:06:32Z
 ## [yasm-api](https://github.com/prodyna-yasm/yasm-api) 1.16.1
 
 
+
+
+### [Commits on master since 1.16.1](https://github.com/prodyna-yasm/yasm-api/compare/1.16.1..HEAD) (4)
+
+- [Merge pull request #165 from PRODYNA-YASM/dependabot/maven/org.apache.maven.plugins-maven-compiler-plugin-3.13.0](https://github.com/prodyna-yasm/yasm-api/commit/7278702de748fb2d7063b4f1c3f0101d99358560) by [dkrizic](https://github.com/dkrizic) on 2024-03-19 06:46:15 +0000 UTC
+
+- [Merge pull request #166 from PRODYNA-YASM/dependabot/maven/io.smallrye.reactive-mutiny-2.6.0](https://github.com/prodyna-yasm/yasm-api/commit/552f9a3d1c7be3eb63d2d37fd4d88e3c99b81242) by [dkrizic](https://github.com/dkrizic) on 2024-03-19 06:45:59 +0000 UTC
+
+- [Bump io.smallrye.reactive:mutiny from 2.5.8 to 2.6.0](https://github.com/prodyna-yasm/yasm-api/commit/5b71a0db5f5f161f3b260b3a42e4b459459c33cf) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-03-19 00:54:19 +0000 UTC
+
+- [Bump org.apache.maven.plugins:maven-compiler-plugin](https://github.com/prodyna-yasm/yasm-api/commit/a765114216b0ef761a162169ca1262f528331959) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-03-19 00:54:12 +0000 UTC
 
 
 

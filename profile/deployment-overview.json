@@ -59,8 +59,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 1,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Bump org.apache.maven.plugins:maven-compiler-plugin from 3.12.1 to 3.13.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/547"
+          },
+          {
+            "Title": "Bump io.quarkiverse.neo4j:quarkus-neo4j from 3.8.0 to 3.8.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/546"
+          },
           {
             "Title": "Bump jackson.version from 2.16.1 to 2.17.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/538"
@@ -145,8 +153,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Modal height increase for better view",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/540"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
@@ -586,9 +599,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "8.2.1-1",
+          "Version": "8.2.2-2",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -636,14 +649,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #37 from PRODYNA-YASM/dependabot/docker/gotenberg/…",
-            "Timestamp": "2024-03-18T14:10:04Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/8328034883"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -787,8 +794,49 @@
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.16.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "Merge pull request #165 from PRODYNA-YASM/dependabot/maven/org.apache.maven.plugins-maven-compiler-plugin-3.13.0",
+            "SHA": "7278702de748fb2d7063b4f1c3f0101d99358560",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-19T06:46:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/7278702de748fb2d7063b4f1c3f0101d99358560"
+          },
+          {
+            "Text": "Merge pull request #166 from PRODYNA-YASM/dependabot/maven/io.smallrye.reactive-mutiny-2.6.0",
+            "SHA": "552f9a3d1c7be3eb63d2d37fd4d88e3c99b81242",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-19T06:45:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/552f9a3d1c7be3eb63d2d37fd4d88e3c99b81242"
+          },
+          {
+            "Text": "Bump io.smallrye.reactive:mutiny from 2.5.8 to 2.6.0",
+            "SHA": "5b71a0db5f5f161f3b260b3a42e4b459459c33cf",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-03-19T00:54:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/5b71a0db5f5f161f3b260b3a42e4b459459c33cf"
+          },
+          {
+            "Text": "Bump org.apache.maven.plugins:maven-compiler-plugin",
+            "SHA": "a765114216b0ef761a162169ca1262f528331959",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-03-19T00:54:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/a765114216b0ef761a162169ca1262f528331959"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -813,5 +861,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-18T16:06:32Z"
+  "LastUpdated": "2024-03-19T07:31:36Z"
 }
