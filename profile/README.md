@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-19T16:55:04Z
+Component Status overview. Last update 2024-03-19T16:57:43Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -12,7 +12,7 @@ Component Status overview. Last update 2024-03-19T16:55:04Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :red_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.2-2 |  :green_square: 8.2.2-2 |  :green_square: 8.2.2-2 |  :green_square: 8.2.2-2 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | v1.16.0 |  :green_square: v1.16.0 |  :green_square: v1.16.0 |  :green_square: v1.16.0 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.16.1 |  :red_square: v1.16.0 |  :red_square: v1.16.0 |  :red_square: v1.16.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [4](https://github.com/prodyna-yasm/yasm-api/compare/1.16.1..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.16.1 | 
 
 
@@ -308,7 +308,7 @@ Component Status overview. Last update 2024-03-19T16:55:04Z
 
 
 
-## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) v1.16.0
+## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 1.16.1
 
 
 
@@ -322,16 +322,16 @@ Component Status overview. Last update 2024-03-19T16:55:04Z
 | --- |  --- |  --- |  --- | 
 | Version |  v1.16.0 |  v1.16.0 |  v1.16.0 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :red_square: |  :red_square: | 
 
 
 ### Last releases
 
+- [1.16.1](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.16.1) on 2024-03-19 13:04:16 +0000 UTC
+
 - [New version of Grafana stack](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/v1.16.0) on 2024-03-19 13:04:16 +0000 UTC
 
 - [Deactivate GeoIP, some components updates](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.15.1) on 2024-03-15 12:56:06 +0000 UTC
-
-- [Ingress-Nginx 1.10, new Grafana, custom error page](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.15.0) on 2024-03-14 10:44:54 +0000 UTC
 
 
 
