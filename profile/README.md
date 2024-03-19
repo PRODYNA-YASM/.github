@@ -1,14 +1,14 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-19T07:31:36Z
+Component Status overview. Last update 2024-03-19T10:18:24Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.16.4 |  :green_square: 1.16.4 |  :green_square: 1.16.4 |  :green_square: 1.16.4 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.16.0 |  :green_square: 1.16.0 |  :green_square: 1.16.0 |  :red_square: 1.15.1 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-backend/compare/1.16.1..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.16.1 |  :red_square: 9a75967 |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-frontend/compare/1.16.4..HEAD) | :green_square: 0 | 1.16.4 |  :red_square: 00d8d9b |  :green_square: 1.16.4 |  :green_square: 1.16.4 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.16.0 |  :green_square: 1.16.0 |  :green_square: 1.16.0 |  :green_square: 1.16.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.16.0 |  :green_square: 1.16.0 |  :green_square: 1.16.0 |  :red_square: 1.15.0 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.16.0 |  :green_square: 1.16.0 |  :green_square: 1.16.0 |  :green_square: 1.16.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :red_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.2-2 |  :green_square: 8.2.2-2 |  :green_square: 8.2.2-2 |  :green_square: 8.2.2-2 | 
@@ -20,6 +20,15 @@ Component Status overview. Last update 2024-03-19T07:31:36Z
 ## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.16.1
 
 
+
+
+### [Commits on master since 1.16.1](https://github.com/prodyna-yasm/yasm-backend/compare/1.16.1..HEAD) (3)
+
+- [Merge pull request #549 from PRODYNA-YASM/feature/548-create-a-new-prodyna-pat-to-use-when-creating-ticket-issue-over-yasm-ui-github-api](https://github.com/prodyna-yasm/yasm-backend/commit/9a759679e93e8b0475e12fcaf9b3ae14933709e9) by [dkrizic](https://github.com/dkrizic) on 2024-03-19 09:55:40 +0000 UTC
+
+- [Take PAT from Action secrets and forward to Helm](https://github.com/prodyna-yasm/yasm-backend/commit/6ab898d671d9b9a7efe20b7b3ca846c12ec14723) by [dkrizic](https://github.com/dkrizic) on 2024-03-19 09:37:27 +0000 UTC
+
+- [Add "PAT_ISSUE" to helm chart](https://github.com/prodyna-yasm/yasm-backend/commit/dd06a32aaaae961651d755abb26003fd68853d29) by [dkrizic](https://github.com/dkrizic) on 2024-03-19 09:35:29 +0000 UTC
 
 
 
@@ -38,9 +47,9 @@ Component Status overview. Last update 2024-03-19T07:31:36Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.16.1 |  1.16.1 |  1.16.1 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  9a75967 |  1.16.1 |  1.16.1 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -66,11 +75,17 @@ Component Status overview. Last update 2024-03-19T07:31:36Z
 
 
 
+### [Commits on master since 1.16.4](https://github.com/prodyna-yasm/yasm-frontend/compare/1.16.4..HEAD) (4)
+
+- [Merge pull request #540 from PRODYNA-YASM/feature/293-increase-the-amount-of-focus-skills-to-20-for-export](https://github.com/prodyna-yasm/yasm-frontend/commit/00d8d9bacc0ca29f6c35c5ebc5b8ce20f5a48ff4) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-19 09:43:24 +0000 UTC
+
+- [delete variable](https://github.com/prodyna-yasm/yasm-frontend/commit/87eaffc09ff1fd64df350c153f76975ed75d3d99) by [TimSFunk](https://github.com/TimSFunk) on 2024-03-19 09:20:59 +0000 UTC
+
+- [Delete Changes in ExportUserPofile and Modal index.tsx](https://github.com/prodyna-yasm/yasm-frontend/commit/64fb82248beb12f5a24062d02443ac7b8764ccf3) by [TimSFunk](https://github.com/TimSFunk) on 2024-03-19 09:13:17 +0000 UTC
+
+- [Modal height increase for better view](https://github.com/prodyna-yasm/yasm-frontend/commit/3405f0f743a212f07933a905ece63aca5b40ab08) by [TimSFunk](https://github.com/TimSFunk) on 2024-03-18 16:28:39 +0000 UTC
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (1)
-
-- [Modal height increase for better view](https://github.com/PRODYNA-YASM/yasm-frontend/pull/540)
 
 
 
@@ -78,9 +93,9 @@ Component Status overview. Last update 2024-03-19T07:31:36Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.16.4 |  1.16.4 |  1.16.4 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  00d8d9b |  1.16.4 |  1.16.4 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -108,9 +123,9 @@ Component Status overview. Last update 2024-03-19T07:31:36Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.16.0 |  1.16.0 |  1.15.1 | 
+| Version |  1.16.0 |  1.16.0 |  1.16.0 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -124,9 +139,7 @@ Component Status overview. Last update 2024-03-19T07:31:36Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting) (3)
-
-- [Merge pull request #286 from PRODYNA-YASM/dependabot/go_modules/githu…](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8303151124) created on 2024-03-15 22:44:18 +0000 UTC
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting) (2)
 
 - [Merge pull request #284 from PRODYNA-YASM/feature/281-auto-update-aft…](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8298432302) created on 2024-03-15 15:15:33 +0000 UTC
 
@@ -177,9 +190,9 @@ Component Status overview. Last update 2024-03-19T07:31:36Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.16.0 |  1.16.0 |  1.15.0 | 
+| Version |  1.16.0 |  1.16.0 |  1.16.0 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -191,11 +204,6 @@ Component Status overview. Last update 2024-03-19T07:31:36Z
 - [Current libs for MS Graph and Helm deployment](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.13.5) on 2024-03-01 09:52:21 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #380 from PRODYNA-YASM/dependabot/go_modules/githu…](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8329728151) created on 2024-03-18 16:00:46 +0000 UTC
 
 
 

@@ -8,9 +8,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.16.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "9a75967",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -78,8 +78,39 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.16.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 3,
+        "Commits": [
+          {
+            "Text": "Merge pull request #549 from PRODYNA-YASM/feature/548-create-a-new-prodyna-pat-to-use-when-creating-ticket-issue-over-yasm-ui-github-api",
+            "SHA": "9a759679e93e8b0475e12fcaf9b3ae14933709e9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-19T09:55:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/9a759679e93e8b0475e12fcaf9b3ae14933709e9"
+          },
+          {
+            "Text": "Take PAT from Action secrets and forward to Helm",
+            "SHA": "6ab898d671d9b9a7efe20b7b3ca846c12ec14723",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-19T09:37:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/6ab898d671d9b9a7efe20b7b3ca846c12ec14723"
+          },
+          {
+            "Text": "Add \"PAT_ISSUE\" to helm chart",
+            "SHA": "dd06a32aaaae961651d755abb26003fd68853d29",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-19T09:35:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/dd06a32aaaae961651d755abb26003fd68853d29"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -102,9 +133,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.16.4",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "00d8d9b",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -153,19 +184,55 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Modal height increase for better view",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/540"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.16.4..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "Merge pull request #540 from PRODYNA-YASM/feature/293-increase-the-amount-of-focus-skills-to-20-for-export",
+            "SHA": "00d8d9bacc0ca29f6c35c5ebc5b8ce20f5a48ff4",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-03-19T09:43:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/00d8d9bacc0ca29f6c35c5ebc5b8ce20f5a48ff4"
+          },
+          {
+            "Text": "delete variable",
+            "SHA": "87eaffc09ff1fd64df350c153f76975ed75d3d99",
+            "Author": {
+              "name": "TimSFunk",
+              "link": "https://github.com/TimSFunk"
+            },
+            "Timestamp": "2024-03-19T09:20:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/87eaffc09ff1fd64df350c153f76975ed75d3d99"
+          },
+          {
+            "Text": "Delete Changes in ExportUserPofile and Modal index.tsx",
+            "SHA": "64fb82248beb12f5a24062d02443ac7b8764ccf3",
+            "Author": {
+              "name": "TimSFunk",
+              "link": "https://github.com/TimSFunk"
+            },
+            "Timestamp": "2024-03-19T09:13:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/64fb82248beb12f5a24062d02443ac7b8764ccf3"
+          },
+          {
+            "Text": "Modal height increase for better view",
+            "SHA": "3405f0f743a212f07933a905ece63aca5b40ab08",
+            "Author": {
+              "name": "TimSFunk",
+              "link": "https://github.com/TimSFunk"
+            },
+            "Timestamp": "2024-03-18T16:28:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/3405f0f743a212f07933a905ece63aca5b40ab08"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -196,9 +263,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.15.1",
+          "Version": "1.16.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -246,13 +313,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 2,
         "Workflows": [
-          {
-            "Name": "Merge pull request #286 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2024-03-15T22:44:18Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8303151124"
-          },
           {
             "Name": "Merge pull request #284 from PRODYNA-YASM/feature/281-auto-update-aft…",
             "Timestamp": "2024-03-15T15:15:33Z",
@@ -362,9 +424,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.15.0",
+          "Version": "1.16.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -412,14 +474,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #380 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2024-03-18T16:00:46Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8329728151"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -861,5 +917,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-19T07:31:36Z"
+  "LastUpdated": "2024-03-19T10:18:24Z"
 }
