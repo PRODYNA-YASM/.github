@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 3,
+        "Count": 4,
         "PullRequests": [
+          {
+            "Title": "Bump quarkus.platform.version from 3.8.2 to 3.8.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/550"
+          },
           {
             "Title": "Bump org.apache.maven.plugins:maven-compiler-plugin from 3.12.1 to 3.13.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/547"
@@ -184,8 +188,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "Bump actions/add-to-project from 0.6.0 to 0.6.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/543"
+          },
           {
             "Title": "Enable depandabot",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/542"
@@ -922,5 +930,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-19T22:22:21Z"
+  "LastUpdated": "2024-03-20T07:31:38Z"
 }
