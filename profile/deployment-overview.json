@@ -510,7 +510,15 @@
     {
       "Name": "yasm-github",
       "Error": "GET https://api.github.com/repos/prodyna-yasm/yasm-github/releases/latest: 404 Not Found []",
-      "Environments": null,
+      "Environments": [
+        {
+          "Name": "dev",
+          "Link": "",
+          "Version": "210ac0d",
+          "IsRelease": false,
+          "IsCurrent": false
+        }
+      ],
       "LatestRelease": {
         "Tag": "",
         "SHA": "",
@@ -527,8 +535,98 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/..HEAD",
-        "Count": 6,
+        "Count": 15,
         "Commits": [
+          {
+            "Text": "Helm chart version 1.0.0",
+            "SHA": "5aca3400e65c98b87c1bc7386e50415a2cf284ad",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-20T12:12:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/5aca3400e65c98b87c1bc7386e50415a2cf284ad"
+          },
+          {
+            "Text": "Fix meta",
+            "SHA": "210ac0d9452306d70f4127053d9e2ff9ecd6c7cf",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-20T12:07:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/210ac0d9452306d70f4127053d9e2ff9ecd6c7cf"
+          },
+          {
+            "Text": "Deploy the actual service",
+            "SHA": "32ab8db42581c8e70ac657a0a0c6297733885ae5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-20T12:03:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/32ab8db42581c8e70ac657a0a0c6297733885ae5"
+          },
+          {
+            "Text": "Fix syntax",
+            "SHA": "8f8702ca1f3ed0df186d0ddcb04ce512a1975802",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-20T11:48:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/8f8702ca1f3ed0df186d0ddcb04ce512a1975802"
+          },
+          {
+            "Text": "Fix name for replacement",
+            "SHA": "50917cc52d74bcfd309ca0fb7ecbc8a8276c8036",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-20T11:43:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/50917cc52d74bcfd309ca0fb7ecbc8a8276c8036"
+          },
+          {
+            "Text": "Fix name in Dockerfile",
+            "SHA": "b22ee5755c8ef6e0367151ef041fcd5fd13f391a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-20T11:40:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/b22ee5755c8ef6e0367151ef041fcd5fd13f391a"
+          },
+          {
+            "Text": "Create pipelines",
+            "SHA": "d803554e5795c7777dcba1c4fa04c55cf3e91a3e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-20T11:37:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/d803554e5795c7777dcba1c4fa04c55cf3e91a3e"
+          },
+          {
+            "Text": "Add dependabot",
+            "SHA": "1e660ccb725cf719965dba69c5fa0dfb9823e1fa",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-20T11:31:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/1e660ccb725cf719965dba69c5fa0dfb9823e1fa"
+          },
+          {
+            "Text": "First version of Helm chart and helm configuration",
+            "SHA": "416761fd24196d47fce972e0313ff2e8885277af",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-20T11:31:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/416761fd24196d47fce972e0313ff2e8885277af"
+          },
           {
             "Text": "Starting and stopping the service",
             "SHA": "f4252b49017e067c47742ad2222c1cecc8d425d5",
@@ -837,14 +935,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "05bd7b9",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.16.2",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.16.1",
+          "Version": "1.16.2",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -853,17 +951,24 @@
           "Link": "",
           "Version": "1.16.1",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.16.1",
+        "Tag": "1.16.2",
         "SHA": "",
-        "Title": "1.16.1",
-        "Timestamp": "2024-03-19T16:56:32Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.16.1"
+        "Title": "YASM-Github added",
+        "Timestamp": "2024-03-20T10:57:25Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.16.2"
       },
       "Releases": [
+        {
+          "Tag": "1.16.2",
+          "SHA": "",
+          "Title": "YASM-Github added",
+          "Timestamp": "2024-03-20T10:51:36Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.16.2"
+        },
         {
           "Tag": "1.16.1",
           "SHA": "",
@@ -877,13 +982,6 @@
           "Title": "New version of Grafana stack",
           "Timestamp": "2024-03-19T13:04:16Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/v1.16.0"
-        },
-        {
-          "Tag": "1.15.1",
-          "SHA": "",
-          "Title": "Deactivate GeoIP, some components updates",
-          "Timestamp": "2024-03-15T12:56:06Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.15.1"
         }
       ],
       "PullRequests": {
@@ -893,37 +991,21 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.16.1..HEAD",
-        "Count": 2,
-        "Commits": [
-          {
-            "Text": "Merge pull request #454 from PRODYNA-YASM/feature/add-yasm-github",
-            "SHA": "05bd7b9c638c19e21854a88c3e508dad2a2705a2",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-20T10:51:36Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/05bd7b9c638c19e21854a88c3e508dad2a2705a2"
-          },
-          {
-            "Text": "Add YASM-Github",
-            "SHA": "b24d1eb9a36b73daf0bc9db96b9858c114644585",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-20T10:49:06Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b24d1eb9a36b73daf0bc9db96b9858c114644585"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.16.2..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 3,
         "Workflows": [
+          {
+            "Name": "Merge pull request #454 from PRODYNA-YASM/feature/add-yasm-github",
+            "Timestamp": "2024-03-20T10:57:27Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/8357746758"
+          },
           {
             "Name": "Merge pull request #449 from PRODYNA-YASM/feature/445-enable-geoip-mo…",
             "Timestamp": "2024-03-15T10:20:35Z",
@@ -1059,5 +1141,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-20T10:55:22Z"
+  "LastUpdated": "2024-03-20T12:14:34Z"
 }
