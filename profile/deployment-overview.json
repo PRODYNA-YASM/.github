@@ -150,8 +150,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 5,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "yasm-community-request #426 ",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/552"
+          },
           {
             "Title": "Bump css-loader from 6.8.1 to 6.10.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/548"
@@ -524,7 +528,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "bac9598",
+          "Version": "aeace9a",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -547,6 +551,66 @@
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Don't log health",
+            "SHA": "aeace9a72abef3761920ef78a8b6d538f50b9c6d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-21T10:10:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/aeace9a72abef3761920ef78a8b6d538f50b9c6d"
+          },
+          {
+            "Text": "Add HTTP handler to the call",
+            "SHA": "9ddb97fe83ff0448464df7ab181bfd08eed15f46",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-21T10:06:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/9ddb97fe83ff0448464df7ab181bfd08eed15f46"
+          },
+          {
+            "Text": "Cleaning up handlers",
+            "SHA": "584c755e8bfdfac8a9ae4a18fcd55a86bc4d810f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-21T09:57:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/584c755e8bfdfac8a9ae4a18fcd55a86bc4d810f"
+          },
+          {
+            "Text": "Activate debug logging",
+            "SHA": "0e91aff52908cfc0ca647ddf4aeb32f58d1aaa6c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-21T09:53:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/0e91aff52908cfc0ca647ddf4aeb32f58d1aaa6c"
+          },
+          {
+            "Text": "Slog integration",
+            "SHA": "384a8c4a4bd230e80e6e6a83bb2e00699c1a723d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-21T09:48:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/384a8c4a4bd230e80e6e6a83bb2e00699c1a723d"
+          },
+          {
+            "Text": "Add OTEL to requests",
+            "SHA": "cdd76d3b22956776ef0fdc42c9d4887ec7b2cda2",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-21T09:31:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/cdd76d3b22956776ef0fdc42c9d4887ec7b2cda2"
+          },
           {
             "Text": "Log created routes",
             "SHA": "e0d43081268d2812863c8e41271f592516b1dc18",
@@ -786,66 +850,6 @@
             },
             "Timestamp": "2024-03-20T11:31:32Z",
             "Link": "https://github.com/prodyna-yasm/yasm-github/commit/1e660ccb725cf719965dba69c5fa0dfb9823e1fa"
-          },
-          {
-            "Text": "First version of Helm chart and helm configuration",
-            "SHA": "416761fd24196d47fce972e0313ff2e8885277af",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-20T11:31:01Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/416761fd24196d47fce972e0313ff2e8885277af"
-          },
-          {
-            "Text": "Starting and stopping the service",
-            "SHA": "f4252b49017e067c47742ad2222c1cecc8d425d5",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-20T10:35:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/f4252b49017e067c47742ad2222c1cecc8d425d5"
-          },
-          {
-            "Text": "Some more details",
-            "SHA": "4713820f6a381cb69f9c905c61f626a44fc589f7",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-20T09:14:29Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/4713820f6a381cb69f9c905c61f626a44fc589f7"
-          },
-          {
-            "Text": "More base structure",
-            "SHA": "dcf9fa7a0951f80a0482afa7c7fb1f7c8f519458",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-20T00:00:20Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/dcf9fa7a0951f80a0482afa7c7fb1f7c8f519458"
-          },
-          {
-            "Text": "First stub of the functions",
-            "SHA": "a18ebe97c01e2d53c9da0a10ccc263533574b5a3",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-19T23:56:45Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/a18ebe97c01e2d53c9da0a10ccc263533574b5a3"
-          },
-          {
-            "Text": "First commit",
-            "SHA": "aa8592f9fa7361f52367b794d030702872d67038",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-19T23:40:32Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/aa8592f9fa7361f52367b794d030702872d67038"
           }
         ]
       },
@@ -1095,9 +1099,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.16.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "1f7a258",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1152,8 +1156,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.16.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #455 from PRODYNA-YASM/feature/more-memory-for-tempo-ingester",
+            "SHA": "1f7a25887a0f16a6dfa99dac4fbe8e5f1b0f6095",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-21T10:25:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1f7a25887a0f16a6dfa99dac4fbe8e5f1b0f6095"
+          },
+          {
+            "Text": "1GB more RAM for ingester",
+            "SHA": "68c95bd6cd23d2b7faf9350d7c3237fdf5c4139d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-21T10:21:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/68c95bd6cd23d2b7faf9350d7c3237fdf5c4139d"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1260,5 +1285,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-21T09:21:40Z"
+  "LastUpdated": "2024-03-21T11:04:11Z"
 }
