@@ -198,7 +198,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "20314ed",
+          "Version": "745b714",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1324,5 +1324,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-21T23:21:36Z"
+  "LastUpdated": "2024-03-21T23:22:53Z"
 }
