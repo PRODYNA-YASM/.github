@@ -388,9 +388,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.16.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "fc48688",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -439,19 +439,24 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bugfix/247 anonymize employee delete languages",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/382"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.16.0..HEAD",
-        "Count": 3,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #382 from PRODYNA-YASM/bugfix/247-anonymize-employee-delete-languages",
+            "SHA": "fc48688d208060e771577b15515ea898a7edd1ad",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-21T09:16:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/fc48688d208060e771577b15515ea898a7edd1ad"
+          },
           {
             "Text": "Merge pull request #383 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.16.4",
             "SHA": "3c63ecfc6d6cfc4b5ec08e056ef9e1fc3b797310",
@@ -481,6 +486,26 @@
             },
             "Timestamp": "2024-03-21T01:24:35Z",
             "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/7893ae62c18712a768440b838997c3b79a7f9a90"
+          },
+          {
+            "Text": "removed unused code",
+            "SHA": "e80ccb1d3e522a39ecccd5712e22df0ee56d7051",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-03-20T15:31:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/e80ccb1d3e522a39ecccd5712e22df0ee56d7051"
+          },
+          {
+            "Text": "247: anonymized githubUser",
+            "SHA": "a056992db0e3d9dcf054db4b19742d54b0159af4",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-03-20T14:41:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/a056992db0e3d9dcf054db4b19742d54b0159af4"
           }
         ]
       },
@@ -522,6 +547,16 @@
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Log created routes",
+            "SHA": "e0d43081268d2812863c8e41271f592516b1dc18",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-21T09:19:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/e0d43081268d2812863c8e41271f592516b1dc18"
+          },
           {
             "Text": "Add prefix to routes",
             "SHA": "bac95984f93c85546b252fe89f092a93a7b7a149",
@@ -811,16 +846,6 @@
             },
             "Timestamp": "2024-03-19T23:40:32Z",
             "Link": "https://github.com/prodyna-yasm/yasm-github/commit/aa8592f9fa7361f52367b794d030702872d67038"
-          },
-          {
-            "Text": "Initial commit",
-            "SHA": "ecda566c9270fde16169d372a70df44550edeec0",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-19T23:34:59Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/ecda566c9270fde16169d372a70df44550edeec0"
           }
         ]
       },
@@ -1235,5 +1260,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-21T09:16:19Z"
+  "LastUpdated": "2024-03-21T09:21:40Z"
 }
