@@ -368,16 +368,16 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "fc48688",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.16.1",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.16.0",
+          "Version": "1.16.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -432,8 +432,14 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #382 from PRODYNA-YASM/bugfix/247-anonymize-employ…",
+            "Timestamp": "2024-03-22T16:27:14Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8393419151"
+          }
+        ]
       }
     },
     {
@@ -443,7 +449,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "aa002d2",
+          "Version": "e1a6d8e",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -466,6 +472,26 @@
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Record error if there should be one",
+            "SHA": "e1a6d8e728002bfb33862b76bc085f521212c46c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-22T16:34:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/e1a6d8e728002bfb33862b76bc085f521212c46c"
+          },
+          {
+            "Text": "Add some inforation to the span",
+            "SHA": "faf76c2ffb4d5f5f497c666730af2588b8b4ea54",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-22T16:29:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/faf76c2ffb4d5f5f497c666730af2588b8b4ea54"
+          },
           {
             "Text": "Try upn",
             "SHA": "aa002d2455cd0de98eb3670757d62dd365289e39",
@@ -745,26 +771,6 @@
             },
             "Timestamp": "2024-03-21T18:50:11Z",
             "Link": "https://github.com/prodyna-yasm/yasm-github/commit/0c66b8e94f627fd8d5041e29fd325ec52b8e2f5a"
-          },
-          {
-            "Text": "Dummy change",
-            "SHA": "24641495fb756434b4f27317081c871e1130f483",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-21T18:49:07Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/24641495fb756434b4f27317081c871e1130f483"
-          },
-          {
-            "Text": "Able to write a a static issue",
-            "SHA": "6b473340a3abc189f5bb2582e2c6ae8e67599e8c",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-21T17:31:14Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/6b473340a3abc189f5bb2582e2c6ae8e67599e8c"
           }
         ]
       },
@@ -1200,5 +1206,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-22T16:29:16Z"
+  "LastUpdated": "2024-03-22T16:37:12Z"
 }

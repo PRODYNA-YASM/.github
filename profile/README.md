@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-22T16:29:16Z
+Component Status overview. Last update 2024-03-22T16:37:12Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -8,8 +8,8 @@ Component Status overview. Last update 2024-03-22T16:29:16Z
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.16.5 |  :green_square: 1.16.5 |  :green_square: 1.16.5 |  :green_square: 1.16.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 |  :red_square: 1.16.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.16.1 |  :red_square: fc48688 |  :red_square: 1.16.0 |  :red_square: 1.16.0 | 
-| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [30](https://github.com/prodyna-yasm/yasm-github/compare/..HEAD) | :green_square: 0 |  |  :red_square: aa002d2 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 |  :red_square: 1.16.0 | 
+| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [30](https://github.com/prodyna-yasm/yasm-github/compare/..HEAD) | :green_square: 0 |  |  :red_square: e1a6d8e | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :red_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.2-2 |  :green_square: 8.2.2-2 |  :green_square: 8.2.2-2 |  :green_square: 8.2.2-2 | 
@@ -188,9 +188,9 @@ Component Status overview. Last update 2024-03-22T16:29:16Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  fc48688 |  1.16.0 |  1.16.0 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :red_square: |  :red_square: | 
+| Version |  1.16.1 |  1.16.1 |  1.16.0 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
@@ -202,6 +202,11 @@ Component Status overview. Last update 2024-03-22T16:29:16Z
 - [API 1.15, Go updates](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.15.0) on 2024-03-15 10:19:32 +0000 UTC
 
 
+
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (1)
+
+- [Merge pull request #382 from PRODYNA-YASM/bugfix/247-anonymize-employ…](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8393419151) created on 2024-03-22 16:27:14 +0000 UTC
 
 
 
