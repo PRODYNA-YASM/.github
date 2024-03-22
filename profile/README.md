@@ -1,19 +1,19 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-22T07:31:40Z
+Component Status overview. Last update 2024-03-22T14:46:08Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.16.4 |  :green_square: 1.16.4 |  :green_square: 1.16.4 |  :green_square: 1.16.4 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.16.5 |  :green_square: 1.16.5 |  :green_square: 1.16.5 |  :green_square: 1.16.5 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [4](https://github.com/prodyna-yasm/yasmctl/compare/1.16.0..HEAD) | :green_square: 0 | 1.16.0 |  :red_square: 745b714 |  :green_square: 1.16.0 |  :green_square: 1.16.0 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [4](https://github.com/prodyna-yasm/yasmctl/compare/1.16.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.16.0 |  :red_square: 745b714 |  :green_square: 1.16.0 |  :green_square: 1.16.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [6](https://github.com/prodyna-yasm/yasm-integration/compare/1.16.0..HEAD) | :green_square: 0 | 1.16.0 |  :red_square: fc48688 |  :green_square: 1.16.0 |  :green_square: 1.16.0 | 
-| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [30](https://github.com/prodyna-yasm/yasm-github/compare/..HEAD) | :green_square: 0 |  |  :red_square: ae29baf | 
+| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [30](https://github.com/prodyna-yasm/yasm-github/compare/..HEAD) | :green_square: 0 |  |  :red_square: 0008473 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :red_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.2.2-2 |  :green_square: 8.2.2-2 |  :green_square: 8.2.2-2 |  :green_square: 8.2.2-2 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.16.2..HEAD) | :green_square: 0 | 1.16.2 |  :red_square: 8b0f940 |  :green_square: 1.16.2 |  :red_square: 1.16.1 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.16.3 |  :green_square: 1.16.3 |  :green_square: 1.16.3 |  :green_square: 1.16.3 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [2](https://github.com/prodyna-yasm/yasm-api/compare/1.16.4..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.16.4 | 
 
 
@@ -123,6 +123,11 @@ Component Status overview. Last update 2024-03-22T07:31:40Z
 - [Ignore deployment state](https://github.com/prodyna-yasm/yasmctl/commit/4ca9110aec072fb93bc0386264881b66dd6c41cf) by [dkrizic](https://github.com/dkrizic) on 2024-03-21 09:13:38 +0000 UTC
 
 
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasmctl/pulls) (1)
+
+- [Fix logging](https://github.com/PRODYNA-YASM/yasmctl/pull/289)
 
 
 
@@ -332,18 +337,9 @@ Component Status overview. Last update 2024-03-22T07:31:40Z
 
 
 
-## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 1.16.2
+## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 1.16.3
 
 
-
-
-### [Commits on main since 1.16.2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.16.2..HEAD) (3)
-
-- [Fix default backend](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/8b0f940151ebd355c72efc03ad99d44f5e162cbe) by [dkrizic](https://github.com/dkrizic) on 2024-03-21 13:33:31 +0000 UTC
-
-- [Merge pull request #455 from PRODYNA-YASM/feature/more-memory-for-tempo-ingester](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1f7a25887a0f16a6dfa99dac4fbe8e5f1b0f6095) by [dkrizic](https://github.com/dkrizic) on 2024-03-21 10:25:05 +0000 UTC
-
-- [1GB more RAM for ingester](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/68c95bd6cd23d2b7faf9350d7c3237fdf5c4139d) by [dkrizic](https://github.com/dkrizic) on 2024-03-21 10:21:55 +0000 UTC
 
 
 
@@ -353,18 +349,18 @@ Component Status overview. Last update 2024-03-22T07:31:40Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  8b0f940 |  1.16.2 |  1.16.1 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :red_square: | 
+| Version |  1.16.3 |  1.16.3 |  1.16.3 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [1.16.3](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.16.3) on 2024-03-21 13:33:31 +0000 UTC
+
 - [YASM-Github added](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.16.2) on 2024-03-20 10:51:36 +0000 UTC
 
 - [1.16.1](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.16.1) on 2024-03-19 13:04:16 +0000 UTC
-
-- [New version of Grafana stack](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/v1.16.0) on 2024-03-19 13:04:16 +0000 UTC
 
 
 
