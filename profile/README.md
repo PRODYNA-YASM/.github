@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-21T23:29:31Z
+Component Status overview. Last update 2024-03-22T07:31:40Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.16.4 |  :green_square: 1.16.4 |  :green_square: 1.16.4 |  :green_square: 1.16.4 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.16.5 |  :green_square: 1.16.5 |  :green_square: 1.16.5 |  :green_square: 1.16.5 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.16.5 |  :green_square: 1.16.5 |  :green_square: 1.16.5 |  :green_square: 1.16.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [4](https://github.com/prodyna-yasm/yasmctl/compare/1.16.0..HEAD) | :green_square: 0 | 1.16.0 |  :red_square: 745b714 |  :green_square: 1.16.0 |  :green_square: 1.16.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [6](https://github.com/prodyna-yasm/yasm-integration/compare/1.16.0..HEAD) | :green_square: 0 | 1.16.0 |  :red_square: fc48688 |  :green_square: 1.16.0 |  :green_square: 1.16.0 | 
@@ -65,7 +65,9 @@ Component Status overview. Last update 2024-03-21T23:29:31Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (8)
+
+- [Bump webpack-dev-middleware from 6.1.1 to 7.1.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/554)
 
 - [Bump webpack-dev-middleware from 6.1.1 to 6.1.2](https://github.com/PRODYNA-YASM/yasm-frontend/pull/553)
 

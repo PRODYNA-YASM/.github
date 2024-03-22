@@ -145,8 +145,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "Bump webpack-dev-middleware from 6.1.1 to 7.1.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/554"
+          },
           {
             "Title": "Bump webpack-dev-middleware from 6.1.1 to 6.1.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/553"
@@ -1324,5 +1328,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-21T23:29:31Z"
+  "LastUpdated": "2024-03-22T07:31:40Z"
 }
