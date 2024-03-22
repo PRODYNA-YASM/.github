@@ -560,7 +560,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0008473",
+          "Version": "ab1796b",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -583,6 +583,26 @@
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Get parts",
+            "SHA": "bd87557999d5c1a3980c6af9ef8762e4e76b85a0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-22T15:26:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/bd87557999d5c1a3980c6af9ef8762e4e76b85a0"
+          },
+          {
+            "Text": "Checking token",
+            "SHA": "ab1796b32663406b95c16134680c07f5c34ab9a6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-22T15:11:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/ab1796b32663406b95c16134680c07f5c34ab9a6"
+          },
           {
             "Text": "Read token",
             "SHA": "00084737b8b973074afabecf24c8a7aec642892f",
@@ -862,26 +882,6 @@
             },
             "Timestamp": "2024-03-21T12:59:02Z",
             "Link": "https://github.com/prodyna-yasm/yasm-github/commit/1624288d733dad07e8f7d94bd6eaa5427964fa4d"
-          },
-          {
-            "Text": "Pass ctx downstream",
-            "SHA": "efadeb049ca6e2e2c625e748bab923a2d2c9d61d",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-21T12:30:24Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/efadeb049ca6e2e2c625e748bab923a2d2c9d61d"
-          },
-          {
-            "Text": "Clean check handler",
-            "SHA": "c102d19a37859f7031f8665b8113696855391eee",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-21T12:25:48Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/c102d19a37859f7031f8665b8113696855391eee"
           }
         ]
       },
@@ -1317,5 +1317,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-22T14:50:54Z"
+  "LastUpdated": "2024-03-22T15:33:17Z"
 }
