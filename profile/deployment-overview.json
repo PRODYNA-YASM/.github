@@ -253,19 +253,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Fix logging",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/289"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.16.0..HEAD",
-        "Count": 4,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #289 from PRODYNA-YASM/feature/fix-logging",
+            "SHA": "b988173b32251310e26e6ddc27b27175cae8e16a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-22T14:49:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/b988173b32251310e26e6ddc27b27175cae8e16a"
+          },
+          {
+            "Text": "Fix logging",
+            "SHA": "035961bd162767d4f9b2a703a468436505616eac",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-22T14:45:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/035961bd162767d4f9b2a703a468436505616eac"
+          },
           {
             "Text": "Merge pull request #288 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.16.4",
             "SHA": "745b714a90fe224c82dc277a033572cd1dad0afb",
@@ -1302,5 +1317,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-22T14:46:08Z"
+  "LastUpdated": "2024-03-22T14:49:49Z"
 }
