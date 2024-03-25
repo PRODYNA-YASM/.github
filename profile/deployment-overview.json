@@ -288,33 +288,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1955112",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.11.1",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.11.0",
+          "Version": "1.11.1",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.11.0",
+          "Version": "1.11.1",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.11.0",
+        "Tag": "1.11.1",
         "SHA": "",
-        "Title": "Technical updates",
-        "Timestamp": "2024-03-15T10:33:41Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.0"
+        "Title": "Technical update",
+        "Timestamp": "2024-03-25T20:29:45Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.1"
       },
       "Releases": [
+        {
+          "Tag": "1.11.1",
+          "SHA": "",
+          "Title": "Technical update",
+          "Timestamp": "2024-03-25T16:42:43Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.1"
+        },
         {
           "Tag": "1.11.0",
           "SHA": "",
@@ -328,13 +335,6 @@
           "Title": "Libs updated",
           "Timestamp": "2024-02-26T13:21:22Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.10.0"
-        },
-        {
-          "Tag": "1.9.0",
-          "SHA": "",
-          "Title": "Create virtual node in Service Graph",
-          "Timestamp": "2024-02-24T22:44:44Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.9.0"
         }
       ],
       "PullRequests": {
@@ -344,30 +344,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.11.0..HEAD",
-        "Count": 2,
-        "Commits": [
-          {
-            "Text": "Merge pull request #169 from PRODYNA-YASM/dependabot/go_modules/github.com/riandyrn/otelchi-0.5.2",
-            "SHA": "1955112ee1a84363629dbb343420fce5f7f33238",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-25T14:02:38Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/1955112ee1a84363629dbb343420fce5f7f33238"
-          },
-          {
-            "Text": "Bump github.com/riandyrn/otelchi from 0.5.1 to 0.5.2",
-            "SHA": "9e067defcb6c646bd1220c2eecd4479a7fcb807d",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-03-25T13:53:39Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/9e067defcb6c646bd1220c2eecd4479a7fcb807d"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.11.1..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -398,9 +377,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.16.1",
+          "Version": "1.16.2",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -448,14 +427,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #385 from PRODYNA-YASM/384-libs-update",
-            "Timestamp": "2024-03-25T12:03:18Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8419726949"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -856,8 +829,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump github.com/riandyrn/otelchi from 0.5.1 to 0.5.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/86"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
@@ -1228,5 +1206,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-25T15:09:31Z"
+  "LastUpdated": "2024-03-25T21:07:54Z"
 }
