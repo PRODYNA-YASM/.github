@@ -934,9 +934,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8.2.2-2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "29682d8",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -991,8 +991,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.2.2-2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #38 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.3.0",
+            "SHA": "29682d895b359dfa1f445dcbb6c0e113a69a7608",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-25T06:56:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/29682d895b359dfa1f445dcbb6c0e113a69a7608"
+          },
+          {
+            "Text": "Bump gotenberg/gotenberg from 8.2.2 to 8.3.0",
+            "SHA": "0f873d520dcc7d1a76e7f17b7980ed1837691116",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-03-25T01:18:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/0f873d520dcc7d1a76e7f17b7980ed1837691116"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1195,5 +1216,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-24T07:31:26Z"
+  "LastUpdated": "2024-03-25T07:31:30Z"
 }
