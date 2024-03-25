@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-25T07:31:30Z
+Component Status overview. Last update 2024-03-25T10:08:46Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -8,11 +8,11 @@ Component Status overview. Last update 2024-03-25T07:31:30Z
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.16.5 |  :green_square: 1.16.5 |  :green_square: 1.16.5 |  :green_square: 1.16.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 |  :green_square: 1.11.0 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [30](https://github.com/prodyna-yasm/yasm-github/compare/..HEAD) | :green_square: 0 |  |  :red_square: 6d757ea | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 |  :green_square: 1.4.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :red_square: 1.9.0 | 
-| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [2](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.2.2-2..HEAD) | :green_square: 0 | 8.2.2-2 |  :red_square: 29682d8 |  :green_square: 8.2.2-2 |  :green_square: 8.2.2-2 | 
+| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.3.0-1 |  :green_square: 8.3.0-1 |  :green_square: 8.3.0-1 |  :red_square: 8.2.2-2 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.16.3 |  :green_square: 1.16.3 |  :green_square: 1.16.3 |  :green_square: 1.16.3 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [2](https://github.com/prodyna-yasm/yasm-api/compare/1.16.4..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.16.4 | 
 
@@ -181,6 +181,11 @@ Component Status overview. Last update 2024-03-25T07:31:30Z
 
 
 
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (1)
+
+- [384 libs update](https://github.com/PRODYNA-YASM/yasm-integration/pull/385)
+
+
 
 ### Environments
 
@@ -276,16 +281,9 @@ Component Status overview. Last update 2024-03-25T07:31:30Z
 
 
 
-## [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) 8.2.2-2
+## [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) 8.3.0-1
 
 
-
-
-### [Commits on main since 8.2.2-2](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.2.2-2..HEAD) (2)
-
-- [Merge pull request #38 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.3.0](https://github.com/prodyna-yasm/yasm-gotenberg/commit/29682d895b359dfa1f445dcbb6c0e113a69a7608) by [dkrizic](https://github.com/dkrizic) on 2024-03-25 06:56:51 +0000 UTC
-
-- [Bump gotenberg/gotenberg from 8.2.2 to 8.3.0](https://github.com/prodyna-yasm/yasm-gotenberg/commit/0f873d520dcc7d1a76e7f17b7980ed1837691116) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-03-25 01:18:14 +0000 UTC
 
 
 
@@ -295,20 +293,25 @@ Component Status overview. Last update 2024-03-25T07:31:30Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  29682d8 |  8.2.2-2 |  8.2.2-2 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  8.3.0-1 |  8.3.0-1 |  8.2.2-2 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
+
+- [Gotenberg 8.3.0](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.3.0-1) on 2024-03-25 06:56:51 +0000 UTC
 
 - [Gotenberg 8.2.2](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.2.2-2) on 2024-03-18 06:03:48 +0000 UTC
 
 - [Gotenberg 8.2.1](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.2.1-1) on 2024-03-11 06:18:26 +0000 UTC
 
-- [8.2.0-4](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.2.0-4) on 2024-03-04 01:27:19 +0000 UTC
 
 
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting) (1)
+
+- [Merge pull request #38 from PRODYNA-YASM/dependabot/docker/gotenberg/…](https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/8417447741) created on 2024-03-25 08:53:43 +0000 UTC
 
 
 
