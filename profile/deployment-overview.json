@@ -94,9 +94,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.16.5",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "778a0f4",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -145,7 +145,7 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 8,
+        "Count": 7,
         "PullRequests": [
           {
             "Title": "Bump webpack-dev-middleware from 6.1.1 to 7.1.1",
@@ -154,10 +154,6 @@
           {
             "Title": "Bump webpack-dev-middleware from 6.1.1 to 6.1.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/553"
-          },
-          {
-            "Title": "yasm-community-request #426 ",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/552"
           },
           {
             "Title": "Bump css-loader from 6.8.1 to 6.10.0",
@@ -184,8 +180,69 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.16.5..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 6,
+        "Commits": [
+          {
+            "Text": "Merge pull request #552 from PRODYNA-YASM/feature/426_clean-up-admin-functionality",
+            "SHA": "778a0f429510185bb1c6870e57bc2806e8ab8405",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-03-25T21:40:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/778a0f429510185bb1c6870e57bc2806e8ab8405"
+          },
+          {
+            "Text": "yasm-community-request #426 added snackbar when linking industry to organization, reset page width",
+            "SHA": "74bb05fa86bc25066300c795c7b6089ce96f9263",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-03-25T21:30:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/74bb05fa86bc25066300c795c7b6089ce96f9263"
+          },
+          {
+            "Text": "yasm-community-request #426 added industry field to edit modal and add new organization modal",
+            "SHA": "f6d5f1989e8149a7a17938cec7119a800cd52723",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-03-22T14:34:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/f6d5f1989e8149a7a17938cec7119a800cd52723"
+          },
+          {
+            "Text": "yasm-community-request #426 added industry field to edit modal in organization page",
+            "SHA": "3eab4d4689e753c1a9f35306637d544ac61daa0c",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-03-21T16:03:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/3eab4d4689e753c1a9f35306637d544ac61daa0c"
+          },
+          {
+            "Text": "yasm-community-request #426 added description to add organization form, industries in detail view of organization",
+            "SHA": "199f262dd5ba31bab30774afd301be5b32c694bd",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-03-21T14:28:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/199f262dd5ba31bab30774afd301be5b32c694bd"
+          },
+          {
+            "Text": "yasm-community-request #426 added description to admin organisation page and deleted edit functionality for description in project detail page",
+            "SHA": "199ecc780a4dc4dfccf906e156e8a3a6649c184c",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-03-21T10:55:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/199ecc780a4dc4dfccf906e156e8a3a6649c184c"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -778,9 +835,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.4.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "c0b8a8b",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -829,19 +886,35 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump github.com/riandyrn/otelchi from 0.5.1 to 0.5.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/86"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.4.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #86 from PRODYNA-YASM/dependabot/go_modules/github.com/riandyrn/otelchi-0.5.2",
+            "SHA": "c0b8a8b6b720521a74534b84e500e37961e6a4e1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-25T22:25:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/c0b8a8b6b720521a74534b84e500e37961e6a4e1"
+          },
+          {
+            "Text": "Bump github.com/riandyrn/otelchi from 0.5.1 to 0.5.2",
+            "SHA": "6256e548644a16d8156f6183e34aefe1a266befb",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-03-25T16:54:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/6256e548644a16d8156f6183e34aefe1a266befb"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -1206,5 +1279,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-25T21:07:54Z"
+  "LastUpdated": "2024-03-26T07:31:20Z"
 }
