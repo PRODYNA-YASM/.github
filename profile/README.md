@@ -1,15 +1,15 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-26T13:35:40Z
+Component Status overview. Last update 2024-03-26T23:33:06Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-backend/compare/1.16.4..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.16.4 |  :red_square: 2e1b20b |  :green_square: 1.16.4 |  :green_square: 1.16.4 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [6](https://github.com/prodyna-yasm/yasm-frontend/compare/1.16.5..HEAD) | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.16.5 |  :red_square: 778a0f4 |  :green_square: 1.16.5 |  :green_square: 1.16.5 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.16.6 |  :green_square: 1.16.6 |  :green_square: 1.16.6 |  :red_square: 1.16.5 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.1 |  :green_square: 1.11.1 |  :green_square: 1.11.1 |  :green_square: 1.11.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.16.2 |  :green_square: 1.16.2 |  :green_square: 1.16.2 |  :green_square: 1.16.2 | 
-| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [30](https://github.com/prodyna-yasm/yasm-github/compare/..HEAD) | :green_square: 0 |  |  :red_square: 6d757ea | 
+| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.0.0 |  :green_square: 1.0.0 |  :green_square: 1.0.0 |  :green_square: 1.0.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [2](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.4.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-geocoding/pulls) | 1.4.0 |  :red_square: c0b8a8b |  :green_square: 1.4.0 |  :green_square: 1.4.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :red_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.3.0-1 |  :green_square: 8.3.0-1 |  :green_square: 8.3.0-1 |  :green_square: 8.3.0-1 | 
@@ -63,35 +63,18 @@ Component Status overview. Last update 2024-03-26T13:35:40Z
 
 
 
-## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.16.5
+## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.16.6
 
 
 
 
-### [Commits on master since 1.16.5](https://github.com/prodyna-yasm/yasm-frontend/compare/1.16.5..HEAD) (6)
-
-- [Merge pull request #552 from PRODYNA-YASM/feature/426_clean-up-admin-functionality](https://github.com/prodyna-yasm/yasm-frontend/commit/778a0f429510185bb1c6870e57bc2806e8ab8405) by [irhox](https://github.com/irhox) on 2024-03-25 21:40:04 +0000 UTC
-
-- [yasm-community-request #426 added snackbar when linking industry to organization, reset page width](https://github.com/prodyna-yasm/yasm-frontend/commit/74bb05fa86bc25066300c795c7b6089ce96f9263) by [irhox](https://github.com/irhox) on 2024-03-25 21:30:17 +0000 UTC
-
-- [yasm-community-request #426 added industry field to edit modal and add new organization modal](https://github.com/prodyna-yasm/yasm-frontend/commit/f6d5f1989e8149a7a17938cec7119a800cd52723) by [irhox](https://github.com/irhox) on 2024-03-22 14:34:53 +0000 UTC
-
-- [yasm-community-request #426 added industry field to edit modal in organization page](https://github.com/prodyna-yasm/yasm-frontend/commit/3eab4d4689e753c1a9f35306637d544ac61daa0c) by [irhox](https://github.com/irhox) on 2024-03-21 16:03:22 +0000 UTC
-
-- [yasm-community-request #426 added description to add organization form, industries in detail view of organization](https://github.com/prodyna-yasm/yasm-frontend/commit/199f262dd5ba31bab30774afd301be5b32c694bd) by [irhox](https://github.com/irhox) on 2024-03-21 14:28:09 +0000 UTC
-
-- [yasm-community-request #426 added description to admin organisation page and deleted edit functionality for description in project detail page](https://github.com/prodyna-yasm/yasm-frontend/commit/199ecc780a4dc4dfccf906e156e8a3a6649c184c) by [irhox](https://github.com/irhox) on 2024-03-21 10:55:23 +0000 UTC
 
 
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (9)
 
+- [remove offline cache](https://github.com/PRODYNA-YASM/yasm-frontend/pull/559)
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (10)
-
-- [Fix/refactoring](https://github.com/PRODYNA-YASM/yasm-frontend/pull/557)
-
-- [update api to 1.16.5](https://github.com/PRODYNA-YASM/yasm-frontend/pull/556)
-
-- [Feature/70 better communicate how to create a new project in UI](https://github.com/PRODYNA-YASM/yasm-frontend/pull/555)
+- [Bump express from 4.18.2 to 4.19.2](https://github.com/PRODYNA-YASM/yasm-frontend/pull/558)
 
 - [Bump webpack-dev-middleware from 6.1.1 to 7.1.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/554)
 
@@ -113,18 +96,18 @@ Component Status overview. Last update 2024-03-26T13:35:40Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  778a0f4 |  1.16.5 |  1.16.5 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.16.6 |  1.16.6 |  1.16.5 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
 
+- [Cleanup Admin functionality, fix while creating a new project, major refactoring](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.16.6) on 2024-03-26 15:40:57 +0000 UTC
+
 - [Fixed Local Filters, fixed modal height in Skills Selection PDFExport Wizard](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.16.5) on 2024-03-20 15:22:19 +0000 UTC
 
 - [Fix modal logo search Organization by setting overflowY to visible](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.16.4) on 2024-03-18 11:34:25 +0000 UTC
-
-- [Set SALES_COPILOT URL on prod to empty](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.16.3) on 2024-03-15 22:31:06 +0000 UTC
 
 
 
@@ -136,6 +119,11 @@ Component Status overview. Last update 2024-03-26T13:35:40Z
 
 
 
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasmctl/pulls) (1)
+
+- [Bump github.com/prodyna-yasm/yasm-api-go from 1.16.4 to 1.16.5](https://github.com/PRODYNA-YASM/yasmctl/pull/290)
 
 
 
@@ -228,11 +216,30 @@ Component Status overview. Last update 2024-03-26T13:35:40Z
 
 
 
-## [yasm-github](https://github.com/prodyna-yasm/yasm-github) 
+## [yasm-github](https://github.com/prodyna-yasm/yasm-github) 1.0.0
 
 
-> [!WARNING]
-> GET https://api.github.com/repos/prodyna-yasm/yasm-github/releases/latest: 404 Not Found []
+
+
+
+
+
+### Environments
+
+| Environment |  dev |  staging |  prod | 
+| --- |  --- |  --- |  --- | 
+| Version |  1.0.0 |  1.0.0 |  1.0.0 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
+
+
+### Last releases
+
+- [Initial release](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.0.0) on 2024-03-26 23:19:00 +0000 UTC
+
+
+
+
 
 
 ## [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) 1.4.0
