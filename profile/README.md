@@ -1,12 +1,12 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-27T08:46:43Z
+Component Status overview. Last update 2024-03-27T08:52:19Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-backend/compare/1.16.4..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.16.4 |  :red_square: 2e1b20b |  :green_square: 1.16.4 |  :green_square: 1.16.4 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.16.6..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.16.6 |  :red_square: 76c0163 |  :green_square: 1.16.6 |  :red_square: 1.16.5 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.16.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.1 |  :green_square: 1.11.1 |  :green_square: 1.11.1 |  :green_square: 1.11.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [4](https://github.com/prodyna-yasm/yasm-integration/compare/1.16.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.16.2 |  :red_square: 3f1d3fd |  :green_square: 1.16.2 |  :green_square: 1.16.2 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.0.0 |  :green_square: 1.0.0 |  :green_square: 1.0.0 |  :green_square: 1.0.0 | 
@@ -126,11 +126,16 @@ Component Status overview. Last update 2024-03-27T08:46:43Z
 
 
 
+### [Commits on master since 1.16.1](https://github.com/prodyna-yasm/yasmctl/compare/1.16.1..HEAD) (2)
+
+- [Merge pull request #292 from PRODYNA-YASM/291-use-versioned-image](https://github.com/prodyna-yasm/yasmctl/commit/106b0433840e074bfe22656b879bfc8aeffdfe47) by [dkrizic](https://github.com/dkrizic) on 2024-03-27 08:51:44 +0000 UTC
+
+- [Use specific alpine image](https://github.com/prodyna-yasm/yasmctl/commit/e4092980ddc870fcddc6e11e183a99f3b26aecd0) by [dkrizic](https://github.com/dkrizic) on 2024-03-27 08:45:46 +0000 UTC
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasmctl/pulls) (2)
 
-- [Use specific alpine image](https://github.com/PRODYNA-YASM/yasmctl/pull/292)
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasmctl/pulls) (1)
 
 - [Bump github.com/prodyna-yasm/yasm-api-go from 1.16.4 to 1.16.5](https://github.com/PRODYNA-YASM/yasmctl/pull/290)
 

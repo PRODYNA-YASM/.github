@@ -289,12 +289,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "Use specific alpine image",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/292"
-          },
           {
             "Title": "Bump github.com/prodyna-yasm/yasm-api-go from 1.16.4 to 1.16.5",
             "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/290"
@@ -304,8 +300,29 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.16.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #292 from PRODYNA-YASM/291-use-versioned-image",
+            "SHA": "106b0433840e074bfe22656b879bfc8aeffdfe47",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-27T08:51:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/106b0433840e074bfe22656b879bfc8aeffdfe47"
+          },
+          {
+            "Text": "Use specific alpine image",
+            "SHA": "e4092980ddc870fcddc6e11e183a99f3b26aecd0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-27T08:45:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/e4092980ddc870fcddc6e11e183a99f3b26aecd0"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -1027,5 +1044,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-27T08:46:43Z"
+  "LastUpdated": "2024-03-27T08:52:19Z"
 }
