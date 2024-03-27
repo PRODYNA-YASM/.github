@@ -156,8 +156,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 9,
+        "Count": 10,
         "PullRequests": [
+          {
+            "Title": "Bump actions/add-to-project from 0.6.1 to 1.0.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/561"
+          },
           {
             "Title": "remove offline cache",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/559"
@@ -434,8 +438,17 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.36.0 to 1.37.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/387"
+          },
+          {
+            "Title": "Bump github.com/prodyna-yasm/yasm-api-go from 1.16.4 to 1.16.5",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/386"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -519,7 +532,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "c0b8a8b",
+          "Version": "eadf632",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -570,19 +583,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Use specific go version",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/88"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.4.0..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #88 from PRODYNA-YASM/87-technical-update",
+            "SHA": "eadf6327169d2b47641938fd537364f6935f6c15",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-26T23:34:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/eadf6327169d2b47641938fd537364f6935f6c15"
+          },
+          {
+            "Text": "Use specific go version",
+            "SHA": "37396dee1b2f1a4b14956ed2bcdd2d9937a04252",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-26T09:36:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/37396dee1b2f1a4b14956ed2bcdd2d9937a04252"
+          },
           {
             "Text": "Merge pull request #86 from PRODYNA-YASM/dependabot/go_modules/github.com/riandyrn/otelchi-0.5.2",
             "SHA": "c0b8a8b6b720521a74534b84e500e37961e6a4e1",
@@ -941,5 +969,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-26T23:33:06Z"
+  "LastUpdated": "2024-03-27T07:31:28Z"
 }
