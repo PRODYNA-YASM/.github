@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "dd62a99",
+          "Version": "2917bed",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -70,8 +70,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.16.4..HEAD",
-        "Count": 2,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "fix project status filter (#559)",
+            "SHA": "2917bed09491bdfc5d1a9f5992abc25643c91c6f",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-03-27T18:26:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/2917bed09491bdfc5d1a9f5992abc25643c91c6f"
+          },
           {
             "Text": "change so post search endpoints (#558)",
             "SHA": "dd62a9948ed77b03eb673d0afdb3665c2381521b",
@@ -115,7 +125,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "066a90c",
+          "Version": "f1ecf66",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -166,12 +176,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 9,
+        "Count": 8,
         "PullRequests": [
-          {
-            "Title": "update to api 1.17.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/563"
-          },
           {
             "Title": "Bump express from 4.18.2 to 4.19.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/558"
@@ -209,8 +215,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.16.6..HEAD",
-        "Count": 17,
+        "Count": 19,
         "Commits": [
+          {
+            "Text": "Merge pull request #563 from PRODYNA-YASM/api/api-1.17.0",
+            "SHA": "f1ecf66fcd399f5aa788346ccd6e6200ad5ed310",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-03-27T15:50:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/f1ecf66fcd399f5aa788346ccd6e6200ad5ed310"
+          },
+          {
+            "Text": "update to api 1.17.1",
+            "SHA": "d3f27a30c89256ff3c7f6c605d1fffe0effa0f9e",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-03-27T15:32:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d3f27a30c89256ff3c7f6c605d1fffe0effa0f9e"
+          },
           {
             "Text": "Merge pull request #562 from PRODYNA-YASM/refactoring/hard-coded-txts",
             "SHA": "066a90c7dc3038f66c4a84b5bf9576729902bed9",
@@ -455,8 +481,38 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.16.1..HEAD",
-        "Count": 5,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Merge pull request #293 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.17.1",
+            "SHA": "a66207225b976f5b2134ed2c4e5c8ebbcce10b6c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-27T22:21:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/a66207225b976f5b2134ed2c4e5c8ebbcce10b6c"
+          },
+          {
+            "Text": "Fix API changes",
+            "SHA": "50f273eea7a41a15e0dcca3ef7c82893ce6849a2",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-27T22:17:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/50f273eea7a41a15e0dcca3ef7c82893ce6849a2"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.16.5 to 1.17.1",
+            "SHA": "89526965069e049438cbf3117d956f9a7d1623ea",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-03-27T21:16:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/89526965069e049438cbf3117d956f9a7d1623ea"
+          },
           {
             "Text": "Merge pull request #290 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.16.5",
             "SHA": "45a121fca2c68db117e4202a8ab61f6af9b1c584",
@@ -1256,5 +1312,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-27T15:49:30Z"
+  "LastUpdated": "2024-03-27T22:22:20Z"
 }
