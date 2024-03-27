@@ -289,8 +289,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "Use specific alpine image",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/292"
+          },
           {
             "Title": "Bump github.com/prodyna-yasm/yasm-api-go from 1.16.4 to 1.16.5",
             "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/290"
@@ -455,8 +459,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Use alpine specific version",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/389"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -1018,5 +1027,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-27T08:37:08Z"
+  "LastUpdated": "2024-03-27T08:46:43Z"
 }
