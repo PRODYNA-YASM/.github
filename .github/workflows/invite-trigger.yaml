@@ -15,4 +15,4 @@ jobs:
   call-invite:
     uses: "prodyna-yasm/.github/.github/workflows/invite.yaml@main"
     secrets:
-      token: ${{ secrets.OVERVIEW_TOKEN }}
+      token: ${{ secrets.INVITE_TOKEN }}
