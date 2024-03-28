@@ -483,8 +483,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Add skip and limit to all places",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/294"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
@@ -725,8 +730,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 1,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Changes for new API 1.17",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/392"
+          },
+          {
+            "Title": "Update libs",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/391"
+          },
           {
             "Title": "Bump github.com/prodyna-yasm/yasm-api-go from 1.16.5 to 1.17.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/390"
@@ -1325,5 +1338,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-28T07:31:42Z"
+  "LastUpdated": "2024-03-28T11:13:42Z"
 }
