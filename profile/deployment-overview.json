@@ -765,12 +765,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 3,
+        "Count": 2,
         "PullRequests": [
-          {
-            "Title": "Changes for new API 1.17",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/392"
-          },
           {
             "Title": "Update libs",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/391"
@@ -784,8 +780,38 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.16.2..HEAD",
-        "Count": 6,
+        "Count": 9,
         "Commits": [
+          {
+            "Text": "Merge pull request #392 from PRODYNA-YASM/feature/api-1.17",
+            "SHA": "4c8fd3ea825d01ca8c1592db12e85c647e5cb08d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-28T11:27:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/4c8fd3ea825d01ca8c1592db12e85c647e5cb08d"
+          },
+          {
+            "Text": "Use the constant as well",
+            "SHA": "81108eaeed8fb9c69082648cdffa35b3c220f14b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-28T11:04:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/81108eaeed8fb9c69082648cdffa35b3c220f14b"
+          },
+          {
+            "Text": "Changes for new API 1.17",
+            "SHA": "f08cfe734727dba94c5cb0cc4d611d1883d35b81",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-03-28T11:01:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/f08cfe734727dba94c5cb0cc4d611d1883d35b81"
+          },
           {
             "Text": "Merge pull request #389 from PRODYNA-YASM/388-use-versioned-image",
             "SHA": "ee4bcb04215b21affba7fd916a54302f6593385d",
@@ -1373,5 +1399,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-28T11:27:28Z"
+  "LastUpdated": "2024-03-28T11:28:18Z"
 }

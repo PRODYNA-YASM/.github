@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-28T11:27:28Z
+Component Status overview. Last update 2024-03-28T11:28:18Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -8,7 +8,7 @@ Component Status overview. Last update 2024-03-28T11:27:28Z
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [19](https://github.com/prodyna-yasm/yasm-frontend/compare/1.16.6..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.16.6 |  :red_square: f1ecf66 |  :green_square: 1.16.6 |  :red_square: 1.16.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [12](https://github.com/prodyna-yasm/yasmctl/compare/1.16.1..HEAD) | :green_square: 0 | 1.16.1 |  :red_square: fb4f790 |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.1 |  :green_square: 1.11.1 |  :green_square: 1.11.1 |  :green_square: 1.11.1 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [6](https://github.com/prodyna-yasm/yasm-integration/compare/1.16.2..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.16.2 |  :red_square: ee4bcb0 |  :green_square: 1.16.2 |  :green_square: 1.16.2 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [9](https://github.com/prodyna-yasm/yasm-integration/compare/1.16.2..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.16.2 |  :red_square: ee4bcb0 |  :green_square: 1.16.2 |  :green_square: 1.16.2 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [6](https://github.com/prodyna-yasm/yasm-github/compare/1.0.0..HEAD) | :green_square: 0 | 1.0.0 |  :red_square: 4eefbc2 |  :green_square: 1.0.0 |  :green_square: 1.0.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.5.0 |  :green_square: 1.5.0 |  :green_square: 1.5.0 |  :green_square: 1.5.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :red_square: 1.9.0 | 
@@ -260,7 +260,13 @@ Component Status overview. Last update 2024-03-28T11:27:28Z
 
 
 
-### [Commits on master since 1.16.2](https://github.com/prodyna-yasm/yasm-integration/compare/1.16.2..HEAD) (6)
+### [Commits on master since 1.16.2](https://github.com/prodyna-yasm/yasm-integration/compare/1.16.2..HEAD) (9)
+
+- [Merge pull request #392 from PRODYNA-YASM/feature/api-1.17](https://github.com/prodyna-yasm/yasm-integration/commit/4c8fd3ea825d01ca8c1592db12e85c647e5cb08d) by [dkrizic](https://github.com/dkrizic) on 2024-03-28 11:27:36 +0000 UTC
+
+- [Use the constant as well](https://github.com/prodyna-yasm/yasm-integration/commit/81108eaeed8fb9c69082648cdffa35b3c220f14b) by [dkrizic](https://github.com/dkrizic) on 2024-03-28 11:04:25 +0000 UTC
+
+- [Changes for new API 1.17](https://github.com/prodyna-yasm/yasm-integration/commit/f08cfe734727dba94c5cb0cc4d611d1883d35b81) by [dkrizic](https://github.com/dkrizic) on 2024-03-28 11:01:06 +0000 UTC
 
 - [Merge pull request #389 from PRODYNA-YASM/388-use-versioned-image](https://github.com/prodyna-yasm/yasm-integration/commit/ee4bcb04215b21affba7fd916a54302f6593385d) by [dkrizic](https://github.com/dkrizic) on 2024-03-27 08:54:35 +0000 UTC
 
@@ -277,9 +283,7 @@ Component Status overview. Last update 2024-03-28T11:27:28Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (3)
-
-- [Changes for new API 1.17](https://github.com/PRODYNA-YASM/yasm-integration/pull/392)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (2)
 
 - [Update libs](https://github.com/PRODYNA-YASM/yasm-integration/pull/391)
 
