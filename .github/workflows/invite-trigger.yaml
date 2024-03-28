@@ -12,7 +12,7 @@ on:
 
 jobs:
 
-  call-overview:
+  call-invite:
     uses: "prodyna-yasm/.github/.github/workflows/invite.yaml@main"
     secrets:
       token: ${{ secrets.OVERVIEW_TOKEN }}
