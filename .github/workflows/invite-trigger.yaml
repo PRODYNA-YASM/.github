@@ -1,9 +1,9 @@
-name: Push or daily trigger
+name: "Invite: Trigger"
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 7 * * *'
+    - cron: '30 8 * * *'
   push:
     branches:
       - main
@@ -13,6 +13,6 @@ on:
 jobs:
 
   call-overview:
-    uses: "prodyna-yasm/.github/.github/workflows/overview.yaml@main"
+    uses: "prodyna-yasm/.github/.github/workflows/invite.yaml@main"
     secrets:
       token: ${{ secrets.OVERVIEW_TOKEN }}

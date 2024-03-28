@@ -1,0 +1,18 @@
+name: "Deployment Overview: Trigger"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 7 * * *'
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/'
+
+jobs:
+
+  call-overview:
+    uses: "prodyna-yasm/.github/.github/workflows/overview.yaml@main"
+    secrets:
+      token: ${{ secrets.OVERVIEW_TOKEN }}
