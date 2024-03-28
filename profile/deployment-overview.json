@@ -59,8 +59,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 1,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Bump quarkus.platform.version from 3.8.3 to 3.9.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/561"
+          },
+          {
+            "Title": "Bump eclipse-temurin from 21.0.2_13-jre-ubi9-minimal to 22_36-jre-ubi9-minimal",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/560"
+          },
           {
             "Title": "Bump jackson.version from 2.16.1 to 2.17.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/538"
@@ -424,7 +432,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "45a121f",
+          "Version": "a662072",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -717,8 +725,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump github.com/prodyna-yasm/yasm-api-go from 1.16.5 to 1.17.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/390"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -1312,5 +1325,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-27T22:23:23Z"
+  "LastUpdated": "2024-03-28T07:31:42Z"
 }
