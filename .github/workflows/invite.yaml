@@ -18,7 +18,7 @@ jobs:
         uses: prodyna/invite-to-org@v1.1
         with:
           # The GitHub Token to use for authentication, it needs permissions to read member in source-org and invite them to the target-org
-          github-token: ${{ inputs.token }}
+          github-token: ${{ secrets.token }}
           enterprise: "prodyna"
           source-organization: "prodyna"
           target-organization: "prodyna-yasm"
