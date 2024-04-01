@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-03-31T07:31:57Z
+Component Status overview. Last update 2024-04-01T07:31:59Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -121,9 +121,9 @@ Component Status overview. Last update 2024-03-31T07:31:57Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (8)
 
-- [Bump express from 4.18.2 to 4.19.2](https://github.com/PRODYNA-YASM/yasm-frontend/pull/558)
+- [Bump webpack-dev-middleware from 6.1.1 to 7.2.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/564)
 
-- [Bump webpack-dev-middleware from 6.1.1 to 7.1.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/554)
+- [Bump express from 4.18.2 to 4.19.2](https://github.com/PRODYNA-YASM/yasm-frontend/pull/558)
 
 - [Bump webpack-dev-middleware from 6.1.1 to 6.1.2](https://github.com/PRODYNA-YASM/yasm-frontend/pull/553)
 

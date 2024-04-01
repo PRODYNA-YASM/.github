@@ -187,12 +187,12 @@
         "Count": 8,
         "PullRequests": [
           {
-            "Title": "Bump express from 4.18.2 to 4.19.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/558"
+            "Title": "Bump webpack-dev-middleware from 6.1.1 to 7.2.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/564"
           },
           {
-            "Title": "Bump webpack-dev-middleware from 6.1.1 to 7.1.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/554"
+            "Title": "Bump express from 4.18.2 to 4.19.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/558"
           },
           {
             "Title": "Bump webpack-dev-middleware from 6.1.1 to 6.1.2",
@@ -1141,5 +1141,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-03-31T07:31:57Z"
+  "LastUpdated": "2024-04-01T07:31:59Z"
 }
