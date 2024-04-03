@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "write coverage as comment to pr",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/568"
+          },
           {
             "Title": "Bump eclipse-temurin from 21.0.2_13-jre-ubi9-minimal to 22_36-jre-ubi9-minimal",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/560"
@@ -672,17 +676,24 @@
           "Link": "",
           "Version": "1.17.0",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.17.0",
+        "Tag": "1.18.0",
         "SHA": "",
-        "Title": "Using API 1.17",
-        "Timestamp": "2024-03-28T15:42:14Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.17.0"
+        "Title": "Using API 1.18.0",
+        "Timestamp": "2024-04-03T09:28:36Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.18.0"
       },
       "Releases": [
+        {
+          "Tag": "1.18.0",
+          "SHA": "",
+          "Title": "Using API 1.18.0",
+          "Timestamp": "2024-04-03T04:28:41Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.18.0"
+        },
         {
           "Tag": "1.17.0",
           "SHA": "",
@@ -696,13 +707,6 @@
           "Title": "1.16.2",
           "Timestamp": "2024-03-25T10:16:32Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.16.2"
-        },
-        {
-          "Tag": "1.16.1",
-          "SHA": "",
-          "Title": "Fix anonymize, API 1.16.4",
-          "Timestamp": "2024-03-21T09:16:20Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.16.1"
         }
       ],
       "PullRequests": {
@@ -712,30 +716,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.17.0..HEAD",
-        "Count": 2,
-        "Commits": [
-          {
-            "Text": "Merge pull request #393 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.18.0",
-            "SHA": "7cf548632ddae94c97e6c8c17e67708412d0cbc5",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-03T04:28:41Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/7cf548632ddae94c97e6c8c17e67708412d0cbc5"
-          },
-          {
-            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.17.1 to 1.18.0",
-            "SHA": "aea9f975f9a8b80eb22603d91f03b4dd01a94a75",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-04-03T01:14:09Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/aea9f975f9a8b80eb22603d91f03b4dd01a94a75"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.18.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -896,14 +879,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #89 from PRODYNA-YASM/dependabot/go_modules/github…",
-            "Timestamp": "2024-04-03T09:12:09Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/8536180256"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1226,5 +1203,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-03T09:15:38Z"
+  "LastUpdated": "2024-04-03T09:30:25Z"
 }
