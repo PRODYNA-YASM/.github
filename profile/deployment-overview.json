@@ -829,9 +829,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.5.0",
+          "Version": "1.5.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1203,5 +1203,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-03T09:30:25Z"
+  "LastUpdated": "2024-04-03T09:33:04Z"
 }
