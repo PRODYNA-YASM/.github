@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "c30ef6f",
+          "Version": "b663c61",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -59,12 +59,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 3,
+        "Count": 2,
         "PullRequests": [
-          {
-            "Title": "write coverage as comment to pr",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/568"
-          },
           {
             "Title": "Bump eclipse-temurin from 21.0.2_13-jre-ubi9-minimal to 22_36-jre-ubi9-minimal",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/560"
@@ -78,8 +74,58 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.16.4..HEAD",
-        "Count": 9,
+        "Count": 14,
         "Commits": [
+          {
+            "Text": "fix pipeline (#572)",
+            "SHA": "b663c61db2ede79bafbbe8ea834f35fcf616efe1",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-04-03T13:35:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/b663c61db2ede79bafbbe8ea834f35fcf616efe1"
+          },
+          {
+            "Text": "fix pipeline (#571)",
+            "SHA": "fd8a6bb2302066515e97ff3b7eb2c5f6e448207b",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-04-03T13:18:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/fd8a6bb2302066515e97ff3b7eb2c5f6e448207b"
+          },
+          {
+            "Text": "feature/coverage (#570)",
+            "SHA": "85716220f8d1c4028b12969d3459ced8317431ab",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-04-03T12:48:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/85716220f8d1c4028b12969d3459ced8317431ab"
+          },
+          {
+            "Text": "feature/jacoco (#569)",
+            "SHA": "60ff94a2bd3b94e601cd6d7a00e95013881cfce4",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-04-03T12:03:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/60ff94a2bd3b94e601cd6d7a00e95013881cfce4"
+          },
+          {
+            "Text": "write coverage as comment to pr (#568)",
+            "SHA": "28e01295cd1b07d446a9ff3103c85ccc5c4f3422",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-04-03T11:20:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/28e01295cd1b07d446a9ff3103c85ccc5c4f3422"
+          },
           {
             "Text": "clean tests (#567)",
             "SHA": "c30ef6fb9a95d7deaa6693e88004701ec7f18ac0",
@@ -193,7 +239,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "f1ecf66",
+          "Version": "b147d14",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -244,12 +290,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 9,
+        "Count": 8,
         "PullRequests": [
-          {
-            "Title": "Refactoring/packages",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/565"
-          },
           {
             "Title": "Bump webpack-dev-middleware from 6.1.1 to 7.2.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/564"
@@ -287,8 +329,178 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.16.6..HEAD",
-        "Count": 19,
+        "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #566 from PRODYNA-YASM/refactor/icons",
+            "SHA": "b147d14aad49b7a1661aa14f81b2ce2baf9788e9",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-04-03T13:17:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b147d14aad49b7a1661aa14f81b2ce2baf9788e9"
+          },
+          {
+            "Text": "refactor using material-symbols icons, refactor duplicated code in projects and person components",
+            "SHA": "281964d461a8d6b8e8947a11403a097e915f04ee",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-03T12:26:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/281964d461a8d6b8e8947a11403a097e915f04ee"
+          },
+          {
+            "Text": "remove old icons",
+            "SHA": "ddc6a9a7945af05051a7d8b4c64ecf3bd9ed45cd",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-03T12:25:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ddc6a9a7945af05051a7d8b4c64ecf3bd9ed45cd"
+          },
+          {
+            "Text": "add material-symbols package",
+            "SHA": "4b6981da7b5827556f78bff08f30277600cfb357",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-03T12:24:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/4b6981da7b5827556f78bff08f30277600cfb357"
+          },
+          {
+            "Text": "fix typescript error",
+            "SHA": "d98f17b1dd0c187f1c062ae8e909c3991097cb74",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-03T12:23:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d98f17b1dd0c187f1c062ae8e909c3991097cb74"
+          },
+          {
+            "Text": "Merge pull request #565 from PRODYNA-YASM/refactoring/packages",
+            "SHA": "c7f0295883bcfb74381478ab1d1145e91cbd17f1",
+            "Author": {
+              "name": "readmey",
+              "link": "https://github.com/readmey"
+            },
+            "Timestamp": "2024-04-03T12:04:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/c7f0295883bcfb74381478ab1d1145e91cbd17f1"
+          },
+          {
+            "Text": "fix availability menu layout",
+            "SHA": "21d39334d9422a9cbd671d2a66373a7551919115",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-03T07:26:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/21d39334d9422a9cbd671d2a66373a7551919115"
+          },
+          {
+            "Text": "remove unused styling",
+            "SHA": "b7babb069d9f262ac61ea4f8982b5596cb68ab9b",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-03T07:24:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b7babb069d9f262ac61ea4f8982b5596cb68ab9b"
+          },
+          {
+            "Text": "add Labels",
+            "SHA": "ffbe93432bb6f3e09c42a57e9a4331c048481aab",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-03T07:22:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ffbe93432bb6f3e09c42a57e9a4331c048481aab"
+          },
+          {
+            "Text": "refactor duplicated styles",
+            "SHA": "7b139d5995022534c8cd80f533d1e9ef892cadfe",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-02T14:20:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7b139d5995022534c8cd80f533d1e9ef892cadfe"
+          },
+          {
+            "Text": "fix project endDate filter",
+            "SHA": "4aa9c34bf3cf0a63465711b5f6cfcb29042cfdfb",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-02T14:06:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/4aa9c34bf3cf0a63465711b5f6cfcb29042cfdfb"
+          },
+          {
+            "Text": "add constants",
+            "SHA": "b278ed06de91a20ce12cbdd147bf7679d2a9868a",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-02T13:59:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b278ed06de91a20ce12cbdd147bf7679d2a9868a"
+          },
+          {
+            "Text": "refactor project filter with context and reusabled component",
+            "SHA": "20c66b8b4279ae5dfb15c00e6230a6239792e700",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-02T13:58:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/20c66b8b4279ae5dfb15c00e6230a6239792e700"
+          },
+          {
+            "Text": "refactor employee filters with context and reusable cpmonents",
+            "SHA": "1e8a2b51a2a988e5ab258f8a9d26a8a73479aa5f",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-02T13:07:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/1e8a2b51a2a988e5ab258f8a9d26a8a73479aa5f"
+          },
+          {
+            "Text": "refactor using mui datepicker and remove flatpickr package",
+            "SHA": "1ffe7d91fecefaa27d6077cc693a9d3391e58b46",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-03-28T13:11:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/1ffe7d91fecefaa27d6077cc693a9d3391e58b46"
+          },
+          {
+            "Text": "refactor mui datepicker and extract to components",
+            "SHA": "65a39038941f0886e63a6c231fa4bbd027d5fb08",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-03-28T12:16:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/65a39038941f0886e63a6c231fa4bbd027d5fb08"
+          },
+          {
+            "Text": "Merge branch 'master' into refactoring/packages",
+            "SHA": "1c43cec5fda10bac1fd5c42b20436c0826c51733",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-03-28T09:11:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/1c43cec5fda10bac1fd5c42b20436c0826c51733"
+          },
           {
             "Text": "Merge pull request #563 from PRODYNA-YASM/api/api-1.17.0",
             "SHA": "f1ecf66fcd399f5aa788346ccd6e6200ad5ed310",
@@ -308,6 +520,16 @@
             },
             "Timestamp": "2024-03-27T15:32:36Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d3f27a30c89256ff3c7f6c605d1fffe0effa0f9e"
+          },
+          {
+            "Text": "remove unused or unneccessary packages",
+            "SHA": "208e64bd995ece8cbc951713b7d6ed12079f8760",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-03-27T14:24:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/208e64bd995ece8cbc951713b7d6ed12079f8760"
           },
           {
             "Text": "Merge pull request #562 from PRODYNA-YASM/refactoring/hard-coded-txts",
@@ -408,76 +630,6 @@
             },
             "Timestamp": "2024-03-27T11:16:58Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/93245d344397ace30b9c4a464344ca95d42c7ffd"
-          },
-          {
-            "Text": "extract hard-coded texts",
-            "SHA": "97df49399ad4877e4d998bf37dd4ab1b59d6a5ff",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-27T11:00:39Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/97df49399ad4877e4d998bf37dd4ab1b59d6a5ff"
-          },
-          {
-            "Text": "extract hard-coded texts",
-            "SHA": "3547721ab531f7e0c551d15142c87bc2618cd8f4",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-27T10:50:53Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/3547721ab531f7e0c551d15142c87bc2618cd8f4"
-          },
-          {
-            "Text": "fix project route",
-            "SHA": "d68fc345c87d35d0b0a14e8259f0b333e296c10c",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-27T08:45:53Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d68fc345c87d35d0b0a14e8259f0b333e296c10c"
-          },
-          {
-            "Text": "remove hard-coded texts",
-            "SHA": "945a16908fda57537c4fc7c6a8aefe105488c00f",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-27T08:44:29Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/945a16908fda57537c4fc7c6a8aefe105488c00f"
-          },
-          {
-            "Text": "Merge pull request #561 from PRODYNA-YASM/dependabot/github_actions/actions/add-to-project-1.0.0",
-            "SHA": "76c0163c28610db2252b99d93a9c8a56af1933a9",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-03-27T07:38:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/76c0163c28610db2252b99d93a9c8a56af1933a9"
-          },
-          {
-            "Text": "Bump actions/add-to-project from 0.6.1 to 1.0.0",
-            "SHA": "57aacb9a256979f0034c793961b61a43f39f7f80",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-03-27T04:12:24Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/57aacb9a256979f0034c793961b61a43f39f7f80"
-          },
-          {
-            "Text": "remove offline cache",
-            "SHA": "d02254bfd066645f253b3aa840c2b5dbbccdc63c",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-26T15:45:51Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d02254bfd066645f253b3aa840c2b5dbbccdc63c"
           }
         ]
       },
@@ -592,33 +744,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.11.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "6e12ade",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
           "Version": "1.11.1",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         },
         {
           "Name": "prod",
           "Link": "",
           "Version": "1.11.1",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.11.1",
+        "Tag": "1.11.2",
         "SHA": "",
-        "Title": "Technical update",
-        "Timestamp": "2024-03-25T20:29:45Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.1"
+        "Title": "Dummy bugfix for demonstration purposes",
+        "Timestamp": "2024-04-03T14:17:20Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.2"
       },
       "Releases": [
+        {
+          "Tag": "1.11.2",
+          "SHA": "",
+          "Title": "Dummy bugfix for demonstration purposes",
+          "Timestamp": "2024-04-03T14:10:16Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.2"
+        },
         {
           "Tag": "1.11.1",
           "SHA": "",
@@ -632,13 +791,6 @@
           "Title": "Technical updates",
           "Timestamp": "2024-03-15T10:28:15Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.0"
-        },
-        {
-          "Tag": "1.10.0",
-          "SHA": "",
-          "Title": "Libs updated",
-          "Timestamp": "2024-02-26T13:21:22Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.10.0"
         }
       ],
       "PullRequests": {
@@ -648,7 +800,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.11.1..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.11.2..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -1208,5 +1360,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-03T09:34:41Z"
+  "LastUpdated": "2024-04-03T14:19:48Z"
 }
