@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2917bed",
+          "Version": "c30ef6f",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -78,8 +78,68 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.16.4..HEAD",
-        "Count": 3,
+        "Count": 9,
         "Commits": [
+          {
+            "Text": "clean tests (#567)",
+            "SHA": "c30ef6fb9a95d7deaa6693e88004701ec7f18ac0",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-04-02T23:04:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/c30ef6fb9a95d7deaa6693e88004701ec7f18ac0"
+          },
+          {
+            "Text": "refactor/tests (#566)",
+            "SHA": "b6007170a90b7ff9524307e3c846a7ca07e3bd5c",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-04-02T21:35:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/b6007170a90b7ff9524307e3c846a7ca07e3bd5c"
+          },
+          {
+            "Text": "clean tests (#565)",
+            "SHA": "f5997640f0e968c5cad1cd1d67a8cc9dd8476759",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-04-02T17:24:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/f5997640f0e968c5cad1cd1d67a8cc9dd8476759"
+          },
+          {
+            "Text": "update quarkus 3.9.1 (#564)",
+            "SHA": "5dc392ba2faa9bc979abc720ae2804187daeb904",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-04-02T13:57:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/5dc392ba2faa9bc979abc720ae2804187daeb904"
+          },
+          {
+            "Text": "feature/predicate for filters (#563)",
+            "SHA": "e5eaa6fcabdbb3ed96abd0e1e034acf2eb301065",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-04-02T12:33:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/e5eaa6fcabdbb3ed96abd0e1e034acf2eb301065"
+          },
+          {
+            "Text": "refactoring/tests (#562)",
+            "SHA": "1d3c736393fbab3d7fadd7755907f35ea886cb19",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-04-02T10:02:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/1d3c736393fbab3d7fadd7755907f35ea886cb19"
+          },
           {
             "Text": "fix project status filter (#559)",
             "SHA": "2917bed09491bdfc5d1a9f5992abc25643c91c6f",
@@ -184,8 +244,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 8,
+        "Count": 9,
         "PullRequests": [
+          {
+            "Title": "Refactoring/packages",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/565"
+          },
           {
             "Title": "Bump webpack-dev-middleware from 6.1.1 to 7.2.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/564"
@@ -489,8 +553,29 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.17.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #296 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.18.0",
+            "SHA": "3b48f7d79087fb71354c854c690e65263254da05",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-03T04:38:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/3b48f7d79087fb71354c854c690e65263254da05"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.17.1 to 1.18.0",
+            "SHA": "82f9eaf010c95ce890d0b3f417aeedee60e6bf59",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-04-02T21:43:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/82f9eaf010c95ce890d0b3f417aeedee60e6bf59"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -598,9 +683,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.17.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "7cf5486",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -608,13 +693,6 @@
           "Version": "1.17.0",
           "IsRelease": true,
           "IsCurrent": true
-        },
-        {
-          "Name": "prod",
-          "Link": "",
-          "Version": "1.16.2",
-          "IsRelease": true,
-          "IsCurrent": false
         }
       ],
       "LatestRelease": {
@@ -655,8 +733,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.17.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #393 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.18.0",
+            "SHA": "7cf548632ddae94c97e6c8c17e67708412d0cbc5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-03T04:28:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/7cf548632ddae94c97e6c8c17e67708412d0cbc5"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.17.1 to 1.18.0",
+            "SHA": "aea9f975f9a8b80eb22603d91f03b4dd01a94a75",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-04-03T01:14:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/aea9f975f9a8b80eb22603d91f03b4dd01a94a75"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -753,9 +852,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.5.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "9b20220",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -810,8 +909,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.5.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #89 from PRODYNA-YASM/dependabot/go_modules/github.com/riandyrn/otelchi-0.6.0",
+            "SHA": "9b20220bb9a1557e135b259b3a687d9a88e31865",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-02T17:54:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/9b20220bb9a1557e135b259b3a687d9a88e31865"
+          },
+          {
+            "Text": "Bump github.com/riandyrn/otelchi from 0.5.2 to 0.6.0",
+            "SHA": "c902470fb720236e713ca76cbd41d2fcd6a72254",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-04-02T16:28:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/c902470fb720236e713ca76cbd41d2fcd6a72254"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -1073,13 +1193,20 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "1.17.1",
+        "Tag": "1.18.0",
         "SHA": "",
-        "Title": "Fix Tags for client generation",
-        "Timestamp": "2024-03-27T14:36:32Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.17.1"
+        "Title": "remove required for timeframed filter",
+        "Timestamp": "2024-04-02T12:20:08Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.18.0"
       },
       "Releases": [
+        {
+          "Tag": "1.18.0",
+          "SHA": "",
+          "Title": "remove required for timeframed filter",
+          "Timestamp": "2024-04-02T12:19:22Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.18.0"
+        },
         {
           "Tag": "1.17.1",
           "SHA": "",
@@ -1093,13 +1220,6 @@
           "Title": "All search are now POST /search",
           "Timestamp": "2024-03-27T13:55:03Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.17.0"
-        },
-        {
-          "Tag": "1.16.5",
-          "SHA": "",
-          "Title": "Industry change organization from list to simple count",
-          "Timestamp": "2024-03-26T12:15:34Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.16.5"
         }
       ],
       "PullRequests": {
@@ -1114,7 +1234,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.17.1..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.18.0..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -1141,5 +1261,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-02T07:32:23Z"
+  "LastUpdated": "2024-04-03T04:39:25Z"
 }
