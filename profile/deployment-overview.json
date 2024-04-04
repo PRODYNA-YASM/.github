@@ -220,7 +220,7 @@
           "Link": "",
           "Version": "1.18.0",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         },
         {
           "Name": "prod",
@@ -231,13 +231,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "1.18.0",
+        "Tag": "1.19.0",
         "SHA": "",
-        "Title": "API 1.18.0",
-        "Timestamp": "2024-04-03T09:13:03Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.18.0"
+        "Title": "API 1.19.0",
+        "Timestamp": "2024-04-04T12:20:09Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.19.0"
       },
       "Releases": [
+        {
+          "Tag": "1.19.0",
+          "SHA": "",
+          "Title": "API 1.19.0",
+          "Timestamp": "2024-04-04T12:17:56Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.19.0"
+        },
         {
           "Tag": "1.18.0",
           "SHA": "",
@@ -251,13 +258,6 @@
           "Title": "API 1.17",
           "Timestamp": "2024-03-28T11:26:40Z",
           "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.17.0"
-        },
-        {
-          "Tag": "1.16.1",
-          "SHA": "",
-          "Title": "Fix logging",
-          "Timestamp": "2024-03-22T14:49:04Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.16.1"
         }
       ],
       "PullRequests": {
@@ -267,30 +267,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.18.0..HEAD",
-        "Count": 2,
-        "Commits": [
-          {
-            "Text": "Merge pull request #298 from PRODYNA-YASM/297-api-1190",
-            "SHA": "6e9b361bf657b882c778037a75a694c0dcbaad77",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-04T12:17:56Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/6e9b361bf657b882c778037a75a694c0dcbaad77"
-          },
-          {
-            "Text": "API 1.19.0, technology update",
-            "SHA": "7f7b559d5ce24c303e2f9cfab859d7e8a8185542",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-04T12:15:12Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/7f7b559d5ce24c303e2f9cfab859d7e8a8185542"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.19.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -956,5 +935,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-04T12:19:52Z"
+  "LastUpdated": "2024-04-04T12:20:52Z"
 }
