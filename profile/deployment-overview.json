@@ -851,9 +851,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.18.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "536166f",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1435,5 +1435,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-04T12:01:48Z"
+  "LastUpdated": "2024-04-04T12:03:39Z"
 }
