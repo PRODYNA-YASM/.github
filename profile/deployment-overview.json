@@ -8,16 +8,16 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d54e255",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.19.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.16.4",
+          "Version": "1.19.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -81,8 +81,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "update jacoco (#578)",
+            "Timestamp": "2024-04-04T12:14:32Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/8554432238"
+          },
           {
             "Name": "update quarkus (#541)",
             "Timestamp": "2024-03-15T12:15:58Z",
@@ -257,19 +262,35 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "API 1.19.0, technology update",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/298"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.18.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #298 from PRODYNA-YASM/297-api-1190",
+            "SHA": "6e9b361bf657b882c778037a75a694c0dcbaad77",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-04T12:17:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/6e9b361bf657b882c778037a75a694c0dcbaad77"
+          },
+          {
+            "Text": "API 1.19.0, technology update",
+            "SHA": "7f7b559d5ce24c303e2f9cfab859d7e8a8185542",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-04T12:15:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/7f7b559d5ce24c303e2f9cfab859d7e8a8185542"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -382,9 +403,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "536166f",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.19.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
@@ -930,5 +951,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-04T12:16:31Z"
+  "LastUpdated": "2024-04-04T12:18:35Z"
 }
