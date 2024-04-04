@@ -59,8 +59,20 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 2,
+        "Count": 5,
         "PullRequests": [
+          {
+            "Title": "Bump org.jacoco:jacoco-maven-plugin from 0.8.10 to 0.8.12",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/575"
+          },
+          {
+            "Title": "Bump io.quarkiverse.neo4j:quarkus-neo4j from 3.8.1 to 3.9.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/574"
+          },
+          {
+            "Title": "Bump quarkus.platform.version from 3.9.1 to 3.9.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/573"
+          },
           {
             "Title": "Bump eclipse-temurin from 21.0.2_13-jre-ubi9-minimal to 22_36-jre-ubi9-minimal",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/560"
@@ -293,8 +305,12 @@
         "Count": 8,
         "PullRequests": [
           {
-            "Title": "Bump webpack-dev-middleware from 6.1.1 to 7.2.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/564"
+            "Title": "Bump webpack-dev-middleware from 6.1.1 to 7.2.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/570"
+          },
+          {
+            "Title": "Bump css-loader from 6.8.1 to 6.11.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/569"
           },
           {
             "Title": "Bump express from 4.18.2 to 4.19.2",
@@ -303,10 +319,6 @@
           {
             "Title": "Bump webpack-dev-middleware from 6.1.1 to 6.1.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/553"
-          },
-          {
-            "Title": "Bump css-loader from 6.8.1 to 6.10.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/548"
           },
           {
             "Title": "Bump react-router-dom from 5.3.0 to 6.22.3",
@@ -744,23 +756,23 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "6e12ade",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.11.2",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.11.1",
+          "Version": "1.11.2",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.11.1",
+          "Version": "1.11.2",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -863,8 +875,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump google.golang.org/grpc from 1.62.1 to 1.63.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/394"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -898,9 +915,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.0.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "be888d6",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -948,8 +965,49 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.0.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "Merge pull request #40 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.63.0",
+            "SHA": "be888d6facd5cb0b8e343143b2ababfbc79a8bb2",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-04T05:41:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/be888d6facd5cb0b8e343143b2ababfbc79a8bb2"
+          },
+          {
+            "Text": "Merge pull request #41 from PRODYNA-YASM/dependabot/docker/golang-1.22.2-alpine3.19",
+            "SHA": "f70576c29f71f2f6632834a96014c350c3e21343",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-04T05:40:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/f70576c29f71f2f6632834a96014c350c3e21343"
+          },
+          {
+            "Text": "Bump golang from 1.22.1-alpine3.19 to 1.22.2-alpine3.19",
+            "SHA": "93141f579f7de5c20fd1eb0fbeab566c84f78a26",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-04-04T00:13:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/93141f579f7de5c20fd1eb0fbeab566c84f78a26"
+          },
+          {
+            "Text": "Bump google.golang.org/grpc from 1.62.1 to 1.63.0",
+            "SHA": "b0eec7f83da21c4a3e662cba266d733246d09d6e",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-04-03T23:33:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/b0eec7f83da21c4a3e662cba266d733246d09d6e"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1360,5 +1418,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-03T14:19:48Z"
+  "LastUpdated": "2024-04-04T07:32:11Z"
 }
