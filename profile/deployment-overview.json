@@ -8,14 +8,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.19.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "b961c47",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.19.0",
+          "Version": "1.19.1",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -28,13 +28,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "1.19.0",
+        "Tag": "1.19.1",
         "SHA": "",
-        "Title": "Reorganize person to office and organizations",
-        "Timestamp": "2024-04-04T12:14:30Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.19.0"
+        "Title": "Random default order for persons, and time for projects",
+        "Timestamp": "2024-04-04T16:46:14Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.19.1"
       },
       "Releases": [
+        {
+          "Tag": "1.19.1",
+          "SHA": "",
+          "Title": "Random default order for persons, and time for projects",
+          "Timestamp": "2024-04-04T16:32:05Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.19.1"
+        },
         {
           "Tag": "1.19.0",
           "SHA": "",
@@ -48,13 +55,6 @@
           "Title": "Clean API for Local Filters and fix picture delete",
           "Timestamp": "2024-03-20T15:15:09Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.16.4"
-        },
-        {
-          "Tag": "1.16.1",
-          "SHA": "",
-          "Title": "Fix explodes in openapi schema",
-          "Timestamp": "2024-03-15T18:21:03Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.16.1"
         }
       ],
       "PullRequests": {
@@ -73,16 +73,32 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.19.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.19.1..HEAD",
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "feature/random order (#582)",
+            "SHA": "b961c477c9c8fb9f31727e68a0ce5ae3ea47df00",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-04-04T17:47:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/b961c477c9c8fb9f31727e68a0ce5ae3ea47df00"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 3,
         "Workflows": [
+          {
+            "Name": "feature/random order (#581)",
+            "Timestamp": "2024-04-04T16:46:15Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/8558285612"
+          },
           {
             "Name": "update jacoco (#578)",
             "Timestamp": "2024-04-04T12:14:32Z",
@@ -262,8 +278,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "feature/go 1.22.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/299"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
@@ -363,8 +384,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Go 1.22.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/174"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
@@ -431,8 +457,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Go 1.22.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/397"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -552,9 +583,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.5.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "e7918bc",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -609,8 +640,49 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.5.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "Merge pull request #91 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.63.0",
+            "SHA": "e7918bccb8668ccbf365295775518f54d14702a0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-04T16:59:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/e7918bccb8668ccbf365295775518f54d14702a0"
+          },
+          {
+            "Text": "Bump google.golang.org/grpc from 1.62.1 to 1.63.0",
+            "SHA": "56c2a4341b8262bf9aea937cfe6afec9025b8528",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-04-04T16:49:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/56c2a4341b8262bf9aea937cfe6afec9025b8528"
+          },
+          {
+            "Text": "Merge pull request #90 from PRODYNA-YASM/dependabot/docker/golang-1.22.2",
+            "SHA": "f6adbe2448cf4f48cebefa8c67058ef4a7ad2b71",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-04T16:27:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/f6adbe2448cf4f48cebefa8c67058ef4a7ad2b71"
+          },
+          {
+            "Text": "Bump golang from 1.22.1 to 1.22.2",
+            "SHA": "b375ac9ec09eaf6d6d5c4fe38a33873148e36e86",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-04-04T16:14:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/b375ac9ec09eaf6d6d5c4fe38a33873148e36e86"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -940,5 +1012,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-04T12:22:30Z"
+  "LastUpdated": "2024-04-04T21:41:57Z"
 }
