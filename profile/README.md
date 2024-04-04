@@ -1,15 +1,15 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-04-04T12:03:39Z
+Component Status overview. Last update 2024-04-04T12:13:50Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [16](https://github.com/prodyna-yasm/yasm-backend/compare/1.16.4..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.16.4 |  :red_square: 62b6918 |  :green_square: 1.16.4 |  :green_square: 1.16.4 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.16.6..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.16.6 |  :red_square: 956aef0 |  :green_square: 1.16.6 |  :red_square: 1.16.5 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [17](https://github.com/prodyna-yasm/yasm-backend/compare/1.16.4..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.16.4 |  :red_square: d54e255 |  :green_square: 1.16.4 |  :green_square: 1.16.4 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.0 |  :red_square: d5c89c8 |  :red_square: 1.16.6 |  :red_square: 1.16.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.18.0 |  :green_square: 1.18.0 |  :green_square: 1.18.0 |  :red_square: 1.16.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.2 |  :green_square: 1.11.2 |  :green_square: 1.11.2 |  :green_square: 1.11.2 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [3](https://github.com/prodyna-yasm/yasm-integration/compare/1.18.0..HEAD) | :green_square: 0 | 1.18.0 |  :red_square: 536166f |  :green_square: 1.18.0 | 
-| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.0.2 |  :green_square: 1.0.2 |  :green_square: 1.0.2 |  :red_square: 1.0.0 | 
+| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.0.2 |  :green_square: 1.0.2 |  :green_square: 1.0.2 |  :green_square: 1.0.2 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.5.1 |  :green_square: 1.5.1 |  :green_square: 1.5.1 |  :green_square: 1.5.1 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :red_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.3.0-1 |  :green_square: 8.3.0-1 |  :green_square: 8.3.0-1 |  :green_square: 8.3.0-1 | 
@@ -23,7 +23,9 @@ Component Status overview. Last update 2024-04-04T12:03:39Z
 
 
 
-### [Commits on master since 1.16.4](https://github.com/prodyna-yasm/yasm-backend/compare/1.16.4..HEAD) (16)
+### [Commits on master since 1.16.4](https://github.com/prodyna-yasm/yasm-backend/compare/1.16.4..HEAD) (17)
+
+- [update jacoco (#578)](https://github.com/prodyna-yasm/yasm-backend/commit/d54e2558852bed72f8f14b6e3a83b70d2fb09d76) by [coding4kay](https://github.com/coding4kay) on 2024-04-04 12:09:51 +0000 UTC
 
 - [update deps (#577)](https://github.com/prodyna-yasm/yasm-backend/commit/62b6918f489aa0663458138436a2dff1bae4d7f3) by [coding4kay](https://github.com/coding4kay) on 2024-04-04 11:57:06 +0000 UTC
 
@@ -60,11 +62,7 @@ Component Status overview. Last update 2024-04-04T12:03:39Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (4)
-
-- [update jacoco](https://github.com/PRODYNA-YASM/yasm-backend/pull/578)
-
-- [Bump org.jacoco:jacoco-maven-plugin from 0.8.10 to 0.8.12](https://github.com/PRODYNA-YASM/yasm-backend/pull/575)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (2)
 
 - [Bump eclipse-temurin from 21.0.2_13-jre-ubi9-minimal to 22_36-jre-ubi9-minimal](https://github.com/PRODYNA-YASM/yasm-backend/pull/560)
 
@@ -76,7 +74,7 @@ Component Status overview. Last update 2024-04-04T12:03:39Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  62b6918 |  1.16.4 |  1.16.4 | 
+| Version |  d54e255 |  1.16.4 |  1.16.4 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -99,79 +97,14 @@ Component Status overview. Last update 2024-04-04T12:03:39Z
 
 
 
-## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.16.6
+## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.19.0
 
 
 
 
-### [Commits on master since 1.16.6](https://github.com/prodyna-yasm/yasm-frontend/compare/1.16.6..HEAD) (30)
-
-- [Merge pull request #571 from PRODYNA-YASM/fix/small-fixes](https://github.com/prodyna-yasm/yasm-frontend/commit/956aef0fa5c44fd7d8d48accc748d638d326836c) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-04-04 11:39:14 +0000 UTC
-
-- [small UI fixes, responsiveness, layout](https://github.com/prodyna-yasm/yasm-frontend/commit/b52b3efe55a5e68429cd7b480c36ec7a05bd5d8f) by [](https://github.com/) on 2024-04-04 11:23:07 +0000 UTC
-
-- [Merge pull request #566 from PRODYNA-YASM/refactor/icons](https://github.com/prodyna-yasm/yasm-frontend/commit/b147d14aad49b7a1661aa14f81b2ce2baf9788e9) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-04-03 13:17:43 +0000 UTC
-
-- [refactor using material-symbols icons, refactor duplicated code in projects and person components](https://github.com/prodyna-yasm/yasm-frontend/commit/281964d461a8d6b8e8947a11403a097e915f04ee) by [](https://github.com/) on 2024-04-03 12:26:09 +0000 UTC
-
-- [remove old icons](https://github.com/prodyna-yasm/yasm-frontend/commit/ddc6a9a7945af05051a7d8b4c64ecf3bd9ed45cd) by [](https://github.com/) on 2024-04-03 12:25:20 +0000 UTC
-
-- [add material-symbols package](https://github.com/prodyna-yasm/yasm-frontend/commit/4b6981da7b5827556f78bff08f30277600cfb357) by [](https://github.com/) on 2024-04-03 12:24:12 +0000 UTC
-
-- [fix typescript error](https://github.com/prodyna-yasm/yasm-frontend/commit/d98f17b1dd0c187f1c062ae8e909c3991097cb74) by [](https://github.com/) on 2024-04-03 12:23:44 +0000 UTC
-
-- [Merge pull request #565 from PRODYNA-YASM/refactoring/packages](https://github.com/prodyna-yasm/yasm-frontend/commit/c7f0295883bcfb74381478ab1d1145e91cbd17f1) by [readmey](https://github.com/readmey) on 2024-04-03 12:04:46 +0000 UTC
-
-- [fix availability menu layout](https://github.com/prodyna-yasm/yasm-frontend/commit/21d39334d9422a9cbd671d2a66373a7551919115) by [](https://github.com/) on 2024-04-03 07:26:44 +0000 UTC
-
-- [remove unused styling](https://github.com/prodyna-yasm/yasm-frontend/commit/b7babb069d9f262ac61ea4f8982b5596cb68ab9b) by [](https://github.com/) on 2024-04-03 07:24:37 +0000 UTC
-
-- [add Labels](https://github.com/prodyna-yasm/yasm-frontend/commit/ffbe93432bb6f3e09c42a57e9a4331c048481aab) by [](https://github.com/) on 2024-04-03 07:22:38 +0000 UTC
-
-- [refactor duplicated styles](https://github.com/prodyna-yasm/yasm-frontend/commit/7b139d5995022534c8cd80f533d1e9ef892cadfe) by [](https://github.com/) on 2024-04-02 14:20:29 +0000 UTC
-
-- [fix project endDate filter](https://github.com/prodyna-yasm/yasm-frontend/commit/4aa9c34bf3cf0a63465711b5f6cfcb29042cfdfb) by [](https://github.com/) on 2024-04-02 14:06:54 +0000 UTC
-
-- [add constants](https://github.com/prodyna-yasm/yasm-frontend/commit/b278ed06de91a20ce12cbdd147bf7679d2a9868a) by [](https://github.com/) on 2024-04-02 13:59:53 +0000 UTC
-
-- [refactor project filter with context and reusabled component](https://github.com/prodyna-yasm/yasm-frontend/commit/20c66b8b4279ae5dfb15c00e6230a6239792e700) by [](https://github.com/) on 2024-04-02 13:58:16 +0000 UTC
-
-- [refactor employee filters with context and reusable cpmonents](https://github.com/prodyna-yasm/yasm-frontend/commit/1e8a2b51a2a988e5ab258f8a9d26a8a73479aa5f) by [](https://github.com/) on 2024-04-02 13:07:05 +0000 UTC
-
-- [refactor using mui datepicker and remove flatpickr package](https://github.com/prodyna-yasm/yasm-frontend/commit/1ffe7d91fecefaa27d6077cc693a9d3391e58b46) by [](https://github.com/) on 2024-03-28 13:11:41 +0000 UTC
-
-- [refactor mui datepicker and extract to components](https://github.com/prodyna-yasm/yasm-frontend/commit/65a39038941f0886e63a6c231fa4bbd027d5fb08) by [](https://github.com/) on 2024-03-28 12:16:53 +0000 UTC
-
-- [Merge branch 'master' into refactoring/packages](https://github.com/prodyna-yasm/yasm-frontend/commit/1c43cec5fda10bac1fd5c42b20436c0826c51733) by [](https://github.com/) on 2024-03-28 09:11:23 +0000 UTC
-
-- [Merge pull request #563 from PRODYNA-YASM/api/api-1.17.0](https://github.com/prodyna-yasm/yasm-frontend/commit/f1ecf66fcd399f5aa788346ccd6e6200ad5ed310) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-27 15:50:01 +0000 UTC
-
-- [update to api 1.17.1](https://github.com/prodyna-yasm/yasm-frontend/commit/d3f27a30c89256ff3c7f6c605d1fffe0effa0f9e) by [coding4kay](https://github.com/coding4kay) on 2024-03-27 15:32:36 +0000 UTC
-
-- [remove unused or unneccessary packages](https://github.com/prodyna-yasm/yasm-frontend/commit/208e64bd995ece8cbc951713b7d6ed12079f8760) by [](https://github.com/) on 2024-03-27 14:24:56 +0000 UTC
-
-- [Merge pull request #562 from PRODYNA-YASM/refactoring/hard-coded-txts](https://github.com/prodyna-yasm/yasm-frontend/commit/066a90c7dc3038f66c4a84b5bf9576729902bed9) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-27 13:17:09 +0000 UTC
-
-- [refactor remove popup-state package](https://github.com/prodyna-yasm/yasm-frontend/commit/3a951205db9691ce4fed86224423aee20633546a) by [](https://github.com/) on 2024-03-27 13:05:14 +0000 UTC
-
-- [Merge branch 'master' into refactoring/hard-coded-txts](https://github.com/prodyna-yasm/yasm-frontend/commit/2e1d4c8ca55d233544203c6bf1b91ac3c2a756d1) by [](https://github.com/) on 2024-03-27 13:01:50 +0000 UTC
-
-- [Merge pull request #559 from PRODYNA-YASM/refactoring/remove-offline-cache](https://github.com/prodyna-yasm/yasm-frontend/commit/eb501f5e886ff9cb9a8e8bd3d4aeb5fd86e40b77) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-03-27 12:49:38 +0000 UTC
-
-- [add global link style](https://github.com/prodyna-yasm/yasm-frontend/commit/a893da1603855802dd1bcaf8a1369dd91ec7ede4) by [](https://github.com/) on 2024-03-27 12:40:12 +0000 UTC
-
-- [refactor link components](https://github.com/prodyna-yasm/yasm-frontend/commit/408a2993a9dbd00bcf5ecc16f1423a121abfa360) by [](https://github.com/) on 2024-03-27 12:31:09 +0000 UTC
-
-- [fix typo in filename queryClient](https://github.com/prodyna-yasm/yasm-frontend/commit/5d39e7d85e556954ef0197c36c1b42fdce8db58a) by [](https://github.com/) on 2024-03-27 11:57:08 +0000 UTC
-
-- [use react fragment shorthand syntax](https://github.com/prodyna-yasm/yasm-frontend/commit/3213c9b8c7600bd3497365ac5b56f5ba552a6a57) by [](https://github.com/) on 2024-03-27 11:53:33 +0000 UTC
 
 
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (9)
-
-- [update api to 1.19.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/572)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (8)
 
 - [Bump webpack-dev-middleware from 6.1.1 to 7.2.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/570)
 
@@ -195,18 +128,18 @@ Component Status overview. Last update 2024-04-04T12:03:39Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  956aef0 |  1.16.6 |  1.16.5 | 
+| Version |  d5c89c8 |  1.16.6 |  1.16.5 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :red_square: | 
+| Current |  :red_square: |  :red_square: |  :red_square: | 
 
 
 ### Last releases
 
+- [Refactoring Icons, refactored packages , update api to 1.19.0](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.0) on 2024-04-04 12:10:49 +0000 UTC
+
 - [Cleanup Admin functionality, fix while creating a new project, major refactoring](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.16.6) on 2024-03-26 15:40:57 +0000 UTC
 
 - [Fixed Local Filters, fixed modal height in Skills Selection PDFExport Wizard](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.16.5) on 2024-03-20 15:22:19 +0000 UTC
-
-- [Fix modal logo search Organization by setting overflowY to visible](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.16.4) on 2024-03-18 11:34:25 +0000 UTC
 
 
 
@@ -342,9 +275,9 @@ Component Status overview. Last update 2024-04-04T12:03:39Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.0.2 |  1.0.2 |  1.0.0 | 
+| Version |  1.0.2 |  1.0.2 |  1.0.2 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -358,9 +291,7 @@ Component Status overview. Last update 2024-04-04T12:03:39Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting) (2)
-
-- [Merge pull request #40 from PRODYNA-YASM/dependabot/go_modules/google…](https://github.com/PRODYNA-YASM/yasm-github/actions/runs/8554192169) created on 2024-04-04 11:56:59 +0000 UTC
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting) (1)
 
 - [Merge pull request #38 from PRODYNA-YASM/dkrizic-patch-1](https://github.com/PRODYNA-YASM/yasm-github/actions/runs/8469909211) created on 2024-03-28 15:43:17 +0000 UTC
 
