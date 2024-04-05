@@ -227,9 +227,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.19.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "263a34d",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -278,13 +278,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Go 1.22.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/300"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
@@ -349,9 +344,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.11.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "ff3c466",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -445,9 +440,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.19.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "8a264f9",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1064,5 +1059,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-05T05:53:26Z"
+  "LastUpdated": "2024-04-05T07:32:08Z"
 }
