@@ -1,15 +1,15 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-04-06T08:15:21Z
+Component Status overview. Last update 2024-04-06T09:14:59Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 |  :red_square: 1.16.4 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.1 |  :green_square: 1.19.1 |  :green_square: 1.19.1 |  :red_square: 1.16.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.19.1 |  :green_square: 1.19.1 |  :green_square: 1.19.1 |  :red_square: 1.16.1 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.3 |  :red_square: ff3c466 |  :red_square: 1.11.2 |  :red_square: 1.11.2 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.19.1 |  :red_square: 8a264f9 |  :red_square: 1.19.0 | 
-| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.1.0 |  :red_square: 76d3264 |  :red_square: 1.0.2 |  :red_square: 1.0.2 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.3 |  :green_square: 1.11.3 |  :green_square: 1.11.3 |  :red_square: 1.11.2 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.19.1 |  :green_square: 1.19.1 |  :green_square: 1.19.1 | 
+| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.1.0 |  :green_square: 1.1.0 |  :green_square: 1.1.0 |  :red_square: 1.0.2 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [8](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.5.1..HEAD) | :green_square: 0 | 1.5.1 |  :red_square: 70bd89a |  :green_square: 1.5.1 |  :green_square: 1.5.1 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :red_square: 1.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.3.0-1 |  :green_square: 8.3.0-1 |  :green_square: 8.3.0-1 |  :green_square: 8.3.0-1 | 
@@ -170,9 +170,9 @@ Component Status overview. Last update 2024-04-06T08:15:21Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  ff3c466 |  1.11.2 |  1.11.2 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :red_square: |  :red_square: | 
+| Version |  1.11.3 |  1.11.3 |  1.11.2 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
@@ -184,6 +184,11 @@ Component Status overview. Last update 2024-04-06T08:15:21Z
 - [Technical update](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.1) on 2024-03-25 16:42:43 +0000 UTC
 
 
+
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting) (1)
+
+- [Merge pull request #174 from PRODYNA-YASM/feature/technology-update](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/8579834148) created on 2024-04-06 08:13:27 +0000 UTC
 
 
 
@@ -200,9 +205,9 @@ Component Status overview. Last update 2024-04-06T08:15:21Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  8a264f9 |  1.19.0 | 
-| Release |  :red_square: |  :green_square: | 
-| Current |  :red_square: |  :red_square: | 
+| Version |  1.19.1 |  1.19.1 | 
+| Release |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -216,7 +221,9 @@ Component Status overview. Last update 2024-04-06T08:15:21Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (3)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (4)
+
+- [Merge pull request #397 from PRODYNA-YASM/feature/go-1.22.2](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8579837209) created on 2024-04-06 08:13:54 +0000 UTC
 
 - [Merge pull request #396 from PRODYNA-YASM/feature/395-api-1190](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8554420353) created on 2024-04-04 12:13:41 +0000 UTC
 
@@ -239,9 +246,9 @@ Component Status overview. Last update 2024-04-06T08:15:21Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  76d3264 |  1.0.2 |  1.0.2 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :red_square: |  :red_square: | 
+| Version |  1.1.0 |  1.1.0 |  1.0.2 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
@@ -255,7 +262,9 @@ Component Status overview. Last update 2024-04-06T08:15:21Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting) (1)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting) (2)
+
+- [Merge pull request #43 from PRODYNA-YASM/dependabot/go_modules/go.ope…](https://github.com/PRODYNA-YASM/yasm-github/actions/runs/8579840388) created on 2024-04-06 08:14:27 +0000 UTC
 
 - [Merge pull request #38 from PRODYNA-YASM/dkrizic-patch-1](https://github.com/PRODYNA-YASM/yasm-github/actions/runs/8469909211) created on 2024-03-28 15:43:17 +0000 UTC
 
