@@ -879,7 +879,7 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 2,
         "Workflows": [
           {
             "Name": "Merge pull request #454 from PRODYNA-YASM/feature/add-yasm-github",
@@ -890,11 +890,6 @@
             "Name": "Merge pull request #449 from PRODYNA-YASM/feature/445-enable-geoip-mo…",
             "Timestamp": "2024-03-15T10:20:35Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/8294687130"
-          },
-          {
-            "Name": "Merge pull request #443 from PRODYNA-YASM/feature/remove-cosmos",
-            "Timestamp": "2024-03-08T19:39:55Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/8208199950"
           }
         ]
       }
@@ -935,8 +930,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Bump jakarta.annotation:jakarta.annotation-api from 2.1.1 to 3.0.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/177"
+          },
           {
             "Title": "Bump org.apache.maven.plugins:maven-source-plugin from 3.3.0 to 3.3.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/176"
@@ -976,5 +975,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-07T07:32:33Z"
+  "LastUpdated": "2024-04-08T07:32:26Z"
 }
