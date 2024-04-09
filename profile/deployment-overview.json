@@ -108,9 +108,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.19.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "42aae89",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -159,47 +159,186 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 8,
+        "Count": 5,
         "PullRequests": [
           {
-            "Title": "Bump css-loader from 6.8.1 to 7.0.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/574"
+            "Title": "Bump css-loader from 6.10.0 to 7.1.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/582"
+          },
+          {
+            "Title": "Bump eslint from 8.57.0 to 9.0.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/581"
           },
           {
             "Title": "Bump webpack-dev-middleware from 6.1.1 to 7.2.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/570"
           },
           {
-            "Title": "Bump express from 4.18.2 to 4.19.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/558"
-          },
-          {
             "Title": "Bump webpack-dev-middleware from 6.1.1 to 6.1.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/553"
           },
           {
-            "Title": "Bump react-router-dom from 5.3.0 to 6.22.3",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/547"
-          },
-          {
-            "Title": "Bump @mui/styled-engine-sc from 5.11.0 to 5.14.12",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/546"
-          },
-          {
             "Title": "Bump typescript-plugin-styled-components from 2.0.0 to 3.0.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/545"
-          },
-          {
-            "Title": "Bump @babel/register from 7.22.15 to 7.23.7",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/544"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 15,
+        "Commits": [
+          {
+            "Text": "Merge pull request #580 from PRODYNA-YASM/refactor/dependencies",
+            "SHA": "42aae89aa96c4bbad7c44099ee02c547dd6f960e",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-04-08T14:41:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/42aae89aa96c4bbad7c44099ee02c547dd6f960e"
+          },
+          {
+            "Text": "changed NOT_FOUND_PATH",
+            "SHA": "3c73f02773514a059353925361d1114ee9a6c955",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-04-08T13:19:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/3c73f02773514a059353925361d1114ee9a6c955"
+          },
+          {
+            "Text": "changed type of react-select options from any to OptionLabelType",
+            "SHA": "f28d77508a755529736959def09eb96cc044b9c8",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-04-08T12:51:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/f28d77508a755529736959def09eb96cc044b9c8"
+          },
+          {
+            "Text": "fix project information layout",
+            "SHA": "2bffb055a09962b3e9ee60e5ee782a9207bfe4a9",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-08T12:34:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2bffb055a09962b3e9ee60e5ee782a9207bfe4a9"
+          },
+          {
+            "Text": "fix datepicker layout",
+            "SHA": "02f316d971c336f030e0a2ea0c61f808ce0536c0",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-08T11:59:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/02f316d971c336f030e0a2ea0c61f808ce0536c0"
+          },
+          {
+            "Text": "fix project create",
+            "SHA": "bfae00e58b2f5982b2fb27dec8648f2b47970209",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-08T11:52:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/bfae00e58b2f5982b2fb27dec8648f2b47970209"
+          },
+          {
+            "Text": "fix language icons",
+            "SHA": "e4fbb39566c1d63283cf85db0edabf3ab6a9ca06",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-08T11:27:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/e4fbb39566c1d63283cf85db0edabf3ab6a9ca06"
+          },
+          {
+            "Text": "fix chip component label",
+            "SHA": "743fc1f15008e0936a7e79581cdf047e908b63cc",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-08T09:57:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/743fc1f15008e0936a7e79581cdf047e908b63cc"
+          },
+          {
+            "Text": "fix learn tooltip just showing up once",
+            "SHA": "ed33e4173099986aaebb9700042172cfb56c340e",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-08T09:49:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ed33e4173099986aaebb9700042172cfb56c340e"
+          },
+          {
+            "Text": "fix admin navigation acgtive item",
+            "SHA": "c500c831712436369fe6328d4054fa5f666e3be8",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-08T09:46:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/c500c831712436369fe6328d4054fa5f666e3be8"
+          },
+          {
+            "Text": "Merge branch 'master' into refactor/dependencies",
+            "SHA": "bb33cb34180a3244ac0e6ed2bb61073939125a76",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-08T08:09:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/bb33cb34180a3244ac0e6ed2bb61073939125a76"
+          },
+          {
+            "Text": "fix deprecated opentelemetry config",
+            "SHA": "71140c356ef661c20896ca33e73e9ade9224ea8a",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-08T08:09:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/71140c356ef661c20896ca33e73e9ade9224ea8a"
+          },
+          {
+            "Text": "fix type error, mapping key errors",
+            "SHA": "7c4446628b360a64c52b72a0640b8554f05e64ca",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-08T07:29:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7c4446628b360a64c52b72a0640b8554f05e64ca"
+          },
+          {
+            "Text": "fix mapping key should be unique",
+            "SHA": "658ebf926930c8f98afa6d1f16447f5bc7c7093c",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-08T07:13:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/658ebf926930c8f98afa6d1f16447f5bc7c7093c"
+          },
+          {
+            "Text": "fix PersonInformation layout",
+            "SHA": "6290ac7e2c465fc723201e964f0d4bec5c4e488b",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-08T07:13:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/6290ac7e2c465fc723201e964f0d4bec5c4e488b"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -478,9 +617,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.1.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "91b88c4",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -535,8 +674,49 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.1.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "Merge pull request #47 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc-1.25.0",
+            "SHA": "91b88c4d9cd9ccfb9003fa232be197d0fa924e63",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-09T06:27:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/91b88c4d9cd9ccfb9003fa232be197d0fa924e63"
+          },
+          {
+            "Text": "Merge pull request #48 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.63.2",
+            "SHA": "f27f8ecfb98b664193903fdd41693071a553ebcf",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-09T06:26:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/f27f8ecfb98b664193903fdd41693071a553ebcf"
+          },
+          {
+            "Text": "Bump google.golang.org/grpc from 1.63.0 to 1.63.2",
+            "SHA": "94d6dd49dc48b5c611ac24fb75a25934e8591dcb",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-04-08T23:27:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/94d6dd49dc48b5c611ac24fb75a25934e8591dcb"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc",
+            "SHA": "41df9de4dcb20da1c6e26b3fb46b5887fca149a0",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-04-08T23:27:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/41df9de4dcb20da1c6e26b3fb46b5887fca149a0"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -559,9 +739,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.5.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "53485d7",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -616,8 +796,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.5.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #97 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc-1.25.0",
+            "SHA": "53485d792e3f150f4e69e394a091adbe2c0d4145",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-08T16:29:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/53485d792e3f150f4e69e394a091adbe2c0d4145"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc",
+            "SHA": "92e88563b3544dc5a151bcaaa4eaa75f29f45421",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-04-08T16:17:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/92e88563b3544dc5a151bcaaa4eaa75f29f45421"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -944,5 +1145,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-08T13:10:28Z"
+  "LastUpdated": "2024-04-09T07:32:06Z"
 }
