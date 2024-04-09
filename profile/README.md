@@ -1,12 +1,12 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-04-09T22:56:59Z
+Component Status overview. Last update 2024-04-09T22:57:53Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [15](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.1..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.1 |  :red_square: 42aae89 |  :green_square: 1.19.1 |  :green_square: 1.19.1 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.19.1..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.19.1 |  :green_square: 1.19.1 |  :green_square: 1.19.1 |  :green_square: 1.19.1 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.19.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.19.1 |  :green_square: 1.19.1 |  :green_square: 1.19.1 |  :green_square: 1.19.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.3 |  :green_square: 1.11.3 |  :green_square: 1.11.3 |  :green_square: 1.11.3 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.19.1 |  :green_square: 1.19.1 |  :green_square: 1.19.1 |  :green_square: 1.19.1 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.2.0 |  :green_square: 1.2.0 |  :green_square: 1.2.0 |  :green_square: 1.2.0 | 
@@ -156,13 +156,7 @@ Component Status overview. Last update 2024-04-09T22:56:59Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasmctl/pulls) (4)
-
-- [Bump go.opentelemetry.io/otel/sdk from 1.24.0 to 1.25.0](https://github.com/PRODYNA-YASM/yasmctl/pull/304)
-
-- [Bump go.opentelemetry.io/otel from 1.24.0 to 1.25.0](https://github.com/PRODYNA-YASM/yasmctl/pull/303)
-
-- [Bump go.opentelemetry.io/otel/trace from 1.24.0 to 1.25.0](https://github.com/PRODYNA-YASM/yasmctl/pull/302)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasmctl/pulls) (1)
 
 - [Bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp from 0.49.0 to 0.50.0](https://github.com/PRODYNA-YASM/yasmctl/pull/301)
 

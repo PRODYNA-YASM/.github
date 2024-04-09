@@ -410,20 +410,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 4,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "Bump go.opentelemetry.io/otel/sdk from 1.24.0 to 1.25.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/304"
-          },
-          {
-            "Title": "Bump go.opentelemetry.io/otel from 1.24.0 to 1.25.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/303"
-          },
-          {
-            "Title": "Bump go.opentelemetry.io/otel/trace from 1.24.0 to 1.25.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/302"
-          },
           {
             "Title": "Bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp from 0.49.0 to 0.50.0",
             "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/301"
@@ -1166,5 +1154,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-09T22:56:59Z"
+  "LastUpdated": "2024-04-09T22:57:53Z"
 }
