@@ -628,8 +628,39 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.19.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 3,
+        "Commits": [
+          {
+            "Text": "Merge pull request #401 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel-1.25.0",
+            "SHA": "aaa3eab8055223eed83fcbee33cbf954efa87733",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-10T07:01:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/aaa3eab8055223eed83fcbee33cbf954efa87733"
+          },
+          {
+            "Text": "Update all libs",
+            "SHA": "5536626fef57be3bbd71a4de49db4c465e575973",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-10T06:56:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/5536626fef57be3bbd71a4de49db4c465e575973"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel from 1.24.0 to 1.25.0",
+            "SHA": "abb15d421eb0679df6b98b20bbd72a625601850d",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-04-10T01:45:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/abb15d421eb0679df6b98b20bbd72a625601850d"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -1169,5 +1200,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-09T23:04:58Z"
+  "LastUpdated": "2024-04-10T07:06:01Z"
 }
