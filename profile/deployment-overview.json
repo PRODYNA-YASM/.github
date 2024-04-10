@@ -359,16 +359,16 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "de0dc0d",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.19.2",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.19.1",
+          "Version": "1.19.2",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -423,8 +423,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 4,
+        "Count": 5,
         "Workflows": [
+          {
+            "Name": "Merge pull request #301 from PRODYNA-YASM/dependabot/go_modules/go.op…",
+            "Timestamp": "2024-04-10T07:09:17Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8627345205"
+          },
           {
             "Name": "Merge pull request #298 from PRODYNA-YASM/297-api-1190",
             "Timestamp": "2024-04-04T12:20:11Z",
@@ -702,16 +707,16 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "7216804",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.5.3",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.5.2",
+          "Version": "1.5.3",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -766,8 +771,14 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #98 from PRODYNA-YASM/dependabot/go_modules/google…",
+            "Timestamp": "2024-04-10T07:08:40Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/8627339116"
+          }
+        ]
       }
     },
     {
@@ -1087,5 +1098,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-10T07:09:51Z"
+  "LastUpdated": "2024-04-10T07:11:48Z"
 }
