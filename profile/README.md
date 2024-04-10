@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-04-10T07:32:17Z
+Component Status overview. Last update 2024-04-10T14:20:10Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [15](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.1..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.1 |  :red_square: 42aae89 |  :green_square: 1.19.1 |  :green_square: 1.19.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [19](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.1..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.1 |  :red_square: 1b502f0 |  :green_square: 1.19.1 |  :green_square: 1.19.1 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.3 |  :green_square: 1.11.3 |  :green_square: 1.11.3 |  :green_square: 1.11.3 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
@@ -69,7 +69,15 @@ Component Status overview. Last update 2024-04-10T07:32:17Z
 
 
 
-### [Commits on master since 1.19.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.1..HEAD) (15)
+### [Commits on master since 1.19.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.1..HEAD) (19)
+
+- [Merge pull request #588 from PRODYNA-YASM/feature/otel-improvement](https://github.com/prodyna-yasm/yasm-frontend/commit/1b502f089c5d300ce736a97d41378b7f947ef0e8) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-04-10 10:27:31 +0000 UTC
+
+- [test](https://github.com/prodyna-yasm/yasm-frontend/commit/34ccaba64e9815c40d2545b64fa50128469cad1f) by [coding4kay](https://github.com/coding4kay) on 2024-04-10 09:51:02 +0000 UTC
+
+- [Merge pull request #587 from PRODYNA-YASM/fix/dependencies](https://github.com/prodyna-yasm/yasm-frontend/commit/c21b65aedd6981004922ef7e8f751e3a6ba973dc) by [readmey](https://github.com/readmey) on 2024-04-10 09:33:35 +0000 UTC
+
+- [fix dependencies](https://github.com/prodyna-yasm/yasm-frontend/commit/a76b9229e5ba181bc42baac2e5dffdd8f6aa4c9a) by [](https://github.com/) on 2024-04-10 09:30:22 +0000 UTC
 
 - [Merge pull request #580 from PRODYNA-YASM/refactor/dependencies](https://github.com/prodyna-yasm/yasm-frontend/commit/42aae89aa96c4bbad7c44099ee02c547dd6f960e) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-04-08 14:41:49 +0000 UTC
 
@@ -104,7 +112,7 @@ Component Status overview. Last update 2024-04-10T07:32:17Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (4)
 
 - [change the retry behavior of react-query onError](https://github.com/PRODYNA-YASM/yasm-frontend/pull/583)
 
@@ -114,17 +122,13 @@ Component Status overview. Last update 2024-04-10T07:32:17Z
 
 - [Bump webpack-dev-middleware from 6.1.1 to 7.2.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/570)
 
-- [Bump webpack-dev-middleware from 6.1.1 to 6.1.2](https://github.com/PRODYNA-YASM/yasm-frontend/pull/553)
-
-- [Bump typescript-plugin-styled-components from 2.0.0 to 3.0.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/545)
-
 
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  42aae89 |  1.19.1 |  1.19.1 | 
+| Version |  1b502f0 |  1.19.1 |  1.19.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 

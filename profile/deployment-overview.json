@@ -108,7 +108,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "42aae89",
+          "Version": "1b502f0",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -159,7 +159,7 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 4,
         "PullRequests": [
           {
             "Title": "change the retry behavior of react-query onError",
@@ -176,22 +176,54 @@
           {
             "Title": "Bump webpack-dev-middleware from 6.1.1 to 7.2.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/570"
-          },
-          {
-            "Title": "Bump webpack-dev-middleware from 6.1.1 to 6.1.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/553"
-          },
-          {
-            "Title": "Bump typescript-plugin-styled-components from 2.0.0 to 3.0.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/545"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.1..HEAD",
-        "Count": 15,
+        "Count": 19,
         "Commits": [
+          {
+            "Text": "Merge pull request #588 from PRODYNA-YASM/feature/otel-improvement",
+            "SHA": "1b502f089c5d300ce736a97d41378b7f947ef0e8",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-04-10T10:27:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/1b502f089c5d300ce736a97d41378b7f947ef0e8"
+          },
+          {
+            "Text": "test",
+            "SHA": "34ccaba64e9815c40d2545b64fa50128469cad1f",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-04-10T09:51:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/34ccaba64e9815c40d2545b64fa50128469cad1f"
+          },
+          {
+            "Text": "Merge pull request #587 from PRODYNA-YASM/fix/dependencies",
+            "SHA": "c21b65aedd6981004922ef7e8f751e3a6ba973dc",
+            "Author": {
+              "name": "readmey",
+              "link": "https://github.com/readmey"
+            },
+            "Timestamp": "2024-04-10T09:33:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/c21b65aedd6981004922ef7e8f751e3a6ba973dc"
+          },
+          {
+            "Text": "fix dependencies",
+            "SHA": "a76b9229e5ba181bc42baac2e5dffdd8f6aa4c9a",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-10T09:30:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/a76b9229e5ba181bc42baac2e5dffdd8f6aa4c9a"
+          },
           {
             "Text": "Merge pull request #580 from PRODYNA-YASM/refactor/dependencies",
             "SHA": "42aae89aa96c4bbad7c44099ee02c547dd6f960e",
@@ -1087,5 +1119,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-10T07:32:17Z"
+  "LastUpdated": "2024-04-10T14:20:10Z"
 }
