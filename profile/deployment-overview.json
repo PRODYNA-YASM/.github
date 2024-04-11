@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Bump quarkus.platform.version from 3.9.2 to 3.9.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/584"
+          },
           {
             "Title": "Bump eclipse-temurin from 21.0.2_13-jre-ubi9-minimal to 22_36-jre-ubi9-minimal",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/560"
@@ -108,7 +112,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1b502f0",
+          "Version": "47e9a5d",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -159,15 +163,19 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 4,
+        "Count": 5,
         "PullRequests": [
           {
-            "Title": "change the retry behavior of react-query onError",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/583"
+            "Title": "Bump css-loader from 6.11.0 to 7.1.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/591"
           },
           {
-            "Title": "Bump css-loader from 6.10.0 to 7.1.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/582"
+            "Title": "Bump @types/react from 17.0.39 to 18.2.75",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/590"
+          },
+          {
+            "Title": "Bump @types/node from 18.19.31 to 20.12.7",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/589"
           },
           {
             "Title": "Bump eslint from 8.57.0 to 9.0.0",
@@ -182,8 +190,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.1..HEAD",
-        "Count": 19,
+        "Count": 22,
         "Commits": [
+          {
+            "Text": "Merge pull request #583 from PRODYNA-YASM/feature/change-retry-behavior-queryClient",
+            "SHA": "47e9a5d21fff3145a21a82f61099720e169a3613",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-04-11T06:51:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/47e9a5d21fff3145a21a82f61099720e169a3613"
+          },
           {
             "Text": "Merge pull request #588 from PRODYNA-YASM/feature/otel-improvement",
             "SHA": "1b502f089c5d300ce736a97d41378b7f947ef0e8",
@@ -223,6 +241,26 @@
             },
             "Timestamp": "2024-04-10T09:30:22Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/a76b9229e5ba181bc42baac2e5dffdd8f6aa4c9a"
+          },
+          {
+            "Text": "change retry default behavior from custom to disabled",
+            "SHA": "aa8d4011e5ddc2d06666165b5910c0bf243600f7",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-04-09T15:51:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/aa8d4011e5ddc2d06666165b5910c0bf243600f7"
+          },
+          {
+            "Text": "change the retry behavior of react-query onError",
+            "SHA": "ac10abc9fe4c0b17b94aa07754bf4c6dcee9d1a2",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-04-09T07:56:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ac10abc9fe4c0b17b94aa07754bf4c6dcee9d1a2"
           },
           {
             "Text": "Merge pull request #580 from PRODYNA-YASM/refactor/dependencies",
@@ -1010,8 +1048,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "feature/technoology update",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/456"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -1119,5 +1162,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-10T14:20:10Z"
+  "LastUpdated": "2024-04-11T07:32:17Z"
 }
