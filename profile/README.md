@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-04-11T07:32:17Z
+Component Status overview. Last update 2024-04-11T13:22:17Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [22](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.1..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.1 |  :red_square: 47e9a5d |  :green_square: 1.19.1 |  :green_square: 1.19.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.1..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.1 |  :red_square: a695932 |  :green_square: 1.19.1 |  :green_square: 1.19.1 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.3 |  :green_square: 1.11.3 |  :green_square: 1.11.3 |  :green_square: 1.11.3 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
@@ -13,7 +13,7 @@ Component Status overview. Last update 2024-04-11T07:32:17Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.5.3 |  :green_square: 1.5.3 |  :green_square: 1.5.3 |  :green_square: 1.5.3 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.3.0-1 |  :green_square: 8.3.0-1 |  :green_square: 8.3.0-1 |  :green_square: 8.3.0-1 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.16.3 |  :green_square: 1.16.3 |  :green_square: 1.16.3 |  :green_square: 1.16.3 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.19.1 |  :green_square: 1.19.1 |  :green_square: 1.19.1 |  :red_square: 1.16.3 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.19.0 | 
 
 
@@ -71,7 +71,25 @@ Component Status overview. Last update 2024-04-11T07:32:17Z
 
 
 
-### [Commits on master since 1.19.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.1..HEAD) (22)
+### [Commits on master since 1.19.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.1..HEAD) (30)
+
+- [Merge pull request #592 from PRODYNA-YASM/feature/opentelemetry](https://github.com/prodyna-yasm/yasm-frontend/commit/a695932a41774d86e0f26e205c218891998f2950) by [readmey](https://github.com/readmey) on 2024-04-11 12:43:52 +0000 UTC
+
+- [add missing tracedNavigation](https://github.com/prodyna-yasm/yasm-frontend/commit/746727cae3f6bce71e92be66abbfdb0a308e9303) by [](https://github.com/) on 2024-04-11 12:22:40 +0000 UTC
+
+- [fix url](https://github.com/prodyna-yasm/yasm-frontend/commit/7c90d42f983fd286ce015824e3fa6d7b1c260bfe) by [](https://github.com/) on 2024-04-11 12:12:14 +0000 UTC
+
+- [fix labels](https://github.com/prodyna-yasm/yasm-frontend/commit/a18fe1da3fee3e42dc7c3f4469020f8abb784b7a) by [](https://github.com/) on 2024-04-11 11:32:14 +0000 UTC
+
+- [add tracing for /all](https://github.com/prodyna-yasm/yasm-frontend/commit/a9e0bfc85c39260afe87838f67de3e5d620ce061) by [](https://github.com/) on 2024-04-11 10:58:43 +0000 UTC
+
+- [refactor param names](https://github.com/prodyna-yasm/yasm-frontend/commit/a85a2659f1787ccb790e97cbb1f930dcaa11d74b) by [](https://github.com/) on 2024-04-11 10:49:35 +0000 UTC
+
+- [add tracedInifiteQuery](https://github.com/prodyna-yasm/yasm-frontend/commit/58f5c951b56d9bd0b74280e121d42a729a2e6e96) by [](https://github.com/) on 2024-04-11 10:46:55 +0000 UTC
+
+- [remove unused packages](https://github.com/prodyna-yasm/yasm-frontend/commit/f3e731ca4c504700b7ef72f3e901e4b6ecf3855b) by [](https://github.com/) on 2024-04-11 10:01:49 +0000 UTC
+
+- [add opentelemetry tracing with react-query](https://github.com/prodyna-yasm/yasm-frontend/commit/47e02f9b35a2ac2d325e62471f2abd1c089ce2c8) by [](https://github.com/) on 2024-04-11 09:59:33 +0000 UTC
 
 - [Merge pull request #583 from PRODYNA-YASM/feature/change-retry-behavior-queryClient](https://github.com/prodyna-yasm/yasm-frontend/commit/47e9a5d21fff3145a21a82f61099720e169a3613) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-04-11 06:51:50 +0000 UTC
 
@@ -115,8 +133,6 @@ Component Status overview. Last update 2024-04-11T07:32:17Z
 
 - [fix mapping key should be unique](https://github.com/prodyna-yasm/yasm-frontend/commit/658ebf926930c8f98afa6d1f16447f5bc7c7093c) by [](https://github.com/) on 2024-04-08 07:13:55 +0000 UTC
 
-- [fix PersonInformation layout](https://github.com/prodyna-yasm/yasm-frontend/commit/6290ac7e2c465fc723201e964f0d4bec5c4e488b) by [](https://github.com/) on 2024-04-08 07:13:01 +0000 UTC
-
 
 
 
@@ -138,7 +154,7 @@ Component Status overview. Last update 2024-04-11T07:32:17Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  47e9a5d |  1.19.1 |  1.19.1 | 
+| Version |  a695932 |  1.19.1 |  1.19.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -391,16 +407,11 @@ Component Status overview. Last update 2024-04-11T07:32:17Z
 
 
 
-## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 1.16.3
+## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 1.19.1
 
 
 
 
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (1)
-
-- [feature/technoology update](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/456)
 
 
 
@@ -408,23 +419,25 @@ Component Status overview. Last update 2024-04-11T07:32:17Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.16.3 |  1.16.3 |  1.16.3 | 
+| Version |  1.19.1 |  1.19.1 |  1.16.3 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
 
+- [After change in environment for staging](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.19.1) on 2024-04-11 09:24:10 +0000 UTC
+
+- [1.19.0](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.19.0) on 2024-04-11 09:24:10 +0000 UTC
+
 - [1.16.3](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.16.3) on 2024-03-21 13:33:31 +0000 UTC
 
-- [YASM-Github added](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.16.2) on 2024-03-20 10:51:36 +0000 UTC
-
-- [1.16.1](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.16.1) on 2024-03-19 13:04:16 +0000 UTC
 
 
 
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting) (3)
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting) (2)
+- [Stay on old loki](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/8644764248) created on 2024-04-11 09:47:03 +0000 UTC
 
 - [Merge pull request #454 from PRODYNA-YASM/feature/add-yasm-github](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/8357746758) created on 2024-03-20 10:57:27 +0000 UTC
 

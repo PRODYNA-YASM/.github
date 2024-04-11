@@ -112,7 +112,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "47e9a5d",
+          "Version": "a695932",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -190,8 +190,98 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.1..HEAD",
-        "Count": 22,
+        "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #592 from PRODYNA-YASM/feature/opentelemetry",
+            "SHA": "a695932a41774d86e0f26e205c218891998f2950",
+            "Author": {
+              "name": "readmey",
+              "link": "https://github.com/readmey"
+            },
+            "Timestamp": "2024-04-11T12:43:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/a695932a41774d86e0f26e205c218891998f2950"
+          },
+          {
+            "Text": "add missing tracedNavigation",
+            "SHA": "746727cae3f6bce71e92be66abbfdb0a308e9303",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-11T12:22:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/746727cae3f6bce71e92be66abbfdb0a308e9303"
+          },
+          {
+            "Text": "fix url",
+            "SHA": "7c90d42f983fd286ce015824e3fa6d7b1c260bfe",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-11T12:12:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7c90d42f983fd286ce015824e3fa6d7b1c260bfe"
+          },
+          {
+            "Text": "fix labels",
+            "SHA": "a18fe1da3fee3e42dc7c3f4469020f8abb784b7a",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-11T11:32:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/a18fe1da3fee3e42dc7c3f4469020f8abb784b7a"
+          },
+          {
+            "Text": "add tracing for /all",
+            "SHA": "a9e0bfc85c39260afe87838f67de3e5d620ce061",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-11T10:58:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/a9e0bfc85c39260afe87838f67de3e5d620ce061"
+          },
+          {
+            "Text": "refactor param names",
+            "SHA": "a85a2659f1787ccb790e97cbb1f930dcaa11d74b",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-11T10:49:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/a85a2659f1787ccb790e97cbb1f930dcaa11d74b"
+          },
+          {
+            "Text": "add tracedInifiteQuery",
+            "SHA": "58f5c951b56d9bd0b74280e121d42a729a2e6e96",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-11T10:46:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/58f5c951b56d9bd0b74280e121d42a729a2e6e96"
+          },
+          {
+            "Text": "remove unused packages",
+            "SHA": "f3e731ca4c504700b7ef72f3e901e4b6ecf3855b",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-11T10:01:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/f3e731ca4c504700b7ef72f3e901e4b6ecf3855b"
+          },
+          {
+            "Text": "add opentelemetry tracing with react-query",
+            "SHA": "47e02f9b35a2ac2d325e62471f2abd1c089ce2c8",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-11T09:59:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/47e02f9b35a2ac2d325e62471f2abd1c089ce2c8"
+          },
           {
             "Text": "Merge pull request #583 from PRODYNA-YASM/feature/change-retry-behavior-queryClient",
             "SHA": "47e9a5d21fff3145a21a82f61099720e169a3613",
@@ -401,16 +491,6 @@
             },
             "Timestamp": "2024-04-08T07:13:55Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/658ebf926930c8f98afa6d1f16447f5bc7c7093c"
-          },
-          {
-            "Text": "fix PersonInformation layout",
-            "SHA": "6290ac7e2c465fc723201e964f0d4bec5c4e488b",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-04-08T07:13:01Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/6290ac7e2c465fc723201e964f0d4bec5c4e488b"
           }
         ]
       },
@@ -997,14 +1077,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.16.3",
+          "Version": "1.19.1",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.16.3",
+          "Version": "1.19.1",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -1013,52 +1093,47 @@
           "Link": "",
           "Version": "1.16.3",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.16.3",
+        "Tag": "1.19.1",
         "SHA": "",
-        "Title": "1.16.3",
-        "Timestamp": "2024-03-22T11:26:46Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.16.3"
+        "Title": "After change in environment for staging",
+        "Timestamp": "2024-04-11T09:47:02Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.19.1"
       },
       "Releases": [
+        {
+          "Tag": "1.19.1",
+          "SHA": "",
+          "Title": "After change in environment for staging",
+          "Timestamp": "2024-04-11T09:24:10Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.19.1"
+        },
+        {
+          "Tag": "1.19.0",
+          "SHA": "",
+          "Title": "1.19.0",
+          "Timestamp": "2024-04-11T09:24:10Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.19.0"
+        },
         {
           "Tag": "1.16.3",
           "SHA": "",
           "Title": "1.16.3",
           "Timestamp": "2024-03-21T13:33:31Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.16.3"
-        },
-        {
-          "Tag": "1.16.2",
-          "SHA": "",
-          "Title": "YASM-Github added",
-          "Timestamp": "2024-03-20T10:51:36Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.16.2"
-        },
-        {
-          "Tag": "1.16.1",
-          "SHA": "",
-          "Title": "1.16.1",
-          "Timestamp": "2024-03-19T13:04:16Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.16.1"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "feature/technoology update",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/456"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.16.3..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.19.1..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -1066,8 +1141,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 3,
         "Workflows": [
+          {
+            "Name": "Stay on old loki",
+            "Timestamp": "2024-04-11T09:47:03Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/8644764248"
+          },
           {
             "Name": "Merge pull request #454 from PRODYNA-YASM/feature/add-yasm-github",
             "Timestamp": "2024-03-20T10:57:27Z",
@@ -1162,5 +1242,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-11T07:32:17Z"
+  "LastUpdated": "2024-04-11T13:22:17Z"
 }
