@@ -163,15 +163,23 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 5,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "Fix/404 page project detail",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/598"
+          },
+          {
+            "Title": "Bump @types/react from 17.0.39 to 18.2.77",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/597"
+          },
+          {
+            "Title": "Bump actions/add-to-project from 1.0.0 to 1.0.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/596"
+          },
           {
             "Title": "Bump css-loader from 6.11.0 to 7.1.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/591"
-          },
-          {
-            "Title": "Bump @types/react from 17.0.39 to 18.2.75",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/590"
           },
           {
             "Title": "Bump @types/node from 18.19.31 to 20.12.7",
@@ -1242,5 +1250,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-11T13:22:17Z"
+  "LastUpdated": "2024-04-12T07:32:19Z"
 }

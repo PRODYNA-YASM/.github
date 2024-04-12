@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-04-11T13:22:17Z
+Component Status overview. Last update 2024-04-12T07:32:19Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.1..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.1 |  :red_square: a695932 |  :green_square: 1.19.1 |  :green_square: 1.19.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.1..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.1 |  :red_square: a695932 |  :green_square: 1.19.1 |  :green_square: 1.19.1 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.3 |  :green_square: 1.11.3 |  :green_square: 1.11.3 |  :green_square: 1.11.3 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
@@ -136,11 +136,15 @@ Component Status overview. Last update 2024-04-11T13:22:17Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (5)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
+
+- [Fix/404 page project detail](https://github.com/PRODYNA-YASM/yasm-frontend/pull/598)
+
+- [Bump @types/react from 17.0.39 to 18.2.77](https://github.com/PRODYNA-YASM/yasm-frontend/pull/597)
+
+- [Bump actions/add-to-project from 1.0.0 to 1.0.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/596)
 
 - [Bump css-loader from 6.11.0 to 7.1.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/591)
-
-- [Bump @types/react from 17.0.39 to 18.2.75](https://github.com/PRODYNA-YASM/yasm-frontend/pull/590)
 
 - [Bump @types/node from 18.19.31 to 20.12.7](https://github.com/PRODYNA-YASM/yasm-frontend/pull/589)
 
