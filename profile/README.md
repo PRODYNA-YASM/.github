@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-04-13T07:33:14Z
+Component Status overview. Last update 2024-04-13T17:10:14Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -9,7 +9,7 @@ Component Status overview. Last update 2024-04-13T07:33:14Z
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.3 |  :green_square: 1.11.3 |  :green_square: 1.11.3 |  :green_square: 1.11.3 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
-| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [2](https://github.com/prodyna-yasm/yasm-github/compare/1.2.0..HEAD) | :green_square: 0 | 1.2.0 |  :red_square: b214838 |  :green_square: 1.2.0 |  :green_square: 1.2.0 | 
+| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.2.1 |  :green_square: 1.2.1 |  :green_square: 1.2.1 |  :green_square: 1.2.1 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.5.3 |  :green_square: 1.5.3 |  :green_square: 1.5.3 |  :green_square: 1.5.3 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.3.0-1 |  :green_square: 8.3.0-1 |  :green_square: 8.3.0-1 |  :green_square: 8.3.0-1 | 
@@ -224,18 +224,16 @@ Component Status overview. Last update 2024-04-13T07:33:14Z
 
 
 
-## [yasm-github](https://github.com/prodyna-yasm/yasm-github) 1.2.0
+## [yasm-github](https://github.com/prodyna-yasm/yasm-github) 1.2.1
 
 
 
 
-### [Commits on main since 1.2.0](https://github.com/prodyna-yasm/yasm-github/compare/1.2.0..HEAD) (2)
-
-- [Merge pull request #53 from PRODYNA-YASM/feature/allow-tracing-header](https://github.com/prodyna-yasm/yasm-github/commit/b214838e0410b265562bb2f4d42c9c8623f38f03) by [coding4kay](https://github.com/coding4kay) on 2024-04-12 16:04:15 +0000 UTC
-
-- [allow trace header for cors](https://github.com/prodyna-yasm/yasm-github/commit/ad3819d080a4b8d096a0d45a5bb9eb72367f0a30) by [coding4kay](https://github.com/coding4kay) on 2024-04-12 16:02:13 +0000 UTC
 
 
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-github/pulls) (1)
+
+- [Using yasm as default for issues](https://github.com/PRODYNA-YASM/yasm-github/pull/55)
 
 
 
@@ -243,18 +241,18 @@ Component Status overview. Last update 2024-04-13T07:33:14Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  b214838 |  1.2.0 |  1.2.0 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.2.1 |  1.2.1 |  1.2.1 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [CORS for Traceparent](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.2.1) on 2024-04-12 16:04:15 +0000 UTC
+
 - [CORS for local development](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.2.0) on 2024-04-09 15:48:15 +0000 UTC
 
 - [Otel 1.25](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.1.0) on 2024-04-05 23:46:40 +0000 UTC
-
-- [Technology update](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.0.2) on 2024-04-04 05:41:10 +0000 UTC
 
 
 
