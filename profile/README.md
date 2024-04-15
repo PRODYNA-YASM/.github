@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-04-15T07:32:16Z
+Component Status overview. Last update 2024-04-15T09:05:59Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -12,7 +12,7 @@ Component Status overview. Last update 2024-04-15T07:32:16Z
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.2.1 |  :green_square: 1.2.1 |  :green_square: 1.2.1 |  :green_square: 1.2.1 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.5.3 |  :green_square: 1.5.3 |  :green_square: 1.5.3 |  :green_square: 1.5.3 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
-| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [2](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.3.0-1..HEAD) | :green_square: 0 | 8.3.0-1 |  :red_square: d835948 |  :green_square: 8.3.0-1 |  :green_square: 8.3.0-1 | 
+| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.4.0-1 |  :green_square: 8.4.0-1 |  :green_square: 8.4.0-1 |  :red_square: 8.3.0-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.19.1 |  :green_square: 1.19.1 |  :green_square: 1.19.1 |  :green_square: 1.19.1 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.19.0 | 
 
@@ -320,16 +320,9 @@ Component Status overview. Last update 2024-04-15T07:32:16Z
 
 
 
-## [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) 8.3.0-1
+## [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) 8.4.0-1
 
 
-
-
-### [Commits on main since 8.3.0-1](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.3.0-1..HEAD) (2)
-
-- [Merge pull request #39 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.4.0](https://github.com/prodyna-yasm/yasm-gotenberg/commit/d8359488dcea2e77af681d59af3fefbdd5bbf4b8) by [dkrizic](https://github.com/dkrizic) on 2024-04-15 05:40:41 +0000 UTC
-
-- [Bump gotenberg/gotenberg from 8.3.0 to 8.4.0](https://github.com/prodyna-yasm/yasm-gotenberg/commit/c10a581c7b0ae8c02241ee87ecbdcbb3004794dc) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-04-15 00:44:02 +0000 UTC
 
 
 
@@ -339,20 +332,25 @@ Component Status overview. Last update 2024-04-15T07:32:16Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  d835948 |  8.3.0-1 |  8.3.0-1 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  8.4.0-1 |  8.4.0-1 |  8.3.0-1 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
+
+- [Gotenberg 8.4.0](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.4.0-1) on 2024-04-15 05:40:41 +0000 UTC
 
 - [Gotenberg 8.3.0](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.3.0-1) on 2024-03-25 06:56:51 +0000 UTC
 
 - [Gotenberg 8.2.2](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.2.2-2) on 2024-03-18 06:03:48 +0000 UTC
 
-- [Gotenberg 8.2.1](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.2.1-1) on 2024-03-11 06:18:26 +0000 UTC
 
 
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting) (1)
+
+- [Merge pull request #39 from PRODYNA-YASM/dependabot/docker/gotenberg/…](https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/8685292720) created on 2024-04-15 07:42:38 +0000 UTC
 
 
 
