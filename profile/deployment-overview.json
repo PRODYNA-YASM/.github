@@ -442,9 +442,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.19.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "1e48f65",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -499,8 +499,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.19.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #403 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.38.0",
+            "SHA": "1e48f65832e8a98b3fab977f86283c9d2e1d2524",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-18T06:18:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/1e48f65832e8a98b3fab977f86283c9d2e1d2524"
+          },
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.37.0 to 1.38.0",
+            "SHA": "d69e4eea2e0eb955a316b9d745e57688bf6bddae",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-04-18T01:27:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/d69e4eea2e0eb955a316b9d745e57688bf6bddae"
+          }
+        ]
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -954,8 +975,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 3,
+        "Count": 4,
         "PullRequests": [
+          {
+            "Title": "Bump org.openapitools:openapi-generator-maven-plugin from 7.4.0 to 7.5.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/178"
+          },
           {
             "Title": "Bump jakarta.annotation:jakarta.annotation-api from 2.1.1 to 3.0.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/177"
@@ -999,5 +1024,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-17T07:32:20Z"
+  "LastUpdated": "2024-04-18T07:32:19Z"
 }
