@@ -110,14 +110,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.19.3",
+          "Version": "1.19.4",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.19.3",
+          "Version": "1.19.4",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -126,17 +126,24 @@
           "Link": "",
           "Version": "1.19.3",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.19.3",
+        "Tag": "1.19.4",
         "SHA": "",
-        "Title": "Fixed link to project-participation in PersonDetailPage",
-        "Timestamp": "2024-04-12T13:27:48Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.3"
+        "Title": "Add functionality to create issue over YASM",
+        "Timestamp": "2024-04-18T12:42:04Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.4"
       },
       "Releases": [
+        {
+          "Tag": "1.19.4",
+          "SHA": "",
+          "Title": "Add functionality to create issue over YASM",
+          "Timestamp": "2024-04-18T11:19:49Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.4"
+        },
         {
           "Tag": "1.19.3",
           "SHA": "",
@@ -150,26 +157,15 @@
           "Title": "OTel fixes, upgraded dependencies, refactor list items, deactivated retry react-query",
           "Timestamp": "2024-04-12T12:10:37Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.2"
-        },
-        {
-          "Tag": "1.19.1",
-          "SHA": "",
-          "Title": "Refactor Person and Project data loading and improve project filter",
-          "Timestamp": "2024-04-05T15:18:35Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.1"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 6,
         "PullRequests": [
           {
             "Title": "Bump @types/react from 17.0.39 to 18.2.79",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/610"
-          },
-          {
-            "Title": "393: add functionality to create issue over YASM",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/603"
           },
           {
             "Title": "Bump actions/add-to-project from 1.0.0 to 1.0.1",
@@ -195,7 +191,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.3..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.4..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -203,8 +199,14 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #616 from PRODYNA-YASM/fix/process-env",
+            "Timestamp": "2024-04-18T12:42:06Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/8738086292"
+          }
+        ]
       }
     },
     {
@@ -519,33 +521,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.2.1",
+          "Version": "1.3.0",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.2.1",
+          "Version": "1.3.0",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.2.1",
+          "Version": "1.3.0",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.2.1",
+        "Tag": "1.3.0",
         "SHA": "",
-        "Title": "CORS for Traceparent",
-        "Timestamp": "2024-04-13T08:53:26Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.2.1"
+        "Title": "Send issues to prodyna-yasm/yasm",
+        "Timestamp": "2024-04-18T12:37:20Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.3.0"
       },
       "Releases": [
+        {
+          "Tag": "1.3.0",
+          "SHA": "",
+          "Title": "Send issues to prodyna-yasm/yasm",
+          "Timestamp": "2024-04-18T12:29:02Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.3.0"
+        },
         {
           "Tag": "1.2.1",
           "SHA": "",
@@ -559,28 +568,16 @@
           "Title": "CORS for local development",
           "Timestamp": "2024-04-09T15:48:15Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.2.0"
-        },
-        {
-          "Tag": "1.1.0",
-          "SHA": "",
-          "Title": "Otel 1.25",
-          "Timestamp": "2024-04-05T23:46:40Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.1.0"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Using yasm as default for issues",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/55"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.2.1..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.3.0..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -989,5 +986,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-18T09:16:35Z"
+  "LastUpdated": "2024-04-18T12:45:58Z"
 }
