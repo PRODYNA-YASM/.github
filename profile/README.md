@@ -1,13 +1,13 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-04-18T07:32:19Z
+Component Status overview. Last update 2024-04-18T09:14:56Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-backend/compare/1.19.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.19.2 |  :red_square: cf059da |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.3 |  :green_square: 1.19.3 |  :green_square: 1.19.3 |  :green_square: 1.19.3 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.19.2..HEAD) | :green_square: 0 | 1.19.2 |  :red_square: 86f4fa4 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [4](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.11.3..HEAD) | :green_square: 0 | 1.11.3 |  :red_square: dfd6f3c |  :green_square: 1.11.3 |  :green_square: 1.11.3 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.4 |  :green_square: 1.11.4 |  :red_square: 1.11.3 |  :red_square: 1.11.3 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.19.2..HEAD) | :green_square: 0 | 1.19.2 |  :red_square: 1e48f65 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.2.1 |  :green_square: 1.2.1 |  :green_square: 1.2.1 |  :green_square: 1.2.1 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.5.3 |  :green_square: 1.5.3 |  :green_square: 1.5.3 |  :green_square: 1.5.3 | 
@@ -158,20 +158,9 @@ Component Status overview. Last update 2024-04-18T07:32:19Z
 
 
 
-## [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) 1.11.3
+## [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) 1.11.4
 
 
-
-
-### [Commits on master since 1.11.3](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.11.3..HEAD) (4)
-
-- [Merge pull request #175 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/sdk/metric-1.25.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/dfd6f3c3359bc2be3fb92e44e1a57454514b9795) by [dkrizic](https://github.com/dkrizic) on 2024-04-15 13:30:06 +0000 UTC
-
-- [Bump go.opentelemetry.io/otel/sdk/metric from 1.24.0 to 1.25.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/9667fb04ce75f6d106506e20eb2ef6cfbad5df01) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-04-15 13:28:11 +0000 UTC
-
-- [Merge pull request #179 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace-1.25.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/7d49675ba5d4af86d1fec05400cbd63243f8aacc) by [dkrizic](https://github.com/dkrizic) on 2024-04-15 13:27:22 +0000 UTC
-
-- [Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/f8bcb9b22a6d1187096ed755a7d0861d67dd7e75) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-04-15 13:24:31 +0000 UTC
 
 
 
@@ -181,18 +170,18 @@ Component Status overview. Last update 2024-04-18T07:32:19Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  dfd6f3c |  1.11.3 |  1.11.3 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.11.4 |  1.11.3 |  1.11.3 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :red_square: |  :red_square: | 
 
 
 ### Last releases
 
+- [OpenTelemetry update](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.4) on 2024-04-15 13:30:06 +0000 UTC
+
 - [Go 1.22.2](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.3) on 2024-04-05 05:51:35 +0000 UTC
 
 - [Dummy bugfix for demonstration purposes](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.2) on 2024-04-03 14:10:16 +0000 UTC
-
-- [Technical update](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.1) on 2024-03-25 16:42:43 +0000 UTC
 
 
 

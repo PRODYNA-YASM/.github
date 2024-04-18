@@ -326,33 +326,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "dfd6f3c",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.11.4",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
           "Version": "1.11.3",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         },
         {
           "Name": "prod",
           "Link": "",
           "Version": "1.11.3",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.11.3",
+        "Tag": "1.11.4",
         "SHA": "",
-        "Title": "Go 1.22.2",
-        "Timestamp": "2024-04-06T08:13:26Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.3"
+        "Title": "OpenTelemetry update",
+        "Timestamp": "2024-04-18T09:11:57Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.4"
       },
       "Releases": [
+        {
+          "Tag": "1.11.4",
+          "SHA": "",
+          "Title": "OpenTelemetry update",
+          "Timestamp": "2024-04-15T13:30:06Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.4"
+        },
         {
           "Tag": "1.11.3",
           "SHA": "",
@@ -366,13 +373,6 @@
           "Title": "Dummy bugfix for demonstration purposes",
           "Timestamp": "2024-04-03T14:10:16Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.2"
-        },
-        {
-          "Tag": "1.11.1",
-          "SHA": "",
-          "Title": "Technical update",
-          "Timestamp": "2024-03-25T16:42:43Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.1"
         }
       ],
       "PullRequests": {
@@ -382,50 +382,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.11.3..HEAD",
-        "Count": 4,
-        "Commits": [
-          {
-            "Text": "Merge pull request #175 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/sdk/metric-1.25.0",
-            "SHA": "dfd6f3c3359bc2be3fb92e44e1a57454514b9795",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-15T13:30:06Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/dfd6f3c3359bc2be3fb92e44e1a57454514b9795"
-          },
-          {
-            "Text": "Bump go.opentelemetry.io/otel/sdk/metric from 1.24.0 to 1.25.0",
-            "SHA": "9667fb04ce75f6d106506e20eb2ef6cfbad5df01",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-04-15T13:28:11Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/9667fb04ce75f6d106506e20eb2ef6cfbad5df01"
-          },
-          {
-            "Text": "Merge pull request #179 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace-1.25.0",
-            "SHA": "7d49675ba5d4af86d1fec05400cbd63243f8aacc",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-15T13:27:22Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/7d49675ba5d4af86d1fec05400cbd63243f8aacc"
-          },
-          {
-            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace",
-            "SHA": "f8bcb9b22a6d1187096ed755a7d0861d67dd7e75",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-04-15T13:24:31Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/f8bcb9b22a6d1187096ed755a7d0861d67dd7e75"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.11.4..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "master",
       "Tags": null,
@@ -1024,5 +983,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-18T07:32:19Z"
+  "LastUpdated": "2024-04-18T09:14:56Z"
 }
