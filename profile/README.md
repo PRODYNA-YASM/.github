@@ -1,14 +1,14 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-04-19T07:32:20Z
+Component Status overview. Last update 2024-04-19T08:29:44Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-backend/compare/1.19.2..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.19.2 |  :red_square: cf059da |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.4 |  :green_square: 1.19.4 |  :green_square: 1.19.4 |  :green_square: 1.19.4 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.19.2..HEAD) | :green_square: 0 | 1.19.2 |  :red_square: 86f4fa4 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.19.3 |  :red_square: 86f4fa4 |  :red_square: 1.19.2 |  :red_square: 1.19.2 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.4 |  :green_square: 1.11.4 |  :green_square: 1.11.4 |  :red_square: 1.11.3 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.19.2..HEAD) | :green_square: 0 | 1.19.2 |  :red_square: 1e48f65 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.19.3 |  :red_square: 1e48f65 |  :red_square: 1.19.2 |  :red_square: 1.19.2 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.5.3 |  :green_square: 1.5.3 |  :green_square: 1.5.3 |  :green_square: 1.5.3 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
@@ -112,16 +112,9 @@ Component Status overview. Last update 2024-04-19T07:32:20Z
 
 
 
-## [yasmctl](https://github.com/prodyna-yasm/yasmctl) 1.19.2
+## [yasmctl](https://github.com/prodyna-yasm/yasmctl) 1.19.3
 
 
-
-
-### [Commits on master since 1.19.2](https://github.com/prodyna-yasm/yasmctl/compare/1.19.2..HEAD) (2)
-
-- [Merge pull request #306 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-4.2.0](https://github.com/prodyna-yasm/yasmctl/commit/86f4fa4879423a6de339d744e17b89466cfd53bc) by [dkrizic](https://github.com/dkrizic) on 2024-04-16 07:07:09 +0000 UTC
-
-- [Bump azure/setup-helm from 4.1.0 to 4.2.0](https://github.com/prodyna-yasm/yasmctl/commit/0c35f71b74681d2f79c07b89b14f2712ff2e5c6c) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-04-15 21:14:02 +0000 UTC
 
 
 
@@ -133,16 +126,16 @@ Component Status overview. Last update 2024-04-19T07:32:20Z
 | --- |  --- |  --- |  --- | 
 | Version |  86f4fa4 |  1.19.2 |  1.19.2 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :red_square: |  :red_square: | 
 
 
 ### Last releases
 
+- [Update Helm](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.19.3) on 2024-04-16 07:07:09 +0000 UTC
+
 - [OTel 1.25](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.19.2) on 2024-04-09 23:03:09 +0000 UTC
 
 - [Lib update](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.19.1) on 2024-04-05 05:51:49 +0000 UTC
-
-- [API 1.19.0](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.19.0) on 2024-04-04 12:17:56 +0000 UTC
 
 
 
@@ -193,16 +186,9 @@ Component Status overview. Last update 2024-04-19T07:32:20Z
 
 
 
-## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.19.2
+## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.19.3
 
 
-
-
-### [Commits on master since 1.19.2](https://github.com/prodyna-yasm/yasm-integration/compare/1.19.2..HEAD) (2)
-
-- [Merge pull request #403 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.38.0](https://github.com/prodyna-yasm/yasm-integration/commit/1e48f65832e8a98b3fab977f86283c9d2e1d2524) by [dkrizic](https://github.com/dkrizic) on 2024-04-18 06:18:42 +0000 UTC
-
-- [Bump github.com/microsoftgraph/msgraph-sdk-go from 1.37.0 to 1.38.0](https://github.com/prodyna-yasm/yasm-integration/commit/d69e4eea2e0eb955a316b9d745e57688bf6bddae) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-04-18 01:27:59 +0000 UTC
 
 
 
@@ -214,16 +200,16 @@ Component Status overview. Last update 2024-04-19T07:32:20Z
 | --- |  --- |  --- |  --- | 
 | Version |  1e48f65 |  1.19.2 |  1.19.2 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :red_square: |  :red_square: | 
 
 
 ### Last releases
 
+- [Azure library update](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.19.3) on 2024-04-18 06:18:42 +0000 UTC
+
 - [Otel 1.25](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.19.2) on 2024-04-10 07:01:32 +0000 UTC
 
 - [Go 1.22.2](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.19.1) on 2024-04-05 05:51:25 +0000 UTC
-
-- [API 1.19.0](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.19.0) on 2024-04-04 11:57:36 +0000 UTC
 
 
 
