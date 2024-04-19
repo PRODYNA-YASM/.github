@@ -214,16 +214,16 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "86f4fa4",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.19.3",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.19.2",
+          "Version": "1.19.3",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -278,8 +278,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 4,
         "Workflows": [
+          {
+            "Name": "Merge pull request #306 from PRODYNA-YASM/dependabot/github_actions/a…",
+            "Timestamp": "2024-04-19T08:29:06Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8750699640"
+          },
           {
             "Name": "Merge pull request #298 from PRODYNA-YASM/297-api-1190",
             "Timestamp": "2024-04-04T12:20:11Z",
@@ -942,5 +947,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-19T08:29:44Z"
+  "LastUpdated": "2024-04-19T08:31:35Z"
 }
