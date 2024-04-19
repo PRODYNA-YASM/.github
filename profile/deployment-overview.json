@@ -265,19 +265,35 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Prepare for master -\u003e main",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/307"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.19.3..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #307 from PRODYNA-YASM/feature/rename-master-to-main",
+            "SHA": "a1dfb56f7049156a3c1892b9b1d06212b12990d0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-19T13:16:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/a1dfb56f7049156a3c1892b9b1d06212b12990d0"
+          },
+          {
+            "Text": "Prepare for master -\u003e main",
+            "SHA": "78b23fe4da882bc34c4e806a063ca8758bbf2fd8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-19T13:12:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/78b23fe4da882bc34c4e806a063ca8758bbf2fd8"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -986,5 +1002,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-19T13:15:58Z"
+  "LastUpdated": "2024-04-19T13:17:35Z"
 }
