@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-04-18T12:45:58Z
+Component Status overview. Last update 2024-04-19T07:32:20Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-backend/compare/1.19.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.19.2 |  :red_square: cf059da |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.4 |  :green_square: 1.19.4 |  :green_square: 1.19.4 |  :red_square: 1.19.3 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-backend/compare/1.19.2..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.19.2 |  :red_square: cf059da |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.4 |  :green_square: 1.19.4 |  :green_square: 1.19.4 |  :green_square: 1.19.4 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.19.2..HEAD) | :green_square: 0 | 1.19.2 |  :red_square: 86f4fa4 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.4 |  :green_square: 1.11.4 |  :green_square: 1.11.4 |  :red_square: 1.11.3 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.19.2..HEAD) | :green_square: 0 | 1.19.2 |  :red_square: 1e48f65 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
@@ -30,7 +30,9 @@ Component Status overview. Last update 2024-04-18T12:45:58Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (1)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (2)
+
+- [Bump quarkus.platform.version from 3.9.3 to 3.9.4](https://github.com/PRODYNA-YASM/yasm-backend/pull/586)
 
 - [Bump eclipse-temurin from 21.0.2_13-jre-ubi9-minimal to 22_36-jre-ubi9-minimal](https://github.com/PRODYNA-YASM/yasm-backend/pull/560)
 
@@ -92,9 +94,9 @@ Component Status overview. Last update 2024-04-18T12:45:58Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.19.4 |  1.19.4 |  1.19.3 | 
+| Version |  1.19.4 |  1.19.4 |  1.19.4 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -106,11 +108,6 @@ Component Status overview. Last update 2024-04-18T12:45:58Z
 - [OTel fixes, upgraded dependencies, refactor list items, deactivated retry react-query](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.2) on 2024-04-12 12:10:37 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #616 from PRODYNA-YASM/fix/process-env](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/8738086292) created on 2024-04-18 12:42:06 +0000 UTC
 
 
 

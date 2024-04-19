@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "Bump quarkus.platform.version from 3.9.3 to 3.9.4",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/586"
+          },
           {
             "Title": "Bump eclipse-temurin from 21.0.2_13-jre-ubi9-minimal to 22_36-jre-ubi9-minimal",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/560"
@@ -124,9 +128,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.19.3",
+          "Version": "1.19.4",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -199,14 +203,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #616 from PRODYNA-YASM/fix/process-env",
-            "Timestamp": "2024-04-18T12:42:06Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/8738086292"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -986,5 +984,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-18T12:45:58Z"
+  "LastUpdated": "2024-04-19T07:32:20Z"
 }
