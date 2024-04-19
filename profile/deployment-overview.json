@@ -265,8 +265,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Prepare for master -\u003e main",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/307"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
@@ -981,5 +986,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-19T13:14:38Z"
+  "LastUpdated": "2024-04-19T13:15:58Z"
 }
