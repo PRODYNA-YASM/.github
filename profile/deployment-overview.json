@@ -905,9 +905,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.19.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "681dbe8",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -956,19 +956,35 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Rename the main branches for most projects",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/460"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.19.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #460 from PRODYNA-YASM/459-master-main",
+            "SHA": "681dbe8f862b551cb17b3a72a411e94d93963424",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-19T19:17:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/681dbe8f862b551cb17b3a72a411e94d93963424"
+          },
+          {
+            "Text": "Rename the main branches for most projects",
+            "SHA": "841a250f81076371ecd5682a919663b26cbed167",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-19T13:45:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/841a250f81076371ecd5682a919663b26cbed167"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1125,5 +1141,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-19T19:16:26Z"
+  "LastUpdated": "2024-04-20T07:32:09Z"
 }
