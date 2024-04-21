@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-04-20T07:32:09Z
+Component Status overview. Last update 2024-04-21T07:32:12Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -428,7 +428,7 @@ Component Status overview. Last update 2024-04-20T07:32:09Z
 
 
 
-### [Commits on master since 1.19.0](https://github.com/prodyna-yasm/yasm-api/compare/1.19.0..HEAD) (1)
+### [Commits on main since 1.19.0](https://github.com/prodyna-yasm/yasm-api/compare/1.19.0..HEAD) (1)
 
 - [Prepare for master -> main](https://github.com/prodyna-yasm/yasm-api/commit/e267d17be605174ff28e7240c58f24f62af6bbc5) by [dkrizic](https://github.com/dkrizic) on 2024-04-19 13:40:10 +0000 UTC
 

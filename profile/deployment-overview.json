@@ -1067,7 +1067,7 @@
           }
         ]
       },
-      "DefaultBranch": "master",
+      "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/actions?query=is%3Awaiting",
@@ -1141,5 +1141,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-20T07:32:09Z"
+  "LastUpdated": "2024-04-21T07:32:12Z"
 }
