@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-04-22T08:44:32Z
+Component Status overview. Last update 2024-04-22T08:51:14Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -9,7 +9,7 @@ Component Status overview. Last update 2024-04-22T08:44:32Z
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.19.3..HEAD) | :green_square: 0 | 1.19.3 |  :red_square: a1dfb56 |  :green_square: 1.19.3 |  :green_square: 1.19.3 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.11.4..HEAD) | :green_square: 0 | 1.11.4 |  :red_square: 0cb2c9a |  :green_square: 1.11.4 |  :green_square: 1.11.4 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.19.3..HEAD) | :green_square: 0 | 1.19.3 |  :red_square: dad9d30 |  :green_square: 1.19.3 |  :green_square: 1.19.3 | 
-| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [3](https://github.com/prodyna-yasm/yasm-github/compare/1.3.0..HEAD) | :green_square: 0 | 1.3.0 |  :red_square: 0a51e25 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
+| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.3.1 |  :green_square: 1.3.1 |  :green_square: 1.3.1 |  :green_square: 1.3.1 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [1](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.5.3..HEAD) | :green_square: 0 | 1.5.3 |  :red_square: 1c7de3d |  :green_square: 1.5.3 |  :green_square: 1.5.3 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [1](https://github.com/prodyna-yasm/yasm-data/compare/1.10.0..HEAD) | :green_square: 0 | 1.10.0 |  :red_square: c0749e1 |  :green_square: 1.10.0 |  :green_square: 1.10.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.4.0-1 |  :green_square: 8.4.0-1 |  :green_square: 8.4.0-1 |  :green_square: 8.4.0-1 | 
@@ -255,18 +255,9 @@ Component Status overview. Last update 2024-04-22T08:44:32Z
 
 
 
-## [yasm-github](https://github.com/prodyna-yasm/yasm-github) 1.3.0
+## [yasm-github](https://github.com/prodyna-yasm/yasm-github) 1.3.1
 
 
-
-
-### [Commits on main since 1.3.0](https://github.com/prodyna-yasm/yasm-github/compare/1.3.0..HEAD) (3)
-
-- [Merge pull request #57 from PRODYNA-YASM/56-dummy-feature-for-demo](https://github.com/prodyna-yasm/yasm-github/commit/0a51e25553b67ed7a3deb8b0baffc49af3c32a40) by [dkrizic](https://github.com/dkrizic) on 2024-04-22 08:39:57 +0000 UTC
-
-- [Update go](https://github.com/prodyna-yasm/yasm-github/commit/e5d3c8a807ff030e73d9befc17b28f31a542274c) by [dkrizic](https://github.com/dkrizic) on 2024-04-22 08:35:27 +0000 UTC
-
-- [Dummy change](https://github.com/prodyna-yasm/yasm-github/commit/27bcf6bf7a71813822c1f1e80f93bdd5c92278db) by [dkrizic](https://github.com/dkrizic) on 2024-04-22 08:33:53 +0000 UTC
 
 
 
@@ -276,18 +267,18 @@ Component Status overview. Last update 2024-04-22T08:44:32Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  0a51e25 |  1.3.0 |  1.3.0 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.3.1 |  1.3.1 |  1.3.1 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Dummy change for demo](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.3.1) on 2024-04-22 08:39:57 +0000 UTC
+
 - [Send issues to prodyna-yasm/yasm](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.3.0) on 2024-04-18 12:29:02 +0000 UTC
 
 - [CORS for Traceparent](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.2.1) on 2024-04-12 16:04:15 +0000 UTC
-
-- [CORS for local development](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.2.0) on 2024-04-09 15:48:15 +0000 UTC
 
 
 
