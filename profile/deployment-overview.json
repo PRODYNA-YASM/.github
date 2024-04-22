@@ -195,8 +195,20 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 4,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "Bump eslint from 8.57.0 to 9.1.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/620"
+          },
+          {
+            "Title": "Bump html-loader from 1.3.2 to 5.0.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/619"
+          },
+          {
+            "Title": "Bump @fontsource/roboto from 4.5.8 to 5.0.13",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/618"
+          },
           {
             "Title": "Bump actions/add-to-project from 1.0.0 to 1.0.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/596"
@@ -204,10 +216,6 @@
           {
             "Title": "Bump css-loader from 6.11.0 to 7.1.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/591"
-          },
-          {
-            "Title": "Bump eslint from 8.57.0 to 9.0.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/581"
           },
           {
             "Title": "Bump webpack-dev-middleware from 6.1.1 to 7.2.1",
@@ -1141,5 +1149,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-21T07:32:12Z"
+  "LastUpdated": "2024-04-22T07:32:04Z"
 }

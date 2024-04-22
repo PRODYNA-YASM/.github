@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-04-21T07:32:12Z
+Component Status overview. Last update 2024-04-22T07:32:04Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-backend/compare/1.19.2..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.19.2 |  :red_square: 9f5d8af |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.4..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.4 |  :red_square: 8e1a9bc |  :green_square: 1.19.4 |  :green_square: 1.19.4 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.4..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.4 |  :red_square: 8e1a9bc |  :green_square: 1.19.4 |  :green_square: 1.19.4 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.19.3..HEAD) | :green_square: 0 | 1.19.3 |  :red_square: a1dfb56 |  :green_square: 1.19.3 |  :green_square: 1.19.3 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.11.4..HEAD) | :green_square: 0 | 1.11.4 |  :red_square: 0cb2c9a |  :green_square: 1.11.4 |  :green_square: 1.11.4 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.19.3..HEAD) | :green_square: 0 | 1.19.3 |  :red_square: dad9d30 |  :green_square: 1.19.3 |  :green_square: 1.19.3 | 
@@ -88,13 +88,17 @@ Component Status overview. Last update 2024-04-21T07:32:12Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (4)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
+
+- [Bump eslint from 8.57.0 to 9.1.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/620)
+
+- [Bump html-loader from 1.3.2 to 5.0.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/619)
+
+- [Bump @fontsource/roboto from 4.5.8 to 5.0.13](https://github.com/PRODYNA-YASM/yasm-frontend/pull/618)
 
 - [Bump actions/add-to-project from 1.0.0 to 1.0.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/596)
 
 - [Bump css-loader from 6.11.0 to 7.1.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/591)
-
-- [Bump eslint from 8.57.0 to 9.0.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/581)
 
 - [Bump webpack-dev-middleware from 6.1.1 to 7.2.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/570)
 
