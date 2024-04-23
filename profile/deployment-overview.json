@@ -272,9 +272,9 @@
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.19.3",
+          "Version": "1.19.4",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -329,8 +329,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 4,
         "Workflows": [
+          {
+            "Name": "Merge pull request #307 from PRODYNA-YASM/feature/rename-master-to-main",
+            "Timestamp": "2024-04-23T07:10:02Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8796286117"
+          },
           {
             "Name": "Merge pull request #298 from PRODYNA-YASM/297-api-1190",
             "Timestamp": "2024-04-04T12:20:11Z",
@@ -1080,5 +1085,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-23T07:12:01Z"
+  "LastUpdated": "2024-04-23T07:12:44Z"
 }
