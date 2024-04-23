@@ -1,12 +1,12 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-04-23T07:10:40Z
+Component Status overview. Last update 2024-04-23T07:12:01Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-backend/compare/1.19.2..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.19.2 |  :red_square: 9f5d8af |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.4..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.4 |  :red_square: 8e1a9bc |  :green_square: 1.19.4 |  :green_square: 1.19.4 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.19.4 |  :red_square: a1dfb56 |  :red_square: 1.19.3 |  :red_square: 1.19.3 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.19.4 |  :green_square: 1.19.4 |  :red_square: 1.19.3 |  :red_square: 1.19.3 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.5 |  :green_square: 1.11.5 |  :green_square: 1.11.5 |  :red_square: 1.11.4 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.19.4 |  :red_square: dad9d30 |  :red_square: 1.19.3 |  :red_square: 1.19.3 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.3.1 |  :green_square: 1.3.1 |  :green_square: 1.3.1 |  :green_square: 1.3.1 | 
@@ -138,9 +138,9 @@ Component Status overview. Last update 2024-04-23T07:10:40Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  a1dfb56 |  1.19.3 |  1.19.3 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :red_square: |  :red_square: | 
+| Version |  1.19.4 |  1.19.3 |  1.19.3 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :red_square: |  :red_square: | 
 
 
 ### Last releases
