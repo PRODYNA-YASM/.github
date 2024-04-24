@@ -144,7 +144,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8e1a9bc",
+          "Version": "0a76063",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -226,8 +226,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.4..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #622 from PRODYNA-YASM/feature/add-config-otel-ignore-url",
+            "SHA": "0a76063ec2eec026c9283f1305d5aafbf32b0411",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-04-23T09:30:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/0a76063ec2eec026c9283f1305d5aafbf32b0411"
+          },
+          {
+            "Text": "added clearbit endpoint to ignoreURL, so that traceparent header is not sent",
+            "SHA": "9cf777e8e37421931051abfe5bb6b803b138e679",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-04-23T07:44:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/9cf777e8e37421931051abfe5bb6b803b138e679"
+          },
           {
             "Text": "Update package-lock.json",
             "SHA": "8e1a9bc7a648d9456759bf3b1a027d966c315bfb",
@@ -1096,5 +1116,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-23T07:32:24Z"
+  "LastUpdated": "2024-04-24T07:32:28Z"
 }

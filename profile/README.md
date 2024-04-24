@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-04-23T07:32:24Z
+Component Status overview. Last update 2024-04-24T07:32:28Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-backend/compare/1.19.2..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.19.2 |  :red_square: 9f5d8af |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.4..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.4 |  :red_square: 8e1a9bc |  :green_square: 1.19.4 |  :green_square: 1.19.4 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.4..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.4 |  :red_square: 0a76063 |  :green_square: 1.19.4 |  :green_square: 1.19.4 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.19.4 |  :green_square: 1.19.4 |  :green_square: 1.19.4 |  :red_square: 1.19.3 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.5 |  :green_square: 1.11.5 |  :green_square: 1.11.5 |  :red_square: 1.11.4 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.19.4 |  :green_square: 1.19.4 |  :green_square: 1.19.4 |  :red_square: 1.19.3 | 
@@ -79,7 +79,11 @@ Component Status overview. Last update 2024-04-23T07:32:24Z
 
 
 
-### [Commits on main since 1.19.4](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.4..HEAD) (2)
+### [Commits on main since 1.19.4](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.4..HEAD) (4)
+
+- [Merge pull request #622 from PRODYNA-YASM/feature/add-config-otel-ignore-url](https://github.com/prodyna-yasm/yasm-frontend/commit/0a76063ec2eec026c9283f1305d5aafbf32b0411) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-04-23 09:30:03 +0000 UTC
+
+- [added clearbit endpoint to ignoreURL, so that traceparent header is not sent](https://github.com/prodyna-yasm/yasm-frontend/commit/9cf777e8e37421931051abfe5bb6b803b138e679) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-04-23 07:44:16 +0000 UTC
 
 - [Update package-lock.json](https://github.com/prodyna-yasm/yasm-frontend/commit/8e1a9bc7a648d9456759bf3b1a027d966c315bfb) by [dkrizic](https://github.com/dkrizic) on 2024-04-19 13:54:05 +0000 UTC
 
@@ -108,7 +112,7 @@ Component Status overview. Last update 2024-04-23T07:32:24Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  8e1a9bc |  1.19.4 |  1.19.4 | 
+| Version |  0a76063 |  1.19.4 |  1.19.4 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
