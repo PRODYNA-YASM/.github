@@ -144,14 +144,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0a76063",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.19.6",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.19.4",
+          "Version": "1.19.6",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -160,47 +160,43 @@
           "Link": "",
           "Version": "1.19.4",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.19.4",
+        "Tag": "1.19.6",
         "SHA": "",
-        "Title": "Add functionality to create issue over YASM",
-        "Timestamp": "2024-04-18T12:42:04Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.4"
+        "Title": "Fixed Icon in Personal Interests",
+        "Timestamp": "2024-04-26T13:55:52Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.6"
       },
       "Releases": [
+        {
+          "Tag": "1.19.6",
+          "SHA": "",
+          "Title": "Fixed Icon in Personal Interests",
+          "Timestamp": "2024-04-26T13:55:11Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.6"
+        },
+        {
+          "Tag": "1.19.5",
+          "SHA": "",
+          "Title": "1.19.5",
+          "Timestamp": "2024-04-26T13:10:06Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.5"
+        },
         {
           "Tag": "1.19.4",
           "SHA": "",
           "Title": "Add functionality to create issue over YASM",
           "Timestamp": "2024-04-18T11:19:49Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.4"
-        },
-        {
-          "Tag": "1.19.3",
-          "SHA": "",
-          "Title": "Fixed link to project-participation in PersonDetailPage",
-          "Timestamp": "2024-04-12T13:22:53Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.3"
-        },
-        {
-          "Tag": "1.19.2",
-          "SHA": "",
-          "Title": "OTel fixes, upgraded dependencies, refactor list items, deactivated retry react-query",
-          "Timestamp": "2024-04-12T12:10:37Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.2"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 6,
         "PullRequests": [
-          {
-            "Title": "389: added functionality to add interests",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/623"
-          },
           {
             "Title": "Bump eslint from 8.57.0 to 9.1.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/621"
@@ -229,57 +225,22 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.4..HEAD",
-        "Count": 4,
-        "Commits": [
-          {
-            "Text": "Merge pull request #622 from PRODYNA-YASM/feature/add-config-otel-ignore-url",
-            "SHA": "0a76063ec2eec026c9283f1305d5aafbf32b0411",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-04-23T09:30:03Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/0a76063ec2eec026c9283f1305d5aafbf32b0411"
-          },
-          {
-            "Text": "added clearbit endpoint to ignoreURL, so that traceparent header is not sent",
-            "SHA": "9cf777e8e37421931051abfe5bb6b803b138e679",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-04-23T07:44:16Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/9cf777e8e37421931051abfe5bb6b803b138e679"
-          },
-          {
-            "Text": "Update package-lock.json",
-            "SHA": "8e1a9bc7a648d9456759bf3b1a027d966c315bfb",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-19T13:54:05Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/8e1a9bc7a648d9456759bf3b1a027d966c315bfb"
-          },
-          {
-            "Text": "Rename master -\u003e main",
-            "SHA": "3471a20c5daef0c31252279e9a1d18b2385ad375",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-19T13:43:33Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/3471a20c5daef0c31252279e9a1d18b2385ad375"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.6..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #626 from PRODYNA-YASM/fix/389-interest-icon",
+            "Timestamp": "2024-04-26T13:55:54Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/8849403396"
+          }
+        ]
       }
     },
     {
@@ -637,7 +598,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8a6d701",
+          "Version": "69f155b",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -703,8 +664,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.3.1..HEAD",
-        "Count": 8,
+        "Count": 10,
         "Commits": [
+          {
+            "Text": "Merge pull request #67 from PRODYNA-YASM/66-dummy-feature",
+            "SHA": "69f155b2fd3cd9b79cdc1bfe9e9c3ac6cbc5595d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-26T14:31:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/69f155b2fd3cd9b79cdc1bfe9e9c3ac6cbc5595d"
+          },
+          {
+            "Text": "Update README.md",
+            "SHA": "13d838539e3b48626f1ee1c642a8e8310b7dfe6c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-26T14:28:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/13d838539e3b48626f1ee1c642a8e8310b7dfe6c"
+          },
           {
             "Text": "Merge pull request #64 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc-1.26.0",
             "SHA": "8a6d70124e0cddb9014c11318ec63dd08e8a7348",
@@ -996,8 +977,19 @@
       "Link": "https://github.com/prodyna-yasm/yasm-data",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-data/compare/1.10.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "Add AI Engineer, Data Scientist, Data Engineer as skill profiles #115",
+            "SHA": "1ae082f6e7e02853d7c9c7b371ea5f7348717fdc",
+            "Author": {
+              "name": "mopore",
+              "link": "https://github.com/mopore"
+            },
+            "Timestamp": "2024-04-26T09:08:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-data/commit/1ae082f6e7e02853d7c9c7b371ea5f7348717fdc"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1298,8 +1290,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-nginx/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "Bump ubuntu from 22.04 to 24.04",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-nginx/pull/7"
+          },
           {
             "Title": "Bump nginx from 1.25.4 to 1.26.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-nginx/pull/6"
@@ -1335,5 +1331,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-26T07:32:03Z"
+  "LastUpdated": "2024-04-27T07:32:15Z"
 }
