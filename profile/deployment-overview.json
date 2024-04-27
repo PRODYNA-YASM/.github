@@ -250,7 +250,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1d78e72",
+          "Version": "c2125eb",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -259,7 +259,7 @@
           "Link": "",
           "Version": "1.19.4",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         },
         {
           "Name": "prod",
@@ -270,13 +270,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "1.19.4",
+        "Tag": "1.19.5",
         "SHA": "",
-        "Title": "Main branch",
-        "Timestamp": "2024-04-23T07:10:01Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.19.4"
+        "Title": "Technology update",
+        "Timestamp": "2024-04-27T18:08:15Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.19.5"
       },
       "Releases": [
+        {
+          "Tag": "1.19.5",
+          "SHA": "",
+          "Title": "Technology update",
+          "Timestamp": "2024-04-27T18:07:51Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.19.5"
+        },
         {
           "Tag": "1.19.4",
           "SHA": "",
@@ -290,71 +297,18 @@
           "Title": "Update Helm",
           "Timestamp": "2024-04-16T07:07:09Z",
           "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.19.3"
-        },
-        {
-          "Tag": "1.19.2",
-          "SHA": "",
-          "Title": "OTel 1.25",
-          "Timestamp": "2024-04-09T23:03:09Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.19.2"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp from 0.50.0 to 0.51.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/311"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.19.4..HEAD",
-        "Count": 4,
-        "Commits": [
-          {
-            "Text": "Merge pull request #312 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp-1.26.0",
-            "SHA": "97262fd46724f40c32925da8c3a50fd77461d65b",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-27T18:06:10Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/97262fd46724f40c32925da8c3a50fd77461d65b"
-          },
-          {
-            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp",
-            "SHA": "ef11b135b404d4535afcf4c6465c346791fea078",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-04-27T17:51:32Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/ef11b135b404d4535afcf4c6465c346791fea078"
-          },
-          {
-            "Text": "Merge pull request #313 from PRODYNA-YASM/feature/remove-deployment",
-            "SHA": "1d78e72e26e4d08534173f491564ca26785a4afd",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-27T17:48:38Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/1d78e72e26e4d08534173f491564ca26785a4afd"
-          },
-          {
-            "Text": "Deactivate deployment.yaml",
-            "SHA": "f00f074d3c361fab92e4c8a001d5d356e8b7f18d",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-27T17:38:16Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/f00f074d3c361fab92e4c8a001d5d356e8b7f18d"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.19.5..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -638,14 +592,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "84a193c",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.6.6",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.6.5",
+          "Version": "1.6.6",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -658,13 +612,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "1.6.5",
+        "Tag": "1.6.6",
         "SHA": "",
-        "Title": "Otelchi 0.7.0",
-        "Timestamp": "2024-04-23T07:04:18Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.6.5"
+        "Title": "Technology update",
+        "Timestamp": "2024-04-27T18:07:13Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.6.6"
       },
       "Releases": [
+        {
+          "Tag": "1.6.6",
+          "SHA": "",
+          "Title": "Technology update",
+          "Timestamp": "2024-04-27T17:50:07Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.6.6"
+        },
         {
           "Tag": "1.6.5",
           "SHA": "",
@@ -678,13 +639,6 @@
           "Title": "Main branch",
           "Timestamp": "2024-04-19T13:24:48Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.5.4"
-        },
-        {
-          "Tag": "1.5.3",
-          "SHA": "",
-          "Title": "Technology update",
-          "Timestamp": "2024-04-09T16:52:48Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.5.3"
         }
       ],
       "PullRequests": {
@@ -694,97 +648,21 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.6.5..HEAD",
-        "Count": 8,
-        "Commits": [
-          {
-            "Text": "Merge pull request #100 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc-1.26.0",
-            "SHA": "84a193c8394810c33745fb6b79c15a79fe51a64f",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-27T17:50:07Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/84a193c8394810c33745fb6b79c15a79fe51a64f"
-          },
-          {
-            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc",
-            "SHA": "60aa72f799009cfebe78041f33418304f8e88d7d",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-04-27T17:30:12Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/60aa72f799009cfebe78041f33418304f8e88d7d"
-          },
-          {
-            "Text": "Merge pull request #104 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc-1.26.0",
-            "SHA": "7f482a01b0228becf497b5e2574432764fe478de",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-27T17:29:29Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/7f482a01b0228becf497b5e2574432764fe478de"
-          },
-          {
-            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc",
-            "SHA": "f6e6d206296afb0f211fd6a060647737bcf8b7f9",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-04-25T18:39:23Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/f6e6d206296afb0f211fd6a060647737bcf8b7f9"
-          },
-          {
-            "Text": "Merge pull request #105 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/sdk/metric-1.26.0",
-            "SHA": "a00e1690f7b318e7d420092891033e39f741e7ec",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-25T18:38:40Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/a00e1690f7b318e7d420092891033e39f741e7ec"
-          },
-          {
-            "Text": "Bump go.opentelemetry.io/otel/sdk/metric from 1.25.0 to 1.26.0",
-            "SHA": "78aae6608faff885fbaa6ddb0be332cb4dc852fe",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-04-25T16:51:36Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/78aae6608faff885fbaa6ddb0be332cb4dc852fe"
-          },
-          {
-            "Text": "Merge pull request #102 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/trace-1.26.0",
-            "SHA": "65cf2a414b7a6f7df7f89c773a1f13fe85bc1411",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-25T05:25:54Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/65cf2a414b7a6f7df7f89c773a1f13fe85bc1411"
-          },
-          {
-            "Text": "Bump go.opentelemetry.io/otel/trace from 1.25.0 to 1.26.0",
-            "SHA": "b2c249d720ff93a721000e759f60d55e4a4c31a2",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-04-24T17:02:53Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/b2c249d720ff93a721000e759f60d55e4a4c31a2"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.6.6..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "Merge pull request #100 from PRODYNA-YASM/dependabot/go_modules/go.op…",
+            "Timestamp": "2024-04-27T18:07:15Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/8861671110"
+          },
           {
             "Name": "Merge pull request #99 from PRODYNA-YASM/dependabot/go_modules/github…",
             "Timestamp": "2024-04-23T07:04:20Z",
@@ -1211,5 +1089,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-27T18:07:21Z"
+  "LastUpdated": "2024-04-27T18:12:48Z"
 }
