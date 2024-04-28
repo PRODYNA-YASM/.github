@@ -525,9 +525,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.3.1",
+          "Version": "1.3.2",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -575,14 +575,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #60 from PRODYNA-YASM/dependabot/go_modules/go.ope…",
-            "Timestamp": "2024-04-27T17:49:56Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/actions/runs/8861582656"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -606,9 +600,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.5.4",
+          "Version": "1.6.6",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -656,13 +650,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #100 from PRODYNA-YASM/dependabot/go_modules/go.op…",
-            "Timestamp": "2024-04-27T18:07:15Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/8861671110"
-          },
           {
             "Name": "Merge pull request #99 from PRODYNA-YASM/dependabot/go_modules/github…",
             "Timestamp": "2024-04-23T07:04:20Z",
@@ -1089,5 +1078,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-27T18:12:48Z"
+  "LastUpdated": "2024-04-28T07:32:36Z"
 }

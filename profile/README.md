@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-04-27T18:12:48Z
+Component Status overview. Last update 2024-04-28T07:32:36Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -9,8 +9,8 @@ Component Status overview. Last update 2024-04-27T18:12:48Z
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.19.5 |  :red_square: c2125eb |  :red_square: 1.19.4 |  :red_square: 1.19.3 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.5 |  :green_square: 1.11.5 |  :green_square: 1.11.5 |  :red_square: 1.11.4 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.19.5 |  :green_square: 1.19.5 |  :green_square: 1.19.5 | 
-| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.3.2 |  :green_square: 1.3.2 |  :green_square: 1.3.2 |  :red_square: 1.3.1 | 
-| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.6.6 |  :green_square: 1.6.6 |  :green_square: 1.6.6 |  :red_square: 1.5.4 | 
+| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.3.2 |  :green_square: 1.3.2 |  :green_square: 1.3.2 |  :green_square: 1.3.2 | 
+| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.6.6 |  :green_square: 1.6.6 |  :green_square: 1.6.6 |  :green_square: 1.6.6 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [1](https://github.com/prodyna-yasm/yasm-data/compare/1.10.1..HEAD) | :green_square: 0 | 1.10.1 |  :green_square: 1.10.1 |  :green_square: 1.10.1 |  :red_square: 1.10.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.4.0-1 |  :green_square: 8.4.0-1 |  :green_square: 8.4.0-1 |  :green_square: 8.4.0-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.19.2..HEAD) | :green_square: 0 | 1.19.2 |  :red_square: 681dbe8 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
@@ -251,9 +251,9 @@ Component Status overview. Last update 2024-04-27T18:12:48Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.3.2 |  1.3.2 |  1.3.1 | 
+| Version |  1.3.2 |  1.3.2 |  1.3.2 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -265,11 +265,6 @@ Component Status overview. Last update 2024-04-27T18:12:48Z
 - [Send issues to prodyna-yasm/yasm](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.3.0) on 2024-04-18 12:29:02 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #60 from PRODYNA-YASM/dependabot/go_modules/go.ope…](https://github.com/PRODYNA-YASM/yasm-github/actions/runs/8861582656) created on 2024-04-27 17:49:56 +0000 UTC
 
 
 
@@ -286,9 +281,9 @@ Component Status overview. Last update 2024-04-27T18:12:48Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.6.6 |  1.6.6 |  1.5.4 | 
+| Version |  1.6.6 |  1.6.6 |  1.6.6 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -302,9 +297,7 @@ Component Status overview. Last update 2024-04-27T18:12:48Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (2)
-
-- [Merge pull request #100 from PRODYNA-YASM/dependabot/go_modules/go.op…](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/8861671110) created on 2024-04-27 18:07:15 +0000 UTC
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (1)
 
 - [Merge pull request #99 from PRODYNA-YASM/dependabot/go_modules/github…](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/8796214946) created on 2024-04-23 07:04:20 +0000 UTC
 
