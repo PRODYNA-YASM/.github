@@ -244,16 +244,16 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "c2125eb",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.19.6",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.19.4",
+          "Version": "1.19.6",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -264,13 +264,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "1.19.5",
+        "Tag": "1.19.6",
         "SHA": "",
-        "Title": "Technology update",
-        "Timestamp": "2024-04-27T18:08:15Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.19.5"
+        "Title": "OpenTelemetry update",
+        "Timestamp": "2024-04-29T07:25:07Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.19.6"
       },
       "Releases": [
+        {
+          "Tag": "1.19.6",
+          "SHA": "",
+          "Title": "OpenTelemetry update",
+          "Timestamp": "2024-04-27T18:07:51Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.19.6"
+        },
         {
           "Tag": "1.19.5",
           "SHA": "",
@@ -284,13 +291,6 @@
           "Title": "Main branch",
           "Timestamp": "2024-04-19T13:16:42Z",
           "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.19.4"
-        },
-        {
-          "Tag": "1.19.3",
-          "SHA": "",
-          "Title": "Update Helm",
-          "Timestamp": "2024-04-16T07:07:09Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.19.3"
         }
       ],
       "PullRequests": {
@@ -300,7 +300,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.19.5..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.19.6..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -308,8 +308,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 4,
         "Workflows": [
+          {
+            "Name": "Merge pull request #311 from PRODYNA-YASM/dependabot/go_modules/go.op…",
+            "Timestamp": "2024-04-29T07:25:09Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8874840244"
+          },
           {
             "Name": "Merge pull request #307 from PRODYNA-YASM/feature/rename-master-to-main",
             "Timestamp": "2024-04-23T07:10:02Z",
@@ -763,9 +768,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "8.4.0-1",
+          "Version": "8.5.0-1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -813,14 +818,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #40 from PRODYNA-YASM/dependabot/docker/gotenberg/…",
-            "Timestamp": "2024-04-29T06:42:03Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/8874397837"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -830,7 +829,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "681dbe8",
+          "Version": "0fa41ed",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -881,19 +880,64 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Ingress-Nginx 4.10.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/467"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.19.2..HEAD",
-        "Count": 4,
+        "Count": 10,
         "Commits": [
+          {
+            "Text": "Merge pull request #468 from PRODYNA-YASM/465-grafana-739",
+            "SHA": "0fa41ed6cb90b1bfbec68ef6998ace3c9552e0a5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-29T07:24:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0fa41ed6cb90b1bfbec68ef6998ace3c9552e0a5"
+          },
+          {
+            "Text": "Merge pull request #469 from PRODYNA-YASM/463-tempo-distributed-194",
+            "SHA": "565ce088c3d8aef00f3b948de22f5cc2b818e478",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-29T07:14:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/565ce088c3d8aef00f3b948de22f5cc2b818e478"
+          },
+          {
+            "Text": "Tempo 1.9.4",
+            "SHA": "48c6fc6560e606873d05209c57bc563799e7a0ca",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-29T07:03:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/48c6fc6560e606873d05209c57bc563799e7a0ca"
+          },
+          {
+            "Text": "Grafana 7.3.9",
+            "SHA": "51d2904cd16671f4a55e45113d54c7c6da5cdabb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-29T07:02:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/51d2904cd16671f4a55e45113d54c7c6da5cdabb"
+          },
+          {
+            "Text": "Merge pull request #467 from PRODYNA-YASM/461-ingress-nginx-4101",
+            "SHA": "e34ed3de3d6f871650503daae2f5378cff9701ed",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-29T06:59:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e34ed3de3d6f871650503daae2f5378cff9701ed"
+          },
           {
             "Text": "Merge pull request #466 from PRODYNA-YASM/462-cert-manager-v1145",
             "SHA": "59422fb8728e0a9f1c1a9ab0a79503105cecd9d2",
@@ -903,6 +947,16 @@
             },
             "Timestamp": "2024-04-29T06:56:51Z",
             "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/59422fb8728e0a9f1c1a9ab0a79503105cecd9d2"
+          },
+          {
+            "Text": "Ingress-Nginx 4.10.1",
+            "SHA": "798821dc1e6d4bc7c7516d75da12da41706a051e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-04-29T06:52:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/798821dc1e6d4bc7c7516d75da12da41706a051e"
           },
           {
             "Text": "Update cert-manager",
@@ -1099,5 +1153,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-29T06:58:36Z"
+  "LastUpdated": "2024-04-29T07:32:13Z"
 }
