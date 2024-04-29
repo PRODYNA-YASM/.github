@@ -195,8 +195,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "389: use Formik instead (so that the behavior is consistent with othe…",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/627"
+          },
           {
             "Title": "Bump eslint from 8.57.0 to 9.1.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/621"
@@ -682,9 +686,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.10.0",
+          "Version": "1.10.2",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -732,13 +736,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-data/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #116 from PRODYNA-YASM/115-add-ai-engineer-data-sc…",
-            "Timestamp": "2024-04-29T06:40:39Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-data/actions/runs/8874386565"
-          },
           {
             "Name": "Prepare for master -\u003e main",
             "Timestamp": "2024-04-23T07:08:24Z",
@@ -838,24 +837,31 @@
           "Link": "",
           "Version": "1.19.2",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         },
         {
           "Name": "prod",
           "Link": "",
           "Version": "1.19.2",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.19.2",
+        "Tag": "1.19.3",
         "SHA": "",
-        "Title": "New Grafana components",
-        "Timestamp": "2024-04-19T08:41:20Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.19.2"
+        "Title": "1.19.3",
+        "Timestamp": "2024-04-29T08:04:55Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.19.3"
       },
       "Releases": [
+        {
+          "Tag": "1.19.3",
+          "SHA": "",
+          "Title": "1.19.3",
+          "Timestamp": "2024-04-29T07:24:21Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.19.3"
+        },
         {
           "Tag": "1.19.2",
           "SHA": "",
@@ -869,13 +875,6 @@
           "Title": "After change in environment for staging",
           "Timestamp": "2024-04-11T09:24:10Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.19.1"
-        },
-        {
-          "Tag": "1.19.0",
-          "SHA": "",
-          "Title": "1.19.0",
-          "Timestamp": "2024-04-11T09:24:10Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.19.0"
         }
       ],
       "PullRequests": {
@@ -885,110 +884,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.19.2..HEAD",
-        "Count": 10,
-        "Commits": [
-          {
-            "Text": "Merge pull request #468 from PRODYNA-YASM/465-grafana-739",
-            "SHA": "0fa41ed6cb90b1bfbec68ef6998ace3c9552e0a5",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-29T07:24:21Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0fa41ed6cb90b1bfbec68ef6998ace3c9552e0a5"
-          },
-          {
-            "Text": "Merge pull request #469 from PRODYNA-YASM/463-tempo-distributed-194",
-            "SHA": "565ce088c3d8aef00f3b948de22f5cc2b818e478",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-29T07:14:06Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/565ce088c3d8aef00f3b948de22f5cc2b818e478"
-          },
-          {
-            "Text": "Tempo 1.9.4",
-            "SHA": "48c6fc6560e606873d05209c57bc563799e7a0ca",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-29T07:03:45Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/48c6fc6560e606873d05209c57bc563799e7a0ca"
-          },
-          {
-            "Text": "Grafana 7.3.9",
-            "SHA": "51d2904cd16671f4a55e45113d54c7c6da5cdabb",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-29T07:02:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/51d2904cd16671f4a55e45113d54c7c6da5cdabb"
-          },
-          {
-            "Text": "Merge pull request #467 from PRODYNA-YASM/461-ingress-nginx-4101",
-            "SHA": "e34ed3de3d6f871650503daae2f5378cff9701ed",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-29T06:59:55Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e34ed3de3d6f871650503daae2f5378cff9701ed"
-          },
-          {
-            "Text": "Merge pull request #466 from PRODYNA-YASM/462-cert-manager-v1145",
-            "SHA": "59422fb8728e0a9f1c1a9ab0a79503105cecd9d2",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-29T06:56:51Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/59422fb8728e0a9f1c1a9ab0a79503105cecd9d2"
-          },
-          {
-            "Text": "Ingress-Nginx 4.10.1",
-            "SHA": "798821dc1e6d4bc7c7516d75da12da41706a051e",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-29T06:52:43Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/798821dc1e6d4bc7c7516d75da12da41706a051e"
-          },
-          {
-            "Text": "Update cert-manager",
-            "SHA": "f8ab36e13a31d1bc6d6021140e382a9ad7d4f7fe",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-29T06:51:23Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f8ab36e13a31d1bc6d6021140e382a9ad7d4f7fe"
-          },
-          {
-            "Text": "Merge pull request #460 from PRODYNA-YASM/459-master-main",
-            "SHA": "681dbe8f862b551cb17b3a72a411e94d93963424",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-19T19:17:33Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/681dbe8f862b551cb17b3a72a411e94d93963424"
-          },
-          {
-            "Text": "Rename the main branches for most projects",
-            "SHA": "841a250f81076371ecd5682a919663b26cbed167",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-19T13:45:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/841a250f81076371ecd5682a919663b26cbed167"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.19.3..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1153,5 +1051,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-29T07:32:13Z"
+  "LastUpdated": "2024-04-29T08:05:05Z"
 }
