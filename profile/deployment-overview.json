@@ -144,14 +144,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.19.6",
+          "Version": "1.19.7",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.19.6",
+          "Version": "1.19.7",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -164,13 +164,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "1.19.6",
+        "Tag": "1.19.7",
         "SHA": "",
-        "Title": "Fixed Icon in Personal Interests",
-        "Timestamp": "2024-04-26T13:55:52Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.6"
+        "Title": "Change Select behavior to be consistent with other select fields",
+        "Timestamp": "2024-04-29T08:23:30Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.7"
       },
       "Releases": [
+        {
+          "Tag": "1.19.7",
+          "SHA": "",
+          "Title": "Change Select behavior to be consistent with other select fields",
+          "Timestamp": "2024-04-29T08:22:45Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.7"
+        },
         {
           "Tag": "1.19.6",
           "SHA": "",
@@ -184,23 +191,12 @@
           "Title": "1.19.5",
           "Timestamp": "2024-04-26T13:10:06Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.5"
-        },
-        {
-          "Tag": "1.19.4",
-          "SHA": "",
-          "Title": "Add functionality to create issue over YASM",
-          "Timestamp": "2024-04-18T11:19:49Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.4"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 6,
         "PullRequests": [
-          {
-            "Title": "389: use Formik instead (so that the behavior is consistent with othe…",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/627"
-          },
           {
             "Title": "Bump eslint from 8.57.0 to 9.1.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/621"
@@ -229,7 +225,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.6..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.7..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -237,8 +233,14 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #627 from PRODYNA-YASM/fix/389-interest-use-formik",
+            "Timestamp": "2024-04-29T08:23:32Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/8875512286"
+          }
+        ]
       }
     },
     {
@@ -262,9 +264,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.19.3",
+          "Version": "1.19.6",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -312,13 +314,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 4,
+        "Count": 3,
         "Workflows": [
-          {
-            "Name": "Merge pull request #311 from PRODYNA-YASM/dependabot/go_modules/go.op…",
-            "Timestamp": "2024-04-29T07:25:09Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8874840244"
-          },
           {
             "Name": "Merge pull request #307 from PRODYNA-YASM/feature/rename-master-to-main",
             "Timestamp": "2024-04-23T07:10:02Z",
@@ -358,9 +355,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.11.4",
+          "Version": "1.11.5",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -408,14 +405,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #180 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2024-04-22T14:01:03Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/8785380971"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -828,37 +819,44 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0fa41ed",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.19.4",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.19.2",
+          "Version": "1.19.4",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.19.2",
+          "Version": "1.19.4",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.19.3",
+        "Tag": "1.19.4",
         "SHA": "",
-        "Title": "1.19.3",
-        "Timestamp": "2024-04-29T08:04:55Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.19.3"
+        "Title": "OpenTofu",
+        "Timestamp": "2024-04-29T11:03:08Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.19.4"
       },
       "Releases": [
         {
+          "Tag": "1.19.4",
+          "SHA": "",
+          "Title": "OpenTofu",
+          "Timestamp": "2024-04-29T10:57:43Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.19.4"
+        },
+        {
           "Tag": "1.19.3",
           "SHA": "",
-          "Title": "1.19.3",
+          "Title": "Components update",
           "Timestamp": "2024-04-29T07:24:21Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.19.3"
         },
@@ -868,23 +866,25 @@
           "Title": "New Grafana components",
           "Timestamp": "2024-04-19T08:40:47Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.19.2"
-        },
-        {
-          "Tag": "1.19.1",
-          "SHA": "",
-          "Title": "After change in environment for staging",
-          "Timestamp": "2024-04-11T09:24:10Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.19.1"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump azurerm from 3.93.0 to 3.101.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/472"
+          },
+          {
+            "Title": "Bump azurerm from 3.93.0 to 3.101.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/473"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.19.3..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.19.4..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -1051,5 +1051,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-29T08:05:05Z"
+  "LastUpdated": "2024-04-29T11:15:47Z"
 }
