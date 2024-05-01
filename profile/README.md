@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-04-30T07:32:23Z
+Component Status overview. Last update 2024-05-01T07:32:10Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -8,9 +8,9 @@ Component Status overview. Last update 2024-04-30T07:32:23Z
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.7 |  :green_square: 1.19.7 |  :green_square: 1.19.7 |  :green_square: 1.19.7 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.19.6 |  :green_square: 1.19.6 |  :green_square: 1.19.6 |  :green_square: 1.19.6 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.6 |  :green_square: 1.11.6 |  :green_square: 1.11.6 |  :red_square: 1.11.5 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.19.5 |  :green_square: 1.19.5 |  :green_square: 1.19.5 |  :green_square: 1.19.5 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.19.5 |  :green_square: 1.19.5 |  :green_square: 1.19.5 |  :green_square: 1.19.5 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.3.2 |  :green_square: 1.3.2 |  :green_square: 1.3.2 |  :green_square: 1.3.2 | 
-| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [2](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.6.6..HEAD) | :green_square: 0 | 1.6.6 |  :red_square: 7c80965 |  :green_square: 1.6.6 |  :green_square: 1.6.6 | 
+| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.6.7 |  :green_square: 1.6.7 |  :green_square: 1.6.7 |  :red_square: 1.6.6 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.2 |  :green_square: 1.10.2 |  :green_square: 1.10.2 |  :green_square: 1.10.2 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.5.0-1 |  :green_square: 8.5.0-1 |  :green_square: 8.5.0-1 |  :green_square: 8.5.0-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.19.4 |  :green_square: 1.19.4 |  :green_square: 1.19.4 |  :green_square: 1.19.4 | 
@@ -39,7 +39,7 @@ Component Status overview. Last update 2024-04-30T07:32:23Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (2)
 
-- [Bump quarkus.platform.version from 3.9.3 to 3.9.5](https://github.com/PRODYNA-YASM/yasm-backend/pull/589)
+- [Bump quarkus.platform.version from 3.9.3 to 3.10.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/590)
 
 - [Bump eclipse-temurin from 21.0.2_13-jre-ubi9-minimal to 22.0.1_8-jre-ubi9-minimal](https://github.com/PRODYNA-YASM/yasm-backend/pull/588)
 
@@ -200,6 +200,11 @@ Component Status overview. Last update 2024-04-30T07:32:23Z
 
 
 
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (1)
+
+- [Bump github.com/microsoftgraph/msgraph-sdk-go from 1.39.0 to 1.40.0](https://github.com/PRODYNA-YASM/yasm-integration/pull/410)
+
+
 
 ### Environments
 
@@ -262,16 +267,9 @@ Component Status overview. Last update 2024-04-30T07:32:23Z
 
 
 
-## [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) 1.6.6
+## [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) 1.6.7
 
 
-
-
-### [Commits on main since 1.6.6](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.6.6..HEAD) (2)
-
-- [Merge pull request #106 from PRODYNA-YASM/dependabot/go_modules/github.com/riandyrn/otelchi-0.8.0](https://github.com/prodyna-yasm/yasm-geocoding/commit/7c8096535c3838c2f84c8a3b494eecde93ee82a8) by [dkrizic](https://github.com/dkrizic) on 2024-04-29 17:21:00 +0000 UTC
-
-- [Bump github.com/riandyrn/otelchi from 0.7.0 to 0.8.0](https://github.com/prodyna-yasm/yasm-geocoding/commit/ec940577b8b49a632a98abe36989c96b1e16373b) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-04-29 16:50:02 +0000 UTC
 
 
 
@@ -281,23 +279,25 @@ Component Status overview. Last update 2024-04-30T07:32:23Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  7c80965 |  1.6.6 |  1.6.6 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.6.7 |  1.6.7 |  1.6.6 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
+
+- [Otelchi 0.8.0](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.6.7) on 2024-04-29 17:21:00 +0000 UTC
 
 - [Technology update](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.6.6) on 2024-04-27 17:50:07 +0000 UTC
 
 - [Otelchi 0.7.0](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.6.5) on 2024-04-22 17:03:13 +0000 UTC
 
-- [Main branch](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.5.4) on 2024-04-19 13:24:48 +0000 UTC
 
 
 
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (2)
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (1)
+- [Merge pull request #106 from PRODYNA-YASM/dependabot/go_modules/githu…](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/8893450644) created on 2024-04-30 10:44:23 +0000 UTC
 
 - [Merge pull request #99 from PRODYNA-YASM/dependabot/go_modules/github…](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/8796214946) created on 2024-04-23 07:04:20 +0000 UTC
 

@@ -62,8 +62,8 @@
         "Count": 2,
         "PullRequests": [
           {
-            "Title": "Bump quarkus.platform.version from 3.9.3 to 3.9.5",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/589"
+            "Title": "Bump quarkus.platform.version from 3.9.3 to 3.10.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/590"
           },
           {
             "Title": "Bump eclipse-temurin from 21.0.2_13-jre-ubi9-minimal to 22.0.1_8-jre-ubi9-minimal",
@@ -467,8 +467,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.39.0 to 1.40.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/410"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -582,14 +587,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "7c80965",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.6.7",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.6.6",
+          "Version": "1.6.7",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -598,17 +603,24 @@
           "Link": "",
           "Version": "1.6.6",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.6.6",
+        "Tag": "1.6.7",
         "SHA": "",
-        "Title": "Technology update",
-        "Timestamp": "2024-04-27T18:07:13Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.6.6"
+        "Title": "Otelchi 0.8.0",
+        "Timestamp": "2024-04-30T10:44:21Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.6.7"
       },
       "Releases": [
+        {
+          "Tag": "1.6.7",
+          "SHA": "",
+          "Title": "Otelchi 0.8.0",
+          "Timestamp": "2024-04-29T17:21:00Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.6.7"
+        },
         {
           "Tag": "1.6.6",
           "SHA": "",
@@ -622,13 +634,6 @@
           "Title": "Otelchi 0.7.0",
           "Timestamp": "2024-04-22T17:03:13Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.6.5"
-        },
-        {
-          "Tag": "1.5.4",
-          "SHA": "",
-          "Title": "Main branch",
-          "Timestamp": "2024-04-19T13:24:48Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.5.4"
         }
       ],
       "PullRequests": {
@@ -638,37 +643,21 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.6.6..HEAD",
-        "Count": 2,
-        "Commits": [
-          {
-            "Text": "Merge pull request #106 from PRODYNA-YASM/dependabot/go_modules/github.com/riandyrn/otelchi-0.8.0",
-            "SHA": "7c8096535c3838c2f84c8a3b494eecde93ee82a8",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-04-29T17:21:00Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/7c8096535c3838c2f84c8a3b494eecde93ee82a8"
-          },
-          {
-            "Text": "Bump github.com/riandyrn/otelchi from 0.7.0 to 0.8.0",
-            "SHA": "ec940577b8b49a632a98abe36989c96b1e16373b",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-04-29T16:50:02Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/ec940577b8b49a632a98abe36989c96b1e16373b"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.6.7..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "Merge pull request #106 from PRODYNA-YASM/dependabot/go_modules/githu…",
+            "Timestamp": "2024-04-30T10:44:23Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/8893450644"
+          },
           {
             "Name": "Merge pull request #99 from PRODYNA-YASM/dependabot/go_modules/github…",
             "Timestamp": "2024-04-23T07:04:20Z",
@@ -1072,5 +1061,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-04-30T07:32:23Z"
+  "LastUpdated": "2024-05-01T07:32:10Z"
 }
