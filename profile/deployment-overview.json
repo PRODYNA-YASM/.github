@@ -416,9 +416,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.19.5",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "f6ef7bf",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -467,19 +467,35 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.39.0 to 1.40.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/410"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.19.5..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #410 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.40.0",
+            "SHA": "f6ef7bf0b22e68cf94350c8ec15a24e6825491fc",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-01T08:48:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/f6ef7bf0b22e68cf94350c8ec15a24e6825491fc"
+          },
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.39.0 to 1.40.0",
+            "SHA": "96d7f1e86cffb18c3cb1b1fc5f47b1444c44051c",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-05-01T01:42:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/96d7f1e86cffb18c3cb1b1fc5f47b1444c44051c"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1061,5 +1077,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-01T07:32:10Z"
+  "LastUpdated": "2024-05-02T07:32:17Z"
 }

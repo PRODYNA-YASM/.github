@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-05-01T07:32:10Z
+Component Status overview. Last update 2024-05-02T07:32:17Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -8,7 +8,7 @@ Component Status overview. Last update 2024-05-01T07:32:10Z
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.7 |  :green_square: 1.19.7 |  :green_square: 1.19.7 |  :green_square: 1.19.7 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.19.6 |  :green_square: 1.19.6 |  :green_square: 1.19.6 |  :green_square: 1.19.6 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.6 |  :green_square: 1.11.6 |  :green_square: 1.11.6 |  :red_square: 1.11.5 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.19.5 |  :green_square: 1.19.5 |  :green_square: 1.19.5 |  :green_square: 1.19.5 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.19.5..HEAD) | :green_square: 0 | 1.19.5 |  :red_square: f6ef7bf |  :green_square: 1.19.5 |  :green_square: 1.19.5 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.3.2 |  :green_square: 1.3.2 |  :green_square: 1.3.2 |  :green_square: 1.3.2 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.6.7 |  :green_square: 1.6.7 |  :green_square: 1.6.7 |  :red_square: 1.6.6 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.2 |  :green_square: 1.10.2 |  :green_square: 1.10.2 |  :green_square: 1.10.2 | 
@@ -198,11 +198,13 @@ Component Status overview. Last update 2024-05-01T07:32:10Z
 
 
 
+### [Commits on main since 1.19.5](https://github.com/prodyna-yasm/yasm-integration/compare/1.19.5..HEAD) (2)
+
+- [Merge pull request #410 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.40.0](https://github.com/prodyna-yasm/yasm-integration/commit/f6ef7bf0b22e68cf94350c8ec15a24e6825491fc) by [dkrizic](https://github.com/dkrizic) on 2024-05-01 08:48:16 +0000 UTC
+
+- [Bump github.com/microsoftgraph/msgraph-sdk-go from 1.39.0 to 1.40.0](https://github.com/prodyna-yasm/yasm-integration/commit/96d7f1e86cffb18c3cb1b1fc5f47b1444c44051c) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-05-01 01:42:02 +0000 UTC
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (1)
-
-- [Bump github.com/microsoftgraph/msgraph-sdk-go from 1.39.0 to 1.40.0](https://github.com/PRODYNA-YASM/yasm-integration/pull/410)
 
 
 
@@ -210,9 +212,9 @@ Component Status overview. Last update 2024-05-01T07:32:10Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.19.5 |  1.19.5 |  1.19.5 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  f6ef7bf |  1.19.5 |  1.19.5 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
