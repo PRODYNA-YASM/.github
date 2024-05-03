@@ -144,9 +144,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.19.7",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "26f8f57",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -195,8 +195,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "upgrade dependencies, removed old babel-loader for lodash",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/631"
+          },
+          {
+            "Title": "add skill sorting for Focus skills",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/630"
+          },
           {
             "Title": "Bump eslint from 8.57.0 to 9.1.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/621"
@@ -226,8 +234,139 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.7..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 13,
+        "Commits": [
+          {
+            "Text": "Merge pull request #629 from PRODYNA-YASM/feature/organizations",
+            "SHA": "26f8f57e2e89b475c9f23816bcde53d019e5b76e",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-05-02T14:20:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/26f8f57e2e89b475c9f23816bcde53d019e5b76e"
+          },
+          {
+            "Text": "fixed DirectHitIdentifier position (styling)",
+            "SHA": "47ad6c1e8e97f8ef13b751838916b562be361011",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-05-02T13:04:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/47ad6c1e8e97f8ef13b751838916b562be361011"
+          },
+          {
+            "Text": "fixed person interests after merge",
+            "SHA": "1e9eb3cafa77ced278a7941923e41605d0146623",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-05-02T12:53:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/1e9eb3cafa77ced278a7941923e41605d0146623"
+          },
+          {
+            "Text": "remove unused children",
+            "SHA": "fd46467afbdcfd2d34341fe5859c5c65a3cf73b3",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-05-02T12:25:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/fd46467afbdcfd2d34341fe5859c5c65a3cf73b3"
+          },
+          {
+            "Text": "fix children",
+            "SHA": "319ca76d827359f3fc84bb3bbb8b66d593853b40",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-05-02T12:23:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/319ca76d827359f3fc84bb3bbb8b66d593853b40"
+          },
+          {
+            "Text": "fix children",
+            "SHA": "a3a26dc9f691c8e5b643627d2e3a8f17dd4a3857",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-05-02T12:21:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/a3a26dc9f691c8e5b643627d2e3a8f17dd4a3857"
+          },
+          {
+            "Text": "Merge branch 'main' into feature/organizations",
+            "SHA": "130de5c5c531883281b584e8421df5998e7a4d82",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-05-02T12:11:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/130de5c5c531883281b584e8421df5998e7a4d82"
+          },
+          {
+            "Text": "add parentOrganization",
+            "SHA": "519c95951b3ec4455f27f0a83552eb3dcc8d0d37",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-30T15:10:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/519c95951b3ec4455f27f0a83552eb3dcc8d0d37"
+          },
+          {
+            "Text": "refactor organizations",
+            "SHA": "77e306d164fce85d833acf6a4c2dd19e8cc31e21",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-29T15:35:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/77e306d164fce85d833acf6a4c2dd19e8cc31e21"
+          },
+          {
+            "Text": "add organization create and update form",
+            "SHA": "814cf1effc04e67df9a621ad1f050351fc57ab9f",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-29T12:03:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/814cf1effc04e67df9a621ad1f050351fc57ab9f"
+          },
+          {
+            "Text": "fix object destrcuturing",
+            "SHA": "ae539e03cfb41836b2e2552a248e05a75e6c2dc2",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-29T12:03:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ae539e03cfb41836b2e2552a248e05a75e6c2dc2"
+          },
+          {
+            "Text": "extend deleteBtn component, chip component styles",
+            "SHA": "9837f7b480e066c0b92f1d07475d40715364bbb5",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-29T12:02:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/9837f7b480e066c0b92f1d07475d40715364bbb5"
+          },
+          {
+            "Text": "remove shadows",
+            "SHA": "2c2855e6e9086e59a3bd3269f0213b0d3579d673",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-04-29T12:00:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2c2855e6e9086e59a3bd3269f0213b0d3579d673"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -845,9 +984,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.19.4",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "cf1f247",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -896,23 +1035,55 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 2,
-        "PullRequests": [
-          {
-            "Title": "Bump azurerm from 3.93.0 to 3.101.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/472"
-          },
-          {
-            "Title": "Bump azurerm from 3.93.0 to 3.101.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/473"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.19.4..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "Merge pull request #481 from PRODYNA-YASM/dependabot/terraform/terraform/azure/azurerm-3.102.0",
+            "SHA": "cf1f247c7a643b625410e46825b68bccdae32a35",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-03T06:41:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/cf1f247c7a643b625410e46825b68bccdae32a35"
+          },
+          {
+            "Text": "Merge pull request #480 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/azurerm-3.102.0",
+            "SHA": "6cdbdae1a143d6b6f92c9ca7ef04e3f1b0f018aa",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-03T06:23:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6cdbdae1a143d6b6f92c9ca7ef04e3f1b0f018aa"
+          },
+          {
+            "Text": "Bump azurerm from 3.100.0 to 3.102.0 in /terraform/azure",
+            "SHA": "f5333fb868443975ca814cd96ec46b360d122651",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-05-03T05:43:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f5333fb868443975ca814cd96ec46b360d122651"
+          },
+          {
+            "Text": "Bump azurerm from 3.100.0 to 3.102.0 in /terraform/kubernetes",
+            "SHA": "0df6140b7abbb7a70d66529b298a0fb1def4f286",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-05-03T05:39:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0df6140b7abbb7a70d66529b298a0fb1def4f286"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -958,8 +1129,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 5,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "Bump jakarta.ws.rs:jakarta.ws.rs-api from 3.1.0 to 4.0.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/180"
+          },
           {
             "Title": "Bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.54 to 3.0.55",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/179"
@@ -1077,5 +1252,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-02T07:32:17Z"
+  "LastUpdated": "2024-05-03T07:31:59Z"
 }
