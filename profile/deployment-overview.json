@@ -148,19 +148,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 2,
-        "Workflows": [
-          {
-            "Name": "feature/random order (#581)",
-            "Timestamp": "2024-04-04T16:46:15Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/8558285612"
-          },
-          {
-            "Name": "update jacoco (#578)",
-            "Timestamp": "2024-04-04T12:14:32Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/8554432238"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -532,17 +521,12 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
           {
             "Name": "Merge pull request #307 from PRODYNA-YASM/feature/rename-master-to-main",
             "Timestamp": "2024-04-23T07:10:02Z",
             "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8796286117"
-          },
-          {
-            "Name": "Merge pull request #298 from PRODYNA-YASM/297-api-1190",
-            "Timestamp": "2024-04-04T12:20:11Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8554511174"
           }
         ]
       }
@@ -720,17 +704,12 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
           {
             "Name": "Merge branch 'master' of github.com:PRODYNA-YASM/yasm-integration",
             "Timestamp": "2024-04-23T07:09:18Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8796277283"
-          },
-          {
-            "Name": "Merge pull request #396 from PRODYNA-YASM/feature/395-api-1190",
-            "Timestamp": "2024-04-04T12:13:41Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8554420353"
           }
         ]
       }
@@ -1300,5 +1279,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-04T07:32:20Z"
+  "LastUpdated": "2024-05-05T07:32:11Z"
 }

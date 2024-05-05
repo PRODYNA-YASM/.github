@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-05-04T07:32:20Z
+Component Status overview. Last update 2024-05-05T07:32:11Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -67,13 +67,6 @@ Component Status overview. Last update 2024-05-04T07:32:20Z
 - [Reorganize person to office and organizations](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.19.0) on 2024-04-04 12:09:51 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting) (2)
-
-- [feature/random order (#581)](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/8558285612) created on 2024-04-04 16:46:15 +0000 UTC
-
-- [update jacoco (#578)](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/8554432238) created on 2024-04-04 12:14:32 +0000 UTC
 
 
 
@@ -201,11 +194,9 @@ Component Status overview. Last update 2024-05-04T07:32:20Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting) (2)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting) (1)
 
 - [Merge pull request #307 from PRODYNA-YASM/feature/rename-master-to-main](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8796286117) created on 2024-04-23 07:10:02 +0000 UTC
-
-- [Merge pull request #298 from PRODYNA-YASM/297-api-1190](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8554511174) created on 2024-04-04 12:20:11 +0000 UTC
 
 
 
@@ -280,11 +271,9 @@ Component Status overview. Last update 2024-05-04T07:32:20Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (2)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (1)
 
 - [Merge branch 'master' of github.com:PRODYNA-YASM/yasm-integration](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8796277283) created on 2024-04-23 07:09:18 +0000 UTC
-
-- [Merge pull request #396 from PRODYNA-YASM/feature/395-api-1190](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8554420353) created on 2024-04-04 12:13:41 +0000 UTC
 
 
 
