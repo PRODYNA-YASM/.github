@@ -163,7 +163,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "dc306f7",
+          "Version": "96b5830",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -214,15 +214,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 9,
+        "Count": 8,
         "PullRequests": [
           {
             "Title": "Bump eslint from 8.57.0 to 9.2.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/637"
-          },
-          {
-            "Title": "add search options to mui Autocomplete",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/635"
           },
           {
             "Title": "upgrade dependencies, removed old babel-loader for lodash",
@@ -257,8 +253,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.7..HEAD",
-        "Count": 18,
+        "Count": 23,
         "Commits": [
+          {
+            "Text": "Merge pull request #635 from PRODYNA-YASM/feature/add-search-options-to-autocomplete",
+            "SHA": "96b5830d6dd0df8224edddb17ee49e79139b3eb0",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-05-06T08:19:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/96b5830d6dd0df8224edddb17ee49e79139b3eb0"
+          },
+          {
+            "Text": "merged main and fixed conflict to use new api",
+            "SHA": "0d73b9ffa2ca8ded3e36e171db3041abc034f62a",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-05-06T07:53:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/0d73b9ffa2ca8ded3e36e171db3041abc034f62a"
+          },
+          {
+            "Text": "use searchOptions instead of options and disabled filterOptions if searchOptions is defined",
+            "SHA": "9ff2bbc605e12a1232e0cf51e80d76df4fe58a96",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-05-06T07:47:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/9ff2bbc605e12a1232e0cf51e80d76df4fe58a96"
+          },
+          {
+            "Text": "hide directHit in PersonDetails -\u003e project participations view",
+            "SHA": "0922c7517a577e5d2b2d7f81ed3d5a62234478e6",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-05-06T07:15:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/0922c7517a577e5d2b2d7f81ed3d5a62234478e6"
+          },
           {
             "Text": "Merge pull request #636 from PRODYNA-YASM/feature/org-filter",
             "SHA": "dc306f7f5c7c1ea3a988b6421de807b9d4a71557",
@@ -278,6 +314,16 @@
             },
             "Timestamp": "2024-05-03T20:07:18Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/70358ea7e6d1763ee0645c38cb81931eae2459f2"
+          },
+          {
+            "Text": "add search options to mui Autocomplete",
+            "SHA": "17eca8604c1f29cba1109d59bdb0eb48f4904b12",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-05-03T16:05:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/17eca8604c1f29cba1109d59bdb0eb48f4904b12"
           },
           {
             "Text": "Merge pull request #632 from PRODYNA-YASM/fix/show-gray-icon-for-non-directHit",
@@ -542,14 +588,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.11.6",
+          "Version": "1.11.7",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.11.6",
+          "Version": "1.11.7",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -558,17 +604,24 @@
           "Link": "",
           "Version": "1.11.6",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.11.6",
+        "Tag": "1.11.7",
         "SHA": "",
-        "Title": "OpenTelemetry 1.26",
-        "Timestamp": "2024-04-29T15:12:45Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.6"
+        "Title": "OTelChi 0.8.0",
+        "Timestamp": "2024-05-06T13:10:58Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.7"
       },
       "Releases": [
+        {
+          "Tag": "1.11.7",
+          "SHA": "",
+          "Title": "OTelChi 0.8.0",
+          "Timestamp": "2024-05-06T13:08:14Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.7"
+        },
         {
           "Tag": "1.11.6",
           "SHA": "",
@@ -582,13 +635,6 @@
           "Title": "OtelChi 0.7.0",
           "Timestamp": "2024-04-22T13:23:58Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.5"
-        },
-        {
-          "Tag": "1.11.4",
-          "SHA": "",
-          "Title": "OpenTelemetry update",
-          "Timestamp": "2024-04-15T13:30:06Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.4"
         }
       ],
       "PullRequests": {
@@ -598,7 +644,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.11.6..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.11.7..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -606,8 +652,14 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #186 from PRODYNA-YASM/dependabot/go_modules/githu…",
+            "Timestamp": "2024-05-06T13:10:59Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/8969697634"
+          }
+        ]
       }
     },
     {
@@ -1260,5 +1312,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-06T07:46:06Z"
+  "LastUpdated": "2024-05-06T13:17:46Z"
 }

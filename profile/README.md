@@ -1,13 +1,13 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-05-06T07:46:06Z
+Component Status overview. Last update 2024-05-06T13:17:46Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [7](https://github.com/prodyna-yasm/yasm-backend/compare/1.19.2..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.19.2 |  :red_square: 52a64d5 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [18](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.7..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.7 |  :red_square: dc306f7 |  :green_square: 1.19.7 |  :green_square: 1.19.7 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [23](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.7..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.7 |  :red_square: 96b5830 |  :green_square: 1.19.7 |  :green_square: 1.19.7 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.23.0 |  :green_square: 1.23.0 |  :green_square: 1.23.0 |  :red_square: 1.19.6 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.6 |  :green_square: 1.11.6 |  :green_square: 1.11.6 |  :green_square: 1.11.6 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.7 |  :green_square: 1.11.7 |  :green_square: 1.11.7 |  :red_square: 1.11.6 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.23.0 |  :green_square: 1.23.0 |  :green_square: 1.23.0 |  :red_square: 1.19.5 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.3.2 |  :green_square: 1.3.2 |  :green_square: 1.3.2 |  :green_square: 1.3.2 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.6.7 |  :green_square: 1.6.7 |  :green_square: 1.6.7 |  :green_square: 1.6.7 | 
@@ -78,11 +78,21 @@ Component Status overview. Last update 2024-05-06T07:46:06Z
 
 
 
-### [Commits on main since 1.19.7](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.7..HEAD) (18)
+### [Commits on main since 1.19.7](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.7..HEAD) (23)
+
+- [Merge pull request #635 from PRODYNA-YASM/feature/add-search-options-to-autocomplete](https://github.com/prodyna-yasm/yasm-frontend/commit/96b5830d6dd0df8224edddb17ee49e79139b3eb0) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-06 08:19:13 +0000 UTC
+
+- [merged main and fixed conflict to use new api](https://github.com/prodyna-yasm/yasm-frontend/commit/0d73b9ffa2ca8ded3e36e171db3041abc034f62a) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-06 07:53:14 +0000 UTC
+
+- [use searchOptions instead of options and disabled filterOptions if searchOptions is defined](https://github.com/prodyna-yasm/yasm-frontend/commit/9ff2bbc605e12a1232e0cf51e80d76df4fe58a96) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-06 07:47:26 +0000 UTC
+
+- [hide directHit in PersonDetails -> project participations view](https://github.com/prodyna-yasm/yasm-frontend/commit/0922c7517a577e5d2b2d7f81ed3d5a62234478e6) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-06 07:15:46 +0000 UTC
 
 - [Merge pull request #636 from PRODYNA-YASM/feature/org-filter](https://github.com/prodyna-yasm/yasm-frontend/commit/dc306f7f5c7c1ea3a988b6421de807b9d4a71557) by [coding4kay](https://github.com/coding4kay) on 2024-05-03 20:10:12 +0000 UTC
 
 - [add organization search parameter](https://github.com/prodyna-yasm/yasm-frontend/commit/70358ea7e6d1763ee0645c38cb81931eae2459f2) by [coding4kay](https://github.com/coding4kay) on 2024-05-03 20:07:18 +0000 UTC
+
+- [add search options to mui Autocomplete](https://github.com/prodyna-yasm/yasm-frontend/commit/17eca8604c1f29cba1109d59bdb0eb48f4904b12) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-03 16:05:22 +0000 UTC
 
 - [Merge pull request #632 from PRODYNA-YASM/fix/show-gray-icon-for-non-directHit](https://github.com/prodyna-yasm/yasm-frontend/commit/012e0df99ea514ec78bb4f2895027f7d06fa5cc5) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-03 11:49:28 +0000 UTC
 
@@ -119,11 +129,9 @@ Component Status overview. Last update 2024-05-06T07:46:06Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (9)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (8)
 
 - [Bump eslint from 8.57.0 to 9.2.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/637)
-
-- [add search options to mui Autocomplete](https://github.com/PRODYNA-YASM/yasm-frontend/pull/635)
 
 - [upgrade dependencies, removed old babel-loader for lodash](https://github.com/PRODYNA-YASM/yasm-frontend/pull/631)
 
@@ -145,7 +153,7 @@ Component Status overview. Last update 2024-05-06T07:46:06Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  dc306f7 |  1.19.7 |  1.19.7 | 
+| Version |  96b5830 |  1.19.7 |  1.19.7 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -200,7 +208,7 @@ Component Status overview. Last update 2024-05-06T07:46:06Z
 
 
 
-## [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) 1.11.6
+## [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) 1.11.7
 
 
 
@@ -212,20 +220,25 @@ Component Status overview. Last update 2024-05-06T07:46:06Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.11.6 |  1.11.6 |  1.11.6 | 
+| Version |  1.11.7 |  1.11.7 |  1.11.6 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
+
+- [OTelChi 0.8.0](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.7) on 2024-05-06 13:08:14 +0000 UTC
 
 - [OpenTelemetry 1.26](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.6) on 2024-04-29 15:08:13 +0000 UTC
 
 - [OtelChi 0.7.0](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.5) on 2024-04-22 13:23:58 +0000 UTC
 
-- [OpenTelemetry update](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.4) on 2024-04-15 13:30:06 +0000 UTC
 
 
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting) (1)
+
+- [Merge pull request #186 from PRODYNA-YASM/dependabot/go_modules/githu…](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/8969697634) created on 2024-05-06 13:10:59 +0000 UTC
 
 
 
