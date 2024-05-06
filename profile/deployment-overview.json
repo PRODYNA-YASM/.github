@@ -572,9 +572,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.11.5",
+          "Version": "1.11.6",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -622,14 +622,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #185 from PRODYNA-YASM/dependabot/go_modules/go.op…",
-            "Timestamp": "2024-04-29T15:12:46Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/8881010412"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -690,23 +684,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 2,
-        "PullRequests": [
-          {
-            "Title": "Changes for API 1.23",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/413"
-          },
-          {
-            "Title": "Bump github.com/prodyna-yasm/yasm-api-go from 1.19.0 to 1.23.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/411"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.19.5..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #413 from PRODYNA-YASM/412-migrate-to-api-123",
+            "SHA": "f5305353a4b5e85f4b2db05545a96e395cac5b42",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-06T07:33:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/f5305353a4b5e85f4b2db05545a96e395cac5b42"
+          },
+          {
+            "Text": "Changes for API 1.23",
+            "SHA": "412b52f36a08fffb6984466a33e3ad526462afbb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-06T07:29:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/412b52f36a08fffb6984466a33e3ad526462afbb"
+          },
           {
             "Text": "Merge pull request #410 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.40.0",
             "SHA": "f6ef7bf0b22e68cf94350c8ec15a24e6825491fc",
@@ -839,9 +844,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.6.6",
+          "Version": "1.6.7",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -889,13 +894,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #106 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2024-04-30T10:44:23Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/8893450644"
-          },
           {
             "Name": "Merge pull request #99 from PRODYNA-YASM/dependabot/go_modules/github…",
             "Timestamp": "2024-04-23T07:04:20Z",
@@ -1312,5 +1312,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-06T07:32:11Z"
+  "LastUpdated": "2024-05-06T07:38:03Z"
 }
