@@ -456,14 +456,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "ec616d2",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.23.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.19.6",
+          "Version": "1.23.0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -472,17 +472,24 @@
           "Link": "",
           "Version": "1.19.6",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.19.6",
+        "Tag": "1.23.0",
         "SHA": "",
-        "Title": "OpenTelemetry update",
-        "Timestamp": "2024-04-29T07:25:07Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.19.6"
+        "Title": "API 1.23",
+        "Timestamp": "2024-05-06T07:39:02Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.23.0"
       },
       "Releases": [
+        {
+          "Tag": "1.23.0",
+          "SHA": "",
+          "Title": "API 1.23",
+          "Timestamp": "2024-05-06T07:29:56Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.23.0"
+        },
         {
           "Tag": "1.19.6",
           "SHA": "",
@@ -496,13 +503,6 @@
           "Title": "Technology update",
           "Timestamp": "2024-04-27T18:07:51Z",
           "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.19.5"
-        },
-        {
-          "Tag": "1.19.4",
-          "SHA": "",
-          "Title": "Main branch",
-          "Timestamp": "2024-04-19T13:16:42Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.19.4"
         }
       ],
       "PullRequests": {
@@ -512,37 +512,21 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.19.6..HEAD",
-        "Count": 2,
-        "Commits": [
-          {
-            "Text": "Merge pull request #316 from PRODYNA-YASM/315-migrate-to-api-123",
-            "SHA": "ec616d226fc23f4ec8312aacb3c9bded72d2b657",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-05-06T07:29:56Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/ec616d226fc23f4ec8312aacb3c9bded72d2b657"
-          },
-          {
-            "Text": "Compatible to API 1.23",
-            "SHA": "7e3fb2b51ceaf4e5aa408b1f3b7fc64def3684e0",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-05-06T07:22:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/7e3fb2b51ceaf4e5aa408b1f3b7fc64def3684e0"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.23.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "Merge pull request #316 from PRODYNA-YASM/315-migrate-to-api-123",
+            "Timestamp": "2024-05-06T07:39:04Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8965684044"
+          },
           {
             "Name": "Merge pull request #307 from PRODYNA-YASM/feature/rename-master-to-main",
             "Timestamp": "2024-04-23T07:10:02Z",
@@ -633,14 +617,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "f6ef7bf",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.23.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.19.5",
+          "Version": "1.23.0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -649,17 +633,24 @@
           "Link": "",
           "Version": "1.19.5",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.19.5",
+        "Tag": "1.23.0",
         "SHA": "",
-        "Title": "Technology update",
-        "Timestamp": "2024-04-27T17:49:18Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.19.5"
+        "Title": "API 1.23",
+        "Timestamp": "2024-05-06T07:39:34Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.23.0"
       },
       "Releases": [
+        {
+          "Tag": "1.23.0",
+          "SHA": "",
+          "Title": "API 1.23",
+          "Timestamp": "2024-05-06T07:33:29Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.23.0"
+        },
         {
           "Tag": "1.19.5",
           "SHA": "",
@@ -673,13 +664,6 @@
           "Title": "Main branch",
           "Timestamp": "2024-04-19T13:19:20Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.19.4"
-        },
-        {
-          "Tag": "1.19.3",
-          "SHA": "",
-          "Title": "Azure library update",
-          "Timestamp": "2024-04-18T06:18:42Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.19.3"
         }
       ],
       "PullRequests": {
@@ -689,57 +673,21 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.19.5..HEAD",
-        "Count": 4,
-        "Commits": [
-          {
-            "Text": "Merge pull request #413 from PRODYNA-YASM/412-migrate-to-api-123",
-            "SHA": "f5305353a4b5e85f4b2db05545a96e395cac5b42",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-05-06T07:33:29Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/f5305353a4b5e85f4b2db05545a96e395cac5b42"
-          },
-          {
-            "Text": "Changes for API 1.23",
-            "SHA": "412b52f36a08fffb6984466a33e3ad526462afbb",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-05-06T07:29:01Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/412b52f36a08fffb6984466a33e3ad526462afbb"
-          },
-          {
-            "Text": "Merge pull request #410 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.40.0",
-            "SHA": "f6ef7bf0b22e68cf94350c8ec15a24e6825491fc",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-05-01T08:48:16Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/f6ef7bf0b22e68cf94350c8ec15a24e6825491fc"
-          },
-          {
-            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.39.0 to 1.40.0",
-            "SHA": "96d7f1e86cffb18c3cb1b1fc5f47b1444c44051c",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-05-01T01:42:02Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/96d7f1e86cffb18c3cb1b1fc5f47b1444c44051c"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.23.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "Merge pull request #413 from PRODYNA-YASM/412-migrate-to-api-123",
+            "Timestamp": "2024-05-06T07:39:36Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8965688522"
+          },
           {
             "Name": "Merge branch 'master' of github.com:PRODYNA-YASM/yasm-integration",
             "Timestamp": "2024-04-23T07:09:18Z",
@@ -1312,5 +1260,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-06T07:38:03Z"
+  "LastUpdated": "2024-05-06T07:46:06Z"
 }
