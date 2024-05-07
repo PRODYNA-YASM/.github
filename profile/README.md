@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-05-07T14:08:57Z
+Component Status overview. Last update 2024-05-07T21:50:09Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [12](https://github.com/prodyna-yasm/yasm-backend/compare/1.19.2..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.19.2 |  :red_square: c128d57 |  :green_square: 1.19.2 |  :green_square: 1.19.2 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.7..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.7 |  :red_square: bf6a803 |  :green_square: 1.19.7 |  :green_square: 1.19.7 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.25.0 |  :green_square: 1.25.0 |  :green_square: 1.25.0 |  :red_square: 1.19.2 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.7..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.19.7 |  :red_square: c20461d |  :green_square: 1.19.7 |  :green_square: 1.19.7 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.24.0 |  :green_square: 1.24.0 |  :green_square: 1.24.0 |  :red_square: 1.19.6 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.7 |  :green_square: 1.11.7 |  :green_square: 1.11.7 |  :green_square: 1.11.7 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.24.0 |  :green_square: 1.24.0 |  :green_square: 1.24.0 | 
@@ -14,41 +14,14 @@ Component Status overview. Last update 2024-05-07T14:08:57Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.2 |  :green_square: 1.10.2 |  :green_square: 1.10.2 |  :green_square: 1.10.2 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.5.0-1 |  :green_square: 8.5.0-1 |  :green_square: 8.5.0-1 |  :green_square: 8.5.0-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.24.0 |  :green_square: 1.24.0 |  :green_square: 1.24.0 |  :red_square: 1.19.4 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.25.0 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [2](https://github.com/prodyna-yasm/yasm-api/compare/1.25.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.25.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 
 
 
-## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.19.2
+## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.25.0
 
 
-
-
-### [Commits on main since 1.19.2](https://github.com/prodyna-yasm/yasm-backend/compare/1.19.2..HEAD) (12)
-
-- [skill search, clean api (#596)](https://github.com/prodyna-yasm/yasm-backend/commit/c128d57d9c76f3148b90399e217e20ae7791441a) by [coding4kay](https://github.com/coding4kay) on 2024-05-07 12:39:45 +0000 UTC
-
-- [Merge pull request #595 from PRODYNA-YASM/feature/add-industry-search](https://github.com/prodyna-yasm/yasm-backend/commit/3acd2de4f00ce2e26e4903d9e576eb9cc4986494) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-06 16:16:50 +0000 UTC
-
-- [added organization search test](https://github.com/prodyna-yasm/yasm-backend/commit/c5b117e3540fcc38bc62a297db12f5c2f245aa1b) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-06 16:06:28 +0000 UTC
-
-- [removed unused code](https://github.com/prodyna-yasm/yasm-backend/commit/1fa46136211cec686a680bbc9cac0f7d01b4cfec) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-06 15:46:20 +0000 UTC
-
-- [add industry search](https://github.com/prodyna-yasm/yasm-backend/commit/438310e808f4db1d384b0c67a2791623cfa04ca3) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-06 15:43:39 +0000 UTC
-
-- [add certification filter to organizations (#593)](https://github.com/prodyna-yasm/yasm-backend/commit/52a64d580114e8786bf4b0e21e50c81cc9323f7d) by [coding4kay](https://github.com/coding4kay) on 2024-05-03 20:04:34 +0000 UTC
-
-- [deps/update quarkus (#592)](https://github.com/prodyna-yasm/yasm-backend/commit/dbf4847e62177611afc74d377e088204297cf950) by [coding4kay](https://github.com/coding4kay) on 2024-05-03 18:38:12 +0000 UTC
-
-- [update quarkus (#591)](https://github.com/prodyna-yasm/yasm-backend/commit/bf08dd97347302109ec52f2de21142a0cfae67c4) by [coding4kay](https://github.com/coding4kay) on 2024-05-03 11:29:55 +0000 UTC
-
-- [Merge pull request #587 from PRODYNA-YASM/master](https://github.com/prodyna-yasm/yasm-backend/commit/9f5d8af5807aac8d324749f0a554d5dc564c1057) by [dkrizic](https://github.com/dkrizic) on 2024-04-19 13:52:25 +0000 UTC
-
-- [CodeQL on main](https://github.com/prodyna-yasm/yasm-backend/commit/86b627543e921ea2dd84783a06af75e766da09fb) by [dkrizic](https://github.com/dkrizic) on 2024-04-19 13:50:22 +0000 UTC
-
-- [Rename master to main](https://github.com/prodyna-yasm/yasm-backend/commit/172c1e181e01b5137583b9956723a2b45c399588) by [dkrizic](https://github.com/dkrizic) on 2024-04-19 13:41:43 +0000 UTC
-
-- [update quarkus and jackson (#585)](https://github.com/prodyna-yasm/yasm-backend/commit/cf059dad49b9b12789ba1c3a6f7bdc23eff06a8d) by [coding4kay](https://github.com/coding4kay) on 2024-04-12 16:20:36 +0000 UTC
 
 
 
@@ -65,20 +38,25 @@ Component Status overview. Last update 2024-05-07T14:08:57Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  c128d57 |  1.19.2 |  1.19.2 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.25.0 |  1.25.0 |  1.19.2 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
+
+- [Improve Search possibilities](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.25.0) on 2024-05-07 18:48:18 +0000 UTC
 
 - [Improve Order](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.19.2) on 2024-04-04 17:47:34 +0000 UTC
 
 - [Random default order for persons, and time for projects](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.19.1) on 2024-04-04 16:32:05 +0000 UTC
 
-- [Reorganize person to office and organizations](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.19.0) on 2024-04-04 12:09:51 +0000 UTC
 
 
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting) (1)
+
+- [clean up (#597)](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/8991071743) created on 2024-05-07 19:17:50 +0000 UTC
 
 
 
@@ -89,6 +67,10 @@ Component Status overview. Last update 2024-05-07T14:08:57Z
 
 
 ### [Commits on main since 1.19.7](https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.7..HEAD) (30)
+
+- [Merge pull request #643 from PRODYNA-YASM/fix/add-certifications-person-detail](https://github.com/prodyna-yasm/yasm-frontend/commit/c20461d70aa01594da4cb80fda5d3477b8e95412) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-07 14:15:16 +0000 UTC
+
+- [fixed add certifications person detail](https://github.com/prodyna-yasm/yasm-frontend/commit/f1dab77a3896eaafc05eb8182719c05daabe0bc0) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-07 14:09:16 +0000 UTC
 
 - [Merge pull request #641 from PRODYNA-YASM/fix/organization-breadcrumb](https://github.com/prodyna-yasm/yasm-frontend/commit/bf6a80358667989ce7d38190ec204d6c99b46df8) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-07 11:55:56 +0000 UTC
 
@@ -146,10 +128,6 @@ Component Status overview. Last update 2024-05-07T14:08:57Z
 
 - [fix maintainer role for organization upadtes](https://github.com/prodyna-yasm/yasm-frontend/commit/249a58b05c201357f4d2c5c4ee05cf97571382f1) by [](https://github.com/) on 2024-05-06 14:15:27 +0000 UTC
 
-- [refactore skill edit](https://github.com/prodyna-yasm/yasm-frontend/commit/44d42171acd58b011a6e39edb0876e6c794088c8) by [](https://github.com/) on 2024-05-06 14:09:42 +0000 UTC
-
-- [fix link skills to certifications](https://github.com/prodyna-yasm/yasm-frontend/commit/97688614259f41b5a2dab5d02692051258666a43) by [](https://github.com/) on 2024-05-06 14:02:47 +0000 UTC
-
 
 
 
@@ -177,7 +155,7 @@ Component Status overview. Last update 2024-05-07T14:08:57Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  bf6a803 |  1.19.7 |  1.19.7 | 
+| Version |  c20461d |  1.19.7 |  1.19.7 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -471,6 +449,13 @@ Component Status overview. Last update 2024-05-07T14:08:57Z
 ## [yasm-api](https://github.com/prodyna-yasm/yasm-api) 1.25.0
 
 
+
+
+### [Commits on main since 1.25.0](https://github.com/prodyna-yasm/yasm-api/compare/1.25.0..HEAD) (2)
+
+- [Merge pull request #187 from PRODYNA-YASM/refactor/cleanup](https://github.com/prodyna-yasm/yasm-api/commit/a181f522a32a611aa6b373bf6eecf2a27091f945) by [coding4kay](https://github.com/coding4kay) on 2024-05-07 19:09:50 +0000 UTC
+
+- [remove unused parameter](https://github.com/prodyna-yasm/yasm-api/commit/c2ee9b61885094bf9de49c885ceae11d4d961e46) by [coding4kay](https://github.com/coding4kay) on 2024-05-07 19:06:56 +0000 UTC
 
 
 
