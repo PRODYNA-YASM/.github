@@ -8,9 +8,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.25.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "34bb98d",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -82,8 +82,59 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.25.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 5,
+        "Commits": [
+          {
+            "Text": "Merge pull request #600 from PRODYNA-YASM/feature/#309_project-participation-order",
+            "SHA": "34bb98d052d3880edd37acf99a20544036daa506",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-05-08T13:08:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/34bb98d052d3880edd37acf99a20544036daa506"
+          },
+          {
+            "Text": "#309 refactor cypher code",
+            "SHA": "477b3788419cd1149dca1c13982abac5a7feb579",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-05-08T13:02:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/477b3788419cd1149dca1c13982abac5a7feb579"
+          },
+          {
+            "Text": "#309 fixed formatting",
+            "SHA": "2ec4da7d68f18fac79d7f224b7c41c6e2db73ee2",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-05-08T12:39:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/2ec4da7d68f18fac79d7f224b7c41c6e2db73ee2"
+          },
+          {
+            "Text": "Merge branch 'refs/heads/main' into feature/#309_project-participation-order",
+            "SHA": "b94297cd0d3eeee1fab2e5352872e3a2c93945e0",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-05-08T12:36:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/b94297cd0d3eeee1fab2e5352872e3a2c93945e0"
+          },
+          {
+            "Text": "#309 sort people participating in project by enddate and duration in project",
+            "SHA": "64811548a1dc214d0e61d5f08f56b58ddf4837f6",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-05-08T12:34:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/64811548a1dc214d0e61d5f08f56b58ddf4837f6"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -682,9 +733,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.25.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "5a26d67",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -732,8 +783,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.25.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #416 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.41.0",
+            "SHA": "5a26d67d8a33dcde28daf846e0e9ba91ed1a5dc9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-09T06:24:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/5a26d67d8a33dcde28daf846e0e9ba91ed1a5dc9"
+          },
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.40.0 to 1.41.0",
+            "SHA": "087f8fc6cae09885a8fe0475511e72318a872753",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-05-09T01:39:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/087f8fc6cae09885a8fe0475511e72318a872753"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -903,8 +975,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump golang from 1.22.2 to 1.22.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/107"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
@@ -1140,8 +1217,17 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump hashicorp/helm from 2.13.1 to 2.13.2 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/489"
+          },
+          {
+            "Title": "Bump kubernetes from 2.29.0 to 2.30.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/488"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -1320,5 +1406,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-08T08:51:34Z"
+  "LastUpdated": "2024-05-09T07:32:02Z"
 }
