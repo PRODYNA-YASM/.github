@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-05-09T07:32:02Z
+Component Status overview. Last update 2024-05-10T07:32:05Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -13,7 +13,7 @@ Component Status overview. Last update 2024-05-09T07:32:02Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-geocoding/pulls) | 1.6.7 |  :green_square: 1.6.7 |  :green_square: 1.6.7 |  :green_square: 1.6.7 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.2 |  :green_square: 1.10.2 |  :green_square: 1.10.2 |  :green_square: 1.10.2 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.5.0-1 |  :green_square: 8.5.0-1 |  :green_square: 8.5.0-1 |  :green_square: 8.5.0-1 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.24.0 |  :green_square: 1.24.0 |  :green_square: 1.24.0 |  :red_square: 1.19.4 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.24.0 |  :green_square: 1.24.0 |  :green_square: 1.24.0 |  :red_square: 1.19.4 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [2](https://github.com/prodyna-yasm/yasm-api/compare/1.25.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.25.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 
@@ -454,7 +454,11 @@ Component Status overview. Last update 2024-05-09T07:32:02Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (2)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (4)
+
+- [Bump azurerm from 3.102.0 to 3.103.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/491)
+
+- [Bump azurerm from 3.102.0 to 3.103.0 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/490)
 
 - [Bump hashicorp/helm from 2.13.1 to 2.13.2 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/489)
 
