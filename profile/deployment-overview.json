@@ -843,14 +843,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.3.3",
+          "Version": "1.4.0",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.3.3",
+          "Version": "1.4.0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -863,13 +863,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "1.3.3",
+        "Tag": "1.4.0",
         "SHA": "",
-        "Title": "Technology update: Golang 1.22.3",
-        "Timestamp": "2024-05-08T08:46:26Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.3.3"
+        "Title": "Feature: Find user by email",
+        "Timestamp": "2024-05-10T23:23:54Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.4.0"
       },
       "Releases": [
+        {
+          "Tag": "1.4.0",
+          "SHA": "",
+          "Title": "Feature: Find user by email",
+          "Timestamp": "2024-05-10T23:19:53Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.4.0"
+        },
         {
           "Tag": "1.3.3",
           "SHA": "",
@@ -883,13 +890,6 @@
           "Title": "Technology update",
           "Timestamp": "2024-04-27T17:28:49Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.3.2"
-        },
-        {
-          "Tag": "1.3.1",
-          "SHA": "",
-          "Title": "Dummy change for demo",
-          "Timestamp": "2024-04-22T08:39:57Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.3.1"
         }
       ],
       "PullRequests": {
@@ -899,7 +899,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.3.3..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.4.0..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -907,8 +907,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "Merge pull request #70 from PRODYNA-YASM/36-implement-find-github-use…",
+            "Timestamp": "2024-05-10T23:23:56Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-github/actions/runs/9039180386"
+          },
           {
             "Name": "Merge pull request #69 from PRODYNA-YASM/dependabot/docker/golang-1.2…",
             "Timestamp": "2024-05-08T08:46:28Z",
@@ -924,9 +929,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.6.7",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "0dce938",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -975,19 +980,35 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump golang from 1.22.2 to 1.22.3",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/107"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.6.7..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #107 from PRODYNA-YASM/dependabot/docker/golang-1.22.3",
+            "SHA": "0dce938a562a6fa1f4b99c7dfba47586709e66a8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-10T23:36:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/0dce938a562a6fa1f4b99c7dfba47586709e66a8"
+          },
+          {
+            "Text": "Bump golang from 1.22.2 to 1.22.3",
+            "SHA": "382c13cb9135c5a0f8ce61d81ab223775ec3714d",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-05-08T16:41:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/382c13cb9135c5a0f8ce61d81ab223775ec3714d"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1414,5 +1435,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-10T07:32:05Z"
+  "LastUpdated": "2024-05-11T07:32:33Z"
 }
