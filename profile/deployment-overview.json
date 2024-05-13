@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "34bb98d",
+          "Version": "93ef849",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -82,8 +82,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.25.0..HEAD",
-        "Count": 5,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "clean skill api (#601)",
+            "SHA": "93ef849f07201e9984aea92ce360ed7d23b9662b",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-05-13T14:56:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/93ef849f07201e9984aea92ce360ed7d23b9662b"
+          },
           {
             "Text": "Merge pull request #600 from PRODYNA-YASM/feature/#309_project-participation-order",
             "SHA": "34bb98d052d3880edd37acf99a20544036daa506",
@@ -157,7 +167,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d7a0282",
+          "Version": "11081bf",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -246,6 +256,126 @@
         "Count": 30,
         "Commits": [
           {
+            "Text": "Merge pull request #645 from PRODYNA-YASM/feature/add-testdata-ids",
+            "SHA": "11081bf0fe243a7d24583f97d1eff6c3260e23ea",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-05-13T15:54:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/11081bf0fe243a7d24583f97d1eff6c3260e23ea"
+          },
+          {
+            "Text": "Merge pull request #647 from PRODYNA-YASM/feature/578-automatically-generate-changelog",
+            "SHA": "10415dae0e09ff65ead62dd6cd0e5b48986c1179",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-13T15:39:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/10415dae0e09ff65ead62dd6cd0e5b48986c1179"
+          },
+          {
+            "Text": "Add yasm-api to changelog",
+            "SHA": "ad6f939fa1e1521a4770059e66a41df5f68868eb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-13T15:30:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ad6f939fa1e1521a4770059e66a41df5f68868eb"
+          },
+          {
+            "Text": "Merge pull request #646 from PRODYNA-YASM/feature/578-automatically-generate-changelog",
+            "SHA": "2913c8b405ed061109ce3359ac31753dcbf5e968",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-13T15:29:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2913c8b405ed061109ce3359ac31753dcbf5e968"
+          },
+          {
+            "Text": "Add changelog.json to html directory",
+            "SHA": "152109f7fdd0d0397de427ba6e578da478e72283",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-13T15:28:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/152109f7fdd0d0397de427ba6e578da478e72283"
+          },
+          {
+            "Text": "Add data-testid attributes to ProjectSelection component",
+            "SHA": "93d19b099864497cae6fc6636e9072cdeaaa6582",
+            "Author": {
+              "name": "jenswindmueller",
+              "link": "https://github.com/jenswindmueller"
+            },
+            "Timestamp": "2024-05-13T15:22:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/93d19b099864497cae6fc6636e9072cdeaaa6582"
+          },
+          {
+            "Text": "Merge pull request #644 from PRODYNA-YASM/feature/578-automatically-generate-changelog",
+            "SHA": "143d718653f324d30ae17b430a251b239e465f9a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-13T15:21:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/143d718653f324d30ae17b430a251b239e465f9a"
+          },
+          {
+            "Text": "Real world smaple file",
+            "SHA": "d200efbe7e9452dfd8dfcc51c8019011ac277a20",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-13T15:18:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d200efbe7e9452dfd8dfcc51c8019011ac277a20"
+          },
+          {
+            "Text": "Extend pipeline to create a changelog, dummy changelog changed",
+            "SHA": "2a62409409e54815be8ea120105e23120d7485db",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-13T15:17:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2a62409409e54815be8ea120105e23120d7485db"
+          },
+          {
+            "Text": "Merge branch 'main' into feature/578-automatically-generate-changelog",
+            "SHA": "467fb68efb3f4804ea50d6ff661ad4bd167b6276",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-13T15:12:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/467fb68efb3f4804ea50d6ff661ad4bd167b6276"
+          },
+          {
+            "Text": "Add data-testid attributes to RoleSelection, SenioritySelection, SkillsAndCertifications, and ExportUserProfile components",
+            "SHA": "88ad84527c7b4fb6dbe256b1393c54392bc8c9a1",
+            "Author": {
+              "name": "jenswindmueller",
+              "link": "https://github.com/jenswindmueller"
+            },
+            "Timestamp": "2024-05-10T11:44:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/88ad84527c7b4fb6dbe256b1393c54392bc8c9a1"
+          },
+          {
+            "Text": "Add data-testid attributes to AssignProjectButton, AddProjectFields, PersonalDescriptionWrapper, CancelAssignProjectButton, and AssignProjectButton components",
+            "SHA": "836fee110bded797eb789d4181bca32347686ae5",
+            "Author": {
+              "name": "jenswindmueller",
+              "link": "https://github.com/jenswindmueller"
+            },
+            "Timestamp": "2024-05-10T10:53:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/836fee110bded797eb789d4181bca32347686ae5"
+          },
+          {
             "Text": "Merge pull request #642 from PRODYNA-YASM/feature/add-testdata-ids",
             "SHA": "d7a02820d686c1dfca1e86f2ac968796d77e3df9",
             "Author": {
@@ -254,6 +384,16 @@
             },
             "Timestamp": "2024-05-08T06:02:31Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d7a02820d686c1dfca1e86f2ac968796d77e3df9"
+          },
+          {
+            "Text": "Add data-testid attribute to ProjectDurationContainer in ProjectItemContent component",
+            "SHA": "b7d3294ae3dcabb32b9bdf95e8e811a3445fa111",
+            "Author": {
+              "name": "jenswindmueller",
+              "link": "https://github.com/jenswindmueller"
+            },
+            "Timestamp": "2024-05-08T02:44:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b7d3294ae3dcabb32b9bdf95e8e811a3445fa111"
           },
           {
             "Text": "Merge pull request #643 from PRODYNA-YASM/fix/add-certifications-person-detail",
@@ -414,136 +554,6 @@
             },
             "Timestamp": "2024-05-07T09:14:29Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/31b85b10c1198ba04ead624b9ed054e210669ec2"
-          },
-          {
-            "Text": "finish industries",
-            "SHA": "deb8cc67d46ba12e397b0d44708475d5145ce7a5",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-05-07T08:58:41Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/deb8cc67d46ba12e397b0d44708475d5145ce7a5"
-          },
-          {
-            "Text": "update api, add servieManager to organizations",
-            "SHA": "b0573f4c8fd99598142f3ee9c697d9d0d137ac4f",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-07T08:29:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b0573f4c8fd99598142f3ee9c697d9d0d137ac4f"
-          },
-          {
-            "Text": "refactor appRoles",
-            "SHA": "50a33ab6f055ef678725cd8195beb23d11391022",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-07T08:03:26Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/50a33ab6f055ef678725cd8195beb23d11391022"
-          },
-          {
-            "Text": "fix imports",
-            "SHA": "2e2c9457b66e8ae5393f85eead398e8b4a8c6c0f",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-07T08:00:12Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2e2c9457b66e8ae5393f85eead398e8b4a8c6c0f"
-          },
-          {
-            "Text": "Merge branch 'main' into feature/certifications",
-            "SHA": "fdab62717a93f8f99321ce481305804a5a2b5f85",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-07T07:55:14Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/fdab62717a93f8f99321ce481305804a5a2b5f85"
-          },
-          {
-            "Text": "rename components",
-            "SHA": "ccd84a7284bb9c5226106422d3430038583254d7",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-07T07:02:24Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ccd84a7284bb9c5226106422d3430038583254d7"
-          },
-          {
-            "Text": "added industry list and detail view",
-            "SHA": "36612da883ae18e23da952dec20356726f7892c9",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-05-07T06:56:31Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/36612da883ae18e23da952dec20356726f7892c9"
-          },
-          {
-            "Text": "fix grid responsive and formik enableReinitialize",
-            "SHA": "2a5b45f9d592eee955ee22840b02614300c80c86",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-07T06:55:22Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2a5b45f9d592eee955ee22840b02614300c80c86"
-          },
-          {
-            "Text": "Merge pull request #630 from PRODYNA-YASM/feature/add-skill-sorting",
-            "SHA": "3097770f60993763ec302a2d8c131fa55a1b3fc1",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-05-06T18:27:16Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/3097770f60993763ec302a2d8c131fa55a1b3fc1"
-          },
-          {
-            "Text": "fix collapsed",
-            "SHA": "6279d7fbea690c28b2170e0313cb5bb6f2979cb1",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-06T15:13:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/6279d7fbea690c28b2170e0313cb5bb6f2979cb1"
-          },
-          {
-            "Text": "fix collapsed",
-            "SHA": "2db69b4a4de5b92952536cc29647fbf374ba84e5",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-06T15:12:28Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2db69b4a4de5b92952536cc29647fbf374ba84e5"
-          },
-          {
-            "Text": "fix certification employee layout",
-            "SHA": "079f01a665819e9cee07a2c0f6cf3091a0eb84fd",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-06T15:07:02Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/079f01a665819e9cee07a2c0f6cf3091a0eb84fd"
-          },
-          {
-            "Text": "fix search persons by certification",
-            "SHA": "216bcc1c98c799d499f7c949d91aba3806dea813",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-06T14:58:05Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/216bcc1c98c799d499f7c949d91aba3806dea813"
           }
         ]
       },
@@ -1283,13 +1293,20 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "1.25.0",
+        "Tag": "1.26.0",
         "SHA": "",
-        "Title": "Skill Search and Clean api from suggestable and linkable",
-        "Timestamp": "2024-05-07T11:55:51Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.25.0"
+        "Title": "Skill API KindGiver",
+        "Timestamp": "2024-05-13T14:22:30Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.26.0"
       },
       "Releases": [
+        {
+          "Tag": "1.26.0",
+          "SHA": "",
+          "Title": "Skill API KindGiver",
+          "Timestamp": "2024-05-13T14:21:44Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.26.0"
+        },
         {
           "Tag": "1.25.0",
           "SHA": "",
@@ -1303,13 +1320,6 @@
           "Title": "Add Industry Search",
           "Timestamp": "2024-05-06T14:47:35Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.24.0"
-        },
-        {
-          "Tag": "1.23.0",
-          "SHA": "",
-          "Title": "Fix CI/CD",
-          "Timestamp": "2024-05-03T18:21:11Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.23.0"
         }
       ],
       "PullRequests": {
@@ -1336,30 +1346,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.25.0..HEAD",
-        "Count": 2,
-        "Commits": [
-          {
-            "Text": "Merge pull request #187 from PRODYNA-YASM/refactor/cleanup",
-            "SHA": "a181f522a32a611aa6b373bf6eecf2a27091f945",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-05-07T19:09:50Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/a181f522a32a611aa6b373bf6eecf2a27091f945"
-          },
-          {
-            "Text": "remove unused parameter",
-            "SHA": "c2ee9b61885094bf9de49c885ceae11d4d961e46",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-05-07T19:06:56Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/c2ee9b61885094bf9de49c885ceae11d4d961e46"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.26.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1439,5 +1428,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-13T07:32:02Z"
+  "LastUpdated": "2024-05-13T15:58:38Z"
 }
