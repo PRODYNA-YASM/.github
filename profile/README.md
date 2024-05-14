@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-05-14T09:58:20Z
+Component Status overview. Last update 2024-05-14T12:06:23Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -10,10 +10,10 @@ Component Status overview. Last update 2024-05-14T09:58:20Z
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.7 |  :green_square: 1.11.7 |  :green_square: 1.11.7 |  :green_square: 1.11.7 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.26.0 |  :green_square: 1.26.0 |  :green_square: 1.26.0 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.4.1 |  :green_square: 1.4.1 |  :green_square: 1.4.1 |  :green_square: 1.4.1 | 
-| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.6.8 |  :green_square: 1.6.8 |  :green_square: 1.6.8 |  :red_square: 1.6.7 | 
+| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.6.8 |  :green_square: 1.6.8 |  :green_square: 1.6.8 |  :green_square: 1.6.8 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.2 |  :green_square: 1.10.2 |  :green_square: 1.10.2 |  :green_square: 1.10.2 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.5.0-1 |  :green_square: 8.5.0-1 |  :green_square: 8.5.0-1 |  :green_square: 8.5.0-1 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [10](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.24.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.24.0 |  :red_square: 2333b2f |  :green_square: 1.24.0 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [10](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.24.0..HEAD) | :green_square: 0 | 1.24.0 |  :red_square: 2333b2f |  :green_square: 1.24.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.26.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 
@@ -359,9 +359,9 @@ Component Status overview. Last update 2024-05-14T09:58:20Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.6.8 |  1.6.8 |  1.6.7 | 
+| Version |  1.6.8 |  1.6.8 |  1.6.8 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -375,9 +375,7 @@ Component Status overview. Last update 2024-05-14T09:58:20Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (2)
-
-- [Merge pull request #108 from PRODYNA-YASM/technology-update](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/9077368865) created on 2024-05-14 09:54:53 +0000 UTC
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (1)
 
 - [Merge pull request #99 from PRODYNA-YASM/dependabot/go_modules/github…](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/8796214946) created on 2024-04-23 07:04:20 +0000 UTC
 
@@ -477,11 +475,6 @@ Component Status overview. Last update 2024-05-14T09:58:20Z
 - [Bump kubernetes from 2.29.0 to 2.30.0 in /terraform/kubernetes](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/5b218e4ee5b67fb9d5db4b5ec5e2c1052f6c354b) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-05-09 05:45:34 +0000 UTC
 
 
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (1)
-
-- [Bump hashicorp/helm from 2.13.1 to 2.13.2 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/489)
 
 
 
