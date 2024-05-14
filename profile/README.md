@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-05-14T12:06:23Z
+Component Status overview. Last update 2024-05-14T12:10:51Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -16,6 +16,7 @@ Component Status overview. Last update 2024-05-14T12:06:23Z
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [10](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.24.0..HEAD) | :green_square: 0 | 1.24.0 |  :red_square: 2333b2f |  :green_square: 1.24.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.26.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
+| [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [30](https://github.com/prodyna-yasm/sales-copilot/compare/..HEAD) | :green_square: 0 |  |  :red_square: 1.0.0 |  :red_square: 1.0.0 |  :red_square: 1.0.0 | 
 
 
 
@@ -579,6 +580,13 @@ Component Status overview. Last update 2024-05-14T12:06:23Z
 
 
 
+
+
+## [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) 
+
+
+> [!WARNING]
+> GET https://api.github.com/repos/prodyna-yasm/sales-copilot/releases/latest: 404 Not Found []
 
 
 
