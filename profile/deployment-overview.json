@@ -1480,38 +1480,46 @@
     },
     {
       "Name": "sales-copilot",
-      "Error": "GET https://api.github.com/repos/prodyna-yasm/sales-copilot/releases/latest: 404 Not Found []",
+      "Error": "",
       "Environments": [
         {
           "Name": "dev",
           "Link": "",
           "Version": "1.0.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
           "Version": "1.0.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
           "Version": "1.0.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "",
+        "Tag": "1.0.0",
         "SHA": "",
-        "Title": "",
-        "Timestamp": "0001-01-01T00:00:00Z",
-        "Link": ""
+        "Title": "Version 1.0.0",
+        "Timestamp": "2024-05-14T12:16:19Z",
+        "Link": "https://github.com/PRODYNA-YASM/sales-copilot/releases/tag/1.0.0"
       },
-      "Releases": null,
+      "Releases": [
+        {
+          "Tag": "1.0.0",
+          "SHA": "",
+          "Title": "Version 1.0.0",
+          "Timestamp": "2024-05-14T11:34:42Z",
+          "Link": "https://github.com/PRODYNA-YASM/sales-copilot/releases/tag/1.0.0"
+        }
+      ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/sales-copilot/pulls",
         "Count": 0,
@@ -1519,310 +1527,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/sales-copilot",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/sales-copilot/compare/..HEAD",
-        "Count": 30,
-        "Commits": [
-          {
-            "Text": "Merge remote-tracking branch 'origin/main'",
-            "SHA": "24b35173c8957db353d75defea39b4c815185e9d",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-14T12:08:09Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/24b35173c8957db353d75defea39b4c815185e9d"
-          },
-          {
-            "Text": "cleaning up!",
-            "SHA": "98284f1fc8de1f1d14bec72ca9d6a75b889561bc",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-14T12:06:39Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/98284f1fc8de1f1d14bec72ca9d6a75b889561bc"
-          },
-          {
-            "Text": "Merge pull request #2 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-4",
-            "SHA": "beba1ae1069117dae06f62b16a1379007f842f5e",
-            "Author": {
-              "name": "numbereself",
-              "link": "https://github.com/numbereself"
-            },
-            "Timestamp": "2024-05-14T11:47:54Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/beba1ae1069117dae06f62b16a1379007f842f5e"
-          },
-          {
-            "Text": "Read new github env var!",
-            "SHA": "cc295c6a346b52ffc6df5fa1d6903e45a0b78c41",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-14T11:33:27Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/cc295c6a346b52ffc6df5fa1d6903e45a0b78c41"
-          },
-          {
-            "Text": "Add custom QR Codes to powerpoint!",
-            "SHA": "259a22472602778f688a5d07bc234e50ba8ff814",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-14T11:23:57Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/259a22472602778f688a5d07bc234e50ba8ff814"
-          },
-          {
-            "Text": "Adjust volume estimation guesstimate!",
-            "SHA": "9d4115f4a9a9482a21c5c3b9962c15adbc2d2af2",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-08T14:04:10Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/9d4115f4a9a9482a21c5c3b9962c15adbc2d2af2"
-          },
-          {
-            "Text": "Add an estimate for consultant days! Needs empiric testing!",
-            "SHA": "142f8cc5cf6503777ff0c45104a93c23bef675b4",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-07T08:50:22Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/142f8cc5cf6503777ff0c45104a93c23bef675b4"
-          },
-          {
-            "Text": "Forgot to add file...",
-            "SHA": "3c440b72e53a03a2c961310905ce8849b661a39c",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-08T18:46:36Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/3c440b72e53a03a2c961310905ce8849b661a39c"
-          },
-          {
-            "Text": "Make debug work again!",
-            "SHA": "3607b101396dce6e52ab411a081a2890801a17e9",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-08T18:25:09Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/3607b101396dce6e52ab411a081a2890801a17e9"
-          },
-          {
-            "Text": "Display version in main app!",
-            "SHA": "5d8e7536b8e018da3e4e4db624b63309f0507c92",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-08T16:51:08Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/5d8e7536b8e018da3e4e4db624b63309f0507c92"
-          },
-          {
-            "Text": "Change ChatGPT for org description back a little.",
-            "SHA": "72877227d243e977e2f449036abd3d8b74461824",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-08T16:17:56Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/72877227d243e977e2f449036abd3d8b74461824"
-          },
-          {
-            "Text": "date reformat!",
-            "SHA": "2f66822de4a422b6f7747200559d0a90022c47bc",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-08T16:17:36Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/2f66822de4a422b6f7747200559d0a90022c47bc"
-          },
-          {
-            "Text": "Remove debug output!",
-            "SHA": "b86f375686a2188b9791ce5b6d05a3188c9f6560",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-08T16:02:41Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/b86f375686a2188b9791ce5b6d05a3188c9f6560"
-          },
-          {
-            "Text": "Less wordy ChatGPT when describing project!",
-            "SHA": "84c5d4f5026037a0f3138ce66aabf0d59a228b02",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-08T16:01:26Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/84c5d4f5026037a0f3138ce66aabf0d59a228b02"
-          },
-          {
-            "Text": "Add support for svg images!",
-            "SHA": "af4a0c25574d809f80f142929619c173a8d3c97c",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-08T15:53:43Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/af4a0c25574d809f80f142929619c173a8d3c97c"
-          },
-          {
-            "Text": "Improve Icon placement!",
-            "SHA": "c7f69f753d4bdfa263cb8c4ec29a33778e8b8ec9",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-08T15:15:00Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/c7f69f753d4bdfa263cb8c4ec29a33778e8b8ec9"
-          },
-          {
-            "Text": "Forgot requirement!",
-            "SHA": "cb4c9afa7ebc4c40bebbfbce9c7e750ca0e90937",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-05T19:44:57Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/cb4c9afa7ebc4c40bebbfbce9c7e750ca0e90937"
-          },
-          {
-            "Text": "Add a first edition with working skill icons!",
-            "SHA": "401057c42941f489df0f2845c601f4dfe6831710",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-05T18:10:23Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/401057c42941f489df0f2845c601f4dfe6831710"
-          },
-          {
-            "Text": "Add a secret var for icon storage!",
-            "SHA": "15ba1512cb3dce8ae2c13adec0a5b2c8947fcbe2",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-05T18:05:53Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/15ba1512cb3dce8ae2c13adec0a5b2c8947fcbe2"
-          },
-          {
-            "Text": "Move YASM APi Path into Env Var!",
-            "SHA": "c7d4fd2a594ef8d607985c84988439ac2e7116e7",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-05T09:09:00Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/c7d4fd2a594ef8d607985c84988439ac2e7116e7"
-          },
-          {
-            "Text": "Filter errorneous Roles!",
-            "SHA": "c8f4662467d1283524f8a464adaa0d0ac578709c",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-01T16:10:05Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/c8f4662467d1283524f8a464adaa0d0ac578709c"
-          },
-          {
-            "Text": "Add some optional debug!",
-            "SHA": "28643192a380a9f304dfb1f6b7d1d534fdd79a15",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-01T15:56:02Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/28643192a380a9f304dfb1f6b7d1d534fdd79a15"
-          },
-          {
-            "Text": "no longer need neo4j!",
-            "SHA": "3f8c8f116b436410f5269cb256718d934471d4e9",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-01T15:51:17Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/3f8c8f116b436410f5269cb256718d934471d4e9"
-          },
-          {
-            "Text": "clean up!",
-            "SHA": "091f755fb5d5096e8fa983b92d0c933309a3d454",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-03-01T15:50:44Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/091f755fb5d5096e8fa983b92d0c933309a3d454"
-          },
-          {
-            "Text": "Bump azure/setup-helm from 3 to 4",
-            "SHA": "36b28c17c9317101397a4cc05e2dabe2bd664a70",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-02-29T13:10:43Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/36b28c17c9317101397a4cc05e2dabe2bd664a70"
-          },
-          {
-            "Text": "Enable buildkit for docker-compose!",
-            "SHA": "b7bcbc4ab3d199324e70ece072bf45354531ad70",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-02-29T12:41:21Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/b7bcbc4ab3d199324e70ece072bf45354531ad70"
-          },
-          {
-            "Text": "Apply black formatting!",
-            "SHA": "4dae5baebbd58cc4686c2bfccdf88e71ff6270f4",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-02-29T10:51:52Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/4dae5baebbd58cc4686c2bfccdf88e71ff6270f4"
-          },
-          {
-            "Text": "Minor formatting changes!",
-            "SHA": "ff05238a0acca0af13c4e2d6e7adc9858710c702",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-02-29T10:09:10Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/ff05238a0acca0af13c4e2d6e7adc9858710c702"
-          },
-          {
-            "Text": "Clean up input raw inputs, refactor for download button!",
-            "SHA": "3351b161828fd9f76ae9314106352327842288a9",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-02-29T10:08:52Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/3351b161828fd9f76ae9314106352327842288a9"
-          },
-          {
-            "Text": "Remove debug statement!",
-            "SHA": "76df22b239d54ca7c2fef6637e666d22c86eff5a",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-02-29T10:07:50Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/76df22b239d54ca7c2fef6637e666d22c86eff5a"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/sales-copilot/compare/1.0.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1858,5 +1565,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-14T12:10:51Z"
+  "LastUpdated": "2024-05-14T12:17:30Z"
 }
