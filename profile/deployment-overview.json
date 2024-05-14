@@ -768,16 +768,16 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0c2935f",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.26.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.25.0",
+          "Version": "1.26.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -825,8 +825,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 4,
+        "Count": 5,
         "Workflows": [
+          {
+            "Name": "Merge pull request #418 from PRODYNA-YASM/technology-update",
+            "Timestamp": "2024-05-14T09:42:04Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9077209401"
+          },
           {
             "Name": "Merge pull request #415 from PRODYNA-YASM/dependabot/go_modules/githu…",
             "Timestamp": "2024-05-08T08:45:36Z",
@@ -864,9 +869,9 @@
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.4.0",
+          "Version": "1.4.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -921,8 +926,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 3,
         "Workflows": [
+          {
+            "Name": "Merge pull request #71 from PRODYNA-YASM/technology-update",
+            "Timestamp": "2024-05-14T09:43:21Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-github/actions/runs/9077224890"
+          },
           {
             "Name": "Merge pull request #70 from PRODYNA-YASM/36-implement-find-github-use…",
             "Timestamp": "2024-05-10T23:23:56Z",
@@ -994,8 +1004,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Technologdy update",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/108"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
@@ -1514,5 +1529,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-14T09:45:37Z"
+  "LastUpdated": "2024-05-14T09:48:05Z"
 }
