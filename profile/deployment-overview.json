@@ -85,8 +85,14 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "fix: adjust http protocoll (#605)",
+            "Timestamp": "2024-05-16T11:56:13Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/9111792093"
+          }
+        ]
       }
     },
     {
@@ -96,14 +102,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "3b2872d",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.26.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.19.7",
+          "Version": "1.26.0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -112,17 +118,24 @@
           "Link": "",
           "Version": "1.19.7",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.19.7",
+        "Tag": "1.26.0",
         "SHA": "",
-        "Title": "Change Select behavior to be consistent with other select fields",
-        "Timestamp": "2024-04-29T08:23:30Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.7"
+        "Title": "Added detail-view for Organizations, Industries, Certifications and Skills",
+        "Timestamp": "2024-05-16T12:51:17Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.26.0"
       },
       "Releases": [
+        {
+          "Tag": "1.26.0",
+          "SHA": "",
+          "Title": "Added detail-view for Organizations, Industries, Certifications and Skills",
+          "Timestamp": "2024-05-16T11:59:35Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.26.0"
+        },
         {
           "Tag": "1.19.7",
           "SHA": "",
@@ -136,13 +149,6 @@
           "Title": "Fixed Icon in Personal Interests",
           "Timestamp": "2024-04-26T13:55:11Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.6"
-        },
-        {
-          "Tag": "1.19.5",
-          "SHA": "",
-          "Title": "1.19.5",
-          "Timestamp": "2024-04-26T13:10:06Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.5"
         }
       ],
       "PullRequests": {
@@ -181,310 +187,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.19.7..HEAD",
-        "Count": 30,
-        "Commits": [
-          {
-            "Text": "Merge pull request #650 from PRODYNA-YASM/feature/skills",
-            "SHA": "3b2872d6da4247704deb25a397e81fb14577849a",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-05-16T11:59:35Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/3b2872d6da4247704deb25a397e81fb14577849a"
-          },
-          {
-            "Text": "Merge branch 'main' into feature/skills",
-            "SHA": "4222121e1302fa2a93d05e37c21a1dbb5f4d3c33",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-05-16T11:42:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/4222121e1302fa2a93d05e37c21a1dbb5f4d3c33"
-          },
-          {
-            "Text": "added view for child node in Skill Tree and fixed uuid bug when creating skills, orgs, industry and certification",
-            "SHA": "fab7eaf9e86a133262b36c92e31913c65eda8907",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-05-16T11:41:18Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/fab7eaf9e86a133262b36c92e31913c65eda8907"
-          },
-          {
-            "Text": "wip: add feature to show children of child Skill",
-            "SHA": "fd497fd25b559d4aadd47ee9a3f10f970b7601ae",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-05-16T09:12:39Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/fd497fd25b559d4aadd47ee9a3f10f970b7601ae"
-          },
-          {
-            "Text": "update treeview",
-            "SHA": "3523ee35dea6fc211d289053e99e4d5836e0c28c",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-15T09:15:48Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/3523ee35dea6fc211d289053e99e4d5836e0c28c"
-          },
-          {
-            "Text": "fix layout",
-            "SHA": "dec8cfe8f4bf8275902980728cb3e23f18f70274",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-15T09:04:18Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/dec8cfe8f4bf8275902980728cb3e23f18f70274"
-          },
-          {
-            "Text": "add skill treeview",
-            "SHA": "633c69748e38a6237a33ed3f36f460bd190f0c24",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-15T08:59:53Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/633c69748e38a6237a33ed3f36f460bd190f0c24"
-          },
-          {
-            "Text": "fix snackbar state",
-            "SHA": "f2b3539b036556838b7757d974da9b43016ccc2f",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-15T07:28:48Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/f2b3539b036556838b7757d974da9b43016ccc2f"
-          },
-          {
-            "Text": "Merge pull request #645 from PRODYNA-YASM/feature/add-testdata-ids",
-            "SHA": "11081bf0fe243a7d24583f97d1eff6c3260e23ea",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-05-13T15:54:17Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/11081bf0fe243a7d24583f97d1eff6c3260e23ea"
-          },
-          {
-            "Text": "Merge pull request #647 from PRODYNA-YASM/feature/578-automatically-generate-changelog",
-            "SHA": "10415dae0e09ff65ead62dd6cd0e5b48986c1179",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-05-13T15:39:37Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/10415dae0e09ff65ead62dd6cd0e5b48986c1179"
-          },
-          {
-            "Text": "Add yasm-api to changelog",
-            "SHA": "ad6f939fa1e1521a4770059e66a41df5f68868eb",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-05-13T15:30:52Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ad6f939fa1e1521a4770059e66a41df5f68868eb"
-          },
-          {
-            "Text": "Merge pull request #646 from PRODYNA-YASM/feature/578-automatically-generate-changelog",
-            "SHA": "2913c8b405ed061109ce3359ac31753dcbf5e968",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-05-13T15:29:57Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2913c8b405ed061109ce3359ac31753dcbf5e968"
-          },
-          {
-            "Text": "Add changelog.json to html directory",
-            "SHA": "152109f7fdd0d0397de427ba6e578da478e72283",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-05-13T15:28:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/152109f7fdd0d0397de427ba6e578da478e72283"
-          },
-          {
-            "Text": "Add data-testid attributes to ProjectSelection component",
-            "SHA": "93d19b099864497cae6fc6636e9072cdeaaa6582",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-13T15:22:01Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/93d19b099864497cae6fc6636e9072cdeaaa6582"
-          },
-          {
-            "Text": "Merge pull request #644 from PRODYNA-YASM/feature/578-automatically-generate-changelog",
-            "SHA": "143d718653f324d30ae17b430a251b239e465f9a",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-05-13T15:21:20Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/143d718653f324d30ae17b430a251b239e465f9a"
-          },
-          {
-            "Text": "Real world smaple file",
-            "SHA": "d200efbe7e9452dfd8dfcc51c8019011ac277a20",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-05-13T15:18:37Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d200efbe7e9452dfd8dfcc51c8019011ac277a20"
-          },
-          {
-            "Text": "Extend pipeline to create a changelog, dummy changelog changed",
-            "SHA": "2a62409409e54815be8ea120105e23120d7485db",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-05-13T15:17:23Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2a62409409e54815be8ea120105e23120d7485db"
-          },
-          {
-            "Text": "Merge branch 'main' into feature/578-automatically-generate-changelog",
-            "SHA": "467fb68efb3f4804ea50d6ff661ad4bd167b6276",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-05-13T15:12:41Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/467fb68efb3f4804ea50d6ff661ad4bd167b6276"
-          },
-          {
-            "Text": "add autoHide snackbar",
-            "SHA": "86a0b2d8561c5f84dd93b76e4925431a974b75e8",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-13T14:50:43Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/86a0b2d8561c5f84dd93b76e4925431a974b75e8"
-          },
-          {
-            "Text": "update snackbar styles",
-            "SHA": "cc5b3ca288be4d36b3c446f3426d44fd5b357f54",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-13T14:49:22Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/cc5b3ca288be4d36b3c446f3426d44fd5b357f54"
-          },
-          {
-            "Text": "update snackbar styles",
-            "SHA": "c5785276f6c4ad522d6ad1cb8afcdf36612fb78e",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-13T14:12:40Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/c5785276f6c4ad522d6ad1cb8afcdf36612fb78e"
-          },
-          {
-            "Text": "update chip styles",
-            "SHA": "d5acf6f6b45521aa9cd7573ea25d074b10927e37",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-13T13:29:34Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d5acf6f6b45521aa9cd7573ea25d074b10927e37"
-          },
-          {
-            "Text": "fix form title",
-            "SHA": "73886fe078584274fda5de1f11509af228a6ac17",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-13T13:17:15Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/73886fe078584274fda5de1f11509af228a6ac17"
-          },
-          {
-            "Text": "fix theme colors",
-            "SHA": "b28e647939128646126ac613988d3ae153338684",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-13T13:14:27Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b28e647939128646126ac613988d3ae153338684"
-          },
-          {
-            "Text": "rename component",
-            "SHA": "054a20240c1907f4e091171bd8012d27ba01341b",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-13T09:43:13Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/054a20240c1907f4e091171bd8012d27ba01341b"
-          },
-          {
-            "Text": "pages loaded lazy - fix layout to prevent footer jumping",
-            "SHA": "657114782122f39167635ff5b7fd84d025c8023a",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-13T09:37:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/657114782122f39167635ff5b7fd84d025c8023a"
-          },
-          {
-            "Text": "rename component",
-            "SHA": "25cb49505fa7b2723a6bc59314e353e6d8f849c7",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-13T09:15:20Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/25cb49505fa7b2723a6bc59314e353e6d8f849c7"
-          },
-          {
-            "Text": "remove unused components",
-            "SHA": "798aebef3858cd3a30d93ebad3f78becfaea95ca",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-13T09:13:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/798aebef3858cd3a30d93ebad3f78becfaea95ca"
-          },
-          {
-            "Text": "add CustomTreeView",
-            "SHA": "6b04685b8352e2ee133b0336f9d92a7f1639c3f2",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-13T08:42:29Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/6b04685b8352e2ee133b0336f9d92a7f1639c3f2"
-          },
-          {
-            "Text": "Add data-testid attributes to RoleSelection, SenioritySelection, SkillsAndCertifications, and ExportUserProfile components",
-            "SHA": "88ad84527c7b4fb6dbe256b1393c54392bc8c9a1",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-10T11:44:40Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/88ad84527c7b4fb6dbe256b1393c54392bc8c9a1"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.26.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1374,5 +1079,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-16T12:15:32Z"
+  "LastUpdated": "2024-05-16T13:34:43Z"
 }
