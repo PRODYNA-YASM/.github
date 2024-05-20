@@ -154,12 +154,12 @@
         "Count": 8,
         "PullRequests": [
           {
-            "Title": "Add feature to check if user has GitHub access",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/652"
+            "Title": "Bump eslint from 8.57.0 to 9.3.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/653"
           },
           {
-            "Title": "Bump eslint from 8.57.0 to 9.2.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/637"
+            "Title": "Add feature to check if user has GitHub access",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/652"
           },
           {
             "Title": "upgrade dependencies, removed old babel-loader for lodash",
@@ -867,8 +867,17 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump azurerm from 3.103.1 to 3.104.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/507"
+          },
+          {
+            "Title": "Bump azurerm from 3.103.1 to 3.104.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/506"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -1102,5 +1111,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-19T07:32:15Z"
+  "LastUpdated": "2024-05-20T07:32:24Z"
 }
