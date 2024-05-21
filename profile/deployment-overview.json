@@ -215,9 +215,9 @@
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.26.0",
+          "Version": "1.26.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -272,8 +272,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 5,
+        "Count": 6,
         "Workflows": [
+          {
+            "Name": "Merge pull request #320 from PRODYNA-YASM/feature/technolgy-update",
+            "Timestamp": "2024-05-21T15:43:57Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9177461182"
+          },
           {
             "Name": "Merge pull request #319 from PRODYNA-YASM/dependabot/go_modules/githu…",
             "Timestamp": "2024-05-14T09:41:06Z",
@@ -373,8 +378,14 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #188 from PRODYNA-YASM/feature/technolgy-update",
+            "Timestamp": "2024-05-21T15:44:16Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/9177465100"
+          }
+        ]
       }
     },
     {
@@ -583,9 +594,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.6.9",
+          "Version": "1.6.10",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -633,13 +644,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #110 from PRODYNA-YASM/feature/technolgy-update",
-            "Timestamp": "2024-05-21T15:43:16Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/9177453592"
-          },
           {
             "Name": "Merge pull request #99 from PRODYNA-YASM/dependabot/go_modules/github…",
             "Timestamp": "2024-04-23T07:04:20Z",
@@ -1110,5 +1116,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-21T17:13:45Z"
+  "LastUpdated": "2024-05-21T17:47:40Z"
 }
