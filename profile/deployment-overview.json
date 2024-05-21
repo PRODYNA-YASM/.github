@@ -309,9 +309,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.11.7",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "57a815f",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -366,8 +366,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.11.7..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #187 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.64.0",
+            "SHA": "57a815f4aa95052d44040c1b0e322ad028a065c7",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-20T13:27:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/57a815f4aa95052d44040c1b0e322ad028a065c7"
+          },
+          {
+            "Text": "Bump google.golang.org/grpc from 1.63.2 to 1.64.0",
+            "SHA": "4ec4830351171e8f9eb535bbe4eb5a2fee44519f",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-05-20T13:06:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/4ec4830351171e8f9eb535bbe4eb5a2fee44519f"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -870,12 +891,12 @@
         "Count": 2,
         "PullRequests": [
           {
-            "Title": "Bump azurerm from 3.103.1 to 3.104.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/507"
+            "Title": "Bump azurerm from 3.103.1 to 3.104.2 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/509"
           },
           {
-            "Title": "Bump azurerm from 3.103.1 to 3.104.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/506"
+            "Title": "Bump azurerm from 3.103.1 to 3.104.2 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/508"
           }
         ]
       },
@@ -935,8 +956,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 4,
+        "Count": 5,
         "PullRequests": [
+          {
+            "Title": "Bump org.openapitools:openapi-generator-maven-plugin from 7.5.0 to 7.6.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/190"
+          },
           {
             "Title": "Bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.55 to 3.0.56",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/188"
@@ -1111,5 +1136,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-20T07:32:24Z"
+  "LastUpdated": "2024-05-21T07:32:34Z"
 }

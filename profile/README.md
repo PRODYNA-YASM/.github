@@ -1,20 +1,20 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-05-20T07:32:24Z
+Component Status overview. Last update 2024-05-21T07:32:34Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.26.0 |  :green_square: 1.26.0 |  :green_square: 1.26.0 |  :red_square: 1.19.2 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.26.0 |  :green_square: 1.26.0 |  :green_square: 1.26.0 |  :red_square: 1.19.7 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.26.0 |  :green_square: 1.26.0 |  :green_square: 1.26.0 |  :red_square: 1.19.6 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.7 |  :green_square: 1.11.7 |  :green_square: 1.11.7 |  :green_square: 1.11.7 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.11.7..HEAD) | :green_square: 0 | 1.11.7 |  :red_square: 57a815f |  :green_square: 1.11.7 |  :green_square: 1.11.7 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.26.1..HEAD) | :green_square: 0 | 1.26.1 |  :red_square: 19c0d5c |  :green_square: 1.26.1 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.4.4 |  :green_square: 1.4.4 |  :green_square: 1.4.4 |  :green_square: 1.4.4 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.6.9 |  :green_square: 1.6.9 |  :green_square: 1.6.9 |  :green_square: 1.6.9 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.2 |  :green_square: 1.10.2 |  :green_square: 1.10.2 |  :green_square: 1.10.2 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.5.0-1 |  :green_square: 8.5.0-1 |  :green_square: 8.5.0-1 |  :green_square: 8.5.0-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.26.1 |  :green_square: 1.26.1 |  :green_square: 1.26.1 |  :green_square: 1.26.1 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.26.0 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.26.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :green_square: 0 | :green_square: 0 | 1.0.0 |  :green_square: 1.0.0 |  :green_square: 1.0.0 |  :green_square: 1.0.0 | 
 
@@ -158,6 +158,13 @@ Component Status overview. Last update 2024-05-20T07:32:24Z
 
 
 
+### [Commits on main since 1.11.7](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.11.7..HEAD) (2)
+
+- [Merge pull request #187 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.64.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/57a815f4aa95052d44040c1b0e322ad028a065c7) by [dkrizic](https://github.com/dkrizic) on 2024-05-20 13:27:05 +0000 UTC
+
+- [Bump google.golang.org/grpc from 1.63.2 to 1.64.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/4ec4830351171e8f9eb535bbe4eb5a2fee44519f) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-05-20 13:06:34 +0000 UTC
+
+
 
 
 
@@ -165,9 +172,9 @@ Component Status overview. Last update 2024-05-20T07:32:24Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.11.7 |  1.11.7 |  1.11.7 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  57a815f |  1.11.7 |  1.11.7 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -374,9 +381,9 @@ Component Status overview. Last update 2024-05-20T07:32:24Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (2)
 
-- [Bump azurerm from 3.103.1 to 3.104.0 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/507)
+- [Bump azurerm from 3.103.1 to 3.104.2 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/509)
 
-- [Bump azurerm from 3.103.1 to 3.104.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/506)
+- [Bump azurerm from 3.103.1 to 3.104.2 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/508)
 
 
 
@@ -414,7 +421,9 @@ Component Status overview. Last update 2024-05-20T07:32:24Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (4)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (5)
+
+- [Bump org.openapitools:openapi-generator-maven-plugin from 7.5.0 to 7.6.0](https://github.com/PRODYNA-YASM/yasm-api/pull/190)
 
 - [Bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.55 to 3.0.56](https://github.com/PRODYNA-YASM/yasm-api/pull/188)
 
