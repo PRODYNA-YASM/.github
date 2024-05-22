@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-05-22T07:32:08Z
+Component Status overview. Last update 2024-05-22T12:01:44Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -8,12 +8,12 @@ Component Status overview. Last update 2024-05-22T07:32:08Z
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.26.0 |  :green_square: 1.26.0 |  :green_square: 1.26.0 |  :red_square: 1.19.7 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.26.2 |  :green_square: 1.26.2 |  :green_square: 1.26.2 |  :red_square: 1.19.6 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.8 |  :green_square: 1.11.8 |  :green_square: 1.11.8 |  :red_square: 1.11.7 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.26.2 |  :green_square: 1.26.2 |  :green_square: 1.26.2 | 
-| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.4.6 |  :green_square: 1.4.6 |  :green_square: 1.4.6 |  :green_square: 1.4.6 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.26.3 |  :green_square: 1.26.3 |  :green_square: 1.26.3 | 
+| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.4.7 |  :green_square: 1.4.7 |  :green_square: 1.4.7 |  :green_square: 1.4.7 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.6.10 |  :green_square: 1.6.10 |  :green_square: 1.6.10 |  :green_square: 1.6.10 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.2 |  :green_square: 1.10.2 |  :green_square: 1.10.2 |  :green_square: 1.10.2 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.5.0-1 |  :green_square: 8.5.0-1 |  :green_square: 8.5.0-1 |  :green_square: 8.5.0-1 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.26.1 |  :green_square: 1.26.1 |  :green_square: 1.26.1 |  :green_square: 1.26.1 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.26.2 |  :red_square: 6e6650f |  :red_square: 1.26.1 |  :red_square: 1.26.1 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.26.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :green_square: 0 | :green_square: 0 | 1.0.0 |  :green_square: 1.0.0 |  :green_square: 1.0.0 |  :green_square: 1.0.0 | 
@@ -192,24 +192,11 @@ Component Status overview. Last update 2024-05-22T07:32:08Z
 
 
 
-## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.26.2
+## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.26.3
 
 
 
 
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (5)
-
-- [Bump go.opentelemetry.io/otel from 1.26.0 to 1.27.0](https://github.com/PRODYNA-YASM/yasm-integration/pull/426)
-
-- [Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc from 1.26.0 to 1.27.0](https://github.com/PRODYNA-YASM/yasm-integration/pull/425)
-
-- [Bump go.opentelemetry.io/otel/sdk from 1.26.0 to 1.27.0](https://github.com/PRODYNA-YASM/yasm-integration/pull/424)
-
-- [Bump go.opentelemetry.io/otel/metric from 1.26.0 to 1.27.0](https://github.com/PRODYNA-YASM/yasm-integration/pull/423)
-
-- [Bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp from 0.51.0 to 0.52.0](https://github.com/PRODYNA-YASM/yasm-integration/pull/422)
 
 
 
@@ -217,23 +204,25 @@ Component Status overview. Last update 2024-05-22T07:32:08Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  1.26.2 |  1.26.2 | 
+| Version |  1.26.3 |  1.26.3 | 
 | Release |  :green_square: |  :green_square: | 
 | Current |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [OpenTelemetry 1.27](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.26.3) on 2024-05-22 09:50:41 +0000 UTC
+
 - [1.26.2](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.26.2) on 2024-05-21 15:38:28 +0000 UTC
 
 - [gRPC update](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.26.1) on 2024-05-15 07:18:29 +0000 UTC
 
-- [Using API 1.26](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.26.0) on 2024-05-14 09:35:52 +0000 UTC
 
 
 
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (8)
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (7)
+- [Merge pull request #426 from PRODYNA-YASM/dependabot/go_modules/go.op…](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9189201188) created on 2024-05-22 09:56:06 +0000 UTC
 
 - [Merge pull request #421 from PRODYNA-YASM/feature/technolgy-update](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9177468495) created on 2024-05-21 15:44:35 +0000 UTC
 
@@ -252,24 +241,11 @@ Component Status overview. Last update 2024-05-22T07:32:08Z
 
 
 
-## [yasm-github](https://github.com/prodyna-yasm/yasm-github) 1.4.6
+## [yasm-github](https://github.com/prodyna-yasm/yasm-github) 1.4.7
 
 
 
 
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-github/pulls) (5)
-
-- [Bump go.opentelemetry.io/otel/sdk from 1.26.0 to 1.27.0](https://github.com/PRODYNA-YASM/yasm-github/pull/88)
-
-- [Bump go.opentelemetry.io/otel/sdk/metric from 1.26.0 to 1.27.0](https://github.com/PRODYNA-YASM/yasm-github/pull/87)
-
-- [Bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp from 0.51.0 to 0.52.0](https://github.com/PRODYNA-YASM/yasm-github/pull/86)
-
-- [Bump go.opentelemetry.io/otel/metric from 1.26.0 to 1.27.0](https://github.com/PRODYNA-YASM/yasm-github/pull/85)
-
-- [Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc from 1.26.0 to 1.27.0](https://github.com/PRODYNA-YASM/yasm-github/pull/84)
 
 
 
@@ -277,18 +253,18 @@ Component Status overview. Last update 2024-05-22T07:32:08Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.4.6 |  1.4.6 |  1.4.6 | 
+| Version |  1.4.7 |  1.4.7 |  1.4.7 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
 | Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [OpenTelemetry 1.27](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.4.7) on 2024-05-22 09:50:59 +0000 UTC
+
 - [1.4.6](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.4.6) on 2024-05-21 15:39:11 +0000 UTC
 
 - [1.4.5](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.4.5) on 2024-05-21 10:45:23 +0000 UTC
-
-- [Improve spans, technology update](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.4.4) on 2024-05-16 07:29:40 +0000 UTC
 
 
 
@@ -400,18 +376,11 @@ Component Status overview. Last update 2024-05-22T07:32:08Z
 
 
 
-## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 1.26.1
+## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 1.26.2
 
 
 
 
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (2)
-
-- [Bump azurerm from 3.103.1 to 3.104.2 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/509)
-
-- [Bump azurerm from 3.103.1 to 3.104.2 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/508)
 
 
 
@@ -419,18 +388,18 @@ Component Status overview. Last update 2024-05-22T07:32:08Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.26.1 |  1.26.1 |  1.26.1 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  6e6650f |  1.26.1 |  1.26.1 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :red_square: |  :red_square: | 
 
 
 ### Last releases
 
+- [Otel Collector 0.92](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.26.2) on 2024-05-22 11:53:37 +0000 UTC
+
 - [Compactor memory](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.26.1) on 2024-05-14 13:49:34 +0000 UTC
 
 - [Component updates, preparation for Apps 1.26](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.26.0) on 2024-05-14 12:44:07 +0000 UTC
-
-- [1.24.0](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.24.0) on 2024-05-07 09:51:31 +0000 UTC
 
 
 
