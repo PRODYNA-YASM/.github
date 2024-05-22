@@ -208,14 +208,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.26.1",
+          "Version": "1.26.2",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.26.1",
+          "Version": "1.26.2",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -228,13 +228,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "1.26.1",
+        "Tag": "1.26.2",
         "SHA": "",
-        "Title": "1.26.1",
-        "Timestamp": "2024-05-21T15:43:55Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.26.1"
+        "Title": "New libraries",
+        "Timestamp": "2024-05-21T22:05:07Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.26.2"
       },
       "Releases": [
+        {
+          "Tag": "1.26.2",
+          "SHA": "",
+          "Title": "New libraries",
+          "Timestamp": "2024-05-21T22:00:27Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.26.2"
+        },
         {
           "Tag": "1.26.1",
           "SHA": "",
@@ -248,13 +255,6 @@
           "Title": "Using API 1.26.0",
           "Timestamp": "2024-05-14T00:18:12Z",
           "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.26.0"
-        },
-        {
-          "Tag": "1.25.0",
-          "SHA": "",
-          "Title": "API 1.25.0",
-          "Timestamp": "2024-05-07T22:08:25Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.25.0"
         }
       ],
       "PullRequests": {
@@ -264,7 +264,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.26.1..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.26.2..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -272,8 +272,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 6,
+        "Count": 7,
         "Workflows": [
+          {
+            "Name": "Merge pull request #324 from PRODYNA-YASM/dependabot/go_modules/go.op…",
+            "Timestamp": "2024-05-21T22:05:09Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9182087461"
+          },
           {
             "Name": "Merge pull request #320 from PRODYNA-YASM/feature/technolgy-update",
             "Timestamp": "2024-05-21T15:43:57Z",
@@ -439,8 +444,29 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 5,
+        "PullRequests": [
+          {
+            "Title": "Bump go.opentelemetry.io/otel from 1.26.0 to 1.27.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/426"
+          },
+          {
+            "Title": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc from 1.26.0 to 1.27.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/425"
+          },
+          {
+            "Title": "Bump go.opentelemetry.io/otel/sdk from 1.26.0 to 1.27.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/424"
+          },
+          {
+            "Title": "Bump go.opentelemetry.io/otel/metric from 1.26.0 to 1.27.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/423"
+          },
+          {
+            "Title": "Bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp from 0.51.0 to 0.52.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/422"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -550,8 +576,29 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 5,
+        "PullRequests": [
+          {
+            "Title": "Bump go.opentelemetry.io/otel/sdk from 1.26.0 to 1.27.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/88"
+          },
+          {
+            "Title": "Bump go.opentelemetry.io/otel/sdk/metric from 1.26.0 to 1.27.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/87"
+          },
+          {
+            "Title": "Bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp from 0.51.0 to 0.52.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/86"
+          },
+          {
+            "Title": "Bump go.opentelemetry.io/otel/metric from 1.26.0 to 1.27.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/85"
+          },
+          {
+            "Title": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc from 1.26.0 to 1.27.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/84"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
@@ -936,8 +983,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 5,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "Bump jakarta.validation:jakarta.validation-api from 3.0.2 to 3.1.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/191"
+          },
           {
             "Title": "Bump org.openapitools:openapi-generator-maven-plugin from 7.5.0 to 7.6.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/190"
@@ -1116,5 +1167,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-21T17:47:40Z"
+  "LastUpdated": "2024-05-22T07:32:08Z"
 }
