@@ -1,16 +1,16 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-05-24T11:45:26Z
+Component Status overview. Last update 2024-05-24T12:32:20Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-backend/compare/1.26.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.26.0 |  :red_square: e9b199b |  :green_square: 1.26.0 |  :red_square: 1.19.2 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [13](https://github.com/prodyna-yasm/yasm-frontend/compare/1.26.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.26.0 |  :red_square: 6be1eab |  :green_square: 1.26.0 |  :red_square: 1.19.7 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.26.1 |  :green_square: 1.26.1 |  :green_square: 1.26.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.26.1 |  :green_square: 1.26.1 |  :green_square: 1.26.1 |  :red_square: 1.19.7 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.26.2 |  :green_square: 1.26.2 |  :green_square: 1.26.2 |  :red_square: 1.19.6 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.8 |  :green_square: 1.11.8 |  :green_square: 1.11.8 |  :red_square: 1.11.7 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.26.4 |  :green_square: 1.26.4 |  :green_square: 1.26.4 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.4.7 |  :green_square: 1.4.7 |  :green_square: 1.4.7 |  :green_square: 1.4.7 | 
-| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.9.12 |  :green_square: 1.9.12 |  :green_square: 1.9.12 |  :red_square: 1.6.10 | 
+| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.9.12 |  :green_square: 1.9.12 |  :green_square: 1.9.12 |  :green_square: 1.9.12 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.2 |  :green_square: 1.10.2 |  :green_square: 1.10.2 |  :green_square: 1.10.2 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.5.0-1 |  :green_square: 8.5.0-1 |  :green_square: 8.5.0-1 |  :green_square: 8.5.0-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.26.2 |  :green_square: 1.26.2 |  :green_square: 1.26.2 |  :green_square: 1.26.2 | 
@@ -20,14 +20,9 @@ Component Status overview. Last update 2024-05-24T11:45:26Z
 
 
 
-## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.26.0
+## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.26.1
 
 
-
-
-### [Commits on main since 1.26.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.26.0..HEAD) (1)
-
-- [610 fix skill linking (#612)](https://github.com/prodyna-yasm/yasm-backend/commit/e9b199bf5afe481368e6d06833207e97400412f7) by [coding4kay](https://github.com/coding4kay) on 2024-05-24 09:04:38 +0000 UTC
 
 
 
@@ -46,58 +41,29 @@ Component Status overview. Last update 2024-05-24T11:45:26Z
 
 ### Environments
 
-| Environment |  dev |  staging |  prod | 
-| --- |  --- |  --- |  --- | 
-| Version |  e9b199b |  1.26.0 |  1.19.2 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :red_square: | 
+| Environment |  dev |  staging | 
+| --- |  --- |  --- | 
+| Version |  1.26.1 |  1.26.1 | 
+| Release |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: | 
 
 
 ### Last releases
+
+- [Fix skill linking relevant for kindgiver](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.26.1) on 2024-05-24 09:04:38 +0000 UTC
 
 - [Sort people avatar in project, clean skill api and add search metrics](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.26.0) on 2024-05-14 12:53:08 +0000 UTC
 
 - [Improve Search possibilities](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.25.0) on 2024-05-07 18:48:18 +0000 UTC
 
-- [Improve Order](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.19.2) on 2024-04-04 17:47:34 +0000 UTC
 
 
 
 
 
-
-## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.26.0
-
+## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.26.1
 
 
-
-### [Commits on main since 1.26.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.26.0..HEAD) (13)
-
-- [Merge pull request #656 from PRODYNA-YASM/feature/skill-parent-path](https://github.com/prodyna-yasm/yasm-frontend/commit/6be1eab324254dfbaaf22ab264d330d41a4d7554) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-24 10:35:49 +0000 UTC
-
-- [610 fix skill linking](https://github.com/prodyna-yasm/yasm-frontend/commit/2dc6bf9cf6516f8ce1685afe450f16698fb08314) by [coding4kay](https://github.com/coding4kay) on 2024-05-24 10:34:16 +0000 UTC
-
-- [skill fix parent path](https://github.com/prodyna-yasm/yasm-frontend/commit/316c9caf3175c6f6f61fb246e194f4b3a4ab6130) by [coding4kay](https://github.com/coding4kay) on 2024-05-24 10:17:46 +0000 UTC
-
-- [skill fix parent path](https://github.com/prodyna-yasm/yasm-frontend/commit/29e0fd764d8426669f675591f77f365f014727eb) by [coding4kay](https://github.com/coding4kay) on 2024-05-24 10:12:34 +0000 UTC
-
-- [Merge pull request #652 from PRODYNA-YASM/feature/check-user-github-access](https://github.com/prodyna-yasm/yasm-frontend/commit/e35e92a8bd10711457f0a374231cefbc3fe7d732) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-23 10:52:20 +0000 UTC
-
-- [moved the github api path to constant](https://github.com/prodyna-yasm/yasm-frontend/commit/87fccf236a5bb3f522968c9e11d8c5bd8e0c1f35) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-23 10:49:57 +0000 UTC
-
-- [Merge pull request #655 from PRODYNA-YASM/fix/1.26.0](https://github.com/prodyna-yasm/yasm-frontend/commit/b21f13e595c40e75b69e88b7be10dc0ef3235a54) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-23 10:39:48 +0000 UTC
-
-- [486: multiple project participation in one project will be shown in two separate tiles](https://github.com/prodyna-yasm/yasm-frontend/commit/1414a387324d6aa2d1c77ce7d34b984c2444e529) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-23 08:33:19 +0000 UTC
-
-- [486: set overflow-visible only for some modal (e.g. Assign employee to Project)](https://github.com/prodyna-yasm/yasm-frontend/commit/2b4f3b39f92643a7ec71994fbc2fe1bd1b98cbb9) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-23 08:07:06 +0000 UTC
-
-- [486: fixed Skill breadcrumb link](https://github.com/prodyna-yasm/yasm-frontend/commit/98d8009d007c3c9a1613c67d4cbca0a21f584086) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-23 07:54:10 +0000 UTC
-
-- [486: fixed skilltree, can see grandchildren of a skill and its children](https://github.com/prodyna-yasm/yasm-frontend/commit/28b11060ac67c83f1239720e0e5a0ff1aa40a85c) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-21 13:08:31 +0000 UTC
-
-- [486: fixed employee-, organizations-, certifications-bugs and update groupPriority in Skills](https://github.com/prodyna-yasm/yasm-frontend/commit/985b4d3b04d517481cf249215a251559cc3a4854) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-21 11:39:35 +0000 UTC
-
-- [Merge branch 'main' into feature/check-user-github-access](https://github.com/prodyna-yasm/yasm-frontend/commit/2267cdba1b2ae3e1cba4f5a4b4510c2ce67aaee2) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-16 13:21:24 +0000 UTC
 
 
 
@@ -124,18 +90,18 @@ Component Status overview. Last update 2024-05-24T11:45:26Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  6be1eab |  1.26.0 |  1.19.7 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :red_square: | 
+| Version |  1.26.1 |  1.26.1 |  1.19.7 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
 
+- [Added Skill Parent Path (Kindgiver), add check if user has GitHub access, and multiple bug fixes](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.26.1) on 2024-05-24 10:35:49 +0000 UTC
+
 - [Added detail-view for Organizations, Industries, Certifications and Skills](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.26.0) on 2024-05-16 11:59:35 +0000 UTC
 
 - [Change Select behavior to be consistent with other select fields](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.7) on 2024-04-29 08:22:45 +0000 UTC
-
-- [Fixed Icon in Personal Interests](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.19.6) on 2024-04-26 13:55:11 +0000 UTC
 
 
 
@@ -318,9 +284,9 @@ Component Status overview. Last update 2024-05-24T11:45:26Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.9.12 |  1.9.12 |  1.6.10 | 
+| Version |  1.9.12 |  1.9.12 |  1.9.12 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -334,9 +300,7 @@ Component Status overview. Last update 2024-05-24T11:45:26Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (2)
-
-- [Merge pull request #116 from PRODYNA-YASM/dependabot/go_modules/go.op…](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/9220658146) created on 2024-05-24 08:01:10 +0000 UTC
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (1)
 
 - [Merge pull request #112 from PRODYNA-YASM/dependabot/go_modules/go.op…](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/9207766232) created on 2024-05-23 12:14:39 +0000 UTC
 
