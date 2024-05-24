@@ -672,9 +672,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.9.11",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "b148c10",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -729,8 +729,49 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.9.11..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "Merge pull request #116 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc-1.27.0",
+            "SHA": "b148c101ed250dfb8fa5695e59c167a63c2676df",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-23T17:16:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/b148c101ed250dfb8fa5695e59c167a63c2676df"
+          },
+          {
+            "Text": "Merge pull request #117 from PRODYNA-YASM/dependabot/docker/alpine-3.20.0",
+            "SHA": "6aa1f594057587352dbafc43897c44c2c6e035b8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-23T17:16:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/6aa1f594057587352dbafc43897c44c2c6e035b8"
+          },
+          {
+            "Text": "Bump alpine from 3.19.1 to 3.20.0",
+            "SHA": "bbd90ad56c6037fad7eb029f70a74eeeb808a719",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-05-23T16:27:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/bbd90ad56c6037fad7eb029f70a74eeeb808a719"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc",
+            "SHA": "137744401fbac03674a923dd44c1d3b5ccdbd292",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-05-23T16:19:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/137744401fbac03674a923dd44c1d3b5ccdbd292"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1197,5 +1238,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-23T12:39:40Z"
+  "LastUpdated": "2024-05-24T07:32:48Z"
 }
