@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-05-26T07:32:06Z
+Component Status overview. Last update 2024-05-27T07:32:30Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -12,8 +12,8 @@ Component Status overview. Last update 2024-05-26T07:32:06Z
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.4.7 |  :green_square: 1.4.7 |  :green_square: 1.4.7 |  :green_square: 1.4.7 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.9.12 |  :green_square: 1.9.12 |  :green_square: 1.9.12 |  :green_square: 1.9.12 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.10.2 |  :green_square: 1.10.2 |  :green_square: 1.10.2 |  :green_square: 1.10.2 | 
-| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.5.0-1 |  :green_square: 8.5.0-1 |  :green_square: 8.5.0-1 |  :green_square: 8.5.0-1 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.26.2 |  :green_square: 1.26.2 |  :green_square: 1.26.2 |  :green_square: 1.26.2 | 
+| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [2](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.5.0-1..HEAD) | :green_square: 0 | 8.5.0-1 |  :red_square: 116e59b |  :green_square: 8.5.0-1 |  :green_square: 8.5.0-1 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.26.2 |  :green_square: 1.26.2 |  :green_square: 1.26.2 |  :green_square: 1.26.2 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.26.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [1](https://github.com/prodyna-yasm/sales-copilot/compare/1.0.1..HEAD) | :green_square: 0 | 1.0.1 |  :green_square: 1.0.1 |  :green_square: 1.0.1 |  :green_square: 1.0.1 | 
@@ -347,6 +347,13 @@ Component Status overview. Last update 2024-05-26T07:32:06Z
 
 
 
+### [Commits on main since 8.5.0-1](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.5.0-1..HEAD) (2)
+
+- [Merge pull request #41 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.5.1](https://github.com/prodyna-yasm/yasm-gotenberg/commit/116e59b0d710072b7815e4635019f488a1cf935f) by [dkrizic](https://github.com/dkrizic) on 2024-05-27 05:13:43 +0000 UTC
+
+- [Bump gotenberg/gotenberg from 8.5.0 to 8.5.1](https://github.com/prodyna-yasm/yasm-gotenberg/commit/0abcec49908b6c2974fcbdbc39677e0423f87362) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-05-27 01:08:55 +0000 UTC
+
+
 
 
 
@@ -354,9 +361,9 @@ Component Status overview. Last update 2024-05-26T07:32:06Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  8.5.0-1 |  8.5.0-1 |  8.5.0-1 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  116e59b |  8.5.0-1 |  8.5.0-1 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -377,6 +384,13 @@ Component Status overview. Last update 2024-05-26T07:32:06Z
 
 
 
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (2)
+
+- [Bump azurerm from 3.104.2 to 3.105.0 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/519)
+
+- [Bump azurerm from 3.104.2 to 3.105.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/518)
 
 
 

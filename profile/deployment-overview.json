@@ -753,9 +753,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8.5.0-1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "116e59b",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -810,8 +810,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.5.0-1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #41 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.5.1",
+            "SHA": "116e59b0d710072b7815e4635019f488a1cf935f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-27T05:13:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/116e59b0d710072b7815e4635019f488a1cf935f"
+          },
+          {
+            "Text": "Bump gotenberg/gotenberg from 8.5.0 to 8.5.1",
+            "SHA": "0abcec49908b6c2974fcbdbc39677e0423f87362",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-05-27T01:08:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/0abcec49908b6c2974fcbdbc39677e0423f87362"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -879,8 +900,17 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump azurerm from 3.104.2 to 3.105.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/519"
+          },
+          {
+            "Title": "Bump azurerm from 3.104.2 to 3.105.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/518"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -1140,5 +1170,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-26T07:32:06Z"
+  "LastUpdated": "2024-05-27T07:32:30Z"
 }
