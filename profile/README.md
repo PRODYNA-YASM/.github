@@ -1,13 +1,13 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-05-27T18:01:00Z
+Component Status overview. Last update 2024-05-28T06:56:07Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-backend/compare/1.26.1..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.26.1 |  :red_square: edd46c9 |  :green_square: 1.26.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [29](https://github.com/prodyna-yasm/yasm-frontend/compare/1.26.1..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.26.1 |  :red_square: b95c9ec |  :green_square: 1.26.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [29](https://github.com/prodyna-yasm/yasm-frontend/compare/1.26.1..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.26.1 |  :red_square: b95c9ec |  :green_square: 1.26.1 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.26.2 |  :green_square: 1.26.2 |  :green_square: 1.26.2 |  :red_square: 1.19.6 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [4](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.11.8..HEAD) | :green_square: 0 | 1.11.8 |  :red_square: a4928b5 |  :green_square: 1.11.8 |  :red_square: 1.11.7 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.9 |  :green_square: 1.11.9 |  :green_square: 1.11.9 |  :green_square: 1.11.9 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.26.4 |  :green_square: 1.26.4 |  :green_square: 1.26.4 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.4.7 |  :green_square: 1.4.7 |  :green_square: 1.4.7 |  :green_square: 1.4.7 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.9.12 |  :green_square: 1.9.12 |  :green_square: 1.9.12 |  :green_square: 1.9.12 | 
@@ -134,7 +134,9 @@ Component Status overview. Last update 2024-05-27T18:01:00Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
+
+- [Bump prodyna/changelog-json from 1.2 to 1.3](https://github.com/PRODYNA-YASM/yasm-frontend/pull/668)
 
 - [Bump css-loader from 6.11.0 to 7.1.2](https://github.com/PRODYNA-YASM/yasm-frontend/pull/654)
 
@@ -217,20 +219,9 @@ Component Status overview. Last update 2024-05-27T18:01:00Z
 
 
 
-## [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) 1.11.8
+## [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) 1.11.9
 
 
-
-
-### [Commits on main since 1.11.8](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.11.8..HEAD) (4)
-
-- [Merge pull request #192 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc-1.27.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/a4928b53d79c6e38542a194e6937f9ff5e10ad4c) by [dkrizic](https://github.com/dkrizic) on 2024-05-27 14:14:44 +0000 UTC
-
-- [Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/462004284ded656497c1d94e43b94586b52960c4) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-05-27 13:57:08 +0000 UTC
-
-- [Merge pull request #191 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc-1.27.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/8853c5d2049d20fe8294ae02cd564b719d54f184) by [dkrizic](https://github.com/dkrizic) on 2024-05-27 13:56:15 +0000 UTC
-
-- [Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/e1c3a3b8af18d7bb3b361db12421226492be623f) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-05-27 13:45:01 +0000 UTC
 
 
 
@@ -240,18 +231,18 @@ Component Status overview. Last update 2024-05-27T18:01:00Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  a4928b5 |  1.11.8 |  1.11.7 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :red_square: | 
+| Version |  1.11.9 |  1.11.9 |  1.11.9 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [OpenTelemetry 1.27.0](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.9) on 2024-05-27 14:14:44 +0000 UTC
+
 - [1.11.8](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.8) on 2024-05-21 15:38:12 +0000 UTC
 
 - [OTelChi 0.8.0](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.7) on 2024-05-06 13:08:14 +0000 UTC
-
-- [OpenTelemetry 1.26](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.6) on 2024-04-29 15:08:13 +0000 UTC
 
 
 
@@ -498,11 +489,11 @@ Component Status overview. Last update 2024-05-27T18:01:00Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (6)
 
+- [Bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.55 to 3.0.57](https://github.com/PRODYNA-YASM/yasm-api/pull/193)
+
 - [Bump jakarta.validation:jakarta.validation-api from 3.0.2 to 3.1.0](https://github.com/PRODYNA-YASM/yasm-api/pull/191)
 
 - [Bump org.openapitools:openapi-generator-maven-plugin from 7.5.0 to 7.6.0](https://github.com/PRODYNA-YASM/yasm-api/pull/190)
-
-- [Bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.55 to 3.0.56](https://github.com/PRODYNA-YASM/yasm-api/pull/188)
 
 - [Bump com.fasterxml.jackson.core:jackson-databind from 2.17.0 to 2.17.1](https://github.com/PRODYNA-YASM/yasm-api/pull/184)
 
