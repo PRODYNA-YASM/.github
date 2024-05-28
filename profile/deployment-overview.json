@@ -116,7 +116,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "b95c9ec",
+          "Version": "caaf271",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -160,20 +160,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 2,
         "PullRequests": [
-          {
-            "Title": "Bump prodyna/changelog-json from 1.2 to 1.3",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/668"
-          },
-          {
-            "Title": "Bump css-loader from 6.11.0 to 7.1.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/654"
-          },
-          {
-            "Title": "Bump eslint from 8.57.0 to 9.3.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/653"
-          },
           {
             "Title": "upgrade dependencies, removed old babel-loader for lodash",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/631"
@@ -181,22 +169,134 @@
           {
             "Title": "Bump html-loader from 1.3.2 to 5.0.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/619"
-          },
-          {
-            "Title": "Bump @fontsource/roboto from 4.5.8 to 5.0.13",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/618"
-          },
-          {
-            "Title": "Bump webpack-dev-middleware from 6.1.1 to 7.2.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/570"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.26.1..HEAD",
-        "Count": 29,
+        "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #653 from PRODYNA-YASM/dependabot/npm_and_yarn/eslint-9.3.0",
+            "SHA": "caaf271781065de28f1babc8f137215a5bce82c9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-28T07:21:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/caaf271781065de28f1babc8f137215a5bce82c9"
+          },
+          {
+            "Text": "Bump eslint from 8.57.0 to 9.3.0",
+            "SHA": "d61d75edd325d1c82fa8da93929d812168d8efb1",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-05-28T07:17:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d61d75edd325d1c82fa8da93929d812168d8efb1"
+          },
+          {
+            "Text": "Merge pull request #570 from PRODYNA-YASM/dependabot/npm_and_yarn/webpack-dev-middleware-7.2.1",
+            "SHA": "5b05cf32c38a51921d657c91083d59c261541cf3",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-28T07:17:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/5b05cf32c38a51921d657c91083d59c261541cf3"
+          },
+          {
+            "Text": "Merge pull request #618 from PRODYNA-YASM/dependabot/npm_and_yarn/fontsource/roboto-5.0.13",
+            "SHA": "346a61da8d5bb1a2a902cb90183dc83475ab4be5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-28T07:17:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/346a61da8d5bb1a2a902cb90183dc83475ab4be5"
+          },
+          {
+            "Text": "Merge pull request #654 from PRODYNA-YASM/dependabot/npm_and_yarn/css-loader-7.1.2",
+            "SHA": "fcfc4d6112a68f9f161b47f4454e0894c26daa97",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-28T07:15:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/fcfc4d6112a68f9f161b47f4454e0894c26daa97"
+          },
+          {
+            "Text": "Bump webpack-dev-middleware from 6.1.1 to 7.2.1",
+            "SHA": "9fbfa5c096d4624f641b3e8c92281613394d099e",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-05-28T07:14:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/9fbfa5c096d4624f641b3e8c92281613394d099e"
+          },
+          {
+            "Text": "Bump @fontsource/roboto from 4.5.8 to 5.0.13",
+            "SHA": "f39f85961510c90ccc1eaf23f11179315fc48d95",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-05-28T07:14:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/f39f85961510c90ccc1eaf23f11179315fc48d95"
+          },
+          {
+            "Text": "Merge pull request #668 from PRODYNA-YASM/dependabot/github_actions/prodyna/changelog-json-1.3",
+            "SHA": "47e68c275e6e6aec1b6a02103036e8e4c628d725",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-28T07:11:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/47e68c275e6e6aec1b6a02103036e8e4c628d725"
+          },
+          {
+            "Text": "Bump css-loader from 6.11.0 to 7.1.2",
+            "SHA": "4fb55358cfd2d4f0979bb8ebe0024eb27e9d2c61",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-05-28T07:10:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/4fb55358cfd2d4f0979bb8ebe0024eb27e9d2c61"
+          },
+          {
+            "Text": "Bump prodyna/changelog-json from 1.2 to 1.3",
+            "SHA": "e366858c1111935bbd106d9e3ded3417cfc45bed",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-05-28T07:10:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/e366858c1111935bbd106d9e3ded3417cfc45bed"
+          },
+          {
+            "Text": "Merge pull request #670 from PRODYNA-YASM/669-changelog-only-on-main-branch",
+            "SHA": "249f8646b3b05316251287895d036df2e0bb7ffa",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-28T07:07:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/249f8646b3b05316251287895d036df2e0bb7ffa"
+          },
+          {
+            "Text": "Only run on main-branch",
+            "SHA": "a3e56b1633268497552a0591332836911af83fbb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-28T07:05:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/a3e56b1633268497552a0591332836911af83fbb"
+          },
           {
             "Text": "Merge pull request #667 from PRODYNA-YASM/feature/666-add-yasm-data-to-changelog",
             "SHA": "b95c9ec087f97b1e300e1c6a968228a70c77e63a",
@@ -376,116 +476,6 @@
             },
             "Timestamp": "2024-05-27T11:52:52Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b0f5829079d593e36b24f4f3a3540191cc8c5ae9"
-          },
-          {
-            "Text": "update styles",
-            "SHA": "795d7c129978c9d176afafe611f8b43a587a7e77",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-27T11:33:34Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/795d7c129978c9d176afafe611f8b43a587a7e77"
-          },
-          {
-            "Text": "rename Modal to Dialog",
-            "SHA": "c5c3a4b69699a665688e1ff0f3f593a68c2780a9",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-27T11:28:04Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/c5c3a4b69699a665688e1ff0f3f593a68c2780a9"
-          },
-          {
-            "Text": "Merge branch 'main' into feature/changelog",
-            "SHA": "60a05b6996cc7fa75127324a9404733442ff59ab",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-27T11:19:51Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/60a05b6996cc7fa75127324a9404733442ff59ab"
-          },
-          {
-            "Text": "refactor modal",
-            "SHA": "79ab66d19e0446607005004f5135f77e8c1cfd39",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-27T11:19:29Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/79ab66d19e0446607005004f5135f77e8c1cfd39"
-          },
-          {
-            "Text": "Merge pull request #658 from PRODYNA-YASM/657-use-changelog-10",
-            "SHA": "69c9d463ff92561d105badd82bece4ea3323d056",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-05-27T11:02:23Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/69c9d463ff92561d105badd82bece4ea3323d056"
-          },
-          {
-            "Text": "Using version 1.1",
-            "SHA": "18c32c9d7841dd9eeeee264332a6584fef6aaa87",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-05-27T10:57:09Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/18c32c9d7841dd9eeeee264332a6584fef6aaa87"
-          },
-          {
-            "Text": "Use the new version of changelog with links",
-            "SHA": "e065025332ebc3f7845caa294c0359cb2b52794b",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-05-27T10:06:17Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/e065025332ebc3f7845caa294c0359cb2b52794b"
-          },
-          {
-            "Text": "fix styles, rename component",
-            "SHA": "c8e64d55fbb3acd9216f1ccaaa9eb7f98dacbf63",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-27T09:18:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/c8e64d55fbb3acd9216f1ccaaa9eb7f98dacbf63"
-          },
-          {
-            "Text": "update changelog styles",
-            "SHA": "491351f07da93c1a95497c7a64a496c54541370a",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-27T09:13:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/491351f07da93c1a95497c7a64a496c54541370a"
-          },
-          {
-            "Text": "move githubIssueForm to own component",
-            "SHA": "f4333a4bcd4f1447121b9f4bbca2f7ec2a99f176",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-27T08:30:32Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/f4333a4bcd4f1447121b9f4bbca2f7ec2a99f176"
-          },
-          {
-            "Text": "Merge branch 'main' into feature/changelog",
-            "SHA": "b9a5af4f3e84ab94a2f48e5f43f8b57e12cb52ab",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-27T08:30:03Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b9a5af4f3e84ab94a2f48e5f43f8b57e12cb52ab"
           }
         ]
       },
@@ -1439,5 +1429,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-28T06:56:07Z"
+  "LastUpdated": "2024-05-28T07:32:09Z"
 }
