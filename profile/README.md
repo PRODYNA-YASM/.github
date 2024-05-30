@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-05-29T12:45:28Z
+Component Status overview. Last update 2024-05-30T07:33:18Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.26.2 |  :green_square: 1.26.2 |  :green_square: 1.26.2 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.26.2 |  :green_square: 1.26.2 |  :green_square: 1.26.2 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.26.2 |  :green_square: 1.26.2 |  :green_square: 1.26.2 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [5](https://github.com/prodyna-yasm/yasm-frontend/compare/1.26.2..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.26.2 |  :red_square: 2442921 |  :green_square: 1.26.2 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.26.2 |  :green_square: 1.26.2 |  :green_square: 1.26.2 |  :red_square: 1.19.6 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.9 |  :green_square: 1.11.9 |  :green_square: 1.11.9 |  :green_square: 1.11.9 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.26.4 |  :green_square: 1.26.4 |  :green_square: 1.26.4 | 
@@ -27,7 +27,11 @@ Component Status overview. Last update 2024-05-29T12:45:28Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (2)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (4)
+
+- [Bump quarkus.platform.version from 3.10.2 to 3.11.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/617)
+
+- [feat: extend search metrics](https://github.com/PRODYNA-YASM/yasm-backend/pull/616)
 
 - [Bump jackson.version from 2.17.0 to 2.17.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/594)
 
@@ -62,9 +66,30 @@ Component Status overview. Last update 2024-05-29T12:45:28Z
 
 
 
+### [Commits on main since 1.26.2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.26.2..HEAD) (5)
+
+- [Merge pull request #677 from PRODYNA-YASM/feature/add-release-title-changelog](https://github.com/prodyna-yasm/yasm-frontend/commit/24429217e4d71560c0bf7bc2ca827b6cc3a3eca7) by [dkrizic](https://github.com/dkrizic) on 2024-05-29 14:10:53 +0000 UTC
+
+- [250: Added Release-Title in Changelog](https://github.com/prodyna-yasm/yasm-frontend/commit/9298b56c6fea4c3ce95b2177adcc17c15dd3377b) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-05-29 14:05:37 +0000 UTC
+
+- [Merge pull request #676 from PRODYNA-YASM/675-bug-changelog-also-for-tags](https://github.com/prodyna-yasm/yasm-frontend/commit/4c74a6b97b08716236be9d8af8bb24b54d29eb66) by [dkrizic](https://github.com/dkrizic) on 2024-05-29 13:18:11 +0000 UTC
+
+- [Fix tags on main](https://github.com/prodyna-yasm/yasm-frontend/commit/aa3ea677e61bf2ca170f10fe0e04e41731aa60d2) by [dkrizic](https://github.com/dkrizic) on 2024-05-29 13:16:42 +0000 UTC
+
+- [Changelog should run on tags as well](https://github.com/prodyna-yasm/yasm-frontend/commit/bb553de7f16795f8a2ca957f628e8832595f9564) by [dkrizic](https://github.com/dkrizic) on 2024-05-29 13:14:20 +0000 UTC
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (2)
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
+
+- [Bump rimraf from 4.4.1 to 5.0.7](https://github.com/PRODYNA-YASM/yasm-frontend/pull/682)
+
+- [Bump @babel/register from 7.23.7 to 7.24.6](https://github.com/PRODYNA-YASM/yasm-frontend/pull/681)
+
+- [Bump @opentelemetry/instrumentation-user-interaction from 0.37.0 to 0.38.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/680)
+
+- [Base structure for testing](https://github.com/PRODYNA-YASM/yasm-frontend/pull/679)
 
 - [Bump memfs from 3.5.3 to 4.9.2](https://github.com/PRODYNA-YASM/yasm-frontend/pull/672)
 
@@ -76,9 +101,9 @@ Component Status overview. Last update 2024-05-29T12:45:28Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  1.26.2 |  1.26.2 | 
-| Release |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: | 
+| Version |  2442921 |  1.26.2 | 
+| Release |  :red_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: | 
 
 
 ### Last releases
