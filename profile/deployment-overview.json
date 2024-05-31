@@ -18,6 +18,13 @@
           "Version": "1.27.0",
           "IsRelease": true,
           "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.27.0",
+          "IsRelease": true,
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -81,14 +88,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "deps/update (#624)",
-            "Timestamp": "2024-05-31T13:01:40Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/9318597840"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -98,12 +99,19 @@
         {
           "Name": "dev",
           "Link": "",
+          "Version": "6ed632b",
+          "IsRelease": false,
+          "IsCurrent": false
+        },
+        {
+          "Name": "staging",
+          "Link": "",
           "Version": "1.27.0",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
-          "Name": "staging",
+          "Name": "prod",
           "Link": "",
           "Version": "1.27.0",
           "IsRelease": true,
@@ -145,6 +153,10 @@
         "Count": 6,
         "PullRequests": [
           {
+            "Title": "fixed updateOrganization in ProjectDetailView",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/692"
+          },
+          {
             "Title": "Bump @types/node from 20.12.12 to 20.12.13",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/684"
           },
@@ -155,10 +167,6 @@
           {
             "Title": "Bump @babel/register from 7.23.7 to 7.24.6",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/681"
-          },
-          {
-            "Title": "Base structure for testing",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/679"
           },
           {
             "Title": "Bump memfs from 3.5.3 to 4.9.2",
@@ -173,21 +181,146 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 13,
+        "Commits": [
+          {
+            "Text": "Merge pull request #679 from PRODYNA-YASM/678-integrate-yasm-test-into-pipeline",
+            "SHA": "6ed632b0b6a35ee62a78cea946ac705e734412ad",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-31T17:10:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/6ed632b0b6a35ee62a78cea946ac705e734412ad"
+          },
+          {
+            "Text": "Change pipeline to original",
+            "SHA": "dcae2f84730fe7b384c84cbd2ac00caad9577455",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-31T17:05:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/dcae2f84730fe7b384c84cbd2ac00caad9577455"
+          },
+          {
+            "Text": "Use test 1.1.4",
+            "SHA": "35c2843b09325fa0eec491ac94e0ec16331e3023",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-31T16:55:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/35c2843b09325fa0eec491ac94e0ec16331e3023"
+          },
+          {
+            "Text": "Use image 1.1.3",
+            "SHA": "acf42447c4999d0698d4c70913ad118cff0f6945",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-31T16:52:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/acf42447c4999d0698d4c70913ad118cff0f6945"
+          },
+          {
+            "Text": "Use 1.1.2",
+            "SHA": "7a26d0eda813b1535ed118632bc2ae05d0a5ebd7",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-31T16:21:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7a26d0eda813b1535ed118632bc2ae05d0a5ebd7"
+          },
+          {
+            "Text": "Fix order, use 1.1.1",
+            "SHA": "4d8b100527bd969b64b4001dfe5229da94823ac0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-31T16:07:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/4d8b100527bd969b64b4001dfe5229da94823ac0"
+          },
+          {
+            "Text": "use version 1.1.0 of testing",
+            "SHA": "326c92ada37553f4b095bbab5cfcccc806d83b27",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-31T16:03:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/326c92ada37553f4b095bbab5cfcccc806d83b27"
+          },
+          {
+            "Text": "use image 1.0.2",
+            "SHA": "f5008324aa07dbfcb3014fc865939c5fd0eaa7ab",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-31T15:40:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/f5008324aa07dbfcb3014fc865939c5fd0eaa7ab"
+          },
+          {
+            "Text": "Use test 1.0.1",
+            "SHA": "6dcb59fc9d79e0832d0df3276a0f4203f8d425e1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-31T15:32:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/6dcb59fc9d79e0832d0df3276a0f4203f8d425e1"
+          },
+          {
+            "Text": "Merge branch '678-integrate-yasm-test-into-pipeline' of ssh://github.com/prodyna-yasm/yasm-frontend into 678-integrate-yasm-test-into-pipeline",
+            "SHA": "528b63be3d91ae6f61b5163b56af0498e265c1ab",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-31T15:32:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/528b63be3d91ae6f61b5163b56af0498e265c1ab"
+          },
+          {
+            "Text": "Merge branch 'main' into 678-integrate-yasm-test-into-pipeline",
+            "SHA": "8e9017733e7cc8bb1ae2afcde1cebb9ab64d3b54",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-31T15:31:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/8e9017733e7cc8bb1ae2afcde1cebb9ab64d3b54"
+          },
+          {
+            "Text": "Fix version for action",
+            "SHA": "b56126d09348c0662c67835239d86f28d6dea275",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-31T15:12:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b56126d09348c0662c67835239d86f28d6dea275"
+          },
+          {
+            "Text": "Try to use the action",
+            "SHA": "47b0c80be941105c311bf2298055e405e8026bcb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-31T15:09:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/47b0c80be941105c311bf2298055e405e8026bcb"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #691 from PRODYNA-YASM/feature/add-importance-skill",
-            "Timestamp": "2024-05-31T13:06:15Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/9318663341"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -327,33 +460,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.26.2",
+          "Version": "1.27.0",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.26.2",
+          "Version": "1.27.0",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.19.6",
+          "Version": "1.27.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.26.2",
+        "Tag": "1.27.0",
         "SHA": "",
-        "Title": "New libraries",
-        "Timestamp": "2024-05-21T22:05:07Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.26.2"
+        "Title": "Using API 1.27.0",
+        "Timestamp": "2024-05-31T21:44:30Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.27.0"
       },
       "Releases": [
+        {
+          "Tag": "1.27.0",
+          "SHA": "",
+          "Title": "Using API 1.27.0",
+          "Timestamp": "2024-05-31T21:43:46Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.27.0"
+        },
         {
           "Tag": "1.26.2",
           "SHA": "",
@@ -367,13 +507,6 @@
           "Title": "1.26.1",
           "Timestamp": "2024-05-21T15:41:38Z",
           "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.26.1"
-        },
-        {
-          "Tag": "1.26.0",
-          "SHA": "",
-          "Title": "Using API 1.26.0",
-          "Timestamp": "2024-05-14T00:18:12Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.26.0"
         }
       ],
       "PullRequests": {
@@ -383,7 +516,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.26.2..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.27.0..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -433,9 +566,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.11.9",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "060ab1b",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -490,8 +623,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.11.9..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #195 from PRODYNA-YASM/feature/194-start-date-2022-07-01",
+            "SHA": "060ab1b2f33cac116c3a56dffb3a209095f450fa",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-31T14:42:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/060ab1b2f33cac116c3a56dffb3a209095f450fa"
+          },
+          {
+            "Text": "Start date 2022",
+            "SHA": "e831708fb1502ce2fd66073e6735dbd77e1b0151",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-31T14:40:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/e831708fb1502ce2fd66073e6735dbd77e1b0151"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1059,23 +1213,45 @@
     },
     {
       "Name": "yasm-test",
-      "Error": "GET https://api.github.com/repos/prodyna-yasm/yasm-test/releases/latest: 404 Not Found []",
+      "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "",
+        "Tag": "v1.1.2",
         "SHA": "",
-        "Title": "",
-        "Timestamp": "0001-01-01T00:00:00Z",
-        "Link": ""
+        "Title": "v1.1.2",
+        "Timestamp": "2024-05-31T16:20:43Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/v1.1.2"
       },
-      "Releases": null,
+      "Releases": [
+        {
+          "Tag": "v1.1.2",
+          "SHA": "",
+          "Title": "v1.1.2",
+          "Timestamp": "2024-05-31T16:20:16Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/v1.1.2"
+        },
+        {
+          "Tag": "v1.1.1",
+          "SHA": "",
+          "Title": "Fix action.yaml",
+          "Timestamp": "2024-05-31T15:50:13Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/v1.1.1"
+        },
+        {
+          "Tag": "v1.1.0",
+          "SHA": "",
+          "Title": "Using /github/workspace",
+          "Timestamp": "2024-05-31T16:01:57Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/v1.1.0"
+        }
+      ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
         "Count": 6,
         "PullRequests": [
           {
-            "Title": "Create docker image",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/75"
+            "Title": "chore(deps): Bump cypress/included from 13.7.0 to 13.10.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/77"
           },
           {
             "Title": "Bump cypress from 13.7.2 to 13.10.0",
@@ -1101,308 +1277,28 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-test",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-test/compare/..HEAD",
-        "Count": 30,
+        "Link": "https://github.com/prodyna-yasm/yasm-test/compare/v1.1.2..HEAD",
+        "Count": 2,
         "Commits": [
           {
-            "Text": "Merge pull request #76 from PRODYNA-YASM/Report-Page",
-            "SHA": "99d8712b7aeb364e953b82f54f1095a1882ddd94",
+            "Text": "Preparing v1.1.4",
+            "SHA": "f042f06326a357008182bf659ce0c2d5273a0885",
             "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2024-05-30T12:23:44Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/99d8712b7aeb364e953b82f54f1095a1882ddd94"
+            "Timestamp": "2024-05-31T16:54:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/f042f06326a357008182bf659ce0c2d5273a0885"
           },
           {
-            "Text": "refactor: Increase wait time for accepting suggestion in Actions.cy.ts",
-            "SHA": "ab1cf02acce071275cb7b4025c9c7d7475765e09",
+            "Text": "Setting the directory to /app",
+            "SHA": "106ae9531f7c07715e1439a3269de2264eda05f4",
             "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2024-05-30T11:57:59Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/ab1cf02acce071275cb7b4025c9c7d7475765e09"
-          },
-          {
-            "Text": "chore: Add step to upload video artifacts on CI failure",
-            "SHA": "45d03ad69ace8a01b1bd1bb0576f900eeb7538bf",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-30T11:35:05Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/45d03ad69ace8a01b1bd1bb0576f900eeb7538bf"
-          },
-          {
-            "Text": "Merge pull request #70 from PRODYNA-YASM/Report-Page",
-            "SHA": "f5ebc3926431865a1893eea68d286945d04581a1",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-30T09:23:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/f5ebc3926431865a1893eea68d286945d04581a1"
-          },
-          {
-            "Text": "feat: Increase wait time for adding project in AssignHimselfToProject task",
-            "SHA": "07c166ed1b22df3e3d0d22952a52b8e6b7dc3b83",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-30T08:57:40Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/07c166ed1b22df3e3d0d22952a52b8e6b7dc3b83"
-          },
-          {
-            "Text": "chore: Update cypress.config.ts and e2e.ts files",
-            "SHA": "614b8b1b161d2095774bedc0f06e6af03452b8df",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-30T08:34:00Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/614b8b1b161d2095774bedc0f06e6af03452b8df"
-          },
-          {
-            "Text": "chore: Skip \"Getting the Access Token\" test in test_apicalls.cy.ts",
-            "SHA": "0dea5b59d29b9fabe92a33c6ebb50ddb7d3f96ba",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-30T08:07:25Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/0dea5b59d29b9fabe92a33c6ebb50ddb7d3f96ba"
-          },
-          {
-            "Text": "Merge branch 'main' of https://github.com/PRODYNA-YASM/yasm-test into Report-Page",
-            "SHA": "6de54d40e0cf8ebbadd7761e3173a009e8dc5eab",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-30T07:44:36Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/6de54d40e0cf8ebbadd7761e3173a009e8dc5eab"
-          },
-          {
-            "Text": "Merge pull request #73 from PRODYNA-YASM/fix-locators",
-            "SHA": "d68075a4a0353b9544f97f15a76eb3fe1779e68c",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-30T07:34:48Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/d68075a4a0353b9544f97f15a76eb3fe1779e68c"
-          },
-          {
-            "Text": "chore: Remove visible tooltips from footer to prevent overlap with interaction elements",
-            "SHA": "20b4a35aa6b2f983146e79372f54c1ce0f8f0ca1",
-            "Author": {
-              "name": "codinski",
-              "link": "https://github.com/codinski"
-            },
-            "Timestamp": "2024-05-29T04:45:28Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/20b4a35aa6b2f983146e79372f54c1ce0f8f0ca1"
-          },
-          {
-            "Text": "refactor: Update cySelector in EmployeeAssignProjectInteractables to use generic input selector",
-            "SHA": "d606ba9a6b7284e944f093fed63eeb11c198348a",
-            "Author": {
-              "name": "codinski",
-              "link": "https://github.com/codinski"
-            },
-            "Timestamp": "2024-05-28T11:02:48Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/d606ba9a6b7284e944f093fed63eeb11c198348a"
-          },
-          {
-            "Text": "Merge pull request #71 from PRODYNA-YASM:codinski/issue57",
-            "SHA": "327effaf43d4bd2aa25dd5bfbe7ed77a4279fa22",
-            "Author": {
-              "name": "codinski",
-              "link": "https://github.com/codinski"
-            },
-            "Timestamp": "2024-05-28T11:01:27Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/327effaf43d4bd2aa25dd5bfbe7ed77a4279fa22"
-          },
-          {
-            "Text": "Remove hardcoded base url in the before blocks of the tests",
-            "SHA": "d3988db68050e05b34f0060da3b53eea65b8b9da",
-            "Author": {
-              "name": "codinski",
-              "link": "https://github.com/codinski"
-            },
-            "Timestamp": "2024-05-28T10:59:24Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/d3988db68050e05b34f0060da3b53eea65b8b9da"
-          },
-          {
-            "Text": "chore: Update cypress.config.ts and e2e.ts files",
-            "SHA": "b8c701c9f238b7e05ed60cbb3072af5776e62431",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-27T15:00:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/b8c701c9f238b7e05ed60cbb3072af5776e62431"
-          },
-          {
-            "Text": "Merge pull request #68 from PRODYNA-YASM/extend-getAccessToken",
-            "SHA": "92705c720b7af5d12076019f991590824f272b9d",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-24T13:01:20Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/92705c720b7af5d12076019f991590824f272b9d"
-          },
-          {
-            "Text": "added alias for accessToken",
-            "SHA": "7a60f8347e9ed8d17a2df43554e1cbeb0c85d2f9",
-            "Author": {
-              "name": "codinski",
-              "link": "https://github.com/codinski"
-            },
-            "Timestamp": "2024-05-24T12:53:09Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/7a60f8347e9ed8d17a2df43554e1cbeb0c85d2f9"
-          },
-          {
-            "Text": "Merge pull request #67 from PRODYNA-YASM/fix-download-file",
-            "SHA": "3fd78a81723cb1a6017bd74dffeaee298015021e",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-24T12:46:02Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/3fd78a81723cb1a6017bd74dffeaee298015021e"
-          },
-          {
-            "Text": "refactor: Update cySelector in SearchInteractables to use generic input selector",
-            "SHA": "3c197d31671e3f8622d7066f78da94c1af087ac1",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-24T12:27:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/3c197d31671e3f8622d7066f78da94c1af087ac1"
-          },
-          {
-            "Text": "chore: Increase wait time for AssignHimselfToProject task",
-            "SHA": "28ba64219db5286fa126233f80093a9c7bc80ae1",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-24T10:57:33Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/28ba64219db5286fa126233f80093a9c7bc80ae1"
-          },
-          {
-            "Text": "Merge pull request #66 from PRODYNA-YASM/jenswindmueller-patch-1",
-            "SHA": "5913a09ef0545a007979b8272fd252804da7415c",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-24T09:20:44Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/5913a09ef0545a007979b8272fd252804da7415c"
-          },
-          {
-            "Text": "Delete",
-            "SHA": "c0253bafd987930ce2367f049e60101ffda66685",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-24T09:20:32Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/c0253bafd987930ce2367f049e60101ffda66685"
-          },
-          {
-            "Text": "Merge pull request #64 from PRODYNA-YASM/fix-download-file",
-            "SHA": "bd5183833b6f42fec2c2e6386e3f2a5887bcc8eb",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-24T08:32:42Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/bd5183833b6f42fec2c2e6386e3f2a5887bcc8eb"
-          },
-          {
-            "Text": "chore: Update .gitignore to ignore .vscode-test and .pfx files",
-            "SHA": "420e3f591813f0cea55e4e8bec55ebd9d50d34f1",
-            "Author": {
-              "name": "codinski",
-              "link": "https://github.com/codinski"
-            },
-            "Timestamp": "2024-05-24T08:11:11Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/420e3f591813f0cea55e4e8bec55ebd9d50d34f1"
-          },
-          {
-            "Text": "refactor: Update cySelector in SearchInteractables to use generic input selector",
-            "SHA": "efd78ace39e1990b9eeb346bc64f6bb57f389eca",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-24T07:42:22Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/efd78ace39e1990b9eeb346bc64f6bb57f389eca"
-          },
-          {
-            "Text": "Merge pull request #62 from PRODYNA-YASM/jenswindmueller-patch-1",
-            "SHA": "31f8b675bad3fc394d66785182aac1f5c7417b4b",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-23T12:56:26Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/31f8b675bad3fc394d66785182aac1f5c7417b4b"
-          },
-          {
-            "Text": "Update ci-cd.yaml add workflow dispatch",
-            "SHA": "3353d1d4970e0f5d763c34e14b57e28e9379934a",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-23T12:30:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/3353d1d4970e0f5d763c34e14b57e28e9379934a"
-          },
-          {
-            "Text": "Merge pull request #59 from PRODYNA-YASM/fix-download-file",
-            "SHA": "ff998b2aa3c79d196b7c7ff6f033652ffafc2076",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-17T13:04:29Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/ff998b2aa3c79d196b7c7ff6f033652ffafc2076"
-          },
-          {
-            "Text": "chore: Increase wait time for AssignHimselfToProject task",
-            "SHA": "0ee10412322166657c91442a5a29ab95c6820001",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-17T12:47:34Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/0ee10412322166657c91442a5a29ab95c6820001"
-          },
-          {
-            "Text": "Merge pull request #58 from PRODYNA-YASM/fix-download-file",
-            "SHA": "09b30ce0b8c626aec5331c6bc056b1ccfdf348c0",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-17T11:21:33Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/09b30ce0b8c626aec5331c6bc056b1ccfdf348c0"
-          },
-          {
-            "Text": "refactor: Update cySelector in ConfirmEditButton to use data-testid attribute",
-            "SHA": "5569df7b26497c74ac676f7778de2da41682bf50",
-            "Author": {
-              "name": "jenswindmueller",
-              "link": "https://github.com/jenswindmueller"
-            },
-            "Timestamp": "2024-05-17T11:13:17Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/5569df7b26497c74ac676f7778de2da41682bf50"
+            "Timestamp": "2024-05-31T16:51:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/106ae9531f7c07715e1439a3269de2264eda05f4"
           }
         ]
       },
@@ -1519,5 +1415,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-31T13:26:26Z"
+  "LastUpdated": "2024-05-31T21:54:17Z"
 }
