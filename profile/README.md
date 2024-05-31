@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-05-31T07:42:02Z
+Component Status overview. Last update 2024-05-31T11:12:12Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-backend/compare/1.26.2..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.26.2 |  :red_square: f4bb34c |  :green_square: 1.26.2 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [7](https://github.com/prodyna-yasm/yasm-frontend/compare/1.26.2..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.26.2 |  :red_square: 678-integrate-yasm-test-into-pipeline |  :green_square: 1.26.2 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [6](https://github.com/prodyna-yasm/yasm-backend/compare/1.26.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.26.2 |  :red_square: 0c7b316 |  :green_square: 1.26.2 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [9](https://github.com/prodyna-yasm/yasm-frontend/compare/1.26.2..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.26.2 |  :red_square: 9230ff8 |  :green_square: 1.26.2 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.26.4..HEAD) | :green_square: 0 | 1.26.4 |  :red_square: 0420dce |  :green_square: 1.26.4 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.26.2 |  :green_square: 1.26.2 |  :green_square: 1.26.2 |  :red_square: 1.19.6 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.11.9 |  :green_square: 1.11.9 |  :green_square: 1.11.9 |  :green_square: 1.11.9 | 
@@ -26,7 +26,13 @@ Component Status overview. Last update 2024-05-31T07:42:02Z
 
 
 
-### [Commits on main since 1.26.2](https://github.com/prodyna-yasm/yasm-backend/compare/1.26.2..HEAD) (3)
+### [Commits on main since 1.26.2](https://github.com/prodyna-yasm/yasm-backend/compare/1.26.2..HEAD) (6)
+
+- [Merge pull request #623 from PRODYNA-YASM/622-maxunavailable=1](https://github.com/prodyna-yasm/yasm-backend/commit/0c7b316afb8d040c81d3aef6029f9442311cb6d8) by [dkrizic](https://github.com/dkrizic) on 2024-05-31 09:36:18 +0000 UTC
+
+- [maxUnavailable and maxSurge=1](https://github.com/prodyna-yasm/yasm-backend/commit/112e3313395cefdcad2d83d42323ca710b511535) by [dkrizic](https://github.com/dkrizic) on 2024-05-31 09:27:01 +0000 UTC
+
+- [update quarkus (#621)](https://github.com/prodyna-yasm/yasm-backend/commit/e26f0fca2529477e41ed607302d7e3f4d4c6564e) by [coding4kay](https://github.com/coding4kay) on 2024-05-31 09:24:47 +0000 UTC
 
 - [fix: preventing errors when creating metrics (#619)](https://github.com/prodyna-yasm/yasm-backend/commit/f4bb34c4b8fac9b4b42858712815a162e2644944) by [saemik94](https://github.com/saemik94) on 2024-05-30 13:37:03 +0000 UTC
 
@@ -37,13 +43,7 @@ Component Status overview. Last update 2024-05-31T07:42:02Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (4)
-
-- [Bump org.apache.maven.plugins:maven-enforcer-plugin from 3.4.1 to 3.5.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/620)
-
-- [Bump quarkus.platform.version from 3.10.2 to 3.11.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/617)
-
-- [Bump jackson.version from 2.17.0 to 2.17.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/594)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (1)
 
 - [Bump eclipse-temurin from 21.0.2_13-jre-ubi9-minimal to 22.0.1_8-jre-ubi9-minimal](https://github.com/PRODYNA-YASM/yasm-backend/pull/588)
 
@@ -53,7 +53,7 @@ Component Status overview. Last update 2024-05-31T07:42:02Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  f4bb34c |  1.26.2 | 
+| Version |  0c7b316 |  1.26.2 | 
 | Release |  :red_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: | 
 
@@ -76,7 +76,11 @@ Component Status overview. Last update 2024-05-31T07:42:02Z
 
 
 
-### [Commits on main since 1.26.2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.26.2..HEAD) (7)
+### [Commits on main since 1.26.2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.26.2..HEAD) (9)
+
+- [Merge pull request #690 from PRODYNA-YASM/688-maxsurge-and-maxunavailable-=-1](https://github.com/prodyna-yasm/yasm-frontend/commit/9230ff82df673787c70c91aa91c5baa84a348306) by [dkrizic](https://github.com/dkrizic) on 2024-05-31 09:32:39 +0000 UTC
+
+- [maxSurge = 1, maxUnavailable = 1](https://github.com/prodyna-yasm/yasm-frontend/commit/ed61a98da476c2fa4c68e4e6dcf88155e6bbaf7f) by [dkrizic](https://github.com/dkrizic) on 2024-05-31 09:29:09 +0000 UTC
 
 - [Merge pull request #680 from PRODYNA-YASM/dependabot/npm_and_yarn/opentelemetry/instrumentation-user-interaction-0.38.0](https://github.com/prodyna-yasm/yasm-frontend/commit/cae388560c3dcf346386c1ac55baced450b429fb) by [dkrizic](https://github.com/dkrizic) on 2024-05-30 19:25:45 +0000 UTC
 
@@ -95,7 +99,9 @@ Component Status overview. Last update 2024-05-31T07:42:02Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (8)
+
+- [hide parentPath in SkillDetailView and fixed Organization-Create-Form](https://github.com/PRODYNA-YASM/yasm-frontend/pull/687)
 
 - [Bump @types/node from 20.12.12 to 20.12.13](https://github.com/PRODYNA-YASM/yasm-frontend/pull/684)
 
@@ -117,8 +123,8 @@ Component Status overview. Last update 2024-05-31T07:42:02Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  678-integrate-yasm-test-into-pipeline |  1.26.2 | 
-| Release |  :green_square: |  :green_square: | 
+| Version |  9230ff8 |  1.26.2 | 
+| Release |  :red_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: | 
 
 
