@@ -99,7 +99,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "6ed632b",
+          "Version": "61bd169",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -181,8 +181,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.0..HEAD",
-        "Count": 13,
+        "Count": 15,
         "Commits": [
+          {
+            "Text": "Merge pull request #694 from PRODYNA-YASM/693-changelog-does-not-handle-github-names-with-dashes-correctly",
+            "SHA": "61bd1699702210e19d7a0ea36c4677881e084876",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-31T23:35:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/61bd1699702210e19d7a0ea36c4677881e084876"
+          },
+          {
+            "Text": "New version of changlog with correct handling of dashes in username",
+            "SHA": "da25ae1085d7d64bd89b8100d1045acc3d0c3780",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-05-31T23:30:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/da25ae1085d7d64bd89b8100d1045acc3d0c3780"
+          },
           {
             "Text": "Merge pull request #679 from PRODYNA-YASM/678-integrate-yasm-test-into-pipeline",
             "SHA": "6ed632b0b6a35ee62a78cea946ac705e734412ad",
@@ -1380,5 +1400,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-31T23:02:14Z"
+  "LastUpdated": "2024-06-01T07:32:22Z"
 }
