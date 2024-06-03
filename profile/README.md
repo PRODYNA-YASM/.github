@@ -1,14 +1,14 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-06-03T16:38:14Z
+Component Status overview. Last update 2024-06-03T22:09:59Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-backend/compare/1.27.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.27.0 |  :red_square: 59d3e00 |  :green_square: 1.27.0 |  :green_square: 1.27.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-backend/compare/1.27.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.27.0 |  :red_square: c145915 |  :green_square: 1.27.0 |  :green_square: 1.27.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [20](https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.27.0 |  :red_square: fb43cc4 |  :green_square: 1.27.0 |  :green_square: 1.27.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.27.1..HEAD) | :green_square: 0 | 1.27.1 |  :red_square: a65fcd8 |  :green_square: 1.27.1 |  :green_square: 1.27.1 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.27.0 |  :green_square: 1.27.0 |  :green_square: 1.27.0 |  :green_square: 1.27.0 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.12.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.12.0 |  :red_square: 7fa7257 |  :green_square: 1.12.0 |  :green_square: 1.12.0 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [4](https://github.com/prodyna-yasm/yasmctl/compare/1.27.0..HEAD) | :green_square: 0 | 1.27.0 |  :red_square: d3972ed |  :green_square: 1.27.0 |  :green_square: 1.27.0 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [3](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.12.0..HEAD) | :green_square: 0 | 1.12.0 |  :red_square: fdcbfe7 |  :green_square: 1.12.0 |  :green_square: 1.12.0 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.4.8 |  :green_square: 1.4.8 |  :green_square: 1.4.8 |  :green_square: 1.4.8 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [2](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.9.12..HEAD) | :green_square: 0 | 1.9.12 |  :red_square: eca159d |  :green_square: 1.9.12 |  :green_square: 1.9.12 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.26.0 |  :green_square: 1.26.0 |  :green_square: 1.26.0 |  :green_square: 1.26.0 | 
@@ -26,7 +26,9 @@ Component Status overview. Last update 2024-06-03T16:38:14Z
 
 
 
-### [Commits on main since 1.27.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.27.0..HEAD) (1)
+### [Commits on main since 1.27.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.27.0..HEAD) (2)
+
+- [add new pdf profile endpoint (#627)](https://github.com/prodyna-yasm/yasm-backend/commit/c1459156ea13ba03195c877a58f2e454f924576c) by [coding4kay](https://github.com/coding4kay) on 2024-06-03 16:47:08 +0000 UTC
 
 - [improve test performance by using oidc mock service (#625)](https://github.com/prodyna-yasm/yasm-backend/commit/59d3e0055c5586d62d1fbd42e14e66ddc618391f) by [coding4kay](https://github.com/coding4kay) on 2024-05-31 13:16:26 +0000 UTC
 
@@ -43,7 +45,7 @@ Component Status overview. Last update 2024-06-03T16:38:14Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  59d3e00 |  1.27.0 |  1.27.0 | 
+| Version |  c145915 |  1.27.0 |  1.27.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -204,6 +206,17 @@ Component Status overview. Last update 2024-06-03T16:38:14Z
 
 
 
+### [Commits on main since 1.27.0](https://github.com/prodyna-yasm/yasmctl/compare/1.27.0..HEAD) (4)
+
+- [Merge pull request #328 from PRODYNA-YASM/dependabot/go_modules/github.com/spf13/viper-1.19.0](https://github.com/prodyna-yasm/yasmctl/commit/d3972edfaa41af15fc858517310d6116afbc2e7f) by [dkrizic](https://github.com/dkrizic) on 2024-06-03 21:59:44 +0000 UTC
+
+- [Merge pull request #329 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.27.2](https://github.com/prodyna-yasm/yasmctl/commit/7969d4078e88641d7e7c74e045599e595996c41b) by [dkrizic](https://github.com/dkrizic) on 2024-06-03 21:59:28 +0000 UTC
+
+- [Bump github.com/prodyna-yasm/yasm-api-go from 1.27.0 to 1.27.2](https://github.com/prodyna-yasm/yasmctl/commit/cad978e09b9c2f524b87ec835cd113dc71a766ea) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-06-03 21:53:51 +0000 UTC
+
+- [Bump github.com/spf13/viper from 1.18.2 to 1.19.0](https://github.com/prodyna-yasm/yasmctl/commit/b5372c962b468eb5224fe9db00a78cdd35df051d) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-06-03 21:53:46 +0000 UTC
+
+
 
 
 
@@ -211,9 +224,9 @@ Component Status overview. Last update 2024-06-03T16:38:14Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.27.0 |  1.27.0 |  1.27.0 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  d3972ed |  1.27.0 |  1.27.0 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -249,7 +262,9 @@ Component Status overview. Last update 2024-06-03T16:38:14Z
 
 
 
-### [Commits on main since 1.12.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.12.0..HEAD) (2)
+### [Commits on main since 1.12.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.12.0..HEAD) (3)
+
+- [Merge pull request #196 from PRODYNA-YASM/feature/default-date-2023-07-01](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/fdcbfe7b67e16b302deb1bc761983cb81d30111b) by [dkrizic](https://github.com/dkrizic) on 2024-06-03 16:38:05 +0000 UTC
 
 - [Merge pull request #197 from PRODYNA-YASM/dependabot/go_modules/github.com/spf13/viper-1.19.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/7fa7257212693deda5e089901d2a2b5d7c462e2f) by [dkrizic](https://github.com/dkrizic) on 2024-06-03 13:20:15 +0000 UTC
 
@@ -258,17 +273,12 @@ Component Status overview. Last update 2024-06-03T16:38:14Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) (1)
-
-- [Back to 2023](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/196)
-
-
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  7fa7257 |  1.12.0 |  1.12.0 | 
+| Version |  fdcbfe7 |  1.12.0 |  1.12.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
