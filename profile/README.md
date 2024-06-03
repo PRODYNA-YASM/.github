@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-06-03T07:32:19Z
+Component Status overview. Last update 2024-06-03T11:14:32Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-backend/compare/1.27.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.27.0 |  :red_square: 59d3e00 |  :green_square: 1.27.0 |  :green_square: 1.27.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [15](https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.27.0 |  :red_square: 61bd169 |  :green_square: 1.27.0 |  :green_square: 1.27.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [18](https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.27.0 |  :red_square: 5144ee3 |  :green_square: 1.27.0 |  :green_square: 1.27.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.27.1..HEAD) | :green_square: 0 | 1.27.1 |  :red_square: a65fcd8 |  :green_square: 1.27.1 |  :green_square: 1.27.1 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.27.0 |  :green_square: 1.27.0 |  :green_square: 1.27.0 |  :green_square: 1.27.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.12.0 |  :green_square: 1.12.0 |  :green_square: 1.12.0 |  :green_square: 1.12.0 | 
@@ -66,7 +66,13 @@ Component Status overview. Last update 2024-06-03T07:32:19Z
 
 
 
-### [Commits on main since 1.27.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.0..HEAD) (15)
+### [Commits on main since 1.27.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.0..HEAD) (18)
+
+- [Merge pull request #681 from PRODYNA-YASM/dependabot/npm_and_yarn/babel/register-7.24.6](https://github.com/prodyna-yasm/yasm-frontend/commit/5144ee315d6983956175f5ab5d65b3873ed18210) by [dkrizic](https://github.com/dkrizic) on 2024-06-03 09:47:22 +0000 UTC
+
+- [Merge pull request #695 from PRODYNA-YASM/dependabot/npm_and_yarn/types/node-20.14.0](https://github.com/prodyna-yasm/yasm-frontend/commit/31ffc4e12e77fc34ee15da7e446af6d8719259a7) by [dkrizic](https://github.com/dkrizic) on 2024-06-03 09:40:12 +0000 UTC
+
+- [Bump @types/node from 20.12.12 to 20.14.0](https://github.com/prodyna-yasm/yasm-frontend/commit/04f36433ce8747bfb890c22618b8007333841de9) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-06-03 04:25:19 +0000 UTC
 
 - [Merge pull request #694 from PRODYNA-YASM/693-changelog-does-not-handle-github-names-with-dashes-correctly](https://github.com/prodyna-yasm/yasm-frontend/commit/61bd1699702210e19d7a0ea36c4677881e084876) by [dkrizic](https://github.com/dkrizic) on 2024-05-31 23:35:47 +0000 UTC
 
@@ -101,15 +107,11 @@ Component Status overview. Last update 2024-06-03T07:32:19Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
-
-- [Bump @types/node from 20.12.12 to 20.14.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/695)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (4)
 
 - [fixed updateOrganization in ProjectDetailView](https://github.com/PRODYNA-YASM/yasm-frontend/pull/692)
 
 - [Bump rimraf from 4.4.1 to 5.0.7](https://github.com/PRODYNA-YASM/yasm-frontend/pull/682)
-
-- [Bump @babel/register from 7.23.7 to 7.24.6](https://github.com/PRODYNA-YASM/yasm-frontend/pull/681)
 
 - [Bump memfs from 3.5.3 to 4.9.2](https://github.com/PRODYNA-YASM/yasm-frontend/pull/672)
 
@@ -121,7 +123,7 @@ Component Status overview. Last update 2024-06-03T07:32:19Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  61bd169 |  1.27.0 |  1.27.0 | 
+| Version |  5144ee3 |  1.27.0 |  1.27.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
