@@ -99,7 +99,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "5144ee3",
+          "Version": "fb43cc4",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -150,12 +150,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 4,
+        "Count": 3,
         "PullRequests": [
-          {
-            "Title": "fixed updateOrganization in ProjectDetailView",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/692"
-          },
           {
             "Title": "Bump rimraf from 4.4.1 to 5.0.7",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/682"
@@ -173,8 +169,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.0..HEAD",
-        "Count": 18,
+        "Count": 20,
         "Commits": [
+          {
+            "Text": "Merge pull request #692 from PRODYNA-YASM/fix/update-project-form",
+            "SHA": "fb43cc47d272f955c53f50ed03bff2ba89a3baae",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-06-03T12:01:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/fb43cc47d272f955c53f50ed03bff2ba89a3baae"
+          },
           {
             "Text": "Merge pull request #681 from PRODYNA-YASM/dependabot/npm_and_yarn/babel/register-7.24.6",
             "SHA": "5144ee315d6983956175f5ab5d65b3873ed18210",
@@ -354,6 +360,16 @@
             },
             "Timestamp": "2024-05-31T15:09:43Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/47b0c80be941105c311bf2298055e405e8026bcb"
+          },
+          {
+            "Text": "fixed updateOrganization in ProjectDetailView",
+            "SHA": "1a7e158eb49ea98785906d495e4d848a8ed7293a",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-05-31T14:57:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/1a7e158eb49ea98785906d495e4d848a8ed7293a"
           }
         ]
       },
@@ -615,9 +631,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.12.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "7fa7257",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -677,8 +693,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.12.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #197 from PRODYNA-YASM/dependabot/go_modules/github.com/spf13/viper-1.19.0",
+            "SHA": "7fa7257212693deda5e089901d2a2b5d7c462e2f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-03T13:20:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/7fa7257212693deda5e089901d2a2b5d7c462e2f"
+          },
+          {
+            "Text": "Bump github.com/spf13/viper from 1.18.2 to 1.19.0",
+            "SHA": "741c5f28c1ac374c53c3de29ceb755e228d37125",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-03T13:15:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/741c5f28c1ac374c53c3de29ceb755e228d37125"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -782,9 +819,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.9.12",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "eca159d",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -839,8 +876,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.9.12..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #118 from PRODYNA-YASM/dependabot/go_modules/github.com/spf13/viper-1.19.0",
+            "SHA": "eca159d4fc174920e8f292f6140cf4c3dba0e01b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-03T16:32:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/eca159d4fc174920e8f292f6140cf4c3dba0e01b"
+          },
+          {
+            "Text": "Bump github.com/spf13/viper from 1.18.2 to 1.19.0",
+            "SHA": "335a3c68976447b979ed1ccfc25d1b74ee0c7d6c",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-03T16:26:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/335a3c68976447b979ed1ccfc25d1b74ee0c7d6c"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1092,38 +1150,38 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "1.27.0",
+        "Tag": "1.27.2",
         "SHA": "",
-        "Title": "Skill Importance",
-        "Timestamp": "2024-05-31T12:05:33Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.27.0"
+        "Title": "Fix Naming",
+        "Timestamp": "2024-06-03T16:34:41Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.27.2"
       },
       "Releases": [
+        {
+          "Tag": "1.27.2",
+          "SHA": "",
+          "Title": "Fix Naming",
+          "Timestamp": "2024-06-03T16:33:43Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.27.2"
+        },
+        {
+          "Tag": "1.27.1",
+          "SHA": "",
+          "Title": "New PdfProfile Endpoint",
+          "Timestamp": "2024-06-03T16:23:51Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.27.1"
+        },
         {
           "Tag": "1.27.0",
           "SHA": "",
           "Title": "Skill Importance",
           "Timestamp": "2024-05-31T12:03:54Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.27.0"
-        },
-        {
-          "Tag": "1.26.0",
-          "SHA": "",
-          "Title": "Skill API KindGiver",
-          "Timestamp": "2024-05-13T14:21:44Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.26.0"
-        },
-        {
-          "Tag": "1.25.0",
-          "SHA": "",
-          "Title": "Skill Search and Clean api from suggestable and linkable",
-          "Timestamp": "2024-05-07T11:54:45Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.25.0"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 7,
+        "Count": 4,
         "PullRequests": [
           {
             "Title": "Feature/324-project-images",
@@ -1132,18 +1190,6 @@
           {
             "Title": "Bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.55 to 3.0.57",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/193"
-          },
-          {
-            "Title": "Bump jakarta.validation:jakarta.validation-api from 3.0.2 to 3.1.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/191"
-          },
-          {
-            "Title": "Bump org.openapitools:openapi-generator-maven-plugin from 7.5.0 to 7.6.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/190"
-          },
-          {
-            "Title": "Bump com.fasterxml.jackson.core:jackson-databind from 2.17.0 to 2.17.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/184"
           },
           {
             "Title": "Bump jakarta.ws.rs:jakarta.ws.rs-api from 3.1.0 to 4.0.0",
@@ -1157,7 +1203,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.27.0..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.27.2..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -1407,5 +1453,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-03T11:14:32Z"
+  "LastUpdated": "2024-06-03T16:38:14Z"
 }
