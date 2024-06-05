@@ -1,20 +1,20 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-06-04T15:13:32Z
+Component Status overview. Last update 2024-06-05T07:32:41Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-backend/compare/1.27.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.27.0 |  :red_square: c694dc3 |  :green_square: 1.27.0 |  :green_square: 1.27.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-backend/compare/1.27.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.27.0 |  :red_square: 5ab0f8d |  :green_square: 1.27.0 |  :green_square: 1.27.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.27.1 |  :green_square: 1.27.1 |  :green_square: 1.27.1 |  :green_square: 1.27.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [4](https://github.com/prodyna-yasm/yasm-integration/compare/1.27.1..HEAD) | :green_square: 0 | 1.27.1 |  :red_square: eb893f2 |  :green_square: 1.27.1 |  :green_square: 1.27.1 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [4](https://github.com/prodyna-yasm/yasmctl/compare/1.27.0..HEAD) | :green_square: 0 | 1.27.0 |  :red_square: d3972ed |  :green_square: 1.27.0 |  :green_square: 1.27.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [3](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.12.0..HEAD) | :green_square: 0 | 1.12.0 |  :red_square: fdcbfe7 |  :green_square: 1.12.0 |  :green_square: 1.12.0 | 
-| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.4.8 |  :green_square: 1.4.8 |  :green_square: 1.4.8 |  :green_square: 1.4.8 | 
+| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [4](https://github.com/prodyna-yasm/yasm-github/compare/1.4.8..HEAD) | :green_square: 0 | 1.4.8 |  :red_square: f29a32a |  :green_square: 1.4.8 |  :green_square: 1.4.8 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [2](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.9.12..HEAD) | :green_square: 0 | 1.9.12 |  :red_square: eca159d |  :green_square: 1.9.12 |  :green_square: 1.9.12 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.26.0 |  :green_square: 1.26.0 |  :green_square: 1.26.0 |  :green_square: 1.26.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.5.1-1 |  :green_square: 8.5.1-1 |  :green_square: 8.5.1-1 |  :green_square: 8.5.1-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.27.1 |  :green_square: 1.27.1 |  :green_square: 1.27.1 |  :green_square: 1.27.1 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.27.2 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.27.2 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.1.4 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [1](https://github.com/prodyna-yasm/sales-copilot/compare/1.0.1..HEAD) | :green_square: 0 | 1.0.1 |  :green_square: 1.0.1 |  :green_square: 1.0.1 |  :green_square: 1.0.1 | 
@@ -26,7 +26,9 @@ Component Status overview. Last update 2024-06-04T15:13:32Z
 
 
 
-### [Commits on main since 1.27.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.27.0..HEAD) (3)
+### [Commits on main since 1.27.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.27.0..HEAD) (4)
+
+- [Fix: Line separator issue on Windows systems (#629)](https://github.com/prodyna-yasm/yasm-backend/commit/5ab0f8d683c313d13a309f6e7e1708c3968f61ea) by [mayer-prodyna](https://github.com/mayer-prodyna) on 2024-06-05 07:12:35 +0000 UTC
 
 - [addk enduser.id and enduser.role (#628)](https://github.com/prodyna-yasm/yasm-backend/commit/c694dc3eda2957eb1b56ea63d47fc6b84940865f) by [coding4kay](https://github.com/coding4kay) on 2024-06-04 10:51:58 +0000 UTC
 
@@ -39,7 +41,7 @@ Component Status overview. Last update 2024-06-04T15:13:32Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (2)
 
-- [Fix: Line separator issue on Windows systems](https://github.com/PRODYNA-YASM/yasm-backend/pull/629)
+- [Feature: Filter former employees](https://github.com/PRODYNA-YASM/yasm-backend/pull/630)
 
 - [Bump eclipse-temurin from 21.0.2_13-jre-ubi9-minimal to 22.0.1_8-jre-ubi9-minimal](https://github.com/PRODYNA-YASM/yasm-backend/pull/588)
 
@@ -49,7 +51,7 @@ Component Status overview. Last update 2024-06-04T15:13:32Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  c694dc3 |  1.27.0 |  1.27.0 | 
+| Version |  5ab0f8d |  1.27.0 |  1.27.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -275,6 +277,17 @@ Component Status overview. Last update 2024-06-04T15:13:32Z
 
 
 
+### [Commits on main since 1.4.8](https://github.com/prodyna-yasm/yasm-github/compare/1.4.8..HEAD) (4)
+
+- [Merge pull request #93 from PRODYNA-YASM/dependabot/docker/golang-1.22.4-alpine3.19](https://github.com/prodyna-yasm/yasm-github/commit/f29a32a9a0d3737b121fd18f15c7004147b4da9c) by [dkrizic](https://github.com/dkrizic) on 2024-06-05 06:34:55 +0000 UTC
+
+- [Bump golang from 1.22.3-alpine3.19 to 1.22.4-alpine3.19](https://github.com/prodyna-yasm/yasm-github/commit/f8cda83b7b6f342e1e1954b2c0600cd63811a25a) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-06-04 23:49:49 +0000 UTC
+
+- [Merge pull request #92 from PRODYNA-YASM/dependabot/go_modules/golang.org/x/oauth2-0.21.0](https://github.com/prodyna-yasm/yasm-github/commit/3400c31aeb34a98a9c236980021209f529e67efa) by [dkrizic](https://github.com/dkrizic) on 2024-06-04 23:20:36 +0000 UTC
+
+- [Bump golang.org/x/oauth2 from 0.20.0 to 0.21.0](https://github.com/prodyna-yasm/yasm-github/commit/380da8c4f22d9f6efa7fa5862a26cfdf5ddd2723) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-06-04 23:09:33 +0000 UTC
+
+
 
 
 
@@ -282,9 +295,9 @@ Component Status overview. Last update 2024-06-04T15:13:32Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.4.8 |  1.4.8 |  1.4.8 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  f29a32a |  1.4.8 |  1.4.8 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -449,7 +462,9 @@ Component Status overview. Last update 2024-06-04T15:13:32Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (4)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (5)
+
+- [add person inactive filter](https://github.com/PRODYNA-YASM/yasm-api/pull/199)
 
 - [Feature/324-project-images](https://github.com/PRODYNA-YASM/yasm-api/pull/194)
 
