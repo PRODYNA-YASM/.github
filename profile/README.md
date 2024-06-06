@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-06-06T14:13:37Z
+Component Status overview. Last update 2024-06-06T15:28:22Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [10](https://github.com/prodyna-yasm/yasm-backend/compare/1.27.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.27.0 |  :red_square: d2b26f1 |  :green_square: 1.27.0 |  :green_square: 1.27.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [21](https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.1..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.27.1 |  :red_square: 1e5ea87 |  :green_square: 1.27.1 |  :green_square: 1.27.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [23](https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.1..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.27.1 |  :red_square: 0ca5ab7 |  :green_square: 1.27.1 |  :green_square: 1.27.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [8](https://github.com/prodyna-yasm/yasm-integration/compare/1.27.1..HEAD) | :green_square: 0 | 1.27.1 |  :red_square: c0c2f15 |  :green_square: 1.27.1 |  :green_square: 1.27.1 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [8](https://github.com/prodyna-yasm/yasmctl/compare/1.27.0..HEAD) | :green_square: 0 | 1.27.0 |  :red_square: 1d87661 |  :green_square: 1.27.0 |  :green_square: 1.27.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [3](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.12.0..HEAD) | :green_square: 0 | 1.12.0 |  :red_square: fdcbfe7 |  :green_square: 1.12.0 |  :green_square: 1.12.0 | 
@@ -14,10 +14,10 @@ Component Status overview. Last update 2024-06-06T14:13:37Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.26.0 |  :green_square: 1.26.0 |  :green_square: 1.26.0 |  :green_square: 1.26.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.5.1-1 |  :green_square: 8.5.1-1 |  :green_square: 8.5.1-1 |  :green_square: 8.5.1-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.27.1 |  :green_square: 1.27.1 |  :green_square: 1.27.1 |  :green_square: 1.27.1 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.28.0 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.28.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [16](https://github.com/prodyna-yasm/yasm-test/compare/1.27.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-test/pulls) | 1.27.0 | 
-| [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [2](https://github.com/prodyna-yasm/sales-copilot/compare/1.0.1..HEAD) | :green_square: 0 | 1.0.1 |  :red_square: 1.1.0 |  :red_square: 1.1.0 |  :red_square: 1.1.0 | 
+| [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :green_square: 0 | :green_square: 0 | 1.1.0 |  :green_square: 1.1.0 |  :green_square: 1.1.0 |  :green_square: 1.1.0 | 
 
 
 
@@ -84,7 +84,11 @@ Component Status overview. Last update 2024-06-06T14:13:37Z
 
 
 
-### [Commits on main since 1.27.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.1..HEAD) (21)
+### [Commits on main since 1.27.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.1..HEAD) (23)
+
+- [Merge pull request #708 from PRODYNA-YASM/707-activate-copilot-for-staging-and-prod-again](https://github.com/prodyna-yasm/yasm-frontend/commit/0ca5ab7096a8143e96ceb56993051179dcfca630) by [dkrizic](https://github.com/dkrizic) on 2024-06-06 14:26:44 +0000 UTC
+
+- [Activate copilot link on production again](https://github.com/prodyna-yasm/yasm-frontend/commit/cf23fc4797e93045a1119aa95b2b8c1616ec140d) by [dkrizic](https://github.com/dkrizic) on 2024-06-06 14:24:56 +0000 UTC
 
 - [change yellow to green xD](https://github.com/prodyna-yasm/yasm-frontend/commit/1e5ea870842e77ee1999dcbb394118a37ddf404b) by [](https://github.com/) on 2024-06-06 13:22:42 +0000 UTC
 
@@ -151,7 +155,7 @@ Component Status overview. Last update 2024-06-06T14:13:37Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1e5ea87 |  1.27.1 |  1.27.1 | 
+| Version |  0ca5ab7 |  1.27.1 |  1.27.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -530,7 +534,9 @@ Component Status overview. Last update 2024-06-06T14:13:37Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (3)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (4)
+
+- [add anonymize flag in pdf-profile, removed githubUser and  removed ol…](https://github.com/PRODYNA-YASM/yasm-api/pull/201)
 
 - [Feature/324-project-images](https://github.com/PRODYNA-YASM/yasm-api/pull/194)
 
@@ -669,16 +675,9 @@ Component Status overview. Last update 2024-06-06T14:13:37Z
 
 
 
-## [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) 1.0.1
+## [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) 1.1.0
 
 
-
-
-### [Commits on main since 1.0.1](https://github.com/prodyna-yasm/sales-copilot/compare/1.0.1..HEAD) (2)
-
-- [Add default QR Codes!](https://github.com/prodyna-yasm/sales-copilot/commit/f41183627e40cd5c4179f957423d264725df3655) by [](https://github.com/) on 2024-06-06 14:06:37 +0000 UTC
-
-- [Change QR-Code Ref Header!](https://github.com/prodyna-yasm/sales-copilot/commit/9ed01244d543b171dc27ebeacdbda2485d2c44e6) by [](https://github.com/) on 2024-05-24 09:13:26 +0000 UTC
 
 
 
@@ -690,10 +689,12 @@ Component Status overview. Last update 2024-06-06T14:13:37Z
 | --- |  --- |  --- |  --- | 
 | Version |  1.1.0 |  1.1.0 |  1.1.0 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :red_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
+
+- [QR-Code improvements](https://github.com/PRODYNA-YASM/sales-copilot/releases/tag/1.1.0) on 2024-06-06 14:06:55 +0000 UTC
 
 - [1.0.1 Formatting and Crash Fixes](https://github.com/PRODYNA-YASM/sales-copilot/releases/tag/1.0.1) on 2024-05-24 08:34:42 +0000 UTC
 
