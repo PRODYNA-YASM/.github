@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "9a6908e",
+          "Version": "d2b26f1",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -59,12 +59,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "Bump quarkus.platform.version from 3.11.0 to 3.11.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/634"
-          },
           {
             "Title": "Bump eclipse-temurin from 21.0.2_13-jre-ubi9-minimal to 22.0.1_8-jre-ubi9-minimal",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/588"
@@ -74,8 +70,38 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.27.0..HEAD",
-        "Count": 7,
+        "Count": 10,
         "Commits": [
+          {
+            "Text": "exclude inactive persons from showing up global search (#637)",
+            "SHA": "d2b26f1b48c83f9a76d8dcdc81fc6ba3d14ebd97",
+            "Author": {
+              "name": "mayer-prodyna",
+              "link": "https://github.com/mayer-prodyna"
+            },
+            "Timestamp": "2024-06-06T12:52:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/d2b26f1b48c83f9a76d8dcdc81fc6ba3d14ebd97"
+          },
+          {
+            "Text": "update quarkus 3.11.1 (#636)",
+            "SHA": "5ce9a1e839b5082ede63577f62e6592dd4812177",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-06-06T11:34:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/5ce9a1e839b5082ede63577f62e6592dd4812177"
+          },
+          {
+            "Text": "remove unused fields inside logging (#635)",
+            "SHA": "1ed4ac546b24564076cb7781c771a31e8c65b338",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-06-06T11:06:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/1ed4ac546b24564076cb7781c771a31e8c65b338"
+          },
           {
             "Text": "GeoBuilder return null if no values exist, not an empty object (#633)",
             "SHA": "9a6908e6b782be63f006408cd6515517c85e4cf0",
@@ -163,7 +189,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "931fb49",
+          "Version": "1e5ea87",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -245,8 +271,118 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.1..HEAD",
-        "Count": 10,
+        "Count": 21,
         "Commits": [
+          {
+            "Text": "change yellow to green xD",
+            "SHA": "1e5ea870842e77ee1999dcbb394118a37ddf404b",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-06-06T13:22:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/1e5ea870842e77ee1999dcbb394118a37ddf404b"
+          },
+          {
+            "Text": "Feature: Exclude inactive persons from showing up global search (#706)",
+            "SHA": "604eb930560ef9bfafd0cc17784d34c77bc48231",
+            "Author": {
+              "name": "mayer-prodyna",
+              "link": "https://github.com/mayer-prodyna"
+            },
+            "Timestamp": "2024-06-06T13:20:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/604eb930560ef9bfafd0cc17784d34c77bc48231"
+          },
+          {
+            "Text": "Merge pull request #705 from PRODYNA-YASM/feature/team_member_overview_in_user_profile",
+            "SHA": "21403b0971d6595540ce60b4067fc64fbe44d841",
+            "Author": {
+              "name": "mayer-prodyna",
+              "link": "https://github.com/mayer-prodyna"
+            },
+            "Timestamp": "2024-06-06T13:08:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/21403b0971d6595540ce60b4067fc64fbe44d841"
+          },
+          {
+            "Text": "remove duplicate entries",
+            "SHA": "8fbd766eb840bca442d11207e9d1210745454f92",
+            "Author": {
+              "name": "saemik94",
+              "link": "https://github.com/saemik94"
+            },
+            "Timestamp": "2024-06-06T08:25:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/8fbd766eb840bca442d11207e9d1210745454f92"
+          },
+          {
+            "Text": "sort alphabetically",
+            "SHA": "3334b3d577adf1e692604baa547b3a116341de53",
+            "Author": {
+              "name": "saemik94",
+              "link": "https://github.com/saemik94"
+            },
+            "Timestamp": "2024-06-06T08:23:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/3334b3d577adf1e692604baa547b3a116341de53"
+          },
+          {
+            "Text": "refactor code",
+            "SHA": "c2d6566b4bd590e4073cc553137612357c69d14a",
+            "Author": {
+              "name": "saemik94",
+              "link": "https://github.com/saemik94"
+            },
+            "Timestamp": "2024-06-06T06:44:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/c2d6566b4bd590e4073cc553137612357c69d14a"
+          },
+          {
+            "Text": "fix: flatten svg icon",
+            "SHA": "786873d83a6360d4c9672834d85cc0701ffdf124",
+            "Author": {
+              "name": "saemik94",
+              "link": "https://github.com/saemik94"
+            },
+            "Timestamp": "2024-06-06T06:31:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/786873d83a6360d4c9672834d85cc0701ffdf124"
+          },
+          {
+            "Text": "wip code refactor",
+            "SHA": "689155a6a0a3777351f939ae46e6eb9fd5f5c967",
+            "Author": {
+              "name": "saemik94",
+              "link": "https://github.com/saemik94"
+            },
+            "Timestamp": "2024-06-05T15:50:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/689155a6a0a3777351f939ae46e6eb9fd5f5c967"
+          },
+          {
+            "Text": "refactor code",
+            "SHA": "9c97fd09bb9966bc39cae5c03f2a256040c3a45f",
+            "Author": {
+              "name": "mayer-prodyna",
+              "link": "https://github.com/mayer-prodyna"
+            },
+            "Timestamp": "2024-06-05T14:26:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/9c97fd09bb9966bc39cae5c03f2a256040c3a45f"
+          },
+          {
+            "Text": "adjust person manager style",
+            "SHA": "77424b46717d4e460b3604382cdd7a237c55a5eb",
+            "Author": {
+              "name": "saemik94",
+              "link": "https://github.com/saemik94"
+            },
+            "Timestamp": "2024-06-05T13:59:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/77424b46717d4e460b3604382cdd7a237c55a5eb"
+          },
+          {
+            "Text": "initial team members implementation",
+            "SHA": "44c167a892bb5110284e8db7cdeaab1765ccf4aa",
+            "Author": {
+              "name": "mayer-prodyna",
+              "link": "https://github.com/mayer-prodyna"
+            },
+            "Timestamp": "2024-06-05T13:42:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/44c167a892bb5110284e8db7cdeaab1765ccf4aa"
+          },
           {
             "Text": "Merge pull request #702 from PRODYNA-YASM/feature/109-charts",
             "SHA": "931fb49a41f5a2dc1e29432b05ab9282529ec43c",
@@ -509,7 +645,7 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 7,
+        "Count": 6,
         "Workflows": [
           {
             "Name": "Merge pull request #427 from PRODYNA-YASM/dependabot/docker/alpine-3.…",
@@ -540,11 +676,6 @@
             "Name": "Merge pull request #415 from PRODYNA-YASM/dependabot/go_modules/githu…",
             "Timestamp": "2024-05-08T08:45:36Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8998943989"
-          },
-          {
-            "Name": "Merge pull request #414 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2024-05-07T08:15:33Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8981989926"
           }
         ]
       }
@@ -701,7 +832,7 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 5,
+        "Count": 4,
         "Workflows": [
           {
             "Name": "Merge pull request #324 from PRODYNA-YASM/dependabot/go_modules/go.op…",
@@ -722,11 +853,6 @@
             "Name": "Merge pull request #318 from PRODYNA-YASM/dependabot/go_modules/githu…",
             "Timestamp": "2024-05-08T08:41:31Z",
             "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8998896608"
-          },
-          {
-            "Name": "Merge pull request #317 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2024-05-07T08:16:13Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8981999058"
           }
         ]
       }
@@ -1328,14 +1454,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #485 from PRODYNA-YASM/feature/update-kubernetes-1…",
-            "Timestamp": "2024-05-07T10:20:55Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/8983687209"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1495,39 +1615,153 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 6,
+        "Count": 2,
         "PullRequests": [
           {
-            "Title": "chore(deps): Bump cypress/included from 13.7.0 to 13.11.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/88"
+            "Title": "chore(deps): Bump @azure/msal-node from 2.7.0 to 2.9.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/95"
           },
           {
-            "Title": "chore(deps-dev): Bump cypress from 13.7.2 to 13.11.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/87"
-          },
-          {
-            "Title": "chore(deps): Bump jose from 5.2.4 to 5.4.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/84"
-          },
-          {
-            "Title": "Bump auth0-js from 9.24.1 to 9.26.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/60"
-          },
-          {
-            "Title": "Bump cy-verify-downloads from 0.2.3 to 0.2.4",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/42"
-          },
-          {
-            "Title": "Bump typescript from 5.4.3 to 5.4.5",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/30"
+            "Title": "Fix/adding and verifying project startdate",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/89"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-test",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/compare/1.27.0..HEAD",
-        "Count": 3,
+        "Count": 16,
         "Commits": [
+          {
+            "Text": "Merge pull request #94 from PRODYNA-YASM/feature/update-components",
+            "SHA": "c29a46b065f1690748c34033b553ced864346c59",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-06T11:44:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/c29a46b065f1690748c34033b553ced864346c59"
+          },
+          {
+            "Text": "Update all components",
+            "SHA": "78c3aa013ca30191983466c86f58ca04ea205573",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-06T11:37:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/78c3aa013ca30191983466c86f58ca04ea205573"
+          },
+          {
+            "Text": "Merge pull request #91 from PRODYNA-YASM/90-check-the-test-first-before-building-the-container",
+            "SHA": "66fa49ec3d4cb424c36db75925eb5629d362185a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-06T11:35:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/66fa49ec3d4cb424c36db75925eb5629d362185a"
+          },
+          {
+            "Text": "Merge branch 'main' into 90-check-the-test-first-before-building-the-container",
+            "SHA": "6cfc8dd7b77d4b2cbb9100454041f7cc6b03b546",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-06T11:29:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/6cfc8dd7b77d4b2cbb9100454041f7cc6b03b546"
+          },
+          {
+            "Text": "Merge pull request #93 from PRODYNA-YASM/92-generate-md-file-inside-the-container-and-put-all-artefacts-into-a-mountable-directory",
+            "SHA": "40155bf3ca90ba2b9ea6095a1ebf6d8cae864111",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-06T11:29:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/40155bf3ca90ba2b9ea6095a1ebf6d8cae864111"
+          },
+          {
+            "Text": "Merge branch 'main' into 92-generate-md-file-inside-the-container-and-put-all-artefacts-into-a-mountable-directory",
+            "SHA": "b8412aa47232f9a388d04d7422029d0dc66fc20c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-06T11:26:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/b8412aa47232f9a388d04d7422029d0dc66fc20c"
+          },
+          {
+            "Text": "Update all components",
+            "SHA": "0f7b7d192c53b3d01baab53503eb914dac27ea95",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-06T11:24:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/0f7b7d192c53b3d01baab53503eb914dac27ea95"
+          },
+          {
+            "Text": "Use Cypress 13.11.0",
+            "SHA": "0c0ca725f3046e6997d27343c35ee101b54ca94f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-06T11:21:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/0c0ca725f3046e6997d27343c35ee101b54ca94f"
+          },
+          {
+            "Text": "Copy results to /github/workspace",
+            "SHA": "a5bc49b224404c8da04c6e51a96b2f38664075a6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-06T11:20:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/a5bc49b224404c8da04c6e51a96b2f38664075a6"
+          },
+          {
+            "Text": "Fixed starting the own shell script",
+            "SHA": "14604eee7fa475f7d5939962776e1150da84c5ec",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-06T10:55:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/14604eee7fa475f7d5939962776e1150da84c5ec"
+          },
+          {
+            "Text": "Run own script and write all to /reports",
+            "SHA": "dcb78ac6ec5a131e297caf13b63d6844a0a61010",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-06T10:11:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/dcb78ac6ec5a131e297caf13b63d6844a0a61010"
+          },
+          {
+            "Text": "Merge pull request #60 from PRODYNA-YASM/dependabot/npm_and_yarn/auth0-js-9.26.1",
+            "SHA": "1d14a72d369b101dee838517ddac73eabd1ca9de",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-06T08:33:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/1d14a72d369b101dee838517ddac73eabd1ca9de"
+          },
+          {
+            "Text": "First run the tests and only then build the image",
+            "SHA": "d9e32bd0c2e139b3862527049014ffb8d7d7cd22",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-06T08:30:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/d9e32bd0c2e139b3862527049014ffb8d7d7cd22"
+          },
           {
             "Text": "Fix reference to image",
             "SHA": "c538f921393cf280a3443e4f768e036c89bf2ec6",
@@ -1575,23 +1809,23 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.0.1",
+          "Version": "1.1.0",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.0.1",
+          "Version": "1.1.0",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.0.1",
+          "Version": "1.1.0",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
@@ -1625,8 +1859,18 @@
       "Link": "https://github.com/prodyna-yasm/sales-copilot",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/sales-copilot/compare/1.0.1..HEAD",
-        "Count": 1,
+        "Count": 2,
         "Commits": [
+          {
+            "Text": "Add default QR Codes!",
+            "SHA": "f41183627e40cd5c4179f957423d264725df3655",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2024-06-06T14:06:37Z",
+            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/f41183627e40cd5c4179f957423d264725df3655"
+          },
           {
             "Text": "Change QR-Code Ref Header!",
             "SHA": "9ed01244d543b171dc27ebeacdbda2485d2c44e6",
@@ -1643,17 +1887,12 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/sales-copilot/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
           {
             "Name": "Adjust volume estimation guesstimate!",
             "Timestamp": "2024-05-08T14:04:41Z",
             "Link": "https://github.com/PRODYNA-YASM/sales-copilot/actions/runs/9003211686"
-          },
-          {
-            "Name": "Add an estimate for consultant days! Needs empiric testing!",
-            "Timestamp": "2024-05-07T09:04:34Z",
-            "Link": "https://github.com/PRODYNA-YASM/sales-copilot/actions/runs/8982656227"
           }
         ]
       }
@@ -1673,5 +1912,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-06T07:32:12Z"
+  "LastUpdated": "2024-06-06T14:13:37Z"
 }
