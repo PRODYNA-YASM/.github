@@ -1,13 +1,13 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-06-07T15:18:05Z
+Component Status overview. Last update 2024-06-07T20:06:22Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 |  :red_square: 1.27.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.29.1 |  :green_square: 1.29.1 |  :green_square: 1.29.1 |  :red_square: 1.27.1 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 |  :red_square: 1.27.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.29.1 |  :green_square: 1.29.1 |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.12.1 |  :green_square: 1.12.1 |  :green_square: 1.12.1 |  :green_square: 1.12.1 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.4.9 |  :green_square: 1.4.9 |  :green_square: 1.4.9 |  :green_square: 1.4.9 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.9.13 |  :green_square: 1.9.13 |  :green_square: 1.9.13 |  :green_square: 1.9.13 | 
@@ -38,9 +38,9 @@ Component Status overview. Last update 2024-06-07T15:18:05Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.29.0 |  1.29.0 |  1.27.0 | 
+| Version |  1.29.0 |  1.29.0 |  1.29.0 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -52,11 +52,6 @@ Component Status overview. Last update 2024-06-07T15:18:05Z
 - [Improve cypher performance and update quarkus](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.26.2) on 2024-05-24 21:43:36 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting) (1)
-
-- [fix random person order (#639)](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/9416263161) created on 2024-06-07 11:27:36 +0000 UTC
 
 
 
@@ -86,9 +81,9 @@ Component Status overview. Last update 2024-06-07T15:18:05Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.29.1 |  1.29.1 |  1.27.1 | 
+| Version |  1.29.1 |  1.29.1 |  1.29.1 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -100,11 +95,6 @@ Component Status overview. Last update 2024-06-07T15:18:05Z
 - [Fixed update OrganizationForm in Project-View](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.27.1) on 2024-06-04 08:00:16 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #717 from PRODYNA-YASM/feature/synchronize-Autocom…](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/9419067310) created on 2024-06-07 15:00:24 +0000 UTC
 
 
 
@@ -119,11 +109,11 @@ Component Status overview. Last update 2024-06-07T15:18:05Z
 
 ### Environments
 
-| Environment |  dev |  staging | 
-| --- |  --- |  --- | 
-| Version |  1.29.0 |  1.29.0 | 
-| Release |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: | 
+| Environment |  dev |  staging |  prod | 
+| --- |  --- |  --- |  --- | 
+| Version |  1.29.0 |  1.29.0 |  1.29.0 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -137,9 +127,7 @@ Component Status overview. Last update 2024-06-07T15:18:05Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (7)
-
-- [Merge pull request #438 from PRODYNA-YASM/feature/api-1.29](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9415273300) created on 2024-06-07 10:05:14 +0000 UTC
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (6)
 
 - [Merge pull request #437 from PRODYNA-YASM/feature/update-components](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9413568240) created on 2024-06-07 07:51:14 +0000 UTC
 
@@ -168,9 +156,9 @@ Component Status overview. Last update 2024-06-07T15:18:05Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.29.0 |  1.29.0 |  1.27.0 | 
+| Version |  1.29.0 |  1.29.0 |  1.29.0 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -184,11 +172,7 @@ Component Status overview. Last update 2024-06-07T15:18:05Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting) (5)
-
-- [Merge pull request #332 from PRODYNA-YASM/feature/api-1.29](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9415201339) created on 2024-06-07 10:00:15 +0000 UTC
-
-- [Merge pull request #331 from PRODYNA-YASM/feature/go-1.22.4](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9413322430) created on 2024-06-07 07:29:11 +0000 UTC
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting) (3)
 
 - [Merge pull request #324 from PRODYNA-YASM/dependabot/go_modules/go.op…](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9182087461) created on 2024-05-21 22:05:09 +0000 UTC
 
