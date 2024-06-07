@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d2b26f1",
+          "Version": "afb5211",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -70,8 +70,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.27.0..HEAD",
-        "Count": 10,
+        "Count": 14,
         "Commits": [
+          {
+            "Text": "fix random person order (#639)",
+            "SHA": "afb5211cf226a04ae6ac3f8ca30b8fa6f2916949",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-06-07T09:33:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/afb5211cf226a04ae6ac3f8ca30b8fa6f2916949"
+          },
+          {
+            "Text": "Merge pull request #638 from PRODYNA-YASM/feature/431-anonymize-export",
+            "SHA": "96922c1b2dac0346311137eb82c85332b692e5ed",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-06-07T09:00:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/96922c1b2dac0346311137eb82c85332b692e5ed"
+          },
+          {
+            "Text": "removed unused/old classes and tests",
+            "SHA": "67e208ff5b1e99bb9bbdf64d8571e8bd17e98f0c",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-06-07T08:52:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/67e208ff5b1e99bb9bbdf64d8571e8bd17e98f0c"
+          },
+          {
+            "Text": "431: add anonymize flag to hide picture in pdfExport, removed githubUser and removed old pdf-profile endpoint",
+            "SHA": "c5ab005f91357d1434a60df86b5a15d73e51bf62",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-06-06T15:03:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/c5ab005f91357d1434a60df86b5a15d73e51bf62"
+          },
           {
             "Text": "exclude inactive persons from showing up global search (#637)",
             "SHA": "d2b26f1b48c83f9a76d8dcdc81fc6ba3d14ebd97",
@@ -189,7 +229,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "4963f68",
+          "Version": "4b83736",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -270,6 +310,36 @@
         "Count": 30,
         "Commits": [
           {
+            "Text": "Merge pull request #713 from PRODYNA-YASM/feature/431-anonymize-export",
+            "SHA": "4b837365c8f8c08d49fbbbff2f5b08cd2e9c12af",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-06-07T09:45:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/4b837365c8f8c08d49fbbbff2f5b08cd2e9c12af"
+          },
+          {
+            "Text": "merge main and fixed conflicts",
+            "SHA": "5b414e775f8b3a45404e62e25f7367ad3d3a6fa5",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-06-07T09:43:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/5b414e775f8b3a45404e62e25f7367ad3d3a6fa5"
+          },
+          {
+            "Text": "update api to 1.29.0",
+            "SHA": "8a7d7102f2364869687e2d347a8c50aa0aaabc13",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-06-07T09:30:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/8a7d7102f2364869687e2d347a8c50aa0aaabc13"
+          },
+          {
             "Text": "Merge pull request #712 from PRODYNA-YASM/fix/maintainer-can-not-add-organization",
             "SHA": "4963f68afcb3ccab7f920c011ed608984a850a5b",
             "Author": {
@@ -338,6 +408,16 @@
             },
             "Timestamp": "2024-06-06T15:32:13Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/eacca30e3b3da8505d910b6b7a4c237b10197f26"
+          },
+          {
+            "Text": "431: build TemplateObject in FE, enable anonymization and override of Person object for pdf-export",
+            "SHA": "6cc150124b5a49141383ba614c7c7c06fb88e7e0",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-06-06T15:01:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/6cc150124b5a49141383ba614c7c7c06fb88e7e0"
           },
           {
             "Text": "Merge pull request #708 from PRODYNA-YASM/707-activate-copilot-for-staging-and-prod-again",
@@ -528,46 +608,6 @@
             },
             "Timestamp": "2024-06-05T12:20:08Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/af03563b642dcaf9a603e852dcc31c58878e2733"
-          },
-          {
-            "Text": "added skill tree for parent path",
-            "SHA": "4d201e7209665212155fd246e47eff6cb83a8cbf",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-06-05T11:38:21Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/4d201e7209665212155fd246e47eff6cb83a8cbf"
-          },
-          {
-            "Text": "Merge pull request #697 from PRODYNA-YASM/dependabot/npm_and_yarn/pmmmwh/react-refresh-webpack-plugin-0.5.15",
-            "SHA": "b39ed7fe2bb281e242dedbe33fdea2403332b9ae",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-06-05T11:31:25Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b39ed7fe2bb281e242dedbe33fdea2403332b9ae"
-          },
-          {
-            "Text": "Merge pull request #700 from PRODYNA-YASM/699-use-tests-1270",
-            "SHA": "3970acd442322309383af85c7ed6f47c91e7a171",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-06-05T08:31:04Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/3970acd442322309383af85c7ed6f47c91e7a171"
-          },
-          {
-            "Text": "Use current tests",
-            "SHA": "697ebc3388b105baa6cb81eb6c252b8f031a5af2",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-06-05T08:25:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/697ebc3388b105baa6cb81eb6c252b8f031a5af2"
           }
         ]
       },
@@ -630,8 +670,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "feature/api 1.29",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/438"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -643,7 +688,7 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 7,
+        "Count": 6,
         "Workflows": [
           {
             "Name": "Merge pull request #437 from PRODYNA-YASM/feature/update-components",
@@ -674,11 +719,6 @@
             "Name": "Merge pull request #418 from PRODYNA-YASM/technology-update",
             "Timestamp": "2024-05-14T09:42:04Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9077209401"
-          },
-          {
-            "Name": "Merge pull request #415 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2024-05-08T08:45:36Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8998943989"
           }
         ]
       }
@@ -747,14 +787,45 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.28.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 3,
+        "Commits": [
+          {
+            "Text": "Merge pull request #332 from PRODYNA-YASM/feature/api-1.29",
+            "SHA": "86a34b5dbdcffa8ad93828c2474b8ba4ac6cafed",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-07T09:57:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/86a34b5dbdcffa8ad93828c2474b8ba4ac6cafed"
+          },
+          {
+            "Text": "Merge branch 'main' into feature/api-1.29",
+            "SHA": "418012ec1b67feeac366bbadad7b9b7fc8c8d110",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-07T09:55:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/418012ec1b67feeac366bbadad7b9b7fc8c8d110"
+          },
+          {
+            "Text": "Using API 1.29",
+            "SHA": "16cb04809502fa84a57792ab5a3fa50e4cc876de",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-07T09:51:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/16cb04809502fa84a57792ab5a3fa50e4cc876de"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 5,
+        "Count": 4,
         "Workflows": [
           {
             "Name": "Merge pull request #331 from PRODYNA-YASM/feature/go-1.22.4",
@@ -775,11 +846,6 @@
             "Name": "Merge pull request #319 from PRODYNA-YASM/dependabot/go_modules/githu…",
             "Timestamp": "2024-05-14T09:41:06Z",
             "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9077198208"
-          },
-          {
-            "Name": "Merge pull request #318 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2024-05-08T08:41:31Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8998896608"
           }
         ]
       }
@@ -1257,13 +1323,20 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "1.28.0",
+        "Tag": "1.29.0",
         "SHA": "",
-        "Title": "Team member in person detail",
-        "Timestamp": "2024-06-05T08:29:42Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.28.0"
+        "Title": "Add anonymize flag in pdfProfile, removed GitHubUser and removed old PDFExport endpoint",
+        "Timestamp": "2024-06-07T08:40:11Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.29.0"
       },
       "Releases": [
+        {
+          "Tag": "1.29.0",
+          "SHA": "",
+          "Title": "Add anonymize flag in pdfProfile, removed GitHubUser and removed old PDFExport endpoint",
+          "Timestamp": "2024-06-07T08:39:04Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.29.0"
+        },
         {
           "Tag": "1.28.0",
           "SHA": "",
@@ -1277,23 +1350,12 @@
           "Title": "Fix Naming",
           "Timestamp": "2024-06-03T16:33:43Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.27.2"
-        },
-        {
-          "Tag": "1.27.1",
-          "SHA": "",
-          "Title": "New PdfProfile Endpoint",
-          "Timestamp": "2024-06-03T16:23:51Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.27.1"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 4,
+        "Count": 3,
         "PullRequests": [
-          {
-            "Title": "add anonymize flag in pdf-profile, removed githubUser and  removed ol…",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/201"
-          },
           {
             "Title": "Feature/324-project-images",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/194"
@@ -1310,7 +1372,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.28.0..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.29.0..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -1696,5 +1758,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-07T08:18:33Z"
+  "LastUpdated": "2024-06-07T09:59:28Z"
 }
