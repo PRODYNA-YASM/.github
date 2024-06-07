@@ -1,13 +1,13 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-06-07T09:59:28Z
+Component Status overview. Last update 2024-06-07T10:11:32Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [14](https://github.com/prodyna-yasm/yasm-backend/compare/1.27.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.27.0 |  :red_square: afb5211 |  :green_square: 1.27.0 |  :green_square: 1.27.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.1..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.27.1 |  :red_square: 4b83736 |  :green_square: 1.27.1 |  :green_square: 1.27.1 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.28.0 |  :green_square: 1.28.0 |  :green_square: 1.28.0 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [3](https://github.com/prodyna-yasm/yasmctl/compare/1.28.0..HEAD) | :green_square: 0 | 1.28.0 |  :green_square: 1.28.0 |  :green_square: 1.28.0 |  :red_square: 1.27.0 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 |  :red_square: 1.27.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.12.1 |  :green_square: 1.12.1 |  :green_square: 1.12.1 |  :green_square: 1.12.1 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.4.9 |  :green_square: 1.4.9 |  :green_square: 1.4.9 |  :green_square: 1.4.9 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.9.13 |  :green_square: 1.9.13 |  :green_square: 1.9.13 |  :green_square: 1.9.13 | 
@@ -193,16 +193,11 @@ Component Status overview. Last update 2024-06-07T09:59:28Z
 
 
 
-## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.28.0
+## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.29.0
 
 
 
 
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (1)
-
-- [feature/api 1.29](https://github.com/PRODYNA-YASM/yasm-integration/pull/438)
 
 
 
@@ -210,23 +205,25 @@ Component Status overview. Last update 2024-06-07T09:59:28Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  1.28.0 |  1.28.0 | 
+| Version |  1.29.0 |  1.29.0 | 
 | Release |  :green_square: |  :green_square: | 
 | Current |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [API 1.29 (making it compatible again)](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.29.0) on 2024-06-07 09:59:15 +0000 UTC
+
 - [API 1.28, component update](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.28.0) on 2024-06-07 07:39:20 +0000 UTC
 
 - [Start date for main projects 2022-07-01](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.27.1) on 2024-06-01 09:58:01 +0000 UTC
 
-- [Using API 1.27.0](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.27.0) on 2024-05-31 05:07:45 +0000 UTC
 
 
 
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (7)
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (6)
+- [Merge pull request #438 from PRODYNA-YASM/feature/api-1.29](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9415273300) created on 2024-06-07 10:05:14 +0000 UTC
 
 - [Merge pull request #437 from PRODYNA-YASM/feature/update-components](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9413568240) created on 2024-06-07 07:51:14 +0000 UTC
 
@@ -243,18 +240,9 @@ Component Status overview. Last update 2024-06-07T09:59:28Z
 
 
 
-## [yasmctl](https://github.com/prodyna-yasm/yasmctl) 1.28.0
+## [yasmctl](https://github.com/prodyna-yasm/yasmctl) 1.29.0
 
 
-
-
-### [Commits on main since 1.28.0](https://github.com/prodyna-yasm/yasmctl/compare/1.28.0..HEAD) (3)
-
-- [Merge pull request #332 from PRODYNA-YASM/feature/api-1.29](https://github.com/prodyna-yasm/yasmctl/commit/86a34b5dbdcffa8ad93828c2474b8ba4ac6cafed) by [dkrizic](https://github.com/dkrizic) on 2024-06-07 09:57:51 +0000 UTC
-
-- [Merge branch 'main' into feature/api-1.29](https://github.com/prodyna-yasm/yasmctl/commit/418012ec1b67feeac366bbadad7b9b7fc8c8d110) by [dkrizic](https://github.com/dkrizic) on 2024-06-07 09:55:49 +0000 UTC
-
-- [Using API 1.29](https://github.com/prodyna-yasm/yasmctl/commit/16cb04809502fa84a57792ab5a3fa50e4cc876de) by [dkrizic](https://github.com/dkrizic) on 2024-06-07 09:51:04 +0000 UTC
 
 
 
@@ -264,23 +252,25 @@ Component Status overview. Last update 2024-06-07T09:59:28Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.28.0 |  1.28.0 |  1.27.0 | 
+| Version |  1.29.0 |  1.29.0 |  1.27.0 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
 | Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
 
+- [API 1.29](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.29.0) on 2024-06-07 09:57:51 +0000 UTC
+
 - [API 1.28 and Go 1.22.4](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.28.0) on 2024-06-05 13:22:38 +0000 UTC
 
 - [Using API 1.27.0](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.27.0) on 2024-05-31 21:43:46 +0000 UTC
 
-- [New libraries](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.26.2) on 2024-05-21 22:00:27 +0000 UTC
 
 
 
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting) (5)
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting) (4)
+- [Merge pull request #332 from PRODYNA-YASM/feature/api-1.29](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9415201339) created on 2024-06-07 10:00:15 +0000 UTC
 
 - [Merge pull request #331 from PRODYNA-YASM/feature/go-1.22.4](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9413322430) created on 2024-06-07 07:29:11 +0000 UTC
 
