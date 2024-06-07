@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-06-07T11:33:20Z
+Component Status overview. Last update 2024-06-07T12:58:14Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 |  :red_square: 1.27.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.1..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.27.1 |  :red_square: 637bccc |  :green_square: 1.27.1 |  :green_square: 1.27.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 |  :red_square: 1.27.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 |  :red_square: 1.27.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.12.1 |  :green_square: 1.12.1 |  :green_square: 1.12.1 |  :green_square: 1.12.1 | 
@@ -61,72 +61,9 @@ Component Status overview. Last update 2024-06-07T11:33:20Z
 
 
 
-## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.27.1
+## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.29.0
 
 
-
-
-### [Commits on main since 1.27.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.1..HEAD) (30)
-
-- [Merge pull request #715 from PRODYNA-YASM/fix/github-handle](https://github.com/prodyna-yasm/yasm-frontend/commit/637bcccfbb6237fc689952b036abc543a78a574b) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-07 11:01:46 +0000 UTC
-
-- [Merge pull request #714 from PRODYNA-YASM/fix/certificate-order-list](https://github.com/prodyna-yasm/yasm-frontend/commit/edd5cb3bd070a3ed82549861710ea0c358149de5) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-07 11:01:24 +0000 UTC
-
-- [fixed fetch github handle of employee](https://github.com/prodyna-yasm/yasm-frontend/commit/b30db39dd2e05311c7695398fc4664f9f3c0b32d) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-07 10:58:38 +0000 UTC
-
-- [fixed no skills can be selected from pdfExport and certifications not sort-order not reflected from PDF-Export-wizard](https://github.com/prodyna-yasm/yasm-frontend/commit/c91ede9dc717abf9b4042a4d693f7c27298c55d7) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-07 10:34:06 +0000 UTC
-
-- [Merge pull request #713 from PRODYNA-YASM/feature/431-anonymize-export](https://github.com/prodyna-yasm/yasm-frontend/commit/4b837365c8f8c08d49fbbbff2f5b08cd2e9c12af) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-07 09:45:18 +0000 UTC
-
-- [merge main and fixed conflicts](https://github.com/prodyna-yasm/yasm-frontend/commit/5b414e775f8b3a45404e62e25f7367ad3d3a6fa5) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-07 09:43:18 +0000 UTC
-
-- [update api to 1.29.0](https://github.com/prodyna-yasm/yasm-frontend/commit/8a7d7102f2364869687e2d347a8c50aa0aaabc13) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-07 09:30:52 +0000 UTC
-
-- [Merge pull request #712 from PRODYNA-YASM/fix/maintainer-can-not-add-organization](https://github.com/prodyna-yasm/yasm-frontend/commit/4963f68afcb3ccab7f920c011ed608984a850a5b) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-07 07:42:50 +0000 UTC
-
-- [Merge pull request #709 from PRODYNA-YASM/feature/509-link-to-github](https://github.com/prodyna-yasm/yasm-frontend/commit/14eba36a81a15648bfd4c0adc5754c85891d189b) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-07 07:38:26 +0000 UTC
-
-- [Merge pull request #701 from PRODYNA-YASM/feature/fix-parent-skill-tree](https://github.com/prodyna-yasm/yasm-frontend/commit/7bdde8fb0be85bbb27e4eb5fabda22fdff0c2625) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-07 07:35:05 +0000 UTC
-
-- [enable Maintainers to CRUD Organization](https://github.com/prodyna-yasm/yasm-frontend/commit/89bd4395edd7ebf838451629f9c64f95995afd54) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-07 07:27:31 +0000 UTC
-
-- [Merge pull request #710 from PRODYNA-YASM/319-feature-requestmore-descriptive-page-titles-for-bookmarking](https://github.com/prodyna-yasm/yasm-frontend/commit/8a2f6de3a95c79047da1b110c0028e735695f37d) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-06 16:05:01 +0000 UTC
-
-- [overwrite document title for bookmarks](https://github.com/prodyna-yasm/yasm-frontend/commit/5178bcf057426943f3dbd1762f8ea67c020d7941) by [coding4kay](https://github.com/coding4kay) on 2024-06-06 16:00:56 +0000 UTC
-
-- [509: added helperContext and add a link to githubProfile in Contact Details](https://github.com/prodyna-yasm/yasm-frontend/commit/eacca30e3b3da8505d910b6b7a4c237b10197f26) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-06 15:32:13 +0000 UTC
-
-- [431: build TemplateObject in FE, enable anonymization and override of Person object for pdf-export](https://github.com/prodyna-yasm/yasm-frontend/commit/6cc150124b5a49141383ba614c7c7c06fb88e7e0) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-06 15:01:27 +0000 UTC
-
-- [Merge pull request #708 from PRODYNA-YASM/707-activate-copilot-for-staging-and-prod-again](https://github.com/prodyna-yasm/yasm-frontend/commit/0ca5ab7096a8143e96ceb56993051179dcfca630) by [dkrizic](https://github.com/dkrizic) on 2024-06-06 14:26:44 +0000 UTC
-
-- [Activate copilot link on production again](https://github.com/prodyna-yasm/yasm-frontend/commit/cf23fc4797e93045a1119aa95b2b8c1616ec140d) by [dkrizic](https://github.com/dkrizic) on 2024-06-06 14:24:56 +0000 UTC
-
-- [change yellow to green xD](https://github.com/prodyna-yasm/yasm-frontend/commit/1e5ea870842e77ee1999dcbb394118a37ddf404b) by [](https://github.com/) on 2024-06-06 13:22:42 +0000 UTC
-
-- [Feature: Exclude inactive persons from showing up global search (#706)](https://github.com/prodyna-yasm/yasm-frontend/commit/604eb930560ef9bfafd0cc17784d34c77bc48231) by [mayer-prodyna](https://github.com/mayer-prodyna) on 2024-06-06 13:20:07 +0000 UTC
-
-- [Merge pull request #705 from PRODYNA-YASM/feature/team_member_overview_in_user_profile](https://github.com/prodyna-yasm/yasm-frontend/commit/21403b0971d6595540ce60b4067fc64fbe44d841) by [mayer-prodyna](https://github.com/mayer-prodyna) on 2024-06-06 13:08:41 +0000 UTC
-
-- [remove duplicate entries](https://github.com/prodyna-yasm/yasm-frontend/commit/8fbd766eb840bca442d11207e9d1210745454f92) by [saemik94](https://github.com/saemik94) on 2024-06-06 08:25:28 +0000 UTC
-
-- [sort alphabetically](https://github.com/prodyna-yasm/yasm-frontend/commit/3334b3d577adf1e692604baa547b3a116341de53) by [saemik94](https://github.com/saemik94) on 2024-06-06 08:23:59 +0000 UTC
-
-- [refactor code](https://github.com/prodyna-yasm/yasm-frontend/commit/c2d6566b4bd590e4073cc553137612357c69d14a) by [saemik94](https://github.com/saemik94) on 2024-06-06 06:44:43 +0000 UTC
-
-- [fix: flatten svg icon](https://github.com/prodyna-yasm/yasm-frontend/commit/786873d83a6360d4c9672834d85cc0701ffdf124) by [saemik94](https://github.com/saemik94) on 2024-06-06 06:31:39 +0000 UTC
-
-- [wip code refactor](https://github.com/prodyna-yasm/yasm-frontend/commit/689155a6a0a3777351f939ae46e6eb9fd5f5c967) by [saemik94](https://github.com/saemik94) on 2024-06-05 15:50:11 +0000 UTC
-
-- [refactor code](https://github.com/prodyna-yasm/yasm-frontend/commit/9c97fd09bb9966bc39cae5c03f2a256040c3a45f) by [mayer-prodyna](https://github.com/mayer-prodyna) on 2024-06-05 14:26:18 +0000 UTC
-
-- [adjust person manager style](https://github.com/prodyna-yasm/yasm-frontend/commit/77424b46717d4e460b3604382cdd7a237c55a5eb) by [saemik94](https://github.com/saemik94) on 2024-06-05 13:59:00 +0000 UTC
-
-- [initial team members implementation](https://github.com/prodyna-yasm/yasm-frontend/commit/44c167a892bb5110284e8db7cdeaab1765ccf4aa) by [mayer-prodyna](https://github.com/mayer-prodyna) on 2024-06-05 13:42:48 +0000 UTC
-
-- [Merge pull request #702 from PRODYNA-YASM/feature/109-charts](https://github.com/prodyna-yasm/yasm-frontend/commit/931fb49a41f5a2dc1e29432b05ab9282529ec43c) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-05 13:11:40 +0000 UTC
-
-- [109: removed warnings and add cursor pointer to BarChart](https://github.com/prodyna-yasm/yasm-frontend/commit/3898483bbc6b234cc05d53bbade6a359112f609e) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-05 13:08:27 +0000 UTC
 
 
 
@@ -149,20 +86,25 @@ Component Status overview. Last update 2024-06-07T11:33:20Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  637bccc |  1.27.1 |  1.27.1 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.29.0 |  1.29.0 |  1.27.1 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
+
+- [Reworked Availability chart, add team-members in user profile, activate copilot-link for projects, better bookmark title add anonymize feature for pdfExport ](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.29.0) on 2024-06-07 12:20:21 +0000 UTC
 
 - [Fixed update OrganizationForm in Project-View](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.27.1) on 2024-06-04 08:00:16 +0000 UTC
 
 - [Added Skill Importance and added title in Changelog](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.27.0) on 2024-05-31 12:43:30 +0000 UTC
 
-- [Added changelog and upgrade dependencies](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.26.2) on 2024-05-29 08:23:30 +0000 UTC
 
 
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
+
+- [Merge pull request #716 from PRODYNA-YASM/fix/anonymize-file-export](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/9416900489) created on 2024-06-07 12:22:04 +0000 UTC
 
 
 
