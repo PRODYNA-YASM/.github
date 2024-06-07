@@ -189,7 +189,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8a2f6de",
+          "Version": "4963f68",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -240,27 +240,15 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 8,
+        "Count": 5,
         "PullRequests": [
-          {
-            "Title": "enable Maintainers to CRUD Organization",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/712"
-          },
           {
             "Title": "Bump @mui/x-date-pickers from 6.20.0 to 7.6.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/711"
           },
           {
-            "Title": "509: added helperContext and add a link to githubProfile in Contact D…",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/709"
-          },
-          {
             "Title": "Bump chalk from 3.0.0 to 5.3.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/704"
-          },
-          {
-            "Title": "added skill tree for parent path",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/701"
           },
           {
             "Title": "Bump rimraf from 4.4.1 to 5.0.7",
@@ -279,8 +267,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.1..HEAD",
-        "Count": 25,
+        "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #712 from PRODYNA-YASM/fix/maintainer-can-not-add-organization",
+            "SHA": "4963f68afcb3ccab7f920c011ed608984a850a5b",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-06-07T07:42:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/4963f68afcb3ccab7f920c011ed608984a850a5b"
+          },
+          {
+            "Text": "Merge pull request #709 from PRODYNA-YASM/feature/509-link-to-github",
+            "SHA": "14eba36a81a15648bfd4c0adc5754c85891d189b",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-06-07T07:38:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/14eba36a81a15648bfd4c0adc5754c85891d189b"
+          },
+          {
+            "Text": "Merge pull request #701 from PRODYNA-YASM/feature/fix-parent-skill-tree",
+            "SHA": "7bdde8fb0be85bbb27e4eb5fabda22fdff0c2625",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-06-07T07:35:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7bdde8fb0be85bbb27e4eb5fabda22fdff0c2625"
+          },
+          {
+            "Text": "enable Maintainers to CRUD Organization",
+            "SHA": "89bd4395edd7ebf838451629f9c64f95995afd54",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-06-07T07:27:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/89bd4395edd7ebf838451629f9c64f95995afd54"
+          },
           {
             "Text": "Merge pull request #710 from PRODYNA-YASM/319-feature-requestmore-descriptive-page-titles-for-bookmarking",
             "SHA": "8a2f6de3a95c79047da1b110c0028e735695f37d",
@@ -300,6 +328,16 @@
             },
             "Timestamp": "2024-06-06T16:00:56Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/5178bcf057426943f3dbd1762f8ea67c020d7941"
+          },
+          {
+            "Text": "509: added helperContext and add a link to githubProfile in Contact Details",
+            "SHA": "eacca30e3b3da8505d910b6b7a4c237b10197f26",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-06-06T15:32:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/eacca30e3b3da8505d910b6b7a4c237b10197f26"
           },
           {
             "Text": "Merge pull request #708 from PRODYNA-YASM/707-activate-copilot-for-staging-and-prod-again",
@@ -492,6 +530,16 @@
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/af03563b642dcaf9a603e852dcc31c58878e2733"
           },
           {
+            "Text": "added skill tree for parent path",
+            "SHA": "4d201e7209665212155fd246e47eff6cb83a8cbf",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-06-05T11:38:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/4d201e7209665212155fd246e47eff6cb83a8cbf"
+          },
+          {
             "Text": "Merge pull request #697 from PRODYNA-YASM/dependabot/npm_and_yarn/pmmmwh/react-refresh-webpack-plugin-0.5.15",
             "SHA": "b39ed7fe2bb281e242dedbe33fdea2403332b9ae",
             "Author": {
@@ -520,16 +568,6 @@
             },
             "Timestamp": "2024-06-05T08:25:08Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/697ebc3388b105baa6cb81eb6c252b8f031a5af2"
-          },
-          {
-            "Text": "refactoring, add charts to employee detail page",
-            "SHA": "4fa2235c6c4cbdbbe50826ed641c6fbea1871864",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-06-04T13:48:54Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/4fa2235c6c4cbdbbe50826ed641c6fbea1871864"
           }
         ]
       },
@@ -548,7 +586,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "c0c2f15",
+          "Version": "65015c8",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -599,19 +637,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Update libs",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/437"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.27.1..HEAD",
-        "Count": 8,
+        "Count": 10,
         "Commits": [
+          {
+            "Text": "Merge pull request #437 from PRODYNA-YASM/feature/update-components",
+            "SHA": "65015c85de1bd95a0c204ba6ccd45fd110dc1494",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-07T07:39:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/65015c85de1bd95a0c204ba6ccd45fd110dc1494"
+          },
+          {
+            "Text": "Update libs",
+            "SHA": "bb1448a75f8ecb61d9d61408f3c1b3e0d2e33d17",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-07T07:30:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/bb1448a75f8ecb61d9d61408f3c1b3e0d2e33d17"
+          },
           {
             "Text": "Merge pull request #436 from PRODYNA-YASM/feature/go-1.22.4",
             "SHA": "c0c2f15c264c1877e6a8a1d9886f30535f632b4a",
@@ -841,23 +894,23 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "cc05cf5",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.12.1",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.12.0",
+          "Version": "1.12.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.12.0",
+          "Version": "1.12.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1159,33 +1212,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8.5.1-1",
+          "Version": "8.6.0-1",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "8.5.1-1",
+          "Version": "8.6.0-1",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "8.5.1-1",
+          "Version": "8.6.0-1",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "8.5.1-1",
+        "Tag": "8.6.0-1",
         "SHA": "",
-        "Title": "Gotenberg 8.5.1",
-        "Timestamp": "2024-05-27T07:49:08Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.5.1-1"
+        "Title": "Gotenberg 8.6.0",
+        "Timestamp": "2024-06-07T07:44:50Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.6.0-1"
       },
       "Releases": [
+        {
+          "Tag": "8.6.0-1",
+          "SHA": "",
+          "Title": "Gotenberg 8.6.0",
+          "Timestamp": "2024-06-07T07:43:03Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.6.0-1"
+        },
         {
           "Tag": "8.5.1-1",
           "SHA": "",
@@ -1199,13 +1259,6 @@
           "Title": "Gotenberg 8.5.0",
           "Timestamp": "2024-04-29T06:09:42Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.5.0-1"
-        },
-        {
-          "Tag": "8.4.0-1",
-          "SHA": "",
-          "Title": "Gotenberg 8.4.0",
-          "Timestamp": "2024-04-15T05:40:41Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.4.0-1"
         }
       ],
       "PullRequests": {
@@ -1215,7 +1268,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.5.1-1..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.6.0-1..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -1746,5 +1799,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-07T07:35:02Z"
+  "LastUpdated": "2024-06-07T07:48:19Z"
 }
