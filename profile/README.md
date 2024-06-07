@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-06-07T10:11:32Z
+Component Status overview. Last update 2024-06-07T11:33:20Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [14](https://github.com/prodyna-yasm/yasm-backend/compare/1.27.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.27.0 |  :red_square: afb5211 |  :green_square: 1.27.0 |  :green_square: 1.27.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.1..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.27.1 |  :red_square: 4b83736 |  :green_square: 1.27.1 |  :green_square: 1.27.1 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 |  :red_square: 1.27.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.1..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.27.1 |  :red_square: 637bccc |  :green_square: 1.27.1 |  :green_square: 1.27.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 |  :red_square: 1.27.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.12.1 |  :green_square: 1.12.1 |  :green_square: 1.12.1 |  :green_square: 1.12.1 | 
@@ -21,40 +21,9 @@ Component Status overview. Last update 2024-06-07T10:11:32Z
 
 
 
-## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.27.0
+## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.29.0
 
 
-
-
-### [Commits on main since 1.27.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.27.0..HEAD) (14)
-
-- [fix random person order (#639)](https://github.com/prodyna-yasm/yasm-backend/commit/afb5211cf226a04ae6ac3f8ca30b8fa6f2916949) by [coding4kay](https://github.com/coding4kay) on 2024-06-07 09:33:51 +0000 UTC
-
-- [Merge pull request #638 from PRODYNA-YASM/feature/431-anonymize-export](https://github.com/prodyna-yasm/yasm-backend/commit/96922c1b2dac0346311137eb82c85332b692e5ed) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-07 09:00:34 +0000 UTC
-
-- [removed unused/old classes and tests](https://github.com/prodyna-yasm/yasm-backend/commit/67e208ff5b1e99bb9bbdf64d8571e8bd17e98f0c) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-07 08:52:42 +0000 UTC
-
-- [431: add anonymize flag to hide picture in pdfExport, removed githubUser and removed old pdf-profile endpoint](https://github.com/prodyna-yasm/yasm-backend/commit/c5ab005f91357d1434a60df86b5a15d73e51bf62) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-06 15:03:03 +0000 UTC
-
-- [exclude inactive persons from showing up global search (#637)](https://github.com/prodyna-yasm/yasm-backend/commit/d2b26f1b48c83f9a76d8dcdc81fc6ba3d14ebd97) by [mayer-prodyna](https://github.com/mayer-prodyna) on 2024-06-06 12:52:14 +0000 UTC
-
-- [update quarkus 3.11.1 (#636)](https://github.com/prodyna-yasm/yasm-backend/commit/5ce9a1e839b5082ede63577f62e6592dd4812177) by [coding4kay](https://github.com/coding4kay) on 2024-06-06 11:34:08 +0000 UTC
-
-- [remove unused fields inside logging (#635)](https://github.com/prodyna-yasm/yasm-backend/commit/1ed4ac546b24564076cb7781c771a31e8c65b338) by [coding4kay](https://github.com/coding4kay) on 2024-06-06 11:06:59 +0000 UTC
-
-- [GeoBuilder return null if no values exist, not an empty object (#633)](https://github.com/prodyna-yasm/yasm-backend/commit/9a6908e6b782be63f006408cd6515517c85e4cf0) by [coding4kay](https://github.com/coding4kay) on 2024-06-05 16:05:46 +0000 UTC
-
-- [add team members to person detail (#632)](https://github.com/prodyna-yasm/yasm-backend/commit/9042645dbb68cd6ce995ed990687edb519a481f5) by [mayer-prodyna](https://github.com/mayer-prodyna) on 2024-06-05 11:48:57 +0000 UTC
-
-- [add inactive filter (#631)](https://github.com/prodyna-yasm/yasm-backend/commit/d6a33d37bf42d99506a0ead7d0529c16d63833b6) by [coding4kay](https://github.com/coding4kay) on 2024-06-05 08:53:31 +0000 UTC
-
-- [Fix: Line separator issue on Windows systems (#629)](https://github.com/prodyna-yasm/yasm-backend/commit/5ab0f8d683c313d13a309f6e7e1708c3968f61ea) by [mayer-prodyna](https://github.com/mayer-prodyna) on 2024-06-05 07:12:35 +0000 UTC
-
-- [addk enduser.id and enduser.role (#628)](https://github.com/prodyna-yasm/yasm-backend/commit/c694dc3eda2957eb1b56ea63d47fc6b84940865f) by [coding4kay](https://github.com/coding4kay) on 2024-06-04 10:51:58 +0000 UTC
-
-- [add new pdf profile endpoint (#627)](https://github.com/prodyna-yasm/yasm-backend/commit/c1459156ea13ba03195c877a58f2e454f924576c) by [coding4kay](https://github.com/coding4kay) on 2024-06-03 16:47:08 +0000 UTC
-
-- [improve test performance by using oidc mock service (#625)](https://github.com/prodyna-yasm/yasm-backend/commit/59d3e0055c5586d62d1fbd42e14e66ddc618391f) by [coding4kay](https://github.com/coding4kay) on 2024-05-31 13:16:26 +0000 UTC
 
 
 
@@ -69,20 +38,25 @@ Component Status overview. Last update 2024-06-07T10:11:32Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  afb5211 |  1.27.0 |  1.27.0 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.29.0 |  1.29.0 |  1.27.0 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
+
+- [Bookmarks and active user filter](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.29.0) on 2024-06-07 09:33:51 +0000 UTC
 
 - [Skill importance and extended metrics](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.27.0) on 2024-05-31 12:24:13 +0000 UTC
 
 - [Improve cypher performance and update quarkus](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.26.2) on 2024-05-24 21:43:36 +0000 UTC
 
-- [Fix skill linking relevant for kindgiver](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.26.1) on 2024-05-24 09:04:38 +0000 UTC
 
 
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting) (1)
+
+- [fix random person order (#639)](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/9416263161) created on 2024-06-07 11:27:36 +0000 UTC
 
 
 
@@ -93,6 +67,14 @@ Component Status overview. Last update 2024-06-07T10:11:32Z
 
 
 ### [Commits on main since 1.27.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.1..HEAD) (30)
+
+- [Merge pull request #715 from PRODYNA-YASM/fix/github-handle](https://github.com/prodyna-yasm/yasm-frontend/commit/637bcccfbb6237fc689952b036abc543a78a574b) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-07 11:01:46 +0000 UTC
+
+- [Merge pull request #714 from PRODYNA-YASM/fix/certificate-order-list](https://github.com/prodyna-yasm/yasm-frontend/commit/edd5cb3bd070a3ed82549861710ea0c358149de5) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-07 11:01:24 +0000 UTC
+
+- [fixed fetch github handle of employee](https://github.com/prodyna-yasm/yasm-frontend/commit/b30db39dd2e05311c7695398fc4664f9f3c0b32d) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-07 10:58:38 +0000 UTC
+
+- [fixed no skills can be selected from pdfExport and certifications not sort-order not reflected from PDF-Export-wizard](https://github.com/prodyna-yasm/yasm-frontend/commit/c91ede9dc717abf9b4042a4d693f7c27298c55d7) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-07 10:34:06 +0000 UTC
 
 - [Merge pull request #713 from PRODYNA-YASM/feature/431-anonymize-export](https://github.com/prodyna-yasm/yasm-frontend/commit/4b837365c8f8c08d49fbbbff2f5b08cd2e9c12af) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-07 09:45:18 +0000 UTC
 
@@ -146,14 +128,6 @@ Component Status overview. Last update 2024-06-07T10:11:32Z
 
 - [109: removed warnings and add cursor pointer to BarChart](https://github.com/prodyna-yasm/yasm-frontend/commit/3898483bbc6b234cc05d53bbade6a359112f609e) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-05 13:08:27 +0000 UTC
 
-- [add selectable barItems](https://github.com/prodyna-yasm/yasm-frontend/commit/796d6eb8af76e36f519c069d762b9685b75e6f56) by [](https://github.com/) on 2024-06-05 12:50:50 +0000 UTC
-
-- [fix pieChart width](https://github.com/prodyna-yasm/yasm-frontend/commit/6e02349d3b5f79f8ac0cc9cf0c642bcd69fc5ef3) by [](https://github.com/) on 2024-06-05 12:24:45 +0000 UTC
-
-- [remove decimal](https://github.com/prodyna-yasm/yasm-frontend/commit/aa7e503c922decfe069c6eb1e257d11ef4623816) by [](https://github.com/) on 2024-06-05 12:23:58 +0000 UTC
-
-- [fix availability infos](https://github.com/prodyna-yasm/yasm-frontend/commit/af03563b642dcaf9a603e852dcc31c58878e2733) by [](https://github.com/) on 2024-06-05 12:20:08 +0000 UTC
-
 
 
 
@@ -175,7 +149,7 @@ Component Status overview. Last update 2024-06-07T10:11:32Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  4b83736 |  1.27.1 |  1.27.1 | 
+| Version |  637bccc |  1.27.1 |  1.27.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 

@@ -8,14 +8,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "afb5211",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.29.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.27.0",
+          "Version": "1.29.0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -24,17 +24,24 @@
           "Link": "",
           "Version": "1.27.0",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.27.0",
+        "Tag": "1.29.0",
         "SHA": "",
-        "Title": "Skill importance and extended metrics",
-        "Timestamp": "2024-05-31T13:01:38Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.27.0"
+        "Title": "Bookmarks and active user filter",
+        "Timestamp": "2024-06-07T11:27:34Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.29.0"
       },
       "Releases": [
+        {
+          "Tag": "1.29.0",
+          "SHA": "",
+          "Title": "Bookmarks and active user filter",
+          "Timestamp": "2024-06-07T09:33:51Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.29.0"
+        },
         {
           "Tag": "1.27.0",
           "SHA": "",
@@ -48,13 +55,6 @@
           "Title": "Improve cypher performance and update quarkus",
           "Timestamp": "2024-05-24T21:43:36Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.26.2"
-        },
-        {
-          "Tag": "1.26.1",
-          "SHA": "",
-          "Title": "Fix skill linking relevant for kindgiver",
-          "Timestamp": "2024-05-24T09:04:38Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.26.1"
         }
       ],
       "PullRequests": {
@@ -69,157 +69,22 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.27.0..HEAD",
-        "Count": 14,
-        "Commits": [
-          {
-            "Text": "fix random person order (#639)",
-            "SHA": "afb5211cf226a04ae6ac3f8ca30b8fa6f2916949",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-06-07T09:33:51Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/afb5211cf226a04ae6ac3f8ca30b8fa6f2916949"
-          },
-          {
-            "Text": "Merge pull request #638 from PRODYNA-YASM/feature/431-anonymize-export",
-            "SHA": "96922c1b2dac0346311137eb82c85332b692e5ed",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-06-07T09:00:34Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/96922c1b2dac0346311137eb82c85332b692e5ed"
-          },
-          {
-            "Text": "removed unused/old classes and tests",
-            "SHA": "67e208ff5b1e99bb9bbdf64d8571e8bd17e98f0c",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-06-07T08:52:42Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/67e208ff5b1e99bb9bbdf64d8571e8bd17e98f0c"
-          },
-          {
-            "Text": "431: add anonymize flag to hide picture in pdfExport, removed githubUser and removed old pdf-profile endpoint",
-            "SHA": "c5ab005f91357d1434a60df86b5a15d73e51bf62",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-06-06T15:03:03Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/c5ab005f91357d1434a60df86b5a15d73e51bf62"
-          },
-          {
-            "Text": "exclude inactive persons from showing up global search (#637)",
-            "SHA": "d2b26f1b48c83f9a76d8dcdc81fc6ba3d14ebd97",
-            "Author": {
-              "name": "mayer-prodyna",
-              "link": "https://github.com/mayer-prodyna"
-            },
-            "Timestamp": "2024-06-06T12:52:14Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/d2b26f1b48c83f9a76d8dcdc81fc6ba3d14ebd97"
-          },
-          {
-            "Text": "update quarkus 3.11.1 (#636)",
-            "SHA": "5ce9a1e839b5082ede63577f62e6592dd4812177",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-06-06T11:34:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/5ce9a1e839b5082ede63577f62e6592dd4812177"
-          },
-          {
-            "Text": "remove unused fields inside logging (#635)",
-            "SHA": "1ed4ac546b24564076cb7781c771a31e8c65b338",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-06-06T11:06:59Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/1ed4ac546b24564076cb7781c771a31e8c65b338"
-          },
-          {
-            "Text": "GeoBuilder return null if no values exist, not an empty object (#633)",
-            "SHA": "9a6908e6b782be63f006408cd6515517c85e4cf0",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-06-05T16:05:46Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/9a6908e6b782be63f006408cd6515517c85e4cf0"
-          },
-          {
-            "Text": "add team members to person detail (#632)",
-            "SHA": "9042645dbb68cd6ce995ed990687edb519a481f5",
-            "Author": {
-              "name": "mayer-prodyna",
-              "link": "https://github.com/mayer-prodyna"
-            },
-            "Timestamp": "2024-06-05T11:48:57Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/9042645dbb68cd6ce995ed990687edb519a481f5"
-          },
-          {
-            "Text": "add inactive filter (#631)",
-            "SHA": "d6a33d37bf42d99506a0ead7d0529c16d63833b6",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-06-05T08:53:31Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/d6a33d37bf42d99506a0ead7d0529c16d63833b6"
-          },
-          {
-            "Text": "Fix: Line separator issue on Windows systems (#629)",
-            "SHA": "5ab0f8d683c313d13a309f6e7e1708c3968f61ea",
-            "Author": {
-              "name": "mayer-prodyna",
-              "link": "https://github.com/mayer-prodyna"
-            },
-            "Timestamp": "2024-06-05T07:12:35Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/5ab0f8d683c313d13a309f6e7e1708c3968f61ea"
-          },
-          {
-            "Text": "addk enduser.id and enduser.role (#628)",
-            "SHA": "c694dc3eda2957eb1b56ea63d47fc6b84940865f",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-06-04T10:51:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/c694dc3eda2957eb1b56ea63d47fc6b84940865f"
-          },
-          {
-            "Text": "add new pdf profile endpoint (#627)",
-            "SHA": "c1459156ea13ba03195c877a58f2e454f924576c",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-06-03T16:47:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/c1459156ea13ba03195c877a58f2e454f924576c"
-          },
-          {
-            "Text": "improve test performance by using oidc mock service (#625)",
-            "SHA": "59d3e0055c5586d62d1fbd42e14e66ddc618391f",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-05-31T13:16:26Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/59d3e0055c5586d62d1fbd42e14e66ddc618391f"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.29.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "fix random person order (#639)",
+            "Timestamp": "2024-06-07T11:27:36Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/9416263161"
+          }
+        ]
       }
     },
     {
@@ -229,7 +94,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "4b83736",
+          "Version": "637bccc",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -309,6 +174,46 @@
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.27.1..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #715 from PRODYNA-YASM/fix/github-handle",
+            "SHA": "637bcccfbb6237fc689952b036abc543a78a574b",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-06-07T11:01:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/637bcccfbb6237fc689952b036abc543a78a574b"
+          },
+          {
+            "Text": "Merge pull request #714 from PRODYNA-YASM/fix/certificate-order-list",
+            "SHA": "edd5cb3bd070a3ed82549861710ea0c358149de5",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-06-07T11:01:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/edd5cb3bd070a3ed82549861710ea0c358149de5"
+          },
+          {
+            "Text": "fixed fetch github handle of employee",
+            "SHA": "b30db39dd2e05311c7695398fc4664f9f3c0b32d",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-06-07T10:58:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b30db39dd2e05311c7695398fc4664f9f3c0b32d"
+          },
+          {
+            "Text": "fixed no skills can be selected from pdfExport and certifications not sort-order not reflected from PDF-Export-wizard",
+            "SHA": "c91ede9dc717abf9b4042a4d693f7c27298c55d7",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-06-07T10:34:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/c91ede9dc717abf9b4042a4d693f7c27298c55d7"
+          },
           {
             "Text": "Merge pull request #713 from PRODYNA-YASM/feature/431-anonymize-export",
             "SHA": "4b837365c8f8c08d49fbbbff2f5b08cd2e9c12af",
@@ -568,46 +473,6 @@
             },
             "Timestamp": "2024-06-05T13:08:27Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/3898483bbc6b234cc05d53bbade6a359112f609e"
-          },
-          {
-            "Text": "add selectable barItems",
-            "SHA": "796d6eb8af76e36f519c069d762b9685b75e6f56",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-06-05T12:50:50Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/796d6eb8af76e36f519c069d762b9685b75e6f56"
-          },
-          {
-            "Text": "fix pieChart width",
-            "SHA": "6e02349d3b5f79f8ac0cc9cf0c642bcd69fc5ef3",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-06-05T12:24:45Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/6e02349d3b5f79f8ac0cc9cf0c642bcd69fc5ef3"
-          },
-          {
-            "Text": "remove decimal",
-            "SHA": "aa7e503c922decfe069c6eb1e257d11ef4623816",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-06-05T12:23:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/aa7e503c922decfe069c6eb1e257d11ef4623816"
-          },
-          {
-            "Text": "fix availability infos",
-            "SHA": "af03563b642dcaf9a603e852dcc31c58878e2733",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-06-05T12:20:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/af03563b642dcaf9a603e852dcc31c58878e2733"
           }
         ]
       },
@@ -1732,5 +1597,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-07T10:11:32Z"
+  "LastUpdated": "2024-06-07T11:33:20Z"
 }
