@@ -94,14 +94,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.29.0",
+          "Version": "1.29.1",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.29.0",
+          "Version": "1.29.1",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -114,13 +114,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "1.29.0",
+        "Tag": "1.29.1",
         "SHA": "",
-        "Title": "Reworked Availability chart, add team-members in user profile, activate copilot-link for projects, better bookmark title add anonymize feature for pdfExport ",
-        "Timestamp": "2024-06-07T12:22:02Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.29.0"
+        "Title": "Synchronize Select of Skills\u0026Methodologies, Update Project after edit (without refresh) and fixed deleting organization",
+        "Timestamp": "2024-06-07T15:00:23Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.29.1"
       },
       "Releases": [
+        {
+          "Tag": "1.29.1",
+          "SHA": "",
+          "Title": "Synchronize Select of Skills\u0026Methodologies, Update Project after edit (without refresh) and fixed deleting organization",
+          "Timestamp": "2024-06-07T14:53:18Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.29.1"
+        },
         {
           "Tag": "1.29.0",
           "SHA": "",
@@ -134,13 +141,6 @@
           "Title": "Fixed update OrganizationForm in Project-View",
           "Timestamp": "2024-06-04T08:00:16Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.27.1"
-        },
-        {
-          "Tag": "1.27.0",
-          "SHA": "",
-          "Title": "Added Skill Importance and added title in Changelog",
-          "Timestamp": "2024-05-31T12:43:30Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.27.0"
         }
       ],
       "PullRequests": {
@@ -171,7 +171,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.0..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -182,9 +182,9 @@
         "Count": 1,
         "Workflows": [
           {
-            "Name": "Merge pull request #716 from PRODYNA-YASM/fix/anonymize-file-export",
-            "Timestamp": "2024-06-07T12:22:04Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/9416900489"
+            "Name": "Merge pull request #717 from PRODYNA-YASM/feature/synchronize-Autocom…",
+            "Timestamp": "2024-06-07T15:00:24Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/9419067310"
           }
         ]
       }
@@ -1277,14 +1277,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/sales-copilot/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Adjust volume estimation guesstimate!",
-            "Timestamp": "2024-05-08T14:04:41Z",
-            "Link": "https://github.com/PRODYNA-YASM/sales-copilot/actions/runs/9003211686"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     }
   ],
@@ -1302,5 +1296,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-07T12:58:14Z"
+  "LastUpdated": "2024-06-07T15:18:05Z"
 }

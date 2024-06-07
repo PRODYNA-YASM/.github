@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-06-07T12:58:14Z
+Component Status overview. Last update 2024-06-07T15:18:05Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 |  :red_square: 1.27.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 |  :red_square: 1.27.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.29.1 |  :green_square: 1.29.1 |  :green_square: 1.29.1 |  :red_square: 1.27.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 |  :red_square: 1.27.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.12.1 |  :green_square: 1.12.1 |  :green_square: 1.12.1 |  :green_square: 1.12.1 | 
@@ -61,7 +61,7 @@ Component Status overview. Last update 2024-06-07T12:58:14Z
 
 
 
-## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.29.0
+## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.29.1
 
 
 
@@ -86,25 +86,25 @@ Component Status overview. Last update 2024-06-07T12:58:14Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.29.0 |  1.29.0 |  1.27.1 | 
+| Version |  1.29.1 |  1.29.1 |  1.27.1 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
 | Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
 
+- [Synchronize Select of Skills&Methodologies, Update Project after edit (without refresh) and fixed deleting organization](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.29.1) on 2024-06-07 14:53:18 +0000 UTC
+
 - [Reworked Availability chart, add team-members in user profile, activate copilot-link for projects, better bookmark title add anonymize feature for pdfExport ](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.29.0) on 2024-06-07 12:20:21 +0000 UTC
 
 - [Fixed update OrganizationForm in Project-View](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.27.1) on 2024-06-04 08:00:16 +0000 UTC
-
-- [Added Skill Importance and added title in Changelog](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.27.0) on 2024-05-31 12:43:30 +0000 UTC
 
 
 
 
 ### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
 
-- [Merge pull request #716 from PRODYNA-YASM/fix/anonymize-file-export](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/9416900489) created on 2024-06-07 12:22:04 +0000 UTC
+- [Merge pull request #717 from PRODYNA-YASM/feature/synchronize-Autocom…](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/9419067310) created on 2024-06-07 15:00:24 +0000 UTC
 
 
 
@@ -566,11 +566,6 @@ Component Status overview. Last update 2024-06-07T12:58:14Z
 - [Version 1.0.0](https://github.com/PRODYNA-YASM/sales-copilot/releases/tag/1.0.0) on 2024-05-14 11:34:42 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/sales-copilot/actions?query=is%3Awaiting) (1)
-
-- [Adjust volume estimation guesstimate!](https://github.com/PRODYNA-YASM/sales-copilot/actions/runs/9003211686) created on 2024-05-08 14:04:41 +0000 UTC
 
 
 
