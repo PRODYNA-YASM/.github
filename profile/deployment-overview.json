@@ -8,9 +8,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.29.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "ca7a653",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -70,8 +70,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.29.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #640 from PRODYNA-YASM/608-add-cancel-previous-runs-job-before-ci-for-be-like-in-yasm-integration",
+            "SHA": "ca7a653dec7b199e6c6260c7ebbf2814cbcebfaa",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-09T11:13:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/ca7a653dec7b199e6c6260c7ebbf2814cbcebfaa"
+          },
+          {
+            "Text": "Cancel previous runs",
+            "SHA": "04fba7fddf9f6be530d963411d50df74520f5d26",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-09T11:09:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/04fba7fddf9f6be530d963411d50df74520f5d26"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -88,9 +109,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.29.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "4d8a6ea",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -166,8 +187,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #718 from PRODYNA-YASM/651-add-cancel-previous-runs-job-before-ci-for-fe-like-in-yasm-integration",
+            "SHA": "4d8a6eae5b0809c584d87657745a71b25d6ff8b6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-09T11:11:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/4d8a6eae5b0809c584d87657745a71b25d6ff8b6"
+          },
+          {
+            "Text": "Cancel previous runs",
+            "SHA": "f04bf43ecda29834a4f6e08f4a718fc4e6e55e84",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-09T11:07:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/f04bf43ecda29834a4f6e08f4a718fc4e6e55e84"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -347,8 +389,29 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.29.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #334 from PRODYNA-YASM/333-cancel-previous-runs",
+            "SHA": "09e478f12a4c4ce22de603c3bce5d44aa12918a5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-09T11:17:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/09e478f12a4c4ce22de603c3bce5d44aa12918a5"
+          },
+          {
+            "Text": "Cancel previous runs",
+            "SHA": "f02581bdf362c691c5e071c17c075de8ac7dc2b5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-09T11:15:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/f02581bdf362c691c5e071c17c075de8ac7dc2b5"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1276,5 +1339,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-09T07:32:04Z"
+  "LastUpdated": "2024-06-09T11:18:32Z"
 }
