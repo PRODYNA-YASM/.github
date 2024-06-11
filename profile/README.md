@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-06-11T07:32:11Z
+Component Status overview. Last update 2024-06-11T14:14:57Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-backend/compare/1.29.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.29.0 |  :red_square: ca7a653 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.29.1 |  :red_square: 4d8a6ea |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.29.1 |  :red_square: 4d8a6ea |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [4](https://github.com/prodyna-yasm/yasm-integration/compare/1.29.0..HEAD) | :green_square: 0 | 1.29.0 |  :red_square: 79c1736 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.29.1 |  :green_square: 1.29.1 |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.12.1 |  :green_square: 1.12.1 |  :green_square: 1.12.1 |  :green_square: 1.12.1 | 
@@ -81,7 +81,9 @@ Component Status overview. Last update 2024-06-11T07:32:11Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
+
+- [438: sort skills alphabetically in pdf export](https://github.com/PRODYNA-YASM/yasm-frontend/pull/721)
 
 - [Fixed Delete Organization and GithubHandle](https://github.com/PRODYNA-YASM/yasm-frontend/pull/719)
 
@@ -449,11 +451,11 @@ Component Status overview. Last update 2024-06-11T07:32:11Z
 
 ### Last releases
 
+- [Extend page with direct hit count](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.30.0) on 2024-06-11 07:25:33 +0000 UTC
+
 - [Add anonymize flag in pdfProfile, removed GitHubUser and removed old PDFExport endpoint](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.29.0) on 2024-06-07 08:39:04 +0000 UTC
 
 - [Team member in person detail](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.28.0) on 2024-06-05 08:26:56 +0000 UTC
-
-- [Fix Naming](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.27.2) on 2024-06-03 16:33:43 +0000 UTC
 
 
 
@@ -539,7 +541,7 @@ Component Status overview. Last update 2024-06-11T07:32:11Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (2)
 
-- [chore(deps): Bump @azure/msal-node from 2.7.0 to 2.9.1](https://github.com/PRODYNA-YASM/yasm-test/pull/95)
+- [chore(deps): Bump @azure/msal-node from 2.7.0 to 2.9.2](https://github.com/PRODYNA-YASM/yasm-test/pull/96)
 
 - [Fix/adding and verifying project startdate](https://github.com/PRODYNA-YASM/yasm-test/pull/89)
 
