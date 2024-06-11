@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "ci: add pr title lint",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/643"
+          },
           {
             "Title": "feat: extend search metric",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/642"
@@ -164,8 +168,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 5,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "Fixed Delete Organization and GithubHandle",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/719"
+          },
           {
             "Title": "Bump @mui/x-date-pickers from 6.20.0 to 7.6.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/711"
@@ -230,9 +238,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.29.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "79c1736",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -287,8 +295,49 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.29.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "Merge pull request #443 from PRODYNA-YASM/dependabot/go_modules/github.com/Azure/azure-sdk-for-go/sdk/azidentity-1.6.0",
+            "SHA": "79c173646467fcbe8db90fb8822087f279e402e3",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-11T06:07:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/79c173646467fcbe8db90fb8822087f279e402e3"
+          },
+          {
+            "Text": "Bump github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+            "SHA": "722933eadf0e7686de46fde6150ade1f23b2f76f",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-11T01:55:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/722933eadf0e7686de46fde6150ade1f23b2f76f"
+          },
+          {
+            "Text": "Merge pull request #442 from PRODYNA-YASM/bugfix/441-run-codeql-on-main-branch",
+            "SHA": "760ac27a2a8a8d5f2402382b85bbff7e4022f282",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-10T09:54:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/760ac27a2a8a8d5f2402382b85bbff7e4022f282"
+          },
+          {
+            "Text": "Fix branch name for CodeQL",
+            "SHA": "29bfd78b2870bbe64eea7897815e809f0fffc0ce",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-10T09:48:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/29bfd78b2870bbe64eea7897815e809f0fffc0ce"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -820,9 +869,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.27.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "d3b0b2a",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -871,23 +920,35 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 2,
-        "PullRequests": [
-          {
-            "Title": "Bump azurerm from 3.106.1 to 3.107.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/529"
-          },
-          {
-            "Title": "Bump azurerm from 3.106.1 to 3.107.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/528"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.27.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #531 from PRODYNA-YASM/530-update-providers",
+            "SHA": "d3b0b2ab35893b678324064c5140de04a8b5d21e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-10T23:20:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d3b0b2ab35893b678324064c5140de04a8b5d21e"
+          },
+          {
+            "Text": "Update azurerm provider",
+            "SHA": "41785f9b30a7992d0437678b767121e858f32d0b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-10T23:17:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/41785f9b30a7992d0437678b767121e858f32d0b"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -952,8 +1013,19 @@
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.29.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "feat: Extend page with direct hit count (#202)",
+            "SHA": "d3a757711f61f6a6b5484ea0f80c486b3d30d8bc",
+            "Author": {
+              "name": "mayer-prodyna",
+              "link": "https://github.com/mayer-prodyna"
+            },
+            "Timestamp": "2024-06-11T07:25:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/d3a757711f61f6a6b5484ea0f80c486b3d30d8bc"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1299,8 +1371,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/sales-copilot/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "fix: Handle `\"location\": null` in organization object",
+            "Link": "https://github.com/PRODYNA-YASM/sales-copilot/pull/4"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/sales-copilot",
       "Commits": {
@@ -1331,5 +1408,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-10T07:32:24Z"
+  "LastUpdated": "2024-06-11T07:32:11Z"
 }
