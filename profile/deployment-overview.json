@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 3,
+        "Count": 4,
         "PullRequests": [
+          {
+            "Title": "Bump org.apache.maven.plugins:maven-dependency-plugin from 3.6.1 to 3.7.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/644"
+          },
           {
             "Title": "ci: add pr title lint",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/643"
@@ -242,7 +246,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "79c1736",
+          "Version": "5847b9a",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -299,8 +303,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.29.0..HEAD",
-        "Count": 4,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #444 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.30.0",
+            "SHA": "5847b9a39c0620c4abddeefe9d6d6c8c64c0ec74",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-12T05:38:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/5847b9a39c0620c4abddeefe9d6d6c8c64c0ec74"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.29.0 to 1.30.0",
+            "SHA": "605387715b6155a285894b20cefe0f10c20ea152",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-12T01:50:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/605387715b6155a285894b20cefe0f10c20ea152"
+          },
           {
             "Text": "Merge pull request #443 from PRODYNA-YASM/dependabot/go_modules/github.com/Azure/azure-sdk-for-go/sdk/azidentity-1.6.0",
             "SHA": "79c173646467fcbe8db90fb8822087f279e402e3",
@@ -389,9 +413,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.29.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "7ebea00",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -446,8 +470,29 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.29.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #335 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.30.0",
+            "SHA": "7ebea00434ce5057d2450ae6eb23d910b99e5246",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-11T22:03:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/7ebea00434ce5057d2450ae6eb23d910b99e5246"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.29.0 to 1.30.0",
+            "SHA": "abd39843f47d3cd797c6d3f8870889db41bf448a",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-11T21:37:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/abd39843f47d3cd797c6d3f8870889db41bf448a"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1412,5 +1457,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-11T14:14:57Z"
+  "LastUpdated": "2024-06-12T07:01:04Z"
 }

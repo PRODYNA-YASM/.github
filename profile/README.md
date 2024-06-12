@@ -1,13 +1,13 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-06-11T14:14:57Z
+Component Status overview. Last update 2024-06-12T07:01:04Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-backend/compare/1.29.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.29.0 |  :red_square: ca7a653 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-backend/compare/1.29.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.29.0 |  :red_square: ca7a653 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.29.1 |  :red_square: 4d8a6ea |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [4](https://github.com/prodyna-yasm/yasm-integration/compare/1.29.0..HEAD) | :green_square: 0 | 1.29.0 |  :red_square: 79c1736 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.29.1 |  :green_square: 1.29.1 |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [6](https://github.com/prodyna-yasm/yasm-integration/compare/1.29.0..HEAD) | :green_square: 0 | 1.29.0 |  :red_square: 5847b9a |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.29.1..HEAD) | :green_square: 0 | 1.29.1 |  :red_square: 7ebea00 |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.12.1 |  :green_square: 1.12.1 |  :green_square: 1.12.1 |  :green_square: 1.12.1 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.4.9 |  :green_square: 1.4.9 |  :green_square: 1.4.9 |  :green_square: 1.4.9 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.9.13 |  :green_square: 1.9.13 |  :green_square: 1.9.13 |  :green_square: 1.9.13 | 
@@ -35,7 +35,9 @@ Component Status overview. Last update 2024-06-11T14:14:57Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (3)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (4)
+
+- [Bump org.apache.maven.plugins:maven-dependency-plugin from 3.6.1 to 3.7.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/644)
 
 - [ci: add pr title lint](https://github.com/PRODYNA-YASM/yasm-backend/pull/643)
 
@@ -126,7 +128,11 @@ Component Status overview. Last update 2024-06-11T14:14:57Z
 
 
 
-### [Commits on main since 1.29.0](https://github.com/prodyna-yasm/yasm-integration/compare/1.29.0..HEAD) (4)
+### [Commits on main since 1.29.0](https://github.com/prodyna-yasm/yasm-integration/compare/1.29.0..HEAD) (6)
+
+- [Merge pull request #444 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.30.0](https://github.com/prodyna-yasm/yasm-integration/commit/5847b9a39c0620c4abddeefe9d6d6c8c64c0ec74) by [dkrizic](https://github.com/dkrizic) on 2024-06-12 05:38:34 +0000 UTC
+
+- [Bump github.com/prodyna-yasm/yasm-api-go from 1.29.0 to 1.30.0](https://github.com/prodyna-yasm/yasm-integration/commit/605387715b6155a285894b20cefe0f10c20ea152) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-06-12 01:50:34 +0000 UTC
 
 - [Merge pull request #443 from PRODYNA-YASM/dependabot/go_modules/github.com/Azure/azure-sdk-for-go/sdk/azidentity-1.6.0](https://github.com/prodyna-yasm/yasm-integration/commit/79c173646467fcbe8db90fb8822087f279e402e3) by [dkrizic](https://github.com/dkrizic) on 2024-06-11 06:07:28 +0000 UTC
 
@@ -144,7 +150,7 @@ Component Status overview. Last update 2024-06-11T14:14:57Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  79c1736 |  1.29.0 |  1.29.0 | 
+| Version |  5847b9a |  1.29.0 |  1.29.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -182,6 +188,13 @@ Component Status overview. Last update 2024-06-11T14:14:57Z
 
 
 
+### [Commits on main since 1.29.1](https://github.com/prodyna-yasm/yasmctl/compare/1.29.1..HEAD) (2)
+
+- [Merge pull request #335 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.30.0](https://github.com/prodyna-yasm/yasmctl/commit/7ebea00434ce5057d2450ae6eb23d910b99e5246) by [dkrizic](https://github.com/dkrizic) on 2024-06-11 22:03:48 +0000 UTC
+
+- [Bump github.com/prodyna-yasm/yasm-api-go from 1.29.0 to 1.30.0](https://github.com/prodyna-yasm/yasmctl/commit/abd39843f47d3cd797c6d3f8870889db41bf448a) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-06-11 21:37:50 +0000 UTC
+
+
 
 
 
@@ -189,9 +202,9 @@ Component Status overview. Last update 2024-06-11T14:14:57Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.29.1 |  1.29.1 |  1.29.1 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  7ebea00 |  1.29.1 |  1.29.1 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
