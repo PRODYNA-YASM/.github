@@ -1,12 +1,12 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-06-12T07:28:48Z
+Component Status overview. Last update 2024-06-12T07:32:30Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-backend/compare/1.29.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.29.0 |  :red_square: 33ab184 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.29.1 |  :red_square: 8c5c176 |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [6](https://github.com/prodyna-yasm/yasm-integration/compare/1.29.0..HEAD) | :green_square: 0 | 1.29.0 |  :red_square: 5847b9a |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [6](https://github.com/prodyna-yasm/yasm-integration/compare/1.29.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.29.0 |  :red_square: 5847b9a |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [4](https://github.com/prodyna-yasm/yasmctl/compare/1.29.1..HEAD) | :green_square: 0 | 1.29.1 |  :red_square: 7588c66 |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [4](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.12.1..HEAD) | :green_square: 0 | 1.12.1 |  :red_square: 104386a |  :green_square: 1.12.1 |  :green_square: 1.12.1 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [2](https://github.com/prodyna-yasm/yasm-github/compare/1.4.9..HEAD) | :green_square: 0 | 1.4.9 |  :red_square: 4a409ef |  :green_square: 1.4.9 |  :green_square: 1.4.9 | 
@@ -147,6 +147,11 @@ Component Status overview. Last update 2024-06-12T07:28:48Z
 - [Fix branch name for CodeQL](https://github.com/prodyna-yasm/yasm-integration/commit/29bfd78b2870bbe64eea7897815e809f0fffc0ce) by [dkrizic](https://github.com/dkrizic) on 2024-06-10 09:48:11 +0000 UTC
 
 
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (1)
+
+- [API 1.30 and other updates](https://github.com/PRODYNA-YASM/yasm-integration/pull/445)
 
 
 
