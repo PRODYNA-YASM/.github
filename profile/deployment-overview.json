@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "ca7a653",
+          "Version": "33ab184",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -82,8 +82,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.29.0..HEAD",
-        "Count": 2,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "fix codeql (#645)",
+            "SHA": "33ab1840c491c9adb08fe2e48d96b118740c4448",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-12T07:16:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/33ab1840c491c9adb08fe2e48d96b118740c4448"
+          },
           {
             "Text": "Merge pull request #640 from PRODYNA-YASM/608-add-cancel-previous-runs-job-before-ci-for-be-like-in-yasm-integration",
             "SHA": "ca7a653dec7b199e6c6260c7ebbf2814cbcebfaa",
@@ -121,7 +131,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "4d8a6ea",
+          "Version": "8c5c176",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -207,8 +217,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD",
-        "Count": 2,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "Fix codeql (#722)",
+            "SHA": "8c5c1766596dfba5c9766e32f7db444f28421d86",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-12T07:11:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/8c5c1766596dfba5c9766e32f7db444f28421d86"
+          },
           {
             "Text": "Merge pull request #718 from PRODYNA-YASM/651-add-cancel-previous-runs-job-before-ci-for-fe-like-in-yasm-integration",
             "SHA": "4d8a6eae5b0809c584d87657745a71b25d6ff8b6",
@@ -413,7 +433,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "7ebea00",
+          "Version": "7588c66",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -470,8 +490,28 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.29.1..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #336 from PRODYNA-YASM/feature/fix-codeql",
+            "SHA": "7588c66bddb0e8b17a86c6c966570be6105c6ca1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-12T07:13:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/7588c66bddb0e8b17a86c6c966570be6105c6ca1"
+          },
+          {
+            "Text": "Fix codeql",
+            "SHA": "f4e357f9cd9b21e4ee379571b99c4f4a00c302c8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-12T07:10:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/f4e357f9cd9b21e4ee379571b99c4f4a00c302c8"
+          },
           {
             "Text": "Merge pull request #335 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.30.0",
             "SHA": "7ebea00434ce5057d2450ae6eb23d910b99e5246",
@@ -525,9 +565,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.12.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "104386a",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -582,8 +622,49 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.12.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "Merge pull request #200 from PRODYNA-YASM/feature/technology-update",
+            "SHA": "104386a364c13abc4cc9c717fa6bdd23634ea49b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-12T07:20:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/104386a364c13abc4cc9c717fa6bdd23634ea49b"
+          },
+          {
+            "Text": "Update components",
+            "SHA": "1835cfce07a4bb8f76d689d40c378463b41f2f4b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-12T07:17:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/1835cfce07a4bb8f76d689d40c378463b41f2f4b"
+          },
+          {
+            "Text": "Merge pull request #199 from PRODYNA-YASM/feature/fix-codeql",
+            "SHA": "71e62b2d2a951ac1320ee736805fcd6d8cc49ba3",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-12T07:11:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/71e62b2d2a951ac1320ee736805fcd6d8cc49ba3"
+          },
+          {
+            "Text": "Fix codeql",
+            "SHA": "aee5c2087a61ad829e06c116264443ba1d4d6362",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-12T07:07:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/aee5c2087a61ad829e06c116264443ba1d4d6362"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -606,9 +687,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.4.9",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "4a409ef",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -663,8 +744,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.4.9..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #95 from PRODYNA-YASM/codeql-advanced",
+            "SHA": "4a409ef6a9e4f26e5e6f578b5d5e64a6f619573f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-12T07:23:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/4a409ef6a9e4f26e5e6f578b5d5e64a6f619573f"
+          },
+          {
+            "Text": "Create codeql.yml",
+            "SHA": "1901af03e4ffc3d0c5a449b3855aff5445cf0edf",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-12T07:15:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/1901af03e4ffc3d0c5a449b3855aff5445cf0edf"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1457,5 +1559,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-12T07:01:04Z"
+  "LastUpdated": "2024-06-12T07:28:48Z"
 }

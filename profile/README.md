@@ -1,15 +1,15 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-06-12T07:01:04Z
+Component Status overview. Last update 2024-06-12T07:28:48Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-backend/compare/1.29.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.29.0 |  :red_square: ca7a653 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.29.1 |  :red_square: 4d8a6ea |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-backend/compare/1.29.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.29.0 |  :red_square: 33ab184 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.29.1 |  :red_square: 8c5c176 |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [6](https://github.com/prodyna-yasm/yasm-integration/compare/1.29.0..HEAD) | :green_square: 0 | 1.29.0 |  :red_square: 5847b9a |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.29.1..HEAD) | :green_square: 0 | 1.29.1 |  :red_square: 7ebea00 |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.12.1 |  :green_square: 1.12.1 |  :green_square: 1.12.1 |  :green_square: 1.12.1 | 
-| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.4.9 |  :green_square: 1.4.9 |  :green_square: 1.4.9 |  :green_square: 1.4.9 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [4](https://github.com/prodyna-yasm/yasmctl/compare/1.29.1..HEAD) | :green_square: 0 | 1.29.1 |  :red_square: 7588c66 |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [4](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.12.1..HEAD) | :green_square: 0 | 1.12.1 |  :red_square: 104386a |  :green_square: 1.12.1 |  :green_square: 1.12.1 | 
+| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [2](https://github.com/prodyna-yasm/yasm-github/compare/1.4.9..HEAD) | :green_square: 0 | 1.4.9 |  :red_square: 4a409ef |  :green_square: 1.4.9 |  :green_square: 1.4.9 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.9.13 |  :green_square: 1.9.13 |  :green_square: 1.9.13 |  :green_square: 1.9.13 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.26.0 |  :green_square: 1.26.0 |  :green_square: 1.26.0 |  :green_square: 1.26.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.6.0-1 |  :green_square: 8.6.0-1 |  :green_square: 8.6.0-1 |  :green_square: 8.6.0-1 | 
@@ -26,7 +26,9 @@ Component Status overview. Last update 2024-06-12T07:01:04Z
 
 
 
-### [Commits on main since 1.29.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.29.0..HEAD) (2)
+### [Commits on main since 1.29.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.29.0..HEAD) (3)
+
+- [fix codeql (#645)](https://github.com/prodyna-yasm/yasm-backend/commit/33ab1840c491c9adb08fe2e48d96b118740c4448) by [dkrizic](https://github.com/dkrizic) on 2024-06-12 07:16:26 +0000 UTC
 
 - [Merge pull request #640 from PRODYNA-YASM/608-add-cancel-previous-runs-job-before-ci-for-be-like-in-yasm-integration](https://github.com/prodyna-yasm/yasm-backend/commit/ca7a653dec7b199e6c6260c7ebbf2814cbcebfaa) by [dkrizic](https://github.com/dkrizic) on 2024-06-09 11:13:37 +0000 UTC
 
@@ -51,7 +53,7 @@ Component Status overview. Last update 2024-06-12T07:01:04Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  ca7a653 |  1.29.0 |  1.29.0 | 
+| Version |  33ab184 |  1.29.0 |  1.29.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -74,7 +76,9 @@ Component Status overview. Last update 2024-06-12T07:01:04Z
 
 
 
-### [Commits on main since 1.29.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD) (2)
+### [Commits on main since 1.29.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD) (3)
+
+- [Fix codeql (#722)](https://github.com/prodyna-yasm/yasm-frontend/commit/8c5c1766596dfba5c9766e32f7db444f28421d86) by [dkrizic](https://github.com/dkrizic) on 2024-06-12 07:11:41 +0000 UTC
 
 - [Merge pull request #718 from PRODYNA-YASM/651-add-cancel-previous-runs-job-before-ci-for-fe-like-in-yasm-integration](https://github.com/prodyna-yasm/yasm-frontend/commit/4d8a6eae5b0809c584d87657745a71b25d6ff8b6) by [dkrizic](https://github.com/dkrizic) on 2024-06-09 11:11:03 +0000 UTC
 
@@ -105,7 +109,7 @@ Component Status overview. Last update 2024-06-12T07:01:04Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  4d8a6ea |  1.29.1 |  1.29.1 | 
+| Version |  8c5c176 |  1.29.1 |  1.29.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -188,7 +192,11 @@ Component Status overview. Last update 2024-06-12T07:01:04Z
 
 
 
-### [Commits on main since 1.29.1](https://github.com/prodyna-yasm/yasmctl/compare/1.29.1..HEAD) (2)
+### [Commits on main since 1.29.1](https://github.com/prodyna-yasm/yasmctl/compare/1.29.1..HEAD) (4)
+
+- [Merge pull request #336 from PRODYNA-YASM/feature/fix-codeql](https://github.com/prodyna-yasm/yasmctl/commit/7588c66bddb0e8b17a86c6c966570be6105c6ca1) by [dkrizic](https://github.com/dkrizic) on 2024-06-12 07:13:55 +0000 UTC
+
+- [Fix codeql](https://github.com/prodyna-yasm/yasmctl/commit/f4e357f9cd9b21e4ee379571b99c4f4a00c302c8) by [dkrizic](https://github.com/dkrizic) on 2024-06-12 07:10:06 +0000 UTC
 
 - [Merge pull request #335 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.30.0](https://github.com/prodyna-yasm/yasmctl/commit/7ebea00434ce5057d2450ae6eb23d910b99e5246) by [dkrizic](https://github.com/dkrizic) on 2024-06-11 22:03:48 +0000 UTC
 
@@ -202,7 +210,7 @@ Component Status overview. Last update 2024-06-12T07:01:04Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  7ebea00 |  1.29.1 |  1.29.1 | 
+| Version |  7588c66 |  1.29.1 |  1.29.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -234,6 +242,17 @@ Component Status overview. Last update 2024-06-12T07:01:04Z
 
 
 
+### [Commits on main since 1.12.1](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.12.1..HEAD) (4)
+
+- [Merge pull request #200 from PRODYNA-YASM/feature/technology-update](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/104386a364c13abc4cc9c717fa6bdd23634ea49b) by [dkrizic](https://github.com/dkrizic) on 2024-06-12 07:20:24 +0000 UTC
+
+- [Update components](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/1835cfce07a4bb8f76d689d40c378463b41f2f4b) by [dkrizic](https://github.com/dkrizic) on 2024-06-12 07:17:46 +0000 UTC
+
+- [Merge pull request #199 from PRODYNA-YASM/feature/fix-codeql](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/71e62b2d2a951ac1320ee736805fcd6d8cc49ba3) by [dkrizic](https://github.com/dkrizic) on 2024-06-12 07:11:23 +0000 UTC
+
+- [Fix codeql](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/aee5c2087a61ad829e06c116264443ba1d4d6362) by [dkrizic](https://github.com/dkrizic) on 2024-06-12 07:07:15 +0000 UTC
+
+
 
 
 
@@ -241,9 +260,9 @@ Component Status overview. Last update 2024-06-12T07:01:04Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.12.1 |  1.12.1 |  1.12.1 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  104386a |  1.12.1 |  1.12.1 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -269,6 +288,13 @@ Component Status overview. Last update 2024-06-12T07:01:04Z
 
 
 
+### [Commits on main since 1.4.9](https://github.com/prodyna-yasm/yasm-github/compare/1.4.9..HEAD) (2)
+
+- [Merge pull request #95 from PRODYNA-YASM/codeql-advanced](https://github.com/prodyna-yasm/yasm-github/commit/4a409ef6a9e4f26e5e6f578b5d5e64a6f619573f) by [dkrizic](https://github.com/dkrizic) on 2024-06-12 07:23:18 +0000 UTC
+
+- [Create codeql.yml](https://github.com/prodyna-yasm/yasm-github/commit/1901af03e4ffc3d0c5a449b3855aff5445cf0edf) by [dkrizic](https://github.com/dkrizic) on 2024-06-12 07:15:57 +0000 UTC
+
+
 
 
 
@@ -276,9 +302,9 @@ Component Status overview. Last update 2024-06-12T07:01:04Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.4.9 |  1.4.9 |  1.4.9 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  4a409ef |  1.4.9 |  1.4.9 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
