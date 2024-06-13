@@ -1,14 +1,14 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-06-13T09:19:14Z
+Component Status overview. Last update 2024-06-13T12:23:43Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-backend/compare/1.29.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.29.0 |  :red_square: d81dcac |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD) | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.29.1 |  :red_square: 3d81609 |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [5](https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.29.1 |  :red_square: ed34d3a |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [8](https://github.com/prodyna-yasm/yasm-integration/compare/1.29.0..HEAD) | :green_square: 0 | 1.29.0 |  :red_square: ea2e4f6 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [4](https://github.com/prodyna-yasm/yasmctl/compare/1.29.1..HEAD) | :green_square: 0 | 1.29.1 |  :red_square: 7588c66 |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.13.0 |  :green_square: 1.13.0 |  :green_square: 1.13.0 |  :red_square: 1.12.1 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.30.0 |  :green_square: 1.30.0 |  :green_square: 1.30.0 |  :red_square: 1.29.1 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.13.0 |  :green_square: 1.13.0 |  :green_square: 1.13.0 |  :green_square: 1.13.0 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.5.0 |  :green_square: 1.5.0 |  :green_square: 1.5.0 |  :green_square: 1.5.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.9.13 |  :green_square: 1.9.13 |  :green_square: 1.9.13 |  :green_square: 1.9.13 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.26.0 |  :green_square: 1.26.0 |  :green_square: 1.26.0 |  :green_square: 1.26.0 | 
@@ -78,7 +78,9 @@ Component Status overview. Last update 2024-06-13T09:19:14Z
 
 
 
-### [Commits on main since 1.29.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD) (4)
+### [Commits on main since 1.29.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD) (5)
+
+- [Remove Automatic Ticket Assignment to Yasm Project #727 (#728)](https://github.com/prodyna-yasm/yasm-frontend/commit/ed34d3ad453754c16b9696766937d27f975c20ea) by [mopore](https://github.com/mopore) on 2024-06-13 11:36:29 +0000 UTC
 
 - [ci: add pr title lint workflow (#729)](https://github.com/prodyna-yasm/yasm-frontend/commit/3d81609e66ef3e83a6080e5c69fd37afa7b1e150) by [saemik94](https://github.com/saemik94) on 2024-06-13 08:31:42 +0000 UTC
 
@@ -91,9 +93,7 @@ Component Status overview. Last update 2024-06-13T09:19:14Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (10)
-
-- [Remove Automatic Ticket Assignment to Yasm Project #727](https://github.com/PRODYNA-YASM/yasm-frontend/pull/728)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (9)
 
 - [Feature/#355 copy paste skills](https://github.com/PRODYNA-YASM/yasm-frontend/pull/726)
 
@@ -119,7 +119,7 @@ Component Status overview. Last update 2024-06-13T09:19:14Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  3d81609 |  1.29.1 |  1.29.1 | 
+| Version |  ed34d3a |  1.29.1 |  1.29.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -184,7 +184,7 @@ Component Status overview. Last update 2024-06-13T09:19:14Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (6)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (5)
 
 - [Merge pull request #437 from PRODYNA-YASM/feature/update-components](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9413568240) created on 2024-06-07 07:51:14 +0000 UTC
 
@@ -196,25 +196,12 @@ Component Status overview. Last update 2024-06-13T09:19:14Z
 
 - [Merge pull request #419 from PRODYNA-YASM/dependabot/go_modules/googl…](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9108351279) created on 2024-05-16 07:35:56 +0000 UTC
 
-- [Merge pull request #418 from PRODYNA-YASM/technology-update](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9077209401) created on 2024-05-14 09:42:04 +0000 UTC
 
 
 
-
-## [yasmctl](https://github.com/prodyna-yasm/yasmctl) 1.29.1
-
+## [yasmctl](https://github.com/prodyna-yasm/yasmctl) 1.30.0
 
 
-
-### [Commits on main since 1.29.1](https://github.com/prodyna-yasm/yasmctl/compare/1.29.1..HEAD) (4)
-
-- [Merge pull request #336 from PRODYNA-YASM/feature/fix-codeql](https://github.com/prodyna-yasm/yasmctl/commit/7588c66bddb0e8b17a86c6c966570be6105c6ca1) by [dkrizic](https://github.com/dkrizic) on 2024-06-12 07:13:55 +0000 UTC
-
-- [Fix codeql](https://github.com/prodyna-yasm/yasmctl/commit/f4e357f9cd9b21e4ee379571b99c4f4a00c302c8) by [dkrizic](https://github.com/dkrizic) on 2024-06-12 07:10:06 +0000 UTC
-
-- [Merge pull request #335 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.30.0](https://github.com/prodyna-yasm/yasmctl/commit/7ebea00434ce5057d2450ae6eb23d910b99e5246) by [dkrizic](https://github.com/dkrizic) on 2024-06-11 22:03:48 +0000 UTC
-
-- [Bump github.com/prodyna-yasm/yasm-api-go from 1.29.0 to 1.30.0](https://github.com/prodyna-yasm/yasmctl/commit/abd39843f47d3cd797c6d3f8870889db41bf448a) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-06-11 21:37:50 +0000 UTC
 
 
 
@@ -224,29 +211,29 @@ Component Status overview. Last update 2024-06-13T09:19:14Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  7588c66 |  1.29.1 |  1.29.1 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.30.0 |  1.30.0 |  1.29.1 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
 
+- [Using API 1.30.0](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.30.0) on 2024-06-12 07:13:55 +0000 UTC
+
 - [Pipeline now cancels old runs](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.29.1) on 2024-06-09 11:17:21 +0000 UTC
 
 - [API 1.29](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.29.0) on 2024-06-07 09:57:51 +0000 UTC
-
-- [API 1.28 and Go 1.22.4](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.28.0) on 2024-06-05 13:22:38 +0000 UTC
 
 
 
 
 ### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting) (3)
 
+- [Merge pull request #336 from PRODYNA-YASM/feature/fix-codeql](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9499139781) created on 2024-06-13 11:55:47 +0000 UTC
+
 - [Merge pull request #324 from PRODYNA-YASM/dependabot/go_modules/go.op…](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9182087461) created on 2024-05-21 22:05:09 +0000 UTC
 
 - [Merge pull request #320 from PRODYNA-YASM/feature/technolgy-update](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9177461182) created on 2024-05-21 15:43:57 +0000 UTC
-
-- [Merge pull request #319 from PRODYNA-YASM/dependabot/go_modules/githu…](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9077198208) created on 2024-05-14 09:41:06 +0000 UTC
 
 
 
@@ -263,9 +250,9 @@ Component Status overview. Last update 2024-06-13T09:19:14Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.13.0 |  1.13.0 |  1.12.1 | 
+| Version |  1.13.0 |  1.13.0 |  1.13.0 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -279,9 +266,7 @@ Component Status overview. Last update 2024-06-13T09:19:14Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting) (2)
-
-- [Merge pull request #200 from PRODYNA-YASM/feature/technology-update](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/9496720937) created on 2024-06-13 08:57:42 +0000 UTC
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting) (1)
 
 - [Merge pull request #188 from PRODYNA-YASM/feature/technolgy-update](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/9177465100) created on 2024-05-21 15:44:16 +0000 UTC
 

@@ -141,7 +141,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "3d81609",
+          "Version": "ed34d3a",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -192,12 +192,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 10,
+        "Count": 9,
         "PullRequests": [
-          {
-            "Title": "Remove Automatic Ticket Assignment to Yasm Project #727",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/728"
-          },
           {
             "Title": "Feature/#355 copy paste skills",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/726"
@@ -239,8 +235,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD",
-        "Count": 4,
+        "Count": 5,
         "Commits": [
+          {
+            "Text": "Remove Automatic Ticket Assignment to Yasm Project #727 (#728)",
+            "SHA": "ed34d3ad453754c16b9696766937d27f975c20ea",
+            "Author": {
+              "name": "mopore",
+              "link": "https://github.com/mopore"
+            },
+            "Timestamp": "2024-06-13T11:36:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ed34d3ad453754c16b9696766937d27f975c20ea"
+          },
           {
             "Text": "ci: add pr title lint workflow (#729)",
             "SHA": "3d81609e66ef3e83a6080e5c69fd37afa7b1e150",
@@ -443,7 +449,7 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 6,
+        "Count": 5,
         "Workflows": [
           {
             "Name": "Merge pull request #437 from PRODYNA-YASM/feature/update-components",
@@ -469,11 +475,6 @@
             "Name": "Merge pull request #419 from PRODYNA-YASM/dependabot/go_modules/googl…",
             "Timestamp": "2024-05-16T07:35:56Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9108351279"
-          },
-          {
-            "Name": "Merge pull request #418 from PRODYNA-YASM/technology-update",
-            "Timestamp": "2024-05-14T09:42:04Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9077209401"
           }
         ]
       }
@@ -485,14 +486,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "7588c66",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.30.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.29.1",
+          "Version": "1.30.0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -501,17 +502,24 @@
           "Link": "",
           "Version": "1.29.1",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.29.1",
+        "Tag": "1.30.0",
         "SHA": "",
-        "Title": "Pipeline now cancels old runs",
-        "Timestamp": "2024-06-09T11:21:10Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.29.1"
+        "Title": "Using API 1.30.0",
+        "Timestamp": "2024-06-13T11:55:46Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.30.0"
       },
       "Releases": [
+        {
+          "Tag": "1.30.0",
+          "SHA": "",
+          "Title": "Using API 1.30.0",
+          "Timestamp": "2024-06-12T07:13:55Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.30.0"
+        },
         {
           "Tag": "1.29.1",
           "SHA": "",
@@ -525,13 +533,6 @@
           "Title": "API 1.29",
           "Timestamp": "2024-06-07T09:57:51Z",
           "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.29.0"
-        },
-        {
-          "Tag": "1.28.0",
-          "SHA": "",
-          "Title": "API 1.28 and Go 1.22.4",
-          "Timestamp": "2024-06-05T13:22:38Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.28.0"
         }
       ],
       "PullRequests": {
@@ -541,50 +542,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.29.1..HEAD",
-        "Count": 4,
-        "Commits": [
-          {
-            "Text": "Merge pull request #336 from PRODYNA-YASM/feature/fix-codeql",
-            "SHA": "7588c66bddb0e8b17a86c6c966570be6105c6ca1",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-06-12T07:13:55Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/7588c66bddb0e8b17a86c6c966570be6105c6ca1"
-          },
-          {
-            "Text": "Fix codeql",
-            "SHA": "f4e357f9cd9b21e4ee379571b99c4f4a00c302c8",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-06-12T07:10:06Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/f4e357f9cd9b21e4ee379571b99c4f4a00c302c8"
-          },
-          {
-            "Text": "Merge pull request #335 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.30.0",
-            "SHA": "7ebea00434ce5057d2450ae6eb23d910b99e5246",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-06-11T22:03:48Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/7ebea00434ce5057d2450ae6eb23d910b99e5246"
-          },
-          {
-            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.29.0 to 1.30.0",
-            "SHA": "abd39843f47d3cd797c6d3f8870889db41bf448a",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-06-11T21:37:50Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/abd39843f47d3cd797c6d3f8870889db41bf448a"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.30.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -592,6 +552,11 @@
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
         "Count": 3,
         "Workflows": [
+          {
+            "Name": "Merge pull request #336 from PRODYNA-YASM/feature/fix-codeql",
+            "Timestamp": "2024-06-13T11:55:47Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9499139781"
+          },
           {
             "Name": "Merge pull request #324 from PRODYNA-YASM/dependabot/go_modules/go.op…",
             "Timestamp": "2024-05-21T22:05:09Z",
@@ -601,11 +566,6 @@
             "Name": "Merge pull request #320 from PRODYNA-YASM/feature/technolgy-update",
             "Timestamp": "2024-05-21T15:43:57Z",
             "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9177461182"
-          },
-          {
-            "Name": "Merge pull request #319 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2024-05-14T09:41:06Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9077198208"
           }
         ]
       }
@@ -631,9 +591,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.12.1",
+          "Version": "1.13.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -681,13 +641,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #200 from PRODYNA-YASM/feature/technology-update",
-            "Timestamp": "2024-06-13T08:57:42Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/9496720937"
-          },
           {
             "Name": "Merge pull request #188 from PRODYNA-YASM/feature/technolgy-update",
             "Timestamp": "2024-05-21T15:44:16Z",
@@ -1533,5 +1488,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-13T09:19:14Z"
+  "LastUpdated": "2024-06-13T12:23:43Z"
 }
