@@ -1,12 +1,12 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-06-12T07:32:30Z
+Component Status overview. Last update 2024-06-13T07:32:15Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-backend/compare/1.29.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.29.0 |  :red_square: 33ab184 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.29.1 |  :red_square: 8c5c176 |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [6](https://github.com/prodyna-yasm/yasm-integration/compare/1.29.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.29.0 |  :red_square: 5847b9a |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-backend/compare/1.29.0..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.29.0 |  :red_square: 33ab184 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD) | :yellow_square: [11](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.29.1 |  :red_square: 8c5c176 |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [8](https://github.com/prodyna-yasm/yasm-integration/compare/1.29.0..HEAD) | :green_square: 0 | 1.29.0 |  :red_square: ea2e4f6 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [4](https://github.com/prodyna-yasm/yasmctl/compare/1.29.1..HEAD) | :green_square: 0 | 1.29.1 |  :red_square: 7588c66 |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [4](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.12.1..HEAD) | :green_square: 0 | 1.12.1 |  :red_square: 104386a |  :green_square: 1.12.1 |  :green_square: 1.12.1 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [2](https://github.com/prodyna-yasm/yasm-github/compare/1.4.9..HEAD) | :green_square: 0 | 1.4.9 |  :red_square: 4a409ef |  :green_square: 1.4.9 |  :green_square: 1.4.9 | 
@@ -14,7 +14,7 @@ Component Status overview. Last update 2024-06-12T07:32:30Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.26.0 |  :green_square: 1.26.0 |  :green_square: 1.26.0 |  :green_square: 1.26.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.6.0-1 |  :green_square: 8.6.0-1 |  :green_square: 8.6.0-1 |  :green_square: 8.6.0-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.27.1..HEAD) | :green_square: 0 | 1.27.1 |  :red_square: d3b0b2a |  :green_square: 1.27.1 |  :green_square: 1.27.1 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [1](https://github.com/prodyna-yasm/yasm-api/compare/1.29.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.29.0 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [1](https://github.com/prodyna-yasm/yasm-api/compare/1.29.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.29.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [16](https://github.com/prodyna-yasm/yasm-test/compare/1.27.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-test/pulls) | 1.27.0 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.1.0 |  :green_square: 1.1.0 |  :green_square: 1.1.0 |  :green_square: 1.1.0 | 
@@ -37,11 +37,13 @@ Component Status overview. Last update 2024-06-12T07:32:30Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (4)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (5)
+
+- [Bump io.quarkiverse.neo4j:quarkus-neo4j from 4.0.0 to 4.1.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/646)
 
 - [Bump org.apache.maven.plugins:maven-dependency-plugin from 3.6.1 to 3.7.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/644)
 
-- [ci: add pr title lint](https://github.com/PRODYNA-YASM/yasm-backend/pull/643)
+- [ci: add workflow to lint the PR title](https://github.com/PRODYNA-YASM/yasm-backend/pull/643)
 
 - [feat: extend search metric](https://github.com/PRODYNA-YASM/yasm-backend/pull/642)
 
@@ -87,7 +89,15 @@ Component Status overview. Last update 2024-06-12T07:32:30Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (11)
+
+- [ci: add pr title lint workflow](https://github.com/PRODYNA-YASM/yasm-frontend/pull/729)
+
+- [Remove Automatic Ticket Assignment to Yasm Project #727](https://github.com/PRODYNA-YASM/yasm-frontend/pull/728)
+
+- [Feature/#355 copy paste skills](https://github.com/PRODYNA-YASM/yasm-frontend/pull/726)
+
+- [720: fixed skill administration bugs](https://github.com/PRODYNA-YASM/yasm-frontend/pull/725)
 
 - [438: sort skills alphabetically in pdf export](https://github.com/PRODYNA-YASM/yasm-frontend/pull/721)
 
@@ -132,7 +142,11 @@ Component Status overview. Last update 2024-06-12T07:32:30Z
 
 
 
-### [Commits on main since 1.29.0](https://github.com/prodyna-yasm/yasm-integration/compare/1.29.0..HEAD) (6)
+### [Commits on main since 1.29.0](https://github.com/prodyna-yasm/yasm-integration/compare/1.29.0..HEAD) (8)
+
+- [Merge pull request #445 from PRODYNA-YASM/feature/technology-update](https://github.com/prodyna-yasm/yasm-integration/commit/ea2e4f6c5f9e44dab02eb9ecbb329be8315bd990) by [dkrizic](https://github.com/dkrizic) on 2024-06-12 07:37:32 +0000 UTC
+
+- [API 1.30 and other updates](https://github.com/prodyna-yasm/yasm-integration/commit/eb9529cd33dd8a2d656f3a2fe3f0952dbab6daf8) by [dkrizic](https://github.com/dkrizic) on 2024-06-12 07:29:20 +0000 UTC
 
 - [Merge pull request #444 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.30.0](https://github.com/prodyna-yasm/yasm-integration/commit/5847b9a39c0620c4abddeefe9d6d6c8c64c0ec74) by [dkrizic](https://github.com/dkrizic) on 2024-06-12 05:38:34 +0000 UTC
 
@@ -149,17 +163,12 @@ Component Status overview. Last update 2024-06-12T07:32:30Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (1)
-
-- [API 1.30 and other updates](https://github.com/PRODYNA-YASM/yasm-integration/pull/445)
-
-
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  5847b9a |  1.29.0 |  1.29.0 | 
+| Version |  ea2e4f6 |  1.29.0 |  1.29.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -474,7 +483,9 @@ Component Status overview. Last update 2024-06-12T07:32:30Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (3)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (4)
+
+- [ci: add pr title lint workflow](https://github.com/PRODYNA-YASM/yasm-api/pull/203)
 
 - [Feature/324-project-images](https://github.com/PRODYNA-YASM/yasm-api/pull/194)
 
