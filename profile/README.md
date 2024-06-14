@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-06-14T07:32:09Z
+Component Status overview. Last update 2024-06-14T07:46:50Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-backend/compare/1.29.0..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.29.0 |  :red_square: d81dcac |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [7](https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.29.1 |  :red_square: 2aa08d2 |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [8](https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.29.1 |  :red_square: ce7c471 |  :green_square: 1.29.1 |  :green_square: 1.29.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.30.0 |  :green_square: 1.30.0 |  :green_square: 1.30.0 |  :red_square: 1.29.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.30.0 |  :green_square: 1.30.0 |  :green_square: 1.30.0 |  :red_square: 1.29.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.13.0 |  :green_square: 1.13.0 |  :green_square: 1.13.0 |  :green_square: 1.13.0 | 
@@ -80,7 +80,9 @@ Component Status overview. Last update 2024-06-14T07:32:09Z
 
 
 
-### [Commits on main since 1.29.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD) (7)
+### [Commits on main since 1.29.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD) (8)
+
+- [Use Test 1.30.0 (#733)](https://github.com/prodyna-yasm/yasm-frontend/commit/ce7c4713a5a463ef06f4c992584fd67ec35a056f) by [dkrizic](https://github.com/dkrizic) on 2024-06-14 07:34:31 +0000 UTC
 
 - [720: fixed skill administration bugs (#725)](https://github.com/prodyna-yasm/yasm-frontend/commit/2aa08d24c644a0ab2744915abb0b8c86dd498bf8) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-13 13:29:47 +0000 UTC
 
@@ -99,9 +101,7 @@ Component Status overview. Last update 2024-06-14T07:32:09Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (9)
-
-- [Use Test 1.30.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/733)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (8)
 
 - [Bump @mui/x-date-pickers from 6.20.0 to 7.7.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/731)
 
@@ -125,7 +125,7 @@ Component Status overview. Last update 2024-06-14T07:32:09Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  2aa08d2 |  1.29.1 |  1.29.1 | 
+| Version |  ce7c471 |  1.29.1 |  1.29.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 

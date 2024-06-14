@@ -145,7 +145,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2aa08d2",
+          "Version": "ce7c471",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -196,12 +196,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 9,
+        "Count": 8,
         "PullRequests": [
-          {
-            "Title": "Use Test 1.30.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/733"
-          },
           {
             "Title": "Bump @mui/x-date-pickers from 6.20.0 to 7.7.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/731"
@@ -239,8 +235,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD",
-        "Count": 7,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Use Test 1.30.0 (#733)",
+            "SHA": "ce7c4713a5a463ef06f4c992584fd67ec35a056f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-14T07:34:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ce7c4713a5a463ef06f4c992584fd67ec35a056f"
+          },
           {
             "Text": "720: fixed skill administration bugs (#725)",
             "SHA": "2aa08d24c644a0ab2744915abb0b8c86dd498bf8",
@@ -1286,5 +1292,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-14T07:32:09Z"
+  "LastUpdated": "2024-06-14T07:46:50Z"
 }
