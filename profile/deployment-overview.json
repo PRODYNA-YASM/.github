@@ -196,8 +196,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 8,
+        "Count": 9,
         "PullRequests": [
+          {
+            "Title": "Use Test 1.30.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/733"
+          },
           {
             "Title": "Bump @mui/x-date-pickers from 6.20.0 to 7.7.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/731"
@@ -846,9 +850,9 @@
         {
           "Name": "staging",
           "Link": "",
-          "Version": "8.6.0-1",
+          "Version": "8.7.0-1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -903,8 +907,14 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #45 from PRODYNA-YASM/dependabot/docker/gotenberg/…",
+            "Timestamp": "2024-06-14T07:12:42Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/9512157562"
+          }
+        ]
       }
     },
     {
@@ -1128,19 +1138,26 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "v1.30.0",
+        "Tag": "1.30.0",
         "SHA": "",
-        "Title": "v1.30.0",
-        "Timestamp": "2024-06-14T06:32:24Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/v1.30.0"
+        "Title": "1.30.0",
+        "Timestamp": "2024-06-14T07:18:13Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/1.30.0"
       },
       "Releases": [
         {
           "Tag": "v1.30.0",
           "SHA": "",
-          "Title": "v1.30.0",
+          "Title": "1.30.0",
           "Timestamp": "2024-06-14T04:09:33Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/v1.30.0"
+        },
+        {
+          "Tag": "1.30.0",
+          "SHA": "",
+          "Title": "1.30.0",
+          "Timestamp": "2024-06-14T04:09:33Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/1.30.0"
         },
         {
           "Tag": "1.27.0",
@@ -1148,13 +1165,6 @@
           "Title": "Compatible to YASM 1.27",
           "Timestamp": "2024-06-05T08:35:59Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/1.27.0"
-        },
-        {
-          "Tag": "v1.1.4",
-          "SHA": "",
-          "Title": "v1.1.4",
-          "Timestamp": "2024-05-31T16:54:48Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/v1.1.4"
         }
       ],
       "PullRequests": {
@@ -1169,7 +1179,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-test",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-test/compare/v1.30.0..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-test/compare/1.30.0..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -1276,5 +1286,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-14T07:14:09Z"
+  "LastUpdated": "2024-06-14T07:32:09Z"
 }
