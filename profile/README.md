@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-06-15T07:32:17Z
+Component Status overview. Last update 2024-06-16T07:32:31Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -173,7 +173,7 @@ Component Status overview. Last update 2024-06-15T07:32:17Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (6)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (5)
 
 - [Merge pull request #445 from PRODYNA-YASM/feature/technology-update](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9499658142) created on 2024-06-13 12:30:50 +0000 UTC
 
@@ -184,8 +184,6 @@ Component Status overview. Last update 2024-06-15T07:32:17Z
 - [Merge pull request #426 from PRODYNA-YASM/dependabot/go_modules/go.op…](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9189201188) created on 2024-05-22 09:56:06 +0000 UTC
 
 - [Merge pull request #421 from PRODYNA-YASM/feature/technolgy-update](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9177468495) created on 2024-05-21 15:44:35 +0000 UTC
-
-- [Merge pull request #419 from PRODYNA-YASM/dependabot/go_modules/googl…](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9108351279) created on 2024-05-16 07:35:56 +0000 UTC
 
 
 
