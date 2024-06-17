@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d81dcac",
+          "Version": "ea4d430",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -59,24 +59,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 6,
+        "Count": 2,
         "PullRequests": [
-          {
-            "Title": "Bump org.apache.maven.plugins:maven-surefire-plugin from 3.2.5 to 3.3.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/648"
-          },
-          {
-            "Title": "Bump quarkus.platform.version from 3.11.1 to 3.11.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/647"
-          },
-          {
-            "Title": "Bump io.quarkiverse.neo4j:quarkus-neo4j from 4.0.0 to 4.1.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/646"
-          },
-          {
-            "Title": "Bump org.apache.maven.plugins:maven-dependency-plugin from 3.6.1 to 3.7.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/644"
-          },
           {
             "Title": "feat: extend search metric",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/642"
@@ -90,8 +74,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.29.0..HEAD",
-        "Count": 4,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "build(deps): update quarkus, sureffire, and mvn deps (#650)",
+            "SHA": "ea4d430bbb22ffbacc66b75b6072b35ccd4e81d3",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-06-17T13:44:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/ea4d430bbb22ffbacc66b75b6072b35ccd4e81d3"
+          },
+          {
+            "Text": "feat: Improve entity specific search (#649)",
+            "SHA": "6994302ed5269442a3042de76742ed82da2fb842",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-06-17T13:22:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/6994302ed5269442a3042de76742ed82da2fb842"
+          },
           {
             "Text": "ci: add workflow to lint the PR title (#643)",
             "SHA": "d81dcac56280d4ced543d5212ead7c06eec19e82",
@@ -149,7 +153,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "b55b21a",
+          "Version": "3e0f8b3",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -231,8 +235,38 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.29.1..HEAD",
-        "Count": 13,
+        "Count": 16,
         "Commits": [
+          {
+            "Text": "feat: design updates (#741)",
+            "SHA": "3e0f8b320ea4b997672876b2de094276667ff519",
+            "Author": {
+              "name": "readmey",
+              "link": "https://github.com/readmey"
+            },
+            "Timestamp": "2024-06-17T14:11:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/3e0f8b320ea4b997672876b2de094276667ff519"
+          },
+          {
+            "Text": "fix: new chalk upgrade breaks frontend build (#740)",
+            "SHA": "bc79cd7e3fdfdb4c3459eece64e09768fed85c7b",
+            "Author": {
+              "name": "readmey",
+              "link": "https://github.com/readmey"
+            },
+            "Timestamp": "2024-06-17T09:42:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/bc79cd7e3fdfdb4c3459eece64e09768fed85c7b"
+          },
+          {
+            "Text": "fix: user can not see delete project button (#739)",
+            "SHA": "13fac4278a9108a8a140d55100af16a5d265a3f7",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-06-17T08:41:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/13fac4278a9108a8a140d55100af16a5d265a3f7"
+          },
           {
             "Text": "feat: update employee card design (#730)",
             "SHA": "b55b21a1fea36fb204a332baffb82ab03e3fd49d",
@@ -566,8 +600,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump docker/build-push-action from 5 to 6",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/339"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
@@ -647,9 +686,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.13.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "56f285e",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -704,8 +743,49 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.13.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "Merge pull request #201 from PRODYNA-YASM/dependabot/go_modules/github.com/spf13/cobra-1.8.1",
+            "SHA": "56f285ef0b5832e8031d76fbbf2e38212b514ec1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-17T15:39:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/56f285ef0b5832e8031d76fbbf2e38212b514ec1"
+          },
+          {
+            "Text": "Merge pull request #202 from PRODYNA-YASM/dependabot/github_actions/docker/build-push-action-6",
+            "SHA": "1ed8abf4e92c4c65703faae0b57d0381d5f239d6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-17T15:37:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/1ed8abf4e92c4c65703faae0b57d0381d5f239d6"
+          },
+          {
+            "Text": "Bump docker/build-push-action from 5 to 6",
+            "SHA": "697738c1d2e1246933d422d295d47e3e037595be",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-17T13:45:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/697738c1d2e1246933d422d295d47e3e037595be"
+          },
+          {
+            "Text": "Bump github.com/spf13/cobra from 1.8.0 to 1.8.1",
+            "SHA": "9fed536bb61fa188385a57a91c8e0ab6e8561bda",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-17T13:09:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/9fed536bb61fa188385a57a91c8e0ab6e8561bda"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -830,9 +910,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.9.13",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "fa869d5",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -887,8 +967,49 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.9.13..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "Merge pull request #120 from PRODYNA-YASM/dependabot/go_modules/github.com/spf13/cobra-1.8.1",
+            "SHA": "fa869d57d8290d8c24764cd2bc2d06348828f497",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-17T19:25:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/fa869d57d8290d8c24764cd2bc2d06348828f497"
+          },
+          {
+            "Text": "Merge pull request #121 from PRODYNA-YASM/dependabot/github_actions/docker/build-push-action-6",
+            "SHA": "2b48f772fcde516f4e2525247e5d803a3dad5f6e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-17T19:23:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/2b48f772fcde516f4e2525247e5d803a3dad5f6e"
+          },
+          {
+            "Text": "Bump docker/build-push-action from 5 to 6",
+            "SHA": "d4c741c4b4bf05ae43861532f79e5646d70fa24a",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-17T16:55:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/d4c741c4b4bf05ae43861532f79e5646d70fa24a"
+          },
+          {
+            "Text": "Bump github.com/spf13/cobra from 1.8.0 to 1.8.1",
+            "SHA": "bc714d56a7c00d69972a7a7e56dd46a709b539d2",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-17T16:24:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/bc714d56a7c00d69972a7a7e56dd46a709b539d2"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1067,7 +1188,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d964e55",
+          "Version": "bba65e9",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1118,31 +1239,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 4,
-        "PullRequests": [
-          {
-            "Title": "Bump azurerm from 3.107.0 to 3.108.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/535"
-          },
-          {
-            "Title": "Bump azurerm from 3.107.0 to 3.108.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/534"
-          },
-          {
-            "Title": "Bump kubernetes from 2.30.0 to 2.31.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/533"
-          },
-          {
-            "Title": "Bump hashicorp/helm from 2.13.2 to 2.14.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/532"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.30.0..HEAD",
-        "Count": 1,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "Merge pull request #537 from PRODYNA-YASM/536-fix-pod-association",
+            "SHA": "bba65e9ca3b922696c36d3051e6df29f74601234",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-17T09:09:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/bba65e9ca3b922696c36d3051e6df29f74601234"
+          },
+          {
+            "Text": "Fix pod association, chore, some update",
+            "SHA": "ca48392d1100e9cb04732fb935c1894b4970f0e3",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-17T08:45:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ca48392d1100e9cb04732fb935c1894b4970f0e3"
+          },
           {
             "Text": "Try to match the pod metadata",
             "SHA": "d964e55857592dd826fea07e2430268c6e41100e",
@@ -1199,15 +1323,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
           {
             "Title": "Feature/324-project-images",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/194"
-          },
-          {
-            "Title": "Draft: Skill kind giver refactoring",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/105"
           }
         ]
       },
@@ -1254,8 +1374,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-nginx/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Bump docker/build-push-action from 5 to 6",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-nginx/pull/8"
+          },
           {
             "Title": "Bump ubuntu from 22.04 to 24.04",
             "Link": "https://github.com/PRODYNA-YASM/yasm-nginx/pull/7"
@@ -1396,8 +1520,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/sales-copilot/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "Bump docker/build-push-action from 5 to 6",
+            "Link": "https://github.com/PRODYNA-YASM/sales-copilot/pull/5"
+          },
           {
             "Title": "fix: Handle `\"location\": null` in organization object",
             "Link": "https://github.com/PRODYNA-YASM/sales-copilot/pull/4"
@@ -1433,5 +1561,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-17T07:32:23Z"
+  "LastUpdated": "2024-06-17T23:33:37Z"
 }
