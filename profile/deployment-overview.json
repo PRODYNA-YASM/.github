@@ -549,7 +549,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d7a0a99",
+          "Version": "42a4186",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -600,19 +600,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump docker/build-push-action from 5 to 6",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/339"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.30.0..HEAD",
-        "Count": 4,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #339 from PRODYNA-YASM/dependabot/github_actions/docker/build-push-action-6",
+            "SHA": "42a4186f046a23b796b5bcbbb486205228433941",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-17T23:37:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/42a4186f046a23b796b5bcbbb486205228433941"
+          },
+          {
+            "Text": "Bump docker/build-push-action from 5 to 6",
+            "SHA": "69f37b356cf313bd5ffc3397447d3746cdfcf018",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-17T21:55:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/69f37b356cf313bd5ffc3397447d3746cdfcf018"
+          },
           {
             "Text": "Merge pull request #337 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.31.0",
             "SHA": "d7a0a990b3623909240504c27444897c00af5b2c",
@@ -808,7 +823,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "63aeba8",
+          "Version": "050b45b",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -865,8 +880,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.5.0..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #99 from PRODYNA-YASM/dependabot/github_actions/docker/build-push-action-6",
+            "SHA": "050b45bc9a2cdaffd3896c6eb9005b3aaff5e3b2",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-17T23:50:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/050b45bc9a2cdaffd3896c6eb9005b3aaff5e3b2"
+          },
+          {
+            "Text": "Bump docker/build-push-action from 5 to 6",
+            "SHA": "24d72f69d08b993972a0672b9c84cac2752de664",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-17T23:43:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/24d72f69d08b993972a0672b9c84cac2752de664"
+          },
           {
             "Text": "Merge pull request #98 from PRODYNA-YASM/97-create-client-span-with-networkpeer-github",
             "SHA": "63aeba82db41d279c7f175d97c8f79abc4fe3014",
@@ -1561,5 +1596,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-17T23:33:37Z"
+  "LastUpdated": "2024-06-17T23:59:00Z"
 }
