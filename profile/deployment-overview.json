@@ -210,6 +210,13 @@
           "Version": "1.32.0",
           "IsRelease": true,
           "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.32.0",
+          "IsRelease": true,
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -257,13 +264,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 6,
+        "Count": 5,
         "Workflows": [
-          {
-            "Name": "Merge pull request #449 from PRODYNA-YASM/feature/api-1.32.0",
-            "Timestamp": "2024-06-18T13:24:06Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9565896494"
-          },
           {
             "Name": "Merge pull request #445 from PRODYNA-YASM/feature/technology-update",
             "Timestamp": "2024-06-13T12:30:50Z",
@@ -299,33 +301,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "42a4186",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.32.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.30.0",
+          "Version": "1.32.0",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.29.1",
+          "Version": "1.32.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.30.0",
+        "Tag": "1.32.0",
         "SHA": "",
-        "Title": "Using API 1.30.0",
-        "Timestamp": "2024-06-13T11:55:46Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.30.0"
+        "Title": "1.32.0Using API 1.32 and some dependencies",
+        "Timestamp": "2024-06-18T15:18:48Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.32.0"
       },
       "Releases": [
+        {
+          "Tag": "1.32.0",
+          "SHA": "",
+          "Title": "1.32.0Using API 1.32 and some dependencies",
+          "Timestamp": "2024-06-18T15:17:33Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.32.0"
+        },
         {
           "Tag": "1.30.0",
           "SHA": "",
@@ -339,13 +348,6 @@
           "Title": "Pipeline now cancels old runs",
           "Timestamp": "2024-06-09T11:17:21Z",
           "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.29.1"
-        },
-        {
-          "Tag": "1.29.0",
-          "SHA": "",
-          "Title": "API 1.29",
-          "Timestamp": "2024-06-07T09:57:51Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.29.0"
         }
       ],
       "PullRequests": {
@@ -355,90 +357,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.30.0..HEAD",
-        "Count": 8,
-        "Commits": [
-          {
-            "Text": "Merge pull request #340 from PRODYNA-YASM/feature/api-1.32.0",
-            "SHA": "07ca511b6e530b938a3b0d362ebd900a9163754b",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-06-18T15:17:33Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/07ca511b6e530b938a3b0d362ebd900a9163754b"
-          },
-          {
-            "Text": "API 1.32",
-            "SHA": "af63771a921dc2a92c56eefbd3008888b4c214e1",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-06-18T13:20:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/af63771a921dc2a92c56eefbd3008888b4c214e1"
-          },
-          {
-            "Text": "Merge pull request #339 from PRODYNA-YASM/dependabot/github_actions/docker/build-push-action-6",
-            "SHA": "42a4186f046a23b796b5bcbbb486205228433941",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-06-17T23:37:53Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/42a4186f046a23b796b5bcbbb486205228433941"
-          },
-          {
-            "Text": "Bump docker/build-push-action from 5 to 6",
-            "SHA": "69f37b356cf313bd5ffc3397447d3746cdfcf018",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-06-17T21:55:56Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/69f37b356cf313bd5ffc3397447d3746cdfcf018"
-          },
-          {
-            "Text": "Merge pull request #337 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.31.0",
-            "SHA": "d7a0a990b3623909240504c27444897c00af5b2c",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-06-14T21:49:56Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/d7a0a990b3623909240504c27444897c00af5b2c"
-          },
-          {
-            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.30.0 to 1.31.0",
-            "SHA": "bf32c073558363b988e76fd87698fe9bcfe04fc1",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-06-14T21:45:29Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/bf32c073558363b988e76fd87698fe9bcfe04fc1"
-          },
-          {
-            "Text": "Merge pull request #338 from PRODYNA-YASM/dependabot/go_modules/github.com/spf13/cobra-1.8.1",
-            "SHA": "d4f53c8c489517f13d3d3f64843fcc7920b51ea0",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-06-14T21:40:56Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/d4f53c8c489517f13d3d3f64843fcc7920b51ea0"
-          },
-          {
-            "Text": "Bump github.com/spf13/cobra from 1.8.0 to 1.8.1",
-            "SHA": "badf6ef3bb61be76951727263c0ca55fdae8df6e",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-06-14T21:36:15Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/badf6ef3bb61be76951727263c0ca55fdae8df6e"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.32.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -471,33 +392,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "56f285e",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.14.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.13.0",
+          "Version": "1.14.0",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.13.0",
+          "Version": "1.14.0",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.13.0",
+        "Tag": "1.14.0",
         "SHA": "",
-        "Title": "Components update, CodeQL activated",
-        "Timestamp": "2024-06-13T08:57:40Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.13.0"
+        "Title": "Component update",
+        "Timestamp": "2024-06-18T15:19:26Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.14.0"
       },
       "Releases": [
+        {
+          "Tag": "1.14.0",
+          "SHA": "",
+          "Title": "Component update",
+          "Timestamp": "2024-06-17T15:39:02Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.14.0"
+        },
         {
           "Tag": "1.13.0",
           "SHA": "",
@@ -511,13 +439,6 @@
           "Title": "Technology update",
           "Timestamp": "2024-06-07T07:26:38Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.12.1"
-        },
-        {
-          "Tag": "1.12.0",
-          "SHA": "",
-          "Title": "Technology update, start date for main projects back to 2023-07-01",
-          "Timestamp": "2024-05-31T14:42:58Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.12.0"
         }
       ],
       "PullRequests": {
@@ -527,50 +448,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.13.0..HEAD",
-        "Count": 4,
-        "Commits": [
-          {
-            "Text": "Merge pull request #201 from PRODYNA-YASM/dependabot/go_modules/github.com/spf13/cobra-1.8.1",
-            "SHA": "56f285ef0b5832e8031d76fbbf2e38212b514ec1",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-06-17T15:39:02Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/56f285ef0b5832e8031d76fbbf2e38212b514ec1"
-          },
-          {
-            "Text": "Merge pull request #202 from PRODYNA-YASM/dependabot/github_actions/docker/build-push-action-6",
-            "SHA": "1ed8abf4e92c4c65703faae0b57d0381d5f239d6",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-06-17T15:37:48Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/1ed8abf4e92c4c65703faae0b57d0381d5f239d6"
-          },
-          {
-            "Text": "Bump docker/build-push-action from 5 to 6",
-            "SHA": "697738c1d2e1246933d422d295d47e3e037595be",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-06-17T13:45:25Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/697738c1d2e1246933d422d295d47e3e037595be"
-          },
-          {
-            "Text": "Bump github.com/spf13/cobra from 1.8.0 to 1.8.1",
-            "SHA": "9fed536bb61fa188385a57a91c8e0ab6e8561bda",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-06-17T13:09:06Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/9fed536bb61fa188385a57a91c8e0ab6e8561bda"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.14.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1460,5 +1340,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-18T15:17:58Z"
+  "LastUpdated": "2024-06-18T15:38:22Z"
 }
