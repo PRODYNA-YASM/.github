@@ -22,9 +22,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.29.0",
+          "Version": "1.32.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -81,14 +81,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "feat: update api 1.32.0 (#654)",
-            "Timestamp": "2024-06-18T12:25:14Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/9564951821"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -112,9 +106,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.29.1",
+          "Version": "1.32.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -195,14 +189,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "feat: update api 1.32.0 (#744)",
-            "Timestamp": "2024-06-18T12:43:58Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/9565234661"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -362,19 +350,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "API 1.32",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/340"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.30.0..HEAD",
-        "Count": 6,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Merge pull request #340 from PRODYNA-YASM/feature/api-1.32.0",
+            "SHA": "07ca511b6e530b938a3b0d362ebd900a9163754b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-18T15:17:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/07ca511b6e530b938a3b0d362ebd900a9163754b"
+          },
+          {
+            "Text": "API 1.32",
+            "SHA": "af63771a921dc2a92c56eefbd3008888b4c214e1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-18T13:20:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/af63771a921dc2a92c56eefbd3008888b4c214e1"
+          },
           {
             "Text": "Merge pull request #339 from PRODYNA-YASM/dependabot/github_actions/docker/build-push-action-6",
             "SHA": "42a4186f046a23b796b5bcbbb486205228433941",
@@ -944,9 +947,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "8.6.0-1",
+          "Version": "8.7.0-2",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -994,13 +997,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #46 from PRODYNA-YASM/dependabot/github_actions/do…",
-            "Timestamp": "2024-06-18T13:23:21Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/9565883428"
-          },
           {
             "Name": "Merge pull request #45 from PRODYNA-YASM/dependabot/docker/gotenberg/…",
             "Timestamp": "2024-06-14T07:12:42Z",
@@ -1462,5 +1460,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-18T13:30:18Z"
+  "LastUpdated": "2024-06-18T15:17:58Z"
 }
