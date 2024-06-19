@@ -146,12 +146,12 @@
         "Count": 8,
         "PullRequests": [
           {
-            "Title": "chore: bump ws from 7.5.9 to 7.5.10",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/745"
+            "Title": "chore: bump @types/node from 20.14.0 to 20.14.5",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/747"
           },
           {
-            "Title": "chore: bump @types/node from 20.14.0 to 20.14.4",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/743"
+            "Title": "chore: bump ws from 7.5.9 to 7.5.10",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/745"
           },
           {
             "Title": "chore: bump docker/build-push-action from 5 to 6",
@@ -595,7 +595,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "fa869d5",
+          "Version": "555b85e",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -652,8 +652,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.9.13..HEAD",
-        "Count": 4,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #122 from PRODYNA-YASM/dependabot/go_modules/github.com/go-chi/chi/v5-5.0.13",
+            "SHA": "555b85ebcc271922eadbc36019ce865908f3d864",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-18T16:46:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/555b85ebcc271922eadbc36019ce865908f3d864"
+          },
+          {
+            "Text": "Bump github.com/go-chi/chi/v5 from 5.0.12 to 5.0.13",
+            "SHA": "cccd4150086ac3e75143d7e0bf2bbfecffa5bb67",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-18T16:13:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/cccd4150086ac3e75143d7e0bf2bbfecffa5bb67"
+          },
           {
             "Text": "Merge pull request #120 from PRODYNA-YASM/dependabot/go_modules/github.com/spf13/cobra-1.8.1",
             "SHA": "fa869d57d8290d8c24764cd2bc2d06348828f497",
@@ -1094,8 +1114,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "chore: bump io.smallrye.reactive:mutiny from 2.6.0 to 2.6.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/206"
+          },
           {
             "Title": "Feature/324-project-images",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/194"
@@ -1340,5 +1364,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-18T15:38:22Z"
+  "LastUpdated": "2024-06-19T07:32:32Z"
 }
