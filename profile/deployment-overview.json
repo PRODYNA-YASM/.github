@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Bump quarkus.platform.version from 3.11.2 to 3.11.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/657"
+          },
           {
             "Title": "Bump docker/build-push-action from 5 to 6",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/651"
@@ -167,8 +171,8 @@
         "Count": 7,
         "PullRequests": [
           {
-            "Title": "chore: bump @types/node from 20.14.0 to 20.14.5",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/747"
+            "Title": "chore: bump @types/node from 20.14.0 to 20.14.6",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/752"
           },
           {
             "Title": "chore: bump ws from 7.5.9 to 7.5.10",
@@ -1003,7 +1007,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "94b2a02",
+          "Version": "bfa3f45",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1065,8 +1069,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.30.0..HEAD",
-        "Count": 9,
+        "Count": 13,
         "Commits": [
+          {
+            "Text": "Merge pull request #547 from PRODYNA-YASM/545-opentelemetry-collector-0933",
+            "SHA": "bfa3f457b06c4b6dd6ec8b2dd7bed5a512ef309f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-20T07:06:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/bfa3f457b06c4b6dd6ec8b2dd7bed5a512ef309f"
+          },
+          {
+            "Text": "Merge pull request #546 from PRODYNA-YASM/542-grafana-802",
+            "SHA": "ac0523532e83a60031303a30c9f979ff9b5dbdec",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-20T06:59:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ac0523532e83a60031303a30c9f979ff9b5dbdec"
+          },
+          {
+            "Text": "Grafana 8.0.2",
+            "SHA": "1d612e2af99ff838434253702a75ea1551ea298c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-20T06:56:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1d612e2af99ff838434253702a75ea1551ea298c"
+          },
+          {
+            "Text": "Update OpenTelemetry Collector",
+            "SHA": "96149debbdc2ac4f7a2108b1d26e461833f59997",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-20T06:55:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/96149debbdc2ac4f7a2108b1d26e461833f59997"
+          },
           {
             "Text": "Merge pull request #541 from PRODYNA-YASM/539-feat-enable-datadog-temporarily",
             "SHA": "94b2a02c97970612400797f754d463189b07abda",
@@ -1210,7 +1254,7 @@
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/206"
           },
           {
-            "Title": "Feature/324-project-images",
+            "Title": "feat: 324-project-images",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/194"
           }
         ]
@@ -1461,5 +1505,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-19T18:42:34Z"
+  "LastUpdated": "2024-06-20T07:32:14Z"
 }
