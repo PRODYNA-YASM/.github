@@ -646,16 +646,16 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "afa9400",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.10.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.9.13",
+          "Version": "1.10.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -710,8 +710,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "Merge pull request #123 from PRODYNA-YASM/feature/update-components",
+            "Timestamp": "2024-06-21T09:40:41Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/9611605327"
+          },
           {
             "Name": "Merge pull request #112 from PRODYNA-YASM/dependabot/go_modules/go.op…",
             "Timestamp": "2024-05-23T12:14:39Z",
@@ -1454,5 +1459,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-21T09:41:43Z"
+  "LastUpdated": "2024-06-21T09:43:56Z"
 }
