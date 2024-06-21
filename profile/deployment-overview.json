@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2bfe37d",
+          "Version": "6213f83",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -78,8 +78,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.32.0..HEAD",
-        "Count": 2,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "feat(security): admin role to edit industries and skills,  maintainer role to edit organizations (#658)",
+            "SHA": "6213f8323267d5c030fdd4bcb91129d28b274b1f",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-06-20T14:01:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/6213f8323267d5c030fdd4bcb91129d28b274b1f"
+          },
           {
             "Text": "fix: check percent does't not export values over 100 (#656)",
             "SHA": "2bfe37dfa22c6da4162ce9a3ef5f1ee2a7bd26e8",
@@ -171,8 +181,12 @@
         "Count": 7,
         "PullRequests": [
           {
-            "Title": "chore: bump @types/node from 20.14.0 to 20.14.6",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/752"
+            "Title": "chore: bump @opentelemetry/instrumentation from 0.43.0 to 0.52.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/754"
+          },
+          {
+            "Title": "chore: bump @types/node from 20.14.0 to 20.14.7",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/753"
           },
           {
             "Title": "chore: bump ws from 7.5.9 to 7.5.10",
@@ -181,10 +195,6 @@
           {
             "Title": "chore: bump memfs from 3.5.3 to 4.9.3",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/738"
-          },
-          {
-            "Title": "chore: bump @opentelemetry/instrumentation from 0.43.0 to 0.52.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/736"
           },
           {
             "Title": "Feature/#355 copy paste skills",
@@ -272,9 +282,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.32.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "38e65a4",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -329,14 +339,55 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.32.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "Merge pull request #455 from PRODYNA-YASM/dependabot/docker/alpine-3.20.1",
+            "SHA": "38e65a4eb1efaa158bce07dac392cab7c81b31f1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-21T06:37:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/38e65a4eb1efaa158bce07dac392cab7c81b31f1"
+          },
+          {
+            "Text": "Merge pull request #454 from PRODYNA-YASM/dependabot/go_modules/github.com/Azure/azure-sdk-for-go/sdk/azidentity-1.7.0",
+            "SHA": "9ba0afe4156be50c7a586b21c3917abc7b14f8df",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-21T06:36:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/9ba0afe4156be50c7a586b21c3917abc7b14f8df"
+          },
+          {
+            "Text": "Bump alpine from 3.20.0 to 3.20.1",
+            "SHA": "6b99c2314d844b6e391fb2737bf412ae5ef90459",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-21T02:01:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/6b99c2314d844b6e391fb2737bf412ae5ef90459"
+          },
+          {
+            "Text": "Bump github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+            "SHA": "73d33c8a608b2b40df854dbefeae4ef228c6eadc",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-21T01:33:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/73d33c8a608b2b40df854dbefeae4ef228c6eadc"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 5,
+        "Count": 4,
         "Workflows": [
           {
             "Name": "Merge pull request #445 from PRODYNA-YASM/feature/technology-update",
@@ -357,11 +408,6 @@
             "Name": "Merge pull request #426 from PRODYNA-YASM/dependabot/go_modules/go.op…",
             "Timestamp": "2024-05-22T09:56:06Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9189201188"
-          },
-          {
-            "Name": "Merge pull request #421 from PRODYNA-YASM/feature/technolgy-update",
-            "Timestamp": "2024-05-21T15:44:35Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9177468495"
           }
         ]
       }
@@ -437,22 +483,12 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 1,
         "Workflows": [
           {
             "Name": "Merge pull request #336 from PRODYNA-YASM/feature/fix-codeql",
             "Timestamp": "2024-06-13T11:55:47Z",
             "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9499139781"
-          },
-          {
-            "Name": "Merge pull request #324 from PRODYNA-YASM/dependabot/go_modules/go.op…",
-            "Timestamp": "2024-05-21T22:05:09Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9182087461"
-          },
-          {
-            "Name": "Merge pull request #320 from PRODYNA-YASM/feature/technolgy-update",
-            "Timestamp": "2024-05-21T15:43:57Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9177461182"
           }
         ]
       }
@@ -549,14 +585,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #188 from PRODYNA-YASM/feature/technolgy-update",
-            "Timestamp": "2024-05-21T15:44:16Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/9177465100"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -671,14 +701,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #82 from PRODYNA-YASM/81-dummy-issue",
-            "Timestamp": "2024-05-21T10:50:14Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/actions/runs/9173421502"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -688,7 +712,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "555b85e",
+          "Version": "afa9400",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -745,8 +769,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.9.13..HEAD",
-        "Count": 6,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Merge pull request #123 from PRODYNA-YASM/feature/update-components",
+            "SHA": "afa940076ff65eab02c96040ea773fc65dbf2d2a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-20T09:47:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/afa940076ff65eab02c96040ea773fc65dbf2d2a"
+          },
+          {
+            "Text": "Use current components",
+            "SHA": "0b4cdcfc05dc119beb7f71a2093c0f2eeb51c52e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-20T09:44:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/0b4cdcfc05dc119beb7f71a2093c0f2eeb51c52e"
+          },
           {
             "Text": "Merge pull request #122 from PRODYNA-YASM/dependabot/go_modules/github.com/go-chi/chi/v5-5.0.13",
             "SHA": "555b85ebcc271922eadbc36019ce865908f3d864",
@@ -1007,7 +1051,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "bfa3f45",
+          "Version": "ce06eab",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1058,8 +1102,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 1,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Bump azurerm from 3.108.0 to 3.109.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/551"
+          },
+          {
+            "Title": "Bump azurerm from 3.108.0 to 3.109.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/550"
+          },
           {
             "Title": "Bump github from 6.2.1 to 6.2.2 in /terraform/azure",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/538"
@@ -1069,8 +1121,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.30.0..HEAD",
-        "Count": 13,
+        "Count": 17,
         "Commits": [
+          {
+            "Text": "Merge pull request #549 from PRODYNA-YASM/545-opentelemetry-collector-0933",
+            "SHA": "ce06eab1d074333b0b3a7fe1d6267fcb36cc6224",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-20T09:23:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ce06eab1d074333b0b3a7fe1d6267fcb36cc6224"
+          },
+          {
+            "Text": "Fix names of environment variables",
+            "SHA": "61053255af75fa36b89029dd8a22d2b474f37170",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-20T09:17:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/61053255af75fa36b89029dd8a22d2b474f37170"
+          },
+          {
+            "Text": "Merge pull request #548 from PRODYNA-YASM/545-opentelemetry-collector-0933",
+            "SHA": "24d3b0c2311f41140bb8f4efdc92c118d8f164ad",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-20T09:07:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/24d3b0c2311f41140bb8f4efdc92c118d8f164ad"
+          },
+          {
+            "Text": "Use connection string",
+            "SHA": "04a398687be4046ed8c32ab1034b1709208f2c86",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-20T09:03:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/04a398687be4046ed8c32ab1034b1709208f2c86"
+          },
           {
             "Text": "Merge pull request #547 from PRODYNA-YASM/545-opentelemetry-collector-0933",
             "SHA": "bfa3f457b06c4b6dd6ec8b2dd7bed5a512ef309f",
@@ -1247,8 +1339,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "feat: #137 created skillsProfile endpoints and SkillsProfile entity",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/208"
+          },
           {
             "Title": "chore: bump io.smallrye.reactive:mutiny from 2.6.0 to 2.6.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/206"
@@ -1371,16 +1467,16 @@
         "Count": 5,
         "PullRequests": [
           {
+            "Title": "chore(deps-dev): Bump @types/node from 20.14.2 to 20.14.6",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/103"
+          },
+          {
             "Title": "chore(deps): Bump cypress/included from 13.11.0 to 13.12.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/102"
           },
           {
             "Title": "chore(deps-dev): Bump cypress from 13.11.0 to 13.12.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/101"
-          },
-          {
-            "Title": "chore(deps-dev): Bump @types/node from 20.14.2 to 20.14.5",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/100"
           },
           {
             "Title": "chore(deps): Bump jose from 5.4.0 to 5.4.1",
@@ -1505,5 +1601,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-20T07:32:14Z"
+  "LastUpdated": "2024-06-21T07:32:15Z"
 }
