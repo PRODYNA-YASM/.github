@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "6213f83",
+          "Version": "2fa22b1",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -59,12 +59,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 3,
+        "Count": 2,
         "PullRequests": [
-          {
-            "Title": "Bump quarkus.platform.version from 3.11.2 to 3.11.3",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/657"
-          },
           {
             "Title": "Bump docker/build-push-action from 5 to 6",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/651"
@@ -78,8 +74,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.32.0..HEAD",
-        "Count": 3,
+        "Count": 5,
         "Commits": [
+          {
+            "Text": "build(deps): update quarkus (#661)",
+            "SHA": "2fa22b1d627942cc67dddbd4ff2fb1a73bcd9e85",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-06-22T00:33:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/2fa22b1d627942cc67dddbd4ff2fb1a73bcd9e85"
+          },
+          {
+            "Text": "feat(15): audit log (#660)",
+            "SHA": "ac4cdeb554424b1e663891763ca5da2ccf744c17",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-06-22T00:18:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/ac4cdeb554424b1e663891763ca5da2ccf744c17"
+          },
           {
             "Text": "feat(security): admin role to edit industries and skills,  maintainer role to edit organizations (#658)",
             "SHA": "6213f8323267d5c030fdd4bcb91129d28b274b1f",
@@ -127,7 +143,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8435a3c",
+          "Version": "7527d0b",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -213,8 +229,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.32.0..HEAD",
-        "Count": 7,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "feat: add yasm to changelog (#758)",
+            "SHA": "7527d0b809926e8f9b1fb7be3164a4119fd23759",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-21T12:20:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7527d0b809926e8f9b1fb7be3164a4119fd23759"
+          },
           {
             "Text": "feat: Add yasm (metaproject) to changelog (#757)",
             "SHA": "8ddcf9798f5e2ced470150f08af0a82b3849022b",
@@ -740,9 +766,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.10.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "223bc3f",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -797,8 +823,49 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.10.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "Merge pull request #125 from PRODYNA-YASM/dependabot/go_modules/github.com/go-chi/chi/v5-5.0.14",
+            "SHA": "223bc3f6641d7fb80248852f41e9b8b638951374",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-21T18:50:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/223bc3f6641d7fb80248852f41e9b8b638951374"
+          },
+          {
+            "Text": "Bump github.com/go-chi/chi/v5 from 5.0.13 to 5.0.14",
+            "SHA": "497c17ee4f2dc0e741d1785f2eef8016cc0b06eb",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-21T16:55:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/497c17ee4f2dc0e741d1785f2eef8016cc0b06eb"
+          },
+          {
+            "Text": "Merge pull request #124 from PRODYNA-YASM/dependabot/docker/alpine-3.20.1",
+            "SHA": "74b3a8ad843621188fae31a0a0235e555ebcf0eb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-21T16:18:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/74b3a8ad843621188fae31a0a0235e555ebcf0eb"
+          },
+          {
+            "Text": "Bump alpine from 3.20.0 to 3.20.1",
+            "SHA": "12a3fab41cbcb14e937581b6fe218201af160b60",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-21T16:08:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/12a3fab41cbcb14e937581b6fe218201af160b60"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1260,13 +1327,20 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "1.33.0",
+        "Tag": "1.34.0",
         "SHA": "",
-        "Title": "Skill statistic endpoint",
-        "Timestamp": "2024-06-21T09:17:06Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.33.0"
+        "Title": "Audit",
+        "Timestamp": "2024-06-22T00:04:03Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.34.0"
       },
       "Releases": [
+        {
+          "Tag": "1.34.0",
+          "SHA": "",
+          "Title": "Audit",
+          "Timestamp": "2024-06-22T00:02:25Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.34.0"
+        },
         {
           "Tag": "1.33.0",
           "SHA": "",
@@ -1280,13 +1354,6 @@
           "Title": "Removed readOnly property in Participation-\u003eExperiences",
           "Timestamp": "2024-06-18T10:56:24Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.32.0"
-        },
-        {
-          "Tag": "1.31.0",
-          "SHA": "",
-          "Title": "Add search stat endpoints",
-          "Timestamp": "2024-06-14T08:02:45Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.31.0"
         }
       ],
       "PullRequests": {
@@ -1309,7 +1376,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.33.0..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.34.0..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -1416,11 +1483,15 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 5,
+        "Count": 6,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump @types/node from 20.14.2 to 20.14.6",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/103"
+            "Title": "chore(deps-dev): Bump typescript from 5.4.5 to 5.5.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/105"
+          },
+          {
+            "Title": "chore(deps-dev): Bump @types/node from 20.14.2 to 20.14.7",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/104"
           },
           {
             "Title": "chore(deps): Bump cypress/included from 13.11.0 to 13.12.0",
@@ -1553,5 +1624,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-21T12:01:17Z"
+  "LastUpdated": "2024-06-22T07:32:20Z"
 }
