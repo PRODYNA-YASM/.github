@@ -397,7 +397,7 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 4,
+        "Count": 3,
         "Workflows": [
           {
             "Name": "Merge pull request #455 from PRODYNA-YASM/dependabot/docker/alpine-3.…",
@@ -413,11 +413,6 @@
             "Name": "Merge pull request #437 from PRODYNA-YASM/feature/update-components",
             "Timestamp": "2024-06-07T07:51:14Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9413568240"
-          },
-          {
-            "Name": "Merge pull request #427 from PRODYNA-YASM/dependabot/docker/alpine-3.…",
-            "Timestamp": "2024-05-23T12:14:09Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9207758718"
           }
         ]
       }
@@ -871,17 +866,12 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
           {
             "Name": "Merge pull request #123 from PRODYNA-YASM/feature/update-components",
             "Timestamp": "2024-06-21T09:40:41Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/9611605327"
-          },
-          {
-            "Name": "Merge pull request #112 from PRODYNA-YASM/dependabot/go_modules/go.op…",
-            "Timestamp": "2024-05-23T12:14:39Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/9207766232"
           }
         ]
       }
@@ -1624,5 +1614,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-22T07:32:20Z"
+  "LastUpdated": "2024-06-23T07:32:05Z"
 }
