@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Bump org.apache.maven.plugins:maven-dependency-plugin from 3.7.0 to 3.7.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/662"
+          },
           {
             "Title": "Bump docker/build-push-action from 5 to 6",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/651"
@@ -197,12 +201,12 @@
         "Count": 7,
         "PullRequests": [
           {
-            "Title": "chore: bump @opentelemetry/instrumentation from 0.43.0 to 0.52.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/754"
+            "Title": "chore: bump @types/node from 20.14.0 to 20.14.8",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/759"
           },
           {
-            "Title": "chore: bump @types/node from 20.14.0 to 20.14.7",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/753"
+            "Title": "chore: bump @opentelemetry/instrumentation from 0.43.0 to 0.52.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/754"
           },
           {
             "Title": "chore: bump ws from 7.5.9 to 7.5.10",
@@ -328,9 +332,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.33.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "fc8813d",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -390,8 +394,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.33.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #457 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.34.0",
+            "SHA": "fc8813dca30abcfb5afbfcd7dbde2ef2dfd2a2c7",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-24T03:52:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/fc8813dca30abcfb5afbfcd7dbde2ef2dfd2a2c7"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.32.0 to 1.34.0",
+            "SHA": "a1f8580936c213d1b7d71de9864e9816a0e08cf9",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-24T02:00:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/a1f8580936c213d1b7d71de9864e9816a0e08cf9"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1614,5 +1639,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-23T07:32:05Z"
+  "LastUpdated": "2024-06-24T07:32:07Z"
 }

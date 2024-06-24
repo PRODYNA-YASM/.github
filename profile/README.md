@@ -1,12 +1,12 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-06-23T07:32:05Z
+Component Status overview. Last update 2024-06-24T07:32:07Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [5](https://github.com/prodyna-yasm/yasm-backend/compare/1.32.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.32.0 |  :red_square: 2fa22b1 |  :green_square: 1.32.0 |  :green_square: 1.32.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [5](https://github.com/prodyna-yasm/yasm-backend/compare/1.32.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.32.0 |  :red_square: 2fa22b1 |  :green_square: 1.32.0 |  :green_square: 1.32.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [8](https://github.com/prodyna-yasm/yasm-frontend/compare/1.32.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.32.0 |  :red_square: 7527d0b |  :green_square: 1.32.0 |  :green_square: 1.32.0 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.33.0 |  :green_square: 1.33.0 |  :green_square: 1.33.0 |  :red_square: 1.32.1 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.33.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.33.0 |  :red_square: fc8813d |  :green_square: 1.33.0 |  :red_square: 1.32.1 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [10](https://github.com/prodyna-yasm/yasmctl/compare/1.33.0..HEAD) | :green_square: 0 | 1.33.0 |  :red_square: ea0df99 |  :green_square: 1.33.0 |  :red_square: 1.32.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.5.1 |  :green_square: 1.5.1 |  :green_square: 1.5.1 |  :green_square: 1.5.1 | 
@@ -41,7 +41,9 @@ Component Status overview. Last update 2024-06-23T07:32:05Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (2)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (3)
+
+- [Bump org.apache.maven.plugins:maven-dependency-plugin from 3.7.0 to 3.7.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/662)
 
 - [Bump docker/build-push-action from 5 to 6](https://github.com/PRODYNA-YASM/yasm-backend/pull/651)
 
@@ -99,9 +101,9 @@ Component Status overview. Last update 2024-06-23T07:32:05Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
 
-- [chore: bump @opentelemetry/instrumentation from 0.43.0 to 0.52.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/754)
+- [chore: bump @types/node from 20.14.0 to 20.14.8](https://github.com/PRODYNA-YASM/yasm-frontend/pull/759)
 
-- [chore: bump @types/node from 20.14.0 to 20.14.7](https://github.com/PRODYNA-YASM/yasm-frontend/pull/753)
+- [chore: bump @opentelemetry/instrumentation from 0.43.0 to 0.52.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/754)
 
 - [chore: bump ws from 7.5.9 to 7.5.10](https://github.com/PRODYNA-YASM/yasm-frontend/pull/745)
 
@@ -142,6 +144,13 @@ Component Status overview. Last update 2024-06-23T07:32:05Z
 
 
 
+### [Commits on main since 1.33.0](https://github.com/prodyna-yasm/yasm-integration/compare/1.33.0..HEAD) (2)
+
+- [Merge pull request #457 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.34.0](https://github.com/prodyna-yasm/yasm-integration/commit/fc8813dca30abcfb5afbfcd7dbde2ef2dfd2a2c7) by [dkrizic](https://github.com/dkrizic) on 2024-06-24 03:52:32 +0000 UTC
+
+- [Bump github.com/prodyna-yasm/yasm-api-go from 1.32.0 to 1.34.0](https://github.com/prodyna-yasm/yasm-integration/commit/a1f8580936c213d1b7d71de9864e9816a0e08cf9) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-06-24 02:00:12 +0000 UTC
+
+
 
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (1)
@@ -154,9 +163,9 @@ Component Status overview. Last update 2024-06-23T07:32:05Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.33.0 |  1.33.0 |  1.32.1 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Version |  fc8813d |  1.33.0 |  1.32.1 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
