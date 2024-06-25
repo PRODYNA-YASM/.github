@@ -8,14 +8,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2fa22b1",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.34.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.32.0",
+          "Version": "1.34.0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -24,17 +24,24 @@
           "Link": "",
           "Version": "1.32.0",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.32.0",
+        "Tag": "1.34.0",
         "SHA": "",
-        "Title": "Improve entitiy specific search, increase payload size to 3MB and extend search metric",
-        "Timestamp": "2024-06-18T12:25:12Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.32.0"
+        "Title": "Added audit log, added person skill statistic endpoint, add role-check-security in BE to edit entities",
+        "Timestamp": "2024-06-24T14:52:40Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.34.0"
       },
       "Releases": [
+        {
+          "Tag": "1.34.0",
+          "SHA": "",
+          "Title": "Added audit log, added person skill statistic endpoint, add role-check-security in BE to edit entities",
+          "Timestamp": "2024-06-24T11:04:59Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.34.0"
+        },
         {
           "Tag": "1.32.0",
           "SHA": "",
@@ -48,13 +55,6 @@
           "Title": "Bookmarks and active user filter",
           "Timestamp": "2024-06-07T09:33:51Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.29.0"
-        },
-        {
-          "Tag": "1.27.0",
-          "SHA": "",
-          "Title": "Skill importance and extended metrics",
-          "Timestamp": "2024-05-31T12:24:13Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.27.0"
         }
       ],
       "PullRequests": {
@@ -77,67 +77,22 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.32.0..HEAD",
-        "Count": 5,
-        "Commits": [
-          {
-            "Text": "build(deps): update quarkus (#661)",
-            "SHA": "2fa22b1d627942cc67dddbd4ff2fb1a73bcd9e85",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-06-22T00:33:26Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/2fa22b1d627942cc67dddbd4ff2fb1a73bcd9e85"
-          },
-          {
-            "Text": "feat(15): audit log (#660)",
-            "SHA": "ac4cdeb554424b1e663891763ca5da2ccf744c17",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-06-22T00:18:34Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/ac4cdeb554424b1e663891763ca5da2ccf744c17"
-          },
-          {
-            "Text": "feat(security): admin role to edit industries and skills,  maintainer role to edit organizations (#658)",
-            "SHA": "6213f8323267d5c030fdd4bcb91129d28b274b1f",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-06-20T14:01:10Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/6213f8323267d5c030fdd4bcb91129d28b274b1f"
-          },
-          {
-            "Text": "fix: check percent does't not export values over 100 (#656)",
-            "SHA": "2bfe37dfa22c6da4162ce9a3ef5f1ee2a7bd26e8",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-06-19T13:58:00Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/2bfe37dfa22c6da4162ce9a3ef5f1ee2a7bd26e8"
-          },
-          {
-            "Text": "feat: add person skill statistic endpoint (#655)",
-            "SHA": "c1046b6b0855693804acd145d9b076f3b98a8303",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-06-19T08:56:52Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/c1046b6b0855693804acd145d9b076f3b98a8303"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.34.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "fix: allow admins to edit organizations (#663)",
+            "Timestamp": "2024-06-24T14:52:41Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/9647563834"
+          }
+        ]
       }
     },
     {
@@ -147,7 +102,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "7527d0b",
+          "Version": "ac60533",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -233,8 +188,38 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.32.0..HEAD",
-        "Count": 8,
+        "Count": 11,
         "Commits": [
+          {
+            "Text": "feat: employee detail design (#762)",
+            "SHA": "ac60533b5e60ad935f47a50eaee2a03699c4f6db",
+            "Author": {
+              "name": "readmey",
+              "link": "https://github.com/readmey"
+            },
+            "Timestamp": "2024-06-24T14:51:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ac60533b5e60ad935f47a50eaee2a03699c4f6db"
+          },
+          {
+            "Text": "fix: missing name in detail view of Skills, Certifications and Industries (#761)",
+            "SHA": "2eda5e6335ffb3af73606765b5392b477b6d6444",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-06-24T13:04:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2eda5e6335ffb3af73606765b5392b477b6d6444"
+          },
+          {
+            "Text": "refactor: projects (#760)",
+            "SHA": "188d64708e0edf956dbeefbb064330e57b10b894",
+            "Author": {
+              "name": "readmey",
+              "link": "https://github.com/readmey"
+            },
+            "Timestamp": "2024-06-24T13:01:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/188d64708e0edf956dbeefbb064330e57b10b894"
+          },
           {
             "Text": "feat: add yasm to changelog (#758)",
             "SHA": "7527d0b809926e8f9b1fb7be3164a4119fd23759",
@@ -449,7 +434,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "ea0df99",
+          "Version": "ef2ff8c",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -506,8 +491,28 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.33.0..HEAD",
-        "Count": 10,
+        "Count": 12,
         "Commits": [
+          {
+            "Text": "Merge pull request #351 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.34.0",
+            "SHA": "ef2ff8cc154d5e5bab70e129538d42d8434f0929",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-24T21:41:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/ef2ff8cc154d5e5bab70e129538d42d8434f0929"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.33.0 to 1.34.0",
+            "SHA": "437b5920a945442b1848b1942f713dff67d514b6",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-24T21:22:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/437b5920a945442b1848b1942f713dff67d514b6"
+          },
           {
             "Text": "Merge pull request #350 from PRODYNA-YASM/346-dummy-else",
             "SHA": "ea0df991dd583e2a9fac9d7478c8ab9f0e75c6c6",
@@ -636,9 +641,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.15.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "6239c25",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -693,8 +698,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.15.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #207 from PRODYNA-YASM/dependabot/go_modules/github.com/go-chi/chi/v5-5.0.14",
+            "SHA": "6239c25b09b57958c99ccc87d719597287b6e6ce",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-24T17:19:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/6239c25b09b57958c99ccc87d719597287b6e6ce"
+          },
+          {
+            "Text": "Bump github.com/go-chi/chi/v5 from 5.0.13 to 5.0.14",
+            "SHA": "a6a842b9b07f3844c04742dd248073d95e08c056",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-24T13:17:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/a6a842b9b07f3844c04742dd248073d95e08c056"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1501,12 +1527,12 @@
         "Count": 6,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump typescript from 5.4.5 to 5.5.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/105"
+            "Title": "chore(deps-dev): Bump @types/node from 20.14.2 to 20.14.8",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/106"
           },
           {
-            "Title": "chore(deps-dev): Bump @types/node from 20.14.2 to 20.14.7",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/104"
+            "Title": "chore(deps-dev): Bump typescript from 5.4.5 to 5.5.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/105"
           },
           {
             "Title": "chore(deps): Bump cypress/included from 13.11.0 to 13.12.0",
@@ -1639,5 +1665,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-24T07:32:07Z"
+  "LastUpdated": "2024-06-25T07:32:16Z"
 }
