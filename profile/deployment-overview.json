@@ -8,9 +8,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.34.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "eb4fbe7",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -59,8 +59,20 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 4,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "Bump quarkus.platform.version from 3.11.3 to 3.12.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/668"
+          },
+          {
+            "Title": "feat: search for offices in global search and add office score",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/666"
+          },
+          {
+            "Title": "fix: only return offices with at least one assigned person in the global search",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/665"
+          },
           {
             "Title": "feat: show the number of direct and related search results",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/664"
@@ -82,8 +94,19 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.34.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "feat: 15 update audit on relation change (#667)",
+            "SHA": "eb4fbe7212d9a3d4d49bc30880fc490218c6e4e4",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-06-26T17:09:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/eb4fbe7212d9a3d4d49bc30880fc490218c6e4e4"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -157,8 +180,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "feat: search and filter for offices using the global search",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/764"
+          },
           {
             "Title": "chore: bump @types/node from 20.14.0 to 20.14.9",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/763"
@@ -216,7 +243,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "fc8813d",
+          "Version": "d4a3b73",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -278,8 +305,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.33.0..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #458 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.35.0",
+            "SHA": "d4a3b734efee42f56a3ee89c940ff86e35491a04",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-27T04:05:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/d4a3b734efee42f56a3ee89c940ff86e35491a04"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.34.0 to 1.35.0",
+            "SHA": "61c40bc6378d1cef0a242af3b39aac4c15642acd",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-27T01:24:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/61c40bc6378d1cef0a242af3b39aac4c15642acd"
+          },
           {
             "Text": "Merge pull request #457 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.34.0",
             "SHA": "fc8813dca30abcfb5afbfcd7dbde2ef2dfd2a2c7",
@@ -333,7 +380,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "ef2ff8c",
+          "Version": "c0ea582",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -390,8 +437,28 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.33.0..HEAD",
-        "Count": 12,
+        "Count": 14,
         "Commits": [
+          {
+            "Text": "Merge pull request #352 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.35.0",
+            "SHA": "c0ea5827e21cfc76c3302c3fa67133601dced874",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-26T22:03:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/c0ea5827e21cfc76c3302c3fa67133601dced874"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.34.0 to 1.35.0",
+            "SHA": "4954966554ed2727b3bbadabd71fba852d6dc094",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-26T21:19:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/4954966554ed2727b3bbadabd71fba852d6dc094"
+          },
           {
             "Text": "Merge pull request #351 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.34.0",
             "SHA": "ef2ff8cc154d5e5bab70e129538d42d8434f0929",
@@ -1267,13 +1334,20 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "1.34.0",
+        "Tag": "1.35.0",
         "SHA": "",
-        "Title": "Audit",
-        "Timestamp": "2024-06-22T00:04:03Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.34.0"
+        "Title": "Audit to Availability",
+        "Timestamp": "2024-06-26T16:34:25Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.35.0"
       },
       "Releases": [
+        {
+          "Tag": "1.35.0",
+          "SHA": "",
+          "Title": "Audit to Availability",
+          "Timestamp": "2024-06-26T16:32:56Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.35.0"
+        },
         {
           "Tag": "1.34.0",
           "SHA": "",
@@ -1287,19 +1361,16 @@
           "Title": "Skill statistic endpoint",
           "Timestamp": "2024-06-19T08:36:50Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.33.0"
-        },
-        {
-          "Tag": "1.32.0",
-          "SHA": "",
-          "Title": "Removed readOnly property in Participation-\u003eExperiences",
-          "Timestamp": "2024-06-18T10:56:24Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.32.0"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 3,
+        "Count": 4,
         "PullRequests": [
+          {
+            "Title": "feat: add dedicated scores",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/210"
+          },
           {
             "Title": "feat: #137 created skillsProfile endpoints and SkillsProfile entity",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/208"
@@ -1316,7 +1387,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.34.0..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.35.0..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -1426,8 +1497,12 @@
         "Count": 6,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump @types/node from 20.14.2 to 20.14.8",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/106"
+            "Title": "chore(deps): Bump jose from 5.4.0 to 5.5.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/108"
+          },
+          {
+            "Title": "chore(deps-dev): Bump @types/node from 20.14.2 to 20.14.9",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/107"
           },
           {
             "Title": "chore(deps-dev): Bump typescript from 5.4.5 to 5.5.2",
@@ -1440,10 +1515,6 @@
           {
             "Title": "chore(deps-dev): Bump cypress from 13.11.0 to 13.12.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/101"
-          },
-          {
-            "Title": "chore(deps): Bump jose from 5.4.0 to 5.4.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/99"
           },
           {
             "Title": "chore(deps): Bump @azure/msal-node from 2.7.0 to 2.9.2",
@@ -1564,5 +1635,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-26T07:32:33Z"
+  "LastUpdated": "2024-06-27T07:32:21Z"
 }
