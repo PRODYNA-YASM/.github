@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "eb4fbe7",
+          "Version": "deee49c",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -62,6 +62,10 @@
         "Count": 7,
         "PullRequests": [
           {
+            "Title": "fix: delete org skill audit",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/669"
+          },
+          {
             "Title": "Bump quarkus.platform.version from 3.11.3 to 3.12.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/668"
           },
@@ -72,10 +76,6 @@
           {
             "Title": "fix: only return offices with at least one assigned person in the global search",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/665"
-          },
-          {
-            "Title": "feat: show the number of direct and related search results",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/664"
           },
           {
             "Title": "Bump org.apache.maven.plugins:maven-dependency-plugin from 3.7.0 to 3.7.1",
@@ -94,8 +94,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.34.0..HEAD",
-        "Count": 1,
+        "Count": 2,
         "Commits": [
+          {
+            "Text": "feat: show the number of direct and related search results (#664)",
+            "SHA": "deee49c6746fd0b03f8b5aa411ed46f6d195ba2d",
+            "Author": {
+              "name": "mayer-prodyna",
+              "link": "https://github.com/mayer-prodyna"
+            },
+            "Timestamp": "2024-06-27T12:57:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/deee49c6746fd0b03f8b5aa411ed46f6d195ba2d"
+          },
           {
             "Text": "feat: 15 update audit on relation change (#667)",
             "SHA": "eb4fbe7212d9a3d4d49bc30880fc490218c6e4e4",
@@ -112,14 +122,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "fix: allow admins to edit organizations (#663)",
-            "Timestamp": "2024-06-24T14:52:41Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/9647563834"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -180,7 +184,7 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 8,
+        "Count": 7,
         "PullRequests": [
           {
             "Title": "feat: search and filter for offices using the global search",
@@ -203,10 +207,6 @@
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/738"
           },
           {
-            "Title": "Feature/#355 copy paste skills",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/726"
-          },
-          {
             "Title": "Bump rimraf from 4.4.1 to 5.0.7",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/682"
           },
@@ -226,14 +226,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "feat: employee detail design (#762)",
-            "Timestamp": "2024-06-25T08:26:27Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/9659044143"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1128,8 +1122,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 3,
+        "Count": 5,
         "PullRequests": [
+          {
+            "Title": "Bump azurerm from 3.108.0 to 3.110.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/553"
+          },
+          {
+            "Title": "Bump azurerm from 3.108.0 to 3.110.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/552"
+          },
           {
             "Title": "Bump azurerm from 3.108.0 to 3.109.0 in /terraform/kubernetes",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/551"
@@ -1497,8 +1499,8 @@
         "Count": 6,
         "PullRequests": [
           {
-            "Title": "chore(deps): Bump jose from 5.4.0 to 5.5.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/108"
+            "Title": "chore(deps): Bump jose from 5.4.0 to 5.6.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/109"
           },
           {
             "Title": "chore(deps-dev): Bump @types/node from 20.14.2 to 20.14.9",
@@ -1635,5 +1637,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-27T07:32:21Z"
+  "LastUpdated": "2024-06-28T07:32:07Z"
 }
