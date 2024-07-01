@@ -302,13 +302,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "feat: Using API 1.33",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/456"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -1671,5 +1666,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-06-30T07:32:10Z"
+  "LastUpdated": "2024-07-01T07:32:14Z"
 }

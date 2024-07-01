@@ -1,12 +1,12 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-06-30T07:32:10Z
+Component Status overview. Last update 2024-07-01T07:32:14Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [5](https://github.com/prodyna-yasm/yasm-backend/compare/1.34.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.34.0 |  :red_square: e122b45 |  :green_square: 1.34.0 |  :red_square: 1.32.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.34.0 |  :green_square: 1.34.0 |  :green_square: 1.34.0 |  :red_square: 1.32.0 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [4](https://github.com/prodyna-yasm/yasm-integration/compare/1.33.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.33.0 |  :red_square: d4a3b73 |  :green_square: 1.33.0 |  :red_square: 1.32.1 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [4](https://github.com/prodyna-yasm/yasm-integration/compare/1.33.0..HEAD) | :green_square: 0 | 1.33.0 |  :red_square: d4a3b73 |  :green_square: 1.33.0 |  :red_square: 1.32.1 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [14](https://github.com/prodyna-yasm/yasmctl/compare/1.33.0..HEAD) | :green_square: 0 | 1.33.0 |  :red_square: c0ea582 |  :green_square: 1.33.0 |  :red_square: 1.32.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.15.0..HEAD) | :green_square: 0 | 1.15.0 |  :red_square: 6239c25 |  :green_square: 1.15.0 |  :green_square: 1.15.0 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.5.1 |  :green_square: 1.5.1 |  :green_square: 1.5.1 |  :green_square: 1.5.1 | 
@@ -136,11 +136,6 @@ Component Status overview. Last update 2024-06-30T07:32:10Z
 - [Bump github.com/prodyna-yasm/yasm-api-go from 1.32.0 to 1.34.0](https://github.com/prodyna-yasm/yasm-integration/commit/a1f8580936c213d1b7d71de9864e9816a0e08cf9) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-06-24 02:00:12 +0000 UTC
 
 
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (1)
-
-- [feat: Using API 1.33](https://github.com/PRODYNA-YASM/yasm-integration/pull/456)
 
 
 
