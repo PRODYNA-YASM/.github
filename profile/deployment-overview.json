@@ -347,8 +347,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 4,
         "Workflows": [
+          {
+            "Name": "Merge pull request #465 from PRODYNA-YASM/464-api-136",
+            "Timestamp": "2024-07-03T08:18:05Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9774318138"
+          },
           {
             "Name": "Merge pull request #455 from PRODYNA-YASM/dependabot/docker/alpine-3.…",
             "Timestamp": "2024-06-21T09:35:29Z",
@@ -479,9 +484,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.15.0",
+          "Version": "1.16.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -529,14 +534,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #208 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2024-07-03T08:16:52Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/9774300394"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -560,9 +559,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.5.1",
+          "Version": "1.5.2",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -610,14 +609,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #101 from PRODYNA-YASM/dependabot/go_modules/go.op…",
-            "Timestamp": "2024-07-03T08:05:33Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/actions/runs/9774130864"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1550,5 +1543,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-03T08:23:56Z"
+  "LastUpdated": "2024-07-03T09:04:36Z"
 }
