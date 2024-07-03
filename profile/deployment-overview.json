@@ -159,9 +159,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "33ce466",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.34.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
@@ -210,8 +210,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "fix: change search organization logo placeholder label",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/768"
+          },
+          {
+            "Title": "feat: set assignee when creating yasm-ticket type Organization",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/767"
+          },
           {
             "Title": "chore: bump @types/node from 20.14.0 to 20.14.9",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/763"
@@ -620,33 +628,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "c0384fa",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.11.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.10.0",
+          "Version": "1.11.0",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.9.13",
+          "Version": "1.11.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.10.0",
+        "Tag": "1.11.0",
         "SHA": "",
-        "Title": "Component update",
-        "Timestamp": "2024-06-21T09:40:39Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.10.0"
+        "Title": "Component updates",
+        "Timestamp": "2024-07-03T11:20:32Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.11.0"
       },
       "Releases": [
+        {
+          "Tag": "1.11.0",
+          "SHA": "",
+          "Title": "Component updates",
+          "Timestamp": "2024-07-02T17:50:16Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.11.0"
+        },
         {
           "Tag": "1.10.0",
           "SHA": "",
@@ -660,13 +675,6 @@
           "Title": "Component update",
           "Timestamp": "2024-06-05T17:15:09Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.9.13"
-        },
-        {
-          "Tag": "1.9.12",
-          "SHA": "",
-          "Title": "Alpine 3.20",
-          "Timestamp": "2024-05-23T17:16:53Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.9.12"
         }
       ],
       "PullRequests": {
@@ -676,90 +684,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.10.0..HEAD",
-        "Count": 8,
-        "Commits": [
-          {
-            "Text": "Merge pull request #127 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.65.0",
-            "SHA": "c0384fa3601b3085f0f8dba4acbe9d12bbbfbb91",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-07-02T17:50:16Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/c0384fa3601b3085f0f8dba4acbe9d12bbbfbb91"
-          },
-          {
-            "Text": "Bump google.golang.org/grpc from 1.64.0 to 1.65.0",
-            "SHA": "23e7d0dd4966f33353db54448b9866df97005776",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-07-02T16:50:43Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/23e7d0dd4966f33353db54448b9866df97005776"
-          },
-          {
-            "Text": "Merge pull request #126 from PRODYNA-YASM/dependabot/go_modules/github.com/go-chi/chi/v5-5.1.0",
-            "SHA": "b7167de434bdc7bd73bce1344cd4c9327c321b7f",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-06-28T17:20:00Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/b7167de434bdc7bd73bce1344cd4c9327c321b7f"
-          },
-          {
-            "Text": "Bump github.com/go-chi/chi/v5 from 5.0.14 to 5.1.0",
-            "SHA": "77ce4d92f442f3160b79073fdf658298633dc0c8",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-06-28T16:54:38Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/77ce4d92f442f3160b79073fdf658298633dc0c8"
-          },
-          {
-            "Text": "Merge pull request #125 from PRODYNA-YASM/dependabot/go_modules/github.com/go-chi/chi/v5-5.0.14",
-            "SHA": "223bc3f6641d7fb80248852f41e9b8b638951374",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-06-21T18:50:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/223bc3f6641d7fb80248852f41e9b8b638951374"
-          },
-          {
-            "Text": "Bump github.com/go-chi/chi/v5 from 5.0.13 to 5.0.14",
-            "SHA": "497c17ee4f2dc0e741d1785f2eef8016cc0b06eb",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-06-21T16:55:04Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/497c17ee4f2dc0e741d1785f2eef8016cc0b06eb"
-          },
-          {
-            "Text": "Merge pull request #124 from PRODYNA-YASM/dependabot/docker/alpine-3.20.1",
-            "SHA": "74b3a8ad843621188fae31a0a0235e555ebcf0eb",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-06-21T16:18:06Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/74b3a8ad843621188fae31a0a0235e555ebcf0eb"
-          },
-          {
-            "Text": "Bump alpine from 3.20.0 to 3.20.1",
-            "SHA": "12a3fab41cbcb14e937581b6fe218201af160b60",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-06-21T16:08:54Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/12a3fab41cbcb14e937581b6fe218201af160b60"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1543,5 +1470,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-03T09:04:36Z"
+  "LastUpdated": "2024-07-03T11:27:49Z"
 }
