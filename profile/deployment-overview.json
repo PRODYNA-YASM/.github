@@ -462,16 +462,16 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "e5e8641",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.37.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.36.0",
+          "Version": "1.37.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -526,8 +526,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 4,
         "Workflows": [
+          {
+            "Name": "Merge pull request #361 from PRODYNA-YASM/dependabot/go_modules/githu…",
+            "Timestamp": "2024-07-05T11:58:00Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9807916877"
+          },
           {
             "Name": "Merge pull request #359 from PRODYNA-YASM/358-api-136",
             "Timestamp": "2024-07-03T08:19:27Z",
@@ -1476,5 +1481,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-05T11:59:38Z"
+  "LastUpdated": "2024-07-05T12:02:42Z"
 }
