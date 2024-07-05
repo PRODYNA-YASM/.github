@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2bc5df6",
+          "Version": "5bcdde7",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -59,12 +59,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 3,
+        "Count": 2,
         "PullRequests": [
-          {
-            "Title": "Bump quarkus.platform.version from 3.12.0 to 3.12.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/673"
-          },
           {
             "Title": "refactor: change to cypher template for relation updates",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/672"
@@ -78,8 +74,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.34.0..HEAD",
-        "Count": 7,
+        "Count": 9,
         "Commits": [
+          {
+            "Text": "feat: add experience skill group to project details (#675)",
+            "SHA": "5bcdde71458ea87a8eacdae954a9df1329ffd2f8",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-07-05T07:25:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/5bcdde71458ea87a8eacdae954a9df1329ffd2f8"
+          },
+          {
+            "Text": "build(deps): update quarkus 3.12.1 (#674)",
+            "SHA": "b5bcded6cef3f3ed753c5d1a855992d9e24afa48",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-07-04T11:36:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/b5bcded6cef3f3ed753c5d1a855992d9e24afa48"
+          },
           {
             "Text": "feat: search for offices in global search and add office score (#666)",
             "SHA": "2bc5df69a407ddc66db68f1697afe32a0b248b5c",
@@ -167,9 +183,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.34.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "69d4fce",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -218,16 +234,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 8,
+        "Count": 6,
         "PullRequests": [
-          {
-            "Title": "fix: change search organization logo placeholder label",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/768"
-          },
-          {
-            "Title": "feat: set assignee when creating yasm-ticket type Organization",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/767"
-          },
           {
             "Title": "chore: bump @types/node from 20.14.0 to 20.14.9",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/763"
@@ -257,8 +265,38 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.34.0..HEAD",
-        "Count": 3,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "fix: skill sort employee project (#769)",
+            "SHA": "69d4fce192a307d704b19c12f53fc813769e23cd",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-07-04T13:12:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/69d4fce192a307d704b19c12f53fc813769e23cd"
+          },
+          {
+            "Text": "fix: change search organization logo placeholder label (#768)",
+            "SHA": "0b3adde5dfda7ba8b5d716c7e55e104f2763d364",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-07-04T12:33:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/0b3adde5dfda7ba8b5d716c7e55e104f2763d364"
+          },
+          {
+            "Text": "feat: set assignee when creating yasm-ticket type Organization (#767)",
+            "SHA": "fd7a250f1bb5609a7295647f0cebdc07339e6246",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-07-04T12:33:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/fd7a250f1bb5609a7295647f0cebdc07339e6246"
+          },
           {
             "Text": "chore: update api version (#766)",
             "SHA": "33ce466eeb6f6566b55264f14fd447e563043673",
@@ -306,7 +344,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "bd76b2c",
+          "Version": "e649c23",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -356,8 +394,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.36.0..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #467 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.37.0",
+            "SHA": "e649c23fc7da1e3821fc7e266f23d4b9e2b838d3",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-05T05:36:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/e649c23fc7da1e3821fc7e266f23d4b9e2b838d3"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.36.0 to 1.37.0",
+            "SHA": "bdb73a76275b988d60485c0d9a0c6a31a1bff9d4",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-07-05T01:42:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/bdb73a76275b988d60485c0d9a0c6a31a1bff9d4"
+          },
           {
             "Text": "Merge pull request #466 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp-0.53.0",
             "SHA": "bd76b2cc7deab0e81863da52efd2d372702a78d6",
@@ -416,7 +474,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "15262f0",
+          "Version": "e5e8641",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -473,8 +531,28 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.36.0..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #361 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.37.0",
+            "SHA": "e5e8641c5f57347b0818dfeb5922e3364daedcc9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-04T22:30:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/e5e8641c5f57347b0818dfeb5922e3364daedcc9"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.36.0 to 1.37.0",
+            "SHA": "c3e677767145ea1d2f388d83d10f9f01a7f6d16b",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-07-04T21:08:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/c3e677767145ea1d2f388d83d10f9f01a7f6d16b"
+          },
           {
             "Text": "Merge pull request #360 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp-0.53.0",
             "SHA": "15262f0403e7329dd709e3d1ccea2cfd4e67be8c",
@@ -654,13 +732,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump golang from 1.22.4-alpine3.19 to 1.23rc1-alpine3.19",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/109"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
@@ -798,8 +871,8 @@
         "Count": 1,
         "PullRequests": [
           {
-            "Title": "Bump golang from 1.22.4 to 1.23rc1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/134"
+            "Title": "Bump golang from 1.22.4 to 1.22.5",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/135"
           }
         ]
       },
@@ -1140,8 +1213,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 3,
+        "Count": 5,
         "PullRequests": [
+          {
+            "Title": "Bump azurerm from 3.110.0 to 3.111.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/559"
+          },
+          {
+            "Title": "Bump azurerm from 3.110.0 to 3.111.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/558"
+          },
           {
             "Title": "Bump DataDog/datadog from 3.39.0 to 3.40.0 in /terraform/kubernetes",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/557"
@@ -1376,13 +1457,20 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "1.36.0",
+        "Tag": "1.37.0",
         "SHA": "",
-        "Title": "Add dedicated score types",
-        "Timestamp": "2024-07-02T07:15:54Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.36.0"
+        "Title": "Add ExperienceSkill in Projects and replace Experiences with SkillGroups in ProjectParticipation",
+        "Timestamp": "2024-07-04T11:48:06Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.37.0"
       },
       "Releases": [
+        {
+          "Tag": "1.37.0",
+          "SHA": "",
+          "Title": "Add ExperienceSkill in Projects and replace Experiences with SkillGroups in ProjectParticipation",
+          "Timestamp": "2024-07-04T11:46:47Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.37.0"
+        },
         {
           "Tag": "1.36.0",
           "SHA": "",
@@ -1396,13 +1484,6 @@
           "Title": "Audit to Availability",
           "Timestamp": "2024-06-26T16:32:56Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.35.0"
-        },
-        {
-          "Tag": "1.34.0",
-          "SHA": "",
-          "Title": "Audit",
-          "Timestamp": "2024-06-22T00:02:25Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.34.0"
         }
       ],
       "PullRequests": {
@@ -1429,7 +1510,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.36.0..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.37.0..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -1677,5 +1758,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-04T07:32:21Z"
+  "LastUpdated": "2024-07-05T07:32:24Z"
 }
