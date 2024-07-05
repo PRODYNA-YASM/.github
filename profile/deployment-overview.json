@@ -8,14 +8,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "5bcdde7",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.37.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.34.0",
+          "Version": "1.37.0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -28,13 +28,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "1.34.0",
+        "Tag": "1.37.0",
         "SHA": "",
-        "Title": "Added audit log, added person skill statistic endpoint, add role-check-security in BE to edit entities",
-        "Timestamp": "2024-06-24T14:52:40Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.34.0"
+        "Title": "Show the number of direct and related search results, Search for offices in global search, Update audit relation and refactor Experience to SkillGroups in ProjectParticipation",
+        "Timestamp": "2024-07-05T12:11:40Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.37.0"
       },
       "Releases": [
+        {
+          "Tag": "1.37.0",
+          "SHA": "",
+          "Title": "Show the number of direct and related search results, Search for offices in global search, Update audit relation and refactor Experience to SkillGroups in ProjectParticipation",
+          "Timestamp": "2024-07-05T07:25:49Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.37.0"
+        },
         {
           "Tag": "1.34.0",
           "SHA": "",
@@ -48,13 +55,6 @@
           "Title": "Improve entitiy specific search, increase payload size to 3MB and extend search metric",
           "Timestamp": "2024-06-18T12:16:59Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.32.0"
-        },
-        {
-          "Tag": "1.29.0",
-          "SHA": "",
-          "Title": "Bookmarks and active user filter",
-          "Timestamp": "2024-06-07T09:33:51Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.29.0"
         }
       ],
       "PullRequests": {
@@ -73,107 +73,22 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.34.0..HEAD",
-        "Count": 9,
-        "Commits": [
-          {
-            "Text": "feat: add experience skill group to project details (#675)",
-            "SHA": "5bcdde71458ea87a8eacdae954a9df1329ffd2f8",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-07-05T07:25:49Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/5bcdde71458ea87a8eacdae954a9df1329ffd2f8"
-          },
-          {
-            "Text": "build(deps): update quarkus 3.12.1 (#674)",
-            "SHA": "b5bcded6cef3f3ed753c5d1a855992d9e24afa48",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-07-04T11:36:51Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/b5bcded6cef3f3ed753c5d1a855992d9e24afa48"
-          },
-          {
-            "Text": "feat: search for offices in global search and add office score (#666)",
-            "SHA": "2bc5df69a407ddc66db68f1697afe32a0b248b5c",
-            "Author": {
-              "name": "saemik94",
-              "link": "https://github.com/saemik94"
-            },
-            "Timestamp": "2024-07-02T07:44:07Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/2bc5df69a407ddc66db68f1697afe32a0b248b5c"
-          },
-          {
-            "Text": "fix: only return offices with at least one assigned person in the global search (#665)",
-            "SHA": "51e83d7dcf5a0aff3adc904afeef6d53506d660b",
-            "Author": {
-              "name": "saemik94",
-              "link": "https://github.com/saemik94"
-            },
-            "Timestamp": "2024-07-02T06:35:10Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/51e83d7dcf5a0aff3adc904afeef6d53506d660b"
-          },
-          {
-            "Text": "fix: delete org skill audit (#669)",
-            "SHA": "e122b45a173838b19e4b73a2d8a7006c06178fed",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-06-28T14:08:50Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/e122b45a173838b19e4b73a2d8a7006c06178fed"
-          },
-          {
-            "Text": "build(deps): pipeline update build-push-action (#671)",
-            "SHA": "4cd53fb518dae4ee2c97e05ec4698c91d1100dd9",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-06-28T10:53:52Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/4cd53fb518dae4ee2c97e05ec4698c91d1100dd9"
-          },
-          {
-            "Text": "build(deps): update quarkus (#670)",
-            "SHA": "ea01cea261c24e032f6587eb1a8a0ee7671faff3",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-06-28T10:09:22Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/ea01cea261c24e032f6587eb1a8a0ee7671faff3"
-          },
-          {
-            "Text": "feat: show the number of direct and related search results (#664)",
-            "SHA": "deee49c6746fd0b03f8b5aa411ed46f6d195ba2d",
-            "Author": {
-              "name": "mayer-prodyna",
-              "link": "https://github.com/mayer-prodyna"
-            },
-            "Timestamp": "2024-06-27T12:57:52Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/deee49c6746fd0b03f8b5aa411ed46f6d195ba2d"
-          },
-          {
-            "Text": "feat: 15 update audit on relation change (#667)",
-            "SHA": "eb4fbe7212d9a3d4d49bc30880fc490218c6e4e4",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-06-26T17:09:12Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/eb4fbe7212d9a3d4d49bc30880fc490218c6e4e4"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.37.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "feat: add experience skill group to project details (#675)",
+            "Timestamp": "2024-07-05T12:11:41Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/9808092275"
+          }
+        ]
       }
     },
     {
@@ -183,33 +98,33 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2fcf5db",
-          "IsRelease": false,
-          "IsCurrent": false
-        },
-        {
-          "Name": "staging",
-          "Link": "",
-          "Version": "1.34.0",
+          "Version": "1.37.0",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
-          "Name": "prod",
+          "Name": "staging",
           "Link": "",
-          "Version": "1.32.0",
+          "Version": "1.37.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.34.0",
+        "Tag": "1.37.0",
         "SHA": "",
-        "Title": "Improvements in yasm-test pipeline, refactor Projects-Detail-View, improved Employee-Detail-View.",
-        "Timestamp": "2024-06-25T08:26:25Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.34.0"
+        "Title": "Search and filter office from main SearchBar, Reworked Project-Participation View, Add sorting to Interests, Industries and Certifications and Show number of direct and related search results",
+        "Timestamp": "2024-07-05T13:08:07Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.37.0"
       },
       "Releases": [
+        {
+          "Tag": "1.37.0",
+          "SHA": "",
+          "Title": "Search and filter office from main SearchBar, Reworked Project-Participation View, Add sorting to Interests, Industries and Certifications and Show number of direct and related search results",
+          "Timestamp": "2024-07-05T13:00:47Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.37.0"
+        },
         {
           "Tag": "1.34.0",
           "SHA": "",
@@ -223,23 +138,12 @@
           "Title": "Sort Skills alphabetically in PdfExport, fixed skill administration bugs,  Update Employee and Organization card design, fixed user cannot delete project",
           "Timestamp": "2024-06-18T12:38:19Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.32.0"
-        },
-        {
-          "Tag": "1.29.1",
-          "SHA": "",
-          "Title": "Synchronize Select of Skills\u0026Methodologies, Update Project after edit (without refresh) and fixed deleting organization",
-          "Timestamp": "2024-06-07T14:53:18Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.29.1"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 6,
         "PullRequests": [
-          {
-            "Title": "feat: show the number of direct and related search results",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/770"
-          },
           {
             "Title": "chore: bump @types/node from 20.14.0 to 20.14.9",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/763"
@@ -268,97 +172,22 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.34.0..HEAD",
-        "Count": 8,
-        "Commits": [
-          {
-            "Text": "fix: only display new versions on the landing page (#772)",
-            "SHA": "2fcf5db7c917dbcc676326257d893ad2bd2a6082",
-            "Author": {
-              "name": "mayer-prodyna",
-              "link": "https://github.com/mayer-prodyna"
-            },
-            "Timestamp": "2024-07-05T11:55:22Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2fcf5db7c917dbcc676326257d893ad2bd2a6082"
-          },
-          {
-            "Text": "feat: update participation detail pages (#771)",
-            "SHA": "49fd691cebea15a069a7e59bec791b56ea53fde1",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-07-05T09:56:16Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/49fd691cebea15a069a7e59bec791b56ea53fde1"
-          },
-          {
-            "Text": "fix: skill sort employee project (#769)",
-            "SHA": "69d4fce192a307d704b19c12f53fc813769e23cd",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-07-04T13:12:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/69d4fce192a307d704b19c12f53fc813769e23cd"
-          },
-          {
-            "Text": "fix: change search organization logo placeholder label (#768)",
-            "SHA": "0b3adde5dfda7ba8b5d716c7e55e104f2763d364",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-07-04T12:33:37Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/0b3adde5dfda7ba8b5d716c7e55e104f2763d364"
-          },
-          {
-            "Text": "feat: set assignee when creating yasm-ticket type Organization (#767)",
-            "SHA": "fd7a250f1bb5609a7295647f0cebdc07339e6246",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-07-04T12:33:16Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/fd7a250f1bb5609a7295647f0cebdc07339e6246"
-          },
-          {
-            "Text": "chore: update api version (#766)",
-            "SHA": "33ce466eeb6f6566b55264f14fd447e563043673",
-            "Author": {
-              "name": "saemik94",
-              "link": "https://github.com/saemik94"
-            },
-            "Timestamp": "2024-07-02T07:33:27Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/33ce466eeb6f6566b55264f14fd447e563043673"
-          },
-          {
-            "Text": "feat: project participation (#765)",
-            "SHA": "39ee8689564f5db9a7fbaa3e83b1c4536ccb00be",
-            "Author": {
-              "name": "readmey",
-              "link": "https://github.com/readmey"
-            },
-            "Timestamp": "2024-07-02T07:21:42Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/39ee8689564f5db9a7fbaa3e83b1c4536ccb00be"
-          },
-          {
-            "Text": "feat: search and filter for offices using the global search (#764)",
-            "SHA": "d1e511f2efe0a42b0008519b334523971a3460df",
-            "Author": {
-              "name": "saemik94",
-              "link": "https://github.com/saemik94"
-            },
-            "Timestamp": "2024-07-02T07:00:14Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d1e511f2efe0a42b0008519b334523971a3460df"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.37.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "feat: add release.yml (#774)",
+            "Timestamp": "2024-07-05T13:08:08Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/9808831739"
+          }
+        ]
       }
     },
     {
@@ -1481,5 +1310,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-05T12:02:42Z"
+  "LastUpdated": "2024-07-05T13:36:02Z"
 }

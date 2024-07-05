@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-07-05T12:02:42Z
+Component Status overview. Last update 2024-07-05T13:36:02Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [9](https://github.com/prodyna-yasm/yasm-backend/compare/1.34.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.34.0 |  :red_square: 5bcdde7 |  :green_square: 1.34.0 |  :red_square: 1.32.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [8](https://github.com/prodyna-yasm/yasm-frontend/compare/1.34.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.34.0 |  :red_square: 2fcf5db |  :green_square: 1.34.0 |  :red_square: 1.32.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :red_square: 1.32.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :red_square: 1.32.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.16.0 |  :green_square: 1.16.0 |  :green_square: 1.16.0 |  :green_square: 1.16.0 | 
@@ -21,30 +21,9 @@ Component Status overview. Last update 2024-07-05T12:02:42Z
 
 
 
-## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.34.0
+## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.37.0
 
 
-
-
-### [Commits on main since 1.34.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.34.0..HEAD) (9)
-
-- [feat: add experience skill group to project details (#675)](https://github.com/prodyna-yasm/yasm-backend/commit/5bcdde71458ea87a8eacdae954a9df1329ffd2f8) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-07-05 07:25:49 +0000 UTC
-
-- [build(deps): update quarkus 3.12.1 (#674)](https://github.com/prodyna-yasm/yasm-backend/commit/b5bcded6cef3f3ed753c5d1a855992d9e24afa48) by [coding4kay](https://github.com/coding4kay) on 2024-07-04 11:36:51 +0000 UTC
-
-- [feat: search for offices in global search and add office score (#666)](https://github.com/prodyna-yasm/yasm-backend/commit/2bc5df69a407ddc66db68f1697afe32a0b248b5c) by [saemik94](https://github.com/saemik94) on 2024-07-02 07:44:07 +0000 UTC
-
-- [fix: only return offices with at least one assigned person in the global search (#665)](https://github.com/prodyna-yasm/yasm-backend/commit/51e83d7dcf5a0aff3adc904afeef6d53506d660b) by [saemik94](https://github.com/saemik94) on 2024-07-02 06:35:10 +0000 UTC
-
-- [fix: delete org skill audit (#669)](https://github.com/prodyna-yasm/yasm-backend/commit/e122b45a173838b19e4b73a2d8a7006c06178fed) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-06-28 14:08:50 +0000 UTC
-
-- [build(deps): pipeline update build-push-action (#671)](https://github.com/prodyna-yasm/yasm-backend/commit/4cd53fb518dae4ee2c97e05ec4698c91d1100dd9) by [coding4kay](https://github.com/coding4kay) on 2024-06-28 10:53:52 +0000 UTC
-
-- [build(deps): update quarkus (#670)](https://github.com/prodyna-yasm/yasm-backend/commit/ea01cea261c24e032f6587eb1a8a0ee7671faff3) by [coding4kay](https://github.com/coding4kay) on 2024-06-28 10:09:22 +0000 UTC
-
-- [feat: show the number of direct and related search results (#664)](https://github.com/prodyna-yasm/yasm-backend/commit/deee49c6746fd0b03f8b5aa411ed46f6d195ba2d) by [mayer-prodyna](https://github.com/mayer-prodyna) on 2024-06-27 12:57:52 +0000 UTC
-
-- [feat: 15 update audit on relation change (#667)](https://github.com/prodyna-yasm/yasm-backend/commit/eb4fbe7212d9a3d4d49bc30880fc490218c6e4e4) by [coding4kay](https://github.com/coding4kay) on 2024-06-26 17:09:12 +0000 UTC
 
 
 
@@ -61,53 +40,37 @@ Component Status overview. Last update 2024-07-05T12:02:42Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  5bcdde7 |  1.34.0 |  1.32.0 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :red_square: | 
+| Version |  1.37.0 |  1.37.0 |  1.32.0 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
+
+- [Show the number of direct and related search results, Search for offices in global search, Update audit relation and refactor Experience to SkillGroups in ProjectParticipation](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.37.0) on 2024-07-05 07:25:49 +0000 UTC
 
 - [Added audit log, added person skill statistic endpoint, add role-check-security in BE to edit entities](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.34.0) on 2024-06-24 11:04:59 +0000 UTC
 
 - [Improve entitiy specific search, increase payload size to 3MB and extend search metric](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.32.0) on 2024-06-18 12:16:59 +0000 UTC
 
-- [Bookmarks and active user filter](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.29.0) on 2024-06-07 09:33:51 +0000 UTC
+
+
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting) (1)
+
+- [feat: add experience skill group to project details (#675)](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/9808092275) created on 2024-07-05 12:11:41 +0000 UTC
+
+
+
+
+## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.37.0
 
 
 
 
 
 
-## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.34.0
-
-
-
-
-### [Commits on main since 1.34.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.34.0..HEAD) (8)
-
-- [fix: only display new versions on the landing page (#772)](https://github.com/prodyna-yasm/yasm-frontend/commit/2fcf5db7c917dbcc676326257d893ad2bd2a6082) by [mayer-prodyna](https://github.com/mayer-prodyna) on 2024-07-05 11:55:22 +0000 UTC
-
-- [feat: update participation detail pages (#771)](https://github.com/prodyna-yasm/yasm-frontend/commit/49fd691cebea15a069a7e59bec791b56ea53fde1) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-07-05 09:56:16 +0000 UTC
-
-- [fix: skill sort employee project (#769)](https://github.com/prodyna-yasm/yasm-frontend/commit/69d4fce192a307d704b19c12f53fc813769e23cd) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-07-04 13:12:19 +0000 UTC
-
-- [fix: change search organization logo placeholder label (#768)](https://github.com/prodyna-yasm/yasm-frontend/commit/0b3adde5dfda7ba8b5d716c7e55e104f2763d364) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-07-04 12:33:37 +0000 UTC
-
-- [feat: set assignee when creating yasm-ticket type Organization (#767)](https://github.com/prodyna-yasm/yasm-frontend/commit/fd7a250f1bb5609a7295647f0cebdc07339e6246) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-07-04 12:33:16 +0000 UTC
-
-- [chore: update api version (#766)](https://github.com/prodyna-yasm/yasm-frontend/commit/33ce466eeb6f6566b55264f14fd447e563043673) by [saemik94](https://github.com/saemik94) on 2024-07-02 07:33:27 +0000 UTC
-
-- [feat: project participation (#765)](https://github.com/prodyna-yasm/yasm-frontend/commit/39ee8689564f5db9a7fbaa3e83b1c4536ccb00be) by [readmey](https://github.com/readmey) on 2024-07-02 07:21:42 +0000 UTC
-
-- [feat: search and filter for offices using the global search (#764)](https://github.com/prodyna-yasm/yasm-frontend/commit/d1e511f2efe0a42b0008519b334523971a3460df) by [saemik94](https://github.com/saemik94) on 2024-07-02 07:00:14 +0000 UTC
-
-
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
-
-- [feat: show the number of direct and related search results](https://github.com/PRODYNA-YASM/yasm-frontend/pull/770)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
 
 - [chore: bump @types/node from 20.14.0 to 20.14.9](https://github.com/PRODYNA-YASM/yasm-frontend/pull/763)
 
@@ -125,22 +88,27 @@ Component Status overview. Last update 2024-07-05T12:02:42Z
 
 ### Environments
 
-| Environment |  dev |  staging |  prod | 
-| --- |  --- |  --- |  --- | 
-| Version |  2fcf5db |  1.34.0 |  1.32.0 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :red_square: | 
+| Environment |  dev |  staging | 
+| --- |  --- |  --- | 
+| Version |  1.37.0 |  1.37.0 | 
+| Release |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: | 
 
 
 ### Last releases
+
+- [Search and filter office from main SearchBar, Reworked Project-Participation View, Add sorting to Interests, Industries and Certifications and Show number of direct and related search results](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.37.0) on 2024-07-05 13:00:47 +0000 UTC
 
 - [Improvements in yasm-test pipeline, refactor Projects-Detail-View, improved Employee-Detail-View.](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.34.0) on 2024-06-24 14:51:13 +0000 UTC
 
 - [Sort Skills alphabetically in PdfExport, fixed skill administration bugs,  Update Employee and Organization card design, fixed user cannot delete project](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.32.0) on 2024-06-18 12:38:19 +0000 UTC
 
-- [Synchronize Select of Skills&Methodologies, Update Project after edit (without refresh) and fixed deleting organization](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.29.1) on 2024-06-07 14:53:18 +0000 UTC
 
 
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
+
+- [feat: add release.yml (#774)](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/9808831739) created on 2024-07-05 13:08:08 +0000 UTC
 
 
 
