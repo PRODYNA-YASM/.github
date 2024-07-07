@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-07-06T07:32:14Z
+Component Status overview. Last update 2024-07-07T07:32:09Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -10,7 +10,7 @@ Component Status overview. Last update 2024-07-06T07:32:14Z
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :red_square: 1.32.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.16.0 |  :green_square: 1.16.0 |  :green_square: 1.16.0 |  :green_square: 1.16.0 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [6](https://github.com/prodyna-yasm/yasm-github/compare/1.5.2..HEAD) | :green_square: 0 | 1.5.2 |  :red_square: b43ab5f |  :green_square: 1.5.2 |  :green_square: 1.5.2 | 
-| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [6](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-geocoding/pulls) | 1.11.0 |  :red_square: 5ac2457 |  :green_square: 1.11.0 |  :green_square: 1.11.0 | 
+| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [9](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.0..HEAD) | :green_square: 0 | 1.11.0 |  :red_square: c60c948 |  :green_square: 1.11.0 |  :green_square: 1.11.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [2](https://github.com/prodyna-yasm/yasm-data/compare/1.26.0..HEAD) | :green_square: 0 | 1.26.0 |  :red_square: a59d951 |  :green_square: 1.26.0 |  :green_square: 1.26.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.8.0-1 |  :green_square: 8.8.0-1 |  :green_square: 8.8.0-1 |  :red_square: 8.7.0-2 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
@@ -279,7 +279,13 @@ Component Status overview. Last update 2024-07-06T07:32:14Z
 
 
 
-### [Commits on main since 1.11.0](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.0..HEAD) (6)
+### [Commits on main since 1.11.0](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.0..HEAD) (9)
+
+- [Merge pull request #135 from PRODYNA-YASM/dependabot/docker/golang-1.22.5](https://github.com/prodyna-yasm/yasm-geocoding/commit/c60c948ceab0316d392042ec0303a8f2e23e3b80) by [dkrizic](https://github.com/dkrizic) on 2024-07-06 23:20:00 +0000 UTC
+
+- [Set go.mod with correct version](https://github.com/prodyna-yasm/yasm-geocoding/commit/607aae75dbb9c0995fa6c8fb65039e9bec48993e) by [dkrizic](https://github.com/dkrizic) on 2024-07-05 12:00:49 +0000 UTC
+
+- [Bump golang from 1.22.4 to 1.22.5](https://github.com/prodyna-yasm/yasm-geocoding/commit/b23475e64a85f105af21cd9e1f78082db73aa4c7) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-07-04 16:16:20 +0000 UTC
 
 - [Merge pull request #133 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc-1.28.0](https://github.com/prodyna-yasm/yasm-geocoding/commit/5ac24575139e65a219eebca446fc175dda36c450) by [dkrizic](https://github.com/dkrizic) on 2024-07-03 16:28:06 +0000 UTC
 
@@ -296,17 +302,12 @@ Component Status overview. Last update 2024-07-06T07:32:14Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-geocoding/pulls) (1)
-
-- [Bump golang from 1.22.4 to 1.22.5](https://github.com/PRODYNA-YASM/yasm-geocoding/pull/135)
-
-
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  5ac2457 |  1.11.0 |  1.11.0 | 
+| Version |  c60c948 |  1.11.0 |  1.11.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
