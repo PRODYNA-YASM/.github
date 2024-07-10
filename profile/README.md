@@ -1,12 +1,12 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-07-09T07:32:25Z
+Component Status overview. Last update 2024-07-10T07:32:15Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :red_square: 1.32.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.37.0..HEAD) | :green_square: 0 | 1.37.0 |  :red_square: 0155447 |  :green_square: 1.37.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :red_square: 1.32.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.37.0..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.37.0 |  :red_square: 713e13a |  :green_square: 1.37.0 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [3](https://github.com/prodyna-yasm/yasm-integration/compare/1.37.0..HEAD) | :green_square: 0 | 1.37.0 |  :red_square: d6ef464 |  :green_square: 1.37.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :red_square: 1.32.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [8](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.16.0..HEAD) | :green_square: 0 | 1.16.0 |  :red_square: 3d6720b |  :green_square: 1.16.0 |  :green_square: 1.16.0 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [6](https://github.com/prodyna-yasm/yasm-github/compare/1.5.2..HEAD) | :green_square: 0 | 1.5.2 |  :red_square: b43ab5f |  :green_square: 1.5.2 |  :green_square: 1.5.2 | 
@@ -28,7 +28,9 @@ Component Status overview. Last update 2024-07-09T07:32:25Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (2)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (3)
+
+- [fix: user cant delete project participation](https://github.com/PRODYNA-YASM/yasm-backend/pull/677)
 
 - [refactor: change to cypher template for relation updates](https://github.com/PRODYNA-YASM/yasm-backend/pull/672)
 
@@ -56,11 +58,6 @@ Component Status overview. Last update 2024-07-09T07:32:25Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting) (1)
-
-- [feat: add experience skill group to project details (#675)](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/9808092275) created on 2024-07-05 12:11:41 +0000 UTC
-
-
 
 
 ## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.37.0
@@ -68,17 +65,22 @@ Component Status overview. Last update 2024-07-09T07:32:25Z
 
 
 
+### [Commits on main since 1.37.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.37.0..HEAD) (1)
+
+- [Update release.yml (#775)](https://github.com/prodyna-yasm/yasm-frontend/commit/713e13ac36640daff985c47c677d3f9d2236f405) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-07-09 15:58:54 +0000 UTC
+
+
 
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (8)
+
+- [fix: cant remove employee from project, cant edit project description](https://github.com/PRODYNA-YASM/yasm-frontend/pull/781)
 
 - [chore: bump rimraf from 4.4.1 to 6.0.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/779)
 
 - [chore: bump prodyna/changelog-json from 1.4 to 1.5](https://github.com/PRODYNA-YASM/yasm-frontend/pull/778)
 
 - [chore: bump @types/node from 20.14.0 to 20.14.10](https://github.com/PRODYNA-YASM/yasm-frontend/pull/776)
-
-- [fix: update release.yml](https://github.com/PRODYNA-YASM/yasm-frontend/pull/775)
 
 - [chore: bump @opentelemetry/instrumentation from 0.43.0 to 0.52.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/754)
 
@@ -94,9 +96,9 @@ Component Status overview. Last update 2024-07-09T07:32:25Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  1.37.0 |  1.37.0 | 
-| Release |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: | 
+| Version |  713e13a |  1.37.0 | 
+| Release |  :red_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: | 
 
 
 ### Last releases
@@ -110,11 +112,6 @@ Component Status overview. Last update 2024-07-09T07:32:25Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
-
-- [feat: add release.yml (#774)](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/9808831739) created on 2024-07-05 13:08:08 +0000 UTC
-
-
 
 
 ## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.37.0
@@ -122,7 +119,9 @@ Component Status overview. Last update 2024-07-09T07:32:25Z
 
 
 
-### [Commits on main since 1.37.0](https://github.com/prodyna-yasm/yasm-integration/compare/1.37.0..HEAD) (2)
+### [Commits on main since 1.37.0](https://github.com/prodyna-yasm/yasm-integration/compare/1.37.0..HEAD) (3)
+
+- [Revert "Merge pull request #468 from PRODYNA-YASM/feature/maconomy-integration"](https://github.com/prodyna-yasm/yasm-integration/commit/d6ef464ca5c9c52bfad57344826da423cdfdee2f) by [mgajic](https://github.com/mgajic) on 2024-07-09 09:28:16 +0000 UTC
 
 - [Merge pull request #468 from PRODYNA-YASM/feature/maconomy-integration](https://github.com/prodyna-yasm/yasm-integration/commit/01554476c8d60b34a7c57ef55a12a61140b16c61) by [mgajic](https://github.com/mgajic) on 2024-07-08 12:53:03 +0000 UTC
 
@@ -136,7 +135,7 @@ Component Status overview. Last update 2024-07-09T07:32:25Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  0155447 |  1.37.0 | 
+| Version |  d6ef464 |  1.37.0 | 
 | Release |  :red_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: | 
 
