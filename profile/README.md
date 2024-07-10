@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-07-10T07:32:15Z
+Component Status overview. Last update 2024-07-10T13:55:54Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :red_square: 1.32.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.37.0..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.37.0 |  :red_square: 713e13a |  :green_square: 1.37.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.37.1 |  :green_square: 1.37.1 |  :green_square: 1.37.1 |  :red_square: 1.32.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.37.1 |  :green_square: 1.37.1 |  :green_square: 1.37.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [3](https://github.com/prodyna-yasm/yasm-integration/compare/1.37.0..HEAD) | :green_square: 0 | 1.37.0 |  :red_square: d6ef464 |  :green_square: 1.37.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :red_square: 1.32.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [8](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.16.0..HEAD) | :green_square: 0 | 1.16.0 |  :red_square: 3d6720b |  :green_square: 1.16.0 |  :green_square: 1.16.0 | 
@@ -21,16 +21,14 @@ Component Status overview. Last update 2024-07-10T07:32:15Z
 
 
 
-## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.37.0
+## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.37.1
 
 
 
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (3)
-
-- [fix: user cant delete project participation](https://github.com/PRODYNA-YASM/yasm-backend/pull/677)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (2)
 
 - [refactor: change to cypher template for relation updates](https://github.com/PRODYNA-YASM/yasm-backend/pull/672)
 
@@ -42,39 +40,37 @@ Component Status overview. Last update 2024-07-10T07:32:15Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.37.0 |  1.37.0 |  1.32.0 | 
+| Version |  1.37.1 |  1.37.1 |  1.32.0 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
 | Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
 
+- [Fix sort all scores descending, fix user cant delete project participation](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.37.1) on 2024-07-10 11:04:15 +0000 UTC
+
 - [Show the number of direct and related search results, Search for offices in global search, Update audit relation and refactor Experience to SkillGroups in ProjectParticipation](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.37.0) on 2024-07-05 07:25:49 +0000 UTC
 
 - [Added audit log, added person skill statistic endpoint, add role-check-security in BE to edit entities](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.34.0) on 2024-06-24 11:04:59 +0000 UTC
 
-- [Improve entitiy specific search, increase payload size to 3MB and extend search metric](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.32.0) on 2024-06-18 12:16:59 +0000 UTC
+
+
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting) (1)
+
+- [fix: user cant delete project participation (#677)](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/9873241768) created on 2024-07-10 11:20:22 +0000 UTC
+
+
+
+
+## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.37.1
 
 
 
 
 
 
-## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.37.0
-
-
-
-
-### [Commits on main since 1.37.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.37.0..HEAD) (1)
-
-- [Update release.yml (#775)](https://github.com/prodyna-yasm/yasm-frontend/commit/713e13ac36640daff985c47c677d3f9d2236f405) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-07-09 15:58:54 +0000 UTC
-
-
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (8)
-
-- [fix: cant remove employee from project, cant edit project description](https://github.com/PRODYNA-YASM/yasm-frontend/pull/781)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
 
 - [chore: bump rimraf from 4.4.1 to 6.0.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/779)
 
@@ -96,20 +92,25 @@ Component Status overview. Last update 2024-07-10T07:32:15Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  713e13a |  1.37.0 | 
-| Release |  :red_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: | 
+| Version |  1.37.1 |  1.37.1 | 
+| Release |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: | 
 
 
 ### Last releases
+
+- [Fixed issue can not edit Project description, Fixed issue can not remove employee from a project, Fixed issue: Deleting organization show error Snackbar, Fixed issue: When projects are not finished loading while exporting PDF, this leads to error](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.37.1) on 2024-07-10 11:10:58 +0000 UTC
 
 - [Search and filter office from main SearchBar, Reworked Project-Participation View, Add sorting to Interests, Industries and Certifications and Show number of direct and related search results](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.37.0) on 2024-07-05 13:00:47 +0000 UTC
 
 - [Improvements in yasm-test pipeline, refactor Projects-Detail-View, improved Employee-Detail-View.](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.34.0) on 2024-06-24 14:51:13 +0000 UTC
 
-- [Sort Skills alphabetically in PdfExport, fixed skill administration bugs,  Update Employee and Organization card design, fixed user cannot delete project](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.32.0) on 2024-06-18 12:38:19 +0000 UTC
 
 
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
+
+- [fix: cant remove employee from project, cant edit project description…](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/9873320722) created on 2024-07-10 11:26:10 +0000 UTC
 
 
 
