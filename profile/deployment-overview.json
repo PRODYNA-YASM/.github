@@ -59,8 +59,20 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 2,
+        "Count": 5,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump org.jsoup:jsoup from 1.17.2 to 1.18.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/683"
+          },
+          {
+            "Title": "build(deps): bump quarkus.platform.version from 3.12.1 to 3.12.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/682"
+          },
+          {
+            "Title": "build(deps): bump org.apache.maven.plugins:maven-surefire-plugin from 3.3.0 to 3.3.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/681"
+          },
           {
             "Title": "refactor: change to cypher template for relation updates",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/672"
@@ -145,8 +157,8 @@
         "Count": 7,
         "PullRequests": [
           {
-            "Title": "chore: bump rimraf from 4.4.1 to 6.0.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/779"
+            "Title": "chore: bump rimraf from 4.4.1 to 6.0.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/783"
           },
           {
             "Title": "chore: bump prodyna/changelog-json from 1.4 to 1.5",
@@ -1478,5 +1490,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-10T13:55:54Z"
+  "LastUpdated": "2024-07-11T07:32:23Z"
 }

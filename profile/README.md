@@ -1,10 +1,10 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-07-10T13:55:54Z
+Component Status overview. Last update 2024-07-11T07:32:23Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.37.1 |  :green_square: 1.37.1 |  :green_square: 1.37.1 |  :red_square: 1.32.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.37.1 |  :green_square: 1.37.1 |  :green_square: 1.37.1 |  :red_square: 1.32.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.37.1 |  :green_square: 1.37.1 |  :green_square: 1.37.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [3](https://github.com/prodyna-yasm/yasm-integration/compare/1.37.0..HEAD) | :green_square: 0 | 1.37.0 |  :red_square: d6ef464 |  :green_square: 1.37.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :red_square: 1.32.0 | 
@@ -28,7 +28,13 @@ Component Status overview. Last update 2024-07-10T13:55:54Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (2)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (5)
+
+- [build(deps): bump org.jsoup:jsoup from 1.17.2 to 1.18.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/683)
+
+- [build(deps): bump quarkus.platform.version from 3.12.1 to 3.12.2](https://github.com/PRODYNA-YASM/yasm-backend/pull/682)
+
+- [build(deps): bump org.apache.maven.plugins:maven-surefire-plugin from 3.3.0 to 3.3.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/681)
 
 - [refactor: change to cypher template for relation updates](https://github.com/PRODYNA-YASM/yasm-backend/pull/672)
 
@@ -72,7 +78,7 @@ Component Status overview. Last update 2024-07-10T13:55:54Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
 
-- [chore: bump rimraf from 4.4.1 to 6.0.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/779)
+- [chore: bump rimraf from 4.4.1 to 6.0.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/783)
 
 - [chore: bump prodyna/changelog-json from 1.4 to 1.5](https://github.com/PRODYNA-YASM/yasm-frontend/pull/778)
 
