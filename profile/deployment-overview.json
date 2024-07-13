@@ -22,9 +22,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.32.0",
+          "Version": "1.37.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -93,14 +93,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "fix: user cant delete project participation (#677)",
-            "Timestamp": "2024-07-10T11:20:22Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/9873241768"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -110,26 +104,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.37.1",
+          "Version": "1.37.2",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.37.1",
+          "Version": "1.37.2",
+          "IsRelease": true,
+          "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.37.2",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.37.1",
+        "Tag": "1.37.2",
         "SHA": "",
-        "Title": "Fixed issue can not edit Project description, Fixed issue can not remove employee from a project, Fixed issue: Deleting organization show error Snackbar, Fixed issue: When projects are not finished loading while exporting PDF, this leads to error",
-        "Timestamp": "2024-07-10T11:26:09Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.37.1"
+        "Title": "User can now delete enddate in Project Participation if it was defined previously and Select all Projects checkbox works even when projects are not loaded yet",
+        "Timestamp": "2024-07-12T11:30:37Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.37.2"
       },
       "Releases": [
+        {
+          "Tag": "1.37.2",
+          "SHA": "",
+          "Title": "User can now delete enddate in Project Participation if it was defined previously and Select all Projects checkbox works even when projects are not loaded yet",
+          "Timestamp": "2024-07-12T11:22:01Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.37.2"
+        },
         {
           "Tag": "1.37.1",
           "SHA": "",
@@ -143,13 +151,6 @@
           "Title": "Search and filter office from main SearchBar, Reworked Project-Participation View, Add sorting to Interests, Industries and Certifications and Show number of direct and related search results",
           "Timestamp": "2024-07-05T13:00:47Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.37.0"
-        },
-        {
-          "Tag": "1.34.0",
-          "SHA": "",
-          "Title": "Improvements in yasm-test pipeline, refactor Projects-Detail-View, improved Employee-Detail-View.",
-          "Timestamp": "2024-06-24T14:51:13Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.34.0"
         }
       ],
       "PullRequests": {
@@ -188,7 +189,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.37.1..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.37.2..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -1490,5 +1491,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-12T07:32:26Z"
+  "LastUpdated": "2024-07-13T07:32:09Z"
 }
