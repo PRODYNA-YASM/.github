@@ -224,6 +224,13 @@
           "Version": "1.37.0",
           "IsRelease": true,
           "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.37.0",
+          "IsRelease": true,
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -302,13 +309,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 4,
+        "Count": 2,
         "Workflows": [
-          {
-            "Name": "Merge pull request #467 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2024-07-05T11:47:13Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9807809312"
-          },
           {
             "Name": "Merge pull request #465 from PRODYNA-YASM/464-api-136",
             "Timestamp": "2024-07-03T08:18:05Z",
@@ -318,11 +320,6 @@
             "Name": "Merge pull request #455 from PRODYNA-YASM/dependabot/docker/alpine-3.…",
             "Timestamp": "2024-06-21T09:35:29Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9611541286"
-          },
-          {
-            "Name": "Merge pull request #445 from PRODYNA-YASM/feature/technology-update",
-            "Timestamp": "2024-06-13T12:30:50Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9499658142"
           }
         ]
       }
@@ -348,9 +345,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.32.0",
+          "Version": "1.37.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -398,13 +395,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 4,
+        "Count": 2,
         "Workflows": [
-          {
-            "Name": "Merge pull request #361 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2024-07-05T11:58:00Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9807916877"
-          },
           {
             "Name": "Merge pull request #359 from PRODYNA-YASM/358-api-136",
             "Timestamp": "2024-07-03T08:19:27Z",
@@ -414,11 +406,6 @@
             "Name": "Merge pull request #342 from PRODYNA-YASM/341-use-api-133",
             "Timestamp": "2024-06-21T09:34:55Z",
             "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9611533495"
-          },
-          {
-            "Name": "Merge pull request #336 from PRODYNA-YASM/feature/fix-codeql",
-            "Timestamp": "2024-06-13T11:55:47Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9499139781"
           }
         ]
       }
@@ -1024,9 +1011,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "8.7.0-2",
+          "Version": "8.8.0-1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1074,19 +1061,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 2,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #47 from PRODYNA-YASM/dependabot/docker/gotenberg/…",
-            "Timestamp": "2024-07-05T11:49:53Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/9807836189"
-          },
-          {
-            "Name": "Merge pull request #45 from PRODYNA-YASM/dependabot/docker/gotenberg/…",
-            "Timestamp": "2024-06-14T07:12:42Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/9512157562"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1491,5 +1467,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-13T07:32:09Z"
+  "LastUpdated": "2024-07-14T07:32:22Z"
 }
