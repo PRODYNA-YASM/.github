@@ -1,10 +1,10 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-07-14T07:32:22Z
+Component Status overview. Last update 2024-07-15T07:32:11Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.37.1 |  :green_square: 1.37.1 |  :green_square: 1.37.1 |  :green_square: 1.37.1 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.37.1 |  :green_square: 1.37.1 |  :green_square: 1.37.1 |  :green_square: 1.37.1 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.37.2 |  :green_square: 1.37.2 |  :green_square: 1.37.2 |  :green_square: 1.37.2 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [3](https://github.com/prodyna-yasm/yasm-integration/compare/1.37.0..HEAD) | :green_square: 0 | 1.37.0 |  :red_square: d6ef464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
@@ -13,7 +13,7 @@ Component Status overview. Last update 2024-07-14T07:32:22Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [11](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.0..HEAD) | :green_square: 0 | 1.11.0 |  :red_square: ba6ae7a |  :green_square: 1.11.0 |  :green_square: 1.11.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [2](https://github.com/prodyna-yasm/yasm-data/compare/1.26.0..HEAD) | :green_square: 0 | 1.26.0 |  :red_square: a59d951 |  :green_square: 1.26.0 |  :green_square: 1.26.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.8.0-1 |  :green_square: 8.8.0-1 |  :green_square: 8.8.0-1 |  :green_square: 8.8.0-1 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.37.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-test/pulls) | 1.30.1 | 
@@ -28,7 +28,9 @@ Component Status overview. Last update 2024-07-14T07:32:22Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (5)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (6)
+
+- [#137 create cypher files for skillsProfile, resources, services, filt…](https://github.com/PRODYNA-YASM/yasm-backend/pull/684)
 
 - [build(deps): bump org.jsoup:jsoup from 1.17.2 to 1.18.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/683)
 
@@ -427,7 +429,11 @@ Component Status overview. Last update 2024-07-14T07:32:22Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (3)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (5)
+
+- [Bump azurerm from 3.111.0 to 3.112.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/572)
+
+- [Bump azurerm from 3.111.0 to 3.112.0 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/571)
 
 - [Bump github from 6.2.1 to 6.2.3 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/570)
 
@@ -468,6 +474,8 @@ Component Status overview. Last update 2024-07-14T07:32:22Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (6)
 
+- [chore: bump io.smallrye.reactive:mutiny from 2.6.0 to 2.6.2](https://github.com/PRODYNA-YASM/yasm-api/pull/216)
+
 - [chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.57 to 3.0.58](https://github.com/PRODYNA-YASM/yasm-api/pull/215)
 
 - [chore: bump com.fasterxml.jackson.core:jackson-databind from 2.17.1 to 2.17.2](https://github.com/PRODYNA-YASM/yasm-api/pull/214)
@@ -475,8 +483,6 @@ Component Status overview. Last update 2024-07-14T07:32:22Z
 - [chore: bump org.openapitools:openapi-generator-maven-plugin from 7.6.0 to 7.7.0](https://github.com/PRODYNA-YASM/yasm-api/pull/212)
 
 - [feat: #137 created skillsProfile endpoints and SkillsProfile entity](https://github.com/PRODYNA-YASM/yasm-api/pull/208)
-
-- [chore: bump io.smallrye.reactive:mutiny from 2.6.0 to 2.6.1](https://github.com/PRODYNA-YASM/yasm-api/pull/206)
 
 - [feat: 324-project-images](https://github.com/PRODYNA-YASM/yasm-api/pull/194)
 

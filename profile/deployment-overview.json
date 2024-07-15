@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 5,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "#137 create cypher files for skillsProfile, resources, services, filt…",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/684"
+          },
           {
             "Title": "build(deps): bump org.jsoup:jsoup from 1.17.2 to 1.18.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/683"
@@ -1123,8 +1127,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 3,
+        "Count": 5,
         "PullRequests": [
+          {
+            "Title": "Bump azurerm from 3.111.0 to 3.112.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/572"
+          },
+          {
+            "Title": "Bump azurerm from 3.111.0 to 3.112.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/571"
+          },
           {
             "Title": "Bump github from 6.2.1 to 6.2.3 in /terraform/azure",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/570"
@@ -1192,6 +1204,10 @@
         "Count": 6,
         "PullRequests": [
           {
+            "Title": "chore: bump io.smallrye.reactive:mutiny from 2.6.0 to 2.6.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/216"
+          },
+          {
             "Title": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.57 to 3.0.58",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/215"
           },
@@ -1206,10 +1222,6 @@
           {
             "Title": "feat: #137 created skillsProfile endpoints and SkillsProfile entity",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/208"
-          },
-          {
-            "Title": "chore: bump io.smallrye.reactive:mutiny from 2.6.0 to 2.6.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/206"
           },
           {
             "Title": "feat: 324-project-images",
@@ -1467,5 +1479,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-14T07:32:22Z"
+  "LastUpdated": "2024-07-15T07:32:11Z"
 }
