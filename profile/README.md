@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-07-17T07:32:17Z
+Component Status overview. Last update 2024-07-18T07:32:19Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.37.1 |  :green_square: 1.37.1 |  :green_square: 1.37.1 |  :green_square: 1.37.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.37.2 |  :green_square: 1.37.2 |  :green_square: 1.37.2 |  :green_square: 1.37.2 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [11](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.37.2 |  :green_square: 1.37.2 |  :green_square: 1.37.2 |  :green_square: 1.37.2 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [7](https://github.com/prodyna-yasm/yasm-integration/compare/1.37.0..HEAD) | :green_square: 0 | 1.37.0 |  :red_square: 7caedff |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [10](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.16.0..HEAD) | :green_square: 0 | 1.16.0 |  :red_square: dcf76bf |  :green_square: 1.16.0 |  :green_square: 1.16.0 | 
@@ -30,13 +30,13 @@ Component Status overview. Last update 2024-07-17T07:32:17Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (7)
 
+- [build(deps): bump quarkus.platform.version from 3.12.1 to 3.12.3](https://github.com/PRODYNA-YASM/yasm-backend/pull/686)
+
 - [build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 4.1.0 to 4.2.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/685)
 
 - [#137 create cypher files for skillsProfile, resources, services, filt…](https://github.com/PRODYNA-YASM/yasm-backend/pull/684)
 
 - [build(deps): bump org.jsoup:jsoup from 1.17.2 to 1.18.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/683)
-
-- [build(deps): bump quarkus.platform.version from 3.12.1 to 3.12.2](https://github.com/PRODYNA-YASM/yasm-backend/pull/682)
 
 - [build(deps): bump org.apache.maven.plugins:maven-surefire-plugin from 3.3.0 to 3.3.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/681)
 
@@ -75,7 +75,9 @@ Component Status overview. Last update 2024-07-17T07:32:17Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (10)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (11)
+
+- [fix: styling of text-container in editor](https://github.com/PRODYNA-YASM/yasm-frontend/pull/790)
 
 - [fix: change the default view (year then month) of datepicker](https://github.com/PRODYNA-YASM/yasm-frontend/pull/789)
 
@@ -583,15 +585,15 @@ Component Status overview. Last update 2024-07-17T07:32:17Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (6)
 
-- [chore(deps): Bump @azure/msal-node from 2.7.0 to 2.11.0](https://github.com/PRODYNA-YASM/yasm-test/pull/117)
+- [chore(deps-dev): Bump cypress from 13.11.0 to 13.13.1](https://github.com/PRODYNA-YASM/yasm-test/pull/121)
 
-- [chore(deps-dev): Bump @types/node from 20.14.2 to 20.14.10](https://github.com/PRODYNA-YASM/yasm-test/pull/116)
+- [chore(deps): Bump @azure/msal-node from 2.7.0 to 2.11.1](https://github.com/PRODYNA-YASM/yasm-test/pull/120)
+
+- [chore(deps-dev): Bump @types/node from 20.14.2 to 20.14.11](https://github.com/PRODYNA-YASM/yasm-test/pull/119)
+
+- [chore(deps): Bump cypress/included from 13.11.0 to 13.13.1](https://github.com/PRODYNA-YASM/yasm-test/pull/118)
 
 - [chore(deps): Bump jose from 5.4.0 to 5.6.3](https://github.com/PRODYNA-YASM/yasm-test/pull/115)
-
-- [chore(deps): Bump cypress/included from 13.11.0 to 13.13.0](https://github.com/PRODYNA-YASM/yasm-test/pull/114)
-
-- [chore(deps-dev): Bump cypress from 13.11.0 to 13.13.0](https://github.com/PRODYNA-YASM/yasm-test/pull/112)
 
 - [chore(deps-dev): Bump typescript from 5.4.5 to 5.5.3](https://github.com/PRODYNA-YASM/yasm-test/pull/111)
 

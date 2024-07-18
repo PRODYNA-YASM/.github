@@ -62,6 +62,10 @@
         "Count": 7,
         "PullRequests": [
           {
+            "Title": "build(deps): bump quarkus.platform.version from 3.12.1 to 3.12.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/686"
+          },
+          {
             "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 4.1.0 to 4.2.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/685"
           },
@@ -72,10 +76,6 @@
           {
             "Title": "build(deps): bump org.jsoup:jsoup from 1.17.2 to 1.18.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/683"
-          },
-          {
-            "Title": "build(deps): bump quarkus.platform.version from 3.12.1 to 3.12.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/682"
           },
           {
             "Title": "build(deps): bump org.apache.maven.plugins:maven-surefire-plugin from 3.3.0 to 3.3.1",
@@ -163,8 +163,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 10,
+        "Count": 11,
         "PullRequests": [
+          {
+            "Title": "fix: styling of text-container in editor",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/790"
+          },
           {
             "Title": "fix: change the default view (year then month) of datepicker",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/789"
@@ -1450,24 +1454,24 @@
         "Count": 6,
         "PullRequests": [
           {
-            "Title": "chore(deps): Bump @azure/msal-node from 2.7.0 to 2.11.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/117"
+            "Title": "chore(deps-dev): Bump cypress from 13.11.0 to 13.13.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/121"
           },
           {
-            "Title": "chore(deps-dev): Bump @types/node from 20.14.2 to 20.14.10",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/116"
+            "Title": "chore(deps): Bump @azure/msal-node from 2.7.0 to 2.11.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/120"
+          },
+          {
+            "Title": "chore(deps-dev): Bump @types/node from 20.14.2 to 20.14.11",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/119"
+          },
+          {
+            "Title": "chore(deps): Bump cypress/included from 13.11.0 to 13.13.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/118"
           },
           {
             "Title": "chore(deps): Bump jose from 5.4.0 to 5.6.3",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/115"
-          },
-          {
-            "Title": "chore(deps): Bump cypress/included from 13.11.0 to 13.13.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/114"
-          },
-          {
-            "Title": "chore(deps-dev): Bump cypress from 13.11.0 to 13.13.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/112"
           },
           {
             "Title": "chore(deps-dev): Bump typescript from 5.4.5 to 5.5.3",
@@ -1588,5 +1592,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-17T07:32:17Z"
+  "LastUpdated": "2024-07-18T07:32:19Z"
 }
