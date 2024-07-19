@@ -70,7 +70,7 @@
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/685"
           },
           {
-            "Title": "#137 create cypher files for skillsProfile, resources, services, filt…",
+            "Title": "feat: #137 create cypher files for skillsProfile, resources, services, filt…",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/684"
           },
           {
@@ -112,9 +112,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.37.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "d5ddaa5",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -163,27 +163,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 11,
+        "Count": 7,
         "PullRequests": [
-          {
-            "Title": "fix: styling of text-container in editor",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/790"
-          },
-          {
-            "Title": "fix: change the default view (year then month) of datepicker",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/789"
-          },
           {
             "Title": "chore: bump @types/node from 20.14.0 to 20.14.11",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/788"
-          },
-          {
-            "Title": "fix: show unrounded hours in availability and hide employment type",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/787"
-          },
-          {
-            "Title": "fix: show correct date format in changelog e.g. 31 Jan 2024",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/786"
           },
           {
             "Title": "chore: bump rimraf from 4.4.1 to 6.0.1",
@@ -214,8 +198,49 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.37.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "fix: styling of text-container in editor (#790)",
+            "SHA": "d5ddaa54654949d75c37ef3ea434f6ea28e4502e",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-07-18T14:32:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d5ddaa54654949d75c37ef3ea434f6ea28e4502e"
+          },
+          {
+            "Text": "fix: change the default view (year then month) of datepicker (#789)",
+            "SHA": "d2e8eac06aa573fc1ea67b36da9deb178072789a",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-07-18T14:32:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d2e8eac06aa573fc1ea67b36da9deb178072789a"
+          },
+          {
+            "Text": "fix: show unrounded hours in availability and hide employment type (#787)",
+            "SHA": "5995f063a70d83a78877ec95c14a1c30db47d7d5",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-07-18T14:32:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/5995f063a70d83a78877ec95c14a1c30db47d7d5"
+          },
+          {
+            "Text": "fix: show correct date format in changelog e.g. 31 Jan 2024 (#786)",
+            "SHA": "34a1b3c4f52a78873d797308646b32c61967b112",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-07-18T14:32:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/34a1b3c4f52a78873d797308646b32c61967b112"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1081,9 +1106,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8.8.0-1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "b88590f",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1138,8 +1163,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.8.0-1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #48 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.8.1",
+            "SHA": "b88590fbd6663a6ac3a0e2fcf60a2f5d720fc112",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-19T06:58:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/b88590fbd6663a6ac3a0e2fcf60a2f5d720fc112"
+          },
+          {
+            "Text": "Bump gotenberg/gotenberg from 8.8.0 to 8.8.1",
+            "SHA": "1b633928321cf694157c707f99f9945fe29c92a6",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-07-19T01:53:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/1b633928321cf694157c707f99f9945fe29c92a6"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1207,8 +1253,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 3,
+        "Count": 5,
         "PullRequests": [
+          {
+            "Title": "Bump azurerm from 3.112.0 to 3.113.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/577"
+          },
+          {
+            "Title": "Bump azurerm from 3.112.0 to 3.113.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/576"
+          },
           {
             "Title": "Bump DataDog/datadog from 3.40.0 to 3.41.0 in /terraform/kubernetes",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/575"
@@ -1592,5 +1646,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-18T07:32:19Z"
+  "LastUpdated": "2024-07-19T07:32:22Z"
 }
