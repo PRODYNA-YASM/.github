@@ -70,7 +70,7 @@
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/685"
           },
           {
-            "Title": "feat: #137 create cypher files for skillsProfile, resources, services, filt…",
+            "Title": "feat: #137 create skillsProfile entity",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/684"
           },
           {
@@ -1106,14 +1106,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "b88590f",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "8.8.1-1",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "8.8.0-1",
+          "Version": "8.8.1-1",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -1122,17 +1122,24 @@
           "Link": "",
           "Version": "8.8.0-1",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "8.8.0-1",
+        "Tag": "8.8.1-1",
         "SHA": "",
-        "Title": "Gotenberg 8.8.0",
-        "Timestamp": "2024-07-05T11:49:51Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.8.0-1"
+        "Title": "Gotenberg 8.8.1",
+        "Timestamp": "2024-07-19T13:50:17Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.8.1-1"
       },
       "Releases": [
+        {
+          "Tag": "8.8.1-1",
+          "SHA": "",
+          "Title": "Gotenberg 8.8.1",
+          "Timestamp": "2024-07-19T06:58:40Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.8.1-1"
+        },
         {
           "Tag": "8.8.0-1",
           "SHA": "",
@@ -1146,13 +1153,6 @@
           "Title": "Build push action v6",
           "Timestamp": "2024-06-18T00:21:00Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.7.0-2"
-        },
-        {
-          "Tag": "8.7.0-1",
-          "SHA": "",
-          "Title": "Gotenberg 8.7.0",
-          "Timestamp": "2024-06-14T03:54:46Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.7.0-1"
         }
       ],
       "PullRequests": {
@@ -1162,37 +1162,22 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.8.0-1..HEAD",
-        "Count": 2,
-        "Commits": [
-          {
-            "Text": "Merge pull request #48 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.8.1",
-            "SHA": "b88590fbd6663a6ac3a0e2fcf60a2f5d720fc112",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-07-19T06:58:40Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/b88590fbd6663a6ac3a0e2fcf60a2f5d720fc112"
-          },
-          {
-            "Text": "Bump gotenberg/gotenberg from 8.8.0 to 8.8.1",
-            "SHA": "1b633928321cf694157c707f99f9945fe29c92a6",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-07-19T01:53:39Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/1b633928321cf694157c707f99f9945fe29c92a6"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.8.1-1..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #48 from PRODYNA-YASM/dependabot/docker/gotenberg/…",
+            "Timestamp": "2024-07-19T13:50:19Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/10009171979"
+          }
+        ]
       }
     },
     {
@@ -1646,5 +1631,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-19T07:32:22Z"
+  "LastUpdated": "2024-07-20T07:32:55Z"
 }
