@@ -398,17 +398,12 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
           {
             "Name": "Merge pull request #465 from PRODYNA-YASM/464-api-136",
             "Timestamp": "2024-07-03T08:18:05Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9774318138"
-          },
-          {
-            "Name": "Merge pull request #455 from PRODYNA-YASM/dependabot/docker/alpine-3.…",
-            "Timestamp": "2024-06-21T09:35:29Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9611541286"
           }
         ]
       }
@@ -484,17 +479,12 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
           {
             "Name": "Merge pull request #359 from PRODYNA-YASM/358-api-136",
             "Timestamp": "2024-07-03T08:19:27Z",
             "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9774338264"
-          },
-          {
-            "Name": "Merge pull request #342 from PRODYNA-YASM/341-use-api-133",
-            "Timestamp": "2024-06-21T09:34:55Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9611533495"
           }
         ]
       }
@@ -993,14 +983,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #123 from PRODYNA-YASM/feature/update-components",
-            "Timestamp": "2024-06-21T09:40:41Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/9611605327"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1631,5 +1615,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-21T07:32:17Z"
+  "LastUpdated": "2024-07-22T07:32:19Z"
 }

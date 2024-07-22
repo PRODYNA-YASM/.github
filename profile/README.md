@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-07-21T07:32:17Z
+Component Status overview. Last update 2024-07-22T07:32:19Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -176,11 +176,9 @@ Component Status overview. Last update 2024-07-21T07:32:17Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (2)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (1)
 
 - [Merge pull request #465 from PRODYNA-YASM/464-api-136](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9774318138) created on 2024-07-03 08:18:05 +0000 UTC
-
-- [Merge pull request #455 from PRODYNA-YASM/dependabot/docker/alpine-3.…](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9611541286) created on 2024-06-21 09:35:29 +0000 UTC
 
 
 
@@ -213,11 +211,9 @@ Component Status overview. Last update 2024-07-21T07:32:17Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting) (2)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting) (1)
 
 - [Merge pull request #359 from PRODYNA-YASM/358-api-136](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9774338264) created on 2024-07-03 08:19:27 +0000 UTC
-
-- [Merge pull request #342 from PRODYNA-YASM/341-use-api-133](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9611533495) created on 2024-06-21 09:34:55 +0000 UTC
 
 
 
@@ -371,11 +367,6 @@ Component Status overview. Last update 2024-07-21T07:32:17Z
 - [Component update](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.9.13) on 2024-06-05 17:15:09 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #123 from PRODYNA-YASM/feature/update-components](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/9611605327) created on 2024-06-21 09:40:41 +0000 UTC
 
 
 
