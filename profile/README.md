@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-07-23T07:45:33Z
+Component Status overview. Last update 2024-07-23T07:48:22Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -12,11 +12,12 @@ Component Status overview. Last update 2024-07-23T07:45:33Z
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [6](https://github.com/prodyna-yasm/yasm-github/compare/1.5.2..HEAD) | :green_square: 0 | 1.5.2 |  :red_square: b43ab5f |  :green_square: 1.5.2 |  :green_square: 1.5.2 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [11](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.0..HEAD) | :green_square: 0 | 1.11.0 |  :red_square: ba6ae7a |  :green_square: 1.11.0 |  :green_square: 1.11.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [2](https://github.com/prodyna-yasm/yasm-data/compare/1.26.0..HEAD) | :green_square: 0 | 1.26.0 |  :red_square: a59d951 |  :green_square: 1.26.0 |  :green_square: 1.26.0 | 
-| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.8.1-1 |  :green_square: 8.8.1-1 |  :green_square: 8.8.1-1 |  :red_square: 8.8.0-1 | 
+| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.8.1-1 |  :green_square: 8.8.1-1 |  :green_square: 8.8.1-1 |  :green_square: 8.8.1-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [10](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.37.0..HEAD) | :green_square: 0 | 1.37.0 |  :red_square: 29c26c3 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.37.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-test/pulls) | 1.30.1 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [1](https://github.com/prodyna-yasm/yasm-metrics/compare/..HEAD) | :green_square: 0 |  | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.1.0 |  :green_square: 1.1.0 |  :green_square: 1.1.0 |  :green_square: 1.1.0 | 
 
 
@@ -426,9 +427,9 @@ Component Status overview. Last update 2024-07-23T07:45:33Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  8.8.1-1 |  8.8.1-1 |  8.8.0-1 | 
+| Version |  8.8.1-1 |  8.8.1-1 |  8.8.1-1 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -440,11 +441,6 @@ Component Status overview. Last update 2024-07-23T07:45:33Z
 - [Build push action v6](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.7.0-2) on 2024-06-18 00:21:00 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #48 from PRODYNA-YASM/dependabot/docker/gotenberg/…](https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/10009171979) created on 2024-07-19 13:50:19 +0000 UTC
 
 
 
@@ -627,6 +623,13 @@ Component Status overview. Last update 2024-07-23T07:45:33Z
 
 
 
+
+
+## [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) 
+
+
+> [!WARNING]
+> GET https://api.github.com/repos/prodyna-yasm/yasm-metrics/releases/latest: 404 Not Found []
 
 
 ## [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) 1.1.0
