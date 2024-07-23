@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-07-23T07:32:17Z
+Component Status overview. Last update 2024-07-23T07:45:33Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -13,7 +13,7 @@ Component Status overview. Last update 2024-07-23T07:32:17Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [11](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.0..HEAD) | :green_square: 0 | 1.11.0 |  :red_square: ba6ae7a |  :green_square: 1.11.0 |  :green_square: 1.11.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [2](https://github.com/prodyna-yasm/yasm-data/compare/1.26.0..HEAD) | :green_square: 0 | 1.26.0 |  :red_square: a59d951 |  :green_square: 1.26.0 |  :green_square: 1.26.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.8.1-1 |  :green_square: 8.8.1-1 |  :green_square: 8.8.1-1 |  :red_square: 8.8.0-1 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [8](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.37.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.37.0 |  :red_square: 1f55e21 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [10](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.37.0..HEAD) | :green_square: 0 | 1.37.0 |  :red_square: 29c26c3 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.37.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-test/pulls) | 1.30.1 | 
@@ -454,7 +454,11 @@ Component Status overview. Last update 2024-07-23T07:32:17Z
 
 
 
-### [Commits on main since 1.37.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.37.0..HEAD) (8)
+### [Commits on main since 1.37.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.37.0..HEAD) (10)
+
+- [Merge pull request #581 from PRODYNA-YASM/579-update-components-add-yasm-metrics](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/29c26c3c2fac7fdcd8963a988d5ca3606e3d7740) by [dkrizic](https://github.com/dkrizic) on 2024-07-23 07:38:05 +0000 UTC
+
+- [Update datadog](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/9bfdd5432381669d136867c168559c0f8e746fd0) by [dkrizic](https://github.com/dkrizic) on 2024-07-23 07:34:26 +0000 UTC
 
 - [Merge pull request #580 from PRODYNA-YASM/579-update-components-add-yasm-metrics](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e02d54a379422ea99d55ba2efcd21573219cc41b) by [dkrizic](https://github.com/dkrizic) on 2024-07-23 07:28:14 +0000 UTC
 
@@ -475,21 +479,12 @@ Component Status overview. Last update 2024-07-23T07:32:17Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (3)
-
-- [Bump DataDog/datadog from 3.40.0 to 3.42.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/578)
-
-- [Bump DataDog/datadog from 3.40.0 to 3.41.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/575)
-
-- [Bump github from 6.2.1 to 6.2.2 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/538)
-
-
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1f55e21 |  1.37.0 |  1.37.0 | 
+| Version |  29c26c3 |  1.37.0 |  1.37.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 

@@ -1195,7 +1195,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1f55e21",
+          "Version": "29c26c3",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1246,27 +1246,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 3,
-        "PullRequests": [
-          {
-            "Title": "Bump DataDog/datadog from 3.40.0 to 3.42.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/578"
-          },
-          {
-            "Title": "Bump DataDog/datadog from 3.40.0 to 3.41.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/575"
-          },
-          {
-            "Title": "Bump github from 6.2.1 to 6.2.2 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/538"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.37.0..HEAD",
-        "Count": 8,
+        "Count": 10,
         "Commits": [
+          {
+            "Text": "Merge pull request #581 from PRODYNA-YASM/579-update-components-add-yasm-metrics",
+            "SHA": "29c26c3c2fac7fdcd8963a988d5ca3606e3d7740",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-23T07:38:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/29c26c3c2fac7fdcd8963a988d5ca3606e3d7740"
+          },
+          {
+            "Text": "Update datadog",
+            "SHA": "9bfdd5432381669d136867c168559c0f8e746fd0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-23T07:34:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/9bfdd5432381669d136867c168559c0f8e746fd0"
+          },
           {
             "Text": "Merge pull request #580 from PRODYNA-YASM/579-update-components-add-yasm-metrics",
             "SHA": "e02d54a379422ea99d55ba2efcd21573219cc41b",
@@ -1671,5 +1678,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-23T07:32:17Z"
+  "LastUpdated": "2024-07-23T07:45:33Z"
 }
