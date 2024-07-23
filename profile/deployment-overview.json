@@ -8,63 +8,82 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "f4bb34c",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.37.1",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.26.2",
+          "Version": "1.37.1",
+          "IsRelease": true,
+          "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.37.1",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.26.2",
+        "Tag": "1.37.1",
         "SHA": "",
-        "Title": "Improve cypher performance and update quarkus",
-        "Timestamp": "2024-05-29T11:04:16Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.26.2"
+        "Title": "Fix sort all scores descending, fix user cant delete project participation",
+        "Timestamp": "2024-07-10T11:20:20Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.37.1"
       },
       "Releases": [
         {
-          "Tag": "1.26.2",
+          "Tag": "1.37.1",
           "SHA": "",
-          "Title": "Improve cypher performance and update quarkus",
-          "Timestamp": "2024-05-24T21:43:36Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.26.2"
+          "Title": "Fix sort all scores descending, fix user cant delete project participation",
+          "Timestamp": "2024-07-10T11:04:15Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.37.1"
         },
         {
-          "Tag": "1.26.1",
+          "Tag": "1.37.0",
           "SHA": "",
-          "Title": "Fix skill linking relevant for kindgiver",
-          "Timestamp": "2024-05-24T09:04:38Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.26.1"
+          "Title": "Show the number of direct and related search results, Search for offices in global search, Update audit relation and refactor Experience to SkillGroups in ProjectParticipation",
+          "Timestamp": "2024-07-05T07:25:49Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.37.0"
         },
         {
-          "Tag": "1.26.0",
+          "Tag": "1.34.0",
           "SHA": "",
-          "Title": "Sort people avatar in project, clean skill api and add search metrics",
-          "Timestamp": "2024-05-14T12:53:08Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.26.0"
+          "Title": "Added audit log, added person skill statistic endpoint, add role-check-security in BE to edit entities",
+          "Timestamp": "2024-06-24T11:04:59Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.34.0"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 4,
+        "Count": 7,
         "PullRequests": [
           {
-            "Title": "Bump org.apache.maven.plugins:maven-enforcer-plugin from 3.4.1 to 3.5.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/620"
+            "Title": "build(deps): bump quarkus.platform.version from 3.12.1 to 3.12.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/686"
           },
           {
-            "Title": "Bump quarkus.platform.version from 3.10.2 to 3.11.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/617"
+            "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 4.1.0 to 4.2.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/685"
           },
           {
-            "Title": "Bump jackson.version from 2.17.0 to 2.17.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/594"
+            "Title": "feat: #137 create skillsProfile entity",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/684"
+          },
+          {
+            "Title": "build(deps): bump org.jsoup:jsoup from 1.17.2 to 1.18.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/683"
+          },
+          {
+            "Title": "build(deps): bump org.apache.maven.plugins:maven-surefire-plugin from 3.3.0 to 3.3.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/681"
+          },
+          {
+            "Title": "refactor: change to cypher template for relation updates",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/672"
           },
           {
             "Title": "Bump eclipse-temurin from 21.0.2_13-jre-ubi9-minimal to 22.0.1_8-jre-ubi9-minimal",
@@ -74,40 +93,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.26.2..HEAD",
-        "Count": 3,
-        "Commits": [
-          {
-            "Text": "fix: preventing errors when creating metrics (#619)",
-            "SHA": "f4bb34c4b8fac9b4b42858712815a162e2644944",
-            "Author": {
-              "name": "saemik94",
-              "link": "https://github.com/saemik94"
-            },
-            "Timestamp": "2024-05-30T13:37:03Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/f4bb34c4b8fac9b4b42858712815a162e2644944"
-          },
-          {
-            "Text": "fix: adjust skill search metric (#618)",
-            "SHA": "82694901efa8615f845ae2b9fc2a96fa182f6221",
-            "Author": {
-              "name": "saemik94",
-              "link": "https://github.com/saemik94"
-            },
-            "Timestamp": "2024-05-30T12:31:12Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/82694901efa8615f845ae2b9fc2a96fa182f6221"
-          },
-          {
-            "Text": "feat: extend search metrics (#616)",
-            "SHA": "fc240ec01b1bf9c1cd4ac8b3e1a5f7e5dae9fa9d",
-            "Author": {
-              "name": "saemik94",
-              "link": "https://github.com/saemik94"
-            },
-            "Timestamp": "2024-05-30T08:30:20Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/fc240ec01b1bf9c1cd4ac8b3e1a5f7e5dae9fa9d"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.37.1..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -124,75 +112,86 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "678-integrate-yasm-test-into-pipeline",
-          "IsRelease": true,
+          "Version": "d5ddaa5",
+          "IsRelease": false,
           "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.26.2",
+          "Version": "1.37.2",
+          "IsRelease": true,
+          "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.37.2",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.26.2",
+        "Tag": "1.37.2",
         "SHA": "",
-        "Title": "Added changelog and upgrade dependencies",
-        "Timestamp": "2024-05-29T11:10:21Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.26.2"
+        "Title": "User can now delete enddate in Project Participation if it was defined previously and Select all Projects checkbox works even when projects are not loaded yet",
+        "Timestamp": "2024-07-12T11:30:37Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.37.2"
       },
       "Releases": [
         {
-          "Tag": "1.26.2",
+          "Tag": "1.37.2",
           "SHA": "",
-          "Title": "Added changelog and upgrade dependencies",
-          "Timestamp": "2024-05-29T08:23:30Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.26.2"
+          "Title": "User can now delete enddate in Project Participation if it was defined previously and Select all Projects checkbox works even when projects are not loaded yet",
+          "Timestamp": "2024-07-12T11:22:01Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.37.2"
         },
         {
-          "Tag": "1.26.1",
+          "Tag": "1.37.1",
           "SHA": "",
-          "Title": "Added Skill Parent Path (Kindgiver), add check if user has GitHub access, and multiple bug fixes",
-          "Timestamp": "2024-05-24T10:35:49Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.26.1"
+          "Title": "Fixed issue can not edit Project description, Fixed issue can not remove employee from a project, Fixed issue: Deleting organization show error Snackbar, Fixed issue: When projects are not finished loading while exporting PDF, this leads to error",
+          "Timestamp": "2024-07-10T11:10:58Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.37.1"
         },
         {
-          "Tag": "1.26.0",
+          "Tag": "1.37.0",
           "SHA": "",
-          "Title": "Added detail-view for Organizations, Industries, Certifications and Skills",
-          "Timestamp": "2024-05-16T11:59:35Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.26.0"
+          "Title": "Search and filter office from main SearchBar, Reworked Project-Participation View, Add sorting to Interests, Industries and Certifications and Show number of direct and related search results",
+          "Timestamp": "2024-07-05T13:00:47Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.37.0"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 8,
         "PullRequests": [
           {
-            "Title": "Bump @types/node from 20.12.12 to 20.12.13",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/684"
+            "Title": "feat: shift breadcrumbs to header",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/793"
           },
           {
-            "Title": "Feature/refactor async select",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/683"
+            "Title": "chore: bump @types/node from 20.14.0 to 20.14.11",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/788"
           },
           {
-            "Title": "Bump rimraf from 4.4.1 to 5.0.7",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/682"
+            "Title": "chore: bump rimraf from 4.4.1 to 6.0.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/783"
           },
           {
-            "Title": "Bump @babel/register from 7.23.7 to 7.24.6",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/681"
+            "Title": "chore: bump prodyna/changelog-json from 1.4 to 1.5",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/778"
           },
           {
-            "Title": "Base structure for testing",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/679"
+            "Title": "chore: bump @opentelemetry/instrumentation from 0.43.0 to 0.52.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/754"
           },
           {
-            "Title": "Bump memfs from 3.5.3 to 4.9.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/672"
+            "Title": "chore: bump ws from 7.5.9 to 7.5.10",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/745"
+          },
+          {
+            "Title": "chore: bump memfs from 3.5.3 to 4.9.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/738"
           },
           {
             "Title": "Bump html-loader from 1.3.2 to 5.0.0",
@@ -202,78 +201,48 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.26.2..HEAD",
-        "Count": 7,
+        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.37.2..HEAD",
+        "Count": 4,
         "Commits": [
           {
-            "Text": "Merge pull request #680 from PRODYNA-YASM/dependabot/npm_and_yarn/opentelemetry/instrumentation-user-interaction-0.38.0",
-            "SHA": "cae388560c3dcf346386c1ac55baced450b429fb",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-05-30T19:25:45Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/cae388560c3dcf346386c1ac55baced450b429fb"
-          },
-          {
-            "Text": "Bump @opentelemetry/instrumentation-user-interaction",
-            "SHA": "7199d27e99c59cbc625e29b0c8933931b34dd606",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-05-30T04:56:00Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7199d27e99c59cbc625e29b0c8933931b34dd606"
-          },
-          {
-            "Text": "Merge pull request #677 from PRODYNA-YASM/feature/add-release-title-changelog",
-            "SHA": "24429217e4d71560c0bf7bc2ca827b6cc3a3eca7",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-05-29T14:10:53Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/24429217e4d71560c0bf7bc2ca827b6cc3a3eca7"
-          },
-          {
-            "Text": "250: Added Release-Title in Changelog",
-            "SHA": "9298b56c6fea4c3ce95b2177adcc17c15dd3377b",
+            "Text": "fix: styling of text-container in editor (#790)",
+            "SHA": "d5ddaa54654949d75c37ef3ea434f6ea28e4502e",
             "Author": {
               "name": "eersada-prodyna",
               "link": "https://github.com/eersada-prodyna"
             },
-            "Timestamp": "2024-05-29T14:05:37Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/9298b56c6fea4c3ce95b2177adcc17c15dd3377b"
+            "Timestamp": "2024-07-18T14:32:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d5ddaa54654949d75c37ef3ea434f6ea28e4502e"
           },
           {
-            "Text": "Merge pull request #676 from PRODYNA-YASM/675-bug-changelog-also-for-tags",
-            "SHA": "4c74a6b97b08716236be9d8af8bb24b54d29eb66",
+            "Text": "fix: change the default view (year then month) of datepicker (#789)",
+            "SHA": "d2e8eac06aa573fc1ea67b36da9deb178072789a",
             "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
             },
-            "Timestamp": "2024-05-29T13:18:11Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/4c74a6b97b08716236be9d8af8bb24b54d29eb66"
+            "Timestamp": "2024-07-18T14:32:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d2e8eac06aa573fc1ea67b36da9deb178072789a"
           },
           {
-            "Text": "Fix tags on main",
-            "SHA": "aa3ea677e61bf2ca170f10fe0e04e41731aa60d2",
+            "Text": "fix: show unrounded hours in availability and hide employment type (#787)",
+            "SHA": "5995f063a70d83a78877ec95c14a1c30db47d7d5",
             "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
             },
-            "Timestamp": "2024-05-29T13:16:42Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/aa3ea677e61bf2ca170f10fe0e04e41731aa60d2"
+            "Timestamp": "2024-07-18T14:32:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/5995f063a70d83a78877ec95c14a1c30db47d7d5"
           },
           {
-            "Text": "Changelog should run on tags as well",
-            "SHA": "bb553de7f16795f8a2ca957f628e8832595f9564",
+            "Text": "fix: show correct date format in changelog e.g. 31 Jan 2024 (#786)",
+            "SHA": "34a1b3c4f52a78873d797308646b32c61967b112",
             "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
             },
-            "Timestamp": "2024-05-29T13:14:20Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/bb553de7f16795f8a2ca957f628e8832595f9564"
+            "Timestamp": "2024-07-18T14:32:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/34a1b3c4f52a78873d797308646b32c61967b112"
           }
         ]
       },
@@ -281,193 +250,12 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
-      }
-    },
-    {
-      "Name": "yasmctl",
-      "Error": "",
-      "Environments": [
-        {
-          "Name": "dev",
-          "Link": "",
-          "Version": "1.26.2",
-          "IsRelease": true,
-          "IsCurrent": true
-        },
-        {
-          "Name": "staging",
-          "Link": "",
-          "Version": "1.26.2",
-          "IsRelease": true,
-          "IsCurrent": true
-        },
-        {
-          "Name": "prod",
-          "Link": "",
-          "Version": "1.19.6",
-          "IsRelease": true,
-          "IsCurrent": false
-        }
-      ],
-      "LatestRelease": {
-        "Tag": "1.26.2",
-        "SHA": "",
-        "Title": "New libraries",
-        "Timestamp": "2024-05-21T22:05:07Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.26.2"
-      },
-      "Releases": [
-        {
-          "Tag": "1.26.2",
-          "SHA": "",
-          "Title": "New libraries",
-          "Timestamp": "2024-05-21T22:00:27Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.26.2"
-        },
-        {
-          "Tag": "1.26.1",
-          "SHA": "",
-          "Title": "1.26.1",
-          "Timestamp": "2024-05-21T15:41:38Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.26.1"
-        },
-        {
-          "Tag": "1.26.0",
-          "SHA": "",
-          "Title": "Using API 1.26.0",
-          "Timestamp": "2024-05-14T00:18:12Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.26.0"
-        }
-      ],
-      "PullRequests": {
-        "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 0,
-        "PullRequests": null
-      },
-      "Link": "https://github.com/prodyna-yasm/yasmctl",
-      "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.26.2..HEAD",
-        "Count": 0,
-        "Commits": null
-      },
-      "DefaultBranch": "main",
-      "Tags": null,
-      "Workflows": {
-        "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 6,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #324 from PRODYNA-YASM/dependabot/go_modules/go.op…",
-            "Timestamp": "2024-05-21T22:05:09Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9182087461"
-          },
-          {
-            "Name": "Merge pull request #320 from PRODYNA-YASM/feature/technolgy-update",
-            "Timestamp": "2024-05-21T15:43:57Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9177461182"
-          },
-          {
-            "Name": "Merge pull request #319 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2024-05-14T09:41:06Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9077198208"
-          },
-          {
-            "Name": "Merge pull request #318 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2024-05-08T08:41:31Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8998896608"
-          },
-          {
-            "Name": "Merge pull request #317 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2024-05-07T08:16:13Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8981999058"
-          },
-          {
-            "Name": "Merge pull request #316 from PRODYNA-YASM/315-migrate-to-api-123",
-            "Timestamp": "2024-05-06T07:39:04Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/8965684044"
-          }
-        ]
-      }
-    },
-    {
-      "Name": "yasm-proxy-odbc",
-      "Error": "",
-      "Environments": [
-        {
-          "Name": "dev",
-          "Link": "",
-          "Version": "1.11.9",
-          "IsRelease": true,
-          "IsCurrent": true
-        },
-        {
-          "Name": "staging",
-          "Link": "",
-          "Version": "1.11.9",
-          "IsRelease": true,
-          "IsCurrent": true
-        },
-        {
-          "Name": "prod",
-          "Link": "",
-          "Version": "1.11.9",
-          "IsRelease": true,
-          "IsCurrent": true
-        }
-      ],
-      "LatestRelease": {
-        "Tag": "1.11.9",
-        "SHA": "",
-        "Title": "OpenTelemetry 1.27.0",
-        "Timestamp": "2024-05-27T18:05:15Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.9"
-      },
-      "Releases": [
-        {
-          "Tag": "1.11.9",
-          "SHA": "",
-          "Title": "OpenTelemetry 1.27.0",
-          "Timestamp": "2024-05-27T14:14:44Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.9"
-        },
-        {
-          "Tag": "1.11.8",
-          "SHA": "",
-          "Title": "1.11.8",
-          "Timestamp": "2024-05-21T15:38:12Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.8"
-        },
-        {
-          "Tag": "1.11.7",
-          "SHA": "",
-          "Title": "OTelChi 0.8.0",
-          "Timestamp": "2024-05-06T13:08:14Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.11.7"
-        }
-      ],
-      "PullRequests": {
-        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls",
-        "Count": 0,
-        "PullRequests": null
-      },
-      "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
-      "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.11.9..HEAD",
-        "Count": 0,
-        "Commits": null
-      },
-      "DefaultBranch": "main",
-      "Tags": null,
-      "Workflows": {
-        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
         "Count": 1,
         "Workflows": [
           {
-            "Name": "Merge pull request #188 from PRODYNA-YASM/feature/technolgy-update",
-            "Timestamp": "2024-05-21T15:44:16Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/9177465100"
+            "Name": "fix: cant remove employee from project, cant edit project description…",
+            "Timestamp": "2024-07-10T11:26:10Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/9873320722"
           }
         ]
       }
@@ -479,46 +267,53 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0420dce",
+          "Version": "36ad356",
           "IsRelease": false,
           "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.26.4",
+          "Version": "1.37.0",
+          "IsRelease": true,
+          "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.37.0",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.26.4",
+        "Tag": "1.37.0",
         "SHA": "",
-        "Title": "Update alpine image",
-        "Timestamp": "2024-05-23T12:14:07Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.26.4"
+        "Title": "Using API 1.37.0",
+        "Timestamp": "2024-07-05T11:47:11Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.37.0"
       },
       "Releases": [
         {
-          "Tag": "1.26.4",
+          "Tag": "1.37.0",
           "SHA": "",
-          "Title": "Update alpine image",
-          "Timestamp": "2024-05-23T05:35:03Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.26.4"
+          "Title": "Using API 1.37.0",
+          "Timestamp": "2024-07-05T05:36:42Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.37.0"
         },
         {
-          "Tag": "1.26.3",
+          "Tag": "1.36.0",
           "SHA": "",
-          "Title": "OpenTelemetry 1.27",
-          "Timestamp": "2024-05-22T09:50:41Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.26.3"
+          "Title": "Using API 1.36.0, some components updated",
+          "Timestamp": "2024-07-03T07:32:33Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.36.0"
         },
         {
-          "Tag": "1.26.2",
+          "Tag": "1.33.0",
           "SHA": "",
-          "Title": "1.26.2",
-          "Timestamp": "2024-05-21T15:38:28Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.26.2"
+          "Title": "Using API 1.33, some components updated",
+          "Timestamp": "2024-06-21T06:37:58Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.33.0"
         }
       ],
       "PullRequests": {
@@ -528,28 +323,98 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.26.4..HEAD",
-        "Count": 2,
+        "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.37.0..HEAD",
+        "Count": 9,
         "Commits": [
           {
-            "Text": "Merge pull request #428 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.44.0",
-            "SHA": "0420dce37a8f6f077a9274fbd98d21ac6450cabd",
+            "Text": "Merge pull request #474 from PRODYNA-YASM/dependabot/docker/alpine-3.20.2",
+            "SHA": "36ad356b2aace5e63159553cfaf6a6bc76c8a239",
             "Author": {
               "name": "dkrizic",
               "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2024-05-31T05:07:45Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/0420dce37a8f6f077a9274fbd98d21ac6450cabd"
+            "Timestamp": "2024-07-23T06:07:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/36ad356b2aace5e63159553cfaf6a6bc76c8a239"
           },
           {
-            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.43.0 to 1.44.0",
-            "SHA": "81493ba563550aa298b2b524582f6a16c1870157",
+            "Text": "Bump alpine from 3.20.1 to 3.20.2",
+            "SHA": "9a5b6a7322a84864627defb31428d9db34599a9e",
             "Author": {
               "name": "dependabot[bot]",
               "link": "https://github.com/dependabot[bot]"
             },
-            "Timestamp": "2024-05-31T02:00:55Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/81493ba563550aa298b2b524582f6a16c1870157"
+            "Timestamp": "2024-07-23T01:13:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/9a5b6a7322a84864627defb31428d9db34599a9e"
+          },
+          {
+            "Text": "Merge pull request #469 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-core-1.2.0",
+            "SHA": "7caedffde281050d4c2c3bf7bda90383e4f92d25",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-16T07:42:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/7caedffde281050d4c2c3bf7bda90383e4f92d25"
+          },
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go-core from 1.1.0 to 1.2.0",
+            "SHA": "271b8bb94fc5bfb7fdf128d035e5692c2705f2c6",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-07-16T07:36:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/271b8bb94fc5bfb7fdf128d035e5692c2705f2c6"
+          },
+          {
+            "Text": "Merge pull request #470 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.46.0",
+            "SHA": "b2120b71c9ea1403c572158c24772f753187111b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-16T07:35:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/b2120b71c9ea1403c572158c24772f753187111b"
+          },
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.45.0 to 1.46.0",
+            "SHA": "66c08423b571059768798e55bfb4eb321b3fa920",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-07-16T01:48:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/66c08423b571059768798e55bfb4eb321b3fa920"
+          },
+          {
+            "Text": "Revert \"Merge pull request #468 from PRODYNA-YASM/feature/maconomy-integration\"",
+            "SHA": "d6ef464ca5c9c52bfad57344826da423cdfdee2f",
+            "Author": {
+              "name": "mgajic",
+              "link": "https://github.com/mgajic"
+            },
+            "Timestamp": "2024-07-09T09:28:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/d6ef464ca5c9c52bfad57344826da423cdfdee2f"
+          },
+          {
+            "Text": "Merge pull request #468 from PRODYNA-YASM/feature/maconomy-integration",
+            "SHA": "01554476c8d60b34a7c57ef55a12a61140b16c61",
+            "Author": {
+              "name": "mgajic",
+              "link": "https://github.com/mgajic"
+            },
+            "Timestamp": "2024-07-08T12:53:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/01554476c8d60b34a7c57ef55a12a61140b16c61"
+          },
+          {
+            "Text": "Updating maconomy search query to 2024",
+            "SHA": "85ceb0ac304d52dda5b0609b57f375a171f16e51",
+            "Author": {
+              "name": "mgajic",
+              "link": "https://github.com/mgajic"
+            },
+            "Timestamp": "2024-07-08T12:26:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/85ceb0ac304d52dda5b0609b57f375a171f16e51"
           }
         ]
       },
@@ -557,49 +422,271 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 8,
+        "Count": 1,
         "Workflows": [
           {
-            "Name": "Merge pull request #427 from PRODYNA-YASM/dependabot/docker/alpine-3.…",
-            "Timestamp": "2024-05-23T12:14:09Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9207758718"
-          },
-          {
-            "Name": "Merge pull request #426 from PRODYNA-YASM/dependabot/go_modules/go.op…",
-            "Timestamp": "2024-05-22T09:56:06Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9189201188"
-          },
-          {
-            "Name": "Merge pull request #421 from PRODYNA-YASM/feature/technolgy-update",
-            "Timestamp": "2024-05-21T15:44:35Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9177468495"
-          },
-          {
-            "Name": "Merge pull request #419 from PRODYNA-YASM/dependabot/go_modules/googl…",
-            "Timestamp": "2024-05-16T07:35:56Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9108351279"
-          },
-          {
-            "Name": "Merge pull request #418 from PRODYNA-YASM/technology-update",
-            "Timestamp": "2024-05-14T09:42:04Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9077209401"
-          },
-          {
-            "Name": "Merge pull request #415 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2024-05-08T08:45:36Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8998943989"
-          },
-          {
-            "Name": "Merge pull request #414 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2024-05-07T08:15:33Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8981989926"
-          },
-          {
-            "Name": "Merge pull request #413 from PRODYNA-YASM/412-migrate-to-api-123",
-            "Timestamp": "2024-05-06T07:39:36Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/8965688522"
+            "Name": "Merge pull request #465 from PRODYNA-YASM/464-api-136",
+            "Timestamp": "2024-07-03T08:18:05Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/9774318138"
           }
         ]
+      }
+    },
+    {
+      "Name": "yasmctl",
+      "Error": "",
+      "Environments": [
+        {
+          "Name": "dev",
+          "Link": "",
+          "Version": "1.37.0",
+          "IsRelease": true,
+          "IsCurrent": true
+        },
+        {
+          "Name": "staging",
+          "Link": "",
+          "Version": "1.37.0",
+          "IsRelease": true,
+          "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.37.0",
+          "IsRelease": true,
+          "IsCurrent": true
+        }
+      ],
+      "LatestRelease": {
+        "Tag": "1.37.0",
+        "SHA": "",
+        "Title": "Using API 1.37.0, Update to otelhttp",
+        "Timestamp": "2024-07-05T11:57:57Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.37.0"
+      },
+      "Releases": [
+        {
+          "Tag": "1.37.0",
+          "SHA": "",
+          "Title": "Using API 1.37.0, Update to otelhttp",
+          "Timestamp": "2024-07-04T22:30:37Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.37.0"
+        },
+        {
+          "Tag": "1.36.0",
+          "SHA": "",
+          "Title": "Using API 1.36, some components updated",
+          "Timestamp": "2024-07-03T08:04:35Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.36.0"
+        },
+        {
+          "Tag": "1.33.0",
+          "SHA": "",
+          "Title": "Using API 1.33",
+          "Timestamp": "2024-06-21T09:26:13Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.33.0"
+        }
+      ],
+      "PullRequests": {
+        "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
+        "Count": 0,
+        "PullRequests": null
+      },
+      "Link": "https://github.com/prodyna-yasm/yasmctl",
+      "Commits": {
+        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.37.0..HEAD",
+        "Count": 0,
+        "Commits": null
+      },
+      "DefaultBranch": "main",
+      "Tags": null,
+      "Workflows": {
+        "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #359 from PRODYNA-YASM/358-api-136",
+            "Timestamp": "2024-07-03T08:19:27Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/9774338264"
+          }
+        ]
+      }
+    },
+    {
+      "Name": "yasm-proxy-odbc",
+      "Error": "",
+      "Environments": [
+        {
+          "Name": "dev",
+          "Link": "",
+          "Version": "dcf76bf",
+          "IsRelease": false,
+          "IsCurrent": false
+        },
+        {
+          "Name": "staging",
+          "Link": "",
+          "Version": "1.16.0",
+          "IsRelease": true,
+          "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.16.0",
+          "IsRelease": true,
+          "IsCurrent": true
+        }
+      ],
+      "LatestRelease": {
+        "Tag": "1.16.0",
+        "SHA": "",
+        "Title": "Technology update (chi)",
+        "Timestamp": "2024-07-03T08:16:50Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.16.0"
+      },
+      "Releases": [
+        {
+          "Tag": "1.16.0",
+          "SHA": "",
+          "Title": "Technology update (chi)",
+          "Timestamp": "2024-07-01T14:01:36Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.16.0"
+        },
+        {
+          "Tag": "1.15.0",
+          "SHA": "",
+          "Title": "Technology update",
+          "Timestamp": "2024-06-21T09:32:17Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.15.0"
+        },
+        {
+          "Tag": "1.14.0",
+          "SHA": "",
+          "Title": "Component update",
+          "Timestamp": "2024-06-17T15:39:02Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.14.0"
+        }
+      ],
+      "PullRequests": {
+        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls",
+        "Count": 0,
+        "PullRequests": null
+      },
+      "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
+      "Commits": {
+        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.16.0..HEAD",
+        "Count": 10,
+        "Commits": [
+          {
+            "Text": "Merge pull request #214 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc-1.28.0",
+            "SHA": "dcf76bf49de99e0d4ee77f78ced684141282df22",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-15T15:05:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/dcf76bf49de99e0d4ee77f78ced684141282df22"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc",
+            "SHA": "7a095450e44521a2d599289f0389276c7eb671d1",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-07-15T13:23:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/7a095450e44521a2d599289f0389276c7eb671d1"
+          },
+          {
+            "Text": "Merge pull request #210 from PRODYNA-YASM/dependabot/go_modules/github.com/riandyrn/otelchi-0.9.0",
+            "SHA": "c6dc246d600110166b3ecab7303ff08235fbb01f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-08T14:13:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/c6dc246d600110166b3ecab7303ff08235fbb01f"
+          },
+          {
+            "Text": "Merge pull request #212 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace-1.28.0",
+            "SHA": "3d6720b3694f40811d6832dc4777055f6d2021cb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-08T14:13:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/3d6720b3694f40811d6832dc4777055f6d2021cb"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace",
+            "SHA": "7539f8c78af6da3465a7c0f282ee1e617f30b856",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-07-08T14:12:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/7539f8c78af6da3465a7c0f282ee1e617f30b856"
+          },
+          {
+            "Text": "Bump github.com/riandyrn/otelchi from 0.8.0 to 0.9.0",
+            "SHA": "90829fc2a54d2dfc23d260fa88e4065a2d55c362",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-07-08T14:12:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/90829fc2a54d2dfc23d260fa88e4065a2d55c362"
+          },
+          {
+            "Text": "Merge pull request #211 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc-1.28.0",
+            "SHA": "e05be8fde95e99f6d079f643b73df0959bae033f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-08T14:11:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/e05be8fde95e99f6d079f643b73df0959bae033f"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc",
+            "SHA": "5a57feb3232bb03ceb4ee1fb11284e957b410838",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-07-08T13:43:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/5a57feb3232bb03ceb4ee1fb11284e957b410838"
+          },
+          {
+            "Text": "Merge pull request #213 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.65.0",
+            "SHA": "fce5a702fece3e0ce28627a3c63ce5ba431ef3bb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-08T13:43:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/fce5a702fece3e0ce28627a3c63ce5ba431ef3bb"
+          },
+          {
+            "Text": "Bump google.golang.org/grpc from 1.64.0 to 1.65.0",
+            "SHA": "7ab563d4dd4f94eada8b1f177b02f75dc57e66b5",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-07-08T13:34:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/7ab563d4dd4f94eada8b1f177b02f75dc57e66b5"
+          }
+        ]
+      },
+      "DefaultBranch": "main",
+      "Tags": null,
+      "Workflows": {
+        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -609,53 +696,53 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.4.8",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "b43ab5f",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.4.8",
+          "Version": "1.5.2",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.4.7",
+          "Version": "1.5.2",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.4.8",
+        "Tag": "1.5.2",
         "SHA": "",
-        "Title": "Improved error handling",
-        "Timestamp": "2024-05-30T10:10:32Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.4.8"
+        "Title": "OpenTelemetry update",
+        "Timestamp": "2024-07-03T08:05:31Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.5.2"
       },
       "Releases": [
         {
-          "Tag": "1.4.8",
+          "Tag": "1.5.2",
           "SHA": "",
-          "Title": "Improved error handling",
-          "Timestamp": "2024-05-28T14:28:02Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.4.8"
+          "Title": "OpenTelemetry update",
+          "Timestamp": "2024-07-03T07:03:27Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.5.2"
         },
         {
-          "Tag": "1.4.7",
+          "Tag": "1.5.1",
           "SHA": "",
-          "Title": "OpenTelemetry 1.27",
-          "Timestamp": "2024-05-22T09:50:59Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.4.7"
+          "Title": "Technology update, setting network peer for OpenTelemetry",
+          "Timestamp": "2024-06-21T09:32:02Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.5.1"
         },
         {
-          "Tag": "1.4.6",
+          "Tag": "1.5.0",
           "SHA": "",
-          "Title": "1.4.6",
-          "Timestamp": "2024-05-21T15:39:11Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.4.6"
+          "Title": "CodeQL activated",
+          "Timestamp": "2024-06-12T07:23:18Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.5.0"
         }
       ],
       "PullRequests": {
@@ -665,27 +752,77 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.4.8..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.5.2..HEAD",
+        "Count": 6,
+        "Commits": [
+          {
+            "Text": "Merge pull request #106 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc-1.28.0",
+            "SHA": "b43ab5f1bd326f83c21eceab6b8135e2e6629d00",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-03T23:28:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/b43ab5f1bd326f83c21eceab6b8135e2e6629d00"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc",
+            "SHA": "963df535379978b8092c3b5a98796c6fc24b411e",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-07-03T23:25:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/963df535379978b8092c3b5a98796c6fc24b411e"
+          },
+          {
+            "Text": "Merge pull request #107 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc-1.28.0",
+            "SHA": "2f779b04f1d199b91b63a1bc807499dcfffececf",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-03T23:24:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/2f779b04f1d199b91b63a1bc807499dcfffececf"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc",
+            "SHA": "d520a75d2e44b42e9cf5cbe4944ca89b92624bc9",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-07-03T23:21:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/d520a75d2e44b42e9cf5cbe4944ca89b92624bc9"
+          },
+          {
+            "Text": "Merge pull request #108 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp-0.53.0",
+            "SHA": "0d6958fdfb8fd952bedc15cbc886f4be2ee1e5de",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-03T23:20:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/0d6958fdfb8fd952bedc15cbc886f4be2ee1e5de"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+            "SHA": "1fc07f8ae03afc9d8de5e0dcb5390f91a864e142",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-07-03T23:14:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/1fc07f8ae03afc9d8de5e0dcb5390f91a864e142"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting",
-        "Count": 2,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #90 from PRODYNA-YASM/89-correct-error-handling",
-            "Timestamp": "2024-05-30T10:10:34Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/actions/runs/9300804735"
-          },
-          {
-            "Name": "Merge pull request #82 from PRODYNA-YASM/81-dummy-issue",
-            "Timestamp": "2024-05-21T10:50:14Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/actions/runs/9173421502"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -695,53 +832,53 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.9.12",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "ba6ae7a",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.9.12",
+          "Version": "1.11.0",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.9.12",
+          "Version": "1.11.0",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.9.12",
+        "Tag": "1.11.0",
         "SHA": "",
-        "Title": "Alpine 3.20",
-        "Timestamp": "2024-05-24T08:01:08Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.9.12"
+        "Title": "Component updates",
+        "Timestamp": "2024-07-03T11:20:32Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.11.0"
       },
       "Releases": [
         {
-          "Tag": "1.9.12",
+          "Tag": "1.11.0",
           "SHA": "",
-          "Title": "Alpine 3.20",
-          "Timestamp": "2024-05-23T17:16:53Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.9.12"
+          "Title": "Component updates",
+          "Timestamp": "2024-07-02T17:50:16Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.11.0"
         },
         {
-          "Tag": "1.9.11",
+          "Tag": "1.10.0",
           "SHA": "",
-          "Title": "OpenTelemetry 1.27",
-          "Timestamp": "2024-05-22T18:13:49Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.9.11"
+          "Title": "Component update",
+          "Timestamp": "2024-06-20T09:47:44Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.10.0"
         },
         {
-          "Tag": "1.6.10",
+          "Tag": "1.9.13",
           "SHA": "",
-          "Title": "1.6.10",
-          "Timestamp": "2024-05-21T15:39:34Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.6.10"
+          "Title": "Component update",
+          "Timestamp": "2024-06-05T17:15:09Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.9.13"
         }
       ],
       "PullRequests": {
@@ -751,22 +888,127 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.9.12..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.0..HEAD",
+        "Count": 11,
+        "Commits": [
+          {
+            "Text": "Merge pull request #136 from PRODYNA-YASM/dependabot/go_modules/github.com/riandyrn/otelchi-0.9.0",
+            "SHA": "ba6ae7a726b1e34d572d92e3fde4308a19cfbff4",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-08T17:07:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/ba6ae7a726b1e34d572d92e3fde4308a19cfbff4"
+          },
+          {
+            "Text": "Bump github.com/riandyrn/otelchi from 0.8.0 to 0.9.0",
+            "SHA": "b48edebbee416aabae5e9678d4b8c1ac5391ead4",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-07-08T17:01:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/b48edebbee416aabae5e9678d4b8c1ac5391ead4"
+          },
+          {
+            "Text": "Merge pull request #135 from PRODYNA-YASM/dependabot/docker/golang-1.22.5",
+            "SHA": "c60c948ceab0316d392042ec0303a8f2e23e3b80",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-06T23:20:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/c60c948ceab0316d392042ec0303a8f2e23e3b80"
+          },
+          {
+            "Text": "Set go.mod with correct version",
+            "SHA": "607aae75dbb9c0995fa6c8fb65039e9bec48993e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-05T12:00:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/607aae75dbb9c0995fa6c8fb65039e9bec48993e"
+          },
+          {
+            "Text": "Bump golang from 1.22.4 to 1.22.5",
+            "SHA": "b23475e64a85f105af21cd9e1f78082db73aa4c7",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-07-04T16:16:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/b23475e64a85f105af21cd9e1f78082db73aa4c7"
+          },
+          {
+            "Text": "Merge pull request #133 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc-1.28.0",
+            "SHA": "5ac24575139e65a219eebca446fc175dda36c450",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-03T16:28:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/5ac24575139e65a219eebca446fc175dda36c450"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc",
+            "SHA": "cb022de549c062d6e86718dde1f36b1e3b898a08",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-07-03T16:26:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/cb022de549c062d6e86718dde1f36b1e3b898a08"
+          },
+          {
+            "Text": "Merge pull request #129 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/sdk/metric-1.28.0",
+            "SHA": "7533bc92a45fae417c298e8f9698aa20c4571b63",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-03T16:26:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/7533bc92a45fae417c298e8f9698aa20c4571b63"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/sdk/metric from 1.27.0 to 1.28.0",
+            "SHA": "b68f3ef81d0224ba20d9627aa6a5b444d12ff802",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-07-03T16:22:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/b68f3ef81d0224ba20d9627aa6a5b444d12ff802"
+          },
+          {
+            "Text": "Merge pull request #131 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc-1.28.0",
+            "SHA": "8da3b7104baf9bd4abc9822c232852960975f629",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-03T16:21:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/8da3b7104baf9bd4abc9822c232852960975f629"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc",
+            "SHA": "edb5f7bf3acd113755d85b44dcc1e7b695a42249",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-07-03T16:19:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/edb5f7bf3acd113755d85b44dcc1e7b695a42249"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #112 from PRODYNA-YASM/dependabot/go_modules/go.op…",
-            "Timestamp": "2024-05-23T12:14:39Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/9207766232"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -776,9 +1018,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.26.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "a59d951",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -790,9 +1032,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.10.2",
+          "Version": "1.26.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -833,21 +1075,36 @@
       "Link": "https://github.com/prodyna-yasm/yasm-data",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-data/compare/1.26.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #117 from PRODYNA-YASM/dependabot/github_actions/docker/build-push-action-6",
+            "SHA": "a59d9510b5e4aaba3ad8411f48bf9bdf310b3b5f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-06-18T13:07:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-data/commit/a59d9510b5e4aaba3ad8411f48bf9bdf310b3b5f"
+          },
+          {
+            "Text": "Bump docker/build-push-action from 5 to 6",
+            "SHA": "9329ce3a513758a35c13ef697a89d5b0169546da",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-18T04:57:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-data/commit/9329ce3a513758a35c13ef697a89d5b0169546da"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-data/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #116 from PRODYNA-YASM/115-add-ai-engineer-data-sc…",
-            "Timestamp": "2024-05-27T16:05:14Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-data/actions/runs/9257652491"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -857,53 +1114,53 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8.5.1-1",
+          "Version": "8.8.1-1",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "8.5.1-1",
+          "Version": "8.8.1-1",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "8.5.1-1",
+          "Version": "8.8.0-1",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "8.5.1-1",
+        "Tag": "8.8.1-1",
         "SHA": "",
-        "Title": "Gotenberg 8.5.1",
-        "Timestamp": "2024-05-27T07:49:08Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.5.1-1"
+        "Title": "Gotenberg 8.8.1",
+        "Timestamp": "2024-07-19T13:50:17Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.8.1-1"
       },
       "Releases": [
         {
-          "Tag": "8.5.1-1",
+          "Tag": "8.8.1-1",
           "SHA": "",
-          "Title": "Gotenberg 8.5.1",
-          "Timestamp": "2024-05-27T05:13:43Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.5.1-1"
+          "Title": "Gotenberg 8.8.1",
+          "Timestamp": "2024-07-19T06:58:40Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.8.1-1"
         },
         {
-          "Tag": "8.5.0-1",
+          "Tag": "8.8.0-1",
           "SHA": "",
-          "Title": "Gotenberg 8.5.0",
-          "Timestamp": "2024-04-29T06:09:42Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.5.0-1"
+          "Title": "Gotenberg 8.8.0",
+          "Timestamp": "2024-07-04T05:46:24Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.8.0-1"
         },
         {
-          "Tag": "8.4.0-1",
+          "Tag": "8.7.0-2",
           "SHA": "",
-          "Title": "Gotenberg 8.4.0",
-          "Timestamp": "2024-04-15T05:40:41Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.4.0-1"
+          "Title": "Build push action v6",
+          "Timestamp": "2024-06-18T00:21:00Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.7.0-2"
         }
       ],
       "PullRequests": {
@@ -913,7 +1170,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.5.1-1..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.8.1-1..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -921,8 +1178,14 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #48 from PRODYNA-YASM/dependabot/docker/gotenberg/…",
+            "Timestamp": "2024-07-19T13:50:19Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/10009171979"
+          }
+        ]
       }
     },
     {
@@ -932,87 +1195,173 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.26.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "29c26c3",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.26.2",
+          "Version": "1.37.0",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.26.2",
+          "Version": "1.37.0",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.26.2",
+        "Tag": "1.37.0",
         "SHA": "",
-        "Title": "Otel Collector 0.92",
-        "Timestamp": "2024-05-22T12:00:22Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.26.2"
+        "Title": "Rotate passwords for jobs, update components",
+        "Timestamp": "2024-07-05T11:07:00Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.37.0"
       },
       "Releases": [
         {
-          "Tag": "1.26.2",
+          "Tag": "1.37.0",
           "SHA": "",
-          "Title": "Otel Collector 0.92",
-          "Timestamp": "2024-05-22T11:53:37Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.26.2"
+          "Title": "Rotate passwords for jobs, update components",
+          "Timestamp": "2024-07-05T10:58:12Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.37.0"
         },
         {
-          "Tag": "1.26.1",
+          "Tag": "1.30.0",
           "SHA": "",
-          "Title": "Compactor memory",
-          "Timestamp": "2024-05-14T13:49:34Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.26.1"
+          "Title": "Updated providers",
+          "Timestamp": "2024-06-10T23:20:11Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.30.0"
         },
         {
-          "Tag": "1.26.0",
+          "Tag": "1.27.1",
           "SHA": "",
-          "Title": "Component updates, preparation for Apps 1.26",
-          "Timestamp": "2024-05-14T12:44:07Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.26.0"
+          "Title": "DAPR 1.13.4",
+          "Timestamp": "2024-06-02T16:10:22Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.27.1"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 2,
-        "PullRequests": [
-          {
-            "Title": "Bump azurerm from 3.104.2 to 3.106.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/520"
-          },
-          {
-            "Title": "Bump azurerm from 3.104.2 to 3.105.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/519"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.26.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.37.0..HEAD",
+        "Count": 10,
+        "Commits": [
+          {
+            "Text": "Merge pull request #581 from PRODYNA-YASM/579-update-components-add-yasm-metrics",
+            "SHA": "29c26c3c2fac7fdcd8963a988d5ca3606e3d7740",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-23T07:38:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/29c26c3c2fac7fdcd8963a988d5ca3606e3d7740"
+          },
+          {
+            "Text": "Update datadog",
+            "SHA": "9bfdd5432381669d136867c168559c0f8e746fd0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-23T07:34:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/9bfdd5432381669d136867c168559c0f8e746fd0"
+          },
+          {
+            "Text": "Merge pull request #580 from PRODYNA-YASM/579-update-components-add-yasm-metrics",
+            "SHA": "e02d54a379422ea99d55ba2efcd21573219cc41b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-23T07:28:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e02d54a379422ea99d55ba2efcd21573219cc41b"
+          },
+          {
+            "Text": "Fix provider sources",
+            "SHA": "f18e25c614ff813c5b06a979a295c0a037a78f5a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-23T07:25:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f18e25c614ff813c5b06a979a295c0a037a78f5a"
+          },
+          {
+            "Text": "UPdate some helm charts",
+            "SHA": "4e25687e31e92c025669c7ecd00caa28b20510ec",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-23T07:22:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/4e25687e31e92c025669c7ecd00caa28b20510ec"
+          },
+          {
+            "Text": "Update providers, add yasm-metrics",
+            "SHA": "983f02a153f6885057dcf0a5c4b584d0c274456e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-23T07:19:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/983f02a153f6885057dcf0a5c4b584d0c274456e"
+          },
+          {
+            "Text": "Merge pull request #574 from PRODYNA-YASM/573-update-components",
+            "SHA": "1f55e21473ff1db8748a696a1d173ed715581f0f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-15T09:59:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1f55e21473ff1db8748a696a1d173ed715581f0f"
+          },
+          {
+            "Text": "Back to versions that should work",
+            "SHA": "9143218953333452faa2239c26781dce8c93d6e1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-15T09:57:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/9143218953333452faa2239c26781dce8c93d6e1"
+          },
+          {
+            "Text": "Git 6.2.2",
+            "SHA": "5913973b0bcb470857048d7dd8469c5acfefb37b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-15T09:43:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/5913973b0bcb470857048d7dd8469c5acfefb37b"
+          },
+          {
+            "Text": "Update components",
+            "SHA": "7935493aa76eedc35b0c54aab6b4726f6bb77f94",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-15T09:42:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/7935493aa76eedc35b0c54aab6b4726f6bb77f94"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #485 from PRODYNA-YASM/feature/update-kubernetes-1…",
-            "Timestamp": "2024-05-07T10:20:55Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/8983687209"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1020,72 +1369,68 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "1.26.0",
+        "Tag": "1.37.0",
         "SHA": "",
-        "Title": "Skill API KindGiver",
-        "Timestamp": "2024-05-13T14:22:30Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.26.0"
+        "Title": "Add ExperienceSkill in Projects and replace Experiences with SkillGroups in ProjectParticipation",
+        "Timestamp": "2024-07-04T11:48:06Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.37.0"
       },
       "Releases": [
         {
-          "Tag": "1.26.0",
+          "Tag": "1.37.0",
           "SHA": "",
-          "Title": "Skill API KindGiver",
-          "Timestamp": "2024-05-13T14:21:44Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.26.0"
+          "Title": "Add ExperienceSkill in Projects and replace Experiences with SkillGroups in ProjectParticipation",
+          "Timestamp": "2024-07-04T11:46:47Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.37.0"
         },
         {
-          "Tag": "1.25.0",
+          "Tag": "1.36.0",
           "SHA": "",
-          "Title": "Skill Search and Clean api from suggestable and linkable",
-          "Timestamp": "2024-05-07T11:54:45Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.25.0"
+          "Title": "Add dedicated score types",
+          "Timestamp": "2024-07-02T07:10:02Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.36.0"
         },
         {
-          "Tag": "1.24.0",
+          "Tag": "1.35.0",
           "SHA": "",
-          "Title": "Add Industry Search",
-          "Timestamp": "2024-05-06T14:47:35Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.24.0"
+          "Title": "Audit to Availability",
+          "Timestamp": "2024-06-26T16:32:56Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.35.0"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 7,
+        "Count": 6,
         "PullRequests": [
           {
-            "Title": "Feature/324-project-images",
+            "Title": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.57 to 3.0.59",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/217"
+          },
+          {
+            "Title": "chore: bump io.smallrye.reactive:mutiny from 2.6.0 to 2.6.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/216"
+          },
+          {
+            "Title": "chore: bump com.fasterxml.jackson.core:jackson-databind from 2.17.1 to 2.17.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/214"
+          },
+          {
+            "Title": "chore: bump org.openapitools:openapi-generator-maven-plugin from 7.6.0 to 7.7.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/212"
+          },
+          {
+            "Title": "feat: #137 created skillsProfile endpoints and SkillsProfile entity",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/208"
+          },
+          {
+            "Title": "feat: 324-project-images",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/194"
-          },
-          {
-            "Title": "Bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.55 to 3.0.57",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/193"
-          },
-          {
-            "Title": "Bump jakarta.validation:jakarta.validation-api from 3.0.2 to 3.1.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/191"
-          },
-          {
-            "Title": "Bump org.openapitools:openapi-generator-maven-plugin from 7.5.0 to 7.6.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/190"
-          },
-          {
-            "Title": "Bump com.fasterxml.jackson.core:jackson-databind from 2.17.0 to 2.17.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/184"
-          },
-          {
-            "Title": "Bump jakarta.ws.rs:jakarta.ws.rs-api from 3.1.0 to 4.0.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/180"
-          },
-          {
-            "Title": "Draft: Skill kind giver refactoring",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/105"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.26.0..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.37.0..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -1126,8 +1471,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-nginx/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Bump docker/build-push-action from 5 to 6",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-nginx/pull/8"
+          },
           {
             "Title": "Bump ubuntu from 22.04 to 24.04",
             "Link": "https://github.com/PRODYNA-YASM/yasm-nginx/pull/7"
@@ -1153,39 +1502,124 @@
       }
     },
     {
+      "Name": "yasm-test",
+      "Error": "",
+      "Environments": null,
+      "LatestRelease": {
+        "Tag": "1.30.1",
+        "SHA": "",
+        "Title": "1.30.1",
+        "Timestamp": "2024-06-14T13:38:21Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/1.30.1"
+      },
+      "Releases": [
+        {
+          "Tag": "1.30.1",
+          "SHA": "",
+          "Title": "1.30.1",
+          "Timestamp": "2024-06-14T13:28:41Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/1.30.1"
+        },
+        {
+          "Tag": "v1.30.0",
+          "SHA": "",
+          "Title": "1.30.0",
+          "Timestamp": "2024-06-14T04:09:33Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/v1.30.0"
+        },
+        {
+          "Tag": "1.30.0",
+          "SHA": "",
+          "Title": "1.30.0",
+          "Timestamp": "2024-06-14T04:09:33Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/1.30.0"
+        }
+      ],
+      "PullRequests": {
+        "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
+        "Count": 6,
+        "PullRequests": [
+          {
+            "Title": "chore(deps-dev): Bump cypress from 13.11.0 to 13.13.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/121"
+          },
+          {
+            "Title": "chore(deps): Bump @azure/msal-node from 2.7.0 to 2.11.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/120"
+          },
+          {
+            "Title": "chore(deps-dev): Bump @types/node from 20.14.2 to 20.14.11",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/119"
+          },
+          {
+            "Title": "chore(deps): Bump cypress/included from 13.11.0 to 13.13.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/118"
+          },
+          {
+            "Title": "chore(deps): Bump jose from 5.4.0 to 5.6.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/115"
+          },
+          {
+            "Title": "chore(deps-dev): Bump typescript from 5.4.5 to 5.5.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/111"
+          }
+        ]
+      },
+      "Link": "https://github.com/prodyna-yasm/yasm-test",
+      "Commits": {
+        "Link": "https://github.com/prodyna-yasm/yasm-test/compare/1.30.1..HEAD",
+        "Count": 0,
+        "Commits": null
+      },
+      "DefaultBranch": "main",
+      "Tags": null,
+      "Workflows": {
+        "Link": "https://github.com/prodyna-yasm/yasm-test/actions?query=is%3Awaiting",
+        "Count": 0,
+        "Workflows": null
+      }
+    },
+    {
       "Name": "sales-copilot",
       "Error": "",
       "Environments": [
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.0.1",
+          "Version": "1.1.0",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.0.1",
+          "Version": "1.1.0",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.0.1",
+          "Version": "1.1.0",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.0.1",
+        "Tag": "1.1.0",
         "SHA": "",
-        "Title": "1.0.1 Formatting and Crash Fixes",
-        "Timestamp": "2024-05-24T08:39:19Z",
-        "Link": "https://github.com/PRODYNA-YASM/sales-copilot/releases/tag/1.0.1"
+        "Title": "QR-Code improvements",
+        "Timestamp": "2024-06-06T14:14:14Z",
+        "Link": "https://github.com/PRODYNA-YASM/sales-copilot/releases/tag/1.1.0"
       },
       "Releases": [
+        {
+          "Tag": "1.1.0",
+          "SHA": "",
+          "Title": "QR-Code improvements",
+          "Timestamp": "2024-06-06T14:06:55Z",
+          "Link": "https://github.com/PRODYNA-YASM/sales-copilot/releases/tag/1.1.0"
+        },
         {
           "Tag": "1.0.1",
           "SHA": "",
@@ -1203,43 +1637,30 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/sales-copilot/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump docker/build-push-action from 5 to 6",
+            "Link": "https://github.com/PRODYNA-YASM/sales-copilot/pull/5"
+          },
+          {
+            "Title": "fix: Handle `\"location\": null` in organization object",
+            "Link": "https://github.com/PRODYNA-YASM/sales-copilot/pull/4"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/sales-copilot",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/sales-copilot/compare/1.0.1..HEAD",
-        "Count": 1,
-        "Commits": [
-          {
-            "Text": "Change QR-Code Ref Header!",
-            "SHA": "9ed01244d543b171dc27ebeacdbda2485d2c44e6",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2024-05-24T09:13:26Z",
-            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/9ed01244d543b171dc27ebeacdbda2485d2c44e6"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/sales-copilot/compare/1.1.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/sales-copilot/actions?query=is%3Awaiting",
-        "Count": 2,
-        "Workflows": [
-          {
-            "Name": "Adjust volume estimation guesstimate!",
-            "Timestamp": "2024-05-08T14:04:41Z",
-            "Link": "https://github.com/PRODYNA-YASM/sales-copilot/actions/runs/9003211686"
-          },
-          {
-            "Name": "Add an estimate for consultant days! Needs empiric testing!",
-            "Timestamp": "2024-05-07T09:04:34Z",
-            "Link": "https://github.com/PRODYNA-YASM/sales-copilot/actions/runs/8982656227"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     }
   ],
@@ -1257,5 +1678,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-05-31T07:32:15Z"
+  "LastUpdated": "2024-07-23T07:45:33Z"
 }
