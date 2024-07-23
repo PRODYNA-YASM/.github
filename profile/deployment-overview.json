@@ -163,8 +163,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "feat: shift breadcrumbs to header",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/793"
+          },
           {
             "Title": "chore: bump @types/node from 20.14.0 to 20.14.11",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/788"
@@ -263,7 +267,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "7caedff",
+          "Version": "36ad356",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -320,8 +324,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.37.0..HEAD",
-        "Count": 7,
+        "Count": 9,
         "Commits": [
+          {
+            "Text": "Merge pull request #474 from PRODYNA-YASM/dependabot/docker/alpine-3.20.2",
+            "SHA": "36ad356b2aace5e63159553cfaf6a6bc76c8a239",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-23T06:07:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/36ad356b2aace5e63159553cfaf6a6bc76c8a239"
+          },
+          {
+            "Text": "Bump alpine from 3.20.1 to 3.20.2",
+            "SHA": "9a5b6a7322a84864627defb31428d9db34599a9e",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-07-23T01:13:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/9a5b6a7322a84864627defb31428d9db34599a9e"
+          },
           {
             "Text": "Merge pull request #469 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-core-1.2.0",
             "SHA": "7caedffde281050d4c2c3bf7bda90383e4f92d25",
@@ -1222,23 +1246,15 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 5,
+        "Count": 3,
         "PullRequests": [
           {
-            "Title": "Bump azurerm from 3.112.0 to 3.113.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/577"
-          },
-          {
-            "Title": "Bump azurerm from 3.112.0 to 3.113.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/576"
+            "Title": "Bump DataDog/datadog from 3.40.0 to 3.42.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/578"
           },
           {
             "Title": "Bump DataDog/datadog from 3.40.0 to 3.41.0 in /terraform/kubernetes",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/575"
-          },
-          {
-            "Title": "Bump github from 6.2.1 to 6.2.3 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/570"
           },
           {
             "Title": "Bump github from 6.2.1 to 6.2.2 in /terraform/azure",
@@ -1249,8 +1265,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.37.0..HEAD",
-        "Count": 4,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Merge pull request #580 from PRODYNA-YASM/579-update-components-add-yasm-metrics",
+            "SHA": "e02d54a379422ea99d55ba2efcd21573219cc41b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-23T07:28:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e02d54a379422ea99d55ba2efcd21573219cc41b"
+          },
+          {
+            "Text": "Fix provider sources",
+            "SHA": "f18e25c614ff813c5b06a979a295c0a037a78f5a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-23T07:25:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f18e25c614ff813c5b06a979a295c0a037a78f5a"
+          },
+          {
+            "Text": "UPdate some helm charts",
+            "SHA": "4e25687e31e92c025669c7ecd00caa28b20510ec",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-23T07:22:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/4e25687e31e92c025669c7ecd00caa28b20510ec"
+          },
+          {
+            "Text": "Update providers, add yasm-metrics",
+            "SHA": "983f02a153f6885057dcf0a5c4b584d0c274456e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-23T07:19:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/983f02a153f6885057dcf0a5c4b584d0c274456e"
+          },
           {
             "Text": "Merge pull request #574 from PRODYNA-YASM/573-update-components",
             "SHA": "1f55e21473ff1db8748a696a1d173ed715581f0f",
@@ -1340,12 +1396,12 @@
         "Count": 6,
         "PullRequests": [
           {
-            "Title": "chore: bump io.smallrye.reactive:mutiny from 2.6.0 to 2.6.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/216"
+            "Title": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.57 to 3.0.59",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/217"
           },
           {
-            "Title": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.57 to 3.0.58",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/215"
+            "Title": "chore: bump io.smallrye.reactive:mutiny from 2.6.0 to 2.6.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/216"
           },
           {
             "Title": "chore: bump com.fasterxml.jackson.core:jackson-databind from 2.17.1 to 2.17.2",
@@ -1615,5 +1671,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-22T07:32:19Z"
+  "LastUpdated": "2024-07-23T07:32:17Z"
 }
