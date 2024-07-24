@@ -434,16 +434,16 @@
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.16.0",
+          "Version": "1.16.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.16.0",
+          "Version": "1.16.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -509,16 +509,16 @@
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.5.2",
+          "Version": "1.5.3",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.5.2",
+          "Version": "1.5.3",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -591,9 +591,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.11.0",
+          "Version": "1.11.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -641,14 +641,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #137 from PRODYNA-YASM/dependabot/docker/alpine-3.…",
-            "Timestamp": "2024-07-24T07:07:24Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/10072114539"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -665,9 +659,9 @@
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.26.0",
+          "Version": "1.37.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -722,8 +716,14 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-data/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #117 from PRODYNA-YASM/dependabot/github_actions/d…",
+            "Timestamp": "2024-07-24T07:09:40Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-data/actions/runs/10072143172"
+          }
+        ]
       }
     },
     {
@@ -1243,5 +1243,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-24T07:14:58Z"
+  "LastUpdated": "2024-07-24T07:23:00Z"
 }
