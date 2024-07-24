@@ -808,14 +808,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.37.1",
+          "Version": "1.37.2",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.37.1",
+          "Version": "1.37.2",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -828,13 +828,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "1.37.1",
+        "Tag": "1.37.2",
         "SHA": "",
-        "Title": "Add yam-metrics, component update",
-        "Timestamp": "2024-07-24T07:06:48Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.37.1"
+        "Title": "Kubernetes 1.29.5",
+        "Timestamp": "2024-07-24T07:44:12Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.37.2"
       },
       "Releases": [
+        {
+          "Tag": "1.37.2",
+          "SHA": "",
+          "Title": "Kubernetes 1.29.5",
+          "Timestamp": "2024-07-24T07:37:49Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.37.2"
+        },
         {
           "Tag": "1.37.1",
           "SHA": "",
@@ -848,13 +855,6 @@
           "Title": "Rotate passwords for jobs, update components",
           "Timestamp": "2024-07-05T10:58:12Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.37.0"
-        },
-        {
-          "Tag": "1.30.0",
-          "SHA": "",
-          "Title": "Updated providers",
-          "Timestamp": "2024-06-10T23:20:11Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.30.0"
         }
       ],
       "PullRequests": {
@@ -864,7 +864,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.37.1..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.37.2..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -1243,5 +1243,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-24T07:32:13Z"
+  "LastUpdated": "2024-07-24T07:53:00Z"
 }
