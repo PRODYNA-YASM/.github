@@ -62,6 +62,10 @@
         "Count": 7,
         "PullRequests": [
           {
+            "Title": "build(deps): bump eclipse-temurin from 21.0.2_13-jre-ubi9-minimal to 22.0.2_9-jre-ubi9-minimal",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/687"
+          },
+          {
             "Title": "build(deps): bump quarkus.platform.version from 3.12.1 to 3.12.3",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/686"
           },
@@ -84,10 +88,6 @@
           {
             "Title": "refactor: change to cypher template for relation updates",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/672"
-          },
-          {
-            "Title": "Bump eclipse-temurin from 21.0.2_13-jre-ubi9-minimal to 22.0.1_8-jre-ubi9-minimal",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/588"
           }
         ]
       },
@@ -166,12 +166,16 @@
         "Count": 8,
         "PullRequests": [
           {
-            "Title": "feat: shift breadcrumbs to header",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/793"
+            "Title": "chore: bump memfs from 3.5.3 to 4.9.4",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/795"
           },
           {
-            "Title": "chore: bump @types/node from 20.14.0 to 20.14.11",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/788"
+            "Title": "chore: bump @types/node from 20.14.0 to 20.14.12",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/794"
+          },
+          {
+            "Title": "feat: shift breadcrumbs to header",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/793"
           },
           {
             "Title": "chore: bump rimraf from 4.4.1 to 6.0.1",
@@ -188,10 +192,6 @@
           {
             "Title": "chore: bump ws from 7.5.9 to 7.5.10",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/745"
-          },
-          {
-            "Title": "chore: bump memfs from 3.5.3 to 4.9.3",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/738"
           },
           {
             "Title": "Bump html-loader from 1.3.2 to 5.0.0",
@@ -832,7 +832,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "ba6ae7a",
+          "Version": "d73fae7",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -889,8 +889,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.0..HEAD",
-        "Count": 11,
+        "Count": 13,
         "Commits": [
+          {
+            "Text": "Merge pull request #137 from PRODYNA-YASM/dependabot/docker/alpine-3.20.2",
+            "SHA": "d73fae7c3fe4ddede1400aff201871d71055bcff",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-23T17:19:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/d73fae7c3fe4ddede1400aff201871d71055bcff"
+          },
+          {
+            "Text": "Bump alpine from 3.20.1 to 3.20.2",
+            "SHA": "3447f677c4943be14555d9fb19d1d4b3909867bf",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-07-23T16:40:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/3447f677c4943be14555d9fb19d1d4b3909867bf"
+          },
           {
             "Text": "Merge pull request #136 from PRODYNA-YASM/dependabot/go_modules/github.com/riandyrn/otelchi-0.9.0",
             "SHA": "ba6ae7a726b1e34d572d92e3fde4308a19cfbff4",
@@ -1189,7 +1209,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "29c26c3",
+          "Version": "9163b5a",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1246,8 +1266,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.37.0..HEAD",
-        "Count": 10,
+        "Count": 12,
         "Commits": [
+          {
+            "Text": "Merge pull request #582 from PRODYNA-YASM/feature/add-yasm-metrics",
+            "SHA": "9163b5aa403ef45d8ee0be81ba7b14b2cf663da9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-23T11:49:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/9163b5aa403ef45d8ee0be81ba7b14b2cf663da9"
+          },
+          {
+            "Text": "Add yasm-metrics as project",
+            "SHA": "6578416b34a8c2bc6269f7a6b761dacaa6adcfaf",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-23T11:47:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6578416b34a8c2bc6269f7a6b761dacaa6adcfaf"
+          },
           {
             "Text": "Merge pull request #581 from PRODYNA-YASM/579-update-components-add-yasm-metrics",
             "SHA": "29c26c3c2fac7fdcd8963a988d5ca3606e3d7740",
@@ -1534,6 +1574,10 @@
         "Count": 6,
         "PullRequests": [
           {
+            "Title": "chore(deps-dev): Bump typescript from 5.4.5 to 5.5.4",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/122"
+          },
+          {
             "Title": "chore(deps-dev): Bump cypress from 13.11.0 to 13.13.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/121"
           },
@@ -1552,10 +1596,6 @@
           {
             "Title": "chore(deps): Bump jose from 5.4.0 to 5.6.3",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/115"
-          },
-          {
-            "Title": "chore(deps-dev): Bump typescript from 5.4.5 to 5.5.3",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/111"
           }
         ]
       },
@@ -1575,16 +1615,32 @@
     },
     {
       "Name": "yasm-metrics",
-      "Error": "GET https://api.github.com/repos/prodyna-yasm/yasm-metrics/releases/latest: 404 Not Found []",
-      "Environments": null,
+      "Error": "",
+      "Environments": [
+        {
+          "Name": "dev",
+          "Link": "",
+          "Version": "0.0.1",
+          "IsRelease": true,
+          "IsCurrent": true
+        }
+      ],
       "LatestRelease": {
-        "Tag": "",
+        "Tag": "0.0.1",
         "SHA": "",
-        "Title": "",
-        "Timestamp": "0001-01-01T00:00:00Z",
-        "Link": ""
+        "Title": "Initial release",
+        "Timestamp": "2024-07-24T07:00:51Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/0.0.1"
       },
-      "Releases": null,
+      "Releases": [
+        {
+          "Tag": "0.0.1",
+          "SHA": "",
+          "Title": "Initial release",
+          "Timestamp": "2024-07-24T05:26:33Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/0.0.1"
+        }
+      ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
         "Count": 0,
@@ -1592,20 +1648,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/..HEAD",
-        "Count": 1,
-        "Commits": [
-          {
-            "Text": "Create a README",
-            "SHA": "5845ae0ad36ede8329340856a39f5ddfa54f4ca2",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-07-23T07:12:02Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/5845ae0ad36ede8329340856a39f5ddfa54f4ca2"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/0.0.1..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1714,5 +1759,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-23T07:48:22Z"
+  "LastUpdated": "2024-07-24T07:05:42Z"
 }
