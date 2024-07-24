@@ -822,9 +822,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.37.0",
+          "Version": "1.37.2",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1107,6 +1107,13 @@
           "Version": "0.0.1",
           "IsRelease": true,
           "IsCurrent": true
+        },
+        {
+          "Name": "staging",
+          "Link": "",
+          "Version": "0.0.1",
+          "IsRelease": true,
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1243,5 +1250,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-24T07:53:00Z"
+  "LastUpdated": "2024-07-24T07:57:02Z"
 }
