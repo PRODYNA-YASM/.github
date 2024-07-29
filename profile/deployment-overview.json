@@ -173,6 +173,14 @@
         "Count": 8,
         "PullRequests": [
           {
+            "Title": "chore: bump @types/node from 20.14.0 to 22.0.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/802"
+          },
+          {
+            "Title": "chore: bump memfs from 3.5.3 to 4.11.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/801"
+          },
+          {
             "Title": "chore: bump html-loader from 1.3.2 to 5.1.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/800"
           },
@@ -183,14 +191,6 @@
           {
             "Title": "feat: focus searchbar / implemented keybindings",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/796"
-          },
-          {
-            "Title": "chore: bump memfs from 3.5.3 to 4.9.4",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/795"
-          },
-          {
-            "Title": "chore: bump @types/node from 20.14.0 to 20.14.12",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/794"
           },
           {
             "Title": "chore: bump rimraf from 4.4.1 to 6.0.1",
@@ -1341,5 +1341,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-28T07:32:26Z"
+  "LastUpdated": "2024-07-29T07:32:16Z"
 }

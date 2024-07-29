@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-07-28T07:32:26Z
+Component Status overview. Last update 2024-07-29T07:32:16Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -100,15 +100,15 @@ Component Status overview. Last update 2024-07-28T07:32:26Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (8)
 
+- [chore: bump @types/node from 20.14.0 to 22.0.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/802)
+
+- [chore: bump memfs from 3.5.3 to 4.11.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/801)
+
 - [chore: bump html-loader from 1.3.2 to 5.1.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/800)
 
 - [fix: set default assignee of certification github issue](https://github.com/PRODYNA-YASM/yasm-frontend/pull/798)
 
 - [feat: focus searchbar / implemented keybindings](https://github.com/PRODYNA-YASM/yasm-frontend/pull/796)
-
-- [chore: bump memfs from 3.5.3 to 4.9.4](https://github.com/PRODYNA-YASM/yasm-frontend/pull/795)
-
-- [chore: bump @types/node from 20.14.0 to 20.14.12](https://github.com/PRODYNA-YASM/yasm-frontend/pull/794)
 
 - [chore: bump rimraf from 4.4.1 to 6.0.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/783)
 
