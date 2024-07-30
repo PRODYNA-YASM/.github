@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-07-30T07:32:24Z
+Component Status overview. Last update 2024-07-30T10:14:46Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -17,7 +17,7 @@ Component Status overview. Last update 2024-07-30T07:32:24Z
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.38.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-test/pulls) | 1.30.1 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :green_square: 0 | :green_square: 0 | 0.0.3 |  :green_square: 0.0.3 |  :green_square: 0.0.3 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [11](https://github.com/prodyna-yasm/yasm-metrics/compare/0.0.3..HEAD) | :green_square: 0 | 0.0.3 |  :red_square: dd6bfb7 |  :green_square: 0.0.3 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.1.0 |  :green_square: 1.1.0 |  :green_square: 1.1.0 |  :green_square: 1.1.0 | 
 
 
@@ -562,6 +562,31 @@ Component Status overview. Last update 2024-07-30T07:32:24Z
 
 
 
+### [Commits on main since 0.0.3](https://github.com/prodyna-yasm/yasm-metrics/compare/0.0.3..HEAD) (11)
+
+- [State JSON again](https://github.com/prodyna-yasm/yasm-metrics/commit/dd6bfb70ff2e47b0684ee65a50cc6adc107c4c27) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 10:04:51 +0000 UTC
+
+- [remove odata minimal](https://github.com/prodyna-yasm/yasm-metrics/commit/71128dc288c91e30d0454e90a6258bbadda277fa) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 10:01:10 +0000 UTC
+
+- [Static that this is XML](https://github.com/prodyna-yasm/yasm-metrics/commit/bfa866b94fc2746994a08026b107b028946402ff) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 09:58:41 +0000 UTC
+
+- [Try odata 4](https://github.com/prodyna-yasm/yasm-metrics/commit/6089c605000d44f71ddd1e18bf1b78eab66992c6) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 09:55:26 +0000 UTC
+
+- [Claim to be OData 4.01](https://github.com/prodyna-yasm/yasm-metrics/commit/5d6a57b1406b681eaf6d6ff56b49efdc309fddb7) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 09:52:35 +0000 UTC
+
+- [Back to JSON](https://github.com/prodyna-yasm/yasm-metrics/commit/7a25031db64337c2793ad1a81703de443e8ebe7b) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 09:46:52 +0000 UTC
+
+- [Create XML response](https://github.com/prodyna-yasm/yasm-metrics/commit/c378997f7cb55c52474b8f7dca5fb8aa3352ee1f) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 09:39:16 +0000 UTC
+
+- [Log query parameters and header](https://github.com/prodyna-yasm/yasm-metrics/commit/1cecaf0275be45e42bd1f7acb55d573aa4af5902) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 09:21:52 +0000 UTC
+
+- [Reduce logging](https://github.com/prodyna-yasm/yasm-metrics/commit/950d6de7b81201ae0ef4316799743cccde751ad7) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 09:15:01 +0000 UTC
+
+- [Fix header for XML](https://github.com/prodyna-yasm/yasm-metrics/commit/7ee60a4c25f4a27da0c5e740bcdf30532a7a32f2) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 09:11:40 +0000 UTC
+
+- [Try with minimal headers](https://github.com/prodyna-yasm/yasm-metrics/commit/29e06d2bf3f50cde16e0499653671926db4a82d5) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 09:07:32 +0000 UTC
+
+
 
 
 
@@ -569,9 +594,9 @@ Component Status overview. Last update 2024-07-30T07:32:24Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  0.0.3 |  0.0.3 | 
-| Release |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: | 
+| Version |  dd6bfb7 |  0.0.3 | 
+| Release |  :red_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: | 
 
 
 ### Last releases

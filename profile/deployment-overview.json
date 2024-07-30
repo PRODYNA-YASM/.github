@@ -1218,9 +1218,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0.0.3",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "dd6bfb7",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1268,8 +1268,119 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/0.0.3..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 11,
+        "Commits": [
+          {
+            "Text": "State JSON again",
+            "SHA": "dd6bfb70ff2e47b0684ee65a50cc6adc107c4c27",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-30T10:04:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/dd6bfb70ff2e47b0684ee65a50cc6adc107c4c27"
+          },
+          {
+            "Text": "remove odata minimal",
+            "SHA": "71128dc288c91e30d0454e90a6258bbadda277fa",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-30T10:01:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/71128dc288c91e30d0454e90a6258bbadda277fa"
+          },
+          {
+            "Text": "Static that this is XML",
+            "SHA": "bfa866b94fc2746994a08026b107b028946402ff",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-30T09:58:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/bfa866b94fc2746994a08026b107b028946402ff"
+          },
+          {
+            "Text": "Try odata 4",
+            "SHA": "6089c605000d44f71ddd1e18bf1b78eab66992c6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-30T09:55:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/6089c605000d44f71ddd1e18bf1b78eab66992c6"
+          },
+          {
+            "Text": "Claim to be OData 4.01",
+            "SHA": "5d6a57b1406b681eaf6d6ff56b49efdc309fddb7",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-30T09:52:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/5d6a57b1406b681eaf6d6ff56b49efdc309fddb7"
+          },
+          {
+            "Text": "Back to JSON",
+            "SHA": "7a25031db64337c2793ad1a81703de443e8ebe7b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-30T09:46:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/7a25031db64337c2793ad1a81703de443e8ebe7b"
+          },
+          {
+            "Text": "Create XML response",
+            "SHA": "c378997f7cb55c52474b8f7dca5fb8aa3352ee1f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-30T09:39:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/c378997f7cb55c52474b8f7dca5fb8aa3352ee1f"
+          },
+          {
+            "Text": "Log query parameters and header",
+            "SHA": "1cecaf0275be45e42bd1f7acb55d573aa4af5902",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-30T09:21:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/1cecaf0275be45e42bd1f7acb55d573aa4af5902"
+          },
+          {
+            "Text": "Reduce logging",
+            "SHA": "950d6de7b81201ae0ef4316799743cccde751ad7",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-30T09:15:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/950d6de7b81201ae0ef4316799743cccde751ad7"
+          },
+          {
+            "Text": "Fix header for XML",
+            "SHA": "7ee60a4c25f4a27da0c5e740bcdf30532a7a32f2",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-30T09:11:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/7ee60a4c25f4a27da0c5e740bcdf30532a7a32f2"
+          },
+          {
+            "Text": "Try with minimal headers",
+            "SHA": "29e06d2bf3f50cde16e0499653671926db4a82d5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-30T09:07:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/29e06d2bf3f50cde16e0499653671926db4a82d5"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1394,5 +1505,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-30T07:32:24Z"
+  "LastUpdated": "2024-07-30T10:14:46Z"
 }
