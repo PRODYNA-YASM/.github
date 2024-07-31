@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "fdc1911",
+          "Version": "b7a270d",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -59,43 +59,39 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 7,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "build(deps): bump io.smallrye:jandex-maven-plugin from 3.2.0 to 3.2.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/689"
-          },
-          {
-            "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 4.1.0 to 4.2.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/688"
-          },
           {
             "Title": "build(deps): bump eclipse-temurin from 21.0.2_13-jre-ubi9-minimal to 22.0.2_9-jre-ubi9-minimal",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/687"
-          },
-          {
-            "Title": "build(deps): bump quarkus.platform.version from 3.12.1 to 3.12.3",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/686"
-          },
-          {
-            "Title": "build(deps): bump org.jsoup:jsoup from 1.17.2 to 1.18.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/683"
-          },
-          {
-            "Title": "build(deps): bump org.apache.maven.plugins:maven-surefire-plugin from 3.3.0 to 3.3.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/681"
-          },
-          {
-            "Title": "refactor: change to cypher template for relation updates",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/672"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.37.1..HEAD",
-        "Count": 1,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "build(deps): update deps and clean merge confiicts (#690)",
+            "SHA": "b7a270d7708ddde5fcf332eecca7b34fcb1d887a",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-07-30T15:32:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/b7a270d7708ddde5fcf332eecca7b34fcb1d887a"
+          },
+          {
+            "Text": "refactor: change to cypher template for relation updates (#672)",
+            "SHA": "8d662ab3ced62fdb61361dc8dc45765fe37abfaf",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2024-07-30T15:01:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/8d662ab3ced62fdb61361dc8dc45765fe37abfaf"
+          },
           {
             "Text": "feat: #137 create skillsProfile entity (#684)",
             "SHA": "fdc1911bf1f43129d6b8207d2547b6b5171f1c40",
@@ -123,7 +119,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "143c191",
+          "Version": "7131339",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -174,7 +170,7 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 9,
+        "Count": 7,
         "PullRequests": [
           {
             "Title": "chore: bump fast-xml-parser from 4.4.0 to 4.4.1",
@@ -193,14 +189,6 @@
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/800"
           },
           {
-            "Title": "fix: set default assignee of certification github issue",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/798"
-          },
-          {
-            "Title": "feat: focus searchbar / implemented keybindings",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/796"
-          },
-          {
             "Title": "chore: bump rimraf from 4.4.1 to 6.0.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/783"
           },
@@ -217,8 +205,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.37.2..HEAD",
-        "Count": 8,
+        "Count": 10,
         "Commits": [
+          {
+            "Text": "feat: autofocus searchbar / implement keybindings (#796)",
+            "SHA": "7131339cb0dbc3355aebbbf773b68ec4d5a9c998",
+            "Author": {
+              "name": "mayer-prodyna",
+              "link": "https://github.com/mayer-prodyna"
+            },
+            "Timestamp": "2024-07-30T13:17:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7131339cb0dbc3355aebbbf773b68ec4d5a9c998"
+          },
+          {
+            "Text": "fix: set default assignee of certification github issue (#798)",
+            "SHA": "a94f54f80ad6db57a095d11f7f01829f065046ba",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-07-30T12:09:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/a94f54f80ad6db57a095d11f7f01829f065046ba"
+          },
           {
             "Text": "fix: projects count now shows correct information (#797)",
             "SHA": "143c191567a8581321c96dddf4c0512136173e40",
@@ -1218,7 +1226,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "dd6bfb7",
+          "Version": "6d42716",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1268,8 +1276,38 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/0.0.3..HEAD",
-        "Count": 11,
+        "Count": 14,
         "Commits": [
+          {
+            "Text": "feat: try context link",
+            "SHA": "6d42716035596b4d93a09d45f2c85e27cb26f89c",
+            "Author": {
+              "name": "mayer-prodyna",
+              "link": "https://github.com/mayer-prodyna"
+            },
+            "Timestamp": "2024-07-30T13:08:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/6d42716035596b4d93a09d45f2c85e27cb26f89c"
+          },
+          {
+            "Text": "feat: add useful links",
+            "SHA": "545f0337dde04eeeb41f6b991605b4ea05ad21e7",
+            "Author": {
+              "name": "mayer-prodyna",
+              "link": "https://github.com/mayer-prodyna"
+            },
+            "Timestamp": "2024-07-30T13:07:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/545f0337dde04eeeb41f6b991605b4ea05ad21e7"
+          },
+          {
+            "Text": "Fix header space",
+            "SHA": "e0ac1cf66867c61146a6b6cc006a8414bf7faef4",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-07-30T10:15:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/e0ac1cf66867c61146a6b6cc006a8414bf7faef4"
+          },
           {
             "Text": "State JSON again",
             "SHA": "dd6bfb70ff2e47b0684ee65a50cc6adc107c4c27",
@@ -1505,5 +1543,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-07-30T10:14:46Z"
+  "LastUpdated": "2024-07-31T07:32:24Z"
 }
