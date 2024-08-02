@@ -989,8 +989,17 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump hashicorp/azurerm from 3.113.0 to 3.114.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/586"
+          },
+          {
+            "Title": "Bump hashicorp/azurerm from 3.113.0 to 3.114.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/585"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -1051,8 +1060,8 @@
         "Count": 5,
         "PullRequests": [
           {
-            "Title": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.57 to 3.0.59",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/217"
+            "Title": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.57 to 3.0.60",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/218"
           },
           {
             "Title": "chore: bump io.smallrye.reactive:mutiny from 2.6.0 to 2.6.2",
@@ -1184,8 +1193,16 @@
         "Count": 6,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump @types/node from 20.14.2 to 22.0.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/125"
+            "Title": "chore(deps): Bump cypress/included from 13.11.0 to 13.13.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/128"
+          },
+          {
+            "Title": "chore(deps-dev): Bump cypress from 13.11.0 to 13.13.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/127"
+          },
+          {
+            "Title": "chore(deps-dev): Bump @types/node from 20.14.2 to 22.0.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/126"
           },
           {
             "Title": "chore(deps): Bump @azure/msal-node from 2.7.0 to 2.12.0",
@@ -1194,14 +1211,6 @@
           {
             "Title": "chore(deps-dev): Bump typescript from 5.4.5 to 5.5.4",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/122"
-          },
-          {
-            "Title": "chore(deps-dev): Bump cypress from 13.11.0 to 13.13.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/121"
-          },
-          {
-            "Title": "chore(deps): Bump cypress/included from 13.11.0 to 13.13.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/118"
           },
           {
             "Title": "chore(deps): Bump jose from 5.4.0 to 5.6.3",
@@ -1547,5 +1556,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-01T07:32:32Z"
+  "LastUpdated": "2024-08-02T07:32:21Z"
 }
