@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-08-04T07:32:20Z
+Component Status overview. Last update 2024-08-05T07:32:29Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -13,7 +13,7 @@ Component Status overview. Last update 2024-08-04T07:32:20Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.11.1 |  :green_square: 1.11.1 |  :green_square: 1.11.1 |  :green_square: 1.11.1 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :red_square: 1.26.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [2](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.8.1-1..HEAD) | :green_square: 0 | 8.8.1-1 |  :red_square: 1936296 |  :green_square: 8.8.1-1 |  :green_square: 8.8.1-1 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [4](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.37.2..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.37.2 |  :red_square: 74e871a |  :green_square: 1.37.2 |  :green_square: 1.37.2 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [9](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.37.2..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.37.2 |  :red_square: 964f04a |  :green_square: 1.37.2 |  :green_square: 1.37.2 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.38.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-test/pulls) | 1.30.1 | 
@@ -100,7 +100,7 @@ Component Status overview. Last update 2024-08-04T07:32:20Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
 
-- [chore: bump @types/node from 20.14.0 to 22.0.2](https://github.com/PRODYNA-YASM/yasm-frontend/pull/805)
+- [chore: bump @types/node from 20.14.0 to 22.1.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/806)
 
 - [chore: bump memfs from 3.5.3 to 4.11.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/804)
 
@@ -389,7 +389,17 @@ Component Status overview. Last update 2024-08-04T07:32:20Z
 
 
 
-### [Commits on main since 1.37.2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.37.2..HEAD) (4)
+### [Commits on main since 1.37.2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.37.2..HEAD) (9)
+
+- [Merge pull request #590 from PRODYNA-YASM/589-switch-to-mysql](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/964f04a3547a85633865262cc98af72e8f431064) by [dkrizic](https://github.com/dkrizic) on 2024-08-04 11:23:47 +0000 UTC
+
+- [Use secret values correctly](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e5eabe325f892e9967ce6a0e6bc9aa395008d0a8) by [dkrizic](https://github.com/dkrizic) on 2024-08-04 11:21:50 +0000 UTC
+
+- [Fix secret names II](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/aa540f5555651cacff3e897b97809569f823861c) by [dkrizic](https://github.com/dkrizic) on 2024-08-04 11:18:43 +0000 UTC
+
+- [Fix naming of secret](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/28b0445ce61aa9f5e9ed9cd6cef9ce0873ac1534) by [dkrizic](https://github.com/dkrizic) on 2024-08-04 11:16:19 +0000 UTC
+
+- [Change secret name](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/794887c65ece2a57f691fdd323dee2f3109341fb) by [dkrizic](https://github.com/dkrizic) on 2024-08-04 10:39:59 +0000 UTC
 
 - [Merge pull request #588 from PRODYNA-YASM/587-write-azure-sql-secrets-into-the-integration-namespace](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/74e871aff4514f2a80d9bc79b2d35d33713018c8) by [dkrizic](https://github.com/dkrizic) on 2024-08-02 14:25:35 +0000 UTC
 
@@ -414,7 +424,7 @@ Component Status overview. Last update 2024-08-04T07:32:20Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  74e871a |  1.37.2 |  1.37.2 | 
+| Version |  964f04a |  1.37.2 |  1.37.2 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 

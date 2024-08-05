@@ -177,8 +177,8 @@
         "Count": 7,
         "PullRequests": [
           {
-            "Title": "chore: bump @types/node from 20.14.0 to 22.0.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/805"
+            "Title": "chore: bump @types/node from 20.14.0 to 22.1.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/806"
           },
           {
             "Title": "chore: bump memfs from 3.5.3 to 4.11.1",
@@ -927,7 +927,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "74e871a",
+          "Version": "964f04a",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -993,8 +993,58 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.37.2..HEAD",
-        "Count": 4,
+        "Count": 9,
         "Commits": [
+          {
+            "Text": "Merge pull request #590 from PRODYNA-YASM/589-switch-to-mysql",
+            "SHA": "964f04a3547a85633865262cc98af72e8f431064",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T11:23:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/964f04a3547a85633865262cc98af72e8f431064"
+          },
+          {
+            "Text": "Use secret values correctly",
+            "SHA": "e5eabe325f892e9967ce6a0e6bc9aa395008d0a8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T11:21:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e5eabe325f892e9967ce6a0e6bc9aa395008d0a8"
+          },
+          {
+            "Text": "Fix secret names II",
+            "SHA": "aa540f5555651cacff3e897b97809569f823861c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T11:18:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/aa540f5555651cacff3e897b97809569f823861c"
+          },
+          {
+            "Text": "Fix naming of secret",
+            "SHA": "28b0445ce61aa9f5e9ed9cd6cef9ce0873ac1534",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T11:16:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/28b0445ce61aa9f5e9ed9cd6cef9ce0873ac1534"
+          },
+          {
+            "Text": "Change secret name",
+            "SHA": "794887c65ece2a57f691fdd323dee2f3109341fb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T10:39:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/794887c65ece2a57f691fdd323dee2f3109341fb"
+          },
           {
             "Text": "Merge pull request #588 from PRODYNA-YASM/587-write-azure-sql-secrets-into-the-integration-namespace",
             "SHA": "74e871aff4514f2a80d9bc79b2d35d33713018c8",
@@ -1586,5 +1636,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-04T07:32:20Z"
+  "LastUpdated": "2024-08-05T07:32:29Z"
 }
