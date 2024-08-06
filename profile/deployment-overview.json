@@ -600,9 +600,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.5.3",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "ec311ff",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -657,8 +657,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.5.3..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #110 from PRODYNA-YASM/dependabot/go_modules/golang.org/x/oauth2-0.22.0",
+            "SHA": "ec311ff678358f6a01185359e647fe600c5470c7",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-06T00:07:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/ec311ff678358f6a01185359e647fe600c5470c7"
+          },
+          {
+            "Text": "Bump golang.org/x/oauth2 from 0.21.0 to 0.22.0",
+            "SHA": "deb2167599bc1973a444fbc772e0416f54d53280",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-08-05T23:54:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/deb2167599bc1973a444fbc772e0416f54d53280"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1363,8 +1384,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "change to job that writes the data into a database",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/8"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
@@ -1636,5 +1662,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-05T07:32:29Z"
+  "LastUpdated": "2024-08-06T07:32:12Z"
 }
