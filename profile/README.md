@@ -1,12 +1,12 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-08-06T07:32:12Z
+Component Status overview. Last update 2024-08-07T07:32:35Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-backend/compare/1.37.1..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.37.1 |  :red_square: b7a270d |  :green_square: 1.37.1 |  :green_square: 1.37.1 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [10](https://github.com/prodyna-yasm/yasm-frontend/compare/1.37.2..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.37.2 |  :red_square: 7131339 |  :green_square: 1.37.2 |  :green_square: 1.37.2 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.37.1..HEAD) | :green_square: 0 | 1.37.1 |  :red_square: 3a3c508 |  :green_square: 1.37.1 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.37.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.37.1 |  :red_square: 3a3c508 |  :green_square: 1.37.1 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.37.0..HEAD) | :green_square: 0 | 1.37.0 |  :red_square: b9a3ab9 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [2](https://github.com/prodyna-yasm/yasm-github/compare/1.5.3..HEAD) | :green_square: 0 | 1.5.3 |  :red_square: ec311ff |  :green_square: 1.5.3 |  :green_square: 1.5.3 | 
@@ -17,7 +17,7 @@ Component Status overview. Last update 2024-08-06T07:32:12Z
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.38.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-test/pulls) | 1.30.1 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [14](https://github.com/prodyna-yasm/yasm-metrics/compare/0.0.3..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-metrics/pulls) | 0.0.3 |  :red_square: 6d42716 |  :green_square: 0.0.3 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [30](https://github.com/prodyna-yasm/yasm-metrics/compare/0.0.3..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-metrics/pulls) | 0.0.3 |  :red_square: 489e35a |  :green_square: 0.0.3 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.1.0 |  :green_square: 1.1.0 |  :green_square: 1.1.0 |  :green_square: 1.1.0 | 
 
 
@@ -155,6 +155,11 @@ Component Status overview. Last update 2024-08-06T07:32:12Z
 - [Bump github.com/prodyna-yasm/yasm-api-go from 1.37.0 to 1.38.0](https://github.com/prodyna-yasm/yasm-integration/commit/82a893e2d8f63dfd481f5a493283052f0dc74ad1) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-07-26 01:55:38 +0000 UTC
 
 
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (1)
+
+- [Bump github.com/microsoftgraph/msgraph-sdk-go from 1.46.0 to 1.47.0](https://github.com/PRODYNA-YASM/yasm-integration/pull/476)
 
 
 
@@ -584,42 +589,76 @@ Component Status overview. Last update 2024-08-06T07:32:12Z
 
 
 
-### [Commits on main since 0.0.3](https://github.com/prodyna-yasm/yasm-metrics/compare/0.0.3..HEAD) (14)
+### [Commits on main since 0.0.3](https://github.com/prodyna-yasm/yasm-metrics/compare/0.0.3..HEAD) (30)
 
-- [feat: try context link](https://github.com/prodyna-yasm/yasm-metrics/commit/6d42716035596b4d93a09d45f2c85e27cb26f89c) by [mayer-prodyna](https://github.com/mayer-prodyna) on 2024-07-30 13:08:47 +0000 UTC
+- [Merge pull request #18 from PRODYNA-YASM/dkrizic/fix-configuration](https://github.com/prodyna-yasm/yasm-metrics/commit/489e35a673ea2042e796cbcb35bb773e5df67fcd) by [dkrizic](https://github.com/dkrizic) on 2024-08-06 22:09:31 +0000 UTC
 
-- [feat: add useful links](https://github.com/prodyna-yasm/yasm-metrics/commit/545f0337dde04eeeb41f6b991605b4ea05ad21e7) by [mayer-prodyna](https://github.com/mayer-prodyna) on 2024-07-30 13:07:17 +0000 UTC
+- [Fix days parameter](https://github.com/prodyna-yasm/yasm-metrics/commit/d7205056d0d1d87adc241a55f7714081238d1267) by [dkrizic](https://github.com/dkrizic) on 2024-08-06 22:04:46 +0000 UTC
 
-- [Fix header space](https://github.com/prodyna-yasm/yasm-metrics/commit/e0ac1cf66867c61146a6b6cc006a8414bf7faef4) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 10:15:36 +0000 UTC
+- [Merge pull request #17 from PRODYNA-YASM/dkrizic/fix-configuration](https://github.com/prodyna-yasm/yasm-metrics/commit/f9837c563c1df37805b274fed1e523e58b560465) by [dkrizic](https://github.com/dkrizic) on 2024-08-06 21:49:55 +0000 UTC
 
-- [State JSON again](https://github.com/prodyna-yasm/yasm-metrics/commit/dd6bfb70ff2e47b0684ee65a50cc6adc107c4c27) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 10:04:51 +0000 UTC
+- [emove Notes](https://github.com/prodyna-yasm/yasm-metrics/commit/d5088078f97bda8cb8387e3c3f80165b19422014) by [dkrizic](https://github.com/dkrizic) on 2024-08-06 21:44:22 +0000 UTC
 
-- [remove odata minimal](https://github.com/prodyna-yasm/yasm-metrics/commit/71128dc288c91e30d0454e90a6258bbadda277fa) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 10:01:10 +0000 UTC
+- [Merge pull request #16 from PRODYNA-YASM/dkrizic/fix-configuration](https://github.com/prodyna-yasm/yasm-metrics/commit/b2fa3de4161a735428cdc95b9b5cd3c99861a561) by [dkrizic](https://github.com/dkrizic) on 2024-08-06 21:40:10 +0000 UTC
 
-- [Static that this is XML](https://github.com/prodyna-yasm/yasm-metrics/commit/bfa866b94fc2746994a08026b107b028946402ff) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 09:58:41 +0000 UTC
+- [emove test](https://github.com/prodyna-yasm/yasm-metrics/commit/240374bdec3f74bfd434bb1037993244d9926f25) by [dkrizic](https://github.com/dkrizic) on 2024-08-06 21:35:53 +0000 UTC
 
-- [Try odata 4](https://github.com/prodyna-yasm/yasm-metrics/commit/6089c605000d44f71ddd1e18bf1b78eab66992c6) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 09:55:26 +0000 UTC
+- [Merge pull request #15 from PRODYNA-YASM/dkrizic/fix-configuration](https://github.com/prodyna-yasm/yasm-metrics/commit/322409b756162f7a08de4358cf43abc6b3e364c9) by [dkrizic](https://github.com/dkrizic) on 2024-08-06 21:28:32 +0000 UTC
 
-- [Claim to be OData 4.01](https://github.com/prodyna-yasm/yasm-metrics/commit/5d6a57b1406b681eaf6d6ff56b49efdc309fddb7) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 09:52:35 +0000 UTC
+- [Remove uneeded stuff](https://github.com/prodyna-yasm/yasm-metrics/commit/63e8216542e6193a44b0bb5e7fd71314b12b8f6a) by [dkrizic](https://github.com/dkrizic) on 2024-08-06 21:23:36 +0000 UTC
 
-- [Back to JSON](https://github.com/prodyna-yasm/yasm-metrics/commit/7a25031db64337c2793ad1a81703de443e8ebe7b) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 09:46:52 +0000 UTC
+- [Fix configuration](https://github.com/prodyna-yasm/yasm-metrics/commit/25541d02ce87c0375bae9cf5485c325e3e04656e) by [dkrizic](https://github.com/dkrizic) on 2024-08-06 21:18:55 +0000 UTC
 
-- [Create XML response](https://github.com/prodyna-yasm/yasm-metrics/commit/c378997f7cb55c52474b8f7dca5fb8aa3352ee1f) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 09:39:16 +0000 UTC
+- [Fix workdir](https://github.com/prodyna-yasm/yasm-metrics/commit/534a3c9c365f22f42b53eec9cbda5f4799f19988) by [dkrizic](https://github.com/dkrizic) on 2024-08-06 20:35:34 +0000 UTC
 
-- [Log query parameters and header](https://github.com/prodyna-yasm/yasm-metrics/commit/1cecaf0275be45e42bd1f7acb55d573aa4af5902) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 09:21:52 +0000 UTC
+- [Merge pull request #12 from PRODYNA-YASM/7-change-to-job-that-writes-the-data-into-a-database](https://github.com/prodyna-yasm/yasm-metrics/commit/b433e1f93f7d6565d488b5717aa853a60f64334c) by [dkrizic](https://github.com/dkrizic) on 2024-08-06 19:25:16 +0000 UTC
 
-- [Reduce logging](https://github.com/prodyna-yasm/yasm-metrics/commit/950d6de7b81201ae0ef4316799743cccde751ad7) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 09:15:01 +0000 UTC
+- [Fix labelst](https://github.com/prodyna-yasm/yasm-metrics/commit/ebc51853d57df264bf267cfe5acd02560fab6f4f) by [dkrizic](https://github.com/dkrizic) on 2024-08-06 19:23:17 +0000 UTC
 
-- [Fix header for XML](https://github.com/prodyna-yasm/yasm-metrics/commit/7ee60a4c25f4a27da0c5e740bcdf30532a7a32f2) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 09:11:40 +0000 UTC
+- [Merge pull request #11 from PRODYNA-YASM/7-change-to-job-that-writes-the-data-into-a-database](https://github.com/prodyna-yasm/yasm-metrics/commit/88dcfb2dc381e81a9fa44b4b68fe26dd6e550276) by [dkrizic](https://github.com/dkrizic) on 2024-08-06 19:20:16 +0000 UTC
 
-- [Try with minimal headers](https://github.com/prodyna-yasm/yasm-metrics/commit/29e06d2bf3f50cde16e0499653671926db4a82d5) by [dkrizic](https://github.com/dkrizic) on 2024-07-30 09:07:32 +0000 UTC
+- [Deploy using the pipeline](https://github.com/prodyna-yasm/yasm-metrics/commit/256a7457412e44cce6ce8cbb3e0ba9c63d0c4344) by [dkrizic](https://github.com/dkrizic) on 2024-08-06 19:17:38 +0000 UTC
+
+- [Merge pull request #10 from PRODYNA-YASM/7-change-to-job-that-writes-the-data-into-a-database](https://github.com/prodyna-yasm/yasm-metrics/commit/c4b8658ca214a0e72ff0ccabba41654d887f1824) by [dkrizic](https://github.com/dkrizic) on 2024-08-06 16:14:26 +0000 UTC
+
+- [Ediging cronjob](https://github.com/prodyna-yasm/yasm-metrics/commit/c145e7029eaea3f2a6657e1b6b189933e9e19e2f) by [dkrizic](https://github.com/dkrizic) on 2024-08-06 16:07:18 +0000 UTC
+
+- [Merge pull request #8 from PRODYNA-YASM/7-change-to-job-that-writes-the-data-into-a-database](https://github.com/prodyna-yasm/yasm-metrics/commit/3e5e0b2e76f5291fc483e102492233992ab0a0b8) by [dkrizic](https://github.com/dkrizic) on 2024-08-06 13:02:07 +0000 UTC
+
+- [Actually build always, preparing to go for cronjob](https://github.com/prodyna-yasm/yasm-metrics/commit/74d274ae589de353d1b0b0e65eb19401932b56a9) by [dkrizic](https://github.com/dkrizic) on 2024-08-06 07:25:19 +0000 UTC
+
+- [Push only if we are on the main branch](https://github.com/prodyna-yasm/yasm-metrics/commit/06c680190a2ffc190d5cafd49756ddcdbe07b124) by [dkrizic](https://github.com/dkrizic) on 2024-08-06 07:20:47 +0000 UTC
+
+- [Fix re-creation of missing information](https://github.com/prodyna-yasm/yasm-metrics/commit/9a83d09a60dae2f81b4e08ac875a1ba669e96bda) by [dkrizic](https://github.com/dkrizic) on 2024-08-05 12:23:01 +0000 UTC
+
+- [Creating metrics into the table](https://github.com/prodyna-yasm/yasm-metrics/commit/b2f4d10703bb65af9a732236b63c433bc1c79537) by [dkrizic](https://github.com/dkrizic) on 2024-08-05 11:51:54 +0000 UTC
+
+- [Add attributes of parameters](https://github.com/prodyna-yasm/yasm-metrics/commit/db67f871b29845fe7525b389a84828f59d2b4aaa) by [dkrizic](https://github.com/dkrizic) on 2024-08-05 11:19:40 +0000 UTC
+
+- [clean up attributes](https://github.com/prodyna-yasm/yasm-metrics/commit/428420ed087d7487372a56ea01b62d403a065bee) by [dkrizic](https://github.com/dkrizic) on 2024-08-05 11:05:15 +0000 UTC
+
+- [Fix tracing](https://github.com/prodyna-yasm/yasm-metrics/commit/4c665da7669c85e8f8bcc77637b8c003bbe57f0f) by [dkrizic](https://github.com/dkrizic) on 2024-08-05 10:56:23 +0000 UTC
+
+- [Ensure skills](https://github.com/prodyna-yasm/yasm-metrics/commit/56495feac6c7bb2b930fd1ba194b2c30ab15c442) by [dkrizic](https://github.com/dkrizic) on 2024-08-05 09:56:51 +0000 UTC
+
+- [Ensuring roles and region](https://github.com/prodyna-yasm/yasm-metrics/commit/7de149be66c600c0f91f22b0ecc0b9aeea6fd673) by [dkrizic](https://github.com/dkrizic) on 2024-08-05 09:54:25 +0000 UTC
+
+- [Drop tables always](https://github.com/prodyna-yasm/yasm-metrics/commit/56e2596d4f72d0908a7cf1daed70f3e935c18e8f) by [dkrizic](https://github.com/dkrizic) on 2024-08-05 09:41:36 +0000 UTC
+
+- [Ignore if there is no update needed](https://github.com/prodyna-yasm/yasm-metrics/commit/4b5dc6346b002a342a41f8776038a6082e9dea9c) by [dkrizic](https://github.com/dkrizic) on 2024-08-05 09:28:19 +0000 UTC
+
+- [Schema migration](https://github.com/prodyna-yasm/yasm-metrics/commit/2a132b64a56ade4a18ba1fef8e0838f35e423bba) by [dkrizic](https://github.com/dkrizic) on 2024-08-04 20:58:56 +0000 UTC
+
+- [Fixing spans](https://github.com/prodyna-yasm/yasm-metrics/commit/bbc6e6e19283bf3d544ca86c858844fdee67823c) by [dkrizic](https://github.com/dkrizic) on 2024-08-04 20:07:29 +0000 UTC
 
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-metrics/pulls) (1)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-metrics/pulls) (2)
 
-- [change to job that writes the data into a database](https://github.com/PRODYNA-YASM/yasm-metrics/pull/8)
+- [Bump github.com/go-sql-driver/mysql from 1.5.0 to 1.8.1](https://github.com/PRODYNA-YASM/yasm-metrics/pull/20)
+
+- [Bump golang from 1.22.5-alpine3.20 to 1.22.6-alpine3.20](https://github.com/PRODYNA-YASM/yasm-metrics/pull/19)
 
 
 
@@ -627,7 +666,7 @@ Component Status overview. Last update 2024-08-06T07:32:12Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  6d42716 |  0.0.3 | 
+| Version |  489e35a |  0.0.3 | 
 | Release |  :red_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: | 
 

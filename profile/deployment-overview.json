@@ -378,8 +378,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.46.0 to 1.47.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/476"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -1340,7 +1345,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "6d42716",
+          "Version": "489e35a",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1384,158 +1389,322 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
           {
-            "Title": "change to job that writes the data into a database",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/8"
+            "Title": "Bump github.com/go-sql-driver/mysql from 1.5.0 to 1.8.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/20"
+          },
+          {
+            "Title": "Bump golang from 1.22.5-alpine3.20 to 1.22.6-alpine3.20",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/19"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/0.0.3..HEAD",
-        "Count": 14,
+        "Count": 30,
         "Commits": [
           {
-            "Text": "feat: try context link",
-            "SHA": "6d42716035596b4d93a09d45f2c85e27cb26f89c",
-            "Author": {
-              "name": "mayer-prodyna",
-              "link": "https://github.com/mayer-prodyna"
-            },
-            "Timestamp": "2024-07-30T13:08:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/6d42716035596b4d93a09d45f2c85e27cb26f89c"
-          },
-          {
-            "Text": "feat: add useful links",
-            "SHA": "545f0337dde04eeeb41f6b991605b4ea05ad21e7",
-            "Author": {
-              "name": "mayer-prodyna",
-              "link": "https://github.com/mayer-prodyna"
-            },
-            "Timestamp": "2024-07-30T13:07:17Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/545f0337dde04eeeb41f6b991605b4ea05ad21e7"
-          },
-          {
-            "Text": "Fix header space",
-            "SHA": "e0ac1cf66867c61146a6b6cc006a8414bf7faef4",
+            "Text": "Merge pull request #18 from PRODYNA-YASM/dkrizic/fix-configuration",
+            "SHA": "489e35a673ea2042e796cbcb35bb773e5df67fcd",
             "Author": {
               "name": "dkrizic",
               "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2024-07-30T10:15:36Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/e0ac1cf66867c61146a6b6cc006a8414bf7faef4"
+            "Timestamp": "2024-08-06T22:09:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/489e35a673ea2042e796cbcb35bb773e5df67fcd"
           },
           {
-            "Text": "State JSON again",
-            "SHA": "dd6bfb70ff2e47b0684ee65a50cc6adc107c4c27",
+            "Text": "Fix days parameter",
+            "SHA": "d7205056d0d1d87adc241a55f7714081238d1267",
             "Author": {
               "name": "dkrizic",
               "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2024-07-30T10:04:51Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/dd6bfb70ff2e47b0684ee65a50cc6adc107c4c27"
+            "Timestamp": "2024-08-06T22:04:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/d7205056d0d1d87adc241a55f7714081238d1267"
           },
           {
-            "Text": "remove odata minimal",
-            "SHA": "71128dc288c91e30d0454e90a6258bbadda277fa",
+            "Text": "Merge pull request #17 from PRODYNA-YASM/dkrizic/fix-configuration",
+            "SHA": "f9837c563c1df37805b274fed1e523e58b560465",
             "Author": {
               "name": "dkrizic",
               "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2024-07-30T10:01:10Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/71128dc288c91e30d0454e90a6258bbadda277fa"
+            "Timestamp": "2024-08-06T21:49:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/f9837c563c1df37805b274fed1e523e58b560465"
           },
           {
-            "Text": "Static that this is XML",
-            "SHA": "bfa866b94fc2746994a08026b107b028946402ff",
+            "Text": "emove Notes",
+            "SHA": "d5088078f97bda8cb8387e3c3f80165b19422014",
             "Author": {
               "name": "dkrizic",
               "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2024-07-30T09:58:41Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/bfa866b94fc2746994a08026b107b028946402ff"
+            "Timestamp": "2024-08-06T21:44:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/d5088078f97bda8cb8387e3c3f80165b19422014"
           },
           {
-            "Text": "Try odata 4",
-            "SHA": "6089c605000d44f71ddd1e18bf1b78eab66992c6",
+            "Text": "Merge pull request #16 from PRODYNA-YASM/dkrizic/fix-configuration",
+            "SHA": "b2fa3de4161a735428cdc95b9b5cd3c99861a561",
             "Author": {
               "name": "dkrizic",
               "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2024-07-30T09:55:26Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/6089c605000d44f71ddd1e18bf1b78eab66992c6"
+            "Timestamp": "2024-08-06T21:40:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/b2fa3de4161a735428cdc95b9b5cd3c99861a561"
           },
           {
-            "Text": "Claim to be OData 4.01",
-            "SHA": "5d6a57b1406b681eaf6d6ff56b49efdc309fddb7",
+            "Text": "emove test",
+            "SHA": "240374bdec3f74bfd434bb1037993244d9926f25",
             "Author": {
               "name": "dkrizic",
               "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2024-07-30T09:52:35Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/5d6a57b1406b681eaf6d6ff56b49efdc309fddb7"
+            "Timestamp": "2024-08-06T21:35:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/240374bdec3f74bfd434bb1037993244d9926f25"
           },
           {
-            "Text": "Back to JSON",
-            "SHA": "7a25031db64337c2793ad1a81703de443e8ebe7b",
+            "Text": "Merge pull request #15 from PRODYNA-YASM/dkrizic/fix-configuration",
+            "SHA": "322409b756162f7a08de4358cf43abc6b3e364c9",
             "Author": {
               "name": "dkrizic",
               "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2024-07-30T09:46:52Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/7a25031db64337c2793ad1a81703de443e8ebe7b"
+            "Timestamp": "2024-08-06T21:28:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/322409b756162f7a08de4358cf43abc6b3e364c9"
           },
           {
-            "Text": "Create XML response",
-            "SHA": "c378997f7cb55c52474b8f7dca5fb8aa3352ee1f",
+            "Text": "Remove uneeded stuff",
+            "SHA": "63e8216542e6193a44b0bb5e7fd71314b12b8f6a",
             "Author": {
               "name": "dkrizic",
               "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2024-07-30T09:39:16Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/c378997f7cb55c52474b8f7dca5fb8aa3352ee1f"
+            "Timestamp": "2024-08-06T21:23:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/63e8216542e6193a44b0bb5e7fd71314b12b8f6a"
           },
           {
-            "Text": "Log query parameters and header",
-            "SHA": "1cecaf0275be45e42bd1f7acb55d573aa4af5902",
+            "Text": "Fix configuration",
+            "SHA": "25541d02ce87c0375bae9cf5485c325e3e04656e",
             "Author": {
               "name": "dkrizic",
               "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2024-07-30T09:21:52Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/1cecaf0275be45e42bd1f7acb55d573aa4af5902"
+            "Timestamp": "2024-08-06T21:18:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/25541d02ce87c0375bae9cf5485c325e3e04656e"
           },
           {
-            "Text": "Reduce logging",
-            "SHA": "950d6de7b81201ae0ef4316799743cccde751ad7",
+            "Text": "Fix workdir",
+            "SHA": "534a3c9c365f22f42b53eec9cbda5f4799f19988",
             "Author": {
               "name": "dkrizic",
               "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2024-07-30T09:15:01Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/950d6de7b81201ae0ef4316799743cccde751ad7"
+            "Timestamp": "2024-08-06T20:35:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/534a3c9c365f22f42b53eec9cbda5f4799f19988"
           },
           {
-            "Text": "Fix header for XML",
-            "SHA": "7ee60a4c25f4a27da0c5e740bcdf30532a7a32f2",
+            "Text": "Merge pull request #12 from PRODYNA-YASM/7-change-to-job-that-writes-the-data-into-a-database",
+            "SHA": "b433e1f93f7d6565d488b5717aa853a60f64334c",
             "Author": {
               "name": "dkrizic",
               "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2024-07-30T09:11:40Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/7ee60a4c25f4a27da0c5e740bcdf30532a7a32f2"
+            "Timestamp": "2024-08-06T19:25:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/b433e1f93f7d6565d488b5717aa853a60f64334c"
           },
           {
-            "Text": "Try with minimal headers",
-            "SHA": "29e06d2bf3f50cde16e0499653671926db4a82d5",
+            "Text": "Fix labelst",
+            "SHA": "ebc51853d57df264bf267cfe5acd02560fab6f4f",
             "Author": {
               "name": "dkrizic",
               "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2024-07-30T09:07:32Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/29e06d2bf3f50cde16e0499653671926db4a82d5"
+            "Timestamp": "2024-08-06T19:23:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/ebc51853d57df264bf267cfe5acd02560fab6f4f"
+          },
+          {
+            "Text": "Merge pull request #11 from PRODYNA-YASM/7-change-to-job-that-writes-the-data-into-a-database",
+            "SHA": "88dcfb2dc381e81a9fa44b4b68fe26dd6e550276",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-06T19:20:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/88dcfb2dc381e81a9fa44b4b68fe26dd6e550276"
+          },
+          {
+            "Text": "Deploy using the pipeline",
+            "SHA": "256a7457412e44cce6ce8cbb3e0ba9c63d0c4344",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-06T19:17:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/256a7457412e44cce6ce8cbb3e0ba9c63d0c4344"
+          },
+          {
+            "Text": "Merge pull request #10 from PRODYNA-YASM/7-change-to-job-that-writes-the-data-into-a-database",
+            "SHA": "c4b8658ca214a0e72ff0ccabba41654d887f1824",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-06T16:14:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/c4b8658ca214a0e72ff0ccabba41654d887f1824"
+          },
+          {
+            "Text": "Ediging cronjob",
+            "SHA": "c145e7029eaea3f2a6657e1b6b189933e9e19e2f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-06T16:07:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/c145e7029eaea3f2a6657e1b6b189933e9e19e2f"
+          },
+          {
+            "Text": "Merge pull request #8 from PRODYNA-YASM/7-change-to-job-that-writes-the-data-into-a-database",
+            "SHA": "3e5e0b2e76f5291fc483e102492233992ab0a0b8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-06T13:02:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/3e5e0b2e76f5291fc483e102492233992ab0a0b8"
+          },
+          {
+            "Text": "Actually build always, preparing to go for cronjob",
+            "SHA": "74d274ae589de353d1b0b0e65eb19401932b56a9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-06T07:25:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/74d274ae589de353d1b0b0e65eb19401932b56a9"
+          },
+          {
+            "Text": "Push only if we are on the main branch",
+            "SHA": "06c680190a2ffc190d5cafd49756ddcdbe07b124",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-06T07:20:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/06c680190a2ffc190d5cafd49756ddcdbe07b124"
+          },
+          {
+            "Text": "Fix re-creation of missing information",
+            "SHA": "9a83d09a60dae2f81b4e08ac875a1ba669e96bda",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-05T12:23:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/9a83d09a60dae2f81b4e08ac875a1ba669e96bda"
+          },
+          {
+            "Text": "Creating metrics into the table",
+            "SHA": "b2f4d10703bb65af9a732236b63c433bc1c79537",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-05T11:51:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/b2f4d10703bb65af9a732236b63c433bc1c79537"
+          },
+          {
+            "Text": "Add attributes of parameters",
+            "SHA": "db67f871b29845fe7525b389a84828f59d2b4aaa",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-05T11:19:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/db67f871b29845fe7525b389a84828f59d2b4aaa"
+          },
+          {
+            "Text": "clean up attributes",
+            "SHA": "428420ed087d7487372a56ea01b62d403a065bee",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-05T11:05:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/428420ed087d7487372a56ea01b62d403a065bee"
+          },
+          {
+            "Text": "Fix tracing",
+            "SHA": "4c665da7669c85e8f8bcc77637b8c003bbe57f0f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-05T10:56:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/4c665da7669c85e8f8bcc77637b8c003bbe57f0f"
+          },
+          {
+            "Text": "Ensure skills",
+            "SHA": "56495feac6c7bb2b930fd1ba194b2c30ab15c442",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-05T09:56:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/56495feac6c7bb2b930fd1ba194b2c30ab15c442"
+          },
+          {
+            "Text": "Ensuring roles and region",
+            "SHA": "7de149be66c600c0f91f22b0ecc0b9aeea6fd673",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-05T09:54:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/7de149be66c600c0f91f22b0ecc0b9aeea6fd673"
+          },
+          {
+            "Text": "Drop tables always",
+            "SHA": "56e2596d4f72d0908a7cf1daed70f3e935c18e8f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-05T09:41:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/56e2596d4f72d0908a7cf1daed70f3e935c18e8f"
+          },
+          {
+            "Text": "Ignore if there is no update needed",
+            "SHA": "4b5dc6346b002a342a41f8776038a6082e9dea9c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-05T09:28:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/4b5dc6346b002a342a41f8776038a6082e9dea9c"
+          },
+          {
+            "Text": "Schema migration",
+            "SHA": "2a132b64a56ade4a18ba1fef8e0838f35e423bba",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T20:58:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/2a132b64a56ade4a18ba1fef8e0838f35e423bba"
+          },
+          {
+            "Text": "Fixing spans",
+            "SHA": "bbc6e6e19283bf3d544ca86c858844fdee67823c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T20:07:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/bbc6e6e19283bf3d544ca86c858844fdee67823c"
           }
         ]
       },
@@ -1662,5 +1831,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-06T07:32:12Z"
+  "LastUpdated": "2024-08-07T07:32:35Z"
 }
