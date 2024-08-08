@@ -373,16 +373,16 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "6d9b7df",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.16.2",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.16.1",
+          "Version": "1.16.2",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -437,8 +437,14 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #215 from PRODYNA-YASM/feature/update-libs",
+            "Timestamp": "2024-08-08T12:29:58Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/10302091956"
+          }
+        ]
       }
     },
     {
@@ -448,16 +454,16 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "68c4ad4",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.5.4",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.5.3",
+          "Version": "1.5.4",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -512,8 +518,14 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #111 from PRODYNA-YASM/feature/update-libs",
+            "Timestamp": "2024-08-08T12:30:43Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-github/actions/runs/10302103914"
+          }
+        ]
       }
     },
     {
@@ -530,16 +542,16 @@
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.11.1",
+          "Version": "1.11.2",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.11.1",
+          "Version": "1.11.2",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1241,5 +1253,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-08T12:31:55Z"
+  "LastUpdated": "2024-08-08T12:33:45Z"
 }
