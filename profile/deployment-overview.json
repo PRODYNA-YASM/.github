@@ -1212,16 +1212,16 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "592f714",
-          "IsRelease": false,
+          "Version": "1.0.0",
+          "IsRelease": true,
           "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "0.2.0",
+          "Version": "1.0.0",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         },
         {
           "Name": "prod",
@@ -1347,8 +1347,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/actions?query=is%3Awaiting",
-        "Count": 4,
+        "Count": 5,
         "Workflows": [
+          {
+            "Name": "Merge pull request #27 from PRODYNA-YASM/26-remove-old-service-code",
+            "Timestamp": "2024-08-08T12:06:47Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/10301728330"
+          },
           {
             "Name": "Set days to 90",
             "Timestamp": "2024-08-07T16:12:33Z",
@@ -1471,5 +1476,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-08T12:07:51Z"
+  "LastUpdated": "2024-08-08T12:09:17Z"
 }
