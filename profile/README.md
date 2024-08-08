@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-08-08T12:14:32Z
+Component Status overview. Last update 2024-08-08T12:18:04Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 |  :red_square: 1.37.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [10](https://github.com/prodyna-yasm/yasm-frontend/compare/1.37.2..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.37.2 |  :red_square: 7131339 |  :green_square: 1.37.2 |  :green_square: 1.37.2 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [11](https://github.com/prodyna-yasm/yasm-frontend/compare/1.37.2..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.37.2 |  :red_square: 7131339 |  :green_square: 1.37.2 |  :green_square: 1.37.2 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.37.0..HEAD) | :green_square: 0 | 1.37.0 |  :red_square: b9a3ab9 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
@@ -69,7 +69,9 @@ Component Status overview. Last update 2024-08-08T12:14:32Z
 
 
 
-### [Commits on main since 1.37.2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.37.2..HEAD) (10)
+### [Commits on main since 1.37.2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.37.2..HEAD) (11)
+
+- [chore: update api 1.38.0 (#807)](https://github.com/prodyna-yasm/yasm-frontend/commit/cb30310a767ceb07167dd9327675dda7cbf41917) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2024-08-08 12:17:26 +0000 UTC
 
 - [feat: autofocus searchbar / implement keybindings (#796)](https://github.com/prodyna-yasm/yasm-frontend/commit/7131339cb0dbc3355aebbbf773b68ec4d5a9c998) by [mayer-prodyna](https://github.com/mayer-prodyna) on 2024-07-30 13:17:52 +0000 UTC
 
@@ -94,9 +96,7 @@ Component Status overview. Last update 2024-08-08T12:14:32Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (8)
-
-- [chore: update api 1.38.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/807)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
 
 - [chore: bump @types/node from 20.14.0 to 22.1.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/806)
 
