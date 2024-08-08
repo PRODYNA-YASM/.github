@@ -98,14 +98,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "7131339",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.38.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.37.2",
+          "Version": "1.38.0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -114,17 +114,24 @@
           "Link": "",
           "Version": "1.37.2",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.37.2",
+        "Tag": "1.38.0",
         "SHA": "",
-        "Title": "User can now delete enddate in Project Participation if it was defined previously and Select all Projects checkbox works even when projects are not loaded yet",
-        "Timestamp": "2024-07-12T11:30:37Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.37.2"
+        "Title": "Focus searchbar and implement keybindings, Fixed correct date format, Show unrounded hours in availability, Improved datepicker behavior, Fixed styling in Project Participation, Moved Breadcrumbs to header, Project counts are now based on yasm data, Set default assignee of certification github issue",
+        "Timestamp": "2024-08-08T12:18:02Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.38.0"
       },
       "Releases": [
+        {
+          "Tag": "1.38.0",
+          "SHA": "",
+          "Title": "Focus searchbar and implement keybindings, Fixed correct date format, Show unrounded hours in availability, Improved datepicker behavior, Fixed styling in Project Participation, Moved Breadcrumbs to header, Project counts are now based on yasm data, Set default assignee of certification github issue",
+          "Timestamp": "2024-08-08T12:17:26Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.38.0"
+        },
         {
           "Tag": "1.37.2",
           "SHA": "",
@@ -138,13 +145,6 @@
           "Title": "Fixed issue can not edit Project description, Fixed issue can not remove employee from a project, Fixed issue: Deleting organization show error Snackbar, Fixed issue: When projects are not finished loading while exporting PDF, this leads to error",
           "Timestamp": "2024-07-10T11:10:58Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.37.1"
-        },
-        {
-          "Tag": "1.37.0",
-          "SHA": "",
-          "Title": "Search and filter office from main SearchBar, Reworked Project-Participation View, Add sorting to Interests, Industries and Certifications and Show number of direct and related search results",
-          "Timestamp": "2024-07-05T13:00:47Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.37.0"
         }
       ],
       "PullRequests": {
@@ -183,127 +183,21 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.37.2..HEAD",
-        "Count": 11,
-        "Commits": [
-          {
-            "Text": "chore: update api 1.38.0 (#807)",
-            "SHA": "cb30310a767ceb07167dd9327675dda7cbf41917",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-08-08T12:17:26Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/cb30310a767ceb07167dd9327675dda7cbf41917"
-          },
-          {
-            "Text": "feat: autofocus searchbar / implement keybindings (#796)",
-            "SHA": "7131339cb0dbc3355aebbbf773b68ec4d5a9c998",
-            "Author": {
-              "name": "mayer-prodyna",
-              "link": "https://github.com/mayer-prodyna"
-            },
-            "Timestamp": "2024-07-30T13:17:52Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7131339cb0dbc3355aebbbf773b68ec4d5a9c998"
-          },
-          {
-            "Text": "fix: set default assignee of certification github issue (#798)",
-            "SHA": "a94f54f80ad6db57a095d11f7f01829f065046ba",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-07-30T12:09:04Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/a94f54f80ad6db57a095d11f7f01829f065046ba"
-          },
-          {
-            "Text": "fix: projects count now shows correct information (#797)",
-            "SHA": "143c191567a8581321c96dddf4c0512136173e40",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-07-25T13:14:03Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/143c191567a8581321c96dddf4c0512136173e40"
-          },
-          {
-            "Text": "fix: github handle sometimes not showing (#799)",
-            "SHA": "6b4a14bcb7781274b674dd22a9a6e000dabb2463",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-07-25T13:13:23Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/6b4a14bcb7781274b674dd22a9a6e000dabb2463"
-          },
-          {
-            "Text": "feat: shift breadcrumbs to header (#793)",
-            "SHA": "5b0ac27679d331abf063ef5fadd4d74df6d7bc07",
-            "Author": {
-              "name": "readmey",
-              "link": "https://github.com/readmey"
-            },
-            "Timestamp": "2024-07-25T09:46:42Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/5b0ac27679d331abf063ef5fadd4d74df6d7bc07"
-          },
-          {
-            "Text": "chore: bump prodyna/changelog-json from 1.4 to 1.5 (#778)",
-            "SHA": "130f22652f808f5ad059da85f14819eda6e43236",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-07-24T13:24:32Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/130f22652f808f5ad059da85f14819eda6e43236"
-          },
-          {
-            "Text": "fix: styling of text-container in editor (#790)",
-            "SHA": "d5ddaa54654949d75c37ef3ea434f6ea28e4502e",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-07-18T14:32:45Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d5ddaa54654949d75c37ef3ea434f6ea28e4502e"
-          },
-          {
-            "Text": "fix: change the default view (year then month) of datepicker (#789)",
-            "SHA": "d2e8eac06aa573fc1ea67b36da9deb178072789a",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-07-18T14:32:29Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d2e8eac06aa573fc1ea67b36da9deb178072789a"
-          },
-          {
-            "Text": "fix: show unrounded hours in availability and hide employment type (#787)",
-            "SHA": "5995f063a70d83a78877ec95c14a1c30db47d7d5",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-07-18T14:32:18Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/5995f063a70d83a78877ec95c14a1c30db47d7d5"
-          },
-          {
-            "Text": "fix: show correct date format in changelog e.g. 31 Jan 2024 (#786)",
-            "SHA": "34a1b3c4f52a78873d797308646b32c61967b112",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2024-07-18T14:32:05Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/34a1b3c4f52a78873d797308646b32c61967b112"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.38.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "chore: update api 1.38.0 (#807)",
+            "Timestamp": "2024-08-08T12:18:04Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/10301908224"
+          },
           {
             "Name": "fix: cant remove employee from project, cant edit project description…",
             "Timestamp": "2024-07-10T11:26:10Z",
@@ -398,7 +292,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "b9a3ab9",
+          "Version": "61ddb55",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -407,24 +301,31 @@
           "Link": "",
           "Version": "1.37.0",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         },
         {
           "Name": "prod",
           "Link": "",
           "Version": "1.37.0",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.37.0",
+        "Tag": "1.38.0",
         "SHA": "",
-        "Title": "Using API 1.37.0, Update to otelhttp",
-        "Timestamp": "2024-07-05T11:57:57Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.37.0"
+        "Title": "Using API 1.38",
+        "Timestamp": "2024-08-08T12:24:53Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.38.0"
       },
       "Releases": [
+        {
+          "Tag": "1.38.0",
+          "SHA": "",
+          "Title": "Using API 1.38",
+          "Timestamp": "2024-08-08T12:22:07Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.38.0"
+        },
         {
           "Tag": "1.37.0",
           "SHA": "",
@@ -438,13 +339,6 @@
           "Title": "Using API 1.36, some components updated",
           "Timestamp": "2024-07-03T08:04:35Z",
           "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.36.0"
-        },
-        {
-          "Tag": "1.33.0",
-          "SHA": "",
-          "Title": "Using API 1.33",
-          "Timestamp": "2024-06-21T09:26:13Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.33.0"
         }
       ],
       "PullRequests": {
@@ -454,30 +348,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.37.0..HEAD",
-        "Count": 2,
-        "Commits": [
-          {
-            "Text": "Merge pull request #362 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.38.0",
-            "SHA": "b9a3ab9256b4b0caf59e35b1c14eeed9ece4562e",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-07-25T23:05:16Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/b9a3ab9256b4b0caf59e35b1c14eeed9ece4562e"
-          },
-          {
-            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.37.0 to 1.38.0",
-            "SHA": "4f775502daf0c4e5a96e19cd3dfee349414ad2a7",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-07-25T21:42:40Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/4f775502daf0c4e5a96e19cd3dfee349414ad2a7"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.38.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -545,8 +418,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Update libs",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/215"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
@@ -620,8 +498,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Updating the libs",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/111"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
@@ -716,8 +599,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Update libs",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/139"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
@@ -1410,5 +1298,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-08T12:18:04Z"
+  "LastUpdated": "2024-08-08T12:26:37Z"
 }
