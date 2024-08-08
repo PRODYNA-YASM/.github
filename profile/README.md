@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-08-08T12:05:51Z
+Component Status overview. Last update 2024-08-08T12:07:51Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -587,11 +587,11 @@ Component Status overview. Last update 2024-08-08T12:05:51Z
 
 ### Last releases
 
+- [First full version](https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.0.0) on 2024-08-08 11:08:09 +0000 UTC
+
 - [Fix pipeline](https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/0.2.0) on 2024-08-07 21:50:10 +0000 UTC
 
 - [Service version](https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/0.1.0) on 2024-08-07 08:10:45 +0000 UTC
-
-- [Now will metrics as real data](https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/0.0.3) on 2024-07-29 19:09:34 +0000 UTC
 
 
 

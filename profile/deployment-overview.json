@@ -1240,6 +1240,13 @@
       },
       "Releases": [
         {
+          "Tag": "1.0.0",
+          "SHA": "",
+          "Title": "First full version",
+          "Timestamp": "2024-08-08T11:08:09Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.0.0"
+        },
+        {
           "Tag": "0.2.0",
           "SHA": "",
           "Title": "Fix pipeline",
@@ -1252,13 +1259,6 @@
           "Title": "Service version",
           "Timestamp": "2024-08-07T08:10:45Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/0.1.0"
-        },
-        {
-          "Tag": "0.0.3",
-          "SHA": "",
-          "Title": "Now will metrics as real data",
-          "Timestamp": "2024-07-29T19:09:34Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/0.0.3"
         }
       ],
       "PullRequests": {
@@ -1471,5 +1471,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-08T12:05:51Z"
+  "LastUpdated": "2024-08-08T12:07:51Z"
 }
