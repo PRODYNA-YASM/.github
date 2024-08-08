@@ -8,14 +8,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "b7a270d",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.38.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.37.1",
+          "Version": "1.38.0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -24,17 +24,24 @@
           "Link": "",
           "Version": "1.37.1",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.37.1",
+        "Tag": "1.38.0",
         "SHA": "",
-        "Title": "Fix sort all scores descending, fix user cant delete project participation",
-        "Timestamp": "2024-07-10T11:20:20Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.37.1"
+        "Title": "Create SkillProfile Entity and refactor cypher template",
+        "Timestamp": "2024-08-08T11:58:06Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.38.0"
       },
       "Releases": [
+        {
+          "Tag": "1.38.0",
+          "SHA": "",
+          "Title": "Create SkillProfile Entity and refactor cypher template",
+          "Timestamp": "2024-07-30T15:32:27Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.38.0"
+        },
         {
           "Tag": "1.37.1",
           "SHA": "",
@@ -48,13 +55,6 @@
           "Title": "Show the number of direct and related search results, Search for offices in global search, Update audit relation and refactor Experience to SkillGroups in ProjectParticipation",
           "Timestamp": "2024-07-05T07:25:49Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.37.0"
-        },
-        {
-          "Tag": "1.34.0",
-          "SHA": "",
-          "Title": "Added audit log, added person skill statistic endpoint, add role-check-security in BE to edit entities",
-          "Timestamp": "2024-06-24T11:04:59Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.34.0"
         }
       ],
       "PullRequests": {
@@ -73,47 +73,22 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.37.1..HEAD",
-        "Count": 3,
-        "Commits": [
-          {
-            "Text": "build(deps): update deps and clean merge confiicts (#690)",
-            "SHA": "b7a270d7708ddde5fcf332eecca7b34fcb1d887a",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-07-30T15:32:27Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/b7a270d7708ddde5fcf332eecca7b34fcb1d887a"
-          },
-          {
-            "Text": "refactor: change to cypher template for relation updates (#672)",
-            "SHA": "8d662ab3ced62fdb61361dc8dc45765fe37abfaf",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-07-30T15:01:23Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/8d662ab3ced62fdb61361dc8dc45765fe37abfaf"
-          },
-          {
-            "Text": "feat: #137 create skillsProfile entity (#684)",
-            "SHA": "fdc1911bf1f43129d6b8207d2547b6b5171f1c40",
-            "Author": {
-              "name": "irhox",
-              "link": "https://github.com/irhox"
-            },
-            "Timestamp": "2024-07-25T11:22:55Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/fdc1911bf1f43129d6b8207d2547b6b5171f1c40"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.38.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "build(deps): update deps and clean merge confiicts (#690)",
+            "Timestamp": "2024-08-08T11:58:08Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/10301598350"
+          }
+        ]
       }
     },
     {
@@ -790,9 +765,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.26.0",
+          "Version": "1.37.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -840,14 +815,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-data/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #117 from PRODYNA-YASM/dependabot/github_actions/d…",
-            "Timestamp": "2024-07-24T07:09:40Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-data/actions/runs/10072143172"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1243,9 +1212,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0.2.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "592f714",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1300,8 +1269,79 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/0.2.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 7,
+        "Commits": [
+          {
+            "Text": "Merge pull request #27 from PRODYNA-YASM/26-remove-old-service-code",
+            "SHA": "592f714300b797b853d0e484c6e4ec49db61d6af",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-08T11:08:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/592f714300b797b853d0e484c6e4ec49db61d6af"
+          },
+          {
+            "Text": "Fix status for all spans",
+            "SHA": "963334f010fbd3a4488ff8f93d7aba9bff943b23",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-08T11:05:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/963334f010fbd3a4488ff8f93d7aba9bff943b23"
+          },
+          {
+            "Text": "Fix more spans",
+            "SHA": "83bfec9a7127d484fb90e71c0e1cb1d8fbf3693f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-08T10:56:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/83bfec9a7127d484fb90e71c0e1cb1d8fbf3693f"
+          },
+          {
+            "Text": "Remove dead code",
+            "SHA": "3fc6775aa53a2bd3127e8c87a71118839259bf2f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-08T10:52:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/3fc6775aa53a2bd3127e8c87a71118839259bf2f"
+          },
+          {
+            "Text": "Merge pull request #25 from PRODYNA-YASM/24-fix-open-telemetry-general-improvements",
+            "SHA": "1dc9ca579e7fbc09faade49dda7e9c48dcef83c9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-08T10:48:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/1dc9ca579e7fbc09faade49dda7e9c48dcef83c9"
+          },
+          {
+            "Text": "All spans have a status",
+            "SHA": "a894214d57f319270a5904989e2c0bd3b8d3b09b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-08T10:45:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/a894214d57f319270a5904989e2c0bd3b8d3b09b"
+          },
+          {
+            "Text": "General improvement",
+            "SHA": "9a410b2bd48666a54724a7437addb82c15262654",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-08T10:16:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/9a410b2bd48666a54724a7437addb82c15262654"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1431,5 +1471,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-08T07:32:18Z"
+  "LastUpdated": "2024-08-08T12:05:51Z"
 }
