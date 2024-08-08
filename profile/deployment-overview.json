@@ -149,8 +149,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "chore: update api 1.38.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/807"
+          },
           {
             "Title": "chore: bump @types/node from 20.14.0 to 22.1.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/806"
@@ -1214,29 +1218,29 @@
           "Link": "",
           "Version": "1.0.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
           "Version": "1.0.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
           "Version": "1.0.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "0.2.0",
+        "Tag": "1.0.0",
         "SHA": "",
-        "Title": "Fix pipeline",
-        "Timestamp": "2024-08-07T21:53:34Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/0.2.0"
+        "Title": "First full version",
+        "Timestamp": "2024-08-08T12:06:45Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.0.0"
       },
       "Releases": [
         {
@@ -1268,80 +1272,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/0.2.0..HEAD",
-        "Count": 7,
-        "Commits": [
-          {
-            "Text": "Merge pull request #27 from PRODYNA-YASM/26-remove-old-service-code",
-            "SHA": "592f714300b797b853d0e484c6e4ec49db61d6af",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-08T11:08:09Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/592f714300b797b853d0e484c6e4ec49db61d6af"
-          },
-          {
-            "Text": "Fix status for all spans",
-            "SHA": "963334f010fbd3a4488ff8f93d7aba9bff943b23",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-08T11:05:39Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/963334f010fbd3a4488ff8f93d7aba9bff943b23"
-          },
-          {
-            "Text": "Fix more spans",
-            "SHA": "83bfec9a7127d484fb90e71c0e1cb1d8fbf3693f",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-08T10:56:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/83bfec9a7127d484fb90e71c0e1cb1d8fbf3693f"
-          },
-          {
-            "Text": "Remove dead code",
-            "SHA": "3fc6775aa53a2bd3127e8c87a71118839259bf2f",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-08T10:52:01Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/3fc6775aa53a2bd3127e8c87a71118839259bf2f"
-          },
-          {
-            "Text": "Merge pull request #25 from PRODYNA-YASM/24-fix-open-telemetry-general-improvements",
-            "SHA": "1dc9ca579e7fbc09faade49dda7e9c48dcef83c9",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-08T10:48:57Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/1dc9ca579e7fbc09faade49dda7e9c48dcef83c9"
-          },
-          {
-            "Text": "All spans have a status",
-            "SHA": "a894214d57f319270a5904989e2c0bd3b8d3b09b",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-08T10:45:51Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/a894214d57f319270a5904989e2c0bd3b8d3b09b"
-          },
-          {
-            "Text": "General improvement",
-            "SHA": "9a410b2bd48666a54724a7437addb82c15262654",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-08T10:16:44Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/9a410b2bd48666a54724a7437addb82c15262654"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.0.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1471,5 +1404,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-08T12:13:14Z"
+  "LastUpdated": "2024-08-08T12:14:32Z"
 }

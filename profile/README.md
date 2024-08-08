@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-08-08T12:13:14Z
+Component Status overview. Last update 2024-08-08T12:14:32Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 |  :red_square: 1.37.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [10](https://github.com/prodyna-yasm/yasm-frontend/compare/1.37.2..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.37.2 |  :red_square: 7131339 |  :green_square: 1.37.2 |  :green_square: 1.37.2 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [10](https://github.com/prodyna-yasm/yasm-frontend/compare/1.37.2..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.37.2 |  :red_square: 7131339 |  :green_square: 1.37.2 |  :green_square: 1.37.2 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.37.0..HEAD) | :green_square: 0 | 1.37.0 |  :red_square: b9a3ab9 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
@@ -17,7 +17,7 @@ Component Status overview. Last update 2024-08-08T12:13:14Z
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.38.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-test/pulls) | 1.30.1 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [7](https://github.com/prodyna-yasm/yasm-metrics/compare/0.2.0..HEAD) | :green_square: 0 | 0.2.0 |  :red_square: 1.0.0 |  :red_square: 1.0.0 |  :red_square: 1.0.0 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :green_square: 0 | :green_square: 0 | 1.0.0 |  :green_square: 1.0.0 |  :green_square: 1.0.0 |  :green_square: 1.0.0 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.1.0 |  :green_square: 1.1.0 |  :green_square: 1.1.0 |  :green_square: 1.1.0 | 
 
 
@@ -94,7 +94,9 @@ Component Status overview. Last update 2024-08-08T12:13:14Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (8)
+
+- [chore: update api 1.38.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/807)
 
 - [chore: bump @types/node from 20.14.0 to 22.1.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/806)
 
@@ -551,26 +553,9 @@ Component Status overview. Last update 2024-08-08T12:13:14Z
 
 
 
-## [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) 0.2.0
+## [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) 1.0.0
 
 
-
-
-### [Commits on main since 0.2.0](https://github.com/prodyna-yasm/yasm-metrics/compare/0.2.0..HEAD) (7)
-
-- [Merge pull request #27 from PRODYNA-YASM/26-remove-old-service-code](https://github.com/prodyna-yasm/yasm-metrics/commit/592f714300b797b853d0e484c6e4ec49db61d6af) by [dkrizic](https://github.com/dkrizic) on 2024-08-08 11:08:09 +0000 UTC
-
-- [Fix status for all spans](https://github.com/prodyna-yasm/yasm-metrics/commit/963334f010fbd3a4488ff8f93d7aba9bff943b23) by [dkrizic](https://github.com/dkrizic) on 2024-08-08 11:05:39 +0000 UTC
-
-- [Fix more spans](https://github.com/prodyna-yasm/yasm-metrics/commit/83bfec9a7127d484fb90e71c0e1cb1d8fbf3693f) by [dkrizic](https://github.com/dkrizic) on 2024-08-08 10:56:47 +0000 UTC
-
-- [Remove dead code](https://github.com/prodyna-yasm/yasm-metrics/commit/3fc6775aa53a2bd3127e8c87a71118839259bf2f) by [dkrizic](https://github.com/dkrizic) on 2024-08-08 10:52:01 +0000 UTC
-
-- [Merge pull request #25 from PRODYNA-YASM/24-fix-open-telemetry-general-improvements](https://github.com/prodyna-yasm/yasm-metrics/commit/1dc9ca579e7fbc09faade49dda7e9c48dcef83c9) by [dkrizic](https://github.com/dkrizic) on 2024-08-08 10:48:57 +0000 UTC
-
-- [All spans have a status](https://github.com/prodyna-yasm/yasm-metrics/commit/a894214d57f319270a5904989e2c0bd3b8d3b09b) by [dkrizic](https://github.com/dkrizic) on 2024-08-08 10:45:51 +0000 UTC
-
-- [General improvement](https://github.com/prodyna-yasm/yasm-metrics/commit/9a410b2bd48666a54724a7437addb82c15262654) by [dkrizic](https://github.com/dkrizic) on 2024-08-08 10:16:44 +0000 UTC
 
 
 
@@ -582,7 +567,7 @@ Component Status overview. Last update 2024-08-08T12:13:14Z
 | --- |  --- |  --- |  --- | 
 | Version |  1.0.0 |  1.0.0 |  1.0.0 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :red_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
