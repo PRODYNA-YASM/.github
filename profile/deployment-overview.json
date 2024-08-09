@@ -216,6 +216,13 @@
           "Version": "1.38.0",
           "IsRelease": true,
           "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.38.0",
+          "IsRelease": true,
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -263,13 +270,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #478 from PRODYNA-YASM/477-fix-log-level-setting",
-            "Timestamp": "2024-08-07T10:06:14Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/10282299432"
-          },
           {
             "Name": "Merge pull request #474 from PRODYNA-YASM/dependabot/docker/alpine-3.…",
             "Timestamp": "2024-07-24T07:09:05Z",
@@ -299,9 +301,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.37.0",
+          "Version": "1.38.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -349,14 +351,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #364 from PRODYNA-YASM/363-api-138",
-            "Timestamp": "2024-08-08T12:24:55Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/10302014714"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1234,5 +1230,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-09T07:32:28Z"
+  "LastUpdated": "2024-08-09T07:51:15Z"
 }

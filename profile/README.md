@@ -1,13 +1,13 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-08-09T07:32:28Z
+Component Status overview. Last update 2024-08-09T07:51:15Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 |  :red_square: 1.37.0 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.16.2 |  :green_square: 1.16.2 |  :green_square: 1.16.2 |  :green_square: 1.16.2 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.5.4 |  :green_square: 1.5.4 |  :green_square: 1.5.4 |  :green_square: 1.5.4 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.11.2 |  :green_square: 1.11.2 |  :green_square: 1.11.2 |  :green_square: 1.11.2 | 
@@ -123,11 +123,11 @@ Component Status overview. Last update 2024-08-09T07:32:28Z
 
 ### Environments
 
-| Environment |  dev |  staging | 
-| --- |  --- |  --- | 
-| Version |  1.38.0 |  1.38.0 | 
-| Release |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: | 
+| Environment |  dev |  staging |  prod | 
+| --- |  --- |  --- |  --- | 
+| Version |  1.38.0 |  1.38.0 |  1.38.0 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -141,9 +141,7 @@ Component Status overview. Last update 2024-08-09T07:32:28Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (2)
-
-- [Merge pull request #478 from PRODYNA-YASM/477-fix-log-level-setting](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/10282299432) created on 2024-08-07 10:06:14 +0000 UTC
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (1)
 
 - [Merge pull request #474 from PRODYNA-YASM/dependabot/docker/alpine-3.…](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/10072135771) created on 2024-07-24 07:09:05 +0000 UTC
 
@@ -162,9 +160,9 @@ Component Status overview. Last update 2024-08-09T07:32:28Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.38.0 |  1.38.0 |  1.37.0 | 
+| Version |  1.38.0 |  1.38.0 |  1.38.0 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -176,11 +174,6 @@ Component Status overview. Last update 2024-08-09T07:32:28Z
 - [Using API 1.36, some components updated](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.36.0) on 2024-07-03 08:04:35 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #364 from PRODYNA-YASM/363-api-138](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/10302014714) created on 2024-08-08 12:24:55 +0000 UTC
 
 
 
