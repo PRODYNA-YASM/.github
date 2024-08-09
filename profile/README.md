@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-08-08T12:37:51Z
+Component Status overview. Last update 2024-08-09T07:32:28Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 |  :red_square: 1.37.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 |  :red_square: 1.37.2 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.38.0 |  :green_square: 1.38.0 |  :green_square: 1.38.0 |  :red_square: 1.37.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.16.2 |  :green_square: 1.16.2 |  :green_square: 1.16.2 |  :green_square: 1.16.2 | 
@@ -29,7 +29,9 @@ Component Status overview. Last update 2024-08-08T12:37:51Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (2)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (3)
+
+- [build(deps): bump io.smallrye:jandex-maven-plugin from 3.2.1 to 3.2.2](https://github.com/PRODYNA-YASM/yasm-backend/pull/693)
 
 - [build(deps): bump quarkus.platform.version from 3.12.3 to 3.13.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/692)
 
@@ -41,9 +43,9 @@ Component Status overview. Last update 2024-08-08T12:37:51Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.38.0 |  1.38.0 |  1.37.1 | 
+| Version |  1.38.0 |  1.38.0 |  1.38.0 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -55,11 +57,6 @@ Component Status overview. Last update 2024-08-08T12:37:51Z
 - [Show the number of direct and related search results, Search for offices in global search, Update audit relation and refactor Experience to SkillGroups in ProjectParticipation](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.37.0) on 2024-07-05 07:25:49 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting) (1)
-
-- [build(deps): update deps and clean merge confiicts (#690)](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/10301598350) created on 2024-08-08 11:58:08 +0000 UTC
 
 
 
@@ -93,9 +90,9 @@ Component Status overview. Last update 2024-08-08T12:37:51Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.38.0 |  1.38.0 |  1.37.2 | 
+| Version |  1.38.0 |  1.38.0 |  1.38.0 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -109,9 +106,7 @@ Component Status overview. Last update 2024-08-08T12:37:51Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (2)
-
-- [chore: update api 1.38.0 (#807)](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/10301908224) created on 2024-08-08 12:18:04 +0000 UTC
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
 
 - [fix: cant remove employee from project, cant edit project description…](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/9873320722) created on 2024-07-10 11:26:10 +0000 UTC
 

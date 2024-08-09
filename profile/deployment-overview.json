@@ -22,9 +22,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.37.1",
+          "Version": "1.38.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump io.smallrye:jandex-maven-plugin from 3.2.1 to 3.2.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/693"
+          },
           {
             "Title": "build(deps): bump quarkus.platform.version from 3.12.3 to 3.13.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/692"
@@ -81,14 +85,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "build(deps): update deps and clean merge confiicts (#690)",
-            "Timestamp": "2024-08-08T11:58:08Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/10301598350"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -112,9 +110,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.37.2",
+          "Version": "1.38.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -191,13 +189,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "chore: update api 1.38.0 (#807)",
-            "Timestamp": "2024-08-08T12:18:04Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/10301908224"
-          },
           {
             "Name": "fix: cant remove employee from project, cant edit project description…",
             "Timestamp": "2024-07-10T11:26:10Z",
@@ -1241,5 +1234,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-08T12:37:51Z"
+  "LastUpdated": "2024-08-09T07:32:28Z"
 }
