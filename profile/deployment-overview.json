@@ -189,14 +189,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "fix: cant remove employee from project, cant edit project description…",
-            "Timestamp": "2024-07-10T11:26:10Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/9873320722"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1230,5 +1224,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-09T07:51:15Z"
+  "LastUpdated": "2024-08-10T07:32:07Z"
 }

@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-08-09T07:51:15Z
+Component Status overview. Last update 2024-08-10T07:32:07Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -104,11 +104,6 @@ Component Status overview. Last update 2024-08-09T07:51:15Z
 - [Fixed issue can not edit Project description, Fixed issue can not remove employee from a project, Fixed issue: Deleting organization show error Snackbar, Fixed issue: When projects are not finished loading while exporting PDF, this leads to error](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.37.1) on 2024-07-10 11:10:58 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
-
-- [fix: cant remove employee from project, cant edit project description…](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/9873320722) created on 2024-07-10 11:26:10 +0000 UTC
 
 
 
