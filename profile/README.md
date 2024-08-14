@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-08-14T07:32:11Z
+Component Status overview. Last update 2024-08-14T14:26:12Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -17,7 +17,7 @@ Component Status overview. Last update 2024-08-14T07:32:11Z
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.38.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-test/pulls) | 1.30.1 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-metrics/pulls) | 1.0.0 |  :green_square: 1.0.0 |  :green_square: 1.0.0 |  :green_square: 1.0.0 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-metrics/pulls) | 1.0.1 |  :green_square: 1.0.1 |  :green_square: 1.0.1 |  :green_square: 1.0.1 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.1.0 |  :green_square: 1.1.0 |  :green_square: 1.1.0 |  :green_square: 1.1.0 | 
 
 
@@ -477,13 +477,13 @@ Component Status overview. Last update 2024-08-14T07:32:11Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (6)
 
-- [chore(deps-dev): Bump @types/node from 20.14.2 to 22.2.0](https://github.com/PRODYNA-YASM/yasm-test/pull/130)
+- [chore(deps): Bump @azure/msal-node from 2.7.0 to 2.13.0](https://github.com/PRODYNA-YASM/yasm-test/pull/132)
+
+- [chore(deps-dev): Bump @types/node from 20.14.2 to 22.3.0](https://github.com/PRODYNA-YASM/yasm-test/pull/131)
 
 - [chore(deps): Bump cypress/included from 13.11.0 to 13.13.2](https://github.com/PRODYNA-YASM/yasm-test/pull/128)
 
 - [chore(deps-dev): Bump cypress from 13.11.0 to 13.13.2](https://github.com/PRODYNA-YASM/yasm-test/pull/127)
-
-- [chore(deps): Bump @azure/msal-node from 2.7.0 to 2.12.0](https://github.com/PRODYNA-YASM/yasm-test/pull/123)
 
 - [chore(deps-dev): Bump typescript from 5.4.5 to 5.5.4](https://github.com/PRODYNA-YASM/yasm-test/pull/122)
 
@@ -513,16 +513,14 @@ Component Status overview. Last update 2024-08-14T07:32:11Z
 
 
 
-## [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) 1.0.0
+## [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) 1.0.1
 
 
 
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-metrics/pulls) (2)
-
-- [Bump golang from 1.22.6-alpine3.20 to 1.23.0-alpine3.20](https://github.com/PRODYNA-YASM/yasm-metrics/pull/29)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-metrics/pulls) (1)
 
 - [Component update](https://github.com/PRODYNA-YASM/yasm-metrics/pull/28)
 
@@ -532,18 +530,18 @@ Component Status overview. Last update 2024-08-14T07:32:11Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.0.0 |  1.0.0 |  1.0.0 | 
+| Version |  1.0.1 |  1.0.1 |  1.0.1 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
 | Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Log duration after run](https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.0.1) on 2024-08-14 12:30:06 +0000 UTC
+
 - [First full version](https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.0.0) on 2024-08-08 11:08:09 +0000 UTC
 
 - [Fix pipeline](https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/0.2.0) on 2024-08-07 21:50:10 +0000 UTC
-
-- [Service version](https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/0.1.0) on 2024-08-07 08:10:45 +0000 UTC
 
 
 
