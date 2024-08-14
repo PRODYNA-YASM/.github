@@ -302,9 +302,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.38.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "2f75b32",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -353,19 +353,35 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Component updates",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/365"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.38.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #365 from PRODYNA-YASM/feature/component-update",
+            "SHA": "2f75b32d6d4866eac75819f09495cb204a9c8729",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-13T08:42:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/2f75b32d6d4866eac75819f09495cb204a9c8729"
+          },
+          {
+            "Text": "Component updates",
+            "SHA": "bec319482c788e1d0d638216df9015cf10a36239",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-12T13:11:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/bec319482c788e1d0d638216df9015cf10a36239"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -763,7 +779,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0f22c6a",
+          "Version": "41fcad5",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -820,8 +836,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.38.0..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #596 from PRODYNA-YASM/feature/component-update",
+            "SHA": "41fcad5e0ff48ef09ab1b05eface8d628d0591ff",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-13T13:45:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/41fcad5e0ff48ef09ab1b05eface8d628d0591ff"
+          },
+          {
+            "Text": "Kuberntes 1.30.3",
+            "SHA": "4537ab8d2ccede1a1ecddea8340bd75dc5011ade",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-13T13:42:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/4537ab8d2ccede1a1ecddea8340bd75dc5011ade"
+          },
           {
             "Text": "Merge pull request #594 from PRODYNA-YASM/feature/component-update",
             "SHA": "0f22c6aa4fa3fac9721d8d8bb15a32a500e2bb22",
@@ -1127,8 +1163,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "Bump golang from 1.22.6-alpine3.20 to 1.23.0-alpine3.20",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/29"
+          },
           {
             "Title": "Component update",
             "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/28"
@@ -1269,5 +1309,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-13T07:32:35Z"
+  "LastUpdated": "2024-08-14T07:32:11Z"
 }
