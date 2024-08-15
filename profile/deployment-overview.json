@@ -150,8 +150,8 @@
         "Count": 7,
         "PullRequests": [
           {
-            "Title": "chore: bump @types/node from 20.14.0 to 22.2.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/808"
+            "Title": "chore: bump @types/node from 20.14.0 to 22.3.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/809"
           },
           {
             "Title": "chore: bump memfs from 3.5.3 to 4.11.1",
@@ -599,8 +599,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump github.com/dapr/go-sdk from 1.10.1 to 1.11.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/140"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
@@ -830,8 +835,21 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 3,
+        "PullRequests": [
+          {
+            "Title": "Bump DataDog/datadog from 3.42.0 to 3.43.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/599"
+          },
+          {
+            "Title": "Bump hashicorp/helm from 2.14.1 to 2.15.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/598"
+          },
+          {
+            "Title": "Bump kubernetes from 2.31.0 to 2.32.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/597"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -1112,9 +1130,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.0.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "3c05069",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1166,16 +1184,57 @@
         "Count": 1,
         "PullRequests": [
           {
-            "Title": "Component update",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/28"
+            "Title": "Bump github.com/prometheus/client_golang from 1.19.1 to 1.20.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/34"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.0.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "Fix the skillID in the logging",
+            "SHA": "3c050690f47de98ccc4a5813a9bab10452ab8c3e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-14T14:54:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/3c050690f47de98ccc4a5813a9bab10452ab8c3e"
+          },
+          {
+            "Text": "Merge pull request #33 from PRODYNA-YASM/dkrizic/log-duration-seconds",
+            "SHA": "8c113af84e053354dcc02726330f929e49ae948b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-14T14:48:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/8c113af84e053354dcc02726330f929e49ae948b"
+          },
+          {
+            "Text": "Log duration in seconds",
+            "SHA": "0548670d7bfbc6aa4440f27f2c4f115a4fc77a84",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-14T14:41:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/0548670d7bfbc6aa4440f27f2c4f115a4fc77a84"
+          },
+          {
+            "Text": "Merge pull request #28 from PRODYNA-YASM/feature/component-update",
+            "SHA": "6423cf7ac2d3b166ee1626465abcd506bf264a4f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-14T14:31:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/6423cf7ac2d3b166ee1626465abcd506bf264a4f"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1305,5 +1364,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-14T14:26:12Z"
+  "LastUpdated": "2024-08-15T07:32:28Z"
 }
