@@ -1342,6 +1342,221 @@
       }
     },
     {
+      "Name": "yasm-mainproject",
+      "Error": "GET https://api.github.com/repos/prodyna-yasm/yasm-mainproject/releases/latest: 404 Not Found []",
+      "Environments": [
+        {
+          "Name": "dev",
+          "Link": "",
+          "Version": "2eaaefc",
+          "IsRelease": false,
+          "IsCurrent": false
+        }
+      ],
+      "LatestRelease": {
+        "Tag": "",
+        "SHA": "",
+        "Title": "",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Link": ""
+      },
+      "Releases": null,
+      "PullRequests": {
+        "Link": "https://github.com/prodyna-yasm/yasm-mainproject/pulls",
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump golang from 1.22.6-alpine3.20 to 1.23.0-alpine3.20",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-mainproject/pull/1"
+          }
+        ]
+      },
+      "Link": "https://github.com/prodyna-yasm/yasm-mainproject",
+      "Commits": {
+        "Link": "https://github.com/prodyna-yasm/yasm-mainproject/compare/..HEAD",
+        "Count": 17,
+        "Commits": [
+          {
+            "Text": "Fix filter number in response",
+            "SHA": "2eaaefc8798df5729d83355e5716aecf529d6086",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-16T10:47:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/2eaaefc8798df5729d83355e5716aecf529d6086"
+          },
+          {
+            "Text": "Add some events to the spans",
+            "SHA": "79fa67c09dc5ec73a559602999e4fa5f4e4cb818",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-15T22:36:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/79fa67c09dc5ec73a559602999e4fa5f4e4cb818"
+          },
+          {
+            "Text": "Filter is applied",
+            "SHA": "82fcb47c807e613674f6ad07cb81716ed94d1cc4",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-15T22:29:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/82fcb47c807e613674f6ad07cb81716ed94d1cc4"
+          },
+          {
+            "Text": "Cache",
+            "SHA": "1aebe107a256263ab77ed823d5a029cf28e59746",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-15T22:25:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/1aebe107a256263ab77ed823d5a029cf28e59746"
+          },
+          {
+            "Text": "Implement calling the mainproject",
+            "SHA": "338d55cfbeb7e0491dd3c4454a61a0e1dd58c551",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-15T22:17:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/338d55cfbeb7e0491dd3c4454a61a0e1dd58c551"
+          },
+          {
+            "Text": "Chain memorycache -\u003e httpproxy",
+            "SHA": "673cecbd1a03ebe1ba68c923414b96f4a6c46244",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-15T16:16:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/673cecbd1a03ebe1ba68c923414b96f4a6c46244"
+          },
+          {
+            "Text": "Write the spans correctly",
+            "SHA": "e390e25edd6cec520ecdaeb5edb6201de2c5c0a2",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-15T16:08:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/e390e25edd6cec520ecdaeb5edb6201de2c5c0a2"
+          },
+          {
+            "Text": "Configure the URL for the httpproxy service",
+            "SHA": "7b60011acb5a45259f49159bf078e8347f9fe839",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-15T15:57:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/7b60011acb5a45259f49159bf078e8347f9fe839"
+          },
+          {
+            "Text": "Integrate prefix again",
+            "SHA": "b641352e6246f1ee7700b3c83f92e5fa0d51f26e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-15T15:40:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/b641352e6246f1ee7700b3c83f92e5fa0d51f26e"
+          },
+          {
+            "Text": "Path parameter handling",
+            "SHA": "790a20f8f55a08b4df5a747cd5bb55308d9dab30",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-15T15:34:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/790a20f8f55a08b4df5a747cd5bb55308d9dab30"
+          },
+          {
+            "Text": "Mainproject handler",
+            "SHA": "b364db00716608bc93ad1b5d8d94d987e71beb34",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-15T15:24:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/b364db00716608bc93ad1b5d8d94d987e71beb34"
+          },
+          {
+            "Text": "Don't check token for now",
+            "SHA": "77d661c2d05095be28a10e30fce759532a46ddcb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-15T14:45:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/77d661c2d05095be28a10e30fce759532a46ddcb"
+          },
+          {
+            "Text": "Don't reference a secret",
+            "SHA": "d8857cdeff517dd991427be6e33a2fd1d8e89f8b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-15T14:37:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/d8857cdeff517dd991427be6e33a2fd1d8e89f8b"
+          },
+          {
+            "Text": "Deploy to namespace backend",
+            "SHA": "09e3cb24148bf6c9a1b7275ba0e627172c7887bc",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-15T14:27:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/09e3cb24148bf6c9a1b7275ba0e627172c7887bc"
+          },
+          {
+            "Text": "All rename to mainproject",
+            "SHA": "88f8d4e31641ef30cd66df678d64b55c4acad69a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-15T14:23:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/88f8d4e31641ef30cd66df678d64b55c4acad69a"
+          },
+          {
+            "Text": "Add missing go.sum",
+            "SHA": "08c50bb374b8b39903f390aa738febc7abbf2a19",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-15T14:12:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/08c50bb374b8b39903f390aa738febc7abbf2a19"
+          },
+          {
+            "Text": "First version of the service",
+            "SHA": "3f3028a5edf7441cd83553777f6ac20ba2db0f9e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-15T14:10:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/3f3028a5edf7441cd83553777f6ac20ba2db0f9e"
+          }
+        ]
+      },
+      "DefaultBranch": "main",
+      "Tags": null,
+      "Workflows": {
+        "Link": "https://github.com/prodyna-yasm/yasm-mainproject/actions?query=is%3Awaiting",
+        "Count": 0,
+        "Workflows": null
+      }
+    },
+    {
       "Name": "sales-copilot",
       "Error": "",
       "Environments": [
@@ -1440,5 +1655,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-16T07:32:17Z"
+  "LastUpdated": "2024-08-16T10:50:47Z"
 }

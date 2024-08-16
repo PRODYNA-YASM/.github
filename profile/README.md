@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-08-16T07:32:17Z
+Component Status overview. Last update 2024-08-16T10:50:47Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -18,6 +18,7 @@ Component Status overview. Last update 2024-08-16T07:32:17Z
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [4](https://github.com/prodyna-yasm/yasm-test/compare/1.30.1..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-test/pulls) | 1.30.1 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [4](https://github.com/prodyna-yasm/yasm-metrics/compare/1.0.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-metrics/pulls) | 1.0.1 |  :red_square: 3c05069 |  :green_square: 1.0.1 |  :green_square: 1.0.1 | 
+| [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [17](https://github.com/prodyna-yasm/yasm-mainproject/compare/..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-mainproject/pulls) |  |  :red_square: 2eaaefc | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.1.0 |  :green_square: 1.1.0 |  :green_square: 1.1.0 |  :green_square: 1.1.0 | 
 
 
@@ -604,6 +605,13 @@ Component Status overview. Last update 2024-08-16T07:32:17Z
 - [Merge pull request #4 from PRODYNA-YASM/dependabot/go_modules/google.…](https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/10072021810) created on 2024-07-24 07:00:53 +0000 UTC
 
 
+
+
+## [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) 
+
+
+> [!WARNING]
+> GET https://api.github.com/repos/prodyna-yasm/yasm-mainproject/releases/latest: 404 Not Found []
 
 
 ## [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) 1.1.0
