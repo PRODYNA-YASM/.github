@@ -96,9 +96,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.38.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "3cfc52d",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -182,8 +182,19 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.38.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "fix: removed a duplicate unused custom dialog (#810)",
+            "SHA": "3cfc52d8bcbf9581174555fc18d793821823982b",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2024-08-15T12:22:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/3cfc52d8bcbf9581174555fc18d793821823982b"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -784,7 +795,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "41fcad5",
+          "Version": "14ba628",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -835,8 +846,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 3,
+        "Count": 4,
         "PullRequests": [
+          {
+            "Title": "Bump hashicorp/azurerm from 3.115.0 to 3.116.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/601"
+          },
           {
             "Title": "Bump DataDog/datadog from 3.42.0 to 3.43.0 in /terraform/kubernetes",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/599"
@@ -854,8 +869,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.38.0..HEAD",
-        "Count": 4,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #600 from PRODYNA-YASM/feature/add-yasm-mainproject",
+            "SHA": "14ba62812a3f43c4db757df894f3b31790528d3f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-15T13:31:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/14ba62812a3f43c4db757df894f3b31790528d3f"
+          },
+          {
+            "Text": "Add yasm-mainproject",
+            "SHA": "9d15daa9300646b51f135f387cdaaa2931571065",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-15T13:24:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/9d15daa9300646b51f135f387cdaaa2931571065"
+          },
           {
             "Text": "Merge pull request #596 from PRODYNA-YASM/feature/component-update",
             "SHA": "41fcad5e0ff48ef09ab1b05eface8d628d0591ff",
@@ -1084,20 +1119,20 @@
         "Count": 6,
         "PullRequests": [
           {
+            "Title": "chore(deps-dev): Bump cypress from 13.11.0 to 13.13.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/134"
+          },
+          {
+            "Title": "chore(deps): Bump cypress/included from 13.11.0 to 13.13.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/133"
+          },
+          {
             "Title": "chore(deps): Bump @azure/msal-node from 2.7.0 to 2.13.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/132"
           },
           {
             "Title": "chore(deps-dev): Bump @types/node from 20.14.2 to 22.3.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/131"
-          },
-          {
-            "Title": "chore(deps): Bump cypress/included from 13.11.0 to 13.13.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/128"
-          },
-          {
-            "Title": "chore(deps-dev): Bump cypress from 13.11.0 to 13.13.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/127"
           },
           {
             "Title": "chore(deps-dev): Bump typescript from 5.4.5 to 5.5.4",
@@ -1112,8 +1147,49 @@
       "Link": "https://github.com/prodyna-yasm/yasm-test",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/compare/1.30.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "Merge pull request #135 from PRODYNA-YASM/fix-tooltip-remover",
+            "SHA": "af5bf6113c3282b770879fd43b15de089d4586b9",
+            "Author": {
+              "name": "jenswindmueller",
+              "link": "https://github.com/jenswindmueller"
+            },
+            "Timestamp": "2024-08-15T13:39:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/af5bf6113c3282b770879fd43b15de089d4586b9"
+          },
+          {
+            "Text": "feat: Remove HideAllTooltips task and update tooltip handling in assign_project.cy.ts",
+            "SHA": "12f66b139adbee7541d168e0ab383c0f071adb62",
+            "Author": {
+              "name": "jenswindmueller",
+              "link": "https://github.com/jenswindmueller"
+            },
+            "Timestamp": "2024-08-15T13:29:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/12f66b139adbee7541d168e0ab383c0f071adb62"
+          },
+          {
+            "Text": "feat: Improve tooltip handling and add HideAllTooltips task",
+            "SHA": "d85e0fe0c9a237109498c5e0bc92dd24fdcae036",
+            "Author": {
+              "name": "jenswindmueller",
+              "link": "https://github.com/jenswindmueller"
+            },
+            "Timestamp": "2024-08-15T13:21:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/d85e0fe0c9a237109498c5e0bc92dd24fdcae036"
+          },
+          {
+            "Text": "feat: Refactor HelperTasks.cy.ts to improve tooltip handling and add HideAllTooltips task",
+            "SHA": "d2ab1f6231270db2ecbd6e685e2268cb952bb35c",
+            "Author": {
+              "name": "jenswindmueller",
+              "link": "https://github.com/jenswindmueller"
+            },
+            "Timestamp": "2024-08-15T13:10:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/d2ab1f6231270db2ecbd6e685e2268cb952bb35c"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1364,5 +1440,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-15T07:32:28Z"
+  "LastUpdated": "2024-08-16T07:32:17Z"
 }
