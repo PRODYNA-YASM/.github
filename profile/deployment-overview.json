@@ -885,6 +885,338 @@
       }
     },
     {
+      "Name": "yasm-infrastructure-common",
+      "Error": "GET https://api.github.com/repos/prodyna-yasm/yasm-infrastructure-common/releases/latest: 404 Not Found []",
+      "Environments": null,
+      "LatestRelease": {
+        "Tag": "",
+        "SHA": "",
+        "Title": "",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Link": ""
+      },
+      "Releases": null,
+      "PullRequests": {
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls",
+        "Count": 0,
+        "PullRequests": null
+      },
+      "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common",
+      "Commits": {
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/..HEAD",
+        "Count": 30,
+        "Commits": [
+          {
+            "Text": "Merge pull request #142 from PRODYNA-YASM/feature/add-yasm-mainproject",
+            "SHA": "c63326285de49ade373d9cb5a32e587f3b544004",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-15T13:32:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/c63326285de49ade373d9cb5a32e587f3b544004"
+          },
+          {
+            "Text": "Add project for yasm-mainproject",
+            "SHA": "78c6317bcaaefea67c8a71c4a32d6d5831e8b369",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-15T13:22:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/78c6317bcaaefea67c8a71c4a32d6d5831e8b369"
+          },
+          {
+            "Text": "Merge pull request #141 from PRODYNA-YASM/feature/component-update",
+            "SHA": "a7daa8d0fe78a94bae63c735e2ebbb1acf2ce2f1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-13T08:56:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/a7daa8d0fe78a94bae63c735e2ebbb1acf2ce2f1"
+          },
+          {
+            "Text": "Max existing encoding",
+            "SHA": "08f010fc674449d3c181152bb85faf18ea0f8fcc",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-13T08:55:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/08f010fc674449d3c181152bb85faf18ea0f8fcc"
+          },
+          {
+            "Text": "Fix database encoding",
+            "SHA": "b74b9593d69b126ebfb63273ee0b39e3b9e11015",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-13T08:53:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/b74b9593d69b126ebfb63273ee0b39e3b9e11015"
+          },
+          {
+            "Text": "Azure 115",
+            "SHA": "83c063b6fdc908a05681b8af65bab1816307cd09",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-13T08:47:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/83c063b6fdc908a05681b8af65bab1816307cd09"
+          },
+          {
+            "Text": "Merge pull request #136 from PRODYNA-YASM/132-migrate-to-mysql",
+            "SHA": "2b4dd0be6be6993fb90cc0180e5f525433dd2fc3",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T11:11:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/2b4dd0be6be6993fb90cc0180e5f525433dd2fc3"
+          },
+          {
+            "Text": "Recreate mysql databases",
+            "SHA": "91d7dc4c6e066177cc604fd535935f9c21ec6465",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T11:10:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/91d7dc4c6e066177cc604fd535935f9c21ec6465"
+          },
+          {
+            "Text": "Merge pull request #135 from PRODYNA-YASM/132-migrate-to-mysql",
+            "SHA": "ce692c73eca8a862efbbd31b9c94aa6528f98aad",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T11:08:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/ce692c73eca8a862efbbd31b9c94aa6528f98aad"
+          },
+          {
+            "Text": "Recreate database",
+            "SHA": "aa7c9d9a2827da76b1ae6131001de85932455349",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T11:07:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/aa7c9d9a2827da76b1ae6131001de85932455349"
+          },
+          {
+            "Text": "Merge pull request #134 from PRODYNA-YASM/132-migrate-to-mysql",
+            "SHA": "f18bf38dcf9e057fd0b1fab1c9cd47af6b9f42cc",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T10:56:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/f18bf38dcf9e057fd0b1fab1c9cd47af6b9f42cc"
+          },
+          {
+            "Text": "Create a new version",
+            "SHA": "be028bc31af8141d948999f160047c2bc9cdae44",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T10:53:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/be028bc31af8141d948999f160047c2bc9cdae44"
+          },
+          {
+            "Text": "Merge pull request #133 from PRODYNA-YASM/132-migrate-to-mysql",
+            "SHA": "baf0c9b3cc65920ef096026e386db4d0f0e6b4d9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T10:44:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/baf0c9b3cc65920ef096026e386db4d0f0e6b4d9"
+          },
+          {
+            "Text": "Remove more tags",
+            "SHA": "b74f47b302ce5cde3d3e7418aa81d592218e91cb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T10:43:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/b74f47b302ce5cde3d3e7418aa81d592218e91cb"
+          },
+          {
+            "Text": "Remove tags",
+            "SHA": "754d0bc0ff55ed56344e80c22f8c7a06c42b96b8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T10:40:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/754d0bc0ff55ed56344e80c22f8c7a06c42b96b8"
+          },
+          {
+            "Text": "Change secret name",
+            "SHA": "3375203252467ea324a5002d9b00243d46c0d59e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T10:39:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/3375203252467ea324a5002d9b00243d46c0d59e"
+          },
+          {
+            "Text": "Fix parameters for MySQL",
+            "SHA": "ce58b136377feefcdf4cd8f396f15910cc2006b0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T10:35:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/ce58b136377feefcdf4cd8f396f15910cc2006b0"
+          },
+          {
+            "Text": "mssql -\u003e mysql",
+            "SHA": "0742b9660e879098002854901e87f0339a61b900",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T10:29:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/0742b9660e879098002854901e87f0339a61b900"
+          },
+          {
+            "Text": "Clean up code",
+            "SHA": "00908e8aec3732fd4a24803df39eb0e8a134b51d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T10:29:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/00908e8aec3732fd4a24803df39eb0e8a134b51d"
+          },
+          {
+            "Text": "Change to mysql",
+            "SHA": "4f0816ffaed2c0d6d5b6ac0d55c90288900d47da",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-04T10:28:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/4f0816ffaed2c0d6d5b6ac0d55c90288900d47da"
+          },
+          {
+            "Text": "Merge pull request #131 from PRODYNA-YASM/127-create-an-azure-sql-mini-database-for-the-metrics",
+            "SHA": "53ffa400db21615b35bf2f17ac02312b9515ba09",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-02T14:11:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/53ffa400db21615b35bf2f17ac02312b9515ba09"
+          },
+          {
+            "Text": "Fix the secret thing",
+            "SHA": "32668392da506eef54dd0db26784d53ab68c1a47",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-02T14:03:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/32668392da506eef54dd0db26784d53ab68c1a47"
+          },
+          {
+            "Text": "Merge pull request #130 from PRODYNA-YASM/127-create-an-azure-sql-mini-database-for-the-metrics",
+            "SHA": "5417fe15b30e7b4ee8e64cbc7df63e84daaa7488",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-02T13:56:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/5417fe15b30e7b4ee8e64cbc7df63e84daaa7488"
+          },
+          {
+            "Text": "More complex password",
+            "SHA": "591ae640f943e4800590137adda8c1b33d233d40",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-02T13:53:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/591ae640f943e4800590137adda8c1b33d233d40"
+          },
+          {
+            "Text": "Merge pull request #129 from PRODYNA-YASM/127-create-an-azure-sql-mini-database-for-the-metrics",
+            "SHA": "90c268646df30666be89c0e76366d4fd30b91f7a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-02T13:38:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/90c268646df30666be89c0e76366d4fd30b91f7a"
+          },
+          {
+            "Text": "Use metricsadmin",
+            "SHA": "c49fb243862f91335a46f08872bbd6137d1256d2",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-02T13:34:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/c49fb243862f91335a46f08872bbd6137d1256d2"
+          },
+          {
+            "Text": "Merge pull request #128 from PRODYNA-YASM/127-create-an-azure-sql-mini-database-for-the-metrics",
+            "SHA": "5a70f0568a76356018daf9bfbdfca7e9e7336a27",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-02T13:29:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/5a70f0568a76356018daf9bfbdfca7e9e7336a27"
+          },
+          {
+            "Text": "Add address to the database",
+            "SHA": "3115ae61b0bbce38a49968442671ea8ab03fc1d1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-02T13:25:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/3115ae61b0bbce38a49968442671ea8ab03fc1d1"
+          },
+          {
+            "Text": "Not using common provider",
+            "SHA": "ba28b9b6a0f68afd629aec2eab8fed489b02ae4e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-02T13:23:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/ba28b9b6a0f68afd629aec2eab8fed489b02ae4e"
+          },
+          {
+            "Text": "Try again",
+            "SHA": "930ad536ded9d69015e907222a65b3513c8c4c6e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-02T13:20:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/930ad536ded9d69015e907222a65b3513c8c4c6e"
+          }
+        ]
+      },
+      "DefaultBranch": "main",
+      "Tags": null,
+      "Workflows": {
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/actions?query=is%3Awaiting",
+        "Count": 0,
+        "Workflows": null
+      }
+    },
+    {
       "Name": "yasm-api",
       "Error": "",
       "Environments": null,
@@ -1443,5 +1775,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-16T15:46:04Z"
+  "LastUpdated": "2024-08-16T16:18:26Z"
 }

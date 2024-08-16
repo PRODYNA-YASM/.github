@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-08-16T15:46:04Z
+Component Status overview. Last update 2024-08-16T16:18:26Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -14,6 +14,7 @@ Component Status overview. Last update 2024-08-16T15:46:04Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.9.1-1 |  :green_square: 8.9.1-1 |  :green_square: 8.9.1-1 |  :green_square: 8.9.1-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.38.1 |  :green_square: 1.38.1 |  :green_square: 1.38.1 |  :green_square: 1.38.1 | 
+| [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [30](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/..HEAD) | :green_square: 0 |  | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.38.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [4](https://github.com/prodyna-yasm/yasm-test/compare/1.30.1..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-test/pulls) | 1.30.1 | 
@@ -394,6 +395,13 @@ Component Status overview. Last update 2024-08-16T15:46:04Z
 - [Merge pull request #582 from PRODYNA-YASM/feature/add-yasm-metrics](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/10072107463) created on 2024-07-24 07:06:50 +0000 UTC
 
 
+
+
+## [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) 
+
+
+> [!WARNING]
+> GET https://api.github.com/repos/prodyna-yasm/yasm-infrastructure-common/releases/latest: 404 Not Found []
 
 
 ## [yasm-api](https://github.com/prodyna-yasm/yasm-api) 1.38.0
