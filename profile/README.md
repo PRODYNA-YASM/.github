@@ -1,10 +1,10 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-08-18T07:32:15Z
+Component Status overview. Last update 2024-08-19T07:32:33Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-backend/compare/1.38.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.38.0 |  :red_square: 2d89b94 |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-backend/compare/1.38.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.38.0 |  :red_square: 2d89b94 |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.38.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.38.0 |  :red_square: 3cfc52d |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.38.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.38.0 |  :red_square: 98a378e |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [6](https://github.com/prodyna-yasm/yasmctl/compare/1.38.0..HEAD) | :green_square: 0 | 1.38.0 |  :red_square: 9ead06e |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
@@ -36,7 +36,9 @@ Component Status overview. Last update 2024-08-18T07:32:15Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (2)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (3)
+
+- [build(deps): bump org.apache.maven.plugins:maven-surefire-plugin from 3.3.1 to 3.4.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/697)
 
 - [feat: 324-project-references](https://github.com/PRODYNA-YASM/yasm-backend/pull/695)
 
@@ -80,7 +82,7 @@ Component Status overview. Last update 2024-08-18T07:32:15Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
 
-- [chore: bump @types/node from 20.14.0 to 22.3.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/809)
+- [chore: bump @types/node from 20.14.0 to 22.4.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/811)
 
 - [chore: bump memfs from 3.5.3 to 4.11.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/804)
 
