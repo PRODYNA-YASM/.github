@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-08-20T10:38:52Z
+Component Status overview. Last update 2024-08-20T11:03:12Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -13,7 +13,7 @@ Component Status overview. Last update 2024-08-20T10:38:52Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [2](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.2..HEAD) | :green_square: 0 | 1.11.2 |  :red_square: 8a90484 |  :green_square: 1.11.2 |  :green_square: 1.11.2 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.9.1-1 |  :green_square: 8.9.1-1 |  :green_square: 8.9.1-1 |  :green_square: 8.9.1-1 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [20](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.38.1..HEAD) | :green_square: 0 | 1.38.1 |  :red_square: da14483 |  :green_square: 1.38.1 |  :green_square: 1.38.1 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.38.2 |  :green_square: 1.38.2 |  :green_square: 1.38.2 |  :green_square: 1.38.2 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :green_square: 0 | 1.38.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.38.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
@@ -408,52 +408,9 @@ Component Status overview. Last update 2024-08-20T10:38:52Z
 
 
 
-## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 1.38.1
+## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 1.38.2
 
 
-
-
-### [Commits on main since 1.38.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.38.1..HEAD) (20)
-
-- [Merge pull request #614 from PRODYNA-YASM/611-ingress-nginx-4112](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/da14483a90e74ad421cae95a8467e2e83939acdf) by [dkrizic](https://github.com/dkrizic) on 2024-08-20 10:01:16 +0000 UTC
-
-- [Use version 4.11.2 of the ingress nginx](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/da5fbb6a927f24c57ec993ab1c2f9f051dd5031d) by [dkrizic](https://github.com/dkrizic) on 2024-08-20 09:52:23 +0000 UTC
-
-- [Merge pull request #612 from PRODYNA-YASM/dkrizic/update-ingress-nginx](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/38e74fdc75d7d409a2523186f28b04122ecb2d86) by [dkrizic](https://github.com/dkrizic) on 2024-08-19 09:25:26 +0000 UTC
-
-- [Update ingress-nginx to version 4.11.2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/8c6ae281e7091d0b0a3f44d4b3a5fa3cb3581880) by [dkrizic](https://github.com/dkrizic) on 2024-08-19 09:23:23 +0000 UTC
-
-- [Merge pull request #610 from PRODYNA-YASM/604-switch-from-redis-to-azure-service-bus](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/30463374648a2120ddbda21078f7e9949301aee3) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 22:33:05 +0000 UTC
-
-- [fix topic name for backend](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/130d43c0db7ecffeca88a3a4846e9ac3c4111e30) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 22:19:05 +0000 UTC
-
-- [Merge pull request #609 from PRODYNA-YASM/604-switch-from-redis-to-azure-service-bus](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/794b2c213da07080f917a2d0c34fbd55f051d7f4) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 22:11:05 +0000 UTC
-
-- [Fix name of geocoding](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6fb55165d801633f7b996a4846cd3fd10abbbf68) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 22:07:20 +0000 UTC
-
-- [Merge pull request #608 from PRODYNA-YASM/604-switch-from-redis-to-azure-service-bus](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c59bc82304c7fd8404e970ad0b15b76231973e64) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 21:45:47 +0000 UTC
-
-- [Update DAPR](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0e1d14931ce7c387ba2244a676cc0d5c2a061dbb) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 21:41:37 +0000 UTC
-
-- [Merge pull request #607 from PRODYNA-YASM/604-switch-from-redis-to-azure-service-bus](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/86dc41c4fc317bfa227cde2b95ae76c155e1cb3b) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 21:34:30 +0000 UTC
-
-- [Remove statestore, fix topic names](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/2ce50a8a80059ba829fa8ba0aa4e7c514628bab7) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 21:30:20 +0000 UTC
-
-- [Delete redis, configure components to use Azure](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d19d209fcdabc151b62604e82e01048e08646373) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 21:17:15 +0000 UTC
-
-- [Merge pull request #606 from PRODYNA-YASM/604-switch-from-redis-to-azure-service-bus](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/12fdb2de996e0c091833abec8f434ee9696fc819) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 21:13:11 +0000 UTC
-
-- [Redo topics](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3b74bfbe3b810c7692cad80239abf181a3e62f9e) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 21:07:50 +0000 UTC
-
-- [Merge pull request #605 from PRODYNA-YASM/604-switch-from-redis-to-azure-service-bus](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/49ffbb6a1e1d23012e3235b4c656bae3dc1f3c98) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 21:04:31 +0000 UTC
-
-- [Try with this](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/714f3815c686130df0a2945b5fb7fdc4dbb1f3dc) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 21:00:13 +0000 UTC
-
-- [Update providers](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6650fafd8f5243bdcad6c6dfbd7e494fb0bc8b8e) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 20:56:59 +0000 UTC
-
-- [Use stage porovider](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3f480843631dbbe078521f77a98491ddd2a15baf) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 20:55:20 +0000 UTC
-
-- [Create ServiceBus and a secret to connect to the ServiceBus](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6700d42367785ea019b37cb0e524621f553550b0) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 20:49:20 +0000 UTC
 
 
 
@@ -463,18 +420,18 @@ Component Status overview. Last update 2024-08-20T10:38:52Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  da14483 |  1.38.1 |  1.38.1 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.38.2 |  1.38.2 |  1.38.2 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Replacing Redis with Service Bus](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.38.2) on 2024-08-20 10:01:16 +0000 UTC
+
 - [1.38.1](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.38.1) on 2024-08-16 12:44:03 +0000 UTC
 
 - [Infrastructure for yasm-metrics](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.38.0) on 2024-08-04 11:23:47 +0000 UTC
-
-- [Kubernetes 1.29.5](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.37.2) on 2024-07-24 07:37:49 +0000 UTC
 
 
 

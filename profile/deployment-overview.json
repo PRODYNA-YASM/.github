@@ -1037,33 +1037,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "da14483",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.38.2",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.38.1",
+          "Version": "1.38.2",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.38.1",
+          "Version": "1.38.2",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.38.1",
+        "Tag": "1.38.2",
         "SHA": "",
-        "Title": "1.38.1",
-        "Timestamp": "2024-08-16T14:16:26Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.38.1"
+        "Title": "Replacing Redis with Service Bus",
+        "Timestamp": "2024-08-20T10:39:04Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.38.2"
       },
       "Releases": [
+        {
+          "Tag": "1.38.2",
+          "SHA": "",
+          "Title": "Replacing Redis with Service Bus",
+          "Timestamp": "2024-08-20T10:01:16Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.38.2"
+        },
         {
           "Tag": "1.38.1",
           "SHA": "",
@@ -1077,13 +1084,6 @@
           "Title": "Infrastructure for yasm-metrics",
           "Timestamp": "2024-08-04T11:23:47Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.38.0"
-        },
-        {
-          "Tag": "1.37.2",
-          "SHA": "",
-          "Title": "Kubernetes 1.29.5",
-          "Timestamp": "2024-07-24T07:37:49Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.37.2"
         }
       ],
       "PullRequests": {
@@ -1093,210 +1093,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.38.1..HEAD",
-        "Count": 20,
-        "Commits": [
-          {
-            "Text": "Merge pull request #614 from PRODYNA-YASM/611-ingress-nginx-4112",
-            "SHA": "da14483a90e74ad421cae95a8467e2e83939acdf",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-20T10:01:16Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/da14483a90e74ad421cae95a8467e2e83939acdf"
-          },
-          {
-            "Text": "Use version 4.11.2 of the ingress nginx",
-            "SHA": "da5fbb6a927f24c57ec993ab1c2f9f051dd5031d",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-20T09:52:23Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/da5fbb6a927f24c57ec993ab1c2f9f051dd5031d"
-          },
-          {
-            "Text": "Merge pull request #612 from PRODYNA-YASM/dkrizic/update-ingress-nginx",
-            "SHA": "38e74fdc75d7d409a2523186f28b04122ecb2d86",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-19T09:25:26Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/38e74fdc75d7d409a2523186f28b04122ecb2d86"
-          },
-          {
-            "Text": "Update ingress-nginx to version 4.11.2",
-            "SHA": "8c6ae281e7091d0b0a3f44d4b3a5fa3cb3581880",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-19T09:23:23Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/8c6ae281e7091d0b0a3f44d4b3a5fa3cb3581880"
-          },
-          {
-            "Text": "Merge pull request #610 from PRODYNA-YASM/604-switch-from-redis-to-azure-service-bus",
-            "SHA": "30463374648a2120ddbda21078f7e9949301aee3",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-17T22:33:05Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/30463374648a2120ddbda21078f7e9949301aee3"
-          },
-          {
-            "Text": "fix topic name for backend",
-            "SHA": "130d43c0db7ecffeca88a3a4846e9ac3c4111e30",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-17T22:19:05Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/130d43c0db7ecffeca88a3a4846e9ac3c4111e30"
-          },
-          {
-            "Text": "Merge pull request #609 from PRODYNA-YASM/604-switch-from-redis-to-azure-service-bus",
-            "SHA": "794b2c213da07080f917a2d0c34fbd55f051d7f4",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-17T22:11:05Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/794b2c213da07080f917a2d0c34fbd55f051d7f4"
-          },
-          {
-            "Text": "Fix name of geocoding",
-            "SHA": "6fb55165d801633f7b996a4846cd3fd10abbbf68",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-17T22:07:20Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6fb55165d801633f7b996a4846cd3fd10abbbf68"
-          },
-          {
-            "Text": "Merge pull request #608 from PRODYNA-YASM/604-switch-from-redis-to-azure-service-bus",
-            "SHA": "c59bc82304c7fd8404e970ad0b15b76231973e64",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-17T21:45:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c59bc82304c7fd8404e970ad0b15b76231973e64"
-          },
-          {
-            "Text": "Update DAPR",
-            "SHA": "0e1d14931ce7c387ba2244a676cc0d5c2a061dbb",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-17T21:41:37Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0e1d14931ce7c387ba2244a676cc0d5c2a061dbb"
-          },
-          {
-            "Text": "Merge pull request #607 from PRODYNA-YASM/604-switch-from-redis-to-azure-service-bus",
-            "SHA": "86dc41c4fc317bfa227cde2b95ae76c155e1cb3b",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-17T21:34:30Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/86dc41c4fc317bfa227cde2b95ae76c155e1cb3b"
-          },
-          {
-            "Text": "Remove statestore, fix topic names",
-            "SHA": "2ce50a8a80059ba829fa8ba0aa4e7c514628bab7",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-17T21:30:20Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/2ce50a8a80059ba829fa8ba0aa4e7c514628bab7"
-          },
-          {
-            "Text": "Delete redis, configure components to use Azure",
-            "SHA": "d19d209fcdabc151b62604e82e01048e08646373",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-17T21:17:15Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d19d209fcdabc151b62604e82e01048e08646373"
-          },
-          {
-            "Text": "Merge pull request #606 from PRODYNA-YASM/604-switch-from-redis-to-azure-service-bus",
-            "SHA": "12fdb2de996e0c091833abec8f434ee9696fc819",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-17T21:13:11Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/12fdb2de996e0c091833abec8f434ee9696fc819"
-          },
-          {
-            "Text": "Redo topics",
-            "SHA": "3b74bfbe3b810c7692cad80239abf181a3e62f9e",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-17T21:07:50Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3b74bfbe3b810c7692cad80239abf181a3e62f9e"
-          },
-          {
-            "Text": "Merge pull request #605 from PRODYNA-YASM/604-switch-from-redis-to-azure-service-bus",
-            "SHA": "49ffbb6a1e1d23012e3235b4c656bae3dc1f3c98",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-17T21:04:31Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/49ffbb6a1e1d23012e3235b4c656bae3dc1f3c98"
-          },
-          {
-            "Text": "Try with this",
-            "SHA": "714f3815c686130df0a2945b5fb7fdc4dbb1f3dc",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-17T21:00:13Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/714f3815c686130df0a2945b5fb7fdc4dbb1f3dc"
-          },
-          {
-            "Text": "Update providers",
-            "SHA": "6650fafd8f5243bdcad6c6dfbd7e494fb0bc8b8e",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-17T20:56:59Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6650fafd8f5243bdcad6c6dfbd7e494fb0bc8b8e"
-          },
-          {
-            "Text": "Use stage porovider",
-            "SHA": "3f480843631dbbe078521f77a98491ddd2a15baf",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-17T20:55:20Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3f480843631dbbe078521f77a98491ddd2a15baf"
-          },
-          {
-            "Text": "Create ServiceBus and a secret to connect to the ServiceBus",
-            "SHA": "6700d42367785ea019b37cb0e524621f553550b0",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-17T20:49:20Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6700d42367785ea019b37cb0e524621f553550b0"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.38.2..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1879,5 +1678,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-20T10:38:52Z"
+  "LastUpdated": "2024-08-20T11:03:12Z"
 }
