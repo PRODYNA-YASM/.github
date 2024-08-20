@@ -1,20 +1,20 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-08-20T07:32:26Z
+Component Status overview. Last update 2024-08-20T09:29:55Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-backend/compare/1.38.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.38.0 |  :red_square: 2d89b94 |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.38.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.38.0 |  :red_square: 3cfc52d |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.38.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.38.0 |  :red_square: 98a378e |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [12](https://github.com/prodyna-yasm/yasm-integration/compare/1.38.0..HEAD) | :green_square: 0 | 1.38.0 |  :red_square: 98a378e |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [6](https://github.com/prodyna-yasm/yasmctl/compare/1.38.0..HEAD) | :green_square: 0 | 1.38.0 |  :red_square: 9ead06e |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.17.0 |  :green_square: 1.17.0 |  :green_square: 1.17.0 |  :red_square: 1.16.2 | 
-| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [5](https://github.com/prodyna-yasm/yasm-github/compare/1.5.4..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.5.4 |  :red_square: c6ad997 |  :green_square: 1.5.4 |  :green_square: 1.5.4 | 
+| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [7](https://github.com/prodyna-yasm/yasm-github/compare/1.5.4..HEAD) | :green_square: 0 | 1.5.4 |  :red_square: d9536c7 |  :green_square: 1.5.4 |  :green_square: 1.5.4 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [2](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.2..HEAD) | :green_square: 0 | 1.11.2 |  :red_square: 8a90484 |  :green_square: 1.11.2 |  :green_square: 1.11.2 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.9.1-1 |  :green_square: 8.9.1-1 |  :green_square: 8.9.1-1 |  :green_square: 8.9.1-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [18](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.38.1..HEAD) | :green_square: 0 | 1.38.1 |  :red_square: 38e74fd |  :green_square: 1.38.1 |  :green_square: 1.38.1 | 
-| [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [30](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) |  | 
+| [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [30](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/..HEAD) | :green_square: 0 |  | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.38.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [4](https://github.com/prodyna-yasm/yasm-test/compare/1.30.1..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-test/pulls) | 1.30.1 | 
@@ -127,18 +127,33 @@ Component Status overview. Last update 2024-08-20T07:32:26Z
 
 
 
-### [Commits on main since 1.38.0](https://github.com/prodyna-yasm/yasm-integration/compare/1.38.0..HEAD) (2)
+### [Commits on main since 1.38.0](https://github.com/prodyna-yasm/yasm-integration/compare/1.38.0..HEAD) (12)
+
+- [Merge pull request #481 from PRODYNA-YASM/feature/go-1-23](https://github.com/prodyna-yasm/yasm-integration/commit/1fd66926e6f693f7e17fd5b37c4d094e52319ddf) by [dkrizic](https://github.com/dkrizic) on 2024-08-20 09:28:19 +0000 UTC
+
+- [Fix path for binary](https://github.com/prodyna-yasm/yasm-integration/commit/30bc2d562fc54503a4dc05fe9f9128e2a934c512) by [dkrizic](https://github.com/dkrizic) on 2024-08-20 09:22:52 +0000 UTC
+
+- [Fix the application name in the title:](https://github.com/prodyna-yasm/yasm-integration/commit/b2d531f99299cda920fd3a522058526f13628f35) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 11:41:46 +0000 UTC
+
+- [Need to pass the tag](https://github.com/prodyna-yasm/yasm-integration/commit/ac2a98d68049bed68c8e724f8b71b959db3cd3e4) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 11:40:22 +0000 UTC
+
+- [Use right version of the Go build image](https://github.com/prodyna-yasm/yasm-integration/commit/5df5ebf2c6caf55a175118736b0c28fe4555c684) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 11:38:37 +0000 UTC
+
+- [Copy the image from the builder](https://github.com/prodyna-yasm/yasm-integration/commit/39e287b308b0efe64fab56e3146a89bd3356940a) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 11:35:59 +0000 UTC
+
+- [So basically docker-build-and-push runs always](https://github.com/prodyna-yasm/yasm-integration/commit/cf10f68a41964abea6aa4f7af336d9b394a92710) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 11:32:34 +0000 UTC
+
+- [Build the docker always, but only push on main or tag on main](https://github.com/prodyna-yasm/yasm-integration/commit/149e8b56fdcd42c6d55d04add03a006ce7c6621d) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 11:31:36 +0000 UTC
+
+- [Multistage build](https://github.com/prodyna-yasm/yasm-integration/commit/cee4ec393c0d88916b06403879666792ca16990d) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 11:30:03 +0000 UTC
+
+- [Use Go 1.23 in the pipeline](https://github.com/prodyna-yasm/yasm-integration/commit/161624eb11e42ec404add6c38f49bd7fcd7a9045) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 11:25:36 +0000 UTC
 
 - [Merge pull request #480 from PRODYNA-YASM/479-component-update](https://github.com/prodyna-yasm/yasm-integration/commit/98a378e56e771f2b805068cd71fba8e0f12a8c6d) by [dkrizic](https://github.com/dkrizic) on 2024-08-12 13:10:16 +0000 UTC
 
 - [Component update](https://github.com/prodyna-yasm/yasm-integration/commit/e38d2089e0325791fcb33ce9681ca9d3595a0e92) by [dkrizic](https://github.com/dkrizic) on 2024-08-12 13:04:25 +0000 UTC
 
 
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (1)
-
-- [Use Go 1.23 in the pipeline](https://github.com/PRODYNA-YASM/yasm-integration/pull/481)
 
 
 
@@ -254,7 +269,11 @@ Component Status overview. Last update 2024-08-20T07:32:26Z
 
 
 
-### [Commits on main since 1.5.4](https://github.com/prodyna-yasm/yasm-github/compare/1.5.4..HEAD) (5)
+### [Commits on main since 1.5.4](https://github.com/prodyna-yasm/yasm-github/compare/1.5.4..HEAD) (7)
+
+- [Merge pull request #113 from PRODYNA-YASM/feature/go-1-23](https://github.com/prodyna-yasm/yasm-github/commit/d9536c792de788999834f65a9871e0ff4c8fcf0d) by [dkrizic](https://github.com/dkrizic) on 2024-08-20 09:20:31 +0000 UTC
+
+- [Fix injecting the version](https://github.com/prodyna-yasm/yasm-github/commit/b6d19c6782071723820ac0d134556393436b05e8) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 12:25:56 +0000 UTC
 
 - [Merge pull request #112 from PRODYNA-YASM/feature/go-1-23](https://github.com/prodyna-yasm/yasm-github/commit/c6ad99757b47673c0a08421c5d5c37047551c856) by [dkrizic](https://github.com/dkrizic) on 2024-08-17 11:59:14 +0000 UTC
 
@@ -269,17 +288,12 @@ Component Status overview. Last update 2024-08-20T07:32:26Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-github/pulls) (1)
-
-- [feature/go 1 23](https://github.com/PRODYNA-YASM/yasm-github/pull/113)
-
-
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  c6ad997 |  1.5.4 |  1.5.4 | 
+| Version |  d9536c7 |  1.5.4 |  1.5.4 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 

@@ -277,19 +277,114 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Use Go 1.23 in the pipeline",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/481"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.38.0..HEAD",
-        "Count": 2,
+        "Count": 12,
         "Commits": [
+          {
+            "Text": "Merge pull request #481 from PRODYNA-YASM/feature/go-1-23",
+            "SHA": "1fd66926e6f693f7e17fd5b37c4d094e52319ddf",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-20T09:28:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/1fd66926e6f693f7e17fd5b37c4d094e52319ddf"
+          },
+          {
+            "Text": "Fix path for binary",
+            "SHA": "30bc2d562fc54503a4dc05fe9f9128e2a934c512",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-20T09:22:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/30bc2d562fc54503a4dc05fe9f9128e2a934c512"
+          },
+          {
+            "Text": "Fix the application name in the title:",
+            "SHA": "b2d531f99299cda920fd3a522058526f13628f35",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-17T11:41:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/b2d531f99299cda920fd3a522058526f13628f35"
+          },
+          {
+            "Text": "Need to pass the tag",
+            "SHA": "ac2a98d68049bed68c8e724f8b71b959db3cd3e4",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-17T11:40:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/ac2a98d68049bed68c8e724f8b71b959db3cd3e4"
+          },
+          {
+            "Text": "Use right version of the Go build image",
+            "SHA": "5df5ebf2c6caf55a175118736b0c28fe4555c684",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-17T11:38:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/5df5ebf2c6caf55a175118736b0c28fe4555c684"
+          },
+          {
+            "Text": "Copy the image from the builder",
+            "SHA": "39e287b308b0efe64fab56e3146a89bd3356940a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-17T11:35:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/39e287b308b0efe64fab56e3146a89bd3356940a"
+          },
+          {
+            "Text": "So basically docker-build-and-push runs always",
+            "SHA": "cf10f68a41964abea6aa4f7af336d9b394a92710",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-17T11:32:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/cf10f68a41964abea6aa4f7af336d9b394a92710"
+          },
+          {
+            "Text": "Build the docker always, but only push on main or tag on main",
+            "SHA": "149e8b56fdcd42c6d55d04add03a006ce7c6621d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-17T11:31:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/149e8b56fdcd42c6d55d04add03a006ce7c6621d"
+          },
+          {
+            "Text": "Multistage build",
+            "SHA": "cee4ec393c0d88916b06403879666792ca16990d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-17T11:30:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/cee4ec393c0d88916b06403879666792ca16990d"
+          },
+          {
+            "Text": "Use Go 1.23 in the pipeline",
+            "SHA": "161624eb11e42ec404add6c38f49bd7fcd7a9045",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-17T11:25:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/161624eb11e42ec404add6c38f49bd7fcd7a9045"
+          },
           {
             "Text": "Merge pull request #480 from PRODYNA-YASM/479-component-update",
             "SHA": "98a378e56e771f2b805068cd71fba8e0f12a8c6d",
@@ -550,7 +645,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "c6ad997",
+          "Version": "d9536c7",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -601,19 +696,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "feature/go 1 23",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/113"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.5.4..HEAD",
-        "Count": 5,
+        "Count": 7,
         "Commits": [
+          {
+            "Text": "Merge pull request #113 from PRODYNA-YASM/feature/go-1-23",
+            "SHA": "d9536c792de788999834f65a9871e0ff4c8fcf0d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-20T09:20:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/d9536c792de788999834f65a9871e0ff4c8fcf0d"
+          },
+          {
+            "Text": "Fix injecting the version",
+            "SHA": "b6d19c6782071723820ac0d134556393436b05e8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-17T12:25:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/b6d19c6782071723820ac0d134556393436b05e8"
+          },
           {
             "Text": "Merge pull request #112 from PRODYNA-YASM/feature/go-1-23",
             "SHA": "c6ad99757b47673c0a08421c5d5c37047551c856",
@@ -1196,23 +1306,34 @@
       "Releases": null,
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls",
-        "Count": 2,
-        "PullRequests": [
-          {
-            "Title": "Bump hashicorp/azurerm from 3.115.0 to 3.116.0 in /terraform/manual",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-common/pull/144"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 3.115.0 to 3.116.0 in /terraform/common",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-common/pull/143"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #145 from PRODYNA-YASM/update-components",
+            "SHA": "08b265ccc17eeeafe38928c9d1f37505ec2defef",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-20T09:20:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/08b265ccc17eeeafe38928c9d1f37505ec2defef"
+          },
+          {
+            "Text": "Update azurerm",
+            "SHA": "9d1f619233a41b285187b80927c6ce23bf1aacd3",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-20T09:18:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/9d1f619233a41b285187b80927c6ce23bf1aacd3"
+          },
           {
             "Text": "Merge pull request #142 from PRODYNA-YASM/feature/add-yasm-mainproject",
             "SHA": "c63326285de49ade373d9cb5a32e587f3b544004",
@@ -1492,26 +1613,6 @@
             },
             "Timestamp": "2024-08-02T13:25:30Z",
             "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/3115ae61b0bbce38a49968442671ea8ab03fc1d1"
-          },
-          {
-            "Text": "Not using common provider",
-            "SHA": "ba28b9b6a0f68afd629aec2eab8fed489b02ae4e",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-02T13:23:00Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/ba28b9b6a0f68afd629aec2eab8fed489b02ae4e"
-          },
-          {
-            "Text": "Try again",
-            "SHA": "930ad536ded9d69015e907222a65b3513c8c4c6e",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-02T13:20:57Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/930ad536ded9d69015e907222a65b3513c8c4c6e"
           }
         ]
       },
@@ -2061,5 +2162,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-20T07:32:26Z"
+  "LastUpdated": "2024-08-20T09:29:55Z"
 }
