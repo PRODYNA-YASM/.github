@@ -578,9 +578,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.16.2",
+          "Version": "1.17.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -628,14 +628,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #220 from PRODYNA-YASM/feature/print-version-on-st…",
-            "Timestamp": "2024-08-17T20:19:36Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/10434973595"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1186,23 +1180,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 5,
+        "Count": 2,
         "PullRequests": [
           {
-            "Title": "chore: bump org.openapitools:openapi-generator-maven-plugin from 7.6.0 to 7.8.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/220"
-          },
-          {
-            "Title": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.57 to 3.0.61",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/219"
-          },
-          {
-            "Title": "chore: bump io.smallrye.reactive:mutiny from 2.6.0 to 2.6.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/216"
-          },
-          {
-            "Title": "chore: bump com.fasterxml.jackson.core:jackson-databind from 2.17.1 to 2.17.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/214"
+            "Title": "feat: Add erpId to Project",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/222"
           },
           {
             "Title": "feat: 324-project-images",
@@ -1213,8 +1195,49 @@
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.38.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "chore: bump org.openapitools:openapi-generator-maven-plugin (#220)",
+            "SHA": "ef3c19a341724cedc775cc3f6a64829fbe238d0f",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-08-20T11:33:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/ef3c19a341724cedc775cc3f6a64829fbe238d0f"
+          },
+          {
+            "Text": "chore: bump io.smallrye.reactive:mutiny from 2.6.0 to 2.6.2 (#216)",
+            "SHA": "4395de1ede5d8b61195ba96568764d01509e5301",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-08-20T11:21:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/4395de1ede5d8b61195ba96568764d01509e5301"
+          },
+          {
+            "Text": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin (#219)",
+            "SHA": "882e7193de92eee565d17ee2e93a6993c72221a6",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-08-20T11:12:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/882e7193de92eee565d17ee2e93a6993c72221a6"
+          },
+          {
+            "Text": "chore: bump com.fasterxml.jackson.core:jackson-databind (#214)",
+            "SHA": "bd8b148ac258348ab19b8f2eb88b5ecb64d856ed",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-08-20T11:11:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/bd8b148ac258348ab19b8f2eb88b5ecb64d856ed"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1637,12 +1660,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/sales-copilot/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "Bump docker/build-push-action from 5 to 6",
-            "Link": "https://github.com/PRODYNA-YASM/sales-copilot/pull/5"
-          },
           {
             "Title": "fix: Handle `\"location\": null` in organization object",
             "Link": "https://github.com/PRODYNA-YASM/sales-copilot/pull/4"
@@ -1652,8 +1671,29 @@
       "Link": "https://github.com/prodyna-yasm/sales-copilot",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/sales-copilot/compare/1.1.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #5 from PRODYNA-YASM/dependabot/github_actions/docker/build-push-action-6",
+            "SHA": "f92e17afee7af68dc77d42ef7ae56ea9afedc9fe",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-20T11:37:02Z",
+            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/f92e17afee7af68dc77d42ef7ae56ea9afedc9fe"
+          },
+          {
+            "Text": "Bump docker/build-push-action from 5 to 6",
+            "SHA": "fb315155a1153173e745b85a036e101a1cc30272",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-06-17T14:01:24Z",
+            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/fb315155a1153173e745b85a036e101a1cc30272"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1678,5 +1718,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-20T11:03:12Z"
+  "LastUpdated": "2024-08-20T12:02:22Z"
 }
