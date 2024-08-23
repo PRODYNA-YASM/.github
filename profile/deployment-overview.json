@@ -1189,8 +1189,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Using azure proivider 4.0.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/628"
+          },
           {
             "Title": "Bump hashicorp/azurerm from 3.116.0 to 4.0.0 in /terraform/azure",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/627"
@@ -2006,5 +2010,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-23T07:19:22Z"
+  "LastUpdated": "2024-08-23T07:32:33Z"
 }
