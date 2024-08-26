@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-08-26T07:32:30Z
+Component Status overview. Last update 2024-08-26T11:26:32Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -13,7 +13,7 @@ Component Status overview. Last update 2024-08-26T07:32:30Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [2](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.2..HEAD) | :green_square: 0 | 1.11.2 |  :green_square: 1.11.2 |  :green_square: 1.11.2 |  :green_square: 1.11.2 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.9.1-1 |  :green_square: 8.9.1-1 |  :green_square: 8.9.1-1 |  :green_square: 8.9.1-1 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.39.0 |  :green_square: 1.39.0 |  :green_square: 1.39.0 |  :red_square: 1.38.4 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.39.0..HEAD) | :green_square: 0 | 1.39.0 |  :red_square: 1816099 |  :green_square: 1.39.0 |  :green_square: 1.39.0 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [8](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.39.0..HEAD) | :green_square: 0 | 1.39.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.39.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
@@ -430,13 +430,13 @@ Component Status overview. Last update 2024-08-26T07:32:30Z
 
 
 
+### [Commits on main since 1.39.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.39.0..HEAD) (2)
+
+- [Merge pull request #638 from PRODYNA-YASM/637-azurerm-400-401](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/18160993bd43fc20c4a7337ddaa8183e6bfd0a1f) by [dkrizic](https://github.com/dkrizic) on 2024-08-26 11:10:51 +0000 UTC
+
+- [AzureRM 4.0.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a48318082513dbebdce60c6a503ba7232700990b) by [dkrizic](https://github.com/dkrizic) on 2024-08-26 11:05:53 +0000 UTC
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (2)
-
-- [Bump hashicorp/azurerm from 4.0.0 to 4.0.1 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/634)
-
-- [Bump hashicorp/azurerm from 4.0.0 to 4.0.1 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/633)
 
 
 
@@ -444,9 +444,9 @@ Component Status overview. Last update 2024-08-26T07:32:30Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.39.0 |  1.39.0 |  1.38.4 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Version |  1816099 |  1.39.0 |  1.39.0 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -460,9 +460,7 @@ Component Status overview. Last update 2024-08-26T07:32:30Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting) (2)
-
-- [Merge pull request #632 from PRODYNA-YASM/cert-manager-1.15.3](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/10524274135) created on 2024-08-23 10:35:29 +0000 UTC
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting) (1)
 
 - [Merge pull request #616 from PRODYNA-YASM/615-rename-service-bus-prod…](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/10473024730) created on 2024-08-20 13:58:26 +0000 UTC
 

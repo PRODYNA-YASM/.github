@@ -1096,9 +1096,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.39.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "1816099",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1110,9 +1110,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.38.4",
+          "Version": "1.39.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1147,35 +1147,42 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 2,
-        "PullRequests": [
-          {
-            "Title": "Bump hashicorp/azurerm from 4.0.0 to 4.0.1 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/634"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 4.0.0 to 4.0.1 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/633"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.39.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #638 from PRODYNA-YASM/637-azurerm-400-401",
+            "SHA": "18160993bd43fc20c4a7337ddaa8183e6bfd0a1f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-26T11:10:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/18160993bd43fc20c4a7337ddaa8183e6bfd0a1f"
+          },
+          {
+            "Text": "AzureRM 4.0.1",
+            "SHA": "a48318082513dbebdce60c6a503ba7232700990b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-08-26T11:05:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a48318082513dbebdce60c6a503ba7232700990b"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #632 from PRODYNA-YASM/cert-manager-1.15.3",
-            "Timestamp": "2024-08-23T10:35:29Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/10524274135"
-          },
           {
             "Name": "Merge pull request #616 from PRODYNA-YASM/615-rename-service-bus-prod…",
             "Timestamp": "2024-08-20T13:58:26Z",
@@ -1891,5 +1898,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-08-26T07:32:30Z"
+  "LastUpdated": "2024-08-26T11:26:32Z"
 }
