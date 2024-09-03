@@ -8,14 +8,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "33dc4ea",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.40.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.38.0",
+          "Version": "1.40.0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -24,17 +24,24 @@
           "Link": "",
           "Version": "1.38.0",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.38.0",
+        "Tag": "1.40.0",
         "SHA": "",
-        "Title": "Create SkillProfile Entity and refactor cypher template",
-        "Timestamp": "2024-08-08T11:58:06Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.38.0"
+        "Title": "Add backend implementation for Skill Favorite",
+        "Timestamp": "2024-09-03T08:17:23Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.40.0"
       },
       "Releases": [
+        {
+          "Tag": "1.40.0",
+          "SHA": "",
+          "Title": "Add backend implementation for Skill Favorite",
+          "Timestamp": "2024-09-02T10:28:49Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.40.0"
+        },
         {
           "Tag": "1.38.0",
           "SHA": "",
@@ -48,13 +55,6 @@
           "Title": "Fix sort all scores descending, fix user cant delete project participation",
           "Timestamp": "2024-07-10T11:04:15Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.37.1"
-        },
-        {
-          "Tag": "1.37.0",
-          "SHA": "",
-          "Title": "Show the number of direct and related search results, Search for offices in global search, Update audit relation and refactor Experience to SkillGroups in ProjectParticipation",
-          "Timestamp": "2024-07-05T07:25:49Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.37.0"
         }
       ],
       "PullRequests": {
@@ -73,47 +73,22 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.38.0..HEAD",
-        "Count": 3,
-        "Commits": [
-          {
-            "Text": "fix: change skills attribute to experienceSkills in SkillsProfileDetails object (#707)",
-            "SHA": "33dc4ea60a4326d292da065b3e9953d1f15010c9",
-            "Author": {
-              "name": "irhox",
-              "link": "https://github.com/irhox"
-            },
-            "Timestamp": "2024-09-02T10:28:49Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/33dc4ea60a4326d292da065b3e9953d1f15010c9"
-          },
-          {
-            "Text": "build: update deps (#705)",
-            "SHA": "e83b9a8210ce49b99c268e98bdf0114395ca2e21",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-08-30T14:43:42Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/e83b9a8210ce49b99c268e98bdf0114395ca2e21"
-          },
-          {
-            "Text": "build(deps): update quarkus and jandex dep (#696)",
-            "SHA": "2d89b947fbcadadc8143a96a28c541b19af2c976",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-08-17T15:13:55Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/2d89b947fbcadadc8143a96a28c541b19af2c976"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.40.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "fix: change skills attribute to experienceSkills in SkillsProfileDeta…",
+            "Timestamp": "2024-09-03T08:17:25Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/10679171613"
+          }
+        ]
       }
     },
     {
@@ -123,7 +98,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "9d31f8b",
+          "Version": "eaebf40",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -177,8 +152,8 @@
         "Count": 7,
         "PullRequests": [
           {
-            "Title": "feat: Skill favorites",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/828"
+            "Title": "fix: nonPRODYNA-Toggle when creating a new project now usable",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/829"
           },
           {
             "Title": "chore: bump lint-staged from 13.3.0 to 15.2.10",
@@ -209,8 +184,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.38.1..HEAD",
-        "Count": 19,
+        "Count": 20,
         "Commits": [
+          {
+            "Text": "feat: Skill favorites (#828)",
+            "SHA": "eaebf4053f8d07746aa69a5ccec17626221fe064",
+            "Author": {
+              "name": "readmey",
+              "link": "https://github.com/readmey"
+            },
+            "Timestamp": "2024-09-03T07:57:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/eaebf4053f8d07746aa69a5ccec17626221fe064"
+          },
           {
             "Text": "feat: add person audit and show last profile edit (#827)",
             "SHA": "9d31f8be06dac6d67f0544c0f29eb86d7fb0104e",
@@ -462,8 +447,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Update components",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/508"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -589,8 +579,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Update components",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/375"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
@@ -1869,5 +1864,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-09-03T07:32:26Z"
+  "LastUpdated": "2024-09-03T08:22:29Z"
 }
