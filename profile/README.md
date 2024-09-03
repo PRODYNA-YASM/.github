@@ -1,21 +1,21 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-09-02T07:32:34Z
+Component Status overview. Last update 2024-09-03T07:32:26Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-backend/compare/1.38.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.38.0 |  :red_square: e83b9a8 |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [18](https://github.com/prodyna-yasm/yasm-frontend/compare/1.38.1..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.38.1 |  :red_square: 235b03c |  :green_square: 1.38.1 |  :red_square: 1.38.0 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.39.1..HEAD) | :green_square: 0 | 1.39.1 |  :red_square: cdc4ba6 |  :green_square: 1.39.1 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.39.1 |  :green_square: 1.39.1 |  :green_square: 1.39.1 |  :red_square: 1.38.0 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.17.1..HEAD) | :green_square: 0 | 1.17.1 |  :red_square: 7b88e73 |  :green_square: 1.17.1 |  :green_square: 1.17.1 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-backend/compare/1.38.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.38.0 |  :red_square: 33dc4ea |  :green_square: 1.38.0 |  :green_square: 1.38.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [19](https://github.com/prodyna-yasm/yasm-frontend/compare/1.38.1..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.38.1 |  :red_square: 9d31f8b |  :green_square: 1.38.1 |  :green_square: 1.38.1 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [4](https://github.com/prodyna-yasm/yasm-integration/compare/1.39.1..HEAD) | :green_square: 0 | 1.39.1 |  :red_square: cda8070 |  :green_square: 1.39.1 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.39.1..HEAD) | :green_square: 0 | 1.39.1 |  :red_square: 7794042 |  :green_square: 1.39.1 |  :red_square: 1.38.0 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [4](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.17.1..HEAD) | :green_square: 0 | 1.17.1 |  :red_square: 7d02a50 |  :green_square: 1.17.1 |  :green_square: 1.17.1 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [2](https://github.com/prodyna-yasm/yasm-github/compare/1.6.1..HEAD) | :green_square: 0 | 1.6.1 |  :red_square: 4348644 |  :green_square: 1.6.1 |  :red_square: 1.6.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [2](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.4..HEAD) | :green_square: 0 | 1.11.4 |  :red_square: 1a7f54e |  :green_square: 1.11.4 |  :red_square: 1.11.3 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.9.1-1 |  :green_square: 8.9.1-1 |  :green_square: 8.9.1-1 |  :green_square: 8.9.1-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.39.0..HEAD) | :green_square: 0 | 1.39.0 |  :red_square: 1816099 |  :green_square: 1.39.0 |  :green_square: 1.39.0 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :green_square: 0 | 1.39.2 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.39.0 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.40.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [2](https://github.com/prodyna-yasm/yasm-test/compare/1.39.1..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-test/pulls) | 1.39.1 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [6](https://github.com/prodyna-yasm/yasm-metrics/compare/1.2.0..HEAD) | :green_square: 0 | 1.2.0 |  :red_square: 60c4f66 |  :green_square: 1.2.0 |  :red_square: 1.1.0 | 
@@ -29,7 +29,9 @@ Component Status overview. Last update 2024-09-02T07:32:34Z
 
 
 
-### [Commits on main since 1.38.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.38.0..HEAD) (2)
+### [Commits on main since 1.38.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.38.0..HEAD) (3)
+
+- [fix: change skills attribute to experienceSkills in SkillsProfileDetails object (#707)](https://github.com/prodyna-yasm/yasm-backend/commit/33dc4ea60a4326d292da065b3e9953d1f15010c9) by [irhox](https://github.com/irhox) on 2024-09-02 10:28:49 +0000 UTC
 
 - [build: update deps (#705)](https://github.com/prodyna-yasm/yasm-backend/commit/e83b9a8210ce49b99c268e98bdf0114395ca2e21) by [coding4kay](https://github.com/coding4kay) on 2024-08-30 14:43:42 +0000 UTC
 
@@ -38,9 +40,7 @@ Component Status overview. Last update 2024-09-02T07:32:34Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (3)
-
-- [fix: change skills attribute to experienceSkills in SkillsProfileDetails object](https://github.com/PRODYNA-YASM/yasm-backend/pull/707)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (2)
 
 - [feat: 324-project-references](https://github.com/PRODYNA-YASM/yasm-backend/pull/695)
 
@@ -52,7 +52,7 @@ Component Status overview. Last update 2024-09-02T07:32:34Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  e83b9a8 |  1.38.0 |  1.38.0 | 
+| Version |  33dc4ea |  1.38.0 |  1.38.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -75,7 +75,9 @@ Component Status overview. Last update 2024-09-02T07:32:34Z
 
 
 
-### [Commits on main since 1.38.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.38.1..HEAD) (18)
+### [Commits on main since 1.38.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.38.1..HEAD) (19)
+
+- [feat: add person audit and show last profile edit (#827)](https://github.com/prodyna-yasm/yasm-frontend/commit/9d31f8be06dac6d67f0544c0f29eb86d7fb0104e) by [readmey](https://github.com/readmey) on 2024-09-02 13:05:45 +0000 UTC
 
 - [Fix uses](https://github.com/prodyna-yasm/yasm-frontend/commit/235b03c376632ed553b35c5be7fcbb80a9cd8eb9) by [dkrizic](https://github.com/dkrizic) on 2024-08-24 17:40:29 +0000 UTC
 
@@ -116,7 +118,9 @@ Component Status overview. Last update 2024-09-02T07:32:34Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
+
+- [feat: Skill favorites](https://github.com/PRODYNA-YASM/yasm-frontend/pull/828)
 
 - [chore: bump lint-staged from 13.3.0 to 15.2.10](https://github.com/PRODYNA-YASM/yasm-frontend/pull/826)
 
@@ -136,9 +140,9 @@ Component Status overview. Last update 2024-09-02T07:32:34Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  235b03c |  1.38.1 |  1.38.0 | 
+| Version |  9d31f8b |  1.38.1 |  1.38.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :red_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -152,11 +156,6 @@ Component Status overview. Last update 2024-09-02T07:32:34Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
-
-- [feat: link previous selected employee to prject participation (#814)](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/10510492580) created on 2024-08-22 14:52:55 +0000 UTC
-
-
 
 
 ## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.39.1
@@ -164,7 +163,11 @@ Component Status overview. Last update 2024-09-02T07:32:34Z
 
 
 
-### [Commits on main since 1.39.1](https://github.com/prodyna-yasm/yasm-integration/compare/1.39.1..HEAD) (2)
+### [Commits on main since 1.39.1](https://github.com/prodyna-yasm/yasm-integration/compare/1.39.1..HEAD) (4)
+
+- [Merge pull request #507 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.40.0](https://github.com/prodyna-yasm/yasm-integration/commit/cda807033231108171dc49e32d988b8f22970703) by [dkrizic](https://github.com/dkrizic) on 2024-09-03 05:10:29 +0000 UTC
+
+- [Bump github.com/prodyna-yasm/yasm-api-go from 1.39.0 to 1.40.0](https://github.com/prodyna-yasm/yasm-integration/commit/c3d14b7ae1eb97c349598b6b764b8fe1e81654a5) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-09-03 01:36:40 +0000 UTC
 
 - [Merge pull request #506 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.66.0](https://github.com/prodyna-yasm/yasm-integration/commit/cdc4ba601ad9a45c5b487214bea97e5daa226d81) by [dkrizic](https://github.com/dkrizic) on 2024-08-29 07:50:52 +0000 UTC
 
@@ -178,7 +181,7 @@ Component Status overview. Last update 2024-09-02T07:32:34Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  cdc4ba6 |  1.39.1 | 
+| Version |  cda8070 |  1.39.1 | 
 | Release |  :red_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: | 
 
@@ -208,6 +211,13 @@ Component Status overview. Last update 2024-09-02T07:32:34Z
 
 
 
+### [Commits on main since 1.39.1](https://github.com/prodyna-yasm/yasmctl/compare/1.39.1..HEAD) (2)
+
+- [Merge pull request #374 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.40.0](https://github.com/prodyna-yasm/yasmctl/commit/7794042c0d03192acdd3ff473bcdca93af2f56c5) by [dkrizic](https://github.com/dkrizic) on 2024-09-02 21:30:53 +0000 UTC
+
+- [Bump github.com/prodyna-yasm/yasm-api-go from 1.39.0 to 1.40.0](https://github.com/prodyna-yasm/yasmctl/commit/adab664068ee7b1411411887652ebda91203ab3b) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-09-02 21:20:50 +0000 UTC
+
+
 
 
 
@@ -215,9 +225,9 @@ Component Status overview. Last update 2024-09-02T07:32:34Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.39.1 |  1.39.1 |  1.38.0 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Version |  7794042 |  1.39.1 |  1.38.0 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
@@ -245,7 +255,11 @@ Component Status overview. Last update 2024-09-02T07:32:34Z
 
 
 
-### [Commits on main since 1.17.1](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.17.1..HEAD) (2)
+### [Commits on main since 1.17.1](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.17.1..HEAD) (4)
+
+- [Merge pull request #227 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.66.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/7d02a504640dff225d24033f474befc6e7187853) by [dkrizic](https://github.com/dkrizic) on 2024-09-02 14:01:46 +0000 UTC
+
+- [Bump google.golang.org/grpc from 1.65.0 to 1.66.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/b7f79273c77de961aac9308e49778bbbc55d5e41) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-09-02 13:39:14 +0000 UTC
 
 - [Merge pull request #226 from PRODYNA-YASM/autofix/alert-1-fc614fef67](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/7b88e73dc6c39d8a129bfcf88ea59129905c9184) by [dkrizic](https://github.com/dkrizic) on 2024-08-30 11:57:19 +0000 UTC
 
@@ -259,7 +273,7 @@ Component Status overview. Last update 2024-09-02T07:32:34Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  7b88e73 |  1.17.1 |  1.17.1 | 
+| Version |  7d02a50 |  1.17.1 |  1.17.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -493,16 +507,14 @@ Component Status overview. Last update 2024-09-02T07:32:34Z
 
 
 
-## [yasm-api](https://github.com/prodyna-yasm/yasm-api) 1.39.0
+## [yasm-api](https://github.com/prodyna-yasm/yasm-api) 1.40.0
 
 
 
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (3)
-
-- [fix: change skills attribute to experienceSkills in SkillsProfileDetails object](https://github.com/PRODYNA-YASM/yasm-api/pull/225)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (2)
 
 - [chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.61 to 3.0.62](https://github.com/PRODYNA-YASM/yasm-api/pull/224)
 
@@ -521,11 +533,11 @@ Component Status overview. Last update 2024-09-02T07:32:34Z
 
 ### Last releases
 
+- [Changed Skills array to ExperienceSkills array in SkillsProfileDetails object](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.40.0) on 2024-09-02 08:42:49 +0000 UTC
+
 - [Projects can now store an ERP ID](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.39.0) on 2024-08-23 07:45:05 +0000 UTC
 
 - [Created new Endpoints for new SkillsProfile entity in order to store selected employee skills profiles](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.38.0) on 2024-07-25 10:24:33 +0000 UTC
-
-- [Add ExperienceSkill in Projects and replace Experiences with SkillGroups in ProjectParticipation](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.37.0) on 2024-07-04 11:46:47 +0000 UTC
 
 
 
@@ -585,13 +597,13 @@ Component Status overview. Last update 2024-09-02T07:32:34Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (5)
 
+- [chore(deps-dev): Bump @types/node from 22.5.0 to 22.5.2](https://github.com/PRODYNA-YASM/yasm-test/pull/161)
+
 - [chore(deps): Bump cypress/included from 13.13.3 to 13.14.1](https://github.com/PRODYNA-YASM/yasm-test/pull/160)
 
 - [chore(deps-dev): Bump cypress from 13.13.3 to 13.14.1](https://github.com/PRODYNA-YASM/yasm-test/pull/159)
 
 - [chore(deps): Bump @azure/msal-node from 2.13.0 to 2.13.1](https://github.com/PRODYNA-YASM/yasm-test/pull/158)
-
-- [chore(deps-dev): Bump @types/node from 22.5.0 to 22.5.1](https://github.com/PRODYNA-YASM/yasm-test/pull/155)
 
 - [chore(deps): Bump jose from 5.7.0 to 5.8.0](https://github.com/PRODYNA-YASM/yasm-test/pull/154)
 
