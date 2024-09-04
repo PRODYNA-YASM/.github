@@ -364,33 +364,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "7d02a50",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.17.2",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.17.1",
+          "Version": "1.17.2",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.17.1",
+          "Version": "1.17.2",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.17.1",
+        "Tag": "1.17.2",
         "SHA": "",
-        "Title": "OpenTelemetry update",
-        "Timestamp": "2024-08-27T13:20:54Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.17.1"
+        "Title": "Update components, fix security warning",
+        "Timestamp": "2024-09-04T11:07:59Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.17.2"
       },
       "Releases": [
+        {
+          "Tag": "1.17.2",
+          "SHA": "",
+          "Title": "Update components, fix security warning",
+          "Timestamp": "2024-09-04T08:22:59Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.17.2"
+        },
         {
           "Tag": "1.17.1",
           "SHA": "",
@@ -404,71 +411,18 @@
           "Title": "Using Multi-stage build, fix version, go 1.23",
           "Timestamp": "2024-08-17T20:11:26Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.17.0"
-        },
-        {
-          "Tag": "1.16.2",
-          "SHA": "",
-          "Title": "Component update",
-          "Timestamp": "2024-08-08T12:29:02Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.16.2"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Update libs",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/228"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.17.1..HEAD",
-        "Count": 4,
-        "Commits": [
-          {
-            "Text": "Merge pull request #227 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.66.0",
-            "SHA": "7d02a504640dff225d24033f474befc6e7187853",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-09-02T14:01:46Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/7d02a504640dff225d24033f474befc6e7187853"
-          },
-          {
-            "Text": "Bump google.golang.org/grpc from 1.65.0 to 1.66.0",
-            "SHA": "b7f79273c77de961aac9308e49778bbbc55d5e41",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-09-02T13:39:14Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/b7f79273c77de961aac9308e49778bbbc55d5e41"
-          },
-          {
-            "Text": "Merge pull request #226 from PRODYNA-YASM/autofix/alert-1-fc614fef67",
-            "SHA": "7b88e73dc6c39d8a129bfcf88ea59129905c9184",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-30T11:57:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/7b88e73dc6c39d8a129bfcf88ea59129905c9184"
-          },
-          {
-            "Text": "Fix: Alert [1]",
-            "SHA": "350fbfbd1acf37158c6836eb1707091ffcffa211",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-30T11:45:53Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/350fbfbd1acf37158c6836eb1707091ffcffa211"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.17.2..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -638,8 +592,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Update components",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/149"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
@@ -853,9 +812,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.39.0",
+          "Version": "1.40.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -903,13 +862,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #638 from PRODYNA-YASM/637-azurerm-400-401",
-            "Timestamp": "2024-09-04T08:06:21Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/10697638300"
-          },
           {
             "Name": "Merge pull request #616 from PRODYNA-YASM/615-rename-service-bus-prod…",
             "Timestamp": "2024-08-20T13:58:26Z",
@@ -1597,5 +1551,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-09-04T08:15:09Z"
+  "LastUpdated": "2024-09-04T11:13:03Z"
 }
