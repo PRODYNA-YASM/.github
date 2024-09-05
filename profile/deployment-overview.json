@@ -8,9 +8,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.40.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "4961170",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump quarkus.platform.version from 3.14.1 to 3.14.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/709"
+          },
           {
             "Title": "feat: 324-project-references",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/695"
@@ -74,8 +78,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.40.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "fix: correct formatting of erpId implementation(#710)",
+            "SHA": "4961170a05a891a7535a4e0ffa2a5373913b12c5",
+            "Author": {
+              "name": "mayer-prodyna",
+              "link": "https://github.com/mayer-prodyna"
+            },
+            "Timestamp": "2024-09-05T06:20:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/4961170a05a891a7535a4e0ffa2a5373913b12c5"
+          },
+          {
+            "Text": "feat: feat: add erp id to project details (#708)",
+            "SHA": "56ef8d2aa58af7f20c74af15fc63556a4f02717b",
+            "Author": {
+              "name": "mayer-prodyna",
+              "link": "https://github.com/mayer-prodyna"
+            },
+            "Timestamp": "2024-09-05T05:38:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/56ef8d2aa58af7f20c74af15fc63556a4f02717b"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -490,8 +515,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump golang.org/x/oauth2 from 0.22.0 to 0.23.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/124"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
@@ -535,7 +565,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1a7f54e",
+          "Version": "9836419",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -586,19 +616,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Update components",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/149"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.4..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #149 from PRODYNA-YASM/feature/update-components",
+            "SHA": "9836419b00c16652804b8a9b7fdde445f13df38c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-04T11:46:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/9836419b00c16652804b8a9b7fdde445f13df38c"
+          },
+          {
+            "Text": "Update components",
+            "SHA": "b3c1d3b5baa761ae9a99c30843441e7274b7e943",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-04T11:09:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/b3c1d3b5baa761ae9a99c30843441e7274b7e943"
+          },
           {
             "Text": "Merge pull request #148 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.66.0",
             "SHA": "1a7f54ea7ca97fa1870cc8d617c8deb8f6f73b2e",
@@ -717,9 +762,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8.9.1-1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "e5916e3",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -774,8 +819,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.9.1-1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #51 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.9.2",
+            "SHA": "e5916e36d338944c50a69dc31d6731b07b73be5d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-05T06:39:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/e5916e36d338944c50a69dc31d6731b07b73be5d"
+          },
+          {
+            "Text": "Bump gotenberg/gotenberg from 8.9.1 to 8.9.2",
+            "SHA": "a73c8828cb6dadbf8781d3ba19365dfdca3677ee",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-09-05T00:35:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/a73c8828cb6dadbf8781d3ba19365dfdca3677ee"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1079,8 +1145,8 @@
         "Count": 5,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump @types/node from 22.5.0 to 22.5.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/161"
+            "Title": "chore(deps-dev): Bump @types/node from 22.5.0 to 22.5.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/162"
           },
           {
             "Title": "chore(deps): Bump cypress/included from 13.13.3 to 13.14.1",
@@ -1540,5 +1606,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-09-04T11:45:16Z"
+  "LastUpdated": "2024-09-05T07:32:13Z"
 }
