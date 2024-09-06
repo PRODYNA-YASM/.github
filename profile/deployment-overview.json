@@ -504,7 +504,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "cdac493",
+          "Version": "89bee90",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -555,23 +555,59 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
           {
             "Title": "Dedicated packages for services, error service",
             "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/231"
-          },
-          {
-            "Title": "Ping database before using it",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/230"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.17.2..HEAD",
-        "Count": 2,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #230 from PRODYNA-YASM/bugfix/ensure-ping-before-using-connection",
+            "SHA": "89bee90ecada05d4a39015a335b87a0e0f422f40",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-06T07:33:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/89bee90ecada05d4a39015a335b87a0e0f422f40"
+          },
+          {
+            "Text": "Import package metric",
+            "SHA": "18ed1eaf1cf6aa313c6bd09475abdc00fc342961",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-06T07:28:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/18ed1eaf1cf6aa313c6bd09475abdc00fc342961"
+          },
+          {
+            "Text": "Merge branch 'main' into bugfix/ensure-ping-before-using-connection",
+            "SHA": "47a8eb98f8ccff8df15f3086d81f45e33607e498",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-05T22:25:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/47a8eb98f8ccff8df15f3086d81f45e33607e498"
+          },
+          {
+            "Text": "Ping database before using it",
+            "SHA": "45252354565f43ac1e099ebf89537260213dd169",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-05T21:46:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/45252354565f43ac1e099ebf89537260213dd169"
+          },
           {
             "Text": "Merge pull request #229 from PRODYNA-YASM/feature/improve-logging",
             "SHA": "cdac4938814bbb112f98221fda9605216dedfe23",
@@ -759,9 +795,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.11.3",
+          "Version": "1.11.4",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -850,14 +886,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #143 from PRODYNA-YASM/dependabot/go_modules/go.op…",
-            "Timestamp": "2024-08-27T13:20:06Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/10578979998"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1384,33 +1414,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "f953eeb",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.2.1",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.2.0",
+          "Version": "1.2.1",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.2.0",
+          "Version": "1.2.1",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.2.0",
+        "Tag": "1.2.1",
         "SHA": "",
-        "Title": "Component updates",
-        "Timestamp": "2024-08-27T13:08:44Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.2.0"
+        "Title": "Dummy change for demo, some component updates",
+        "Timestamp": "2024-09-06T08:27:15Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.2.1"
       },
       "Releases": [
+        {
+          "Tag": "1.2.1",
+          "SHA": "",
+          "Title": "Dummy change for demo, some component updates",
+          "Timestamp": "2024-09-06T08:16:05Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.2.1"
+        },
         {
           "Tag": "1.2.0",
           "SHA": "",
@@ -1424,13 +1461,6 @@
           "Title": "Go 1.23",
           "Timestamp": "2024-08-17T11:39:13Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.1.0"
-        },
-        {
-          "Tag": "1.0.1",
-          "SHA": "",
-          "Title": "Log duration after run",
-          "Timestamp": "2024-08-14T12:30:06Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.0.1"
         }
       ],
       "PullRequests": {
@@ -1440,130 +1470,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.2.0..HEAD",
-        "Count": 12,
-        "Commits": [
-          {
-            "Text": "Merge pull request #47 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.20.3",
-            "SHA": "f953eeb6a3dd63856f649a503d5afdfa6e624751",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-09-06T07:22:59Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/f953eeb6a3dd63856f649a503d5afdfa6e624751"
-          },
-          {
-            "Text": "Bump github.com/prometheus/client_golang from 1.20.2 to 1.20.3",
-            "SHA": "d1a9543a37d50d234bd11b3c131d12199599856e",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-09-06T06:31:37Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/d1a9543a37d50d234bd11b3c131d12199599856e"
-          },
-          {
-            "Text": "Merge pull request #48 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/common-0.59.1",
-            "SHA": "47365b5623e2d92773d853b6dcc071dcad705124",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-09-06T06:30:15Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/47365b5623e2d92773d853b6dcc071dcad705124"
-          },
-          {
-            "Text": "Bump github.com/prometheus/common from 0.58.0 to 0.59.1",
-            "SHA": "ad571be5a52a7156f1e083c0f2830585956057d8",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-09-06T05:13:45Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/ad571be5a52a7156f1e083c0f2830585956057d8"
-          },
-          {
-            "Text": "Merge pull request #46 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/common-0.58.0",
-            "SHA": "d096643b2eb5f1ecc36fc0f12e6f07b5da420cca",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-09-04T06:21:22Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/d096643b2eb5f1ecc36fc0f12e6f07b5da420cca"
-          },
-          {
-            "Text": "Bump github.com/prometheus/common from 0.57.0 to 0.58.0",
-            "SHA": "5d03680f286246af3087ebddd1c09ae3245b0ea7",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-09-04T05:51:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/5d03680f286246af3087ebddd1c09ae3245b0ea7"
-          },
-          {
-            "Text": "Merge pull request #44 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/common-0.57.0",
-            "SHA": "60c4f66eca457acf0688ab410750ce0ade7e10b6",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-29T07:49:51Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/60c4f66eca457acf0688ab410750ce0ade7e10b6"
-          },
-          {
-            "Text": "Merge pull request #45 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.66.0",
-            "SHA": "265ad617a10ca4c6bbbc1eb45a8ca94a9ab02bf1",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-29T07:49:28Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/265ad617a10ca4c6bbbc1eb45a8ca94a9ab02bf1"
-          },
-          {
-            "Text": "Bump google.golang.org/grpc from 1.65.0 to 1.66.0",
-            "SHA": "6249dc09660b524a739f1d973694cee6134ebedd",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-08-29T06:02:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/6249dc09660b524a739f1d973694cee6134ebedd"
-          },
-          {
-            "Text": "Bump github.com/prometheus/common from 0.56.0 to 0.57.0",
-            "SHA": "fe6e6c11758e7e276d810cae77219734fd76051b",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-08-29T06:02:04Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/fe6e6c11758e7e276d810cae77219734fd76051b"
-          },
-          {
-            "Text": "Merge pull request #43 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/common-0.56.0",
-            "SHA": "16df8c14ce663599f9ba320bc06932af56a8d628",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-08-28T06:55:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/16df8c14ce663599f9ba320bc06932af56a8d628"
-          },
-          {
-            "Text": "Bump github.com/prometheus/common from 0.55.0 to 0.56.0",
-            "SHA": "bd0a9c5277c79a97ca0e75a395b5414f5087853d",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-08-28T06:11:16Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/bd0a9c5277c79a97ca0e75a395b5414f5087853d"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.2.1..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1842,5 +1751,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-09-06T07:32:11Z"
+  "LastUpdated": "2024-09-06T10:17:27Z"
 }

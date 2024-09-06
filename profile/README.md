@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-09-06T07:32:11Z
+Component Status overview. Last update 2024-09-06T10:17:27Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -8,9 +8,9 @@ Component Status overview. Last update 2024-09-06T07:32:11Z
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.40.4 |  :green_square: 1.40.4 |  :green_square: 1.40.4 |  :green_square: 1.40.4 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [11](https://github.com/prodyna-yasm/yasm-integration/compare/1.40.0..HEAD) | :green_square: 0 | 1.40.0 |  :red_square: 05c4713 |  :green_square: 1.40.0 |  :green_square: 1.40.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.40.0 |  :green_square: 1.40.0 |  :green_square: 1.40.0 |  :green_square: 1.40.0 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.17.2..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.17.2 |  :red_square: cdac493 |  :green_square: 1.17.2 |  :green_square: 1.17.2 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [6](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.17.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.17.2 |  :red_square: 89bee90 |  :green_square: 1.17.2 |  :green_square: 1.17.2 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [6](https://github.com/prodyna-yasm/yasm-github/compare/1.6.1..HEAD) | :green_square: 0 | 1.6.1 |  :red_square: 169f02b |  :green_square: 1.6.1 |  :green_square: 1.6.1 | 
-| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [4](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.4..HEAD) | :green_square: 0 | 1.11.4 |  :red_square: 9836419 |  :green_square: 1.11.4 |  :red_square: 1.11.3 | 
+| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [4](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.4..HEAD) | :green_square: 0 | 1.11.4 |  :red_square: 9836419 |  :green_square: 1.11.4 |  :green_square: 1.11.4 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.9.2-1 |  :green_square: 8.9.2-1 |  :green_square: 8.9.2-1 |  :green_square: 8.9.2-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.40.0 |  :green_square: 1.40.0 |  :green_square: 1.40.0 |  :green_square: 1.40.0 | 
@@ -18,7 +18,7 @@ Component Status overview. Last update 2024-09-06T07:32:11Z
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.40.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [2](https://github.com/prodyna-yasm/yasm-test/compare/1.39.1..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-test/pulls) | 1.39.1 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [12](https://github.com/prodyna-yasm/yasm-metrics/compare/1.2.0..HEAD) | :green_square: 0 | 1.2.0 |  :red_square: f953eeb |  :green_square: 1.2.0 |  :green_square: 1.2.0 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :green_square: 0 | :green_square: 0 | 1.2.1 |  :green_square: 1.2.1 |  :green_square: 1.2.1 |  :green_square: 1.2.1 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [6](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.3.0..HEAD) | :green_square: 0 | 1.3.0 |  :red_square: 80891ee |  :green_square: 1.3.0 |  :red_square: 1.2.0 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [2](https://github.com/prodyna-yasm/sales-copilot/compare/1.1.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.1.0 |  :green_square: 1.1.0 |  :green_square: 1.1.0 |  :green_square: 1.1.0 | 
 
@@ -221,7 +221,15 @@ Component Status overview. Last update 2024-09-06T07:32:11Z
 
 
 
-### [Commits on main since 1.17.2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.17.2..HEAD) (2)
+### [Commits on main since 1.17.2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.17.2..HEAD) (6)
+
+- [Merge pull request #230 from PRODYNA-YASM/bugfix/ensure-ping-before-using-connection](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/89bee90ecada05d4a39015a335b87a0e0f422f40) by [dkrizic](https://github.com/dkrizic) on 2024-09-06 07:33:02 +0000 UTC
+
+- [Import package metric](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/18ed1eaf1cf6aa313c6bd09475abdc00fc342961) by [dkrizic](https://github.com/dkrizic) on 2024-09-06 07:28:11 +0000 UTC
+
+- [Merge branch 'main' into bugfix/ensure-ping-before-using-connection](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/47a8eb98f8ccff8df15f3086d81f45e33607e498) by [dkrizic](https://github.com/dkrizic) on 2024-09-05 22:25:36 +0000 UTC
+
+- [Ping database before using it](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/45252354565f43ac1e099ebf89537260213dd169) by [dkrizic](https://github.com/dkrizic) on 2024-09-05 21:46:49 +0000 UTC
 
 - [Merge pull request #229 from PRODYNA-YASM/feature/improve-logging](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/cdac4938814bbb112f98221fda9605216dedfe23) by [dkrizic](https://github.com/dkrizic) on 2024-09-05 12:39:04 +0000 UTC
 
@@ -230,11 +238,9 @@ Component Status overview. Last update 2024-09-06T07:32:11Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) (2)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) (1)
 
 - [Dedicated packages for services, error service](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/231)
-
-- [Ping database before using it](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/230)
 
 
 
@@ -242,7 +248,7 @@ Component Status overview. Last update 2024-09-06T07:32:11Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  cdac493 |  1.17.2 |  1.17.2 | 
+| Version |  89bee90 |  1.17.2 |  1.17.2 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -328,9 +334,9 @@ Component Status overview. Last update 2024-09-06T07:32:11Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  9836419 |  1.11.4 |  1.11.3 | 
+| Version |  9836419 |  1.11.4 |  1.11.4 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :red_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -342,11 +348,6 @@ Component Status overview. Last update 2024-09-06T07:32:11Z
 - [Component updates](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.11.2) on 2024-08-08 12:27:16 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #143 from PRODYNA-YASM/dependabot/go_modules/go.op…](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/10578979998) created on 2024-08-27 13:20:06 +0000 UTC
 
 
 
@@ -611,36 +612,9 @@ Component Status overview. Last update 2024-09-06T07:32:11Z
 
 
 
-## [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) 1.2.0
+## [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) 1.2.1
 
 
-
-
-### [Commits on main since 1.2.0](https://github.com/prodyna-yasm/yasm-metrics/compare/1.2.0..HEAD) (12)
-
-- [Merge pull request #47 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.20.3](https://github.com/prodyna-yasm/yasm-metrics/commit/f953eeb6a3dd63856f649a503d5afdfa6e624751) by [dkrizic](https://github.com/dkrizic) on 2024-09-06 07:22:59 +0000 UTC
-
-- [Bump github.com/prometheus/client_golang from 1.20.2 to 1.20.3](https://github.com/prodyna-yasm/yasm-metrics/commit/d1a9543a37d50d234bd11b3c131d12199599856e) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-09-06 06:31:37 +0000 UTC
-
-- [Merge pull request #48 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/common-0.59.1](https://github.com/prodyna-yasm/yasm-metrics/commit/47365b5623e2d92773d853b6dcc071dcad705124) by [dkrizic](https://github.com/dkrizic) on 2024-09-06 06:30:15 +0000 UTC
-
-- [Bump github.com/prometheus/common from 0.58.0 to 0.59.1](https://github.com/prodyna-yasm/yasm-metrics/commit/ad571be5a52a7156f1e083c0f2830585956057d8) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-09-06 05:13:45 +0000 UTC
-
-- [Merge pull request #46 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/common-0.58.0](https://github.com/prodyna-yasm/yasm-metrics/commit/d096643b2eb5f1ecc36fc0f12e6f07b5da420cca) by [dkrizic](https://github.com/dkrizic) on 2024-09-04 06:21:22 +0000 UTC
-
-- [Bump github.com/prometheus/common from 0.57.0 to 0.58.0](https://github.com/prodyna-yasm/yasm-metrics/commit/5d03680f286246af3087ebddd1c09ae3245b0ea7) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-09-04 05:51:08 +0000 UTC
-
-- [Merge pull request #44 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/common-0.57.0](https://github.com/prodyna-yasm/yasm-metrics/commit/60c4f66eca457acf0688ab410750ce0ade7e10b6) by [dkrizic](https://github.com/dkrizic) on 2024-08-29 07:49:51 +0000 UTC
-
-- [Merge pull request #45 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.66.0](https://github.com/prodyna-yasm/yasm-metrics/commit/265ad617a10ca4c6bbbc1eb45a8ca94a9ab02bf1) by [dkrizic](https://github.com/dkrizic) on 2024-08-29 07:49:28 +0000 UTC
-
-- [Bump google.golang.org/grpc from 1.65.0 to 1.66.0](https://github.com/prodyna-yasm/yasm-metrics/commit/6249dc09660b524a739f1d973694cee6134ebedd) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-08-29 06:02:08 +0000 UTC
-
-- [Bump github.com/prometheus/common from 0.56.0 to 0.57.0](https://github.com/prodyna-yasm/yasm-metrics/commit/fe6e6c11758e7e276d810cae77219734fd76051b) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-08-29 06:02:04 +0000 UTC
-
-- [Merge pull request #43 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/common-0.56.0](https://github.com/prodyna-yasm/yasm-metrics/commit/16df8c14ce663599f9ba320bc06932af56a8d628) by [dkrizic](https://github.com/dkrizic) on 2024-08-28 06:55:19 +0000 UTC
-
-- [Bump github.com/prometheus/common from 0.55.0 to 0.56.0](https://github.com/prodyna-yasm/yasm-metrics/commit/bd0a9c5277c79a97ca0e75a395b5414f5087853d) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-08-28 06:11:16 +0000 UTC
 
 
 
@@ -650,18 +624,18 @@ Component Status overview. Last update 2024-09-06T07:32:11Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  f953eeb |  1.2.0 |  1.2.0 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.2.1 |  1.2.1 |  1.2.1 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Dummy change for demo, some component updates](https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.2.1) on 2024-09-06 08:16:05 +0000 UTC
+
 - [Component updates](https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.2.0) on 2024-08-27 07:06:12 +0000 UTC
 
 - [Go 1.23](https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.1.0) on 2024-08-17 11:39:13 +0000 UTC
-
-- [Log duration after run](https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.0.1) on 2024-08-14 12:30:06 +0000 UTC
 
 
 
