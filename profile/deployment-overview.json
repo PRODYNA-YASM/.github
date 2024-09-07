@@ -555,13 +555,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Dedicated packages for services, error service",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/231"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
@@ -781,7 +776,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "9836419",
+          "Version": "818cddc",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -838,8 +833,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.4..HEAD",
-        "Count": 4,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #150 from PRODYNA-YASM/dependabot/docker/golang-1.22.7",
+            "SHA": "818cddc5ea11b75a8a372b761003f0752aa856fa",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-06T16:13:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/818cddc5ea11b75a8a372b761003f0752aa856fa"
+          },
+          {
+            "Text": "Bump golang from 1.22.6 to 1.22.7",
+            "SHA": "0bfb2e27d06b1a389710a7b311ecb2c3d66b1b6f",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-09-06T16:07:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/0bfb2e27d06b1a389710a7b311ecb2c3d66b1b6f"
+          },
           {
             "Text": "Merge pull request #149 from PRODYNA-YASM/feature/update-components",
             "SHA": "9836419b00c16652804b8a9b7fdde445f13df38c",
@@ -1478,14 +1493,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Set days to 90",
-            "Timestamp": "2024-08-07T16:12:33Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/10287905845"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1495,7 +1504,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "80891ee",
+          "Version": "0c2562f",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1552,8 +1561,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-mainproject",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/compare/1.3.0..HEAD",
-        "Count": 6,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Merge pull request #20 from PRODYNA-YASM/dependabot/docker/golang-1.23.1-alpine3.20",
+            "SHA": "0c2562f7357aeb9c5f1a378962123ed969c32960",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-06T16:54:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/0c2562f7357aeb9c5f1a378962123ed969c32960"
+          },
+          {
+            "Text": "Bump golang from 1.23.0-alpine3.20 to 1.23.1-alpine3.20",
+            "SHA": "62301c64a53a19ce1af6a6b24ae8aa1cb5e50311",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-09-06T16:43:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/62301c64a53a19ce1af6a6b24ae8aa1cb5e50311"
+          },
           {
             "Text": "Merge pull request #19 from PRODYNA-YASM/feature/fix-documentation",
             "SHA": "80891ee8f4d1b2613f51caaa9faab98400adfde1",
@@ -1751,5 +1780,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-09-06T10:17:27Z"
+  "LastUpdated": "2024-09-07T07:32:16Z"
 }
