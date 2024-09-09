@@ -221,7 +221,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "05c4713",
+          "Version": "ec6a444",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -278,8 +278,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.40.0..HEAD",
-        "Count": 11,
+        "Count": 15,
         "Commits": [
+          {
+            "Text": "Merge pull request #513 from PRODYNA-YASM/dependabot/docker/alpine-3.20.3",
+            "SHA": "ec6a444bbcf80d3620619b257c3dc13343aa0a50",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-09T05:45:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/ec6a444bbcf80d3620619b257c3dc13343aa0a50"
+          },
+          {
+            "Text": "Merge pull request #514 from PRODYNA-YASM/dependabot/docker/golang-1.23.1-alpine3.20",
+            "SHA": "aeeb7dca1769d4c1b4ecd280ec0931877aa70d67",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-09T05:45:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/aeeb7dca1769d4c1b4ecd280ec0931877aa70d67"
+          },
+          {
+            "Text": "Bump golang from 1.23.0-alpine3.20 to 1.23.1-alpine3.20",
+            "SHA": "c3ad23d9f2dcd353b8f366b38766acde52a0ab58",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-09-09T01:16:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/c3ad23d9f2dcd353b8f366b38766acde52a0ab58"
+          },
+          {
+            "Text": "Bump alpine from 3.20.2 to 3.20.3",
+            "SHA": "9049779fac4293c1001fae52b00095373c963b34",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-09-09T01:16:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/9049779fac4293c1001fae52b00095373c963b34"
+          },
           {
             "Text": "Merge pull request #512 from PRODYNA-YASM/feature/improve-logging2",
             "SHA": "05c471384fe3333f543cf420571d70f4f5d9b537",
@@ -1429,9 +1469,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.2.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "46be216",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1486,8 +1526,69 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.2.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 6,
+        "Commits": [
+          {
+            "Text": "Merge pull request #52 from PRODYNA-YASM/dependabot/docker/alpine-3.20.3",
+            "SHA": "46be21699b66b21a9d7a37fb44b1f2318fe7da12",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-09T06:12:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/46be21699b66b21a9d7a37fb44b1f2318fe7da12"
+          },
+          {
+            "Text": "Merge pull request #53 from PRODYNA-YASM/dependabot/docker/golang-1.23.1-alpine3.20",
+            "SHA": "b943e3f85892295bff86ad939b787cf02a21e119",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-09T06:11:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/b943e3f85892295bff86ad939b787cf02a21e119"
+          },
+          {
+            "Text": "Bump golang from 1.23.0-alpine3.20 to 1.23.1-alpine3.20",
+            "SHA": "cc45997dbe2e20f30ff6fee1946fd2770e97f2cc",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-09-09T06:08:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/cc45997dbe2e20f30ff6fee1946fd2770e97f2cc"
+          },
+          {
+            "Text": "Bump alpine from 3.20.2 to 3.20.3",
+            "SHA": "a664fa7bd8956216706b0f098d47682549595653",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-09-09T06:08:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/a664fa7bd8956216706b0f098d47682549595653"
+          },
+          {
+            "Text": "Merge pull request #51 from PRODYNA-YASM/dependabot/go_modules/github.com/golang-migrate/migrate/v4-4.18.1",
+            "SHA": "1e4f13e735ca62d314b3fc958f1e64a4190d785b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-09T05:40:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/1e4f13e735ca62d314b3fc958f1e64a4190d785b"
+          },
+          {
+            "Text": "Bump github.com/golang-migrate/migrate/v4 from 4.17.1 to 4.18.1",
+            "SHA": "2b900614d8fa3fbdb2dc7552d861ef58644d570d",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-09-09T05:33:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/2b900614d8fa3fbdb2dc7552d861ef58644d570d"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1775,5 +1876,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-09-08T07:32:12Z"
+  "LastUpdated": "2024-09-09T07:32:12Z"
 }
