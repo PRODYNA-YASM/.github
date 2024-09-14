@@ -172,8 +172,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "fix: 637 keybinding issue while editing skills and projects",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/834"
+          },
           {
             "Title": "chore: bump lint-staged from 13.3.0 to 15.2.10",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/826"
@@ -2411,5 +2415,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-09-13T07:32:17Z"
+  "LastUpdated": "2024-09-14T07:32:10Z"
 }
