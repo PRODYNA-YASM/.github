@@ -1051,8 +1051,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump google.golang.org/grpc from 1.66.2 to 1.67.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/135"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
@@ -1236,7 +1241,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2085cd9",
+          "Version": "ac6e397",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1293,8 +1298,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.5..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #162 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.67.0",
+            "SHA": "ac6e397bb026c87eb43fe83e0a4df6e590374b7a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-20T17:18:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/ac6e397bb026c87eb43fe83e0a4df6e590374b7a"
+          },
+          {
+            "Text": "Bump google.golang.org/grpc from 1.66.2 to 1.67.0",
+            "SHA": "a3b5a29ed5ed3fb7f9df08c17a228a873aab1f66",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-09-20T16:49:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/a3b5a29ed5ed3fb7f9df08c17a228a873aab1f66"
+          },
           {
             "Text": "Merge pull request #161 from PRODYNA-YASM/dependabot/go_modules/github.com/riandyrn/otelchi-0.10.0",
             "SHA": "2085cd9d1fc640f093fb4f6c5bd976556674acbb",
@@ -1945,8 +1970,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "chore(deps): Bump @azure/msal-node from 2.13.1 to 2.14.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/174"
+          },
           {
             "Title": "chore(deps-dev): Bump @types/mocha from 10.0.7 to 10.0.8",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/173"
@@ -2100,7 +2129,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "6dd83b3",
+          "Version": "d088883",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2157,8 +2186,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-mainproject",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/compare/1.3.0..HEAD",
-        "Count": 20,
+        "Count": 24,
         "Commits": [
+          {
+            "Text": "Merge pull request #32 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.67.0",
+            "SHA": "d088883c303141320fcbd7679401048d964be1b2",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-20T17:18:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/d088883c303141320fcbd7679401048d964be1b2"
+          },
+          {
+            "Text": "Bump google.golang.org/grpc from 1.66.2 to 1.67.0",
+            "SHA": "39d066c39d66a83308a626f4493f647d6144106f",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-09-20T16:43:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/39d066c39d66a83308a626f4493f647d6144106f"
+          },
+          {
+            "Text": "Merge pull request #31 from PRODYNA-YASM/feature/mdc",
+            "SHA": "a7977901d39aabb7e810c7f2877fb4f9d692de65",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-20T09:38:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/a7977901d39aabb7e810c7f2877fb4f9d692de65"
+          },
+          {
+            "Text": "MDC logging",
+            "SHA": "dcc7dea80958917ba16931c22b02e8966dced840",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-20T09:23:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/dcc7dea80958917ba16931c22b02e8966dced840"
+          },
           {
             "Text": "Merge pull request #30 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp-0.55.0",
             "SHA": "6dd83b38ba22810ceb2aceeda3a3cb517c46d56d",
@@ -2485,5 +2554,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-09-20T07:32:29Z"
+  "LastUpdated": "2024-09-21T07:32:20Z"
 }
