@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "4961170",
+          "Version": "f2f64bd",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -59,16 +59,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 4,
+        "Count": 2,
         "PullRequests": [
-          {
-            "Title": "build(deps): bump eclipse-temurin from 21.0.2_13-jre-ubi9-minimal to 23_37-jre-ubi9-minimal",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/714"
-          },
-          {
-            "Title": "build(deps): bump quarkus.platform.version from 3.14.1 to 3.14.4",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/713"
-          },
           {
             "Title": "feat: #164 create shareable links for pdf profile files ",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/711"
@@ -82,8 +74,38 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.40.0..HEAD",
-        "Count": 2,
+        "Count": 5,
         "Commits": [
+          {
+            "Text": "build(deps): bump quarkus.platform.version from 3.14.1 to 3.14.4 (#713)",
+            "SHA": "f2f64bda6f619b9bd5253578529ff76609557f01",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-09-21T12:41:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/f2f64bda6f619b9bd5253578529ff76609557f01"
+          },
+          {
+            "Text": "build(deps): bump eclipse-temurin from 21.0.2_13-jre-ubi9-minimal to 23_37-jre-ubi9-minimal (#714)",
+            "SHA": "90a6a9fd716cc3ba0ae7132cbc47fb4b1f019ba3",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-09-21T12:30:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/90a6a9fd716cc3ba0ae7132cbc47fb4b1f019ba3"
+          },
+          {
+            "Text": "feat: Don't publish on dependabot (#715)",
+            "SHA": "ded16bb5d691b6245a01273b9b62c1b38720d4e2",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-21T12:21:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/ded16bb5d691b6245a01273b9b62c1b38720d4e2"
+          },
           {
             "Text": "fix: correct formatting of erpId implementation(#710)",
             "SHA": "4961170a05a891a7535a4e0ffa2a5373913b12c5",
@@ -121,7 +143,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "b2abe37",
+          "Version": "83cb4ca",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -172,12 +194,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 4,
+        "Count": 3,
         "PullRequests": [
-          {
-            "Title": "chore: bump memfs from 3.5.3 to 4.12.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/847"
-          },
           {
             "Title": "feat: ErpId selection for projects",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/837"
@@ -195,8 +213,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.40.7..HEAD",
-        "Count": 3,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "chore: bump memfs from 3.5.3 to 4.12.0 (#847)",
+            "SHA": "83cb4ca84d32e9142748bda8abe7f72e57fe8531",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-09-21T12:01:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/83cb4ca84d32e9142748bda8abe7f72e57fe8531"
+          },
           {
             "Text": "chore: bump @opentelemetry/context-zone from 1.24.1 to 1.26.0 (#850)",
             "SHA": "b2abe37f89b849b6b1ad2d4588f58f5ce96dbae1",
@@ -1000,7 +1028,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "90d3984",
+          "Version": "abd3af9",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1051,19 +1079,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump google.golang.org/grpc from 1.66.2 to 1.67.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/135"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.6.1..HEAD",
-        "Count": 16,
+        "Count": 18,
         "Commits": [
+          {
+            "Text": "Merge pull request #135 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.67.0",
+            "SHA": "abd3af9614bea706e44c995881e83c7eff990952",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-21T09:42:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/abd3af9614bea706e44c995881e83c7eff990952"
+          },
+          {
+            "Text": "Bump google.golang.org/grpc from 1.66.2 to 1.67.0",
+            "SHA": "d2dc942cca30a4976680863b39a03bd572eb44e3",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-09-20T23:28:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/d2dc942cca30a4976680863b39a03bd572eb44e3"
+          },
           {
             "Text": "Merge pull request #132 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc-1.30.0",
             "SHA": "90d39849a97c02a7869da36dab13d0f5f84baec9",
@@ -1507,7 +1550,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2035557",
+          "Version": "bc91ea6",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1558,23 +1601,74 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 2,
-        "PullRequests": [
-          {
-            "Title": "Bump hashicorp/azurerm from 4.2.0 to 4.3.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/656"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 4.2.0 to 4.3.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/655"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.40.0..HEAD",
-        "Count": 13,
+        "Count": 19,
         "Commits": [
+          {
+            "Text": "Merge pull request #661 from PRODYNA-YASM/659-install-k8s-monitoring",
+            "SHA": "bc91ea69c7724eb737243c1183547fb17c24ac76",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-21T23:11:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/bc91ea69c7724eb737243c1183547fb17c24ac76"
+          },
+          {
+            "Text": "Don't install the CRDs",
+            "SHA": "997b12e86cb5f43815baf80cd0f1d9bb0953458d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-21T23:06:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/997b12e86cb5f43815baf80cd0f1d9bb0953458d"
+          },
+          {
+            "Text": "Merge pull request #660 from PRODYNA-YASM/659-install-k8s-monitoring",
+            "SHA": "227ec8e6d56eccc437752d4f97a26ac28385dbae",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-21T22:31:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/227ec8e6d56eccc437752d4f97a26ac28385dbae"
+          },
+          {
+            "Text": "Install k8s-monitoring",
+            "SHA": "be710e860ff19d9c5ede87b7d4d41bca64928ea4",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-21T22:23:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/be710e860ff19d9c5ede87b7d4d41bca64928ea4"
+          },
+          {
+            "Text": "Merge pull request #657 from PRODYNA-YASM/feature/azurerm-430",
+            "SHA": "a6baac786a3b00d02a8701291903469de356e391",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-21T11:44:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a6baac786a3b00d02a8701291903469de356e391"
+          },
+          {
+            "Text": "Update providers",
+            "SHA": "662e1d9a95ad0eef55479a79203f84eaa4adc7fb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-21T11:38:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/662e1d9a95ad0eef55479a79203f84eaa4adc7fb"
+          },
           {
             "Text": "Merge pull request #653 from PRODYNA-YASM/feature/update-providers",
             "SHA": "20355577dd37761447851051ab3712a4b5c28ec0",
@@ -2554,5 +2648,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-09-21T07:32:20Z"
+  "LastUpdated": "2024-09-22T07:32:25Z"
 }
