@@ -8,14 +8,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "f979a14",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.40.1",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.40.0",
+          "Version": "1.40.1",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -24,17 +24,24 @@
           "Link": "",
           "Version": "1.40.0",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.40.0",
+        "Tag": "1.40.1",
         "SHA": "",
-        "Title": "Add backend implementation for Skill Favorite",
-        "Timestamp": "2024-09-03T08:17:23Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.40.0"
+        "Title": "Sort order of people in projects depend on project participation time",
+        "Timestamp": "2024-09-27T11:33:00Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.40.1"
       },
       "Releases": [
+        {
+          "Tag": "1.40.1",
+          "SHA": "",
+          "Title": "Sort order of people in projects depend on project participation time",
+          "Timestamp": "2024-09-26T07:21:44Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.40.1"
+        },
         {
           "Tag": "1.40.0",
           "SHA": "",
@@ -48,13 +55,6 @@
           "Title": "Create SkillProfile Entity and refactor cypher template",
           "Timestamp": "2024-07-30T15:32:27Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.38.0"
-        },
-        {
-          "Tag": "1.37.1",
-          "SHA": "",
-          "Title": "Fix sort all scores descending, fix user cant delete project participation",
-          "Timestamp": "2024-07-10T11:04:15Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.37.1"
         }
       ],
       "PullRequests": {
@@ -81,97 +81,22 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.40.0..HEAD",
-        "Count": 8,
-        "Commits": [
-          {
-            "Text": "feat: #576 put former employees last in the order of participations in a project (#717)",
-            "SHA": "f979a141aec4b64ebd8ede8eacae48c22081f41f",
-            "Author": {
-              "name": "irhox",
-              "link": "https://github.com/irhox"
-            },
-            "Timestamp": "2024-09-26T07:21:44Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/f979a141aec4b64ebd8ede8eacae48c22081f41f"
-          },
-          {
-            "Text": "refactor: remove unused code (#719)",
-            "SHA": "8d9d2c8ee6731b74339547cb802784e95f855ebb",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2024-09-25T17:16:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/8d9d2c8ee6731b74339547cb802784e95f855ebb"
-          },
-          {
-            "Text": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 4.3.0 to 4.4.0 (#716)",
-            "SHA": "ab2b2013ea5c9ac9ca97fc8ba1e15aa7997f674b",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-09-24T08:38:14Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/ab2b2013ea5c9ac9ca97fc8ba1e15aa7997f674b"
-          },
-          {
-            "Text": "build(deps): bump quarkus.platform.version from 3.14.1 to 3.14.4 (#713)",
-            "SHA": "f2f64bda6f619b9bd5253578529ff76609557f01",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-09-21T12:41:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/f2f64bda6f619b9bd5253578529ff76609557f01"
-          },
-          {
-            "Text": "build(deps): bump eclipse-temurin from 21.0.2_13-jre-ubi9-minimal to 23_37-jre-ubi9-minimal (#714)",
-            "SHA": "90a6a9fd716cc3ba0ae7132cbc47fb4b1f019ba3",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-09-21T12:30:31Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/90a6a9fd716cc3ba0ae7132cbc47fb4b1f019ba3"
-          },
-          {
-            "Text": "feat: Don't publish on dependabot (#715)",
-            "SHA": "ded16bb5d691b6245a01273b9b62c1b38720d4e2",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-09-21T12:21:39Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/ded16bb5d691b6245a01273b9b62c1b38720d4e2"
-          },
-          {
-            "Text": "fix: correct formatting of erpId implementation(#710)",
-            "SHA": "4961170a05a891a7535a4e0ffa2a5373913b12c5",
-            "Author": {
-              "name": "mayer-prodyna",
-              "link": "https://github.com/mayer-prodyna"
-            },
-            "Timestamp": "2024-09-05T06:20:13Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/4961170a05a891a7535a4e0ffa2a5373913b12c5"
-          },
-          {
-            "Text": "feat: feat: add erp id to project details (#708)",
-            "SHA": "56ef8d2aa58af7f20c74af15fc63556a4f02717b",
-            "Author": {
-              "name": "mayer-prodyna",
-              "link": "https://github.com/mayer-prodyna"
-            },
-            "Timestamp": "2024-09-05T05:38:09Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/56ef8d2aa58af7f20c74af15fc63556a4f02717b"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.40.1..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "feat: #576 put former employees last in the order of participations i…",
+            "Timestamp": "2024-09-27T11:33:02Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/11069864774"
+          }
+        ]
       }
     },
     {
@@ -1638,14 +1563,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "6b8abbc",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.41.2",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.41.1",
+          "Version": "1.41.2",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -1654,17 +1579,24 @@
           "Link": "",
           "Version": "1.41.1",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.41.1",
+        "Tag": "1.41.2",
         "SHA": "",
-        "Title": "Migrate to OpenTelemetry Operator, support for yasm-external",
-        "Timestamp": "2024-09-25T10:55:28Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.41.1"
+        "Title": "Refine some monitoring values",
+        "Timestamp": "2024-09-27T14:47:46Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.41.2"
       },
       "Releases": [
+        {
+          "Tag": "1.41.2",
+          "SHA": "",
+          "Title": "Refine some monitoring values",
+          "Timestamp": "2024-09-27T14:36:25Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.41.2"
+        },
         {
           "Tag": "1.41.1",
           "SHA": "",
@@ -1678,13 +1610,6 @@
           "Title": "Using AzureRM provider 4.0.1",
           "Timestamp": "2024-08-26T11:10:51Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.40.0"
-        },
-        {
-          "Tag": "1.39.0",
-          "SHA": "",
-          "Title": "1.39.0",
-          "Timestamp": "2024-08-23T10:07:34Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.39.0"
         }
       ],
       "PullRequests": {
@@ -1694,117 +1619,22 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.41.1..HEAD",
-        "Count": 10,
-        "Commits": [
-          {
-            "Text": "Use stage environment variable for stage",
-            "SHA": "6b8abbc43ee09dceabdd8cd1358cc2c188485de8",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-09-26T16:10:51Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6b8abbc43ee09dceabdd8cd1358cc2c188485de8"
-          },
-          {
-            "Text": "Create configmap stage",
-            "SHA": "2dc8c1f473d7d6cde7c5523f6927a9794c002fc3",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-09-26T15:04:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/2dc8c1f473d7d6cde7c5523f6927a9794c002fc3"
-          },
-          {
-            "Text": "Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-staged",
-            "SHA": "1974e9c356038c8e48a8ef5de172c3108547054b",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-09-26T14:39:20Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1974e9c356038c8e48a8ef5de172c3108547054b"
-          },
-          {
-            "Text": "Intstall OpenTelemetry pipeline dashboard",
-            "SHA": "0db42c9dc45c3e5c398c301ebc30b2c0c3ebd96b",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-09-26T14:36:52Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0db42c9dc45c3e5c398c301ebc30b2c0c3ebd96b"
-          },
-          {
-            "Text": "Uupdate security",
-            "SHA": "5d4b85bcc412d79e6663036844fad8c5ffb3061c",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-09-26T08:51:33Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/5d4b85bcc412d79e6663036844fad8c5ffb3061c"
-          },
-          {
-            "Text": "Merge pull request #671 from PRODYNA-YASM/670-fix-monitoring",
-            "SHA": "c6ca67603add100ecd3f1d763be96a3c7ef7d618",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-09-26T08:13:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c6ca67603add100ecd3f1d763be96a3c7ef7d618"
-          },
-          {
-            "Text": "Current configuration",
-            "SHA": "20cd31a6131c7c540c63d32827e5fd2ee0ae2cb0",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-09-26T07:53:27Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/20cd31a6131c7c540c63d32827e5fd2ee0ae2cb0"
-          },
-          {
-            "Text": "Update some metric configurations",
-            "SHA": "700a57a570641b821aa02d24b2f34abaeef0ddaa",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-09-25T16:31:25Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/700a57a570641b821aa02d24b2f34abaeef0ddaa"
-          },
-          {
-            "Text": "Update some components and reactivate opentelemetry-collector",
-            "SHA": "847c01a3aa30f0acc8267cd18d5a87dd5e16216f",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-09-25T14:30:38Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/847c01a3aa30f0acc8267cd18d5a87dd5e16216f"
-          },
-          {
-            "Text": "Don't configure collector for now",
-            "SHA": "f090e16feb8ad7442e3f74eb2503c2d6d8e31494",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-09-25T11:05:24Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f090e16feb8ad7442e3f74eb2503c2d6d8e31494"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.41.2..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "New version of monitoring features",
+            "Timestamp": "2024-09-27T14:47:48Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/11072787675"
+          }
+        ]
       }
     },
     {
@@ -1896,8 +1726,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 3,
+        "Count": 4,
         "PullRequests": [
+          {
+            "Title": "feat: Change root path from /api/v1 to /api/graph/v1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/229"
+          },
           {
             "Title": "feat: #164 create shareable links for pdf profile files",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/226"
@@ -2024,12 +1858,12 @@
         "Count": 6,
         "PullRequests": [
           {
-            "Title": "chore(deps): Bump cypress/included from 13.14.2 to 13.15.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/179"
+            "Title": "chore(deps-dev): Bump @types/node from 22.5.5 to 22.7.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/180"
           },
           {
-            "Title": "chore(deps-dev): Bump @types/node from 22.5.5 to 22.7.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/178"
+            "Title": "chore(deps): Bump cypress/included from 13.14.2 to 13.15.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/179"
           },
           {
             "Title": "chore(deps): Bump jose from 5.9.2 to 5.9.3",
@@ -2407,5 +2241,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-09-27T07:32:53Z"
+  "LastUpdated": "2024-09-27T15:14:17Z"
 }
