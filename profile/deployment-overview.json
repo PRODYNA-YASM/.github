@@ -1563,9 +1563,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.41.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "fca22f9",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1577,9 +1577,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.41.1",
+          "Version": "1.41.2",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1620,21 +1620,26 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.41.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "Fix the API Server and pull all metrics",
+            "SHA": "fca22f90ba8512b6b170f2ef520a5232ba0bf44e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-27T16:28:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/fca22f90ba8512b6b170f2ef520a5232ba0bf44e"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "New version of monitoring features",
-            "Timestamp": "2024-09-27T14:47:48Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/11072787675"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -2241,5 +2246,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-09-27T15:14:17Z"
+  "LastUpdated": "2024-09-28T07:32:18Z"
 }

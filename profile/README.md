@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-09-27T15:14:17Z
+Component Status overview. Last update 2024-09-28T07:32:18Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -13,7 +13,7 @@ Component Status overview. Last update 2024-09-27T15:14:17Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [4](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.5..HEAD) | :green_square: 0 | 1.11.5 |  :red_square: ac6e397 |  :green_square: 1.11.5 |  :green_square: 1.11.5 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.10.0-1 |  :green_square: 8.10.0-1 |  :green_square: 8.10.0-1 |  :green_square: 8.10.0-1 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.41.2 |  :green_square: 1.41.2 |  :green_square: 1.41.2 |  :red_square: 1.41.1 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.41.2..HEAD) | :green_square: 0 | 1.41.2 |  :red_square: fca22f9 |  :green_square: 1.41.2 |  :green_square: 1.41.2 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :green_square: 0 | 1.40.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.41.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
@@ -516,6 +516,11 @@ Component Status overview. Last update 2024-09-27T15:14:17Z
 
 
 
+### [Commits on main since 1.41.2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.41.2..HEAD) (1)
+
+- [Fix the API Server and pull all metrics](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/fca22f90ba8512b6b170f2ef520a5232ba0bf44e) by [dkrizic](https://github.com/dkrizic) on 2024-09-27 16:28:52 +0000 UTC
+
+
 
 
 
@@ -523,9 +528,9 @@ Component Status overview. Last update 2024-09-27T15:14:17Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.41.2 |  1.41.2 |  1.41.1 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Version |  fca22f9 |  1.41.2 |  1.41.2 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -537,11 +542,6 @@ Component Status overview. Last update 2024-09-27T15:14:17Z
 - [Using AzureRM provider 4.0.1](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.40.0) on 2024-08-26 11:10:51 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting) (1)
-
-- [New version of monitoring features](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/11072787675) created on 2024-09-27 14:47:48 +0000 UTC
 
 
 
