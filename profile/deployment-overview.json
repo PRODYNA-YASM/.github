@@ -1487,6 +1487,278 @@
       }
     },
     {
+      "Name": "yasm-external",
+      "Error": "GET https://api.github.com/repos/prodyna-yasm/yasm-external/releases/latest: 404 Not Found []",
+      "Environments": null,
+      "LatestRelease": {
+        "Tag": "",
+        "SHA": "",
+        "Title": "",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Link": ""
+      },
+      "Releases": null,
+      "PullRequests": {
+        "Link": "https://github.com/prodyna-yasm/yasm-external/pulls",
+        "Count": 0,
+        "PullRequests": null
+      },
+      "Link": "https://github.com/prodyna-yasm/yasm-external",
+      "Commits": {
+        "Link": "https://github.com/prodyna-yasm/yasm-external/compare/..HEAD",
+        "Count": 24,
+        "Commits": [
+          {
+            "Text": "Merge pull request #4 from PRODYNA-YASM/dependabot/maven/com.fasterxml.jackson.core-jackson-databind-2.18.0",
+            "SHA": "521cff229c16b1cb81a5cb8bed4d04d69ddd9b2e",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-09-27T13:46:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/521cff229c16b1cb81a5cb8bed4d04d69ddd9b2e"
+          },
+          {
+            "Text": "Merge pull request #3 from PRODYNA-YASM/dependabot/maven/quarkus.platform.version-3.15.1",
+            "SHA": "c03dcbd5875eab5ace3bec7727fa671f0a36c2c1",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-09-27T13:45:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/c03dcbd5875eab5ace3bec7727fa671f0a36c2c1"
+          },
+          {
+            "Text": "Merge pull request #5 from PRODYNA-YASM/dependabot/maven/io.quarkiverse.neo4j-quarkus-neo4j-4.4.0",
+            "SHA": "f9dbce9392af83f444bbbd8b03d83ccf47470f88",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-09-27T13:45:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/f9dbce9392af83f444bbbd8b03d83ccf47470f88"
+          },
+          {
+            "Text": "Merge pull request #6 from PRODYNA-YASM/dependabot/maven/surefire-plugin.version-3.5.0",
+            "SHA": "62b1a92925d60f3e8d26e7d47beea909f5391ddd",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-09-27T13:44:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/62b1a92925d60f3e8d26e7d47beea909f5391ddd"
+          },
+          {
+            "Text": "Merge pull request #2 from PRODYNA-YASM/dependabot/docker/eclipse-temurin-23_37-jre-ubi9-minimal",
+            "SHA": "bf421f2a4ad5177986d07f37371c4b3f7cbaf985",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-09-27T13:43:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/bf421f2a4ad5177986d07f37371c4b3f7cbaf985"
+          },
+          {
+            "Text": "deleted unneeded line in dockerfile",
+            "SHA": "b8289ad36e88c26d78bfe88089bb8517976972b7",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-09-27T13:28:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/b8289ad36e88c26d78bfe88089bb8517976972b7"
+          },
+          {
+            "Text": "Bump surefire-plugin.version from 3.3.1 to 3.5.0",
+            "SHA": "6c2d669e9e8b4e3b0a4b602abfda17f3486c92c1",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-09-27T12:00:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/6c2d669e9e8b4e3b0a4b602abfda17f3486c92c1"
+          },
+          {
+            "Text": "Bump io.quarkiverse.neo4j:quarkus-neo4j from 4.3.0 to 4.4.0",
+            "SHA": "bbdbd3c259f51600cbe2a0a7b0b63935e69a9836",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-09-27T12:00:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/bbdbd3c259f51600cbe2a0a7b0b63935e69a9836"
+          },
+          {
+            "Text": "Bump com.fasterxml.jackson.core:jackson-databind from 2.17.1 to 2.18.0",
+            "SHA": "f52008e49cc31f8f0de3b3dcaf26b5f180022a0f",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-09-27T12:00:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/f52008e49cc31f8f0de3b3dcaf26b5f180022a0f"
+          },
+          {
+            "Text": "Bump quarkus.platform.version from 3.14.4 to 3.15.1",
+            "SHA": "b07661a41ed5ebdfe61916f0cd59c9d0f7d34bfc",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-09-27T12:00:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/b07661a41ed5ebdfe61916f0cd59c9d0f7d34bfc"
+          },
+          {
+            "Text": "Bump eclipse-temurin",
+            "SHA": "d80ea3ffc592007512858026de45d47332e160e1",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-09-27T11:59:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/d80ea3ffc592007512858026de45d47332e160e1"
+          },
+          {
+            "Text": "Merge pull request #1 from PRODYNA-YASM/#164_create-external-get-pdf-profiles-endpoint",
+            "SHA": "c2afba11f952769dd9731277da9250ac877b232a",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-09-27T11:59:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/c2afba11f952769dd9731277da9250ac877b232a"
+          },
+          {
+            "Text": "changed package name",
+            "SHA": "4e70b6282093a43da1f4123dd36e53830d3f81f4",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-09-25T08:19:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/4e70b6282093a43da1f4123dd36e53830d3f81f4"
+          },
+          {
+            "Text": "deleted oidc related values/attributes, changed package name",
+            "SHA": "75039c75b547787e3da49741bcad5f43049ec98b",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-09-25T07:47:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/75039c75b547787e3da49741bcad5f43049ec98b"
+          },
+          {
+            "Text": "fix formatting",
+            "SHA": "baf7140dada3e3dba3de2b87d33e47b7076aff83",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-09-24T13:06:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/baf7140dada3e3dba3de2b87d33e47b7076aff83"
+          },
+          {
+            "Text": "add missing plugin in pom.xml",
+            "SHA": "508a6ac739ea4ac20f49e1768b1d03359a6d441b",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-09-24T13:05:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/508a6ac739ea4ac20f49e1768b1d03359a6d441b"
+          },
+          {
+            "Text": "delete unneeded method annotation",
+            "SHA": "d700290ddd3265fa7d75e53d56001117a19cc6a1",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-09-24T12:51:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/d700290ddd3265fa7d75e53d56001117a19cc6a1"
+          },
+          {
+            "Text": "fix formatting",
+            "SHA": "c7fdba3e139a82bd39dd44ae1b731a43f5aee0e3",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-09-24T12:46:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/c7fdba3e139a82bd39dd44ae1b731a43f5aee0e3"
+          },
+          {
+            "Text": "add missing plugin in pom.xml",
+            "SHA": "72c1d67335626b55720693b4d1844a79449f76a4",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-09-24T12:43:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/72c1d67335626b55720693b4d1844a79449f76a4"
+          },
+          {
+            "Text": "#164 WIP add helm / kubernetes and workflow configurations",
+            "SHA": "0e27eb3a60d9ce665a8d1cc351a152286896719b",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-09-24T12:37:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/0e27eb3a60d9ce665a8d1cc351a152286896719b"
+          },
+          {
+            "Text": "change api root path",
+            "SHA": "0e8fd88f9d55ab402ef2baea7e1f0cfb528f873e",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-09-18T11:42:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/0e8fd88f9d55ab402ef2baea7e1f0cfb528f873e"
+          },
+          {
+            "Text": "#164 added new tests, better exception handling",
+            "SHA": "fa6339387c9e9ea3ee9ed294c2fd1c1594c7c245",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-09-18T08:22:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/fa6339387c9e9ea3ee9ed294c2fd1c1594c7c245"
+          },
+          {
+            "Text": "#164 WIP created first draft for getPdfProfile endpoint, with testing and codeql and lint-pr workflows",
+            "SHA": "72c82fd7afa5be420f9bd1fd271798125ff1bf76",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-09-17T14:25:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/72c82fd7afa5be420f9bd1fd271798125ff1bf76"
+          },
+          {
+            "Text": "Initial commit",
+            "SHA": "ee891d2dac76ddf94f70ff4fdb106387cfb18f28",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-09-16T07:28:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/ee891d2dac76ddf94f70ff4fdb106387cfb18f28"
+          }
+        ]
+      },
+      "DefaultBranch": "main",
+      "Tags": null,
+      "Workflows": {
+        "Link": "https://github.com/prodyna-yasm/yasm-external/actions?query=is%3Awaiting",
+        "Count": 0,
+        "Workflows": null
+      }
+    },
+    {
       "Name": "yasm-gotenberg",
       "Error": "",
       "Environments": [
@@ -2005,8 +2277,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "feature/mdc logging",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/74"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
@@ -2316,5 +2593,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-09-29T07:32:21Z"
+  "LastUpdated": "2024-09-29T10:27:48Z"
 }
