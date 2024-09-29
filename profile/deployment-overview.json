@@ -264,8 +264,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Set status code",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/527"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -1563,7 +1568,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "fca22f9",
+          "Version": "9431f10",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1620,8 +1625,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.41.2..HEAD",
-        "Count": 1,
+        "Count": 5,
         "Commits": [
+          {
+            "Text": "Enable go intrumentation flag",
+            "SHA": "9431f1015017b20d92cdb3be0f50539983308538",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-28T23:01:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/9431f1015017b20d92cdb3be0f50539983308538"
+          },
+          {
+            "Text": "Enable go instrumentation",
+            "SHA": "6bb0514c7a11c0ce0bdf9c7ea52bb728f1db5efe",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-28T22:47:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6bb0514c7a11c0ce0bdf9c7ea52bb728f1db5efe"
+          },
+          {
+            "Text": "Fix syntax for featuregate",
+            "SHA": "f136380335805c7521911201287e00836914543e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-28T22:32:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f136380335805c7521911201287e00836914543e"
+          },
+          {
+            "Text": "Enable got autoinstrumentation",
+            "SHA": "03a5efacc801cdc370f6fd653a0680684c5ab74b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-28T22:25:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/03a5efacc801cdc370f6fd653a0680684c5ab74b"
+          },
           {
             "Text": "Fix the API Server and pull all metrics",
             "SHA": "fca22f90ba8512b6b170f2ef520a5232ba0bf44e",
@@ -1909,7 +1954,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2b7753d",
+          "Version": "ae99e0d",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1960,19 +2005,44 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump google.golang.org/grpc from 1.66.2 to 1.67.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/72"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.3.0..HEAD",
-        "Count": 6,
+        "Count": 9,
         "Commits": [
+          {
+            "Text": "Fix MDC",
+            "SHA": "ae99e0d7416044aa3c79d6d36fef12593f64f4d1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-28T21:51:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/ae99e0d7416044aa3c79d6d36fef12593f64f4d1"
+          },
+          {
+            "Text": "Merge pull request #73 from PRODYNA-YASM/feature/mdc-logging",
+            "SHA": "7ca97b1d06e8d11a0c2d6f3798a6baf30cadc049",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-28T19:29:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/7ca97b1d06e8d11a0c2d6f3798a6baf30cadc049"
+          },
+          {
+            "Text": "Using MDC",
+            "SHA": "34c1ed0e63e9831dcac9fbc4b950106a694fa874",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-28T19:25:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/34c1ed0e63e9831dcac9fbc4b950106a694fa874"
+          },
           {
             "Text": "Merge pull request #71 from PRODYNA-YASM/dependabot/go_modules/github.com/uptrace/opentelemetry-go-extra/otelsql-0.3.2",
             "SHA": "2b7753d50a11e0f7eeff4ee284a29cdbbede65e6",
@@ -2246,5 +2316,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-09-28T07:32:18Z"
+  "LastUpdated": "2024-09-29T07:32:21Z"
 }
