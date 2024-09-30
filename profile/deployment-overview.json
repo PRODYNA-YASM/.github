@@ -8,9 +8,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.40.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "653d719",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -82,8 +82,19 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.40.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "feat: Reduce resource for backend (#724)",
+            "SHA": "653d719d21e4a1d0d3d456bd689b8b34cc93afbb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T16:02:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/653d719d21e4a1d0d3d456bd689b8b34cc93afbb"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -100,7 +111,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "73e3c1b",
+          "Version": "bf04dbd",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -151,8 +162,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "feat: #22 added more details to dropdown list in the dialog where projects are assigned to employees",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/862"
+          },
           {
             "Title": "chore: bump @types/node from 22.5.0 to 22.7.4",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/861"
@@ -182,8 +197,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.40.8..HEAD",
-        "Count": 2,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "reduce resources (#863)",
+            "SHA": "bf04dbd915c547438ff9dfb72cda0f1ae2fc0387",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T15:50:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/bf04dbd915c547438ff9dfb72cda0f1ae2fc0387"
+          },
           {
             "Text": "chore: bump compression-webpack-plugin from 10.0.0 to 11.1.0 (#859)",
             "SHA": "73e3c1b34afc05346c424732da9b133e09d802cb",
@@ -295,9 +320,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.41.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "f200b95",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -352,8 +377,29 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.41.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #384 from PRODYNA-YASM/feature/resources",
+            "SHA": "f200b95a4bd1c00c9d992849c1392960780b248b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T15:49:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/f200b95a4bd1c00c9d992849c1392960780b248b"
+          },
+          {
+            "Text": "Reduce memory",
+            "SHA": "5009fc831e4dcb5843df3985ca33cfdc0ad0905a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T15:41:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/5009fc831e4dcb5843df3985ca33cfdc0ad0905a"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -376,9 +422,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.17.3",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "01ca7a8",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -433,8 +479,39 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.17.3..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 3,
+        "Commits": [
+          {
+            "Text": "Merge pull request #243 from PRODYNA-YASM/feature/more-resources",
+            "SHA": "01ca7a83e3fcd948b30b263291653b3a0373ac40",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T15:49:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/01ca7a83e3fcd948b30b263291653b3a0373ac40"
+          },
+          {
+            "Text": "More resources",
+            "SHA": "9e1d9ed47eb6b9be8c018c4f8fce46dbd02a0085",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T15:44:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/9e1d9ed47eb6b9be8c018c4f8fce46dbd02a0085"
+          },
+          {
+            "Text": "More resources",
+            "SHA": "2fb28253acc7fa761ef79cea41575f071b85f5a0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T15:09:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/2fb28253acc7fa761ef79cea41575f071b85f5a0"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -457,9 +534,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.6.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "38675f1",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -514,8 +591,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.6.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #137 from PRODYNA-YASM/feature/resources",
+            "SHA": "38675f1afea5cef9a2594bf6840e04aca826c65a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T16:51:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/38675f1afea5cef9a2594bf6840e04aca826c65a"
+          },
+          {
+            "Text": "Reduce resources",
+            "SHA": "a9a53f0fd1ac72d87ee84581bdce75655784a79c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T15:43:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/a9a53f0fd1ac72d87ee84581bdce75655784a79c"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -552,9 +650,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.11.5",
+          "Version": "1.11.6",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -589,8 +687,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Reduce resources",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/164"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
@@ -602,14 +705,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #163 from PRODYNA-YASM/feature/mdc",
-            "Timestamp": "2024-09-30T08:28:48Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/11102331400"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -694,7 +791,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "e9fb00f",
+          "Version": "68965aa",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -715,8 +812,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-external",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/compare/..HEAD",
-        "Count": 28,
+        "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #9 from PRODYNA-YASM/feature/resources",
+            "SHA": "68965aab59d4260b0ff8d091aec0d3d05d03b71c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T17:04:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/68965aab59d4260b0ff8d091aec0d3d05d03b71c"
+          },
+          {
+            "Text": "Reduce resources",
+            "SHA": "4f3862be81e2ed77078291a071580245ef25c0d7",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T16:53:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/4f3862be81e2ed77078291a071580245ef25c0d7"
+          },
           {
             "Text": "Merge pull request #8 from PRODYNA-YASM/feature/fix-ingress-path",
             "SHA": "e9fb00fd2d4c185e3e0207e2be54c47360e25d4e",
@@ -1065,8 +1182,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "feat: Reduce resources",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/pull/56"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
@@ -1095,9 +1217,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.41.3",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "f33adb3",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1152,8 +1274,89 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.41.3..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 8,
+        "Commits": [
+          {
+            "Text": "Merge pull request #673 from PRODYNA-YASM/feature/resources",
+            "SHA": "f33adb34fe792f2296f74c1c3e6becc879764e8e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T17:00:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f33adb34fe792f2296f74c1c3e6becc879764e8e"
+          },
+          {
+            "Text": "Merge pull request #672 from PRODYNA-YASM/feature/memory-for-otelcol",
+            "SHA": "959da20cec4e7212174f7c8c515c6412f6826c95",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T17:00:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/959da20cec4e7212174f7c8c515c6412f6826c95"
+          },
+          {
+            "Text": "Some updates resources",
+            "SHA": "1d6673da926855a2620a6890b0250006041e527d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T16:49:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1d6673da926855a2620a6890b0250006041e527d"
+          },
+          {
+            "Text": "Reduce resources",
+            "SHA": "89a9fca47624471e7d21dd6a684620da6351e08c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T16:40:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/89a9fca47624471e7d21dd6a684620da6351e08c"
+          },
+          {
+            "Text": "Reduce resource settings for otel collector",
+            "SHA": "a1a80462655f2916093173c13e440edd0973778d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T15:38:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a1a80462655f2916093173c13e440edd0973778d"
+          },
+          {
+            "Text": "Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-staged",
+            "SHA": "b4876520c333598777753d69770b5cdca4f194fe",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T15:08:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b4876520c333598777753d69770b5cdca4f194fe"
+          },
+          {
+            "Text": "Fix resources",
+            "SHA": "5fac788c1044c12dab8c2ffcb56dbcf7ad44bf8f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T15:02:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/5fac788c1044c12dab8c2ffcb56dbcf7ad44bf8f"
+          },
+          {
+            "Text": "Finally scrape Kubernetes API Server",
+            "SHA": "41de6666faf6967a9de38066a16bb385c2b87840",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T09:57:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/41de6666faf6967a9de38066a16bb385c2b87840"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1388,8 +1591,8 @@
         "Count": 6,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump @types/node from 22.5.5 to 22.7.3",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/180"
+            "Title": "chore(deps-dev): Bump @types/node from 22.5.5 to 22.7.4",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/181"
           },
           {
             "Title": "chore(deps): Bump cypress/included from 13.14.2 to 13.15.0",
@@ -1520,9 +1723,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.4.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "8a18390",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1577,8 +1780,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-mainproject",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/compare/1.4.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #34 from PRODYNA-YASM/feature/resources",
+            "SHA": "8a18390182ffba5a91248219f2a108950dcbea3b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T16:53:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/8a18390182ffba5a91248219f2a108950dcbea3b"
+          },
+          {
+            "Text": "Reduce resources",
+            "SHA": "44d64fa5eab98c9cac4e23f72418092428a09cdf",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-09-30T15:42:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/44d64fa5eab98c9cac4e23f72418092428a09cdf"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1715,5 +1939,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-09-30T08:40:15Z"
+  "LastUpdated": "2024-09-30T17:07:30Z"
 }
