@@ -623,9 +623,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.11.7",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "1347d08",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -685,8 +685,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.7..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #166 from PRODYNA-YASM/dependabot/docker/golang-1.22.8",
+            "SHA": "1347d085da84c43b61f57510ec584dfdf2c053e6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-02T16:58:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/1347d085da84c43b61f57510ec584dfdf2c053e6"
+          },
+          {
+            "Text": "Bump golang from 1.22.7 to 1.22.8",
+            "SHA": "b060e772fb6a74efca7e55bd0d038e5da21aeb0c",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-02T16:17:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/b060e772fb6a74efca7e55bd0d038e5da21aeb0c"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1199,9 +1220,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.41.5",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "f8686f4",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1256,8 +1277,39 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.41.5..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 3,
+        "Commits": [
+          {
+            "Text": "Fix limits",
+            "SHA": "f8686f4b24a62ae9406fb1e531d8aa24357ccc17",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-02T13:33:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f8686f4b24a62ae9406fb1e531d8aa24357ccc17"
+          },
+          {
+            "Text": "Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-staged",
+            "SHA": "13efeae504d9c30856c63f98e422085a55affcad",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-02T13:23:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/13efeae504d9c30856c63f98e422085a55affcad"
+          },
+          {
+            "Text": "Change max_global_series_per_user: 1000000 for mimir",
+            "SHA": "f385a1df3f159c5ec3fbe221871605a348f74b3a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-02T13:23:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f385a1df3f159c5ec3fbe221871605a348f74b3a"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1665,7 +1717,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "be360b0",
+          "Version": "1a8079e",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1722,8 +1774,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-mainproject",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/compare/1.4.2..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #36 from PRODYNA-YASM/dependabot/docker/golang-1.23.2-alpine3.20",
+            "SHA": "1a8079efbc1b7c38f91845ace6653a4cb599a3b4",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-02T16:59:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/1a8079efbc1b7c38f91845ace6653a4cb599a3b4"
+          },
+          {
+            "Text": "Bump golang from 1.23.1-alpine3.20 to 1.23.2-alpine3.20",
+            "SHA": "8d819aa0be3d4126a426cd67aa4662446b8ac105",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-02T16:47:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/8d819aa0be3d4126a426cd67aa4662446b8ac105"
+          },
           {
             "Text": "Merge pull request #35 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.67.1",
             "SHA": "be360b070c1015c664749df6431a9a80c31602eb",
@@ -1881,5 +1953,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-10-02T12:31:10Z"
+  "LastUpdated": "2024-10-03T07:32:33Z"
 }
