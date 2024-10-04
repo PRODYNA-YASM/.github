@@ -1220,7 +1220,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "f8686f4",
+          "Version": "40d2833",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1277,8 +1277,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.41.5..HEAD",
-        "Count": 3,
+        "Count": 5,
         "Commits": [
+          {
+            "Text": "Merge pull request #677 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/DataDog/datadog-3.46.0",
+            "SHA": "40d283322f2497f71390df0b152cfc5ed9e7ea07",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-04T06:15:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/40d283322f2497f71390df0b152cfc5ed9e7ea07"
+          },
+          {
+            "Text": "Bump DataDog/datadog from 3.44.1 to 3.46.0 in /terraform/kubernetes",
+            "SHA": "d746876f696eb4f3f7d2f3f45c8386bd77daa178",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-04T05:22:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d746876f696eb4f3f7d2f3f45c8386bd77daa178"
+          },
           {
             "Text": "Fix limits",
             "SHA": "f8686f4b24a62ae9406fb1e531d8aa24357ccc17",
@@ -1544,6 +1564,10 @@
         "Count": 6,
         "PullRequests": [
           {
+            "Title": "chore(deps): Bump @azure/msal-node from 2.13.1 to 2.15.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/182"
+          },
+          {
             "Title": "chore(deps-dev): Bump @types/node from 22.5.5 to 22.7.4",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/181"
           },
@@ -1554,10 +1578,6 @@
           {
             "Title": "chore(deps): Bump jose from 5.9.2 to 5.9.3",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/175"
-          },
-          {
-            "Title": "chore(deps): Bump @azure/msal-node from 2.13.1 to 2.14.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/174"
           },
           {
             "Title": "chore(deps-dev): Bump @types/mocha from 10.0.7 to 10.0.8",
@@ -1953,5 +1973,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-10-03T07:32:33Z"
+  "LastUpdated": "2024-10-04T07:32:56Z"
 }

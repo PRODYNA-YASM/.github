@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-10-03T07:32:33Z
+Component Status overview. Last update 2024-10-04T07:32:56Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -14,7 +14,7 @@ Component Status overview. Last update 2024-10-03T07:32:33Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [30](https://github.com/prodyna-yasm/yasm-external/compare/..HEAD) | :green_square: 0 |  |  :red_square: 68965aa | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.11.0-2 |  :green_square: 8.11.0-2 |  :green_square: 8.11.0-2 |  :green_square: 8.11.0-2 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.41.5..HEAD) | :green_square: 0 | 1.41.5 |  :red_square: f8686f4 |  :green_square: 1.41.5 |  :green_square: 1.41.5 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.41.5..HEAD) | :green_square: 0 | 1.41.5 |  :red_square: 40d2833 |  :green_square: 1.41.5 |  :green_square: 1.41.5 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :green_square: 0 | 1.40.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.41.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
@@ -399,7 +399,11 @@ Component Status overview. Last update 2024-10-03T07:32:33Z
 
 
 
-### [Commits on main since 1.41.5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.41.5..HEAD) (3)
+### [Commits on main since 1.41.5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.41.5..HEAD) (5)
+
+- [Merge pull request #677 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/DataDog/datadog-3.46.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/40d283322f2497f71390df0b152cfc5ed9e7ea07) by [dkrizic](https://github.com/dkrizic) on 2024-10-04 06:15:23 +0000 UTC
+
+- [Bump DataDog/datadog from 3.44.1 to 3.46.0 in /terraform/kubernetes](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d746876f696eb4f3f7d2f3f45c8386bd77daa178) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-04 05:22:31 +0000 UTC
 
 - [Fix limits](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f8686f4b24a62ae9406fb1e531d8aa24357ccc17) by [dkrizic](https://github.com/dkrizic) on 2024-10-02 13:33:24 +0000 UTC
 
@@ -415,7 +419,7 @@ Component Status overview. Last update 2024-10-03T07:32:33Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  f8686f4 |  1.41.5 |  1.41.5 | 
+| Version |  40d2833 |  1.41.5 |  1.41.5 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -552,13 +556,13 @@ Component Status overview. Last update 2024-10-03T07:32:33Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (6)
 
+- [chore(deps): Bump @azure/msal-node from 2.13.1 to 2.15.0](https://github.com/PRODYNA-YASM/yasm-test/pull/182)
+
 - [chore(deps-dev): Bump @types/node from 22.5.5 to 22.7.4](https://github.com/PRODYNA-YASM/yasm-test/pull/181)
 
 - [chore(deps): Bump cypress/included from 13.14.2 to 13.15.0](https://github.com/PRODYNA-YASM/yasm-test/pull/179)
 
 - [chore(deps): Bump jose from 5.9.2 to 5.9.3](https://github.com/PRODYNA-YASM/yasm-test/pull/175)
-
-- [chore(deps): Bump @azure/msal-node from 2.13.1 to 2.14.0](https://github.com/PRODYNA-YASM/yasm-test/pull/174)
 
 - [chore(deps-dev): Bump @types/mocha from 10.0.7 to 10.0.8](https://github.com/PRODYNA-YASM/yasm-test/pull/173)
 
