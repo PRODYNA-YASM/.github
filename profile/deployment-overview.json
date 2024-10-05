@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "653d719",
+          "Version": "db6cfdf",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -59,12 +59,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 4,
+        "Count": 3,
         "PullRequests": [
-          {
-            "Title": "build(deps): bump quarkus.platform.version from 3.14.4 to 3.15.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/723"
-          },
           {
             "Title": "feat: #629 create awards service with crud operations, update organization and person with awards",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/718"
@@ -82,8 +78,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.40.1..HEAD",
-        "Count": 1,
+        "Count": 2,
         "Commits": [
+          {
+            "Text": "build(deps): bump quarkus.platform.version from 3.14.4 to 3.15.1 (#723)",
+            "SHA": "db6cfdf38efb4f1faf6ec9d375b44435bf5d54c0",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-04T15:05:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/db6cfdf38efb4f1faf6ec9d375b44435bf5d54c0"
+          },
           {
             "Text": "feat: Reduce resource for backend (#724)",
             "SHA": "653d719d21e4a1d0d3d456bd689b8b34cc93afbb",
@@ -111,7 +117,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2f42c27",
+          "Version": "d381813",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -189,8 +195,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.40.8..HEAD",
-        "Count": 6,
+        "Count": 7,
         "Commits": [
+          {
+            "Text": "#137 show all skills as input suggestions in pdf export / project participation view, remove participationItemOld component (#867)",
+            "SHA": "d381813f5bad60dc9cfe4dfc2d20fa9a2e427103",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-10-04T15:28:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d381813f5bad60dc9cfe4dfc2d20fa9a2e427103"
+          },
           {
             "Text": "fix: Erp id no initial project bug (#866)",
             "SHA": "2f42c2756a1a55a34622cb412437ba4a500625bb",
@@ -268,9 +284,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.41.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "358a172",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -325,8 +341,109 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.41.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 10,
+        "Commits": [
+          {
+            "Text": "More cleanup",
+            "SHA": "358a17242c64e223b4d6f3af0a95d22428e2a5a8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-04T23:16:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/358a17242c64e223b4d6f3af0a95d22428e2a5a8"
+          },
+          {
+            "Text": "Improve spans",
+            "SHA": "55f0b3cd8d431365850ea5cc985a5013702e4aae",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-04T22:38:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/55f0b3cd8d431365850ea5cc985a5013702e4aae"
+          },
+          {
+            "Text": "Handle manager is now own span",
+            "SHA": "d80c6025cb49367fe1cccb10966141efae2a5f30",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-04T19:33:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/d80c6025cb49367fe1cccb10966141efae2a5f30"
+          },
+          {
+            "Text": "Create Umantis main span again",
+            "SHA": "ab6b785b7d3a8cab29c25561f403167f1a0a8926",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-04T19:10:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/ab6b785b7d3a8cab29c25561f403167f1a0a8926"
+          },
+          {
+            "Text": "Even more splits",
+            "SHA": "4b32cf4c4f3afc9ad2befac7529c702c8dfec03e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-04T19:03:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/4b32cf4c4f3afc9ad2befac7529c702c8dfec03e"
+          },
+          {
+            "Text": "Clever split",
+            "SHA": "f5c6d2fcb4165dc1a94ee7d00f857b2b6a2d17e7",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-04T18:52:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/f5c6d2fcb4165dc1a94ee7d00f857b2b6a2d17e7"
+          },
+          {
+            "Text": "Merge pull request #535 from PRODYNA-YASM/feature/split-huge-traces",
+            "SHA": "bf6aa44c0ce000302e742de375c783e9a5a7bbed",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-04T18:00:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/bf6aa44c0ce000302e742de375c783e9a5a7bbed"
+          },
+          {
+            "Text": "Split large traces",
+            "SHA": "f5450741935c6da183bb3cf589be6b7b1899d743",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-04T16:50:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/f5450741935c6da183bb3cf589be6b7b1899d743"
+          },
+          {
+            "Text": "Merge pull request #534 from PRODYNA-YASM/feature/split-huge-traces",
+            "SHA": "c3d0331de8d5e835a0ddf34159a8d3fd9a6410b1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-04T16:15:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/c3d0331de8d5e835a0ddf34159a8d3fd9a6410b1"
+          },
+          {
+            "Text": "Huge traces are split in many small traces",
+            "SHA": "0ead53720b3e2c03143a8a1d4fff970006c30c18",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-04T16:09:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/0ead53720b3e2c03143a8a1d4fff970006c30c18"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -623,7 +740,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1347d08",
+          "Version": "e9cfbf9",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -674,19 +791,24 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump google.golang.org/grpc from 1.67.0 to 1.67.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/165"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.11.7..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #165 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.67.1",
+            "SHA": "e9cfbf97edca0971187d8426f224ceb84ceca7dd",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-04T09:26:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/e9cfbf97edca0971187d8426f224ceb84ceca7dd"
+          },
           {
             "Text": "Merge pull request #166 from PRODYNA-YASM/dependabot/docker/golang-1.22.8",
             "SHA": "1347d085da84c43b61f57510ec584dfdf2c053e6",
@@ -706,6 +828,16 @@
             },
             "Timestamp": "2024-10-02T16:17:23Z",
             "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/b060e772fb6a74efca7e55bd0d038e5da21aeb0c"
+          },
+          {
+            "Text": "Bump google.golang.org/grpc from 1.67.0 to 1.67.1",
+            "SHA": "320db9b1d721bec313cda93de51e46700041b5fb",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-01T16:18:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/320db9b1d721bec313cda93de51e46700041b5fb"
           }
         ]
       },
@@ -1271,8 +1403,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Rename service.name to job",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/678"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -1973,5 +2110,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-10-04T07:32:56Z"
+  "LastUpdated": "2024-10-05T07:32:46Z"
 }
