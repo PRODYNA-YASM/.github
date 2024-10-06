@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-10-05T07:32:46Z
+Component Status overview. Last update 2024-10-06T07:32:36Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -14,7 +14,7 @@ Component Status overview. Last update 2024-10-05T07:32:46Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [30](https://github.com/prodyna-yasm/yasm-external/compare/..HEAD) | :green_square: 0 |  |  :red_square: 68965aa | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.11.0-2 |  :green_square: 8.11.0-2 |  :green_square: 8.11.0-2 |  :green_square: 8.11.0-2 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.41.5..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.41.5 |  :red_square: 40d2833 |  :green_square: 1.41.5 |  :green_square: 1.41.5 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [7](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.41.5..HEAD) | :green_square: 0 | 1.41.5 |  :red_square: 9845b98 |  :green_square: 1.41.5 |  :green_square: 1.41.5 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :green_square: 0 | 1.40.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.41.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
@@ -423,7 +423,11 @@ Component Status overview. Last update 2024-10-05T07:32:46Z
 
 
 
-### [Commits on main since 1.41.5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.41.5..HEAD) (5)
+### [Commits on main since 1.41.5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.41.5..HEAD) (7)
+
+- [Merge pull request #678 from PRODYNA-YASM/feature/rename-service-name-to-job](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/9845b9812cb54810e0d3f29de9956b0f12ce3ad4) by [dkrizic](https://github.com/dkrizic) on 2024-10-05 09:09:18 +0000 UTC
+
+- [Rename service.name to job](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f9cd6392d84d2ea8a08b56bf462a32fab113d5c4) by [dkrizic](https://github.com/dkrizic) on 2024-10-05 00:28:42 +0000 UTC
 
 - [Merge pull request #677 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/DataDog/datadog-3.46.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/40d283322f2497f71390df0b152cfc5ed9e7ea07) by [dkrizic](https://github.com/dkrizic) on 2024-10-04 06:15:23 +0000 UTC
 
@@ -438,17 +442,12 @@ Component Status overview. Last update 2024-10-05T07:32:46Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (1)
-
-- [Rename service.name to job](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/678)
-
-
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  40d2833 |  1.41.5 |  1.41.5 | 
+| Version |  9845b98 |  1.41.5 |  1.41.5 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
