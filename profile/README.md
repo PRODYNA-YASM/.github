@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-10-11T08:29:38Z
+Component Status overview. Last update 2024-10-11T08:32:56Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -8,7 +8,7 @@ Component Status overview. Last update 2024-10-11T08:29:38Z
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [9](https://github.com/prodyna-yasm/yasm-frontend/compare/1.40.8..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.40.8 |  :red_square: a7efde3 |  :green_square: 1.40.8 |  :green_square: 1.40.8 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.41.1 |  :red_square: cd2b2a1 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.41.1 |  :green_square: 1.41.1 |  :green_square: 1.41.1 |  :green_square: 1.41.1 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.18.1 |  :green_square: 1.18.1 |  :green_square: 1.18.1 |  :red_square: 1.18.0 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.18.1 |  :green_square: 1.18.1 |  :green_square: 1.18.1 |  :green_square: 1.18.1 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.7.1 |  :green_square: 1.7.1 |  :green_square: 1.7.1 |  :green_square: 1.7.1 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.12.0 |  :green_square: 1.12.0 |  :green_square: 1.12.0 |  :red_square: 1.11.7 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
@@ -231,9 +231,9 @@ Component Status overview. Last update 2024-10-11T08:29:38Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.18.1 |  1.18.1 |  1.18.0 | 
+| Version |  1.18.1 |  1.18.1 |  1.18.1 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -247,9 +247,7 @@ Component Status overview. Last update 2024-10-11T08:29:38Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting) (2)
-
-- [Constants for the pathes](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/11288852833) created on 2024-10-11 08:18:36 +0000 UTC
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting) (1)
 
 - [Merge pull request #242 from PRODYNA-YASM/feature/mdc-logging](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/11092525375) created on 2024-09-29 12:11:04 +0000 UTC
 

@@ -508,9 +508,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.18.0",
+          "Version": "1.18.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -558,13 +558,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Constants for the pathes",
-            "Timestamp": "2024-10-11T08:18:36Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/11288852833"
-          },
           {
             "Name": "Merge pull request #242 from PRODYNA-YASM/feature/mdc-logging",
             "Timestamp": "2024-09-29T12:11:04Z",
@@ -2032,5 +2027,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-10-11T08:29:38Z"
+  "LastUpdated": "2024-10-11T08:32:56Z"
 }
