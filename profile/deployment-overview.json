@@ -453,7 +453,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "6afafda",
+          "Version": "31e9520",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -504,19 +504,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump github.com/prodyna-yasm/yasm-api-go from 1.41.0 to 1.42.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/388"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.41.1..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #388 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.42.0",
+            "SHA": "31e9520490e5ba9ef30e2d5622087614b870db61",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-12T11:11:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/31e9520490e5ba9ef30e2d5622087614b870db61"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.41.0 to 1.42.0",
+            "SHA": "113c4c95bccffd9ed0a4993174453b1197f93e19",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-11T21:54:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/113c4c95bccffd9ed0a4993174453b1197f93e19"
+          },
           {
             "Text": "Merge pull request #389 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp-1.31.0",
             "SHA": "6afafda7ff9fbc6ef0611b03ab783cf7d66d7827",
@@ -641,7 +656,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "48dcb26",
+          "Version": "4a3b4a9",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -692,19 +707,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Uupdate libs",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/149"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.7.1..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #149 from PRODYNA-YASM/feature/update-libs",
+            "SHA": "4a3b4a9481750efb2c773decb6f5290acebf4bc5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-12T11:11:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/4a3b4a9481750efb2c773decb6f5290acebf4bc5"
+          },
+          {
+            "Text": "Uupdate libs",
+            "SHA": "c0afebca158c782c20d6f5ba77486199276c38ea",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-11T23:47:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/c0afebca158c782c20d6f5ba77486199276c38ea"
+          },
           {
             "Text": "Merge pull request #148 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc-1.31.0",
             "SHA": "48dcb269cec248f83b9f0380918b98ea9952886e",
@@ -748,33 +778,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "455c04f",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.12.1",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.12.0",
+          "Version": "1.12.1",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.11.7",
+          "Version": "1.12.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.12.0",
+        "Tag": "1.12.1",
         "SHA": "",
-        "Title": "Metrics added",
-        "Timestamp": "2024-10-11T08:26:48Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.12.0"
+        "Title": "No traces for metrics",
+        "Timestamp": "2024-10-12T11:15:05Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.12.1"
       },
       "Releases": [
+        {
+          "Tag": "1.12.1",
+          "SHA": "",
+          "Title": "No traces for metrics",
+          "Timestamp": "2024-10-12T00:02:51Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.12.1"
+        },
         {
           "Tag": "1.12.0",
           "SHA": "",
@@ -788,13 +825,6 @@
           "Title": "Reduce resources",
           "Timestamp": "2024-09-30T17:16:41Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.11.7"
-        },
-        {
-          "Tag": "1.11.6",
-          "SHA": "",
-          "Title": "Improve logging",
-          "Timestamp": "2024-09-29T17:51:30Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.11.6"
         }
       ],
       "PullRequests": {
@@ -804,20 +834,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.12.0..HEAD",
-        "Count": 1,
-        "Commits": [
-          {
-            "Text": "No traces for /metrics",
-            "SHA": "455c04f50deb24b2a5b763948a19cbaffb5abb1d",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-10-12T00:02:51Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/455c04f50deb24b2a5b763948a19cbaffb5abb1d"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.12.1..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1255,14 +1274,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8.11.1-1",
+          "Version": "8.12.0-1",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "8.11.1-1",
+          "Version": "8.12.0-1",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -1271,17 +1290,24 @@
           "Link": "",
           "Version": "8.11.1-1",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "8.11.1-1",
+        "Tag": "8.12.0-1",
         "SHA": "",
-        "Title": "Gotenberg 8.11.1",
-        "Timestamp": "2024-10-07T07:27:32Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.11.1-1"
+        "Title": "Gotenberg 8.12.0",
+        "Timestamp": "2024-10-12T14:44:09Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.12.0-1"
       },
       "Releases": [
+        {
+          "Tag": "8.12.0-1",
+          "SHA": "",
+          "Title": "Gotenberg 8.12.0",
+          "Timestamp": "2024-10-12T12:27:13Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.12.0-1"
+        },
         {
           "Tag": "8.11.1-1",
           "SHA": "",
@@ -1295,13 +1321,6 @@
           "Title": "Reduce resources",
           "Timestamp": "2024-09-30T17:11:39Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.11.0-2"
-        },
-        {
-          "Tag": "8.11.0-1",
-          "SHA": "",
-          "Title": "Gotenberg 8.11",
-          "Timestamp": "2024-09-30T05:36:28Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.11.0-1"
         }
       ],
       "PullRequests": {
@@ -1311,7 +1330,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.11.1-1..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.12.0-1..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -1319,8 +1338,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "Merge pull request #59 from PRODYNA-YASM/58-gotenberg-1120",
+            "Timestamp": "2024-10-12T14:44:11Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/11306501053"
+          },
           {
             "Name": "Merge pull request #55 from PRODYNA-YASM/dependabot/docker/gotenberg/…",
             "Timestamp": "2024-09-30T08:26:53Z",
@@ -2136,5 +2160,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-10-12T07:32:21Z"
+  "LastUpdated": "2024-10-13T07:32:26Z"
 }
