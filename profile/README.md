@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-10-15T09:30:50Z
+Component Status overview. Last update 2024-10-15T13:48:51Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -12,7 +12,7 @@ Component Status overview. Last update 2024-10-15T09:30:50Z
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.7.4 |  :green_square: 1.7.4 |  :green_square: 1.7.4 |  :green_square: 1.7.4 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.12.2 |  :green_square: 1.12.2 |  :green_square: 1.12.2 |  :red_square: 1.12.1 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
-| [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 0.9.0 |  :green_square: 0.9.0 |  :green_square: 0.9.0 |  :green_square: 0.9.0 | 
+| [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [4](https://github.com/prodyna-yasm/yasm-external/compare/0.9.0..HEAD) | :green_square: 0 | 0.9.0 |  :red_square: 0cee4d5 |  :green_square: 0.9.0 |  :green_square: 0.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.12.0-1 |  :green_square: 8.12.0-1 |  :green_square: 8.12.0-1 |  :red_square: 8.11.1-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.42.0 |  :green_square: 1.42.0 |  :green_square: 1.42.0 |  :green_square: 1.42.0 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :green_square: 0 | 1.40.0 | 
@@ -382,6 +382,17 @@ Component Status overview. Last update 2024-10-15T09:30:50Z
 
 
 
+### [Commits on main since 0.9.0](https://github.com/prodyna-yasm/yasm-external/compare/0.9.0..HEAD) (4)
+
+- [Merge pull request #12 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/runtime-0.56.0](https://github.com/prodyna-yasm/yasm-external/commit/0cee4d5c8e6370d385f370699c543a1ad17ca408) by [dkrizic](https://github.com/dkrizic) on 2024-10-15 10:38:37 +0000 UTC
+
+- [Bump go.opentelemetry.io/contrib/instrumentation/runtime](https://github.com/prodyna-yasm/yasm-external/commit/d2ef1bacadbb3897f5c096a30ee7e6c335ded524) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-15 10:02:05 +0000 UTC
+
+- [Merge pull request #13 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp-0.56.0](https://github.com/prodyna-yasm/yasm-external/commit/abab3f1c6e8b025e1b9c14cf92f1fd2f79a5bde8) by [dkrizic](https://github.com/dkrizic) on 2024-10-15 10:00:42 +0000 UTC
+
+- [Bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp](https://github.com/prodyna-yasm/yasm-external/commit/63ddf3b979dadbadb9f421ef0af6874864b324e7) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-15 09:43:41 +0000 UTC
+
+
 
 
 
@@ -389,9 +400,9 @@ Component Status overview. Last update 2024-10-15T09:30:50Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  0.9.0 |  0.9.0 |  0.9.0 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  0cee4d5 |  0.9.0 |  0.9.0 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
