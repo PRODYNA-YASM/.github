@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-10-15T08:57:18Z
+Component Status overview. Last update 2024-10-15T09:30:50Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -9,8 +9,8 @@ Component Status overview. Last update 2024-10-15T08:57:18Z
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.42.0 |  :green_square: 1.42.0 |  :green_square: 1.42.0 |  :red_square: 1.41.1 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.42.0..HEAD) | :green_square: 0 | 1.42.0 |  :red_square: 0b5e360 |  :green_square: 1.42.0 |  :red_square: 1.41.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.18.2 |  :green_square: 1.18.2 |  :green_square: 1.18.2 |  :red_square: 1.18.1 | 
-| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.7.3 |  :green_square: 1.7.3 |  :green_square: 1.7.3 |  :red_square: 1.7.1 | 
-| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.12.2 |  :green_square: 1.12.2 |  :red_square: 1.12.1 |  :red_square: 1.12.1 | 
+| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.7.4 |  :green_square: 1.7.4 |  :green_square: 1.7.4 |  :green_square: 1.7.4 | 
+| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.12.2 |  :green_square: 1.12.2 |  :green_square: 1.12.2 |  :red_square: 1.12.1 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 0.9.0 |  :green_square: 0.9.0 |  :green_square: 0.9.0 |  :green_square: 0.9.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.12.0-1 |  :green_square: 8.12.0-1 |  :green_square: 8.12.0-1 |  :red_square: 8.11.1-1 | 
@@ -271,7 +271,7 @@ Component Status overview. Last update 2024-10-15T08:57:18Z
 
 
 
-## [yasm-github](https://github.com/prodyna-yasm/yasm-github) 1.7.3
+## [yasm-github](https://github.com/prodyna-yasm/yasm-github) 1.7.4
 
 
 
@@ -283,18 +283,18 @@ Component Status overview. Last update 2024-10-15T08:57:18Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.7.3 |  1.7.3 |  1.7.1 | 
+| Version |  1.7.4 |  1.7.4 |  1.7.4 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Add attribute for found user](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.7.4) on 2024-10-15 09:16:33 +0000 UTC
+
 - [Prometheus 0.56](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.7.3) on 2024-10-15 08:05:11 +0000 UTC
 
 - [OpenTelemetry 1.31](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.7.2) on 2024-10-12 11:11:24 +0000 UTC
-
-- [Don't log on metrics](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.7.1) on 2024-10-10 21:53:44 +0000 UTC
 
 
 
@@ -322,9 +322,9 @@ Component Status overview. Last update 2024-10-15T08:57:18Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.12.2 |  1.12.1 |  1.12.1 | 
+| Version |  1.12.2 |  1.12.2 |  1.12.1 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :red_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
@@ -338,7 +338,9 @@ Component Status overview. Last update 2024-10-15T08:57:18Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (1)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (2)
+
+- [Merge pull request #169 from PRODYNA-YASM/dependabot/go_modules/go.op…](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/11342665057) created on 2024-10-15 08:55:16 +0000 UTC
 
 - [Merge pull request #167 from PRODYNA-YASM/feature/prometheus](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/11288970396) created on 2024-10-11 08:26:50 +0000 UTC
 
