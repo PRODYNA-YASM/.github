@@ -8,14 +8,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "51a1341",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.42.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.40.1",
+          "Version": "1.42.0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -24,17 +24,24 @@
           "Link": "",
           "Version": "1.40.1",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.40.1",
+        "Tag": "1.42.0",
         "SHA": "",
-        "Title": "Sort order of people in projects depend on project participation time",
-        "Timestamp": "2024-09-27T11:33:00Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.40.1"
+        "Title": "Add Methodologies to SkillProfile",
+        "Timestamp": "2024-10-17T09:09:53Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.42.0"
       },
       "Releases": [
+        {
+          "Tag": "1.42.0",
+          "SHA": "",
+          "Title": "Add Methodologies to SkillProfile",
+          "Timestamp": "2024-10-11T23:09:34Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.42.0"
+        },
         {
           "Tag": "1.40.1",
           "SHA": "",
@@ -48,13 +55,6 @@
           "Title": "Add backend implementation for Skill Favorite",
           "Timestamp": "2024-09-02T10:28:49Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.40.0"
-        },
-        {
-          "Tag": "1.38.0",
-          "SHA": "",
-          "Title": "Create SkillProfile Entity and refactor cypher template",
-          "Timestamp": "2024-07-30T15:32:27Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.38.0"
         }
       ],
       "PullRequests": {
@@ -77,77 +77,22 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.40.1..HEAD",
-        "Count": 6,
-        "Commits": [
-          {
-            "Text": "feat: Mount volume external (#729)",
-            "SHA": "51a134150f9860a6214d8b1027cae282295d1bda",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-10-11T23:09:34Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/51a134150f9860a6214d8b1027cae282295d1bda"
-          },
-          {
-            "Text": "feat: #137 added methodologies to SkillsProfile object (#726)",
-            "SHA": "77bb09844af6abdfeda15e5c4fd0e64e33a9f724",
-            "Author": {
-              "name": "irhox",
-              "link": "https://github.com/irhox"
-            },
-            "Timestamp": "2024-10-11T13:21:49Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/77bb09844af6abdfeda15e5c4fd0e64e33a9f724"
-          },
-          {
-            "Text": "feat: feature/resources (#727)",
-            "SHA": "81ed479781e8390bc3d0655bf910d897c17a0f27",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-10-08T22:28:52Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/81ed479781e8390bc3d0655bf910d897c17a0f27"
-          },
-          {
-            "Text": "build(deps): bump org.apache.maven.plugins:maven-surefire-plugin from 3.5.0 to 3.5.1 (#725)",
-            "SHA": "e58ab653a089a6b11a41744a786fa65b154248d9",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-10-07T06:10:00Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/e58ab653a089a6b11a41744a786fa65b154248d9"
-          },
-          {
-            "Text": "build(deps): bump quarkus.platform.version from 3.14.4 to 3.15.1 (#723)",
-            "SHA": "db6cfdf38efb4f1faf6ec9d375b44435bf5d54c0",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-10-04T15:05:37Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/db6cfdf38efb4f1faf6ec9d375b44435bf5d54c0"
-          },
-          {
-            "Text": "feat: Reduce resource for backend (#724)",
-            "SHA": "653d719d21e4a1d0d3d456bd689b8b34cc93afbb",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-09-30T16:02:11Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/653d719d21e4a1d0d3d456bd689b8b34cc93afbb"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.42.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "feat: Mount volume external (#729)",
+            "Timestamp": "2024-10-17T09:09:55Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/11381881815"
+          }
+        ]
       }
     },
     {
@@ -157,14 +102,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "88223f3",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.42.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.40.8",
+          "Version": "1.42.0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -173,17 +118,24 @@
           "Link": "",
           "Version": "1.40.8",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.40.8",
+        "Tag": "1.42.0",
         "SHA": "",
-        "Title": "Fine tune colours for availability",
-        "Timestamp": "2024-09-23T08:04:46Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.40.8"
+        "Title": "Project to ERP mapping, search all result extended, add persons to projects",
+        "Timestamp": "2024-10-17T10:47:21Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.42.0"
       },
       "Releases": [
+        {
+          "Tag": "1.42.0",
+          "SHA": "",
+          "Title": "Project to ERP mapping, search all result extended, add persons to projects",
+          "Timestamp": "2024-10-17T09:17:43Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.42.0"
+        },
         {
           "Tag": "1.40.8",
           "SHA": "",
@@ -197,26 +149,15 @@
           "Title": "Fix bugs: Display of available hours",
           "Timestamp": "2024-09-23T05:53:22Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.40.7"
-        },
-        {
-          "Tag": "1.40.6",
-          "SHA": "",
-          "Title": "Bugfix: Saving project participation information",
-          "Timestamp": "2024-09-17T14:20:41Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.40.6"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 5,
         "PullRequests": [
           {
             "Title": "chore: bump @typescript-eslint/eslint-plugin from 7.11.0 to 8.9.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/876"
-          },
-          {
-            "Title": "feat: extend search all results",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/873"
           },
           {
             "Title": "feat: #490 define local filter behaviour for all tabs and search input types ",
@@ -238,147 +179,22 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.40.8..HEAD",
-        "Count": 13,
-        "Commits": [
-          {
-            "Text": "chore: bump @mui/x-tree-view from 7.5.1 to 7.20.0 (#878)",
-            "SHA": "88223f32ae0c1d09861c16a5d105a24fab8389c6",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-10-17T06:21:04Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/88223f32ae0c1d09861c16a5d105a24fab8389c6"
-          },
-          {
-            "Text": "chore: bump cookie and express (#877)",
-            "SHA": "b3bb045e3227571820617c587f4e9b5335362fb6",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-10-16T08:05:33Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b3bb045e3227571820617c587f4e9b5335362fb6"
-          },
-          {
-            "Text": "chore: bump @types/node from 22.5.0 to 22.7.5 (#869)",
-            "SHA": "b6128e9f69e1d1b1a97e22477aea28b173062b50",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-10-15T13:51:12Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b6128e9f69e1d1b1a97e22477aea28b173062b50"
-          },
-          {
-            "Text": "fix: make hard coded url dynamic (#875)",
-            "SHA": "9694393e1e78dadb15be3391c9061d23f4acbfe7",
-            "Author": {
-              "name": "mayer-prodyna",
-              "link": "https://github.com/mayer-prodyna"
-            },
-            "Timestamp": "2024-10-11T14:14:44Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/9694393e1e78dadb15be3391c9061d23f4acbfe7"
-          },
-          {
-            "Text": "#137 all skills are shown in SkillFavorites dialog and Project Participation view, only employee skills are shown in pdf export view in skill input (#871)",
-            "SHA": "a7efde3a6bd24dd9962c22066ee32b78b854b5c3",
-            "Author": {
-              "name": "irhox",
-              "link": "https://github.com/irhox"
-            },
-            "Timestamp": "2024-10-10T11:17:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/a7efde3a6bd24dd9962c22066ee32b78b854b5c3"
-          },
-          {
-            "Text": "#22 fixed search in project selection field in project assignment dialog (#870)",
-            "SHA": "ff80f8ff64edce778c82afc9adb2d9b1ddf97d63",
-            "Author": {
-              "name": "irhox",
-              "link": "https://github.com/irhox"
-            },
-            "Timestamp": "2024-10-09T07:48:45Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ff80f8ff64edce778c82afc9adb2d9b1ddf97d63"
-          },
-          {
-            "Text": "#137 show all skills as input suggestions in pdf export / project participation view, remove participationItemOld component (#867)",
-            "SHA": "d381813f5bad60dc9cfe4dfc2d20fa9a2e427103",
-            "Author": {
-              "name": "irhox",
-              "link": "https://github.com/irhox"
-            },
-            "Timestamp": "2024-10-04T15:28:38Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d381813f5bad60dc9cfe4dfc2d20fa9a2e427103"
-          },
-          {
-            "Text": "fix: Erp id no initial project bug (#866)",
-            "SHA": "2f42c2756a1a55a34622cb412437ba4a500625bb",
-            "Author": {
-              "name": "mayer-prodyna",
-              "link": "https://github.com/mayer-prodyna"
-            },
-            "Timestamp": "2024-10-02T12:00:07Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2f42c2756a1a55a34622cb412437ba4a500625bb"
-          },
-          {
-            "Text": "feat: ErpId selection for projects (#837)",
-            "SHA": "9182e64d0a717b62a67f0c83b8f74dd7d47e4636",
-            "Author": {
-              "name": "mayer-prodyna",
-              "link": "https://github.com/mayer-prodyna"
-            },
-            "Timestamp": "2024-10-02T08:29:23Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/9182e64d0a717b62a67f0c83b8f74dd7d47e4636"
-          },
-          {
-            "Text": "feat: #22 added more details to dropdown list in the dialog where projects are assigned to employees (#862)",
-            "SHA": "933fc08dc784d4aaee50af9c0726050beecde6d0",
-            "Author": {
-              "name": "irhox",
-              "link": "https://github.com/irhox"
-            },
-            "Timestamp": "2024-10-02T07:37:30Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/933fc08dc784d4aaee50af9c0726050beecde6d0"
-          },
-          {
-            "Text": "reduce resources (#863)",
-            "SHA": "bf04dbd915c547438ff9dfb72cda0f1ae2fc0387",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-09-30T15:50:09Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/bf04dbd915c547438ff9dfb72cda0f1ae2fc0387"
-          },
-          {
-            "Text": "chore: bump compression-webpack-plugin from 10.0.0 to 11.1.0 (#859)",
-            "SHA": "73e3c1b34afc05346c424732da9b133e09d802cb",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-09-26T07:28:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/73e3c1b34afc05346c424732da9b133e09d802cb"
-          },
-          {
-            "Text": "chore: bump @types/react from 18.3.3 to 18.3.9 (#858)",
-            "SHA": "276ff12b39ea70a3b25fa3bb2bc872f091db98d6",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-09-25T06:34:33Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/276ff12b39ea70a3b25fa3bb2bc872f091db98d6"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.42.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "feat: extend the search all results (#873)",
+            "Timestamp": "2024-10-17T10:47:22Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/11383412497"
+          }
+        ]
       }
     },
     {
@@ -602,9 +418,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.18.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "ba72c90",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -659,8 +475,19 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.18.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "Some updates",
+            "SHA": "ba72c902f5eedefdf06bfb142969b57b82c3461c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-17T07:53:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/ba72c902f5eedefdf06bfb142969b57b82c3461c"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1375,16 +1202,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 4,
+        "Count": 2,
         "PullRequests": [
-          {
-            "Title": "chore: bump com.fasterxml.jackson.core:jackson-databind from 2.17.2 to 2.18.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/230"
-          },
-          {
-            "Title": "feat: Change root path from /api/v1 to /api/graph/v1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/229"
-          },
           {
             "Title": "feat: #164 create shareable links for pdf profile files",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/226"
@@ -1398,8 +1217,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.42.0..HEAD",
-        "Count": 1,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "chore: bump com.fasterxml.jackson.core:jackson-databind (#230)",
+            "SHA": "c989290efd20cbf7cedf8a71a759d6bc868dca39",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-17T11:50:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/c989290efd20cbf7cedf8a71a759d6bc868dca39"
+          },
+          {
+            "Text": "Change root path from /api/v1 to /api/graph/v1 (#229)",
+            "SHA": "d10d532b63681bb2baf5250417281b49441a81aa",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-17T11:45:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/d10d532b63681bb2baf5250417281b49441a81aa"
+          },
           {
             "Text": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin (#233)",
             "SHA": "d8e506041c0037c0de25dd57684323dbc0307bb5",
@@ -1515,8 +1354,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 4,
+        "Count": 5,
         "PullRequests": [
+          {
+            "Title": "Update defaultCommandTimeout to 30000",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/194"
+          },
           {
             "Title": "chore(deps): Bump openid-client from 5.7.0 to 6.0.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/193"
@@ -2074,5 +1917,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-10-17T07:33:24Z"
+  "LastUpdated": "2024-10-17T11:52:40Z"
 }
