@@ -8,9 +8,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.42.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "d9c793d",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -78,8 +78,19 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.42.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "feat: Use API 1.43, shift from /api/v1 to /api/graph/v1 (#730)",
+            "SHA": "d9c793db63af64debddd2ad8137e3eb03f05ae45",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-17T14:50:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/d9c793db63af64debddd2ad8137e3eb03f05ae45"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -102,9 +113,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.42.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "d72d55a",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -156,8 +167,8 @@
         "Count": 5,
         "PullRequests": [
           {
-            "Title": "chore: bump @typescript-eslint/eslint-plugin from 7.11.0 to 8.9.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/876"
+            "Title": "chore: bump @typescript-eslint/eslint-plugin from 7.11.0 to 8.10.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/882"
           },
           {
             "Title": "feat: #490 define local filter behaviour for all tabs and search input types ",
@@ -180,8 +191,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.42.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "chore: bump @editorjs/editorjs from 2.26.4 to 2.30.6 (#881)",
+            "SHA": "d72d55a4f9e47ae0a5555504edc6f4d1f31484fe",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-18T06:04:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d72d55a4f9e47ae0a5555504edc6f4d1f31484fe"
+          },
+          {
+            "Text": "Shift from /api/v1 to /api/graph/v1 for the backend base URL (#880)",
+            "SHA": "323268abd22d802f15922571f25253e985978cea",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-17T14:51:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/323268abd22d802f15922571f25253e985978cea"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -204,7 +236,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "eef0aeb",
+          "Version": "1727a9a",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -261,8 +293,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.42.0..HEAD",
-        "Count": 1,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "Merge pull request #546 from PRODYNA-YASM/feature/shift-to-api-graph-v1",
+            "SHA": "1727a9a7568f56b3f9a92802c8ffe256adbe4fc9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-17T14:51:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/1727a9a7568f56b3f9a92802c8ffe256adbe4fc9"
+          },
+          {
+            "Text": "Shift from /api/v1 to /api/graph/v1",
+            "SHA": "9587e87a88af9199eec31a3ec7d0c881b1698f00",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-17T14:34:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/9587e87a88af9199eec31a3ec7d0c881b1698f00"
+          },
           {
             "Text": "updates",
             "SHA": "eef0aeb3685b2f06bb07cb88399a2b978b1f1686",
@@ -311,7 +363,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0b5e360",
+          "Version": "31cf841",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -368,8 +420,28 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.42.0..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #391 from PRODYNA-YASM/feature/shift-to-api-graph-v1",
+            "SHA": "31cf841da8a711be089a97516e0aa902c3f99330",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-17T14:55:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/31cf841da8a711be089a97516e0aa902c3f99330"
+          },
+          {
+            "Text": "API 1.43.0, /api/v1 -\u003e /api/graph/v1",
+            "SHA": "fbd8120cf81637498cb35fc0c3a5ae1bcc64d0b7",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-17T14:51:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/fbd8120cf81637498cb35fc0c3a5ae1bcc64d0b7"
+          },
           {
             "Text": "Merge pull request #390 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp-0.56.0",
             "SHA": "0b5e3600863d4c1246050e984c30dc92e139128d",
@@ -1004,7 +1076,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0466961",
+          "Version": "1665f69",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1061,8 +1133,68 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.42.0..HEAD",
-        "Count": 4,
+        "Count": 10,
         "Commits": [
+          {
+            "Text": "Merge pull request #699 from PRODYNA-YASM/feature/grafana-8.5.6",
+            "SHA": "1665f6920aef83ce926ac64378d649b6193961c0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-17T15:37:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1665f6920aef83ce926ac64378d649b6193961c0"
+          },
+          {
+            "Text": "Merge pull request #700 from PRODYNA-YASM/feature/tempo-1.19.0",
+            "SHA": "86f2bb7f8d376ae1d495f53463471196da86a9eb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-17T15:29:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/86f2bb7f8d376ae1d495f53463471196da86a9eb"
+          },
+          {
+            "Text": "Merge branch 'main' into feature/grafana-8.5.6",
+            "SHA": "0e786d68fb5faea9fdf45002bac47c8ca69965e1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-17T15:25:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0e786d68fb5faea9fdf45002bac47c8ca69965e1"
+          },
+          {
+            "Text": "Merge branch 'main' into feature/tempo-1.19.0",
+            "SHA": "6933d427f06b897bf4938539f0f4fe1dddbdb60e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-17T15:24:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6933d427f06b897bf4938539f0f4fe1dddbdb60e"
+          },
+          {
+            "Text": "Tempo 1.19.0",
+            "SHA": "dab08f0091a11ab57e2e45b58d9f3ea8c7b3b3ba",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-17T15:21:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/dab08f0091a11ab57e2e45b58d9f3ea8c7b3b3ba"
+          },
+          {
+            "Text": "Grafana 8.5.6",
+            "SHA": "674ec69aaa6f1dcdc2c9f24e1f18ab7cb33938c6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-17T15:09:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/674ec69aaa6f1dcdc2c9f24e1f18ab7cb33938c6"
+          },
           {
             "Text": "Merge pull request #688 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/hashicorp/azurerm-4.5.0",
             "SHA": "0466961ef17676e11479adef517d4ae55c80e949",
@@ -1171,13 +1303,20 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "1.42.0",
+        "Tag": "1.43.0",
         "SHA": "",
-        "Title": "Added Methodologies attribute to SkillsProfile Entity",
-        "Timestamp": "2024-10-11T12:34:04Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.42.0"
+        "Title": "Move API from /api/v1 to /api/graph/v1",
+        "Timestamp": "2024-10-17T14:29:46Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.43.0"
       },
       "Releases": [
+        {
+          "Tag": "1.43.0",
+          "SHA": "",
+          "Title": "Move API from /api/v1 to /api/graph/v1",
+          "Timestamp": "2024-10-17T11:50:34Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.43.0"
+        },
         {
           "Tag": "1.42.0",
           "SHA": "",
@@ -1191,13 +1330,6 @@
           "Title": "Create new Award entity with new endpoints",
           "Timestamp": "2024-09-18T12:24:55Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.41.0"
-        },
-        {
-          "Tag": "1.40.0",
-          "SHA": "",
-          "Title": "Changed Skills array to ExperienceSkills array in SkillsProfileDetails object",
-          "Timestamp": "2024-09-02T08:42:49Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.40.0"
         }
       ],
       "PullRequests": {
@@ -1216,40 +1348,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.42.0..HEAD",
-        "Count": 3,
-        "Commits": [
-          {
-            "Text": "chore: bump com.fasterxml.jackson.core:jackson-databind (#230)",
-            "SHA": "c989290efd20cbf7cedf8a71a759d6bc868dca39",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-10-17T11:50:34Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/c989290efd20cbf7cedf8a71a759d6bc868dca39"
-          },
-          {
-            "Text": "Change root path from /api/v1 to /api/graph/v1 (#229)",
-            "SHA": "d10d532b63681bb2baf5250417281b49441a81aa",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-10-17T11:45:11Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/d10d532b63681bb2baf5250417281b49441a81aa"
-          },
-          {
-            "Text": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin (#233)",
-            "SHA": "d8e506041c0037c0de25dd57684323dbc0307bb5",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-10-17T06:21:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/d8e506041c0037c0de25dd57684323dbc0307bb5"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.43.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1357,8 +1458,8 @@
         "Count": 5,
         "PullRequests": [
           {
-            "Title": "Update defaultCommandTimeout to 30000",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/194"
+            "Title": "chore(deps-dev): Bump @types/node from 22.7.5 to 22.7.6",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/195"
           },
           {
             "Title": "chore(deps): Bump openid-client from 5.7.0 to 6.0.0",
@@ -1381,8 +1482,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-test",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/compare/1.40.0..HEAD",
-        "Count": 14,
+        "Count": 16,
         "Commits": [
+          {
+            "Text": "Merge pull request #194 from PRODYNA-YASM/adjusting-timeouts",
+            "SHA": "0a7ce809d45a56b9509b84a735198527d08920c2",
+            "Author": {
+              "name": "jenswindmueller",
+              "link": "https://github.com/jenswindmueller"
+            },
+            "Timestamp": "2024-10-17T12:01:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/0a7ce809d45a56b9509b84a735198527d08920c2"
+          },
+          {
+            "Text": "Update defaultCommandTimeout to 30000",
+            "SHA": "64c1f09cbe74683eb6d4beccb472e6499235282f",
+            "Author": {
+              "name": "codinski",
+              "link": "https://github.com/codinski"
+            },
+            "Timestamp": "2024-10-17T10:47:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/64c1f09cbe74683eb6d4beccb472e6499235282f"
+          },
           {
             "Text": "Merge pull request #186 from PRODYNA-YASM/Fix--Parent-Container-of-skills",
             "SHA": "cf49a29384d1ef04f752017f8e95acc21919a7fd",
@@ -1917,5 +2038,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-10-17T11:52:40Z"
+  "LastUpdated": "2024-10-18T07:33:03Z"
 }
