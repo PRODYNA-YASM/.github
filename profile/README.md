@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-10-19T06:39:51Z
+Component Status overview. Last update 2024-10-19T07:32:47Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -12,7 +12,7 @@ Component Status overview. Last update 2024-10-19T06:39:51Z
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [3](https://github.com/prodyna-yasm/yasm-github/compare/1.7.4..HEAD) | :green_square: 0 | 1.7.4 |  :red_square: b473ea2 |  :green_square: 1.7.4 |  :green_square: 1.7.4 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [3](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.12.2..HEAD) | :green_square: 0 | 1.12.2 |  :red_square: 5fc76ae |  :green_square: 1.12.2 |  :green_square: 1.12.2 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
-| [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 0.9.2 |  :green_square: 0.9.2 |  :green_square: 0.9.2 |  :red_square: 0.9.1 | 
+| [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 0.9.2 |  :green_square: 0.9.2 |  :green_square: 0.9.2 |  :green_square: 0.9.2 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.12.0-1 |  :green_square: 8.12.0-1 |  :green_square: 8.12.0-1 |  :green_square: 8.12.0-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.43.0 |  :green_square: 1.43.0 |  :green_square: 1.43.0 |  :red_square: 1.42.0 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :green_square: 0 | 1.40.0 | 
@@ -387,9 +387,9 @@ Component Status overview. Last update 2024-10-19T06:39:51Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  0.9.2 |  0.9.2 |  0.9.1 | 
+| Version |  0.9.2 |  0.9.2 |  0.9.2 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -401,11 +401,6 @@ Component Status overview. Last update 2024-10-19T06:39:51Z
 - [Initial version](https://github.com/PRODYNA-YASM/yasm-external/releases/tag/0.9.0) on 2024-10-11 23:46:23 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-external/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #14 from PRODYNA-YASM/dependabot/go_modules/github…](https://github.com/PRODYNA-YASM/yasm-external/actions/runs/11415352455) created on 2024-10-19 06:33:36 +0000 UTC
 
 
 
