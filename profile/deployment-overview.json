@@ -107,7 +107,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d72d55a",
+          "Version": "bf5617a",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -185,8 +185,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.42.0..HEAD",
-        "Count": 2,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "chore: bump @types/node from 22.7.5 to 22.7.7 (#883)",
+            "SHA": "bf5617ac1210a5e0c9f6442396fbe373194147c0",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-21T07:18:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/bf5617ac1210a5e0c9f6442396fbe373194147c0"
+          },
           {
             "Text": "chore: bump @editorjs/editorjs from 2.26.4 to 2.30.6 (#881)",
             "SHA": "d72d55a4f9e47ae0a5555504edc6f4d1f31484fe",
@@ -1076,8 +1086,17 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump hashicorp/azurerm from 4.5.0 to 4.6.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/704"
+          },
+          {
+            "Title": "Bump hashicorp/azurerm from 4.5.0 to 4.6.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/703"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -1882,5 +1901,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-10-20T07:32:57Z"
+  "LastUpdated": "2024-10-21T07:33:59Z"
 }
