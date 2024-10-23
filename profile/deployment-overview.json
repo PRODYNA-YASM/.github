@@ -107,7 +107,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "9dac335",
+          "Version": "ab43ce2",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -185,8 +185,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.42.0..HEAD",
-        "Count": 4,
+        "Count": 5,
         "Commits": [
+          {
+            "Text": "chore: bump @types/react-dom from 18.3.0 to 18.3.1 (#886)",
+            "SHA": "ab43ce280c5170892f0907468a9d2d193b5d1c85",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-23T06:41:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ab43ce280c5170892f0907468a9d2d193b5d1c85"
+          },
           {
             "Text": "chore: bump babel-loader from 9.1.3 to 9.2.1 (#884)",
             "SHA": "9dac33551f1a10a964b4b5c25abc3fba2c9cb94f",
@@ -1351,8 +1361,12 @@
         "Count": 5,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump @types/node from 22.7.5 to 22.7.7",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/199"
+            "Title": "chore(deps-dev): Bump @types/node from 22.7.5 to 22.7.8",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/201"
+          },
+          {
+            "Title": "chore(deps): Bump auth0-js from 9.26.1 to 9.28.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/200"
           },
           {
             "Title": "chore(deps): Bump openid-client from 5.7.0 to 6.1.1",
@@ -1361,10 +1375,6 @@
           {
             "Title": "chore(deps): Bump jose from 5.9.3 to 5.9.6",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/197"
-          },
-          {
-            "Title": "chore(deps): Bump auth0-js from 9.26.1 to 9.27.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/188"
           },
           {
             "Title": "chore(deps-dev): Bump cypress from 13.14.2 to 13.15.0",
@@ -1931,5 +1941,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-10-22T07:34:52Z"
+  "LastUpdated": "2024-10-23T07:33:59Z"
 }
