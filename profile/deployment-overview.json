@@ -107,7 +107,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "ab43ce2",
+          "Version": "b4cf2f5",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -161,6 +161,10 @@
         "Count": 5,
         "PullRequests": [
           {
+            "Title": "chore: bump react-router-dom from 6.23.1 to 6.27.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/887"
+          },
+          {
             "Title": "chore: bump @typescript-eslint/eslint-plugin from 7.11.0 to 8.11.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/885"
           },
@@ -173,10 +177,6 @@
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/856"
           },
           {
-            "Title": "chore: bump lint-staged from 13.3.0 to 15.2.10",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/826"
-          },
-          {
             "Title": "chore: bump html-loader from 1.3.2 to 5.1.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/800"
           }
@@ -185,8 +185,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.42.0..HEAD",
-        "Count": 5,
+        "Count": 7,
         "Commits": [
+          {
+            "Text": "chore: bump fork-ts-checker-webpack-plugin from 7.3.0 to 9.0.2 (#888)",
+            "SHA": "b4cf2f55d92a3bb46e2cca74c72e7686e7188402",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-24T06:37:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b4cf2f55d92a3bb46e2cca74c72e7686e7188402"
+          },
+          {
+            "Text": "chore: bump lint-staged from 13.3.0 to 15.2.10 (#826)",
+            "SHA": "d48da98b1a3991539ce75d0cf00e0b9dac68aa31",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-23T08:03:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d48da98b1a3991539ce75d0cf00e0b9dac68aa31"
+          },
           {
             "Text": "chore: bump @types/react-dom from 18.3.0 to 18.3.1 (#886)",
             "SHA": "ab43ce280c5170892f0907468a9d2d193b5d1c85",
@@ -559,8 +579,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Using newest version of Go",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/251"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
@@ -773,8 +798,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Update go and libs",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/174"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
@@ -1065,9 +1095,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.43.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "30e6de3",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1116,23 +1146,80 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
           {
-            "Title": "Bump hashicorp/azurerm from 4.5.0 to 4.6.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/704"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 4.5.0 to 4.6.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/703"
+            "Title": "Switch to cilium",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/708"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.43.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 6,
+        "Commits": [
+          {
+            "Text": "Merge pull request #709 from PRODYNA-YASM/feature/kubernetes-1.30.5",
+            "SHA": "30e6de34b4182ad26ea384220e5cc08565f578de",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-23T13:29:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/30e6de34b4182ad26ea384220e5cc08565f578de"
+          },
+          {
+            "Text": "Kubernetes 1.30.5",
+            "SHA": "82fe032e118c2642c9e93027fdf164c13f488b5c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-23T13:27:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/82fe032e118c2642c9e93027fdf164c13f488b5c"
+          },
+          {
+            "Text": "Merge pull request #707 from PRODYNA-YASM/feature/azurerm-4.6.0",
+            "SHA": "97829e519772bc5dfa5b2687883a346864682bb4",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-23T10:11:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/97829e519772bc5dfa5b2687883a346864682bb4"
+          },
+          {
+            "Text": "Merge pull request #705 from PRODYNA-YASM/feature/tempo-1.20.0",
+            "SHA": "5742c9cbae8323e7b3c93ea3d87d898d2da7bf9c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-23T09:49:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/5742c9cbae8323e7b3c93ea3d87d898d2da7bf9c"
+          },
+          {
+            "Text": "AzureRM 4.6.0",
+            "SHA": "e15e65774a6ce838ab0362f145ed6e2a02b55cff",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-23T08:05:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e15e65774a6ce838ab0362f145ed6e2a02b55cff"
+          },
+          {
+            "Text": "Tempo 1.20",
+            "SHA": "a5b8bd64b559f68b125a4fea8b9cbe831f7d3380",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-23T08:04:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a5b8bd64b559f68b125a4fea8b9cbe831f7d3380"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1361,8 +1448,8 @@
         "Count": 5,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump @types/node from 22.7.5 to 22.7.8",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/201"
+            "Title": "chore(deps-dev): Bump @types/node from 22.7.5 to 22.7.9",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/202"
           },
           {
             "Title": "chore(deps): Bump auth0-js from 9.26.1 to 9.28.0",
@@ -1564,7 +1651,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8a2acd8",
+          "Version": "6d82144",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1621,8 +1708,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.3.5..HEAD",
-        "Count": 4,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #89 from PRODYNA-YASM/feature/fix-version-display",
+            "SHA": "6d821441dbdec6e07a3a57c4a61ccd7a3b46af5f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-23T21:03:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/6d821441dbdec6e07a3a57c4a61ccd7a3b46af5f"
+          },
+          {
+            "Text": "Fix version display",
+            "SHA": "35ef51b975080a698565d8df3885dc7be641baf3",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-23T20:59:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/35ef51b975080a698565d8df3885dc7be641baf3"
+          },
           {
             "Text": "Tidy",
             "SHA": "8a2acd828828e04e37dfb53b014b9dddbcaef470",
@@ -1941,5 +2048,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-10-23T07:33:59Z"
+  "LastUpdated": "2024-10-24T07:33:10Z"
 }
