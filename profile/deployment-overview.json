@@ -712,33 +712,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "015b264",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.12.3",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.12.2",
+          "Version": "1.12.3",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.12.2",
+          "Version": "1.12.3",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.12.2",
+        "Tag": "1.12.3",
         "SHA": "",
-        "Title": "OpenTelemetry 1.31",
-        "Timestamp": "2024-10-15T08:55:14Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.12.2"
+        "Title": "Go 1.23",
+        "Timestamp": "2024-10-24T11:59:47Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.12.3"
       },
       "Releases": [
+        {
+          "Tag": "1.12.3",
+          "SHA": "",
+          "Title": "Go 1.23",
+          "Timestamp": "2024-10-24T08:03:14Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.12.3"
+        },
         {
           "Tag": "1.12.2",
           "SHA": "",
@@ -752,13 +759,6 @@
           "Title": "No traces for metrics",
           "Timestamp": "2024-10-12T00:02:51Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.12.1"
-        },
-        {
-          "Tag": "1.12.0",
-          "SHA": "",
-          "Title": "Metrics added",
-          "Timestamp": "2024-10-10T07:54:16Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.12.0"
         }
       ],
       "PullRequests": {
@@ -768,60 +768,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.12.2..HEAD",
-        "Count": 5,
-        "Commits": [
-          {
-            "Text": "Merge pull request #174 from PRODYNA-YASM/feature/go-1.23",
-            "SHA": "015b2645e98f0d4b25a15c350a69c9e830094486",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-10-24T08:03:14Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/015b2645e98f0d4b25a15c350a69c9e830094486"
-          },
-          {
-            "Text": "Update go and libs",
-            "SHA": "6e898794930c512be68e1898dcc0eea58d051b9b",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-10-23T08:08:01Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/6e898794930c512be68e1898dcc0eea58d051b9b"
-          },
-          {
-            "Text": "Update components",
-            "SHA": "5fc76aee17d075356b610cfa43671f7711eaa27b",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-10-16T22:14:36Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/5fc76aee17d075356b610cfa43671f7711eaa27b"
-          },
-          {
-            "Text": "Merge pull request #173 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.20.5",
-            "SHA": "b1f5802c911c53acc7842304bcebc6b953273999",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-10-15T16:50:11Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/b1f5802c911c53acc7842304bcebc6b953273999"
-          },
-          {
-            "Text": "Bump github.com/prometheus/client_golang from 1.18.0 to 1.20.5",
-            "SHA": "eefa00b6d4c5336b09cd22cb7e8c1ef236edc58e",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-10-15T16:34:29Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/eefa00b6d4c5336b09cd22cb7e8c1ef236edc58e"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.12.3..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1075,33 +1024,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "30e6de3",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.43.1",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.43.0",
+          "Version": "1.43.1",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.42.0",
+          "Version": "1.43.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.43.0",
+        "Tag": "1.43.1",
         "SHA": "",
-        "Title": "Tempo 1.19.0, Grafana 8.5.6",
-        "Timestamp": "2024-10-18T10:29:11Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.43.0"
+        "Title": "Kubernetes 1.30.5",
+        "Timestamp": "2024-10-24T09:29:49Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.43.1"
       },
       "Releases": [
+        {
+          "Tag": "1.43.1",
+          "SHA": "",
+          "Title": "Kubernetes 1.30.5",
+          "Timestamp": "2024-10-23T13:29:38Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.43.1"
+        },
         {
           "Tag": "1.43.0",
           "SHA": "",
@@ -1115,13 +1071,6 @@
           "Title": "Fileshare for external, component updates, dashboard updates",
           "Timestamp": "2024-10-13T21:57:52Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.42.0"
-        },
-        {
-          "Tag": "1.41.7",
-          "SHA": "",
-          "Title": "Monitoring refinement",
-          "Timestamp": "2024-10-11T08:03:56Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.41.7"
         }
       ],
       "PullRequests": {
@@ -1136,83 +1085,16 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.43.0..HEAD",
-        "Count": 6,
-        "Commits": [
-          {
-            "Text": "Merge pull request #709 from PRODYNA-YASM/feature/kubernetes-1.30.5",
-            "SHA": "30e6de34b4182ad26ea384220e5cc08565f578de",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-10-23T13:29:38Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/30e6de34b4182ad26ea384220e5cc08565f578de"
-          },
-          {
-            "Text": "Kubernetes 1.30.5",
-            "SHA": "82fe032e118c2642c9e93027fdf164c13f488b5c",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-10-23T13:27:05Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/82fe032e118c2642c9e93027fdf164c13f488b5c"
-          },
-          {
-            "Text": "Merge pull request #707 from PRODYNA-YASM/feature/azurerm-4.6.0",
-            "SHA": "97829e519772bc5dfa5b2687883a346864682bb4",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-10-23T10:11:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/97829e519772bc5dfa5b2687883a346864682bb4"
-          },
-          {
-            "Text": "Merge pull request #705 from PRODYNA-YASM/feature/tempo-1.20.0",
-            "SHA": "5742c9cbae8323e7b3c93ea3d87d898d2da7bf9c",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-10-23T09:49:29Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/5742c9cbae8323e7b3c93ea3d87d898d2da7bf9c"
-          },
-          {
-            "Text": "AzureRM 4.6.0",
-            "SHA": "e15e65774a6ce838ab0362f145ed6e2a02b55cff",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-10-23T08:05:53Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e15e65774a6ce838ab0362f145ed6e2a02b55cff"
-          },
-          {
-            "Text": "Tempo 1.20",
-            "SHA": "a5b8bd64b559f68b125a4fea8b9cbe831f7d3380",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-10-23T08:04:52Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a5b8bd64b559f68b125a4fea8b9cbe831f7d3380"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.43.1..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #702 from PRODYNA-YASM/701-refine-memory-for-ingre…",
-            "Timestamp": "2024-10-18T10:29:12Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/11402043920"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -2028,5 +1910,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-10-24T08:28:35Z"
+  "LastUpdated": "2024-10-24T12:07:07Z"
 }
