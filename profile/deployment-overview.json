@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d9c793d",
+          "Version": "3321ef3",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -78,8 +78,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.42.0..HEAD",
-        "Count": 1,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "build(deps): bump io.smallrye:jandex-maven-plugin from 3.2.2 to 3.2.3 (#731)",
+            "SHA": "3321ef3d8d9494469223cf91cd7c717c11288c57",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-25T05:49:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/3321ef3d8d9494469223cf91cd7c717c11288c57"
+          },
+          {
+            "Text": "build(deps): bump eclipse-temurin from 23_37-jre-ubi9-minimal to 23.0.1_11-jre-ubi9-minimal (#732)",
+            "SHA": "934c69b89732b7f673d3e9740cdb869788f90afa",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-25T05:40:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/934c69b89732b7f673d3e9740cdb869788f90afa"
+          },
           {
             "Text": "feat: Use API 1.43, shift from /api/v1 to /api/graph/v1 (#730)",
             "SHA": "d9c793db63af64debddd2ad8137e3eb03f05ae45",
@@ -107,7 +127,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "76e6b45",
+          "Version": "c34cd6e",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -177,8 +197,38 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.42.0..HEAD",
-        "Count": 9,
+        "Count": 12,
         "Commits": [
+          {
+            "Text": "chore: bump @fontsource/roboto from 5.0.13 to 5.1.0 (#889)",
+            "SHA": "c34cd6e5307d03c6de24220b5dc1f619ff29b1d4",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-25T05:49:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/c34cd6e5307d03c6de24220b5dc1f619ff29b1d4"
+          },
+          {
+            "Text": "chore: bump @babel/preset-env from 7.24.6 to 7.25.9 (#890)",
+            "SHA": "eba35034ff30d45f0f8bd29fed457fd104f9a799",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-25T05:38:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/eba35034ff30d45f0f8bd29fed457fd104f9a799"
+          },
+          {
+            "Text": "chore: bump react-select from 5.3.0 to 5.8.1 (#891)",
+            "SHA": "f6b6cefe302883521df1765f8141ccd27499b59d",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-25T05:38:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/f6b6cefe302883521df1765f8141ccd27499b59d"
+          },
           {
             "Text": "chore: bump @typescript-eslint/eslint-plugin from 7.11.0 to 8.11.0 (#885)",
             "SHA": "76e6b451e2f783acfac5d63b03184e43fc15ac74",
@@ -1310,16 +1360,16 @@
         "Count": 5,
         "PullRequests": [
           {
+            "Title": "chore(deps): Bump openid-client from 5.7.0 to 6.1.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/203"
+          },
+          {
             "Title": "chore(deps-dev): Bump @types/node from 22.7.5 to 22.7.9",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/202"
           },
           {
             "Title": "chore(deps): Bump auth0-js from 9.26.1 to 9.28.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/200"
-          },
-          {
-            "Title": "chore(deps): Bump openid-client from 5.7.0 to 6.1.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/198"
           },
           {
             "Title": "chore(deps): Bump jose from 5.9.3 to 5.9.6",
@@ -1513,7 +1563,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "6d82144",
+          "Version": "59fdff2",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1570,8 +1620,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.3.5..HEAD",
-        "Count": 6,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Merge pull request #90 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/common-0.60.1",
+            "SHA": "59fdff2154bbba7cf87d0fefc32ca0972bb98fd4",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-25T05:48:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/59fdff2154bbba7cf87d0fefc32ca0972bb98fd4"
+          },
+          {
+            "Text": "Bump github.com/prometheus/common from 0.60.0 to 0.60.1",
+            "SHA": "11cb17c1e31c8603f0f3e7f4764a2806722eb142",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-25T05:47:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/11cb17c1e31c8603f0f3e7f4764a2806722eb142"
+          },
           {
             "Text": "Merge pull request #89 from PRODYNA-YASM/feature/fix-version-display",
             "SHA": "6d821441dbdec6e07a3a57c4a61ccd7a3b46af5f",
@@ -1910,5 +1980,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-10-24T12:07:07Z"
+  "LastUpdated": "2024-10-25T07:33:32Z"
 }
