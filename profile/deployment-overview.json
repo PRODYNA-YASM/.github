@@ -691,9 +691,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.7.5",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "980c1bb",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -748,8 +748,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.7.5..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #155 from PRODYNA-YASM/feature/use-default-ingress-controller",
+            "SHA": "980c1bb8d4b251ad8f9e1c6d0b2c044591ebb02f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T18:00:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/980c1bb8d4b251ad8f9e1c6d0b2c044591ebb02f"
+          },
+          {
+            "Text": "Use default ingress class",
+            "SHA": "5c3876f29c55a1425312bbba63e99836aa725dd0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T17:54:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/5c3876f29c55a1425312bbba63e99836aa725dd0"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1094,23 +1115,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "a3d40a0",
+          "Version": "314e1ed",
           "IsRelease": false,
           "IsCurrent": false
-        },
-        {
-          "Name": "staging",
-          "Link": "",
-          "Version": "1.43.1",
-          "IsRelease": true,
-          "IsCurrent": true
-        },
-        {
-          "Name": "prod",
-          "Link": "",
-          "Version": "1.43.1",
-          "IsRelease": true,
-          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1156,8 +1163,178 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.43.1..HEAD",
-        "Count": 1,
+        "Count": 18,
         "Commits": [
+          {
+            "Text": "Rename UID from mimir to prometheus",
+            "SHA": "314e1ed7e3ea00c9a54e81fbf903b91629a83ce5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T21:52:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/314e1ed7e3ea00c9a54e81fbf903b91629a83ce5"
+          },
+          {
+            "Text": "Tune dashboards",
+            "SHA": "75a5e3d0322009aa51b20c2556398d535997d37d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T21:44:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/75a5e3d0322009aa51b20c2556398d535997d37d"
+          },
+          {
+            "Text": "Enable Kubernetes CRD",
+            "SHA": "216db01b6bda950948ec2fc4a396e9916cdd5ecd",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T21:15:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/216db01b6bda950948ec2fc4a396e9916cdd5ecd"
+          },
+          {
+            "Text": "Clean up traeffik",
+            "SHA": "6132221b98e0815b39a126ea6ee85077c14be712",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T21:02:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6132221b98e0815b39a126ea6ee85077c14be712"
+          },
+          {
+            "Text": "Scrape the metrics",
+            "SHA": "44a1715f0144c6c9b2060821f25f3a7f8e779d6e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T20:32:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/44a1715f0144c6c9b2060821f25f3a7f8e779d6e"
+          },
+          {
+            "Text": "RedirectTo",
+            "SHA": "4139bf000ad6632bcd3adabdde2adb31a4bb693d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T19:47:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/4139bf000ad6632bcd3adabdde2adb31a4bb693d"
+          },
+          {
+            "Text": "Fix endpoint for tracing",
+            "SHA": "97373b3f31b2916d2093042fe4be27f5a6104cc0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T19:32:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/97373b3f31b2916d2093042fe4be27f5a6104cc0"
+          },
+          {
+            "Text": "Don't specify ingress class",
+            "SHA": "751ac4a510fd5348ddf9735ff38fc1a7c43895c1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T19:26:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/751ac4a510fd5348ddf9735ff38fc1a7c43895c1"
+          },
+          {
+            "Text": "Set resource group name",
+            "SHA": "e07836376d0b9025e466dbf750635fbad4aa2dc5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T19:17:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e07836376d0b9025e466dbf750635fbad4aa2dc5"
+          },
+          {
+            "Text": "Fix spec",
+            "SHA": "558653a8fadb7114699b1598f807e2ce65fdf2ca",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T18:56:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/558653a8fadb7114699b1598f807e2ce65fdf2ca"
+          },
+          {
+            "Text": "Repeat loadBalancerIP",
+            "SHA": "9950f2fa5aca91992777eecd5b02133077353e68",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T18:48:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/9950f2fa5aca91992777eecd5b02133077353e68"
+          },
+          {
+            "Text": "Fix loadBalancerIP",
+            "SHA": "4bacd0fbdecb378afa1918415fddcdd02602edb1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T18:37:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/4bacd0fbdecb378afa1918415fddcdd02602edb1"
+          },
+          {
+            "Text": "Install traefik",
+            "SHA": "2ce9c51181beed91f79e1d3273c55717916af8f3",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T18:32:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/2ce9c51181beed91f79e1d3273c55717916af8f3"
+          },
+          {
+            "Text": "Fix traefik name",
+            "SHA": "e950c2fabda7ee6c3ca43f4893176db350c2746d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T18:18:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e950c2fabda7ee6c3ca43f4893176db350c2746d"
+          },
+          {
+            "Text": "Merge pull request #711 from PRODYNA-YASM/701-refine-memory-for-ingress-nginx",
+            "SHA": "4c7652c14b11d4eb7ca84a6e1d193c3635f0e27a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T18:12:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/4c7652c14b11d4eb7ca84a6e1d193c3635f0e27a"
+          },
+          {
+            "Text": "Uninstall ingress-nginx, install traefik",
+            "SHA": "11792b456ff360c58b0314ef2f8c816e229bda70",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T18:09:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/11792b456ff360c58b0314ef2f8c816e229bda70"
+          },
+          {
+            "Text": "Preparation for Traefik",
+            "SHA": "e662b2e5dc0b24b7c96cf5b80a58ee0abdb9f644",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T10:17:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e662b2e5dc0b24b7c96cf5b80a58ee0abdb9f644"
+          },
           {
             "Text": "Don't watch other ingresses",
             "SHA": "a3d40a0c87bfd28a524c07bbdc2673044a8e4b92",
@@ -1680,9 +1857,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.5.3",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "71ea1f6",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1737,24 +1914,40 @@
       "Link": "https://github.com/prodyna-yasm/yasm-mainproject",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/compare/1.5.3..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #47 from PRODYNA-YASM/feature/use-default-ingress-controller",
+            "SHA": "71ea1f6f44273aa1060505a04c20cf04392ff1a5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T18:01:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/71ea1f6f44273aa1060505a04c20cf04392ff1a5"
+          },
+          {
+            "Text": "Use default ingress class",
+            "SHA": "69e6c3f09c201698aac16abcc60ca407155e394f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-26T17:53:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/69e6c3f09c201698aac16abcc60ca407155e394f"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
           {
             "Name": "Merge pull request #33 from PRODYNA-YASM/feature/mdc",
             "Timestamp": "2024-09-29T12:11:37Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-mainproject/actions/runs/11092529251"
-          },
-          {
-            "Name": "Merge pull request #32 from PRODYNA-YASM/dependabot/go_modules/google…",
-            "Timestamp": "2024-09-26T14:55:49Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-mainproject/actions/runs/11054856080"
           }
         ]
       }
@@ -1879,5 +2072,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-10-26T07:32:12Z"
+  "LastUpdated": "2024-10-27T07:33:03Z"
 }
