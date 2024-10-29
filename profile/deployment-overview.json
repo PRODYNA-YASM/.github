@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "fc56fca",
+          "Version": "505cf0c",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -78,8 +78,38 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.42.0..HEAD",
-        "Count": 4,
+        "Count": 7,
         "Commits": [
+          {
+            "Text": "734 update bolzhauser template (#737)",
+            "SHA": "505cf0c553c6a3ff71e5662fe6f7ff08a8c38930",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-28T15:20:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/505cf0c553c6a3ff71e5662fe6f7ff08a8c38930"
+          },
+          {
+            "Text": "feat: 734 update bolzhauser template (#736)",
+            "SHA": "a8d455eec720b341d12cd166aabcedac8bcfd0b8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-28T15:01:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/a8d455eec720b341d12cd166aabcedac8bcfd0b8"
+          },
+          {
+            "Text": "feat: Pimp bolzhauser profile (#735)",
+            "SHA": "97e0883459a9ccde5331e93866f207c239ae1837",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-28T14:19:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/97e0883459a9ccde5331e93866f207c239ae1837"
+          },
           {
             "Text": "build(deps): bump org.apache.maven.plugins:maven-dependency-plugin from 3.8.0 to 3.8.1 (#733)",
             "SHA": "fc56fcac1d314046838947269a0ca90a6b6fa3f5",
@@ -137,7 +167,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8cdd9a9",
+          "Version": "d3e2aea",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -215,8 +245,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.42.0..HEAD",
-        "Count": 13,
+        "Count": 14,
         "Commits": [
+          {
+            "Text": "chore: bump @opentelemetry/exporter-trace-otlp-http (#896)",
+            "SHA": "d3e2aeaaf7e6f1a24a0c6a670f8b006fb1d8a172",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-29T07:22:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d3e2aeaaf7e6f1a24a0c6a670f8b006fb1d8a172"
+          },
           {
             "Text": "chore: bump @opentelemetry/context-zone from 1.26.0 to 1.27.0 (#893)",
             "SHA": "8cdd9a948881fc4a898d9af643e36a01afefe2c8",
@@ -658,9 +698,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.18.3",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "78c501e",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -715,8 +755,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.18.3..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #252 from PRODYNA-YASM/dependabot/go_modules/github.com/riandyrn/otelchi-0.10.1",
+            "SHA": "78c501ea2e0afb8fa665400860680affd8183970",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-28T13:50:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/78c501ea2e0afb8fa665400860680affd8183970"
+          },
+          {
+            "Text": "Bump github.com/riandyrn/otelchi from 0.10.0 to 0.10.1",
+            "SHA": "5f04ceee491012fd3b9dbd3a416c4752332726cb",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-28T13:32:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/5f04ceee491012fd3b9dbd3a416c4752332726cb"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -851,9 +912,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.12.3",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "08ad741",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -908,8 +969,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.12.3..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #175 from PRODYNA-YASM/dependabot/go_modules/github.com/riandyrn/otelchi-0.10.1",
+            "SHA": "08ad741a13af1eb57f3f5a13bd2b3fd2c3457b93",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-28T16:22:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/08ad741a13af1eb57f3f5a13bd2b3fd2c3457b93"
+          },
+          {
+            "Text": "Bump github.com/riandyrn/otelchi from 0.10.0 to 0.10.1",
+            "SHA": "b983283402ebb152b991b82d4a16ece72f291851",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-28T16:18:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/b983283402ebb152b991b82d4a16ece72f291851"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1540,8 +1622,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "chore: bump com.fasterxml.jackson.core:jackson-databind from 2.18.0 to 2.18.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/234"
+          },
           {
             "Title": "feat: 324-project-images",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/194"
@@ -1657,39 +1743,73 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 6,
+        "Count": 2,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump cypress from 13.14.2 to 13.15.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/206"
-          },
-          {
-            "Title": "chore(deps-dev): Bump @types/node from 22.7.5 to 22.8.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/205"
+            "Title": "chore(deps-dev): Bump cy-verify-downloads from 0.2.5 to 0.2.6",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/208"
           },
           {
             "Title": "chore(deps): Bump cypress/included from 13.15.0 to 13.15.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/204"
-          },
-          {
-            "Title": "chore(deps): Bump openid-client from 5.7.0 to 6.1.3",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/203"
-          },
-          {
-            "Title": "chore(deps): Bump auth0-js from 9.26.1 to 9.28.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/200"
-          },
-          {
-            "Title": "chore(deps): Bump jose from 5.9.3 to 5.9.6",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/197"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-test",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/compare/1.40.0..HEAD",
-        "Count": 16,
+        "Count": 21,
         "Commits": [
+          {
+            "Text": "chore(deps-dev): Bump @types/node from 22.8.0 to 22.8.1 (#207)",
+            "SHA": "062a8e78250881204289077e68fe820a70cd6d82",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-28T11:11:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/062a8e78250881204289077e68fe820a70cd6d82"
+          },
+          {
+            "Text": "chore(deps): Bump auth0-js from 9.26.1 to 9.28.0 (#200)",
+            "SHA": "3133e5ab6c7760a95226de3dd7aeb1ee62c42fad",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-28T11:11:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/3133e5ab6c7760a95226de3dd7aeb1ee62c42fad"
+          },
+          {
+            "Text": "chore(deps): Bump openid-client from 5.7.0 to 6.1.3 (#203)",
+            "SHA": "2c3b13bbbc67ee1a182a07ada99ede2ab4188f67",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-28T11:11:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/2c3b13bbbc67ee1a182a07ada99ede2ab4188f67"
+          },
+          {
+            "Text": "chore(deps-dev): Bump @types/node from 22.7.5 to 22.8.0 (#205)",
+            "SHA": "086d2c3e4bd649b38da99972f840e340638c9237",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-28T11:10:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/086d2c3e4bd649b38da99972f840e340638c9237"
+          },
+          {
+            "Text": "chore(deps-dev): Bump cypress from 13.14.2 to 13.15.1 (#206)",
+            "SHA": "021ba96ad5ac4cded24922972a770dffddf5eb99",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-28T11:10:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/021ba96ad5ac4cded24922972a770dffddf5eb99"
+          },
           {
             "Text": "Merge pull request #194 from PRODYNA-YASM/adjusting-timeouts",
             "SHA": "0a7ce809d45a56b9509b84a735198527d08920c2",
@@ -2168,5 +2288,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-10-28T07:33:07Z"
+  "LastUpdated": "2024-10-29T07:33:50Z"
 }
