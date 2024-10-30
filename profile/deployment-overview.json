@@ -245,8 +245,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.42.0..HEAD",
-        "Count": 14,
+        "Count": 15,
         "Commits": [
+          {
+            "Text": "chore: bump eslint-plugin-import from 2.29.1 to 2.31.0 (#897)",
+            "SHA": "7e6362096be363621d059a9e4c88f5ff80fbac1a",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-10-30T06:42:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7e6362096be363621d059a9e4c88f5ff80fbac1a"
+          },
           {
             "Text": "chore: bump @opentelemetry/exporter-trace-otlp-http (#896)",
             "SHA": "d3e2aeaaf7e6f1a24a0c6a670f8b006fb1d8a172",
@@ -681,14 +691,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #383 from PRODYNA-YASM/feature/api-141",
-            "Timestamp": "2024-09-29T11:33:12Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/11092300112"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -783,14 +787,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #242 from PRODYNA-YASM/feature/mdc-logging",
-            "Timestamp": "2024-09-29T12:11:04Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/11092525375"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -885,7 +883,7 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 2,
         "Workflows": [
           {
             "Name": "Merge pull request #151 from PRODYNA-YASM/dependabot/go_modules/go.op…",
@@ -896,11 +894,6 @@
             "Name": "Merge pull request #149 from PRODYNA-YASM/feature/update-libs",
             "Timestamp": "2024-10-14T07:30:37Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-github/actions/runs/11322927307"
-          },
-          {
-            "Name": "Merge pull request #136 from PRODYNA-YASM/feature/mdc-logging",
-            "Timestamp": "2024-09-29T17:08:13Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/actions/runs/11094455093"
           }
         ]
       }
@@ -1164,9 +1157,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8.12.0-1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "e9fb5c0",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1221,8 +1214,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.12.0-1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #61 from PRODYNA-YASM/60-add-fonts-for-bolzhauser-sf-pro",
+            "SHA": "e9fb5c0afe0ec360b2bac875023a99aaa11707a0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-29T12:00:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/e9fb5c0afe0ec360b2bac875023a99aaa11707a0"
+          },
+          {
+            "Text": "Add SFPro fonts",
+            "SHA": "bd231b75e1e348d44a4dae1c0a38c2c91998fc1e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-10-29T11:02:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/bd231b75e1e348d44a4dae1c0a38c2c91998fc1e"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1743,8 +1757,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "chore(deps-dev): Bump @types/node from 22.8.1 to 22.8.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/209"
+          },
           {
             "Title": "chore(deps-dev): Bump cy-verify-downloads from 0.2.5 to 0.2.6",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/208"
@@ -2051,17 +2069,12 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
           {
             "Name": "Omit Conn Query",
             "Timestamp": "2024-10-07T09:31:47Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/11212689098"
-          },
-          {
-            "Name": "Merge pull request #74 from PRODYNA-YASM/feature/mdc-logging",
-            "Timestamp": "2024-09-29T12:12:08Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/11092532527"
           }
         ]
       }
@@ -2158,14 +2171,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #33 from PRODYNA-YASM/feature/mdc",
-            "Timestamp": "2024-09-29T12:11:37Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-mainproject/actions/runs/11092529251"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -2288,5 +2295,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-10-29T07:33:50Z"
+  "LastUpdated": "2024-10-30T07:32:46Z"
 }
