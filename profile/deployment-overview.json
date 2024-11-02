@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "c41edf8",
+          "Version": "cf6a745",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -78,8 +78,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.42.0..HEAD",
-        "Count": 8,
+        "Count": 12,
         "Commits": [
+          {
+            "Text": "fix: 734 font thickness change (#742)",
+            "SHA": "cf6a745721a3321223cad8b489b826b2bc8d2d5a",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-11-01T13:49:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/cf6a745721a3321223cad8b489b826b2bc8d2d5a"
+          },
+          {
+            "Text": "fix: 734 update bolzhauser template (#741)",
+            "SHA": "909fb5b256f808c3ce6c55e17b0c45a63bb7543d",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-11-01T13:08:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/909fb5b256f808c3ce6c55e17b0c45a63bb7543d"
+          },
+          {
+            "Text": "feat: 734 update bolzhauser template (#740)",
+            "SHA": "5f5127954c6056951f2d8f7e573e34a66b30173a",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-11-01T12:44:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/5f5127954c6056951f2d8f7e573e34a66b30173a"
+          },
+          {
+            "Text": "feat: 734 update Bolzhauser Template design (#739)",
+            "SHA": "f53f14a829cf4af5f27c1684760a363ba202e02c",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-11-01T11:36:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/f53f14a829cf4af5f27c1684760a363ba202e02c"
+          },
           {
             "Text": "feat: #164 create shareable links for pdf profile files  (#711)",
             "SHA": "c41edf820bc0fa7836cc80c2c7d9f4cac963a979",
@@ -177,7 +217,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "bf10f13",
+          "Version": "9c1c5d3",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1174,33 +1214,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "6fb39fa",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.0.1",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.0.0",
+          "Version": "1.0.1",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "0.9.2",
+          "Version": "1.0.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.0.0",
+        "Tag": "1.0.1",
         "SHA": "",
-        "Title": "First release, includes housekeeping",
-        "Timestamp": "2024-10-31T16:01:22Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-external/releases/tag/1.0.0"
+        "Title": "Housekeeping fixed",
+        "Timestamp": "2024-11-01T12:34:12Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-external/releases/tag/1.0.1"
       },
       "Releases": [
+        {
+          "Tag": "1.0.1",
+          "SHA": "",
+          "Title": "Housekeeping fixed",
+          "Timestamp": "2024-11-01T11:09:24Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-external/releases/tag/1.0.1"
+        },
         {
           "Tag": "1.0.0",
           "SHA": "",
@@ -1214,13 +1261,6 @@
           "Title": "Prometheus client 1.20.5",
           "Timestamp": "2024-10-16T09:59:11Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-external/releases/tag/0.9.2"
-        },
-        {
-          "Tag": "0.9.1",
-          "SHA": "",
-          "Title": "Prometheus 0.56",
-          "Timestamp": "2024-10-15T10:38:37Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-external/releases/tag/0.9.1"
         }
       ],
       "PullRequests": {
@@ -1230,30 +1270,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-external",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-external/compare/1.0.0..HEAD",
-        "Count": 2,
-        "Commits": [
-          {
-            "Text": "TimeZone UTC",
-            "SHA": "6fb39fad5da150e6745182e7e11fb0487b7416da",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-10-31T16:17:38Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/6fb39fad5da150e6745182e7e11fb0487b7416da"
-          },
-          {
-            "Text": "Mount readWrite",
-            "SHA": "cbe458b86399a1d127237ea061ceb4f2e81d1815",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-10-31T16:12:39Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/cbe458b86399a1d127237ea061ceb4f2e81d1815"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-external/compare/1.0.1..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1357,12 +1376,19 @@
         {
           "Name": "dev",
           "Link": "",
+          "Version": "fca4309",
+          "IsRelease": false,
+          "IsCurrent": false
+        },
+        {
+          "Name": "staging",
+          "Link": "",
           "Version": "1.44.0",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
-          "Name": "staging",
+          "Name": "prod",
           "Link": "",
           "Version": "1.44.0",
           "IsRelease": true,
@@ -1412,21 +1438,156 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.44.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 14,
+        "Commits": [
+          {
+            "Text": "Entrypoints for TCP services",
+            "SHA": "fca4309b7c13512313b0b4427ae15fc13b5906dc",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-02T00:10:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/fca4309b7c13512313b0b4427ae15fc13b5906dc"
+          },
+          {
+            "Text": "Fix syntax",
+            "SHA": "455f28f8ce0059dfa47dcc5750a709e8585ac08e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-01T23:29:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/455f28f8ce0059dfa47dcc5750a709e8585ac08e"
+          },
+          {
+            "Text": "HTTPRoute is final",
+            "SHA": "7604ba5fbc3f18bfafb52b251b424ac4ec13438e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-01T23:17:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/7604ba5fbc3f18bfafb52b251b424ac4ec13438e"
+          },
+          {
+            "Text": "GRPCRoute is final",
+            "SHA": "fee44b44bbb6188fc62151ad6510f24e68f03a78",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-01T23:10:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/fee44b44bbb6188fc62151ad6510f24e68f03a78"
+          },
+          {
+            "Text": "Routes for OpenTelemetry",
+            "SHA": "002b799193336e3dd2edbbb6f459c47aecaee80d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-01T23:05:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/002b799193336e3dd2edbbb6f459c47aecaee80d"
+          },
+          {
+            "Text": "Add missing gatewayClassName",
+            "SHA": "d9b22cfc51a78b5b341f4014554a1b99db844432",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-01T22:55:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d9b22cfc51a78b5b341f4014554a1b99db844432"
+          },
+          {
+            "Text": "Enable gateways",
+            "SHA": "db31d1abab6154bb901e882cf5fd32759343326d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-01T22:49:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/db31d1abab6154bb901e882cf5fd32759343326d"
+          },
+          {
+            "Text": "experimentalChannel: true",
+            "SHA": "a1ae0951420591e520965009f6bd11a15482e86b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-01T22:41:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a1ae0951420591e520965009f6bd11a15482e86b"
+          },
+          {
+            "Text": "Just add CRDs",
+            "SHA": "c58bd7ac00214f854c9618ac733ac261f76c2593",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-01T22:33:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c58bd7ac00214f854c9618ac733ac261f76c2593"
+          },
+          {
+            "Text": "Merge pull request #719 from PRODYNA-YASM/feature/port-forwards",
+            "SHA": "272fd463e27bf1c2fac71a44eccaef90e09c541b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-01T22:27:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/272fd463e27bf1c2fac71a44eccaef90e09c541b"
+          },
+          {
+            "Text": "Create port forwards",
+            "SHA": "25f56906c278374f0ef8b2c075c07cf8205f3e3c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-01T22:23:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/25f56906c278374f0ef8b2c075c07cf8205f3e3c"
+          },
+          {
+            "Text": "Enable gateway CRDs",
+            "SHA": "e88f172d5e3bf663ed699871ac3af8c69789c8dc",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-01T21:55:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e88f172d5e3bf663ed699871ac3af8c69789c8dc"
+          },
+          {
+            "Text": "Merge pull request #718 from PRODYNA-YASM/feature/kured-5.5.0",
+            "SHA": "f1ed15629541bfebbb7224fbe09064f9c93813d1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-01T10:54:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f1ed15629541bfebbb7224fbe09064f9c93813d1"
+          },
+          {
+            "Text": "Install Kured 5.5.0",
+            "SHA": "0446cc0d7eb6d43c06ff15643303210ff8f3ccbe",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-01T10:43:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0446cc0d7eb6d43c06ff15643303210ff8f3ccbe"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #716 from PRODYNA-YASM/feature/olelcol-0.72.1w",
-            "Timestamp": "2024-10-31T17:15:57Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/11616665953"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1642,8 +1803,8 @@
         "Count": 3,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump @types/node from 22.8.1 to 22.8.5",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/211"
+            "Title": "chore(deps-dev): Bump @types/node from 22.8.1 to 22.8.6",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/212"
           },
           {
             "Title": "chore(deps-dev): Bump cy-verify-downloads from 0.2.5 to 0.2.6",
@@ -2198,5 +2359,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-11-01T07:33:10Z"
+  "LastUpdated": "2024-11-02T07:32:35Z"
 }
