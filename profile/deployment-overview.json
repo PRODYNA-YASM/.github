@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 3,
+        "Count": 4,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump org.apache.maven.plugins:maven-surefire-plugin from 3.5.1 to 3.5.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/743"
+          },
           {
             "Title": "build(deps): bump quarkus.platform.version from 3.15.1 to 3.16.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/738"
@@ -268,8 +272,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 5,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "chore: bump @mui/x-tree-view from 7.20.0 to 7.22.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/906"
+          },
           {
             "Title": "chore: bump @opentelemetry/api from 1.6.0 to 1.9.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/904"
@@ -1427,8 +1435,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "Bump hashicorp/azurerm from 4.7.0 to 4.8.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/720"
+          },
           {
             "Title": "Bump hashicorp/azurerm from 4.7.0 to 4.8.0 in /terraform/kubernetes",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/717"
@@ -2359,5 +2371,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-11-03T07:32:51Z"
+  "LastUpdated": "2024-11-04T07:33:03Z"
 }
