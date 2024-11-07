@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-11-06T13:10:17Z
+Component Status overview. Last update 2024-11-07T07:32:22Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -14,7 +14,7 @@ Component Status overview. Last update 2024-11-06T13:10:17Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.0.1 |  :green_square: 1.0.1 |  :green_square: 1.0.1 |  :green_square: 1.0.1 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.13.0-1 |  :green_square: 8.13.0-1 |  :green_square: 8.13.0-1 |  :red_square: 8.12.0-1 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.45.0 |  :red_square: 21e4f1a | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [14](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.45.0..HEAD) | :green_square: 0 | 1.45.0 |  :green_square: 1.45.0 |  :green_square: 1.45.0 |  :green_square: 1.45.0 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :green_square: 0 | 1.40.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.45.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
@@ -63,9 +63,9 @@ Component Status overview. Last update 2024-11-06T13:10:17Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (4)
 
-- [feat: 490 define local filter behaviour](https://github.com/PRODYNA-YASM/yasm-backend/pull/744)
+- [build(deps): bump quarkus.platform.version from 3.15.1 to 3.16.2](https://github.com/PRODYNA-YASM/yasm-backend/pull/745)
 
-- [build(deps): bump quarkus.platform.version from 3.15.1 to 3.16.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/738)
+- [feat: 490 define local filter behaviour](https://github.com/PRODYNA-YASM/yasm-backend/pull/744)
 
 - [feat: #629 create awards service with crud operations, update organization and person with awards](https://github.com/PRODYNA-YASM/yasm-backend/pull/718)
 
@@ -468,21 +468,52 @@ Component Status overview. Last update 2024-11-06T13:10:17Z
 
 
 
+### [Commits on main since 1.45.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.45.0..HEAD) (14)
+
+- [Now try this](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/22888c792de3452dc0298e2bf349f40b97ac0577) by [dkrizic](https://github.com/dkrizic) on 2024-11-06 18:59:55 +0000 UTC
+
+- [Try that](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e9860d753e85948e009a12523095b2ef1fc91ae4) by [dkrizic](https://github.com/dkrizic) on 2024-11-06 18:56:36 +0000 UTC
+
+- [Try this](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e7b07a546d52311df0f46669cb040c2895d4d2eb) by [dkrizic](https://github.com/dkrizic) on 2024-11-06 18:52:00 +0000 UTC
+
+- [Try this chart](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/4af8059e4fed3681dff0885cb07f4508a6c67c06) by [dkrizic](https://github.com/dkrizic) on 2024-11-06 17:02:57 +0000 UTC
+
+- [Fix name](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/df295f1927383852dcfe4c7eb3b64899cd905cf9) by [dkrizic](https://github.com/dkrizic) on 2024-11-06 16:45:43 +0000 UTC
+
+- [Fix chart name](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/91398b24c3e5de394e6eb8b89ede016ad6a233ad) by [dkrizic](https://github.com/dkrizic) on 2024-11-06 16:35:06 +0000 UTC
+
+- [Try this](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e412aa8de7df80764c28de6d37fb1ace62f457ce) by [dkrizic](https://github.com/dkrizic) on 2024-11-06 16:29:33 +0000 UTC
+
+- [Try that approach](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1a3367afb609bf0b69b2bb520e044dd3e4f94115) by [dkrizic](https://github.com/dkrizic) on 2024-11-06 16:20:58 +0000 UTC
+
+- [Remove OpenTelemetryCollector for now](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ce1e5ea9d49ae1d2cc7da83770b7b2d48ec05c3f) by [dkrizic](https://github.com/dkrizic) on 2024-11-06 16:08:34 +0000 UTC
+
+- [Ignore object](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/9f3878028e914edb948ef78e53e01ac8a2777c4e) by [dkrizic](https://github.com/dkrizic) on 2024-11-06 15:25:33 +0000 UTC
+
+- [Force conflicts](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3ebe5209499c7595d91ed0f5d3f2c84562f8dbff) by [dkrizic](https://github.com/dkrizic) on 2024-11-06 15:13:56 +0000 UTC
+
+- [Put metadata into computed values](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/48d95b2d7e15bbd8aa8517315cb342fc92bb3147) by [dkrizic](https://github.com/dkrizic) on 2024-11-06 14:53:58 +0000 UTC
+
+- [try status](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b5aa4b8b482f871fa035d18a7d35a1f683c3ad0e) by [dkrizic](https://github.com/dkrizic) on 2024-11-06 14:04:57 +0000 UTC
+
+- [Try computed_fields = ["spec.requirements"]](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b20c41dd27b6249b810d1b83b35ffc278382dddb) by [dkrizic](https://github.com/dkrizic) on 2024-11-06 13:50:41 +0000 UTC
+
+
 
 
 
 ### Environments
 
-| Environment |  dev | 
-| --- |  --- | 
-| Version |  21e4f1a | 
-| Release |  :red_square: | 
-| Current |  :red_square: | 
+| Environment |  dev |  staging |  prod | 
+| --- |  --- |  --- |  --- | 
+| Version |  1.45.0 |  1.45.0 |  1.45.0 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
-- [Port-forwarding for Neo4j and OpenTelemetry on dev using Traefik](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.45.0) on 2024-11-05 18:57:59 +0000 UTC
+- [Port-forwarding for Neo4j and OpenTelemetry on dev using Traefik](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.45.0) on 2024-11-06 18:59:55 +0000 UTC
 
 - [Traffic instead of Ingress-Nginx](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.44.0) on 2024-10-31 16:41:28 +0000 UTC
 
