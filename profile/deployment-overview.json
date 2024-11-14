@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8324f30",
+          "Version": "2ca0772",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -59,23 +59,15 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 6,
+        "Count": 4,
         "PullRequests": [
           {
-            "Title": "feat: A project can now hold multiple ERP IDs",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/747"
+            "Title": "build(deps): bump quarkus.platform.version from 3.15.1 to 3.16.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/748"
           },
           {
             "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 4.4.0 to 5.0.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/746"
-          },
-          {
-            "Title": "build(deps): bump quarkus.platform.version from 3.15.1 to 3.16.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/745"
-          },
-          {
-            "Title": "feat: 490 define local filter behaviour",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/744"
           },
           {
             "Title": "feat: #629 create awards service with crud operations, update organization and person with awards",
@@ -90,8 +82,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.42.0..HEAD",
-        "Count": 13,
+        "Count": 15,
         "Commits": [
+          {
+            "Text": "feat: 490 define local filter behaviour (#744)",
+            "SHA": "2ca0772f4e3c32438d894a13ca94d9e7e3589a17",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-11-13T13:19:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/2ca0772f4e3c32438d894a13ca94d9e7e3589a17"
+          },
+          {
+            "Text": "feat: A project can now hold multiple ERP IDs (#747)",
+            "SHA": "680f3c5f6c62f6c89d6deed88cb1d6657d080e8f",
+            "Author": {
+              "name": "jding31",
+              "link": "https://github.com/jding31"
+            },
+            "Timestamp": "2024-11-13T13:07:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/680f3c5f6c62f6c89d6deed88cb1d6657d080e8f"
+          },
           {
             "Text": "build(deps): bump org.apache.maven.plugins:maven-surefire-plugin from 3.5.1 to 3.5.2 (#743)",
             "SHA": "8324f303583f4dac276e896cbdf7a15b30ed0d1c",
@@ -239,7 +251,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "9c1c5d3",
+          "Version": "9ec1fdd",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -290,11 +302,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 6,
         "PullRequests": [
           {
-            "Title": "fix: 645 search for synonyms of skills",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/907"
+            "Title": "feat: Multiple ERP IDs",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/908"
           },
           {
             "Title": "chore: bump @mui/x-tree-view from 7.20.0 to 7.22.1",
@@ -309,10 +321,6 @@
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/892"
           },
           {
-            "Title": "feat: #490 define local filter behaviour for all tabs and search input types ",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/872"
-          },
-          {
             "Title": "chore: bump yup from 0.32.11 to 1.4.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/856"
           },
@@ -325,8 +333,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.42.0..HEAD",
-        "Count": 22,
+        "Count": 24,
         "Commits": [
+          {
+            "Text": "fix: 645 search for synonyms of skills (#907)",
+            "SHA": "9ec1fdd6f6e218b6a816a20035e3cd72e031467b",
+            "Author": {
+              "name": "jding31",
+              "link": "https://github.com/jding31"
+            },
+            "Timestamp": "2024-11-13T14:05:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/9ec1fdd6f6e218b6a816a20035e3cd72e031467b"
+          },
+          {
+            "Text": "feat: #490 define local filter behaviour for all tabs and search input types  (#872)",
+            "SHA": "7df648dfb0974a94bd236fd3897cb8558cb922d7",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-11-13T13:50:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7df648dfb0974a94bd236fd3897cb8558cb922d7"
+          },
           {
             "Text": "chore: bump @editorjs/paragraph from 2.11.4 to 2.11.6 (#905)",
             "SHA": "9c1c5d399f400f5354a0c9ef791ab7abbf97b95d",
@@ -1057,16 +1085,16 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "a7536ea",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.0.3",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.0.2",
+          "Version": "1.0.3",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -1121,8 +1149,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 3,
         "Workflows": [
+          {
+            "Name": "Merge pull request #26 from PRODYNA-YASM/dependabot/go_modules/go.ope…",
+            "Timestamp": "2024-11-13T13:00:27Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-external/actions/runs/11817787231"
+          },
           {
             "Name": "Merge pull request #23 from PRODYNA-YASM/dependabot/go_modules/go.ope…",
             "Timestamp": "2024-11-11T13:57:59Z",
@@ -2206,5 +2239,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-11-13T13:02:33Z"
+  "LastUpdated": "2024-11-14T07:33:13Z"
 }
