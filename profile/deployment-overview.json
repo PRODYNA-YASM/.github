@@ -785,9 +785,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.18.4",
+          "Version": "1.18.5",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -822,8 +822,17 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc from 1.31.0 to 1.32.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/259"
+          },
+          {
+            "Title": "Bump go.opentelemetry.io/otel/sdk/metric from 1.31.0 to 1.32.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/258"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
@@ -835,14 +844,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #253 from PRODYNA-YASM/dependabot/go_modules/go.op…",
-            "Timestamp": "2024-11-13T12:55:56Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/11817712707"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -866,9 +869,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.7.6",
+          "Version": "1.7.8",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -916,13 +919,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #165 from PRODYNA-YASM/dependabot/go_modules/go.op…",
-            "Timestamp": "2024-11-13T12:56:35Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/actions/runs/11817723043"
-          },
           {
             "Name": "Merge pull request #162 from PRODYNA-YASM/dependabot/go_modules/go.op…",
             "Timestamp": "2024-11-11T09:57:31Z",
@@ -1102,9 +1100,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.0.1",
+          "Version": "1.0.3",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1152,13 +1150,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 2,
         "Workflows": [
-          {
-            "Name": "Merge pull request #26 from PRODYNA-YASM/dependabot/go_modules/go.ope…",
-            "Timestamp": "2024-11-13T13:00:27Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-external/actions/runs/11817787231"
-          },
           {
             "Name": "Merge pull request #23 from PRODYNA-YASM/dependabot/go_modules/go.ope…",
             "Timestamp": "2024-11-11T13:57:59Z",
@@ -1179,14 +1172,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8.13.0-1",
+          "Version": "8.14.0-0",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "8.13.0-1",
+          "Version": "8.14.0-0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -1199,13 +1192,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "8.13.0-1",
+        "Tag": "8.14.0-0",
         "SHA": "",
-        "Title": "Gotenberg 8.13.0",
-        "Timestamp": "2024-11-06T09:38:03Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.13.0-1"
+        "Title": "Gotenberg 8.14.0",
+        "Timestamp": "2024-11-18T21:31:17Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.14.0-0"
       },
       "Releases": [
+        {
+          "Tag": "8.14.0-0",
+          "SHA": "",
+          "Title": "Gotenberg 8.14.0",
+          "Timestamp": "2024-11-18T21:27:11Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.14.0-0"
+        },
         {
           "Tag": "8.13.0-1",
           "SHA": "",
@@ -1219,13 +1219,6 @@
           "Title": "San Francisco Pro (SFPro) font added for Bolzhauser",
           "Timestamp": "2024-10-31T12:39:39Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.12.0-2"
-        },
-        {
-          "Tag": "8.12.0-1",
-          "SHA": "",
-          "Title": "Gotenberg 8.12.0",
-          "Timestamp": "2024-10-12T12:27:13Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.12.0-1"
         }
       ],
       "PullRequests": {
@@ -1235,7 +1228,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.13.0-1..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.14.0-0..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -1243,8 +1236,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 4,
         "Workflows": [
+          {
+            "Name": "Merge pull request #64 from PRODYNA-YASM/feature/gotenberg-8.14.0",
+            "Timestamp": "2024-11-18T21:31:19Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/11901464988"
+          },
           {
             "Name": "Merge pull request #62 from PRODYNA-YASM/feature/gotenberg-8.13.0",
             "Timestamp": "2024-11-06T09:38:04Z",
@@ -1270,7 +1268,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d3226eb",
+          "Version": "cbf81b7",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1327,8 +1325,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.45.1..HEAD",
-        "Count": 4,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Enable forwarded headers",
+            "SHA": "cbf81b793577543fd2ffdbdef83fe7cb181938fb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-18T22:21:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/cbf81b793577543fd2ffdbdef83fe7cb181938fb"
+          },
+          {
+            "Text": "Merge pull request #734 from PRODYNA-YASM/feature/fix-traffic-policy",
+            "SHA": "2a7e1c9292cea62f66390bfb08341b65ca3dd607",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-18T21:24:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/2a7e1c9292cea62f66390bfb08341b65ca3dd607"
+          },
+          {
+            "Text": "Merge branch 'main' into feature/fix-traffic-policy",
+            "SHA": "8b7d8e6bcba521503cb2d1f8c2c8b9b380be26eb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-18T21:19:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/8b7d8e6bcba521503cb2d1f8c2c8b9b380be26eb"
+          },
+          {
+            "Text": "Fix external traefik policy",
+            "SHA": "7df70b6e24bd433197ed7ab041db26b743c164f4",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-18T21:08:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/7df70b6e24bd433197ed7ab041db26b743c164f4"
+          },
           {
             "Text": "Merge pull request #733 from PRODYNA-YASM/feature/update",
             "SHA": "d3226eb6e52c5ec3377ad73a00265f5dd6bbbbed",
@@ -1655,9 +1693,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.3.6",
+          "Version": "1.4.2",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1705,13 +1743,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 2,
         "Workflows": [
-          {
-            "Name": "Merge pull request #98 from PRODYNA-YASM/dependabot/go_modules/go.ope…",
-            "Timestamp": "2024-11-12T11:13:59Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/11796115012"
-          },
           {
             "Name": "Merge pull request #94 from PRODYNA-YASM/dependabot/go_modules/go.ope…",
             "Timestamp": "2024-11-11T09:56:54Z",
@@ -1746,9 +1779,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.5.4",
+          "Version": "1.5.7",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1796,13 +1829,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 2,
         "Workflows": [
-          {
-            "Name": "Merge pull request #57 from PRODYNA-YASM/dependabot/go_modules/go.ope…",
-            "Timestamp": "2024-11-14T13:23:20Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-mainproject/actions/runs/11838095912"
-          },
           {
             "Name": "Merge pull request #54 from PRODYNA-YASM/dependabot/go_modules/go.ope…",
             "Timestamp": "2024-11-12T11:14:30Z",
@@ -1936,5 +1964,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-11-18T07:34:26Z"
+  "LastUpdated": "2024-11-19T07:33:45Z"
 }
