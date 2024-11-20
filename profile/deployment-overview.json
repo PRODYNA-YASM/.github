@@ -1268,7 +1268,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "cbf81b7",
+          "Version": "bbe04f6",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1325,8 +1325,38 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.45.1..HEAD",
-        "Count": 8,
+        "Count": 11,
         "Commits": [
+          {
+            "Text": "DaemonSet 2",
+            "SHA": "bbe04f634a8d24dd87e0c41f5e85983c7d4b63fb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-19T09:53:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/bbe04f634a8d24dd87e0c41f5e85983c7d4b63fb"
+          },
+          {
+            "Text": "Run traefik as DaemonSet",
+            "SHA": "319f423e63b1caaf4239a7b1e5a98c3c233e9586",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-19T09:51:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/319f423e63b1caaf4239a7b1e5a98c3c233e9586"
+          },
+          {
+            "Text": "fix the ports",
+            "SHA": "8cc15283f80559f53b17230802cb5a70a03209f1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-19T08:51:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/8cc15283f80559f53b17230802cb5a70a03209f1"
+          },
           {
             "Text": "Enable forwarded headers",
             "SHA": "cbf81b793577543fd2ffdbdef83fe7cb181938fb",
@@ -1506,8 +1536,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "chore: bump org.openapitools:openapi-generator-maven-plugin from 7.9.0 to 7.10.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/239"
+          },
           {
             "Title": "feat: 324-project-images",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/194"
@@ -1964,5 +1998,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-11-19T07:33:45Z"
+  "LastUpdated": "2024-11-20T07:33:44Z"
 }
