@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2ca0772",
+          "Version": "276726f",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -59,15 +59,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 5,
+        "Count": 4,
         "PullRequests": [
           {
             "Title": "build(deps): bump quarkus.platform.version from 3.15.1 to 3.16.4",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/750"
-          },
-          {
-            "Title": "feat: 723 create endpoint to get persons that use a certain skill in a certain project",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/749"
           },
           {
             "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 4.4.0 to 5.0.0",
@@ -86,8 +82,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.42.0..HEAD",
-        "Count": 15,
+        "Count": 16,
         "Commits": [
+          {
+            "Text": "feat: 723 create endpoint to get persons that use a certain skill in a certain project (#749)",
+            "SHA": "276726f766d8dee13a407a65f9d1c52e63a2f0ed",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-11-22T11:04:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/276726f766d8dee13a407a65f9d1c52e63a2f0ed"
+          },
           {
             "Text": "feat: 490 define local filter behaviour (#744)",
             "SHA": "2ca0772f4e3c32438d894a13ca94d9e7e3589a17",
@@ -255,7 +261,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "df1f4cd",
+          "Version": "5192c9c",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -306,15 +312,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 6,
         "PullRequests": [
           {
             "Title": "feat: 685 Add loaders for employee page (projects/person)",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/917"
-          },
-          {
-            "Title": "feat: 723 show skill contribution of projects participants when hovering skill in project view",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/915"
           },
           {
             "Title": "chore: bump @mui/x-tree-view from 7.20.0 to 7.22.1",
@@ -341,8 +343,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.42.0..HEAD",
-        "Count": 27,
+        "Count": 28,
         "Commits": [
+          {
+            "Text": "feat: 723 show skill contribution of projects participants when hovering skill in project view (#915)",
+            "SHA": "5192c9c4a55df668b4eaaa9d89907e64e23fa7b1",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2024-11-22T11:33:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/5192c9c4a55df668b4eaaa9d89907e64e23fa7b1"
+          },
           {
             "Text": "chore: update eslint configs to make linting work again (#912)",
             "SHA": "df1f4cd4d120459a88a29c1520cf6fea6dae714a",
@@ -709,9 +721,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.46.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "c4c2d93",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -766,8 +778,29 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.46.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #401 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.47.0",
+            "SHA": "c4c2d93add6f49ca538a733cde708cbaf39625e4",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-22T21:17:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/c4c2d93add6f49ca538a733cde708cbaf39625e4"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.46.0 to 1.47.0",
+            "SHA": "ef1ab21df43190054c06c65b2ad4ed0c09ce0f26",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-11-22T21:09:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/ef1ab21df43190054c06c65b2ad4ed0c09ce0f26"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1173,8 +1206,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Log the number of directories checked during housekeeping",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-external/pull/29"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-external",
       "Commits": {
@@ -1208,14 +1246,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8.14.0-0",
+          "Version": "8.14.1-0",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "8.14.0-0",
+          "Version": "8.14.1-0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -1228,13 +1266,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "8.14.0-0",
+        "Tag": "8.14.1-0",
         "SHA": "",
-        "Title": "Gotenberg 8.14.0",
-        "Timestamp": "2024-11-18T21:31:17Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.14.0-0"
+        "Title": "Gotenberg 8.14.1",
+        "Timestamp": "2024-11-22T08:18:03Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.14.1-0"
       },
       "Releases": [
+        {
+          "Tag": "8.14.1-0",
+          "SHA": "",
+          "Title": "Gotenberg 8.14.1",
+          "Timestamp": "2024-11-22T07:57:59Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.14.1-0"
+        },
         {
           "Tag": "8.14.0-0",
           "SHA": "",
@@ -1248,28 +1293,16 @@
           "Title": "Gotenberg 8.13.0",
           "Timestamp": "2024-11-06T09:11:52Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.13.0-1"
-        },
-        {
-          "Tag": "8.12.0-2",
-          "SHA": "",
-          "Title": "San Francisco Pro (SFPro) font added for Bolzhauser",
-          "Timestamp": "2024-10-31T12:39:39Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.12.0-2"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump gotenberg/gotenberg from 8.14.0 to 8.14.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/pull/65"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.14.0-0..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.14.1-0..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -1277,8 +1310,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 4,
+        "Count": 5,
         "Workflows": [
+          {
+            "Name": "Merge pull request #65 from PRODYNA-YASM/dependabot/docker/gotenberg/…",
+            "Timestamp": "2024-11-22T08:18:05Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/11968939968"
+          },
           {
             "Name": "Merge pull request #64 from PRODYNA-YASM/feature/gotenberg-8.14.0",
             "Timestamp": "2024-11-18T21:31:19Z",
@@ -1551,13 +1589,20 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "1.46.0",
+        "Tag": "1.47.0",
         "SHA": "",
-        "Title": "Define new local filters for Certification- , Organization- , Industry- and Skill-Search",
-        "Timestamp": "2024-11-12T09:34:30Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.46.0"
+        "Title": "Created new endpoint in order to get employees that use a certain skill in a particular project",
+        "Timestamp": "2024-11-22T09:35:42Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.47.0"
       },
       "Releases": [
+        {
+          "Tag": "1.47.0",
+          "SHA": "",
+          "Title": "Created new endpoint in order to get employees that use a certain skill in a particular project",
+          "Timestamp": "2024-11-22T09:32:06Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.47.0"
+        },
         {
           "Tag": "1.46.0",
           "SHA": "",
@@ -1571,23 +1616,12 @@
           "Title": "Support for multiple ERP IDs per project",
           "Timestamp": "2024-11-06T12:38:26Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.45.0"
-        },
-        {
-          "Tag": "1.44.0",
-          "SHA": "",
-          "Title": "Added endpoint to store pdf profiles and publish external url to retrieve them",
-          "Timestamp": "2024-10-25T18:15:25Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.44.0"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "feat: 723 create endpoint to get persons that use a certain skill in a certain project",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/240"
-          },
           {
             "Title": "feat: 324-project-images",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/194"
@@ -1596,20 +1630,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.46.0..HEAD",
-        "Count": 1,
-        "Commits": [
-          {
-            "Text": "chore: bump org.openapitools:openapi-generator-maven-plugin (#239)",
-            "SHA": "11fb1fd5296b95c941d734e7c683498f54a46a0e",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-11-21T12:36:10Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/11fb1fd5296b95c941d734e7c683498f54a46a0e"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.47.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1774,9 +1797,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.4.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "5c657e3",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1825,19 +1848,35 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump github.com/pressly/goose/v3 from 3.22.1 to 3.23.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/99"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.4.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #99 from PRODYNA-YASM/dependabot/go_modules/github.com/pressly/goose/v3-3.23.0",
+            "SHA": "5c657e3c6d3fae2ccfedd3b0b82a76fe73abcbc8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-22T07:58:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/5c657e3c6d3fae2ccfedd3b0b82a76fe73abcbc8"
+          },
+          {
+            "Text": "Bump github.com/pressly/goose/v3 from 3.22.1 to 3.23.0",
+            "SHA": "ce92ede740b280a5cd0c10f220006d9a60e60207",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-11-22T05:47:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/ce92ede740b280a5cd0c10f220006d9a60e60207"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2064,5 +2103,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-11-22T07:33:27Z"
+  "LastUpdated": "2024-11-23T07:32:38Z"
 }
