@@ -642,9 +642,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.46.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "5b9469f",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -692,8 +692,49 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.46.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "Merge pull request #560 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.47.0",
+            "SHA": "5b9469f4ad754c0fc105aff81bb8a624a24c6d85",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-25T05:29:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/5b9469f4ad754c0fc105aff81bb8a624a24c6d85"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.46.0 to 1.47.0",
+            "SHA": "2378ce22b33ceadefa704f8ca8b154e49989ecf4",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-11-25T05:18:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/2378ce22b33ceadefa704f8ca8b154e49989ecf4"
+          },
+          {
+            "Text": "Merge pull request #561 from PRODYNA-YASM/dependabot/go_modules/github.com/stretchr/testify-1.10.0",
+            "SHA": "e757811db8af3db5b6469606aa8cbe13d505308b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-11-25T05:16:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/e757811db8af3db5b6469606aa8cbe13d505308b"
+          },
+          {
+            "Text": "Bump github.com/stretchr/testify from 1.9.0 to 1.10.0",
+            "SHA": "657ca56e568b800c61a863c5df65dbee40655358",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-11-25T01:59:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/657ca56e568b800c61a863c5df65dbee40655358"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1398,8 +1439,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 1,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Bump hashicorp/azurerm from 4.10.0 to 4.11.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/737"
+          },
+          {
+            "Title": "Bump hashicorp/azurerm from 4.10.0 to 4.11.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/736"
+          },
           {
             "Title": "Bump integrations/github from 6.3.1 to 6.4.0 in /terraform/azure",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/735"
@@ -2103,5 +2152,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-11-24T07:32:45Z"
+  "LastUpdated": "2024-11-25T07:34:03Z"
 }

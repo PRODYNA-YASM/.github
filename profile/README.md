@@ -1,12 +1,12 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-11-24T07:32:45Z
+Component Status overview. Last update 2024-11-25T07:34:03Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [16](https://github.com/prodyna-yasm/yasm-backend/compare/1.42.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.42.0 |  :red_square: 276726f |  :green_square: 1.42.0 |  :green_square: 1.42.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [28](https://github.com/prodyna-yasm/yasm-frontend/compare/1.42.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.42.0 |  :red_square: 5192c9c |  :green_square: 1.42.0 |  :green_square: 1.42.0 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.46.0 |  :green_square: 1.46.0 |  :green_square: 1.46.0 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [4](https://github.com/prodyna-yasm/yasm-integration/compare/1.46.0..HEAD) | :green_square: 0 | 1.46.0 |  :red_square: 5b9469f |  :green_square: 1.46.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.46.0..HEAD) | :green_square: 0 | 1.46.0 |  :red_square: c4c2d93 |  :green_square: 1.46.0 |  :red_square: 1.42.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.18.5..HEAD) | :green_square: 0 | 1.18.5 |  :red_square: 773ad3e |  :green_square: 1.18.5 |  :green_square: 1.18.5 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.7.8 |  :green_square: 1.7.8 |  :green_square: 1.7.8 |  :green_square: 1.7.8 | 
@@ -14,7 +14,7 @@ Component Status overview. Last update 2024-11-24T07:32:45Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-external/pulls) | 1.0.3 |  :green_square: 1.0.3 |  :green_square: 1.0.3 |  :green_square: 1.0.3 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.14.1-0 |  :green_square: 8.14.1-0 |  :green_square: 8.14.1-0 |  :red_square: 8.12.0-1 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [11](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.45.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.45.1 |  :red_square: bbe04f6 |  :green_square: 1.45.1 |  :green_square: 1.45.1 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [11](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.45.1..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.45.1 |  :red_square: bbe04f6 |  :green_square: 1.45.1 |  :green_square: 1.45.1 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :green_square: 0 | 1.40.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.47.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
@@ -210,6 +210,17 @@ Component Status overview. Last update 2024-11-24T07:32:45Z
 
 
 
+### [Commits on main since 1.46.0](https://github.com/prodyna-yasm/yasm-integration/compare/1.46.0..HEAD) (4)
+
+- [Merge pull request #560 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.47.0](https://github.com/prodyna-yasm/yasm-integration/commit/5b9469f4ad754c0fc105aff81bb8a624a24c6d85) by [dkrizic](https://github.com/dkrizic) on 2024-11-25 05:29:15 +0000 UTC
+
+- [Bump github.com/prodyna-yasm/yasm-api-go from 1.46.0 to 1.47.0](https://github.com/prodyna-yasm/yasm-integration/commit/2378ce22b33ceadefa704f8ca8b154e49989ecf4) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-11-25 05:18:18 +0000 UTC
+
+- [Merge pull request #561 from PRODYNA-YASM/dependabot/go_modules/github.com/stretchr/testify-1.10.0](https://github.com/prodyna-yasm/yasm-integration/commit/e757811db8af3db5b6469606aa8cbe13d505308b) by [dkrizic](https://github.com/dkrizic) on 2024-11-25 05:16:51 +0000 UTC
+
+- [Bump github.com/stretchr/testify from 1.9.0 to 1.10.0](https://github.com/prodyna-yasm/yasm-integration/commit/657ca56e568b800c61a863c5df65dbee40655358) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-11-25 01:59:14 +0000 UTC
+
+
 
 
 
@@ -217,9 +228,9 @@ Component Status overview. Last update 2024-11-24T07:32:45Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  1.46.0 |  1.46.0 | 
-| Release |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: | 
+| Version |  5b9469f |  1.46.0 | 
+| Release |  :red_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: | 
 
 
 ### Last releases
@@ -535,7 +546,11 @@ Component Status overview. Last update 2024-11-24T07:32:45Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (1)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (3)
+
+- [Bump hashicorp/azurerm from 4.10.0 to 4.11.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/737)
+
+- [Bump hashicorp/azurerm from 4.10.0 to 4.11.0 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/736)
 
 - [Bump integrations/github from 6.3.1 to 6.4.0 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/735)
 
