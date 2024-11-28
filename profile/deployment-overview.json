@@ -59,11 +59,19 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 4,
+        "Count": 6,
         "PullRequests": [
           {
-            "Title": "build(deps): bump quarkus.platform.version from 3.15.1 to 3.16.4",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/750"
+            "Title": "build(deps): bump quarkus.platform.version from 3.15.1 to 3.17.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/753"
+          },
+          {
+            "Title": "build(deps): bump org.jsoup:jsoup from 1.18.1 to 1.18.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/752"
+          },
+          {
+            "Title": "feat: 723 create endpoint for getting projects of persons that have used a certain skill in that project",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/751"
           },
           {
             "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 4.4.0 to 5.0.0",
@@ -261,16 +269,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "5edafb5",
+          "Version": "c3c12a9",
           "IsRelease": false,
           "IsCurrent": false
-        },
-        {
-          "Name": "staging",
-          "Link": "",
-          "Version": "1.42.0",
-          "IsRelease": true,
-          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -315,8 +316,8 @@
         "Count": 7,
         "PullRequests": [
           {
-            "Title": "chore: Remove eslint errors, small refactorings",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/919"
+            "Title": "feat: 723 person detail view: onhover show projects in which skills were used by employee ",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/921"
           },
           {
             "Title": "feat: 916 Prepare multistage build",
@@ -347,8 +348,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.42.0..HEAD",
-        "Count": 29,
+        "Count": 30,
         "Commits": [
+          {
+            "Text": "fix: Search trigger in mobile view (#920)",
+            "SHA": "c3c12a982b59a86c4d92b3e277a8d39d33eacc8a",
+            "Author": {
+              "name": "jding31",
+              "link": "https://github.com/jding31"
+            },
+            "Timestamp": "2024-11-27T10:24:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/c3c12a982b59a86c4d92b3e277a8d39d33eacc8a"
+          },
+          {
+            "Text": "Remove eslint errors, small refactorings (#919)",
+            "SHA": "739280b36a96628bb03266e5cc7e733995bc2906",
+            "Author": {
+              "name": "psaurer-prodyna",
+              "link": "https://github.com/psaurer-prodyna"
+            },
+            "Timestamp": "2024-11-27T09:31:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/739280b36a96628bb03266e5cc7e733995bc2906"
+          },
           {
             "Text": "feat: 685 Add loaders for employee page (projects/person) (#917)",
             "SHA": "5edafb5d93e65cc5986a754562b4a8110a3207a7",
@@ -628,16 +649,6 @@
             },
             "Timestamp": "2024-10-18T06:04:54Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d72d55a4f9e47ae0a5555504edc6f4d1f31484fe"
-          },
-          {
-            "Text": "Shift from /api/v1 to /api/graph/v1 for the backend base URL (#880)",
-            "SHA": "323268abd22d802f15922571f25253e985978cea",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-10-17T14:51:12Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/323268abd22d802f15922571f25253e985978cea"
           }
         ]
       },
@@ -1747,8 +1758,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "feat: 723 create endpoint for getting projects of persons that have used a certain skill in that project",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/242"
+          },
           {
             "Title": "chore: bump io.smallrye.reactive:mutiny from 2.6.2 to 2.7.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/241"
@@ -2234,5 +2249,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-11-27T07:34:01Z"
+  "LastUpdated": "2024-11-28T07:33:50Z"
 }
