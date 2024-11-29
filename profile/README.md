@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-11-29T07:34:15Z
+Component Status overview. Last update 2024-11-29T12:31:04Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [17](https://github.com/prodyna-yasm/yasm-backend/compare/1.42.0..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.42.0 |  :red_square: da17d65 |  :green_square: 1.42.0 |  :green_square: 1.42.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.42.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.42.0 |  :red_square: c3c12a9 |  :green_square: 1.42.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.48.0 |  :green_square: 1.48.0 |  :green_square: 1.48.0 |  :red_square: 1.42.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.48.0 |  :green_square: 1.48.0 |  :green_square: 1.48.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [4](https://github.com/prodyna-yasm/yasm-integration/compare/1.47.0..HEAD) | :green_square: 0 | 1.47.0 |  :red_square: cddfcac |  :green_square: 1.47.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.48.0 |  :green_square: 1.48.0 |  :green_square: 1.48.0 |  :red_square: 1.42.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.18.5..HEAD) | :green_square: 0 | 1.18.5 |  :red_square: 773ad3e |  :green_square: 1.18.5 |  :green_square: 1.18.5 | 
@@ -25,46 +25,9 @@ Component Status overview. Last update 2024-11-29T07:34:15Z
 
 
 
-## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.42.0
+## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.48.0
 
 
-
-
-### [Commits on main since 1.42.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.42.0..HEAD) (17)
-
-- [feat: 723 create endpoint for getting projects of persons that have used a certain skill in that project (#751)](https://github.com/prodyna-yasm/yasm-backend/commit/da17d65ba4a27f5b5011b0f6df1774bfa45423de) by [irhox](https://github.com/irhox) on 2024-11-28 08:31:14 +0000 UTC
-
-- [feat: 723 create endpoint to get persons that use a certain skill in a certain project (#749)](https://github.com/prodyna-yasm/yasm-backend/commit/276726f766d8dee13a407a65f9d1c52e63a2f0ed) by [irhox](https://github.com/irhox) on 2024-11-22 11:04:28 +0000 UTC
-
-- [feat: 490 define local filter behaviour (#744)](https://github.com/prodyna-yasm/yasm-backend/commit/2ca0772f4e3c32438d894a13ca94d9e7e3589a17) by [irhox](https://github.com/irhox) on 2024-11-13 13:19:44 +0000 UTC
-
-- [feat: A project can now hold multiple ERP IDs (#747)](https://github.com/prodyna-yasm/yasm-backend/commit/680f3c5f6c62f6c89d6deed88cb1d6657d080e8f) by [jding31](https://github.com/jding31) on 2024-11-13 13:07:34 +0000 UTC
-
-- [build(deps): bump org.apache.maven.plugins:maven-surefire-plugin from 3.5.1 to 3.5.2 (#743)](https://github.com/prodyna-yasm/yasm-backend/commit/8324f303583f4dac276e896cbdf7a15b30ed0d1c) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-11-04 07:50:17 +0000 UTC
-
-- [fix: 734 font thickness change (#742)](https://github.com/prodyna-yasm/yasm-backend/commit/cf6a745721a3321223cad8b489b826b2bc8d2d5a) by [irhox](https://github.com/irhox) on 2024-11-01 13:49:14 +0000 UTC
-
-- [fix: 734 update bolzhauser template (#741)](https://github.com/prodyna-yasm/yasm-backend/commit/909fb5b256f808c3ce6c55e17b0c45a63bb7543d) by [irhox](https://github.com/irhox) on 2024-11-01 13:08:44 +0000 UTC
-
-- [feat: 734 update bolzhauser template (#740)](https://github.com/prodyna-yasm/yasm-backend/commit/5f5127954c6056951f2d8f7e573e34a66b30173a) by [irhox](https://github.com/irhox) on 2024-11-01 12:44:48 +0000 UTC
-
-- [feat: 734 update Bolzhauser Template design (#739)](https://github.com/prodyna-yasm/yasm-backend/commit/f53f14a829cf4af5f27c1684760a363ba202e02c) by [irhox](https://github.com/irhox) on 2024-11-01 11:36:14 +0000 UTC
-
-- [feat: #164 create shareable links for pdf profile files  (#711)](https://github.com/prodyna-yasm/yasm-backend/commit/c41edf820bc0fa7836cc80c2c7d9f4cac963a979) by [irhox](https://github.com/irhox) on 2024-10-30 13:33:15 +0000 UTC
-
-- [734 update bolzhauser template (#737)](https://github.com/prodyna-yasm/yasm-backend/commit/505cf0c553c6a3ff71e5662fe6f7ff08a8c38930) by [dkrizic](https://github.com/dkrizic) on 2024-10-28 15:20:34 +0000 UTC
-
-- [feat: 734 update bolzhauser template (#736)](https://github.com/prodyna-yasm/yasm-backend/commit/a8d455eec720b341d12cd166aabcedac8bcfd0b8) by [dkrizic](https://github.com/dkrizic) on 2024-10-28 15:01:33 +0000 UTC
-
-- [feat: Pimp bolzhauser profile (#735)](https://github.com/prodyna-yasm/yasm-backend/commit/97e0883459a9ccde5331e93866f207c239ae1837) by [dkrizic](https://github.com/dkrizic) on 2024-10-28 14:19:29 +0000 UTC
-
-- [build(deps): bump org.apache.maven.plugins:maven-dependency-plugin from 3.8.0 to 3.8.1 (#733)](https://github.com/prodyna-yasm/yasm-backend/commit/fc56fcac1d314046838947269a0ca90a6b6fa3f5) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-28 06:46:37 +0000 UTC
-
-- [build(deps): bump io.smallrye:jandex-maven-plugin from 3.2.2 to 3.2.3 (#731)](https://github.com/prodyna-yasm/yasm-backend/commit/3321ef3d8d9494469223cf91cd7c717c11288c57) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-25 05:49:33 +0000 UTC
-
-- [build(deps): bump eclipse-temurin from 23_37-jre-ubi9-minimal to 23.0.1_11-jre-ubi9-minimal (#732)](https://github.com/prodyna-yasm/yasm-backend/commit/934c69b89732b7f673d3e9740cdb869788f90afa) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-25 05:40:35 +0000 UTC
-
-- [feat: Use API 1.43, shift from /api/v1 to /api/graph/v1 (#730)](https://github.com/prodyna-yasm/yasm-backend/commit/d9c793db63af64debddd2ad8137e3eb03f05ae45) by [dkrizic](https://github.com/dkrizic) on 2024-10-17 14:50:51 +0000 UTC
 
 
 
@@ -87,97 +50,37 @@ Component Status overview. Last update 2024-11-29T07:34:15Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  da17d65 |  1.42.0 |  1.42.0 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.48.0 |  1.48.0 |  1.42.0 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
+
+- [Shift from /api/v1 to /api/graph/v1, new features and bugfixes](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.48.0) on 2024-11-28 08:31:14 +0000 UTC
 
 - [Add Methodologies to SkillProfile](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.42.0) on 2024-10-11 23:09:34 +0000 UTC
 
 - [Sort order of people in projects depend on project participation time](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.40.1) on 2024-09-26 07:21:44 +0000 UTC
 
-- [Add backend implementation for Skill Favorite](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.40.0) on 2024-09-02 10:28:49 +0000 UTC
+
+
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting) (1)
+
+- [feat: 723 create endpoint for getting projects of persons that have u…](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/12084457432) created on 2024-11-29 12:07:14 +0000 UTC
+
+
+
+
+## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.48.0
 
 
 
 
 
 
-## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.42.0
-
-
-
-
-### [Commits on main since 1.42.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.42.0..HEAD) (30)
-
-- [fix: Search trigger in mobile view (#920)](https://github.com/prodyna-yasm/yasm-frontend/commit/c3c12a982b59a86c4d92b3e277a8d39d33eacc8a) by [jding31](https://github.com/jding31) on 2024-11-27 10:24:53 +0000 UTC
-
-- [Remove eslint errors, small refactorings (#919)](https://github.com/prodyna-yasm/yasm-frontend/commit/739280b36a96628bb03266e5cc7e733995bc2906) by [psaurer-prodyna](https://github.com/psaurer-prodyna) on 2024-11-27 09:31:14 +0000 UTC
-
-- [feat: 685 Add loaders for employee page (projects/person) (#917)](https://github.com/prodyna-yasm/yasm-frontend/commit/5edafb5d93e65cc5986a754562b4a8110a3207a7) by [psaurer-prodyna](https://github.com/psaurer-prodyna) on 2024-11-25 14:14:49 +0000 UTC
-
-- [feat: 723 show skill contribution of projects participants when hovering skill in project view (#915)](https://github.com/prodyna-yasm/yasm-frontend/commit/5192c9c4a55df668b4eaaa9d89907e64e23fa7b1) by [irhox](https://github.com/irhox) on 2024-11-22 11:33:18 +0000 UTC
-
-- [chore: update eslint configs to make linting work again (#912)](https://github.com/prodyna-yasm/yasm-frontend/commit/df1f4cd4d120459a88a29c1520cf6fea6dae714a) by [psaurer-prodyna](https://github.com/psaurer-prodyna) on 2024-11-21 09:14:07 +0000 UTC
-
-- [feat: Multiple ERP IDs (#908)](https://github.com/prodyna-yasm/yasm-frontend/commit/b8dce4464d66c163b771508cf882de1f285d4272) by [dkrizic](https://github.com/dkrizic) on 2024-11-20 10:11:28 +0000 UTC
-
-- [YASM-Test 1.46.0 (#911)](https://github.com/prodyna-yasm/yasm-frontend/commit/a0962459a82f8fa58705b7427ecd118d69bbaa5f) by [dkrizic](https://github.com/dkrizic) on 2024-11-14 13:21:54 +0000 UTC
-
-- [fix: 645 search for synonyms of skills (#907)](https://github.com/prodyna-yasm/yasm-frontend/commit/9ec1fdd6f6e218b6a816a20035e3cd72e031467b) by [jding31](https://github.com/jding31) on 2024-11-13 14:05:53 +0000 UTC
-
-- [feat: #490 define local filter behaviour for all tabs and search input types  (#872)](https://github.com/prodyna-yasm/yasm-frontend/commit/7df648dfb0974a94bd236fd3897cb8558cb922d7) by [irhox](https://github.com/irhox) on 2024-11-13 13:50:12 +0000 UTC
-
-- [chore: bump @editorjs/paragraph from 2.11.4 to 2.11.6 (#905)](https://github.com/prodyna-yasm/yasm-frontend/commit/9c1c5d399f400f5354a0c9ef791ab7abbf97b95d) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-11-01 07:31:14 +0000 UTC
-
-- [fix: 164 create shareable links for pdf profiles (#903)](https://github.com/prodyna-yasm/yasm-frontend/commit/bf10f135231a4dcc9d4079498096d9b2b8d3c6d8) by [irhox](https://github.com/irhox) on 2024-10-31 10:04:46 +0000 UTC
-
-- [fix: refresh browser when token is expired (#653)](https://github.com/prodyna-yasm/yasm-frontend/commit/21822c7e858de649bbebb446221eb5c23e5e5a56) by [jding31](https://github.com/jding31) on 2024-10-31 09:23:19 +0000 UTC
-
-- [feat: 137 add methodologies to SkillsFavorites  (#900)](https://github.com/prodyna-yasm/yasm-frontend/commit/a5fd2eac38d9fefdb0dea85e58bf9483e7541319) by [irhox](https://github.com/irhox) on 2024-10-31 09:20:10 +0000 UTC
-
-- [feat: 164 create shareable links for pdf profiles (#901)](https://github.com/prodyna-yasm/yasm-frontend/commit/246cc3a3f9e74df49d96d675a84c99795f7adc97) by [irhox](https://github.com/irhox) on 2024-10-31 09:19:50 +0000 UTC
-
-- [chore: bump eslint-plugin-jsx-a11y from 6.8.0 to 6.10.2 (#902)](https://github.com/prodyna-yasm/yasm-frontend/commit/c44e401e21a843f1342bb0eca5e88dc2fe6eef3b) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-31 07:45:45 +0000 UTC
-
-- [downgrade react-select library to version that doesnt cause bug (#899)](https://github.com/prodyna-yasm/yasm-frontend/commit/cad9d8e6fffbc84d1a6bb489d297ff68fe3eec1c) by [irhox](https://github.com/irhox) on 2024-10-30 12:43:42 +0000 UTC
-
-- [chore: bump eslint-plugin-import from 2.29.1 to 2.31.0 (#897)](https://github.com/prodyna-yasm/yasm-frontend/commit/7e6362096be363621d059a9e4c88f5ff80fbac1a) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-30 06:42:33 +0000 UTC
-
-- [chore: bump @opentelemetry/exporter-trace-otlp-http (#896)](https://github.com/prodyna-yasm/yasm-frontend/commit/d3e2aeaaf7e6f1a24a0c6a670f8b006fb1d8a172) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-29 07:22:48 +0000 UTC
-
-- [chore: bump @opentelemetry/context-zone from 1.26.0 to 1.27.0 (#893)](https://github.com/prodyna-yasm/yasm-frontend/commit/8cdd9a948881fc4a898d9af643e36a01afefe2c8) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-28 06:46:05 +0000 UTC
-
-- [chore: bump @fontsource/roboto from 5.0.13 to 5.1.0 (#889)](https://github.com/prodyna-yasm/yasm-frontend/commit/c34cd6e5307d03c6de24220b5dc1f619ff29b1d4) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-25 05:49:15 +0000 UTC
-
-- [chore: bump @babel/preset-env from 7.24.6 to 7.25.9 (#890)](https://github.com/prodyna-yasm/yasm-frontend/commit/eba35034ff30d45f0f8bd29fed457fd104f9a799) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-25 05:38:41 +0000 UTC
-
-- [chore: bump react-select from 5.3.0 to 5.8.1 (#891)](https://github.com/prodyna-yasm/yasm-frontend/commit/f6b6cefe302883521df1765f8141ccd27499b59d) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-25 05:38:22 +0000 UTC
-
-- [chore: bump @typescript-eslint/eslint-plugin from 7.11.0 to 8.11.0 (#885)](https://github.com/prodyna-yasm/yasm-frontend/commit/76e6b451e2f783acfac5d63b03184e43fc15ac74) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-24 08:06:19 +0000 UTC
-
-- [chore: bump react-router-dom from 6.23.1 to 6.27.0 (#887)](https://github.com/prodyna-yasm/yasm-frontend/commit/13953f19f5426e080378a7a9afc99a4379bbbf5c) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-24 08:03:32 +0000 UTC
-
-- [chore: bump fork-ts-checker-webpack-plugin from 7.3.0 to 9.0.2 (#888)](https://github.com/prodyna-yasm/yasm-frontend/commit/b4cf2f55d92a3bb46e2cca74c72e7686e7188402) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-24 06:37:20 +0000 UTC
-
-- [chore: bump lint-staged from 13.3.0 to 15.2.10 (#826)](https://github.com/prodyna-yasm/yasm-frontend/commit/d48da98b1a3991539ce75d0cf00e0b9dac68aa31) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-23 08:03:35 +0000 UTC
-
-- [chore: bump @types/react-dom from 18.3.0 to 18.3.1 (#886)](https://github.com/prodyna-yasm/yasm-frontend/commit/ab43ce280c5170892f0907468a9d2d193b5d1c85) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-23 06:41:32 +0000 UTC
-
-- [chore: bump babel-loader from 9.1.3 to 9.2.1 (#884)](https://github.com/prodyna-yasm/yasm-frontend/commit/9dac33551f1a10a964b4b5c25abc3fba2c9cb94f) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-22 06:02:22 +0000 UTC
-
-- [chore: bump @types/node from 22.7.5 to 22.7.7 (#883)](https://github.com/prodyna-yasm/yasm-frontend/commit/bf5617ac1210a5e0c9f6442396fbe373194147c0) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-21 07:18:37 +0000 UTC
-
-- [chore: bump @editorjs/editorjs from 2.26.4 to 2.30.6 (#881)](https://github.com/prodyna-yasm/yasm-frontend/commit/d72d55a4f9e47ae0a5555504edc6f4d1f31484fe) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-10-18 06:04:54 +0000 UTC
-
-
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
-
-- [feat: 723 person detail view: onhover show projects in which skills were used by employee ](https://github.com/PRODYNA-YASM/yasm-frontend/pull/921)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
 
 - [feat: 916 Prepare multistage build](https://github.com/PRODYNA-YASM/yasm-frontend/pull/918)
 
@@ -195,20 +98,20 @@ Component Status overview. Last update 2024-11-29T07:34:15Z
 
 ### Environments
 
-| Environment |  dev |  prod | 
+| Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  c3c12a9 |  1.42.0 | 
-| Release |  :red_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: | 
+| Version |  1.48.0 |  1.48.0 | 
+| Release |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Shift from /api/v1 to /api/graph/v1, new features and bugfixes](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.48.0) on 2024-11-29 08:22:58 +0000 UTC
+
 - [Project to ERP mapping, search all result extended, add persons to projects](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.42.0) on 2024-10-17 09:17:43 +0000 UTC
 
 - [Fine tune colours for availability](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.40.8) on 2024-09-23 05:53:22 +0000 UTC
-
-- [Fix bugs: Display of available hours](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.40.7) on 2024-09-23 05:53:22 +0000 UTC
 
 
 
