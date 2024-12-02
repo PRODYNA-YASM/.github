@@ -62,16 +62,16 @@
         "Count": 5,
         "PullRequests": [
           {
+            "Title": "build(deps): bump quarkus.platform.version from 3.15.1 to 3.17.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/757"
+          },
+          {
+            "Title": "build(deps): bump org.jsoup:jsoup from 1.18.1 to 1.18.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/756"
+          },
+          {
             "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 4.4.0 to 5.0.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/755"
-          },
-          {
-            "Title": "build(deps): bump quarkus.platform.version from 3.15.1 to 3.17.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/753"
-          },
-          {
-            "Title": "build(deps): bump org.jsoup:jsoup from 1.18.1 to 1.18.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/752"
           },
           {
             "Title": "feat: #629 create awards service with crud operations, update organization and person with awards",
@@ -157,12 +157,12 @@
         "Count": 6,
         "PullRequests": [
           {
-            "Title": "feat: 916 Prepare multistage build",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/918"
+            "Title": "chore: bump @mui/x-tree-view from 7.20.0 to 7.23.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/923"
           },
           {
-            "Title": "chore: bump @mui/x-tree-view from 7.20.0 to 7.22.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/906"
+            "Title": "feat: 916 Prepare multistage build",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/918"
           },
           {
             "Title": "chore: bump @opentelemetry/api from 1.6.0 to 1.9.0",
@@ -889,7 +889,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "eddd485",
+          "Version": "a1f02a3",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -926,14 +926,73 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump hashicorp/azurerm from 4.11.0 to 4.12.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/750"
+          },
+          {
+            "Title": "Bump hashicorp/azurerm from 4.11.0 to 4.12.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/749"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.45.1..HEAD",
-        "Count": 28,
+        "Count": 30,
         "Commits": [
+          {
+            "Text": "Remove all affinities",
+            "SHA": "a1f02a31156169f58f081a9204d66840b867c2f5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-01T23:57:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a1f02a31156169f58f081a9204d66840b867c2f5"
+          },
+          {
+            "Text": "Less resources for ingester",
+            "SHA": "b156cfb110eab7e427900d898b4820d3543b497d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-01T21:39:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b156cfb110eab7e427900d898b4820d3543b497d"
+          },
+          {
+            "Text": "Go back to grafana 6.21.0",
+            "SHA": "bbd4cea284d6931f2649ff51f99ee3cca4d6275c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-01T19:08:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/bbd4cea284d6931f2649ff51f99ee3cca4d6275c"
+          },
+          {
+            "Text": "Disable test fully",
+            "SHA": "34b37c57a293239ff99a67c07572fb75fe37f00e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-01T18:22:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/34b37c57a293239ff99a67c07572fb75fe37f00e"
+          },
+          {
+            "Text": "Resources, disable canary",
+            "SHA": "c8f760efbf92f26c20bf5a4bb0ec44cd57e2809e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-01T18:15:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c8f760efbf92f26c20bf5a4bb0ec44cd57e2809e"
+          },
           {
             "Text": "Set some random resources",
             "SHA": "eddd4858e7d65045a830f6389797e9ab6b32186c",
@@ -1183,36 +1242,6 @@
             },
             "Timestamp": "2024-11-16T01:02:38Z",
             "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d3226eb6e52c5ec3377ad73a00265f5dd6bbbbed"
-          },
-          {
-            "Text": "Update datadog",
-            "SHA": "fcd4c1b12e1ca58a366be52ee36a66c345c687c4",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-11-16T00:59:24Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/fcd4c1b12e1ca58a366be52ee36a66c345c687c4"
-          },
-          {
-            "Text": "Merge pull request #729 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/DataDog/datadog-3.48.0",
-            "SHA": "2f448c5c44ad3fb2c8cd469c99d526bfede1295f",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-11-13T12:55:03Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/2f448c5c44ad3fb2c8cd469c99d526bfede1295f"
-          },
-          {
-            "Text": "Bump DataDog/datadog from 3.46.0 to 3.48.0 in /terraform/kubernetes",
-            "SHA": "144d570a2babfa2266fc6a1a7288cb93852a6d83",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2024-11-13T06:08:37Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/144d570a2babfa2266fc6a1a7288cb93852a6d83"
           }
         ]
       },
@@ -1790,5 +1819,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-12-01T07:33:27Z"
+  "LastUpdated": "2024-12-02T07:34:32Z"
 }

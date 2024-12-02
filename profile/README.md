@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-12-01T07:33:27Z
+Component Status overview. Last update 2024-12-02T07:34:32Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -14,7 +14,7 @@ Component Status overview. Last update 2024-12-01T07:33:27Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.0.4 |  :green_square: 1.0.4 |  :green_square: 1.0.4 |  :green_square: 1.0.4 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.14.1-0 |  :green_square: 8.14.1-0 |  :green_square: 8.14.1-0 |  :red_square: 8.12.0-1 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [28](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.45.1..HEAD) | :green_square: 0 | 1.45.1 |  :red_square: eddd485 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [30](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.45.1..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.45.1 |  :red_square: a1f02a3 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :green_square: 0 | 1.48.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [1](https://github.com/prodyna-yasm/yasm-api/compare/1.48.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.48.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
@@ -34,11 +34,11 @@ Component Status overview. Last update 2024-12-01T07:33:27Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (5)
 
+- [build(deps): bump quarkus.platform.version from 3.15.1 to 3.17.2](https://github.com/PRODYNA-YASM/yasm-backend/pull/757)
+
+- [build(deps): bump org.jsoup:jsoup from 1.18.1 to 1.18.3](https://github.com/PRODYNA-YASM/yasm-backend/pull/756)
+
 - [build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 4.4.0 to 5.0.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/755)
-
-- [build(deps): bump quarkus.platform.version from 3.15.1 to 3.17.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/753)
-
-- [build(deps): bump org.jsoup:jsoup from 1.18.1 to 1.18.2](https://github.com/PRODYNA-YASM/yasm-backend/pull/752)
 
 - [feat: #629 create awards service with crud operations, update organization and person with awards](https://github.com/PRODYNA-YASM/yasm-backend/pull/718)
 
@@ -82,9 +82,9 @@ Component Status overview. Last update 2024-12-01T07:33:27Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
 
-- [feat: 916 Prepare multistage build](https://github.com/PRODYNA-YASM/yasm-frontend/pull/918)
+- [chore: bump @mui/x-tree-view from 7.20.0 to 7.23.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/923)
 
-- [chore: bump @mui/x-tree-view from 7.20.0 to 7.22.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/906)
+- [feat: 916 Prepare multistage build](https://github.com/PRODYNA-YASM/yasm-frontend/pull/918)
 
 - [chore: bump @opentelemetry/api from 1.6.0 to 1.9.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/904)
 
@@ -421,7 +421,17 @@ Component Status overview. Last update 2024-12-01T07:33:27Z
 
 
 
-### [Commits on main since 1.45.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.45.1..HEAD) (28)
+### [Commits on main since 1.45.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.45.1..HEAD) (30)
+
+- [Remove all affinities](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a1f02a31156169f58f081a9204d66840b867c2f5) by [dkrizic](https://github.com/dkrizic) on 2024-12-01 23:57:28 +0000 UTC
+
+- [Less resources for ingester](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b156cfb110eab7e427900d898b4820d3543b497d) by [dkrizic](https://github.com/dkrizic) on 2024-12-01 21:39:23 +0000 UTC
+
+- [Go back to grafana 6.21.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/bbd4cea284d6931f2649ff51f99ee3cca4d6275c) by [dkrizic](https://github.com/dkrizic) on 2024-12-01 19:08:55 +0000 UTC
+
+- [Disable test fully](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/34b37c57a293239ff99a67c07572fb75fe37f00e) by [dkrizic](https://github.com/dkrizic) on 2024-12-01 18:22:59 +0000 UTC
+
+- [Resources, disable canary](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c8f760efbf92f26c20bf5a4bb0ec44cd57e2809e) by [dkrizic](https://github.com/dkrizic) on 2024-12-01 18:15:40 +0000 UTC
 
 - [Set some random resources](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/eddd4858e7d65045a830f6389797e9ab6b32186c) by [dkrizic](https://github.com/dkrizic) on 2024-11-30 23:31:58 +0000 UTC
 
@@ -473,13 +483,14 @@ Component Status overview. Last update 2024-12-01T07:33:27Z
 
 - [Merge pull request #733 from PRODYNA-YASM/feature/update](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d3226eb6e52c5ec3377ad73a00265f5dd6bbbbed) by [dkrizic](https://github.com/dkrizic) on 2024-11-16 01:02:38 +0000 UTC
 
-- [Update datadog](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/fcd4c1b12e1ca58a366be52ee36a66c345c687c4) by [dkrizic](https://github.com/dkrizic) on 2024-11-16 00:59:24 +0000 UTC
-
-- [Merge pull request #729 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/DataDog/datadog-3.48.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/2f448c5c44ad3fb2c8cd469c99d526bfede1295f) by [dkrizic](https://github.com/dkrizic) on 2024-11-13 12:55:03 +0000 UTC
-
-- [Bump DataDog/datadog from 3.46.0 to 3.48.0 in /terraform/kubernetes](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/144d570a2babfa2266fc6a1a7288cb93852a6d83) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-11-13 06:08:37 +0000 UTC
 
 
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (2)
+
+- [Bump hashicorp/azurerm from 4.11.0 to 4.12.0 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/750)
+
+- [Bump hashicorp/azurerm from 4.11.0 to 4.12.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/749)
 
 
 
@@ -487,7 +498,7 @@ Component Status overview. Last update 2024-12-01T07:33:27Z
 
 | Environment |  dev | 
 | --- |  --- | 
-| Version |  eddd485 | 
+| Version |  a1f02a3 | 
 | Release |  :red_square: | 
 | Current |  :red_square: | 
 
