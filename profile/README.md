@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-12-02T07:34:32Z
+Component Status overview. Last update 2024-12-03T07:34:08Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -8,13 +8,13 @@ Component Status overview. Last update 2024-12-02T07:34:32Z
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.48.0 |  :green_square: 1.48.0 |  :green_square: 1.48.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.48.0 |  :green_square: 1.48.0 |  :green_square: 1.48.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.48.0 |  :green_square: 1.48.0 |  :green_square: 1.48.0 |  :red_square: 1.42.0 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.18.6 |  :green_square: 1.18.6 |  :green_square: 1.18.6 |  :red_square: 1.18.5 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.18.6..HEAD) | :green_square: 0 | 1.18.6 |  :red_square: 1e3defd |  :green_square: 1.18.6 |  :red_square: 1.18.5 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.7.8 |  :green_square: 1.7.8 |  :green_square: 1.7.8 |  :green_square: 1.7.8 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.12.8 |  :green_square: 1.12.8 |  :green_square: 1.12.8 |  :red_square: 1.12.6 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.0.4 |  :green_square: 1.0.4 |  :green_square: 1.0.4 |  :green_square: 1.0.4 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.14.1-0 |  :green_square: 8.14.1-0 |  :green_square: 8.14.1-0 |  :red_square: 8.12.0-1 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [30](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.45.1..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.45.1 |  :red_square: a1f02a3 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [30](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.45.1..HEAD) | :green_square: 0 | 1.45.1 |  :red_square: 04d8045 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :green_square: 0 | 1.48.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [1](https://github.com/prodyna-yasm/yasm-api/compare/1.48.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.48.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
@@ -208,6 +208,13 @@ Component Status overview. Last update 2024-12-02T07:34:32Z
 
 
 
+### [Commits on main since 1.18.6](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.18.6..HEAD) (2)
+
+- [Merge pull request #260 from PRODYNA-YASM/dependabot/go_modules/github.com/riandyrn/otelchi-0.11.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/1e3defdb9c0a691e1ebf4d3461a46f07afc837c1) by [dkrizic](https://github.com/dkrizic) on 2024-12-02 17:10:17 +0000 UTC
+
+- [Bump github.com/riandyrn/otelchi from 0.10.1 to 0.11.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/6e2b3e861a33d0be893ee8ddd40eff3d5f640586) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-12-02 16:07:07 +0000 UTC
+
+
 
 
 
@@ -215,9 +222,9 @@ Component Status overview. Last update 2024-12-02T07:34:32Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.18.6 |  1.18.6 |  1.18.5 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Version |  1e3defd |  1.18.6 |  1.18.5 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
@@ -423,6 +430,10 @@ Component Status overview. Last update 2024-12-02T07:34:32Z
 
 ### [Commits on main since 1.45.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.45.1..HEAD) (30)
 
+- [Fix headers](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/04d804503d955f7e3efdc0a378263a46be845d97) by [dkrizic](https://github.com/dkrizic) on 2024-12-02 12:25:17 +0000 UTC
+
+- [Re-deploy Loki](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6b0cf713c2df5c893fb711823f3cadfe2673c516) by [dkrizic](https://github.com/dkrizic) on 2024-12-02 11:27:05 +0000 UTC
+
 - [Remove all affinities](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a1f02a31156169f58f081a9204d66840b867c2f5) by [dkrizic](https://github.com/dkrizic) on 2024-12-01 23:57:28 +0000 UTC
 
 - [Less resources for ingester](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b156cfb110eab7e427900d898b4820d3543b497d) by [dkrizic](https://github.com/dkrizic) on 2024-12-01 21:39:23 +0000 UTC
@@ -479,18 +490,7 @@ Component Status overview. Last update 2024-12-02T07:34:32Z
 
 - [Merge branch 'main' into feature/fix-traffic-policy](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/8b7d8e6bcba521503cb2d1f8c2c8b9b380be26eb) by [dkrizic](https://github.com/dkrizic) on 2024-11-18 21:19:58 +0000 UTC
 
-- [Fix external traefik policy](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/7df70b6e24bd433197ed7ab041db26b743c164f4) by [dkrizic](https://github.com/dkrizic) on 2024-11-18 21:08:17 +0000 UTC
 
-- [Merge pull request #733 from PRODYNA-YASM/feature/update](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d3226eb6e52c5ec3377ad73a00265f5dd6bbbbed) by [dkrizic](https://github.com/dkrizic) on 2024-11-16 01:02:38 +0000 UTC
-
-
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (2)
-
-- [Bump hashicorp/azurerm from 4.11.0 to 4.12.0 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/750)
-
-- [Bump hashicorp/azurerm from 4.11.0 to 4.12.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/749)
 
 
 
@@ -498,7 +498,7 @@ Component Status overview. Last update 2024-12-02T07:34:32Z
 
 | Environment |  dev | 
 | --- |  --- | 
-| Version |  a1f02a3 | 
+| Version |  04d8045 | 
 | Release |  :red_square: | 
 | Current |  :red_square: | 
 
