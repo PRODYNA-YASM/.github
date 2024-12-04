@@ -157,6 +157,10 @@
         "Count": 6,
         "PullRequests": [
           {
+            "Title": "chore: bump yup from 0.32.11 to 1.5.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/924"
+          },
+          {
             "Title": "chore: bump @mui/x-tree-view from 7.20.0 to 7.23.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/923"
           },
@@ -171,10 +175,6 @@
           {
             "Title": "chore: bump style-loader from 3.3.4 to 4.0.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/892"
-          },
-          {
-            "Title": "chore: bump yup from 0.32.11 to 1.4.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/856"
           },
           {
             "Title": "chore: bump html-loader from 1.3.2 to 5.1.0",
@@ -253,8 +253,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump golang from 1.23.3-alpine3.20 to 1.23.4-alpine3.20",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/566"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -1597,8 +1602,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump golang from 1.23.3-alpine3.20 to 1.23.4-alpine3.20",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/100"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
@@ -1632,9 +1642,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.5.7",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "5f8bfdf",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1689,8 +1699,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-mainproject",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/compare/1.5.7..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #61 from PRODYNA-YASM/dkrizic/add-log-message",
+            "SHA": "5f8bfdf2700a620cd09d8e4d043a11cca520e637",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-03T15:41:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/5f8bfdf2700a620cd09d8e4d043a11cca520e637"
+          },
+          {
+            "Text": "Add log message 'Hello PCS' when application starts",
+            "SHA": "669d35bffbc1b8def042f7c3450814a4f8f0a76c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-03T15:38:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/669d35bffbc1b8def042f7c3450814a4f8f0a76c"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1831,5 +1862,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-12-03T07:34:08Z"
+  "LastUpdated": "2024-12-04T07:34:07Z"
 }
