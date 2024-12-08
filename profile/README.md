@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-12-07T07:33:21Z
+Component Status overview. Last update 2024-12-08T07:33:06Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -18,7 +18,7 @@ Component Status overview. Last update 2024-12-07T07:33:21Z
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :green_square: 0 | 1.48.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [1](https://github.com/prodyna-yasm/yasm-api/compare/1.48.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.48.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
-| [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [1](https://github.com/prodyna-yasm/yasm-test/compare/1.46.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-test/pulls) | 1.46.0 | 
+| [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-test/pulls) | 1.48.0 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [4](https://github.com/prodyna-yasm/yasm-metrics/compare/1.4.4..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-metrics/pulls) | 1.4.4 |  :red_square: 9583ad7 |  :green_square: 1.4.4 |  :red_square: 1.4.3 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [9](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.6.0..HEAD) | :green_square: 0 | 1.6.0 |  :red_square: 3c13a34 |  :green_square: 1.6.0 |  :red_square: 1.5.7 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.1.1 |  :green_square: 1.1.1 |  :green_square: 1.1.1 |  :green_square: 1.1.1 | 
@@ -622,14 +622,9 @@ Component Status overview. Last update 2024-12-07T07:33:21Z
 
 
 
-## [yasm-test](https://github.com/prodyna-yasm/yasm-test) 1.46.0
+## [yasm-test](https://github.com/prodyna-yasm/yasm-test) 1.48.0
 
 
-
-
-### [Commits on main since 1.46.0](https://github.com/prodyna-yasm/yasm-test/compare/1.46.0..HEAD) (1)
-
-- [Stabilization of entering edit mode  (#221)](https://github.com/prodyna-yasm/yasm-test/commit/3302115e6da4f1d5aa4a6666a8bca65b01e9b3f6) by [codinski](https://github.com/codinski) on 2024-11-15 09:24:17 +0000 UTC
 
 
 
@@ -663,11 +658,11 @@ Component Status overview. Last update 2024-12-07T07:33:21Z
 
 ### Last releases
 
+- [1.48.0](https://github.com/PRODYNA-YASM/yasm-test/releases/tag/1.48.0) on 2024-12-07 11:06:29 +0000 UTC
+
 - [1.46.0](https://github.com/PRODYNA-YASM/yasm-test/releases/tag/1.46.0) on 2024-11-08 13:55:37 +0000 UTC
 
 - [1.40.0](https://github.com/PRODYNA-YASM/yasm-test/releases/tag/1.40.0) on 2024-09-18 06:50:37 +0000 UTC
-
-- [Support for extracting results, videos and screenshots](https://github.com/PRODYNA-YASM/yasm-test/releases/tag/1.39.1) on 2024-08-23 20:36:14 +0000 UTC
 
 
 
@@ -718,13 +713,11 @@ Component Status overview. Last update 2024-12-07T07:33:21Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-metrics/actions?query=is%3Awaiting) (3)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-metrics/actions?query=is%3Awaiting) (2)
 
 - [Merge pull request #101 from PRODYNA-YASM/dependabot/go_modules/googl…](https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/12181564346) created on 2024-12-05 14:16:44 +0000 UTC
 
 - [Merge pull request #94 from PRODYNA-YASM/dependabot/go_modules/go.ope…](https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/11776201580) created on 2024-11-11 09:56:54 +0000 UTC
-
-- [Merge branch 'main' of github.com:prodyna-yasm/yasm-metrics](https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/11721997209) created on 2024-11-07 11:23:05 +0000 UTC
 
 
 

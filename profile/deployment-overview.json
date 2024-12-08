@@ -1387,13 +1387,20 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "1.46.0",
+        "Tag": "1.48.0",
         "SHA": "",
-        "Title": "1.46.0",
-        "Timestamp": "2024-11-14T13:10:53Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/1.46.0"
+        "Title": "1.48.0",
+        "Timestamp": "2024-12-07T11:15:05Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/1.48.0"
       },
       "Releases": [
+        {
+          "Tag": "1.48.0",
+          "SHA": "",
+          "Title": "1.48.0",
+          "Timestamp": "2024-12-07T11:06:29Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/1.48.0"
+        },
         {
           "Tag": "1.46.0",
           "SHA": "",
@@ -1407,13 +1414,6 @@
           "Title": "1.40.0",
           "Timestamp": "2024-09-18T06:50:37Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/1.40.0"
-        },
-        {
-          "Tag": "1.39.1",
-          "SHA": "",
-          "Title": "Support for extracting results, videos and screenshots",
-          "Timestamp": "2024-08-23T20:36:14Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/1.39.1"
         }
       ],
       "PullRequests": {
@@ -1452,20 +1452,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-test",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-test/compare/1.46.0..HEAD",
-        "Count": 1,
-        "Commits": [
-          {
-            "Text": "Stabilization of entering edit mode  (#221)",
-            "SHA": "3302115e6da4f1d5aa4a6666a8bca65b01e9b3f6",
-            "Author": {
-              "name": "codinski",
-              "link": "https://github.com/codinski"
-            },
-            "Timestamp": "2024-11-15T09:24:17Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/3302115e6da4f1d5aa4a6666a8bca65b01e9b3f6"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-test/compare/1.48.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1592,7 +1581,7 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 2,
         "Workflows": [
           {
             "Name": "Merge pull request #101 from PRODYNA-YASM/dependabot/go_modules/googl…",
@@ -1603,11 +1592,6 @@
             "Name": "Merge pull request #94 from PRODYNA-YASM/dependabot/go_modules/go.ope…",
             "Timestamp": "2024-11-11T09:56:54Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/11776201580"
-          },
-          {
-            "Name": "Merge branch 'main' of github.com:prodyna-yasm/yasm-metrics",
-            "Timestamp": "2024-11-07T11:23:05Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/11721997209"
           }
         ]
       }
@@ -1893,5 +1877,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-12-07T07:33:21Z"
+  "LastUpdated": "2024-12-08T07:33:06Z"
 }
