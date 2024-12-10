@@ -114,6 +114,13 @@
           "Version": "1.48.4",
           "IsRelease": true,
           "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.48.4",
+          "IsRelease": true,
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -2139,5 +2146,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-12-10T16:58:04Z"
+  "LastUpdated": "2024-12-10T17:08:23Z"
 }
