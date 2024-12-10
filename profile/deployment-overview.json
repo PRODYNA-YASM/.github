@@ -62,16 +62,16 @@
         "Count": 5,
         "PullRequests": [
           {
+            "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 4.4.0 to 5.0.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/759"
+          },
+          {
             "Title": "build(deps): bump quarkus.platform.version from 3.15.1 to 3.17.3",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/758"
           },
           {
             "Title": "build(deps): bump org.jsoup:jsoup from 1.18.1 to 1.18.3",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/756"
-          },
-          {
-            "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 4.4.0 to 5.0.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/755"
           },
           {
             "Title": "feat: #629 create awards service with crud operations, update organization and person with awards",
@@ -110,26 +110,33 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.48.1",
+          "Version": "1.48.2",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.48.1",
+          "Version": "1.48.2",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.48.1",
+        "Tag": "1.48.2",
         "SHA": "",
-        "Title": "Fix issue with long project names, results count loading fade in/out",
-        "Timestamp": "2024-12-06T13:12:12Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.48.1"
+        "Title": "Fix double ERP button, other ui glitches",
+        "Timestamp": "2024-12-09T16:56:10Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.48.2"
       },
       "Releases": [
+        {
+          "Tag": "1.48.2",
+          "SHA": "",
+          "Title": "Fix double ERP button, other ui glitches",
+          "Timestamp": "2024-12-09T16:17:27Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.48.2"
+        },
         {
           "Tag": "1.48.1",
           "SHA": "",
@@ -143,13 +150,6 @@
           "Title": "Shift from /api/v1 to /api/graph/v1, new features and bugfixes",
           "Timestamp": "2024-11-29T08:22:58Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.48.0"
-        },
-        {
-          "Tag": "1.42.0",
-          "SHA": "",
-          "Title": "Project to ERP mapping, search all result extended, add persons to projects",
-          "Timestamp": "2024-10-17T09:17:43Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.42.0"
         }
       ],
       "PullRequests": {
@@ -180,7 +180,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.48.1..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.48.2..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -188,8 +188,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 3,
         "Workflows": [
+          {
+            "Name": "fix: Bugfix/UI bugs after testing (#932)",
+            "Timestamp": "2024-12-09T16:56:12Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/12240426880"
+          },
           {
             "Name": "fix: Add ellipsis overflow to long project names (#930)",
             "Timestamp": "2024-12-06T13:12:14Z",
@@ -644,7 +649,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "ee2673f",
+          "Version": "bbfc63d",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -695,19 +700,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump alpine from 3.20.3 to 3.21.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/187"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.12.9..HEAD",
-        "Count": 9,
+        "Count": 11,
         "Commits": [
+          {
+            "Text": "Merge pull request #187 from PRODYNA-YASM/dependabot/docker/alpine-3.21.0",
+            "SHA": "bbfc63d108b4c22f0a9acbae94b3aef38ae1be21",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-09T12:58:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/bbfc63d108b4c22f0a9acbae94b3aef38ae1be21"
+          },
+          {
+            "Text": "Bump alpine from 3.20.3 to 3.21.0",
+            "SHA": "09a55a917924c6a05ea850c4837dda0a320aeb2e",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-12-06T16:25:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/09a55a917924c6a05ea850c4837dda0a320aeb2e"
+          },
           {
             "Text": "Merge pull request #186 from PRODYNA-YASM/feature/rename-mdc-to-ctx",
             "SHA": "ee2673fbdb4ca59c737fb1760f8d92fd64c325a2",
@@ -1089,7 +1109,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "3edbddd",
+          "Version": "a7b37fb",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1140,19 +1160,164 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "OpenTelemetry Operator 0.75",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/754"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.47.0..HEAD",
-        "Count": 3,
+        "Count": 18,
         "Commits": [
+          {
+            "Text": "Remove config of servicegraph",
+            "SHA": "a7b37fb0015165598896175568553eb225597dde",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-09T22:04:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a7b37fb0015165598896175568553eb225597dde"
+          },
+          {
+            "Text": "Back to image 114",
+            "SHA": "2b626e9390e14516d2bf21fcb632c7f2e19c32f0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-09T21:58:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/2b626e9390e14516d2bf21fcb632c7f2e19c32f0"
+          },
+          {
+            "Text": "Disable metrics generator in Otel and reactivate in Tempo.",
+            "SHA": "fd31d306c353e613c351a29668b174c338f7f2c7",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-09T21:41:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/fd31d306c353e613c351a29668b174c338f7f2c7"
+          },
+          {
+            "Text": "Use net.peer.name as well for service nodes",
+            "SHA": "f099a8183b82e462b2f19c36e8a45b44452696d5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-09T21:14:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f099a8183b82e462b2f19c36e8a45b44452696d5"
+          },
+          {
+            "Text": "Try to fix excepitons receiver",
+            "SHA": "c5e689fb5c24a98c30e59e3aa2e3ad405194f002",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-09T16:18:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c5e689fb5c24a98c30e59e3aa2e3ad405194f002"
+          },
+          {
+            "Text": "Merge pull request #758 from PRODYNA-YASM/755-visitor-metrics",
+            "SHA": "4b2946b2a0dd85ef918d5f05b7143df86c055c01",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-09T16:10:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/4b2946b2a0dd85ef918d5f05b7143df86c055c01"
+          },
+          {
+            "Text": "Remove remainder to signaltometrics",
+            "SHA": "63190f19beb22f6979ae2dd241b35c61a6614c5d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-09T16:02:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/63190f19beb22f6979ae2dd241b35c61a6614c5d"
+          },
+          {
+            "Text": "Remove signaltometrics for now",
+            "SHA": "59cc2b6deadac7286ec16f90b8e50219d9af1513",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-09T15:52:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/59cc2b6deadac7286ec16f90b8e50219d9af1513"
+          },
+          {
+            "Text": "Merge pull request #757 from PRODYNA-YASM/755-visitor-metrics",
+            "SHA": "560435242e5425bb5898932afe6f47c677f3e6c4",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-09T15:44:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/560435242e5425bb5898932afe6f47c677f3e6c4"
+          },
+          {
+            "Text": "Enable servicegeneration and exeption handling in Otel",
+            "SHA": "68e73b6ee6d3a80fea5c4bbd74a615d4225de068",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-09T15:38:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/68e73b6ee6d3a80fea5c4bbd74a615d4225de068"
+          },
+          {
+            "Text": "Merge pull request #756 from PRODYNA-YASM/755-visitor-metrics",
+            "SHA": "d7bb52a31dac6e65199f02f8ed6a03fdb1415b45",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-09T14:38:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d7bb52a31dac6e65199f02f8ed6a03fdb1415b45"
+          },
+          {
+            "Text": "Create spanmetrics",
+            "SHA": "34799160481c4047d7eeb8124b09f4f4a54524e6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-09T14:35:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/34799160481c4047d7eeb8124b09f4f4a54524e6"
+          },
+          {
+            "Text": "Create some spanmetrics",
+            "SHA": "07bf4c1884a88a95a0d5b76127e5d830839c4806",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-09T14:31:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/07bf4c1884a88a95a0d5b76127e5d830839c4806"
+          },
+          {
+            "Text": "Merge pull request #754 from PRODYNA-YASM/feature/otel-operator-0.75",
+            "SHA": "36b883d932efb1da50a95cb0e813d964f1eec841",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-09T12:58:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/36b883d932efb1da50a95cb0e813d964f1eec841"
+          },
+          {
+            "Text": "OpenTelemetry Operator 0.75",
+            "SHA": "d96b0d39c0b213b0d3973a819ac3af8b18e13a54",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-06T20:36:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d96b0d39c0b213b0d3973a819ac3af8b18e13a54"
+          },
           {
             "Text": "Merge pull request #753 from PRODYNA-YASM/feature/otel-operator-0.74.3",
             "SHA": "3edbddd80be14154648f821500a3f4c67359155e",
@@ -1471,7 +1636,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "9583ad7",
+          "Version": "c8da916",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1522,19 +1687,24 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump alpine from 3.20.3 to 3.21.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/103"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.4.4..HEAD",
-        "Count": 4,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #103 from PRODYNA-YASM/dependabot/docker/alpine-3.21.0",
+            "SHA": "c8da916383242eeae8f7e9cc5f42bd458b95d985",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-09T12:58:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/c8da916383242eeae8f7e9cc5f42bd458b95d985"
+          },
           {
             "Text": "Merge pull request #104 from PRODYNA-YASM/feature/rename-mdc-to-ctx",
             "SHA": "9583ad7b417da8e8aa8341413c80857ba372bfbf",
@@ -1574,6 +1744,16 @@
             },
             "Timestamp": "2024-12-06T13:43:00Z",
             "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/c6215a0d443bc0ee47abc20c7ac477d0ce2d21e6"
+          },
+          {
+            "Text": "Bump alpine from 3.20.3 to 3.21.0",
+            "SHA": "4bc1befee9528b1efb722ebc13f681db5c5e5996",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-12-06T05:27:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/4bc1befee9528b1efb722ebc13f681db5c5e5996"
           }
         ]
       },
@@ -1877,5 +2057,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-12-09T07:34:29Z"
+  "LastUpdated": "2024-12-10T07:34:23Z"
 }
