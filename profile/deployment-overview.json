@@ -155,8 +155,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 5,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "chore: bump @nivo/bar from 0.87.0 to 0.88.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/935"
+          },
           {
             "Title": "chore: bump yup from 0.32.11 to 1.5.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/924"
@@ -444,14 +448,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "c76900b",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.18.8",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.18.7",
+          "Version": "1.18.8",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -460,17 +464,24 @@
           "Link": "",
           "Version": "1.18.7",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.18.7",
+        "Tag": "1.18.8",
         "SHA": "",
-        "Title": "OtelChi 0.11.0",
-        "Timestamp": "2024-12-05T14:27:31Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.18.7"
+        "Title": "Improved logging",
+        "Timestamp": "2024-12-10T22:44:19Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.18.8"
       },
       "Releases": [
+        {
+          "Tag": "1.18.8",
+          "SHA": "",
+          "Title": "Improved logging",
+          "Timestamp": "2024-12-06T14:01:01Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.18.8"
+        },
         {
           "Tag": "1.18.7",
           "SHA": "",
@@ -484,13 +495,6 @@
           "Title": "OpenTelemetry 1.32 (more components)",
           "Timestamp": "2024-11-21T09:57:46Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.18.6"
-        },
-        {
-          "Tag": "1.18.5",
-          "SHA": "",
-          "Title": "OpenTelemetry 1.32",
-          "Timestamp": "2024-11-11T14:37:33Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.18.5"
         }
       ],
       "PullRequests": {
@@ -500,57 +504,21 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.18.7..HEAD",
-        "Count": 4,
-        "Commits": [
-          {
-            "Text": "Merge pull request #261 from PRODYNA-YASM/feature/rename-mdc-to-ctx",
-            "SHA": "c76900b5ba240df1bb958d414cb6ddc57eac5218",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-12-06T14:01:01Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/c76900b5ba240df1bb958d414cb6ddc57eac5218"
-          },
-          {
-            "Text": "Merge branch 'main' into feature/rename-mdc-to-ctx",
-            "SHA": "60bea7c6245f3f86eb42bed7127b06ec83c53100",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-12-06T13:57:33Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/60bea7c6245f3f86eb42bed7127b06ec83c53100"
-          },
-          {
-            "Text": "Use Go 1.23.4",
-            "SHA": "bbe9622897077d771749d7ffd595012ccf8c5cc4",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-12-06T13:52:03Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/bbe9622897077d771749d7ffd595012ccf8c5cc4"
-          },
-          {
-            "Text": "Use ctx as nested context",
-            "SHA": "549e1632014d02d5946cb4ec0c9687c8bc384f5d",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2024-12-06T13:45:45Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/549e1632014d02d5946cb4ec0c9687c8bc384f5d"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.18.8..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "Merge pull request #261 from PRODYNA-YASM/feature/rename-mdc-to-ctx",
+            "Timestamp": "2024-12-10T22:44:21Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/12266027330"
+          },
           {
             "Name": "Merge pull request #259 from PRODYNA-YASM/dependabot/go_modules/go.op…",
             "Timestamp": "2024-11-29T23:52:50Z",
@@ -2146,5 +2114,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-12-10T17:08:23Z"
+  "LastUpdated": "2024-12-11T07:34:02Z"
 }
