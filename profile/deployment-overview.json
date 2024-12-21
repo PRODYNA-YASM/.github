@@ -1172,8 +1172,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Log the number of entries removed in housekeeping",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-external/pull/44"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-external",
       "Commits": {
@@ -2408,5 +2413,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-12-20T07:32:23Z"
+  "LastUpdated": "2024-12-21T07:32:21Z"
 }
