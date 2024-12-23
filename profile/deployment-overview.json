@@ -1272,9 +1272,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8.14.1-0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "1ca3124",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1329,8 +1329,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.14.1-0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #66 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.15.0",
+            "SHA": "1ca312405b7ba62f1cca560c19485c6a6c2053e9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-23T00:28:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/1ca312405b7ba62f1cca560c19485c6a6c2053e9"
+          },
+          {
+            "Text": "Bump gotenberg/gotenberg from 8.14.1 to 8.15.0",
+            "SHA": "eec1b305f88b1a247c6d71de60fbc86ef58a2b52",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-12-23T00:26:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/eec1b305f88b1a247c6d71de60fbc86ef58a2b52"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1398,8 +1419,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 1,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Bump kubernetes from 2.35.0 to 2.35.1 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/780"
+          },
+          {
+            "Title": "Bump hashicorp/helm from 2.16.1 to 2.17.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/779"
+          },
           {
             "Title": "Bump DataDog/datadog from 3.49.0 to 3.50.0 in /terraform/kubernetes",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/778"
@@ -1689,8 +1718,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.48.0..HEAD",
-        "Count": 2,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin (#246)",
+            "SHA": "666d35933df55647c13620879c100d00c0dceef6",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-12-23T00:44:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/666d35933df55647c13620879c100d00c0dceef6"
+          },
           {
             "Text": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin (#245)",
             "SHA": "1fddebd3672eb93087b5cf76d952e57382729136",
@@ -2413,5 +2452,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-12-22T07:32:18Z"
+  "LastUpdated": "2024-12-23T07:32:39Z"
 }

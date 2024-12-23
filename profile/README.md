@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-12-22T07:32:18Z
+Component Status overview. Last update 2024-12-23T07:32:39Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -13,10 +13,10 @@ Component Status overview. Last update 2024-12-22T07:32:18Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [18](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.12.9..HEAD) | :green_square: 0 | 1.12.9 |  :red_square: 199016c |  :green_square: 1.12.9 |  :green_square: 1.12.9 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [7](https://github.com/prodyna-yasm/yasm-external/compare/1.0.5..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-external/pulls) | 1.0.5 |  :red_square: 0c95544 |  :green_square: 1.0.5 |  :green_square: 1.0.5 | 
-| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.14.1-0 |  :green_square: 8.14.1-0 |  :green_square: 8.14.1-0 |  :green_square: 8.14.1-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [16](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.48.3..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.48.3 |  :red_square: ff9bb8d |  :green_square: 1.48.3 |  :green_square: 1.48.3 | 
+| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [2](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.14.1-0..HEAD) | :green_square: 0 | 8.14.1-0 |  :red_square: 1ca3124 |  :green_square: 8.14.1-0 |  :green_square: 8.14.1-0 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [16](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.48.3..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.48.3 |  :red_square: ff9bb8d |  :green_square: 1.48.3 |  :green_square: 1.48.3 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :green_square: 0 | 1.48.0 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [2](https://github.com/prodyna-yasm/yasm-api/compare/1.48.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.48.0 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.48.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.48.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-test/pulls) | 1.48.0 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [28](https://github.com/prodyna-yasm/yasm-metrics/compare/1.4.4..HEAD) | :green_square: 0 | 1.4.4 |  :red_square: 2a5304e |  :green_square: 1.4.4 |  :green_square: 1.4.4 | 
@@ -481,6 +481,13 @@ Component Status overview. Last update 2024-12-22T07:32:18Z
 
 
 
+### [Commits on main since 8.14.1-0](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.14.1-0..HEAD) (2)
+
+- [Merge pull request #66 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.15.0](https://github.com/prodyna-yasm/yasm-gotenberg/commit/1ca312405b7ba62f1cca560c19485c6a6c2053e9) by [dkrizic](https://github.com/dkrizic) on 2024-12-23 00:28:59 +0000 UTC
+
+- [Bump gotenberg/gotenberg from 8.14.1 to 8.15.0](https://github.com/prodyna-yasm/yasm-gotenberg/commit/eec1b305f88b1a247c6d71de60fbc86ef58a2b52) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-12-23 00:26:06 +0000 UTC
+
+
 
 
 
@@ -488,9 +495,9 @@ Component Status overview. Last update 2024-12-22T07:32:18Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  8.14.1-0 |  8.14.1-0 |  8.14.1-0 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  1ca3124 |  8.14.1-0 |  8.14.1-0 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -548,7 +555,11 @@ Component Status overview. Last update 2024-12-22T07:32:18Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (1)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (3)
+
+- [Bump kubernetes from 2.35.0 to 2.35.1 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/780)
+
+- [Bump hashicorp/helm from 2.16.1 to 2.17.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/779)
 
 - [Bump DataDog/datadog from 3.49.0 to 3.50.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/778)
 
@@ -611,7 +622,9 @@ Component Status overview. Last update 2024-12-22T07:32:18Z
 
 
 
-### [Commits on main since 1.48.0](https://github.com/prodyna-yasm/yasm-api/compare/1.48.0..HEAD) (2)
+### [Commits on main since 1.48.0](https://github.com/prodyna-yasm/yasm-api/compare/1.48.0..HEAD) (3)
+
+- [chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin (#246)](https://github.com/prodyna-yasm/yasm-api/commit/666d35933df55647c13620879c100d00c0dceef6) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-12-23 00:44:42 +0000 UTC
 
 - [chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin (#245)](https://github.com/prodyna-yasm/yasm-api/commit/1fddebd3672eb93087b5cf76d952e57382729136) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2024-12-19 00:48:04 +0000 UTC
 
