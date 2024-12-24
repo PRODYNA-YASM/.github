@@ -481,7 +481,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "3941ef6",
+          "Version": "e6e42cf",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -538,8 +538,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.18.8..HEAD",
-        "Count": 3,
+        "Count": 5,
         "Commits": [
+          {
+            "Text": "Merge pull request #267 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.69.2",
+            "SHA": "e6e42cf75feca00faa70f55e15c8cf5e598a316b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-23T13:56:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/e6e42cf75feca00faa70f55e15c8cf5e598a316b"
+          },
+          {
+            "Text": "Bump google.golang.org/grpc from 1.69.0 to 1.69.2",
+            "SHA": "31c562ec44bee31522a54b41c69943cf4263e524",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-12-23T13:33:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/31c562ec44bee31522a54b41c69943cf4263e524"
+          },
           {
             "Text": "Merge pull request #263 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/sdk-1.33.0",
             "SHA": "3941ef693efa96c0a0422c83e65441caae3a0883",
@@ -1368,23 +1388,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "ff9bb8d",
+          "Version": "98af05d",
           "IsRelease": false,
           "IsCurrent": false
-        },
-        {
-          "Name": "staging",
-          "Link": "",
-          "Version": "1.48.3",
-          "IsRelease": true,
-          "IsCurrent": true
-        },
-        {
-          "Name": "prod",
-          "Link": "",
-          "Version": "1.48.3",
-          "IsRelease": true,
-          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1419,16 +1425,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 3,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "Bump kubernetes from 2.35.0 to 2.35.1 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/780"
-          },
-          {
-            "Title": "Bump hashicorp/helm from 2.16.1 to 2.17.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/779"
-          },
           {
             "Title": "Bump DataDog/datadog from 3.49.0 to 3.50.0 in /terraform/kubernetes",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/778"
@@ -1438,8 +1436,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.48.3..HEAD",
-        "Count": 16,
+        "Count": 20,
         "Commits": [
+          {
+            "Text": "Fix spec for gRPC",
+            "SHA": "98af05dec25b45f81c9cc4546d3a3e7d633b69ee",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-23T23:52:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/98af05dec25b45f81c9cc4546d3a3e7d633b69ee"
+          },
+          {
+            "Text": "Add missing hostnames to the routes",
+            "SHA": "880aa6b20ecfb19de02fd8e697471948164e578f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-23T23:43:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/880aa6b20ecfb19de02fd8e697471948164e578f"
+          },
+          {
+            "Text": "Use gRPC with HTTP only",
+            "SHA": "91afab91ee1890dcaf8c0686636de6dbc302be87",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-23T23:28:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/91afab91ee1890dcaf8c0686636de6dbc302be87"
+          },
+          {
+            "Text": "Update provders",
+            "SHA": "d5160d343990da31c771c9debe80f34ec0883bf4",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-23T23:20:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d5160d343990da31c771c9debe80f34ec0883bf4"
+          },
           {
             "Text": "Disable some endpoints",
             "SHA": "ff9bb8d5df5f5b3caaf7fae0042dc2b42a91675c",
@@ -2452,5 +2490,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-12-23T07:32:39Z"
+  "LastUpdated": "2024-12-24T07:32:21Z"
 }
