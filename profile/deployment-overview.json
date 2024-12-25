@@ -1292,7 +1292,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1ca3124",
+          "Version": "39e77d4",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1349,8 +1349,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.14.1-0..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #67 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.15.1",
+            "SHA": "39e77d412d07e6eacc51c60c1f89423c8fd98b96",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2024-12-25T00:46:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/39e77d412d07e6eacc51c60c1f89423c8fd98b96"
+          },
+          {
+            "Text": "Bump gotenberg/gotenberg from 8.15.0 to 8.15.1",
+            "SHA": "ac165c3be22bfb5e7fe33e823504d8e5fd0a8b3a",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2024-12-25T00:41:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/ac165c3be22bfb5e7fe33e823504d8e5fd0a8b3a"
+          },
           {
             "Text": "Merge pull request #66 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.15.0",
             "SHA": "1ca312405b7ba62f1cca560c19485c6a6c2053e9",
@@ -2490,5 +2510,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-12-24T07:32:21Z"
+  "LastUpdated": "2024-12-25T07:32:33Z"
 }
