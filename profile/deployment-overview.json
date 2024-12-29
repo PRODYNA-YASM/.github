@@ -343,17 +343,12 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
           {
             "Name": "Merge pull request #571 from PRODYNA-YASM/feature/security-update",
             "Timestamp": "2024-12-12T16:04:43Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/12300220760"
-          },
-          {
-            "Name": "Merge pull request #562 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2024-11-28T12:43:05Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/12069121849"
           }
         ]
       }
@@ -1044,17 +1039,12 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
           {
             "Name": "Merge pull request #183 from PRODYNA-YASM/dependabot/go_modules/githu…",
             "Timestamp": "2024-11-30T17:25:45Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/12098221595"
-          },
-          {
-            "Name": "Merge pull request #182 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2024-11-28T12:44:06Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/12069138175"
           }
         ]
       }
@@ -2530,5 +2520,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-12-28T07:32:29Z"
+  "LastUpdated": "2024-12-29T07:32:21Z"
 }
