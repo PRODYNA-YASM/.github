@@ -211,7 +211,7 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 2,
         "Workflows": [
           {
             "Name": "fix: Bugfix/UI bugs after testing (#932)",
@@ -222,11 +222,6 @@
             "Name": "fix: Add ellipsis overflow to long project names (#930)",
             "Timestamp": "2024-12-06T13:12:14Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/12199410822"
-          },
-          {
-            "Name": "feat: 723 person detail view: onhover show projects in which skills w…",
-            "Timestamp": "2024-11-29T12:09:51Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/12084493609"
           }
         ]
       }
@@ -591,14 +586,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #259 from PRODYNA-YASM/dependabot/go_modules/go.op…",
-            "Timestamp": "2024-11-29T23:52:50Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/12091768205"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -2520,5 +2509,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2024-12-29T07:32:21Z"
+  "LastUpdated": "2024-12-30T07:33:18Z"
 }

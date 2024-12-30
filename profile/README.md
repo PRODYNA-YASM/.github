@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-12-29T07:32:21Z
+Component Status overview. Last update 2024-12-30T07:33:18Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -119,13 +119,11 @@ Component Status overview. Last update 2024-12-29T07:32:21Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (3)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (2)
 
 - [fix: Bugfix/UI bugs after testing (#932)](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/12240426880) created on 2024-12-09 16:56:12 +0000 UTC
 
 - [fix: Add ellipsis overflow to long project names (#930)](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/12199410822) created on 2024-12-06 13:12:14 +0000 UTC
-
-- [feat: 723 person detail view: onhover show projects in which skills w…](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/12084493609) created on 2024-11-29 12:09:51 +0000 UTC
 
 
 
@@ -256,11 +254,6 @@ Component Status overview. Last update 2024-12-29T07:32:21Z
 - [OpenTelemetry 1.32 (more components)](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.18.6) on 2024-11-21 09:57:46 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #259 from PRODYNA-YASM/dependabot/go_modules/go.op…](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/12091768205) created on 2024-11-29 23:52:50 +0000 UTC
 
 
 
