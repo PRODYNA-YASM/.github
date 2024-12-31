@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2024-12-30T07:33:18Z
+Component Status overview. Last update 2024-12-31T07:32:18Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -378,11 +378,6 @@ Component Status overview. Last update 2024-12-30T07:33:18Z
 - [Testify 1.10](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.12.7) on 2024-11-25 18:39:40 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #183 from PRODYNA-YASM/dependabot/go_modules/githu…](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/12098221595) created on 2024-11-30 17:25:45 +0000 UTC
 
 
 
