@@ -233,7 +233,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "78af718",
+          "Version": "4f60de1",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -290,8 +290,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.48.2..HEAD",
-        "Count": 4,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #584 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.56.0",
+            "SHA": "4f60de1f80727ad8a35e79746db25425d56b8a74",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-03T03:19:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/4f60de1f80727ad8a35e79746db25425d56b8a74"
+          },
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.55.0 to 1.56.0",
+            "SHA": "dcc87bb1a59c76ba2be292380c7c985a9c05eaf6",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-01-03T01:48:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/dcc87bb1a59c76ba2be292380c7c985a9c05eaf6"
+          },
           {
             "Text": "Merge pull request #582 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.69.2",
             "SHA": "78af718b13f22a0a00fe70a86fd6b66820296377",
@@ -2503,5 +2523,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-01-02T07:32:28Z"
+  "LastUpdated": "2025-01-03T07:32:16Z"
 }

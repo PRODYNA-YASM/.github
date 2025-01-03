@@ -1,12 +1,12 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-01-02T07:32:28Z
+Component Status overview. Last update 2025-01-03T07:32:16Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-backend/compare/1.48.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.48.0 |  :red_square: e90643f |  :green_square: 1.48.0 |  :green_square: 1.48.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.48.4..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.48.4 |  :red_square: 460117f |  :green_square: 1.48.4 |  :green_square: 1.48.4 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [4](https://github.com/prodyna-yasm/yasm-integration/compare/1.48.2..HEAD) | :green_square: 0 | 1.48.2 |  :red_square: 78af718 |  :green_square: 1.48.2 |  :green_square: 1.48.2 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [6](https://github.com/prodyna-yasm/yasm-integration/compare/1.48.2..HEAD) | :green_square: 0 | 1.48.2 |  :red_square: 4f60de1 |  :green_square: 1.48.2 |  :green_square: 1.48.2 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [4](https://github.com/prodyna-yasm/yasmctl/compare/1.48.0..HEAD) | :green_square: 0 | 1.48.0 |  :red_square: adb4535 |  :green_square: 1.48.0 |  :green_square: 1.48.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [5](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.18.8..HEAD) | :green_square: 0 | 1.18.8 |  :red_square: e6e42cf |  :green_square: 1.18.8 |  :green_square: 1.18.8 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [11](https://github.com/prodyna-yasm/yasm-github/compare/1.7.9..HEAD) | :green_square: 0 | 1.7.9 |  :red_square: d21e5bf |  :green_square: 1.7.9 |  :green_square: 1.7.9 | 
@@ -133,7 +133,11 @@ Component Status overview. Last update 2025-01-02T07:32:28Z
 
 
 
-### [Commits on main since 1.48.2](https://github.com/prodyna-yasm/yasm-integration/compare/1.48.2..HEAD) (4)
+### [Commits on main since 1.48.2](https://github.com/prodyna-yasm/yasm-integration/compare/1.48.2..HEAD) (6)
+
+- [Merge pull request #584 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.56.0](https://github.com/prodyna-yasm/yasm-integration/commit/4f60de1f80727ad8a35e79746db25425d56b8a74) by [dkrizic](https://github.com/dkrizic) on 2025-01-03 03:19:17 +0000 UTC
+
+- [Bump github.com/microsoftgraph/msgraph-sdk-go from 1.55.0 to 1.56.0](https://github.com/prodyna-yasm/yasm-integration/commit/dcc87bb1a59c76ba2be292380c7c985a9c05eaf6) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-01-03 01:48:44 +0000 UTC
 
 - [Merge pull request #582 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.69.2](https://github.com/prodyna-yasm/yasm-integration/commit/78af718b13f22a0a00fe70a86fd6b66820296377) by [dkrizic](https://github.com/dkrizic) on 2024-12-19 08:55:17 +0000 UTC
 
@@ -151,7 +155,7 @@ Component Status overview. Last update 2025-01-02T07:32:28Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  78af718 |  1.48.2 |  1.48.2 | 
+| Version |  4f60de1 |  1.48.2 |  1.48.2 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
