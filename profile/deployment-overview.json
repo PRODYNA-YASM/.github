@@ -1929,8 +1929,8 @@
         "Count": 7,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump @types/node from 22.8.1 to 22.10.3",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/237"
+            "Title": "chore(deps-dev): Bump @types/node from 22.8.1 to 22.10.5",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/238"
           },
           {
             "Title": "chore(deps-dev): Bump cypress from 13.15.1 to 13.17.0",
@@ -2523,5 +2523,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-01-03T07:32:16Z"
+  "LastUpdated": "2025-01-04T07:32:34Z"
 }
