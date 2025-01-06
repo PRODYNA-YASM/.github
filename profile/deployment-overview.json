@@ -211,17 +211,12 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
           {
             "Name": "fix: Bugfix/UI bugs after testing (#932)",
             "Timestamp": "2024-12-09T16:56:12Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/12240426880"
-          },
-          {
-            "Name": "fix: Add ellipsis overflow to long project names (#930)",
-            "Timestamp": "2024-12-06T13:12:14Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/12199410822"
           }
         ]
       }
@@ -1185,13 +1180,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Log the number of entries removed in housekeeping",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-external/pull/44"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-external",
       "Commits": {
@@ -1421,7 +1411,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "98af05d",
+          "Version": "1d5f056",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -1469,8 +1459,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.48.3..HEAD",
-        "Count": 20,
+        "Count": 22,
         "Commits": [
+          {
+            "Text": "Merge pull request #781 from PRODYNA-YASM/feature/add-neo4j-url",
+            "SHA": "1d5f056b5ce27973d5c5c2939efd4da2094fd960",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-05T23:11:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1d5f056b5ce27973d5c5c2939efd4da2094fd960"
+          },
+          {
+            "Text": "Create NEO4J_URI",
+            "SHA": "ec9ba92b06e1a41c1f1549e6221f9ac4f9025893",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-05T22:59:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ec9ba92b06e1a41c1f1549e6221f9ac4f9025893"
+          },
           {
             "Text": "Fix spec for gRPC",
             "SHA": "98af05dec25b45f81c9cc4546d3a3e7d633b69ee",
@@ -1717,8 +1727,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Add yasm-graphql",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-common/pull/161"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common",
       "Commits": {
@@ -2523,5 +2538,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-01-05T07:32:38Z"
+  "LastUpdated": "2025-01-06T07:32:20Z"
 }

@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-01-05T07:32:38Z
+Component Status overview. Last update 2025-01-06T07:32:20Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -12,10 +12,10 @@ Component Status overview. Last update 2025-01-05T07:32:38Z
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [11](https://github.com/prodyna-yasm/yasm-github/compare/1.7.9..HEAD) | :green_square: 0 | 1.7.9 |  :red_square: d21e5bf |  :green_square: 1.7.9 |  :green_square: 1.7.9 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [18](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.12.9..HEAD) | :green_square: 0 | 1.12.9 |  :red_square: 199016c |  :green_square: 1.12.9 |  :green_square: 1.12.9 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
-| [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [7](https://github.com/prodyna-yasm/yasm-external/compare/1.0.5..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-external/pulls) | 1.0.5 |  :red_square: 0c95544 |  :green_square: 1.0.5 |  :green_square: 1.0.5 | 
+| [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [7](https://github.com/prodyna-yasm/yasm-external/compare/1.0.5..HEAD) | :green_square: 0 | 1.0.5 |  :red_square: 0c95544 |  :green_square: 1.0.5 |  :green_square: 1.0.5 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [6](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.14.1-0..HEAD) | :green_square: 0 | 8.14.1-0 |  :red_square: 093026e |  :green_square: 8.14.1-0 |  :green_square: 8.14.1-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [20](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.48.3..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.48.3 |  :red_square: 98af05d | 
-| [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :green_square: 0 | 1.48.0 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [22](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.48.3..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.48.3 |  :red_square: 1d5f056 | 
+| [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.48.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.48.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.48.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-test/pulls) | 1.48.0 | 
@@ -119,11 +119,9 @@ Component Status overview. Last update 2025-01-05T07:32:38Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (2)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
 
 - [fix: Bugfix/UI bugs after testing (#932)](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/12240426880) created on 2024-12-09 16:56:12 +0000 UTC
-
-- [fix: Add ellipsis overflow to long project names (#930)](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/12199410822) created on 2024-12-06 13:12:14 +0000 UTC
 
 
 
@@ -440,11 +438,6 @@ Component Status overview. Last update 2025-01-05T07:32:38Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-external/pulls) (1)
-
-- [Log the number of entries removed in housekeeping](https://github.com/PRODYNA-YASM/yasm-external/pull/44)
-
-
 
 ### Environments
 
@@ -518,7 +511,11 @@ Component Status overview. Last update 2025-01-05T07:32:38Z
 
 
 
-### [Commits on main since 1.48.3](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.48.3..HEAD) (20)
+### [Commits on main since 1.48.3](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.48.3..HEAD) (22)
+
+- [Merge pull request #781 from PRODYNA-YASM/feature/add-neo4j-url](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1d5f056b5ce27973d5c5c2939efd4da2094fd960) by [dkrizic](https://github.com/dkrizic) on 2025-01-05 23:11:55 +0000 UTC
+
+- [Create NEO4J_URI](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ec9ba92b06e1a41c1f1549e6221f9ac4f9025893) by [dkrizic](https://github.com/dkrizic) on 2025-01-05 22:59:00 +0000 UTC
 
 - [Fix spec for gRPC](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/98af05dec25b45f81c9cc4546d3a3e7d633b69ee) by [dkrizic](https://github.com/dkrizic) on 2024-12-23 23:52:47 +0000 UTC
 
@@ -573,7 +570,7 @@ Component Status overview. Last update 2025-01-05T07:32:38Z
 
 | Environment |  dev | 
 | --- |  --- | 
-| Version |  98af05d | 
+| Version |  1d5f056 | 
 | Release |  :red_square: | 
 | Current |  :red_square: | 
 
@@ -596,6 +593,11 @@ Component Status overview. Last update 2025-01-05T07:32:38Z
 
 
 
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) (1)
+
+- [Add yasm-graphql](https://github.com/PRODYNA-YASM/yasm-infrastructure-common/pull/161)
 
 
 
