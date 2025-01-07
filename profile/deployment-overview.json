@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "e90643f",
+          "Version": "d77d00e",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -82,8 +82,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.48.0..HEAD",
-        "Count": 1,
+        "Count": 2,
         "Commits": [
+          {
+            "Text": "build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.43.0 to 2.44.0 (#763)",
+            "SHA": "d77d00ebd59d4b8a062604cc99a7256146d70610",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-01-07T07:23:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/d77d00ebd59d4b8a062604cc99a7256146d70610"
+          },
           {
             "Text": "build(deps): bump org.jsoup:jsoup from 1.18.1 to 1.18.3 (#756)",
             "SHA": "e90643f40c7e7f202dd1c86bf62a4f60a5bc84b0",
@@ -612,7 +622,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d21e5bf",
+          "Version": "9728e8d",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -669,8 +679,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.7.9..HEAD",
-        "Count": 11,
+        "Count": 13,
         "Commits": [
+          {
+            "Text": "Merge pull request #178 from PRODYNA-YASM/dependabot/go_modules/golang.org/x/oauth2-0.25.0",
+            "SHA": "9728e8d40308bbf4afbaf2ffe3c76182bd12e9db",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-07T00:11:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/9728e8d40308bbf4afbaf2ffe3c76182bd12e9db"
+          },
+          {
+            "Text": "Bump golang.org/x/oauth2 from 0.24.0 to 0.25.0",
+            "SHA": "1d4e60fee5467df97435524e0a5771298750a99e",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-01-07T00:01:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/1d4e60fee5467df97435524e0a5771298750a99e"
+          },
           {
             "Text": "Merge pull request #177 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.69.2",
             "SHA": "d21e5bfd21b8de4958f08225ccc9a5a6b670b430",
@@ -1275,7 +1305,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "093026e",
+          "Version": "cd94397",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1332,8 +1362,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.14.1-0..HEAD",
-        "Count": 6,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Merge pull request #69 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.15.3",
+            "SHA": "cd943972fc8c6eb2f6a8170aade9c7eedc8e5ca5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-07T01:23:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/cd943972fc8c6eb2f6a8170aade9c7eedc8e5ca5"
+          },
+          {
+            "Text": "Bump gotenberg/gotenberg from 8.15.2 to 8.15.3",
+            "SHA": "755fd9f07e66e266ff8facadccdba9319f661671",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-01-07T00:25:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/755fd9f07e66e266ff8facadccdba9319f661671"
+          },
           {
             "Text": "Merge pull request #68 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.15.2",
             "SHA": "093026e5c292f638bf4368c1b74a2c5213b9f216",
@@ -1994,7 +2044,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2a5304e",
+          "Version": "ea914a9",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2051,8 +2101,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.4.4..HEAD",
-        "Count": 28,
+        "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #116 from PRODYNA-YASM/dependabot/docker/alpine-3.21.1",
+            "SHA": "ea914a9d0eeceff543cb0593391eb64e8df28b0f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-07T07:21:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/ea914a9d0eeceff543cb0593391eb64e8df28b0f"
+          },
+          {
+            "Text": "Bump alpine from 3.21.0 to 3.21.1",
+            "SHA": "470f79eb60ab371a1432632304b49cb4fc8514fb",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-01-07T05:26:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/470f79eb60ab371a1432632304b49cb4fc8514fb"
+          },
           {
             "Text": "Merge pull request #115 from PRODYNA-YASM/dependabot/go_modules/github.com/pressly/goose/v3-3.24.0",
             "SHA": "2a5304ebb06fbb5bd2472ee57b6872606641204e",
@@ -2538,5 +2608,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-01-06T07:32:20Z"
+  "LastUpdated": "2025-01-07T07:32:38Z"
 }
