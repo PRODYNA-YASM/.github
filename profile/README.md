@@ -1,12 +1,12 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-01-07T17:45:02Z
+Component Status overview. Last update 2025-01-08T07:32:30Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-backend/compare/1.48.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.48.0 |  :red_square: 23e3e49 |  :green_square: 1.48.0 |  :green_square: 1.48.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-backend/compare/1.48.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.48.0 |  :red_square: 23e3e49 |  :green_square: 1.48.0 |  :green_square: 1.48.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.48.4..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.48.4 |  :red_square: 8fcb0e1 |  :green_square: 1.48.4 |  :green_square: 1.48.4 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.48.4 |  :green_square: 1.48.4 |  :green_square: 1.48.4 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.48.4..HEAD) | :green_square: 0 | 1.48.4 |  :red_square: 4c0ad2e |  :green_square: 1.48.4 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.48.2 |  :green_square: 1.48.2 |  :green_square: 1.48.2 |  :red_square: 1.48.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.19.0 |  :green_square: 1.19.0 |  :green_square: 1.19.0 |  :red_square: 1.18.8 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.8.0 |  :green_square: 1.8.0 |  :green_square: 1.8.0 |  :red_square: 1.7.9 | 
@@ -19,7 +19,7 @@ Component Status overview. Last update 2025-01-07T17:45:02Z
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.48.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.48.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-test/pulls) | 1.48.0 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :green_square: 0 | :green_square: 0 | 1.4.6 |  :green_square: 1.4.6 |  :green_square: 1.4.6 |  :red_square: 1.4.4 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [2](https://github.com/prodyna-yasm/yasm-metrics/compare/1.4.6..HEAD) | :green_square: 0 | 1.4.6 |  :red_square: aa0d767 |  :green_square: 1.4.6 |  :red_square: 1.4.4 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :green_square: 0 | :green_square: 0 | 1.6.3 |  :green_square: 1.6.3 |  :green_square: 1.6.3 |  :red_square: 1.6.1 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.1.1 |  :green_square: 1.1.1 |  :green_square: 1.1.1 |  :green_square: 1.1.1 | 
 
@@ -43,7 +43,9 @@ Component Status overview. Last update 2025-01-07T17:45:02Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (2)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (3)
+
+- [build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.0 to 2.44.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/765)
 
 - [feat: #629 create awards service with crud operations, update organization and person with awards](https://github.com/PRODYNA-YASM/yasm-backend/pull/718)
 
@@ -135,6 +137,13 @@ Component Status overview. Last update 2025-01-07T17:45:02Z
 
 
 
+### [Commits on main since 1.48.4](https://github.com/prodyna-yasm/yasm-integration/compare/1.48.4..HEAD) (2)
+
+- [Merge pull request #586 from PRODYNA-YASM/dependabot/docker/alpine-3.21.1](https://github.com/prodyna-yasm/yasm-integration/commit/4c0ad2e738fec89507b0e120ce18c6614b4d0286) by [dkrizic](https://github.com/dkrizic) on 2025-01-08 03:45:30 +0000 UTC
+
+- [Bump alpine from 3.21.0 to 3.21.1](https://github.com/prodyna-yasm/yasm-integration/commit/f44fb8b271b9a26c6bad7715b20f96046cb5791b) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-01-08 01:16:42 +0000 UTC
+
+
 
 
 
@@ -142,9 +151,9 @@ Component Status overview. Last update 2025-01-07T17:45:02Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  1.48.4 |  1.48.4 | 
-| Release |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: | 
+| Version |  4c0ad2e |  1.48.4 | 
+| Release |  :red_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: | 
 
 
 ### Last releases
@@ -633,6 +642,13 @@ Component Status overview. Last update 2025-01-07T17:45:02Z
 
 
 
+### [Commits on main since 1.4.6](https://github.com/prodyna-yasm/yasm-metrics/compare/1.4.6..HEAD) (2)
+
+- [Merge pull request #117 from PRODYNA-YASM/dependabot/go_modules/github.com/pressly/goose/v3-3.24.1](https://github.com/prodyna-yasm/yasm-metrics/commit/aa0d767ffa22801973646188357c978716e6b750) by [dkrizic](https://github.com/dkrizic) on 2025-01-08 06:21:49 +0000 UTC
+
+- [Bump github.com/pressly/goose/v3 from 3.24.0 to 3.24.1](https://github.com/prodyna-yasm/yasm-metrics/commit/75acdc9a42a3d652b34d9a44a2c1f32f29386e56) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-01-08 05:40:49 +0000 UTC
+
+
 
 
 
@@ -640,9 +656,9 @@ Component Status overview. Last update 2025-01-07T17:45:02Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.4.6 |  1.4.6 |  1.4.4 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Version |  aa0d767 |  1.4.6 |  1.4.4 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases

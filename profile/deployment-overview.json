@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.0 to 2.44.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/765"
+          },
           {
             "Title": "feat: #629 create awards service with crud operations, update organization and person with awards",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/718"
@@ -260,9 +264,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.48.4",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "4c0ad2e",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -310,8 +314,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.48.4..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #586 from PRODYNA-YASM/dependabot/docker/alpine-3.21.1",
+            "SHA": "4c0ad2e738fec89507b0e120ce18c6614b4d0286",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-08T03:45:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/4c0ad2e738fec89507b0e120ce18c6614b4d0286"
+          },
+          {
+            "Text": "Bump alpine from 3.21.0 to 3.21.1",
+            "SHA": "f44fb8b271b9a26c6bad7715b20f96046cb5791b",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-01-08T01:16:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/f44fb8b271b9a26c6bad7715b20f96046cb5791b"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1310,9 +1335,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.4.6",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "aa0d767",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1367,8 +1392,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.4.6..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #117 from PRODYNA-YASM/dependabot/go_modules/github.com/pressly/goose/v3-3.24.1",
+            "SHA": "aa0d767ffa22801973646188357c978716e6b750",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-08T06:21:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/aa0d767ffa22801973646188357c978716e6b750"
+          },
+          {
+            "Text": "Bump github.com/pressly/goose/v3 from 3.24.0 to 3.24.1",
+            "SHA": "75acdc9a42a3d652b34d9a44a2c1f32f29386e56",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-01-08T05:40:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/75acdc9a42a3d652b34d9a44a2c1f32f29386e56"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1574,5 +1620,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-01-07T17:45:02Z"
+  "LastUpdated": "2025-01-08T07:32:30Z"
 }
