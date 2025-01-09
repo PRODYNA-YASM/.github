@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-01-08T07:32:30Z
+Component Status overview. Last update 2025-01-09T07:32:53Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-backend/compare/1.48.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.48.0 |  :red_square: 23e3e49 |  :green_square: 1.48.0 |  :green_square: 1.48.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.48.4..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.48.4 |  :red_square: 8fcb0e1 |  :green_square: 1.48.4 |  :green_square: 1.48.4 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [5](https://github.com/prodyna-yasm/yasm-backend/compare/1.48.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.48.0 |  :red_square: 9c79093 |  :green_square: 1.48.0 |  :green_square: 1.48.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.48.4..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.48.4 |  :red_square: 8fcb0e1 |  :green_square: 1.48.4 |  :green_square: 1.48.4 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.48.4..HEAD) | :green_square: 0 | 1.48.4 |  :red_square: 4c0ad2e |  :green_square: 1.48.4 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.48.2 |  :green_square: 1.48.2 |  :green_square: 1.48.2 |  :red_square: 1.48.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.19.0 |  :green_square: 1.19.0 |  :green_square: 1.19.0 |  :red_square: 1.18.8 | 
@@ -30,7 +30,9 @@ Component Status overview. Last update 2025-01-08T07:32:30Z
 
 
 
-### [Commits on main since 1.48.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.48.0..HEAD) (4)
+### [Commits on main since 1.48.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.48.0..HEAD) (5)
+
+- [build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.0 to 2.44.1 (#765)](https://github.com/prodyna-yasm/yasm-backend/commit/9c79093d2fa7ad8e99536374eb680775d3abe91b) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-01-08 08:27:46 +0000 UTC
 
 - [History max 3](https://github.com/prodyna-yasm/yasm-backend/commit/23e3e49839c432f704f75aa90f9ac145bd8ced50) by [dkrizic](https://github.com/dkrizic) on 2025-01-07 16:16:25 +0000 UTC
 
@@ -45,7 +47,7 @@ Component Status overview. Last update 2025-01-08T07:32:30Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (3)
 
-- [build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.0 to 2.44.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/765)
+- [build(deps): bump quarkus.platform.version from 3.17.5 to 3.17.6](https://github.com/PRODYNA-YASM/yasm-backend/pull/766)
 
 - [feat: #629 create awards service with crud operations, update organization and person with awards](https://github.com/PRODYNA-YASM/yasm-backend/pull/718)
 
@@ -57,7 +59,7 @@ Component Status overview. Last update 2025-01-08T07:32:30Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  23e3e49 |  1.48.0 |  1.48.0 | 
+| Version |  9c79093 |  1.48.0 |  1.48.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -89,7 +91,9 @@ Component Status overview. Last update 2025-01-08T07:32:30Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
+
+- [feat: show how many skills/methodologies/certifications are already selected during pdf export](https://github.com/PRODYNA-YASM/yasm-frontend/pull/937)
 
 - [chore: bump @nivo/bar from 0.87.0 to 0.88.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/935)
 
@@ -123,11 +127,6 @@ Component Status overview. Last update 2025-01-08T07:32:30Z
 - [Fix double ERP button, other ui glitches](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.48.2) on 2024-12-09 16:17:27 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
-
-- [fix: Bugfix/UI bugs after testing (#932)](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/12240426880) created on 2024-12-09 16:56:12 +0000 UTC
 
 
 

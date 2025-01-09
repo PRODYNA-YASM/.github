@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "23e3e49",
+          "Version": "9c79093",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -62,8 +62,8 @@
         "Count": 3,
         "PullRequests": [
           {
-            "Title": "build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.0 to 2.44.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/765"
+            "Title": "build(deps): bump quarkus.platform.version from 3.17.5 to 3.17.6",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/766"
           },
           {
             "Title": "feat: #629 create awards service with crud operations, update organization and person with awards",
@@ -78,8 +78,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.48.0..HEAD",
-        "Count": 4,
+        "Count": 5,
         "Commits": [
+          {
+            "Text": "build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.0 to 2.44.1 (#765)",
+            "SHA": "9c79093d2fa7ad8e99536374eb680775d3abe91b",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-01-08T08:27:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/9c79093d2fa7ad8e99536374eb680775d3abe91b"
+          },
           {
             "Text": "History max 3",
             "SHA": "23e3e49839c432f704f75aa90f9ac145bd8ced50",
@@ -188,8 +198,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "feat: show how many skills/methodologies/certifications are already selected during pdf export",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/937"
+          },
           {
             "Title": "chore: bump @nivo/bar from 0.87.0 to 0.88.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/935"
@@ -247,14 +261,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "fix: Bugfix/UI bugs after testing (#932)",
-            "Timestamp": "2024-12-09T16:56:12Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/12240426880"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1620,5 +1628,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-01-08T07:32:30Z"
+  "LastUpdated": "2025-01-09T07:32:53Z"
 }
