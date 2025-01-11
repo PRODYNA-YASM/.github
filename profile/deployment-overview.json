@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "738fd35",
+          "Version": "4122894",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -70,8 +70,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.48.0..HEAD",
-        "Count": 7,
+        "Count": 9,
         "Commits": [
+          {
+            "Text": "feat: change from micrometer to otel metrics (#768)",
+            "SHA": "4122894098759e31ef390944bedfa7f3b6e7c99e",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2025-01-10T14:26:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/4122894098759e31ef390944bedfa7f3b6e7c99e"
+          },
+          {
+            "Text": "feat: generate skill metrics additional over otel api (#767)",
+            "SHA": "5c8c83908207dd9f840ad834d16f2b9450bfece0",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2025-01-10T10:18:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/5c8c83908207dd9f840ad834d16f2b9450bfece0"
+          },
           {
             "Text": "feat: #629 create awards service with crud operations, update organization and person with awards (#718)",
             "SHA": "738fd3533a2337b0aab832894b33b29d8b1acb9f",
@@ -738,9 +758,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.13.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "59a7c9c",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -795,8 +815,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.13.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #197 from PRODYNA-YASM/dependabot/docker/alpine-3.21.2",
+            "SHA": "59a7c9cdc8253ac150711cc738b3fbb093402f6e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-10T17:08:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/59a7c9cdc8253ac150711cc738b3fbb093402f6e"
+          },
+          {
+            "Text": "Bump alpine from 3.21.1 to 3.21.2",
+            "SHA": "b1a37bf88765829013c21329ec442ac5d0ea0ed0",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-01-10T17:00:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/b1a37bf88765829013c21329ec442ac5d0ea0ed0"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -899,9 +940,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.0.7",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "640fc74",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -956,8 +997,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-external",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/compare/1.0.7..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #47 from PRODYNA-YASM/dependabot/docker/alpine-3.21.2",
+            "SHA": "640fc74c2c89d093c2300d74133c41146bb8c1aa",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-10T10:11:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/640fc74c2c89d093c2300d74133c41146bb8c1aa"
+          },
+          {
+            "Text": "Bump alpine from 3.21.1 to 3.21.2",
+            "SHA": "ce4b56d104d2c5da3204c2145cb20c9bb234d3b0",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-01-10T09:24:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/ce4b56d104d2c5da3204c2145cb20c9bb234d3b0"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1443,7 +1505,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d545ce6",
+          "Version": "5ebb021",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1494,19 +1556,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump alpine from 3.21.1 to 3.21.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/119"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.4.6..HEAD",
-        "Count": 5,
+        "Count": 7,
         "Commits": [
+          {
+            "Text": "Merge pull request #119 from PRODYNA-YASM/dependabot/docker/alpine-3.21.2",
+            "SHA": "5ebb0219600884894188725cc8fef0e576ffda82",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-10T10:13:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/5ebb0219600884894188725cc8fef0e576ffda82"
+          },
+          {
+            "Text": "Bump alpine from 3.21.1 to 3.21.2",
+            "SHA": "d1b71ada8fab607af6e6ad09521de54c1ded8249",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-01-10T05:46:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/d1b71ada8fab607af6e6ad09521de54c1ded8249"
+          },
           {
             "Text": "Merge pull request #118 from PRODYNA-YASM/feature/fix-logging",
             "SHA": "d545ce61c9e669477b780e666b0cf2611d4c13c0",
@@ -1585,9 +1662,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.6.3",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "9ab0066",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1642,8 +1719,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-mainproject",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/compare/1.6.3..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #74 from PRODYNA-YASM/dependabot/docker/alpine-3.21.2",
+            "SHA": "9ab0066b060202d85653ebcb2dfa0a5c7e2c0b02",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-10T16:58:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/9ab0066b060202d85653ebcb2dfa0a5c7e2c0b02"
+          },
+          {
+            "Text": "Bump alpine from 3.21.1 to 3.21.2",
+            "SHA": "ce3cba7683660c7f20adbbc3c92e9381b4f51814",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-01-10T16:20:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/ce3cba7683660c7f20adbbc3c92e9381b4f51814"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1763,5 +1861,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-01-10T07:32:29Z"
+  "LastUpdated": "2025-01-11T07:32:41Z"
 }
