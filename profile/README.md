@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-01-11T07:32:41Z
+Component Status overview. Last update 2025-01-12T07:32:23Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -184,13 +184,11 @@ Component Status overview. Last update 2025-01-11T07:32:41Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (3)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (2)
 
 - [History max 3](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/12656215677) created on 2025-01-07 17:27:04 +0000 UTC
 
 - [Merge pull request #585 from PRODYNA-YASM/feature/update-components](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/12650400458) created on 2025-01-07 11:10:05 +0000 UTC
-
-- [Merge pull request #571 from PRODYNA-YASM/feature/security-update](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/12300220760) created on 2024-12-12 16:04:43 +0000 UTC
 
 
 

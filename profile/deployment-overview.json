@@ -452,7 +452,7 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 2,
         "Workflows": [
           {
             "Name": "History max 3",
@@ -463,11 +463,6 @@
             "Name": "Merge pull request #585 from PRODYNA-YASM/feature/update-components",
             "Timestamp": "2025-01-07T11:10:05Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/12650400458"
-          },
-          {
-            "Name": "Merge pull request #571 from PRODYNA-YASM/feature/security-update",
-            "Timestamp": "2024-12-12T16:04:43Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/12300220760"
           }
         ]
       }
@@ -1861,5 +1856,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-01-11T07:32:41Z"
+  "LastUpdated": "2025-01-12T07:32:23Z"
 }
