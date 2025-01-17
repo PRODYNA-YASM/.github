@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-01-17T11:08:15Z
+Component Status overview. Last update 2025-01-17T11:16:50Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -8,13 +8,13 @@ Component Status overview. Last update 2025-01-17T11:08:15Z
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.51.0 |  :green_square: 1.51.0 |  :green_square: 1.51.0 |  :red_square: 1.48.4 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [24](https://github.com/prodyna-yasm/yasm-integration/compare/1.48.4..HEAD) | :green_square: 0 | 1.48.4 |  :red_square: f9882c2 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.51.0 |  :green_square: 1.51.0 |  :green_square: 1.51.0 |  :red_square: 1.48.0 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.19.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.19.0 |  :red_square: 9e6c8e6 |  :green_square: 1.19.0 |  :red_square: 1.18.8 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [5](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.19.0..HEAD) | :green_square: 0 | 1.19.0 |  :red_square: 9e6c8e6 |  :green_square: 1.19.0 |  :red_square: 1.18.8 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [2](https://github.com/prodyna-yasm/yasm-github/compare/1.8.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.8.0 |  :red_square: 76f8541 |  :green_square: 1.8.0 |  :red_square: 1.7.9 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [4](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.13.0..HEAD) | :green_square: 0 | 1.13.0 |  :red_square: ce07c5f |  :green_square: 1.13.0 |  :red_square: 1.12.9 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [2](https://github.com/prodyna-yasm/yasm-external/compare/1.1.0..HEAD) | :green_square: 0 | 1.1.0 |  :red_square: 2f37b1a |  :green_square: 1.1.0 |  :green_square: 1.1.0 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.15.3-0 |  :green_square: 8.15.3-0 |  :green_square: 8.15.3-0 |  :green_square: 8.15.3-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.48.5 |  :green_square: 1.48.5 |  :green_square: 1.48.5 |  :green_square: 1.48.5 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.48.5 |  :green_square: 1.48.5 |  :green_square: 1.48.5 |  :green_square: 1.48.5 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.48.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.51.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
@@ -256,18 +256,19 @@ Component Status overview. Last update 2025-01-17T11:08:15Z
 
 
 
-### [Commits on main since 1.19.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.19.0..HEAD) (2)
+### [Commits on main since 1.19.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.19.0..HEAD) (5)
+
+- [Merge pull request #270 from PRODYNA-YASM/feature/go1234](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/f6167a6db9e1f260ca47ac5c276380958e6e3cc9) by [dkrizic](https://github.com/dkrizic) on 2025-01-17 11:16:14 +0000 UTC
+
+- [Merge branch 'main' into feature/go1234](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/c7bec125519c0804062db3b702853f93b7511467) by [dkrizic](https://github.com/dkrizic) on 2025-01-17 11:02:40 +0000 UTC
+
+- [Go 1.23.4](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/e25240d649b03aea74bf92c6c897a6ec8e28089e) by [dkrizic](https://github.com/dkrizic) on 2025-01-17 10:54:04 +0000 UTC
 
 - [Merge pull request #269 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.69.4](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/9e6c8e61db273bfde10eadf3f47952e8a9afc5f1) by [dkrizic](https://github.com/dkrizic) on 2025-01-15 10:02:28 +0000 UTC
 
 - [Bump google.golang.org/grpc from 1.69.2 to 1.69.4](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/033cc34a1ad1d46a7c7e7baf9f3800951bef7f0c) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-01-13 13:27:13 +0000 UTC
 
 
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) (1)
-
-- [Go 1.23.4](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/270)
 
 
 
@@ -513,7 +514,9 @@ Component Status overview. Last update 2025-01-17T11:08:15Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (5)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (6)
+
+- [feature/component udpates](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/797)
 
 - [Bump hashicorp/azurerm from 4.15.0 to 4.16.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/796)
 

@@ -674,19 +674,44 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Go 1.23.4",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/270"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.19.0..HEAD",
-        "Count": 2,
+        "Count": 5,
         "Commits": [
+          {
+            "Text": "Merge pull request #270 from PRODYNA-YASM/feature/go1234",
+            "SHA": "f6167a6db9e1f260ca47ac5c276380958e6e3cc9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-17T11:16:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/f6167a6db9e1f260ca47ac5c276380958e6e3cc9"
+          },
+          {
+            "Text": "Merge branch 'main' into feature/go1234",
+            "SHA": "c7bec125519c0804062db3b702853f93b7511467",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-17T11:02:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/c7bec125519c0804062db3b702853f93b7511467"
+          },
+          {
+            "Text": "Go 1.23.4",
+            "SHA": "e25240d649b03aea74bf92c6c897a6ec8e28089e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-17T10:54:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/e25240d649b03aea74bf92c6c897a6ec8e28089e"
+          },
           {
             "Text": "Merge pull request #269 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.69.4",
             "SHA": "9e6c8e61db273bfde10eadf3f47952e8a9afc5f1",
@@ -1288,8 +1313,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 5,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "feature/component udpates",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/797"
+          },
           {
             "Title": "Bump hashicorp/azurerm from 4.15.0 to 4.16.0 in /terraform/kubernetes",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/796"
@@ -1994,5 +2023,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-01-17T11:08:15Z"
+  "LastUpdated": "2025-01-17T11:16:50Z"
 }
