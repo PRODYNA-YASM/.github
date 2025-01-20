@@ -196,9 +196,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.51.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "b30fd9f",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -247,14 +247,52 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 4,
+        "PullRequests": [
+          {
+            "Title": "Bump go.opentelemetry.io/contrib/instrumentation/runtime from 0.58.0 to 0.59.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/600"
+          },
+          {
+            "Title": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc from 1.33.0 to 1.34.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/599"
+          },
+          {
+            "Title": "Bump go.opentelemetry.io/otel/sdk from 1.33.0 to 1.34.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/598"
+          },
+          {
+            "Title": "Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc from 1.33.0 to 1.34.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/597"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.51.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #601 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/metric-1.34.0",
+            "SHA": "b30fd9fee13d58e46279878b36094f60a75fbd44",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-20T06:53:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/b30fd9fee13d58e46279878b36094f60a75fbd44"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/metric from 1.33.0 to 1.34.0",
+            "SHA": "1c1b1d66d3b798dbeb8cc99bb29ec09124792eda",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-01-20T01:32:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/1c1b1d66d3b798dbeb8cc99bb29ec09124792eda"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -933,9 +971,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.1.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "a7165fb",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -990,8 +1028,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-external",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/compare/1.1.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #53 from PRODYNA-YASM/feature/fix-metrics",
+            "SHA": "a7165fb4f3e8515cc8e9661024eb5749d8f8663e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-19T18:24:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/a7165fb4f3e8515cc8e9661024eb5749d8f8663e"
+          },
+          {
+            "Text": "Only use filePath",
+            "SHA": "de1a114bebe558c95e2809068dfa2fe2f11eba8d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-19T18:21:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/de1a114bebe558c95e2809068dfa2fe2f11eba8d"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1151,8 +1210,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Fix some details in the Dashboard",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/799"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -1436,9 +1500,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.4.7",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "7d1cb65",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1487,14 +1551,44 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump go.opentelemetry.io/otel/sdk/metric from 1.33.0 to 1.34.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/127"
+          },
+          {
+            "Title": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc from 1.33.0 to 1.34.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/126"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.4.7..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #128 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel-1.34.0",
+            "SHA": "7d1cb65f7804f2f2b0c30a91f9d970e3bdfefbae",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-20T06:52:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/7d1cb65f7804f2f2b0c30a91f9d970e3bdfefbae"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel from 1.33.0 to 1.34.0",
+            "SHA": "f9acec26731d62d0bdfbdaec6b9e438cb13d7d98",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-01-20T06:06:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/f9acec26731d62d0bdfbdaec6b9e438cb13d7d98"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1761,5 +1855,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-01-19T07:32:13Z"
+  "LastUpdated": "2025-01-20T07:32:38Z"
 }
