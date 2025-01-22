@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "15216f2",
+          "Version": "dcdaf1e",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -59,8 +59,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 4,
+        "Count": 5,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump org.apache.xmlgraphics:batik-all from 1.17 to 1.18",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/783"
+          },
+          {
+            "Title": "fix: change skill group label from Computing to Consulting",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/782"
+          },
           {
             "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 5.0.2 to 5.0.3",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/781"
@@ -72,18 +80,24 @@
           {
             "Title": "feat: implement an endpoint for calculating for skill percentages",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/774"
-          },
-          {
-            "Title": "feat: 324-project-references",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/695"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.51.1..HEAD",
-        "Count": 3,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "feat: 324-project-references (#695)",
+            "SHA": "dcdaf1e8e753dfc71a964c82ec518bbd8d058313",
+            "Author": {
+              "name": "radicaa",
+              "link": "https://github.com/radicaa"
+            },
+            "Timestamp": "2025-01-21T10:45:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/dcdaf1e8e753dfc71a964c82ec518bbd8d058313"
+          },
           {
             "Text": "fix: projectParticipationDetail was empty in the response of project participation search (#778)",
             "SHA": "15216f2b30e9a970b208016f35c2586cfe96d994",
@@ -131,7 +145,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "ea4a9c9",
+          "Version": "0773560",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -182,8 +196,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "fix: change skill group label from Computing to Consulting",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/948"
+          },
           {
             "Title": "feat: 644 add awards to yasm",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/938"
@@ -217,8 +235,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.51.1..HEAD",
-        "Count": 1,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "style: footer is sticky and info tooltip closes when clicking anywhere (#947)",
+            "SHA": "07735603b0f0e633338b55256fced0e8b996c824",
+            "Author": {
+              "name": "JayminProd",
+              "link": "https://github.com/JayminProd"
+            },
+            "Timestamp": "2025-01-21T14:32:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/07735603b0f0e633338b55256fced0e8b996c824"
+          },
+          {
+            "Text": "feat: add confidentiality warning/info in the project description (#946)",
+            "SHA": "e461bb1d54648659681056e40490ed7f4c5fcb8c",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2025-01-21T12:54:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/e461bb1d54648659681056e40490ed7f4c5fcb8c"
+          },
           {
             "Text": "feat: added word count display for personal and project description (#945)",
             "SHA": "ea4a9c9d4126da77503f6d5b5cd82b9f104f74a4",
@@ -1046,8 +1084,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Support for logformat",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-external/pull/54"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-external",
       "Commits": {
@@ -1322,16 +1365,16 @@
         "Count": 3,
         "PullRequests": [
           {
+            "Title": "chore: bump io.smallrye.reactive:mutiny from 2.6.2 to 2.8.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/250"
+          },
+          {
             "Title": "chore: bump org.openapitools:openapi-generator-maven-plugin from 7.10.0 to 7.11.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/249"
           },
           {
             "Title": "feat: add an endpoint for calculating for skill percentages per project",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/248"
-          },
-          {
-            "Title": "chore: bump io.smallrye.reactive:mutiny from 2.6.2 to 2.7.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/241"
           }
         ]
       },
@@ -1963,5 +2006,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-01-21T07:32:47Z"
+  "LastUpdated": "2025-01-22T07:32:17Z"
 }

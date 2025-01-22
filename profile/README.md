@@ -1,18 +1,18 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-01-21T07:32:47Z
+Component Status overview. Last update 2025-01-22T07:32:17Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-backend/compare/1.51.1..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.51.1 |  :red_square: 15216f2 |  :green_square: 1.51.1 |  :green_square: 1.51.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.51.1..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.51.1 |  :red_square: ea4a9c9 |  :green_square: 1.51.1 |  :green_square: 1.51.1 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-backend/compare/1.51.1..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.51.1 |  :red_square: dcdaf1e |  :green_square: 1.51.1 |  :green_square: 1.51.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-frontend/compare/1.51.1..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.51.1 |  :red_square: 0773560 |  :green_square: 1.51.1 |  :green_square: 1.51.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.51.1 |  :green_square: 1.51.1 |  :green_square: 1.51.1 |  :green_square: 1.51.1 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.51.1..HEAD) | :green_square: 0 | 1.51.1 |  :red_square: ff1169a |  :green_square: 1.51.1 |  :green_square: 1.51.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [8](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.19.1..HEAD) | :green_square: 0 | 1.19.1 |  :red_square: deb85e3 |  :green_square: 1.19.1 |  :green_square: 1.19.1 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [12](https://github.com/prodyna-yasm/yasm-github/compare/1.8.2..HEAD) | :green_square: 0 | 1.8.2 |  :red_square: 2e2788c |  :green_square: 1.8.2 |  :green_square: 1.8.2 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [2](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.13.1..HEAD) | :green_square: 0 | 1.13.1 |  :red_square: 60c7f37 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :green_square: 0 | :green_square: 0 | 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
-| [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.1.3 |  :green_square: 1.1.3 |  :green_square: 1.1.3 |  :green_square: 1.1.3 | 
+| [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-external/pulls) | 1.1.3 |  :green_square: 1.1.3 |  :green_square: 1.1.3 |  :green_square: 1.1.3 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.15.3-0 |  :green_square: 8.15.3-0 |  :green_square: 8.15.3-0 |  :green_square: 8.15.3-0 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.51.1 |  :green_square: 1.51.1 |  :green_square: 1.51.1 |  :green_square: 1.51.1 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :green_square: 0 | 1.51.0 | 
@@ -30,7 +30,9 @@ Component Status overview. Last update 2025-01-21T07:32:47Z
 
 
 
-### [Commits on main since 1.51.1](https://github.com/prodyna-yasm/yasm-backend/compare/1.51.1..HEAD) (3)
+### [Commits on main since 1.51.1](https://github.com/prodyna-yasm/yasm-backend/compare/1.51.1..HEAD) (4)
+
+- [feat: 324-project-references (#695)](https://github.com/prodyna-yasm/yasm-backend/commit/dcdaf1e8e753dfc71a964c82ec518bbd8d058313) by [radicaa](https://github.com/radicaa) on 2025-01-21 10:45:40 +0000 UTC
 
 - [fix: projectParticipationDetail was empty in the response of project participation search (#778)](https://github.com/prodyna-yasm/yasm-backend/commit/15216f2b30e9a970b208016f35c2586cfe96d994) by [irhox](https://github.com/irhox) on 2025-01-20 12:57:27 +0000 UTC
 
@@ -41,7 +43,11 @@ Component Status overview. Last update 2025-01-21T07:32:47Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (4)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (5)
+
+- [build(deps): bump org.apache.xmlgraphics:batik-all from 1.17 to 1.18](https://github.com/PRODYNA-YASM/yasm-backend/pull/783)
+
+- [fix: change skill group label from Computing to Consulting](https://github.com/PRODYNA-YASM/yasm-backend/pull/782)
 
 - [build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 5.0.2 to 5.0.3](https://github.com/PRODYNA-YASM/yasm-backend/pull/781)
 
@@ -49,15 +55,13 @@ Component Status overview. Last update 2025-01-21T07:32:47Z
 
 - [feat: implement an endpoint for calculating for skill percentages](https://github.com/PRODYNA-YASM/yasm-backend/pull/774)
 
-- [feat: 324-project-references](https://github.com/PRODYNA-YASM/yasm-backend/pull/695)
-
 
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  15216f2 |  1.51.1 |  1.51.1 | 
+| Version |  dcdaf1e |  1.51.1 |  1.51.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -80,14 +84,20 @@ Component Status overview. Last update 2025-01-21T07:32:47Z
 
 
 
-### [Commits on main since 1.51.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.51.1..HEAD) (1)
+### [Commits on main since 1.51.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.51.1..HEAD) (3)
+
+- [style: footer is sticky and info tooltip closes when clicking anywhere (#947)](https://github.com/prodyna-yasm/yasm-frontend/commit/07735603b0f0e633338b55256fced0e8b996c824) by [JayminProd](https://github.com/JayminProd) on 2025-01-21 14:32:28 +0000 UTC
+
+- [feat: add confidentiality warning/info in the project description (#946)](https://github.com/prodyna-yasm/yasm-frontend/commit/e461bb1d54648659681056e40490ed7f4c5fcb8c) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2025-01-21 12:54:39 +0000 UTC
 
 - [feat: added word count display for personal and project description (#945)](https://github.com/prodyna-yasm/yasm-frontend/commit/ea4a9c9d4126da77503f6d5b5cd82b9f104f74a4) by [JayminProd](https://github.com/JayminProd) on 2025-01-20 14:25:55 +0000 UTC
 
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (8)
+
+- [fix: change skill group label from Computing to Consulting](https://github.com/PRODYNA-YASM/yasm-frontend/pull/948)
 
 - [feat: 644 add awards to yasm](https://github.com/PRODYNA-YASM/yasm-frontend/pull/938)
 
@@ -109,7 +119,7 @@ Component Status overview. Last update 2025-01-21T07:32:47Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  ea4a9c9 |  1.51.1 |  1.51.1 | 
+| Version |  0773560 |  1.51.1 |  1.51.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -409,6 +419,11 @@ Component Status overview. Last update 2025-01-21T07:32:47Z
 
 
 
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-external/pulls) (1)
+
+- [Support for logformat](https://github.com/PRODYNA-YASM/yasm-external/pull/54)
+
+
 
 ### Environments
 
@@ -543,11 +558,11 @@ Component Status overview. Last update 2025-01-21T07:32:47Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (3)
 
+- [chore: bump io.smallrye.reactive:mutiny from 2.6.2 to 2.8.0](https://github.com/PRODYNA-YASM/yasm-api/pull/250)
+
 - [chore: bump org.openapitools:openapi-generator-maven-plugin from 7.10.0 to 7.11.0](https://github.com/PRODYNA-YASM/yasm-api/pull/249)
 
 - [feat: add an endpoint for calculating for skill percentages per project](https://github.com/PRODYNA-YASM/yasm-api/pull/248)
-
-- [chore: bump io.smallrye.reactive:mutiny from 2.6.2 to 2.7.0](https://github.com/PRODYNA-YASM/yasm-api/pull/241)
 
 
 
