@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 4,
+        "Count": 5,
         "PullRequests": [
+          {
+            "Title": "dummpy impl skill score sample",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/791"
+          },
           {
             "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 5.0.2 to 5.1.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/790"
@@ -1098,9 +1102,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.51.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "c144839",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1149,19 +1153,45 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump DataDog/datadog from 3.52.1 to 3.53.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/800"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.51.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 3,
+        "Commits": [
+          {
+            "Text": "Merge pull request #801 from PRODYNA-YASM/feature/traefik-3.3.2",
+            "SHA": "c144839f850275f766e16ad0d06c587095a6d4fd",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-28T23:57:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c144839f850275f766e16ad0d06c587095a6d4fd"
+          },
+          {
+            "Text": "Datadog 3.53.0",
+            "SHA": "512c4aece37cecc96dc85f2dd891b08a75cc2b95",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-28T23:54:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/512c4aece37cecc96dc85f2dd891b08a75cc2b95"
+          },
+          {
+            "Text": "Traefik 34.2.0 (3.3.2)",
+            "SHA": "cb65c3db1efb0b1494c5e7a625709da487e6c8d8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-28T23:51:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/cb65c3db1efb0b1494c5e7a625709da487e6c8d8"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1291,8 +1321,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 3,
+        "Count": 4,
         "PullRequests": [
+          {
+            "Title": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.66 to 3.0.67",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/252"
+          },
           {
             "Title": "chore: bump io.smallrye.reactive:mutiny from 2.6.2 to 2.8.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/250"
@@ -1879,5 +1913,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-01-28T07:32:21Z"
+  "LastUpdated": "2025-01-29T07:32:41Z"
 }
