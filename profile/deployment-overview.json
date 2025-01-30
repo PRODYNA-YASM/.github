@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "57757c6",
+          "Version": "9fd91c9",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -59,35 +59,93 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 5,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump quarkus.platform.version from 3.17.8 to 3.18.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/795"
+          },
           {
             "Title": "dummpy impl skill score sample",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/791"
-          },
-          {
-            "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 5.0.2 to 5.1.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/790"
-          },
-          {
-            "Title": "feat: implement an endpoint for calculating skill percentage",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/789"
-          },
-          {
-            "Title": "build(deps): bump quarkus.platform.version from 3.17.7 to 3.17.8",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/788"
-          },
-          {
-            "Title": "build(deps): bump org.apache.xmlgraphics:batik-all from 1.17 to 1.18",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/783"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.51.3..HEAD",
-        "Count": 1,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "feat: implement an endpoint for calculating skill percentage (#789)",
+            "SHA": "9fd91c9fcbc66fc73a6ee214b402f94531f1de1a",
+            "Author": {
+              "name": "ig0rserov",
+              "link": "https://github.com/ig0rserov"
+            },
+            "Timestamp": "2025-01-29T17:12:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/9fd91c9fcbc66fc73a6ee214b402f94531f1de1a"
+          },
+          {
+            "Text": "fix: dimesion nulls allowed (#793)",
+            "SHA": "6ad7e68e3ec2c22eb7055fd3bc6e8788e07dbf93",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2025-01-29T17:09:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/6ad7e68e3ec2c22eb7055fd3bc6e8788e07dbf93"
+          },
+          {
+            "Text": "build(deps): bump org.apache.xmlgraphics:batik-all from 1.17 to 1.18 (#783)",
+            "SHA": "c2ee0746b0474b389fc3259633ff1400dbbf32df",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-01-29T17:05:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/c2ee0746b0474b389fc3259633ff1400dbbf32df"
+          },
+          {
+            "Text": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 5.0.2 to 5.1.0 (#790)",
+            "SHA": "3f403add1f1d8b1992acede7738d102cc8202822",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-01-29T17:04:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/3f403add1f1d8b1992acede7738d102cc8202822"
+          },
+          {
+            "Text": "build(deps): bump quarkus.platform.version from 3.17.7 to 3.17.8 (#788)",
+            "SHA": "fe51a8b63359707ee7bfee7272c7aa7d238226a1",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-01-29T16:55:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/fe51a8b63359707ee7bfee7272c7aa7d238226a1"
+          },
+          {
+            "Text": "feat(551): Add Nationalities to persons (#794)",
+            "SHA": "55fa8f499c8868836388ff70b8e1ef9b67a4adf0",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2025-01-29T15:37:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/55fa8f499c8868836388ff70b8e1ef9b67a4adf0"
+          },
+          {
+            "Text": "feat(199): add country filter to person search (#792)",
+            "SHA": "7370488ecf2e2e37169565da34396afe53ed7794",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2025-01-29T13:15:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/7370488ecf2e2e37169565da34396afe53ed7794"
+          },
           {
             "Text": "feat: 644 add awards filter to project participation search (#785)",
             "SHA": "57757c67643b7e43af8260cc19e1b8cf654b83a0",
@@ -115,7 +173,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "219b306",
+          "Version": "cd8eed0",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -166,8 +224,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "chore: bump yup from 0.32.11 to 1.6.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/955"
+          },
+          {
+            "Title": "chore: bump nanoid from 3.3.7 to 3.3.8",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/954"
+          },
           {
             "Title": "feat: 644 add awards to yasm",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/938"
@@ -175,10 +241,6 @@
           {
             "Title": "chore: bump @nivo/bar from 0.87.0 to 0.88.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/935"
-          },
-          {
-            "Title": "chore: bump yup from 0.32.11 to 1.5.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/924"
           },
           {
             "Title": "feat: 916 Prepare multistage build",
@@ -201,8 +263,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.51.6..HEAD",
-        "Count": 1,
+        "Count": 2,
         "Commits": [
+          {
+            "Text": "feat(199): add country to person search (#953)",
+            "SHA": "cd8eed0f433b2b01841a7efdbc7e540b85b395c2",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2025-01-29T13:15:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/cd8eed0f433b2b01841a7efdbc7e540b85b395c2"
+          },
           {
             "Text": "fix: canceling edit mode resets the form properly (#952)",
             "SHA": "219b30655ac1dca0ddef18f7c42f1e9333219c14",
@@ -281,8 +353,21 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 3,
+        "PullRequests": [
+          {
+            "Title": "Bump github.com/prodyna-yasm/yasm-api-go from 1.52.0 to 1.56.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/607"
+          },
+          {
+            "Title": "Bump github.com/spf13/pflag from 1.0.5 to 1.0.6",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/606"
+          },
+          {
+            "Title": "API 1.53.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/605"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -377,7 +462,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0b1dc10",
+          "Version": "47ca01f",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -428,14 +513,59 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Component updates",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/423"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.51.2..HEAD",
-        "Count": 2,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #421 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.56.0",
+            "SHA": "47ca01faaf46b1e5b08f14423fba07e0a7987262",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-29T22:24:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/47ca01faaf46b1e5b08f14423fba07e0a7987262"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.52.0 to 1.56.0",
+            "SHA": "25a2a6ea727fb57b66f5b17f2af017d1a32008c4",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-01-29T22:11:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/25a2a6ea727fb57b66f5b17f2af017d1a32008c4"
+          },
+          {
+            "Text": "Merge pull request #422 from PRODYNA-YASM/dependabot/go_modules/github.com/spf13/pflag-1.0.6",
+            "SHA": "31c704b8bf2b6f41bc8d074b153a3ce957542cab",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-29T22:10:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/31c704b8bf2b6f41bc8d074b153a3ce957542cab"
+          },
+          {
+            "Text": "Bump github.com/spf13/pflag from 1.0.5 to 1.0.6",
+            "SHA": "4d8cf40184e74e9604fd3ecebc0e8add45c6c40b",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-01-29T21:53:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/4d8cf40184e74e9604fd3ecebc0e8add45c6c40b"
+          },
           {
             "Text": "Merge pull request #420 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.52.0",
             "SHA": "0b1dc108e2b3950abdbfd30beff558d9805bd533",
@@ -860,8 +990,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-data/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Added layouts data for project image layout",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-data/pull/118"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-data",
       "Commits": {
@@ -1072,8 +1207,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump gotenberg/gotenberg from 8.15.3 to 8.16.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/pull/70"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
@@ -1102,7 +1242,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "c144839",
+          "Version": "ed68326",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1159,8 +1299,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.51.1..HEAD",
-        "Count": 3,
+        "Count": 5,
         "Commits": [
+          {
+            "Text": "Merge pull request #802 from PRODYNA-YASM/feature/tempo-1.32.0",
+            "SHA": "ed6832618ca11d5c34f1fa623226863135443111",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-29T21:34:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ed6832618ca11d5c34f1fa623226863135443111"
+          },
+          {
+            "Text": "Tempo distributed 1.32.0",
+            "SHA": "25f3ad73060b003fd2e4504cf86e31cbdaf68158",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-01-29T14:40:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/25f3ad73060b003fd2e4504cf86e31cbdaf68158"
+          },
           {
             "Text": "Merge pull request #801 from PRODYNA-YASM/feature/traefik-3.3.2",
             "SHA": "c144839f850275f766e16ad0d06c587095a6d4fd",
@@ -1290,38 +1450,38 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "1.52.0",
+        "Tag": "1.56.0",
         "SHA": "",
-        "Title": "Add awards filter to project participation search ",
-        "Timestamp": "2025-01-23T07:41:23Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.52.0"
+        "Title": "1.56.0",
+        "Timestamp": "2025-01-29T16:42:01Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.56.0"
       },
       "Releases": [
         {
-          "Tag": "1.52.0",
+          "Tag": "1.56.0",
           "SHA": "",
-          "Title": "Add awards filter to project participation search ",
-          "Timestamp": "2025-01-23T07:36:14Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.52.0"
+          "Title": "1.56.0",
+          "Timestamp": "2025-01-29T16:41:11Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.56.0"
         },
         {
-          "Tag": "1.51.0",
+          "Tag": "1.55.0",
           "SHA": "",
-          "Title": "Refactor Direct Hits",
-          "Timestamp": "2025-01-16T11:13:02Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.51.0"
+          "Title": "1.55.0",
+          "Timestamp": "2025-01-29T15:23:59Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.55.0"
         },
         {
-          "Tag": "1.51",
+          "Tag": "1.54.0",
           "SHA": "",
-          "Title": "1.51",
-          "Timestamp": "2025-01-16T11:13:02Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.51"
+          "Title": "1.54.0",
+          "Timestamp": "2025-01-29T14:39:58Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.54.0"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 4,
+        "Count": 3,
         "PullRequests": [
           {
             "Title": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.66 to 3.0.67",
@@ -1334,16 +1494,12 @@
           {
             "Title": "chore: bump org.openapitools:openapi-generator-maven-plugin from 7.10.0 to 7.11.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/249"
-          },
-          {
-            "Title": "feat: add an endpoint for calculating for skill percentages per project",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/248"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.52.0..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.56.0..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -1913,5 +2069,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-01-29T07:32:41Z"
+  "LastUpdated": "2025-01-30T07:32:16Z"
 }
