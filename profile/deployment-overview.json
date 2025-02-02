@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "3305bf9",
+          "Version": "f5966d1",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -82,8 +82,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.51.3..HEAD",
-        "Count": 11,
+        "Count": 12,
         "Commits": [
+          {
+            "Text": "feat: add more results to statistics (#802)",
+            "SHA": "f5966d12147badf290364953d016c903c83fb90a",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2025-02-01T20:13:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/f5966d12147badf290364953d016c903c83fb90a"
+          },
           {
             "Text": "feat: add person filter (#801)",
             "SHA": "3305bf90a3788106f6d89b43bca89c8deb145929",
@@ -1645,13 +1655,20 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "1.58.0",
+        "Tag": "1.59.0",
         "SHA": "",
-        "Title": "1.58.0",
-        "Timestamp": "2025-01-31T16:56:41Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.58.0"
+        "Title": "1.59.0",
+        "Timestamp": "2025-02-01T19:34:58Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.59.0"
       },
       "Releases": [
+        {
+          "Tag": "1.59.0",
+          "SHA": "",
+          "Title": "1.59.0",
+          "Timestamp": "2025-02-01T19:33:05Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.59.0"
+        },
         {
           "Tag": "1.58.0",
           "SHA": "",
@@ -1665,13 +1682,6 @@
           "Title": "1.57.0",
           "Timestamp": "2025-01-30T14:46:25Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.57.0"
-        },
-        {
-          "Tag": "1.56.0",
-          "SHA": "",
-          "Title": "1.56.0",
-          "Timestamp": "2025-01-29T16:41:11Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.56.0"
         }
       ],
       "PullRequests": {
@@ -1694,7 +1704,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.58.0..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.59.0..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -2264,5 +2274,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-02-01T07:32:14Z"
+  "LastUpdated": "2025-02-02T07:32:16Z"
 }
