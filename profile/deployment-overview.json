@@ -366,7 +366,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "a7816b5",
+          "Version": "f746ced",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -423,8 +423,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.51.1..HEAD",
-        "Count": 12,
+        "Count": 14,
         "Commits": [
+          {
+            "Text": "Merge pull request #609 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.59.0",
+            "SHA": "f746ced619b6996457b5002493b3c0fe95976cc1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-02-03T06:41:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/f746ced619b6996457b5002493b3c0fe95976cc1"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.57.0 to 1.59.0",
+            "SHA": "235d4278d368fd860bc44514dc0529e9a88c4701",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-02-03T01:22:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/235d4278d368fd860bc44514dc0529e9a88c4701"
+          },
           {
             "Text": "Merge pull request #608 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.57.0",
             "SHA": "a7816b5879af28c3d35f976eb9b7045a4e68a871",
@@ -1549,8 +1569,17 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump hashicorp/azurerm from 4.16.0 to 4.17.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/804"
+          },
+          {
+            "Title": "Bump hashicorp/azurerm from 4.16.0 to 4.17.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/803"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -1686,8 +1715,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 3,
+        "Count": 4,
         "PullRequests": [
+          {
+            "Title": "chore: bump jakarta.validation:jakarta.validation-api from 3.1.0 to 3.1.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/259"
+          },
           {
             "Title": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.66 to 3.0.67",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/252"
@@ -2274,5 +2307,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-02-02T07:32:16Z"
+  "LastUpdated": "2025-02-03T07:32:23Z"
 }
