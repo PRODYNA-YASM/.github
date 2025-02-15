@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "f02fbc9",
+          "Version": "5396398",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -45,15 +45,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
           {
-            "Title": "fix: add project with audit deletion test",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/828"
-          },
-          {
-            "Title": "build(deps): bump quarkus.platform.version from 3.18.2 to 3.18.3",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/824"
+            "Title": "feat: improve tests",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/832"
           }
         ]
       },
@@ -62,6 +58,36 @@
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.51.3..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "build(deps): bump quarkus.platform.version from 3.18.2 to 3.18.3 (#824)",
+            "SHA": "5396398782c268e79e1e77c3da33c7be28e36c0b",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-02-14T15:55:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/5396398782c268e79e1e77c3da33c7be28e36c0b"
+          },
+          {
+            "Text": "feat: 768-feature-request-yasm-backend-shopping-card-api (#831)",
+            "SHA": "d3e8062d013c3ef7e7f8e73c901310c9103ea3eb",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2025-02-14T15:54:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/d3e8062d013c3ef7e7f8e73c901310c9103ea3eb"
+          },
+          {
+            "Text": "fix: add project with audit deletion test (#828)",
+            "SHA": "d6fe0656f451845e85a2d70821c25b2360bdce12",
+            "Author": {
+              "name": "ig0rserov",
+              "link": "https://github.com/ig0rserov"
+            },
+            "Timestamp": "2025-02-14T13:14:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/d6fe0656f451845e85a2d70821c25b2360bdce12"
+          },
           {
             "Text": "feat: 764-feature-request-incorporate-pitch-roles (#830)",
             "SHA": "f02fbc9541d894e2bd6461ae469d0ba833f8a6bd",
@@ -331,36 +357,6 @@
             },
             "Timestamp": "2025-02-04T15:06:15Z",
             "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/2bd5d0c42d85f18eb48ccd25784731a739cd0030"
-          },
-          {
-            "Text": "feat: add more results to statistics (#802)",
-            "SHA": "f5966d12147badf290364953d016c903c83fb90a",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-01T20:13:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/f5966d12147badf290364953d016c903c83fb90a"
-          },
-          {
-            "Text": "feat: add person filter (#801)",
-            "SHA": "3305bf90a3788106f6d89b43bca89c8deb145929",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-01-31T17:39:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/3305bf90a3788106f6d89b43bca89c8deb145929"
-          },
-          {
-            "Text": "feat: implement filters for country, industry, organisation (#799)",
-            "SHA": "77c5f1a4f59f4ca04278581816de11ace4567c52",
-            "Author": {
-              "name": "ig0rserov",
-              "link": "https://github.com/ig0rserov"
-            },
-            "Timestamp": "2025-01-31T16:22:16Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/77c5f1a4f59f4ca04278581816de11ace4567c52"
           }
         ]
       },
@@ -379,7 +375,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "fc606ac",
+          "Version": "aadb8ea",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -430,15 +426,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 8,
+        "Count": 7,
         "PullRequests": [
           {
-            "Title": "feat: add validation for project deletion based on project participat…",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/963"
-          },
-          {
-            "Title": "feat: 644 add awards to pdf profile export, add tooltips on awards in project and employee details pages",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/962"
+            "Title": "feat: refresh participationlist and project after removing a project …",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/967"
           },
           {
             "Title": "chore: bump yup from 0.32.11 to 1.6.1",
@@ -469,8 +461,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.51.6..HEAD",
-        "Count": 11,
+        "Count": 13,
         "Commits": [
+          {
+            "Text": "feat: 644 add awards to pdf profile export, add tooltips on awards in project and employee details pages (#962)",
+            "SHA": "aadb8eaf3c4cd1b185d171d88c19c4054c24fb08",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2025-02-14T13:23:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/aadb8eaf3c4cd1b185d171d88c19c4054c24fb08"
+          },
+          {
+            "Text": "feat: add validation for project deletion based on project participations (#963)",
+            "SHA": "69162878d3450182d2967a7e3bd63b5f33735ba3",
+            "Author": {
+              "name": "ig0rserov",
+              "link": "https://github.com/ig0rserov"
+            },
+            "Timestamp": "2025-02-14T12:22:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/69162878d3450182d2967a7e3bd63b5f33735ba3"
+          },
           {
             "Text": "feature: change yasm guide url to the correct SharePoint Link (#965)",
             "SHA": "fc606ac90992aa3fc153e57075fa20c4ec5496c9",
@@ -1761,33 +1773,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.64.4",
+          "Version": "1.65.0",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.64.4",
+          "Version": "1.65.0",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.64.4",
+          "Version": "1.65.0",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.64.4",
+        "Tag": "1.65.0",
         "SHA": "",
-        "Title": "Roll out Gateway API fully",
-        "Timestamp": "2025-02-14T10:26:58Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.64.4"
+        "Title": "HTTPRoute for receiving traces from the frontend",
+        "Timestamp": "2025-02-15T00:07:01Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.65.0"
       },
       "Releases": [
+        {
+          "Tag": "1.65.0",
+          "SHA": "",
+          "Title": "HTTPRoute for receiving traces from the frontend",
+          "Timestamp": "2025-02-14T23:54:02Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.65.0"
+        },
         {
           "Tag": "1.64.4",
           "SHA": "",
@@ -1801,13 +1820,6 @@
           "Title": "Install Gateway API 1.21 (experimental) using Terraform",
           "Timestamp": "2025-02-14T09:36:52Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.64.3"
-        },
-        {
-          "Tag": "1.64.2",
-          "SHA": "",
-          "Title": "Temporarily back to Ingress for Grafana",
-          "Timestamp": "2025-02-13T11:27:37Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.64.2"
         }
       ],
       "PullRequests": {
@@ -1822,7 +1834,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.64.4..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.65.0..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -1898,48 +1910,43 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "1.66.0",
+        "Tag": "1.68.0",
         "SHA": "",
-        "Title": "1.66.0",
-        "Timestamp": "2025-02-13T16:23:44Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.66.0"
+        "Title": "1.68.0",
+        "Timestamp": "2025-02-14T15:12:35Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.68.0"
       },
       "Releases": [
+        {
+          "Tag": "1.68.0",
+          "SHA": "",
+          "Title": "1.68.0",
+          "Timestamp": "2025-02-14T15:11:46Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.68.0"
+        },
+        {
+          "Tag": "1.67.0",
+          "SHA": "",
+          "Title": "1.67.0",
+          "Timestamp": "2025-02-14T12:06:54Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.67.0"
+        },
         {
           "Tag": "1.66.0",
           "SHA": "",
           "Title": "1.66.0",
           "Timestamp": "2025-02-13T16:23:00Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.66.0"
-        },
-        {
-          "Tag": "1.65.0",
-          "SHA": "",
-          "Title": "1.65.0",
-          "Timestamp": "2025-02-13T12:18:46Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.65.0"
-        },
-        {
-          "Tag": "1.64.0",
-          "SHA": "",
-          "Title": "Add new attribute to Person and Project Search, remove 2 unneeded endpoints",
-          "Timestamp": "2025-02-12T14:29:22Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.64.0"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "feat: 768-feature-request-yasm-backend-shopping-card-api",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/267"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.66.0..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.68.0..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -2278,5 +2285,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-02-14T12:03:49Z"
+  "LastUpdated": "2025-02-15T07:32:21Z"
 }
