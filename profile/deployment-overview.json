@@ -654,8 +654,21 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 3,
+        "PullRequests": [
+          {
+            "Title": "Bump github.com/spf13/cobra from 1.8.1 to 1.9.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/626"
+          },
+          {
+            "Title": "Bump github.com/prodyna-yasm/yasm-api-go from 1.66.0 to 1.68.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/625"
+          },
+          {
+            "Title": "Bump alpine from 3.21.2 to 3.21.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/624"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -841,14 +854,43 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump github.com/prodyna-yasm/yasm-api-go from 1.66.0 to 1.68.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/150"
+          },
+          {
+            "Title": "Bump github.com/AzureAD/microsoft-authentication-library-for-go from 1.3.3 to 1.4.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/149"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.4.7..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #151 from PRODYNA-YASM/dependabot/docker/alpine-3.21.3",
+            "SHA": "9fa207510dc0a0d1ec1105caac84bccf247738fc",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-02-17T07:31:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/9fa207510dc0a0d1ec1105caac84bccf247738fc"
+          },
+          {
+            "Text": "Bump alpine from 3.21.2 to 3.21.3",
+            "SHA": "286737aa4dfa204ff3c780885e1873d63f57b325",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-02-17T05:48:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/286737aa4dfa204ff3c780885e1873d63f57b325"
+          },
           {
             "Text": "Merge pull request #146 from PRODYNA-YASM/dependabot/docker/golang-1.24.0-alpine3.20",
             "SHA": "aee444f5c2a2dd0cb55991b7e3a7cc9330c74af8",
@@ -1128,26 +1170,6 @@
             },
             "Timestamp": "2025-02-06T17:46:36Z",
             "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/df3367d7efd865ffa11c704b24cf91970f0bd9dd"
-          },
-          {
-            "Text": "Merge pull request #135 from PRODYNA-YASM/feature/yasm-secrets",
-            "SHA": "ad3f5b18b3bd8fbfb5e1b6f503dbb4a55331f930",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-02-06T17:21:12Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/ad3f5b18b3bd8fbfb5e1b6f503dbb4a55331f930"
-          },
-          {
-            "Text": "Merge pull request #136 from PRODYNA-YASM/feature/add_config_for_yasm_host_schema",
-            "SHA": "784dfc5bb93cb89a42aab262e5e6672c2ad0ca18",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-06T17:20:42Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/784dfc5bb93cb89a42aab262e5e6672c2ad0ca18"
           }
         ]
       },
@@ -1824,8 +1846,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 1,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Bump hashicorp/azurerm from 4.18.0 to 4.19.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/829"
+          },
+          {
+            "Title": "Bump hashicorp/azurerm from 4.18.0 to 4.19.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/828"
+          },
           {
             "Title": "Kubernetes 1.31.3",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/817"
@@ -2285,5 +2315,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-02-16T07:32:39Z"
+  "LastUpdated": "2025-02-17T07:32:25Z"
 }
