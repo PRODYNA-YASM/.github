@@ -8,19 +8,33 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "266e699",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.68.0",
+          "IsRelease": true,
+          "IsCurrent": true
+        },
+        {
+          "Name": "staging",
+          "Link": "",
+          "Version": "1.68.0",
+          "IsRelease": true,
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.51.3",
+        "Tag": "1.68.0",
         "SHA": "",
-        "Title": "Fix skill group order in project participation",
-        "Timestamp": "2025-01-22T14:52:40Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.51.3"
+        "Title": "New features like Awards, Merge Projects, Extended Reporting Data, Introduction Pitch Roles. Improvement in search logic and switch to Gateway API from Ingress",
+        "Timestamp": "2025-02-19T09:55:05Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.68.0"
       },
       "Releases": [
+        {
+          "Tag": "1.68.0",
+          "SHA": "",
+          "Title": "New features like Awards, Merge Projects, Extended Reporting Data, Introduction Pitch Roles. Improvement in search logic and switch to Gateway API from Ingress",
+          "Timestamp": "2025-02-18T13:12:23Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.68.0"
+        },
         {
           "Tag": "1.51.3",
           "SHA": "",
@@ -34,13 +48,6 @@
           "Title": "Fix Skill grouping, Hide organization image and name on export for confidential projects and changed label from Computing to Consulting ",
           "Timestamp": "2025-01-22T08:09:11Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.51.2"
-        },
-        {
-          "Tag": "1.51.1",
-          "SHA": "",
-          "Title": "Improved person skill search and fixed sort skills by experience",
-          "Timestamp": "2025-01-17T12:46:59Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.51.1"
         }
       ],
       "PullRequests": {
@@ -55,317 +62,22 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.51.3..HEAD",
-        "Count": 30,
-        "Commits": [
-          {
-            "Text": "feat: performance project search (#834)",
-            "SHA": "266e699fef648416331e00016780b48e7a01e651",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-18T13:12:23Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/266e699fef648416331e00016780b48e7a01e651"
-          },
-          {
-            "Text": "feat: validate timerange for project participations (#833)",
-            "SHA": "55b3362d0ddebeed5ab58bd2537f4691bfac1b59",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-17T14:59:28Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/55b3362d0ddebeed5ab58bd2537f4691bfac1b59"
-          },
-          {
-            "Text": "feat: improve tests (#832)",
-            "SHA": "c99030f1faae9e0bc3215714344de33da70fef2f",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-17T08:31:56Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/c99030f1faae9e0bc3215714344de33da70fef2f"
-          },
-          {
-            "Text": "build(deps): bump quarkus.platform.version from 3.18.2 to 3.18.3 (#824)",
-            "SHA": "5396398782c268e79e1e77c3da33c7be28e36c0b",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-02-14T15:55:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/5396398782c268e79e1e77c3da33c7be28e36c0b"
-          },
-          {
-            "Text": "feat: 768-feature-request-yasm-backend-shopping-card-api (#831)",
-            "SHA": "d3e8062d013c3ef7e7f8e73c901310c9103ea3eb",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-14T15:54:20Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/d3e8062d013c3ef7e7f8e73c901310c9103ea3eb"
-          },
-          {
-            "Text": "fix: add project with audit deletion test (#828)",
-            "SHA": "d6fe0656f451845e85a2d70821c25b2360bdce12",
-            "Author": {
-              "name": "ig0rserov",
-              "link": "https://github.com/ig0rserov"
-            },
-            "Timestamp": "2025-02-14T13:14:59Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/d6fe0656f451845e85a2d70821c25b2360bdce12"
-          },
-          {
-            "Text": "feat: 764-feature-request-incorporate-pitch-roles (#830)",
-            "SHA": "f02fbc9541d894e2bd6461ae469d0ba833f8a6bd",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-13T16:32:28Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/f02fbc9541d894e2bd6461ae469d0ba833f8a6bd"
-          },
-          {
-            "Text": "fix: prifile statistics seniority (#829)",
-            "SHA": "f47d49223e008dbd19b15ef3153cc23fbaac5dab",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-13T13:11:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/f47d49223e008dbd19b15ef3153cc23fbaac5dab"
-          },
-          {
-            "Text": "feat: 708-feature-…r-in-tableau (#827)",
-            "SHA": "a8d30c483773cb538a4a7f4d652110b3183c6fde",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-13T12:54:46Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/a8d30c483773cb538a4a7f4d652110b3183c6fde"
-          },
-          {
-            "Text": "fix: project delete (#826)",
-            "SHA": "29719756b07edd559489b651edcee6f59470415e",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-13T11:26:02Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/29719756b07edd559489b651edcee6f59470415e"
-          },
-          {
-            "Text": "build(deps): bump io.smallrye:jandex-maven-plugin from 3.2.5 to 3.2.6 (#822)",
-            "SHA": "c248f35a3aaeed0446b6add7021ca5f8b8152df7",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-02-13T11:04:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/c248f35a3aaeed0446b6add7021ca5f8b8152df7"
-          },
-          {
-            "Text": "feat: normalized score (#825)",
-            "SHA": "1193b7680db9da1b55197047a2ab0665eff6e9f3",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-13T11:04:02Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/1193b7680db9da1b55197047a2ab0665eff6e9f3"
-          },
-          {
-            "Text": "feat: 644 add new search attributes to filter persons by award and project and filter projects by award and person (#806)",
-            "SHA": "94b2314b1bf4419360aeecaf5e5ce75f33fbe8bb",
-            "Author": {
-              "name": "irhox",
-              "link": "https://github.com/irhox"
-            },
-            "Timestamp": "2025-02-13T09:57:54Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/94b2314b1bf4419360aeecaf5e5ce75f33fbe8bb"
-          },
-          {
-            "Text": "feat: improve search performance (#823)",
-            "SHA": "94dfe2ace7860c8dd1837d8b6dee9317710573d8",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-12T12:50:06Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/94dfe2ace7860c8dd1837d8b6dee9317710573d8"
-          },
-          {
-            "Text": "feat(759): Block deletion of projects with project participations (#817)",
-            "SHA": "516712b5a9e49b4f651e88495bda742578a9c7cc",
-            "Author": {
-              "name": "ig0rserov",
-              "link": "https://github.com/ig0rserov"
-            },
-            "Timestamp": "2025-02-12T11:51:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/516712b5a9e49b4f651e88495bda742578a9c7cc"
-          },
-          {
-            "Text": "build(deps): bump io.smallrye:jandex-maven-plugin from 3.2.4 to 3.2.5 (#816)",
-            "SHA": "67944ae3616377a925d8f7025fe13581d8c781e1",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-02-11T15:27:34Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/67944ae3616377a925d8f7025fe13581d8c781e1"
-          },
-          {
-            "Text": "fix: project skill scores (#821)",
-            "SHA": "33d5b1755a15666c41855deec740d64a61df3a93",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-11T15:24:30Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/33d5b1755a15666c41855deec740d64a61df3a93"
-          },
-          {
-            "Text": "fix: project skill scores (#820)",
-            "SHA": "7868eca4dab840b0e6a7510201caee7476d40783",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-11T14:48:38Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/7868eca4dab840b0e6a7510201caee7476d40783"
-          },
-          {
-            "Text": "feat: improve scoring (#819)",
-            "SHA": "de06addd2f3440eba94fa9e2071ba89b3a17ed0a",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-11T13:35:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/de06addd2f3440eba94fa9e2071ba89b3a17ed0a"
-          },
-          {
-            "Text": "feat: improve scroing and return matching entitie (#818)",
-            "SHA": "43dc4b8a0c1a168824545d0ea86be80d53930c80",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-11T10:50:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/43dc4b8a0c1a168824545d0ea86be80d53930c80"
-          },
-          {
-            "Text": "feat: add functionality to merge projects (#808)",
-            "SHA": "72f7a06dd0c4bce9e399455aff31ab99c8665011",
-            "Author": {
-              "name": "JayminProd",
-              "link": "https://github.com/JayminProd"
-            },
-            "Timestamp": "2025-02-10T10:14:41Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/72f7a06dd0c4bce9e399455aff31ab99c8665011"
-          },
-          {
-            "Text": "feat: feature/improve search (#815)",
-            "SHA": "92a8b63e196cb9f26ca0d19bb0ce11d78f9adb58",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-07T18:46:49Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/92a8b63e196cb9f26ca0d19bb0ce11d78f9adb58"
-          },
-          {
-            "Text": "feat: improve search (#814)",
-            "SHA": "e6bdaff2b0510dce8238dea1e393ef922a8469eb",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-07T17:52:00Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/e6bdaff2b0510dce8238dea1e393ef922a8469eb"
-          },
-          {
-            "Text": "feat: Use Gatway API instead of Ingress (#813)",
-            "SHA": "785d32034adc6c799c393034df49babecf63af6c",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-02-07T15:51:35Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/785d32034adc6c799c393034df49babecf63af6c"
-          },
-          {
-            "Text": "fix: clean logging (#812)",
-            "SHA": "f0e5774b6f002da1a6ab463201e92aa0c0598c12",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-07T15:39:46Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/f0e5774b6f002da1a6ab463201e92aa0c0598c12"
-          },
-          {
-            "Text": "feat: 747 feature request scoring of employees with customer input in search (#811)",
-            "SHA": "fcb6d19fd98b6ccfd946992fd21529f220c4292b",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-07T15:03:25Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/fcb6d19fd98b6ccfd946992fd21529f220c4292b"
-          },
-          {
-            "Text": "build(deps): bump eclipse-temurin from 23.0.1_11-jre-ubi9-minimal to 23.0.2_7-jre-ubi9-minimal (#797)",
-            "SHA": "cdfb7ade023f7ff52b44623eac8e87f94d328a84",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-02-07T14:29:33Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/cdfb7ade023f7ff52b44623eac8e87f94d328a84"
-          },
-          {
-            "Text": "feat: update yasm-api 1.61.0 (#810)",
-            "SHA": "22c278301b549feaecc03dcca86b80c273efdfca",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-07T13:41:32Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/22c278301b549feaecc03dcca86b80c273efdfca"
-          },
-          {
-            "Text": "build(deps): update quarkus 3.18.2 (#809)",
-            "SHA": "87f7fb468279c03a48a55e74d6781f177aed186f",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-06T15:58:37Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/87f7fb468279c03a48a55e74d6781f177aed186f"
-          },
-          {
-            "Text": "build(deps): bump io.smallrye:jandex-maven-plugin from 3.2.3 to 3.2.4 (#803)",
-            "SHA": "d30ce643c0a1bbcb2cd63df57fb481b39f30afba",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-02-06T14:06:02Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/d30ce643c0a1bbcb2cd63df57fb481b39f30afba"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.68.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "feat: performance project search (#834)",
+            "Timestamp": "2025-02-19T09:55:07Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/13409823968"
+          }
+        ]
       }
     },
     {
@@ -375,14 +87,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "749246e",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.68.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.51.6",
+          "Version": "1.68.0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -391,17 +103,24 @@
           "Link": "",
           "Version": "1.51.6",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.51.6",
+        "Tag": "1.68.0",
         "SHA": "",
-        "Title": "Personal Task editor in Project Participation is now correctly formatted",
-        "Timestamp": "2025-01-23T08:51:48Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.51.6"
+        "Title": "New features like Awards, Merge Projects, Extended Reporting Data, Introduction Pitch Roles. Improvement in search logic and switch to HTTPRoute from Ingress",
+        "Timestamp": "2025-02-19T10:12:02Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.68.0"
       },
       "Releases": [
+        {
+          "Tag": "1.68.0",
+          "SHA": "",
+          "Title": "New features like Awards, Merge Projects, Extended Reporting Data, Introduction Pitch Roles. Improvement in search logic and switch to HTTPRoute from Ingress",
+          "Timestamp": "2025-02-19T09:37:42Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.68.0"
+        },
         {
           "Tag": "1.51.6",
           "SHA": "",
@@ -415,13 +134,6 @@
           "Title": "Fix skill sorting and hide yasm guide tooltip on refresh",
           "Timestamp": "2025-01-22T10:54:02Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.51.5"
-        },
-        {
-          "Tag": "1.51.4",
-          "SHA": "",
-          "Title": "Fix skill sorting and hide yasm guide tooltip on refresh",
-          "Timestamp": "2025-01-22T10:54:02Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.51.4"
         }
       ],
       "PullRequests": {
@@ -440,207 +152,22 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.51.6..HEAD",
-        "Count": 19,
-        "Commits": [
-          {
-            "Text": "fix: error editing project name (#972)",
-            "SHA": "749246e8cc610ca2bc74377e0d5880ae529f29a6",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2025-02-18T14:50:06Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/749246e8cc610ca2bc74377e0d5880ae529f29a6"
-          },
-          {
-            "Text": "feat: refine shown skill hover (#971)",
-            "SHA": "4cac2ea5510dbf761148ddcc40c8969954a7c1a4",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2025-02-18T14:45:21Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/4cac2ea5510dbf761148ddcc40c8969954a7c1a4"
-          },
-          {
-            "Text": "chore: updated yup, nivo, opentelemetry to latest version and removed image-webpack-loader (#970)",
-            "SHA": "71c60bca4727cc38efd47dc9082c3099730b6357",
-            "Author": {
-              "name": "JayminProd",
-              "link": "https://github.com/JayminProd"
-            },
-            "Timestamp": "2025-02-18T08:50:02Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/71c60bca4727cc38efd47dc9082c3099730b6357"
-          },
-          {
-            "Text": "fix: removes formatting tags from participation tasks in pdf export (#969)",
-            "SHA": "d10015680ff498f1349d05469e9ffde18dcc4bb8",
-            "Author": {
-              "name": "JayminProd",
-              "link": "https://github.com/JayminProd"
-            },
-            "Timestamp": "2025-02-18T06:52:20Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d10015680ff498f1349d05469e9ffde18dcc4bb8"
-          },
-          {
-            "Text": "feat: refresh participationlist and project after removing a project participation (#967)",
-            "SHA": "abd69e4c4f76f97c17335a428bbfb426a1a66441",
-            "Author": {
-              "name": "ig0rserov",
-              "link": "https://github.com/ig0rserov"
-            },
-            "Timestamp": "2025-02-17T09:05:59Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/abd69e4c4f76f97c17335a428bbfb426a1a66441"
-          },
-          {
-            "Text": "feat: small design changes to merge project overlay and button (#968)",
-            "SHA": "ffc4611a1da2043e52c96f939499124ecde70c8f",
-            "Author": {
-              "name": "JayminProd",
-              "link": "https://github.com/JayminProd"
-            },
-            "Timestamp": "2025-02-17T08:47:41Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ffc4611a1da2043e52c96f939499124ecde70c8f"
-          },
-          {
-            "Text": "feat: 644 add awards to pdf profile export, add tooltips on awards in project and employee details pages (#962)",
-            "SHA": "aadb8eaf3c4cd1b185d171d88c19c4054c24fb08",
-            "Author": {
-              "name": "irhox",
-              "link": "https://github.com/irhox"
-            },
-            "Timestamp": "2025-02-14T13:23:21Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/aadb8eaf3c4cd1b185d171d88c19c4054c24fb08"
-          },
-          {
-            "Text": "feat: add validation for project deletion based on project participations (#963)",
-            "SHA": "69162878d3450182d2967a7e3bd63b5f33735ba3",
-            "Author": {
-              "name": "ig0rserov",
-              "link": "https://github.com/ig0rserov"
-            },
-            "Timestamp": "2025-02-14T12:22:09Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/69162878d3450182d2967a7e3bd63b5f33735ba3"
-          },
-          {
-            "Text": "feature: change yasm guide url to the correct SharePoint Link (#965)",
-            "SHA": "fc606ac90992aa3fc153e57075fa20c4ec5496c9",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2025-02-14T11:19:44Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/fc606ac90992aa3fc153e57075fa20c4ec5496c9"
-          },
-          {
-            "Text": "feat: add overlay to merge projects (#960)",
-            "SHA": "d0b245ae3f19531ad140243296571e10158b7f69",
-            "Author": {
-              "name": "JayminProd",
-              "link": "https://github.com/JayminProd"
-            },
-            "Timestamp": "2025-02-14T07:54:27Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d0b245ae3f19531ad140243296571e10158b7f69"
-          },
-          {
-            "Text": "feat: 764-feature-request-incorporate-pitch-roles (#964)",
-            "SHA": "ed63db55eabe5401aa8f3f153bef951476ddd527",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-13T17:21:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ed63db55eabe5401aa8f3f153bef951476ddd527"
-          },
-          {
-            "Text": "chore: bump nanoid from 3.3.7 to 3.3.8 (#954)",
-            "SHA": "007b05e9480ae22c2accda8e22d3ef33fba5b580",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-02-11T23:18:36Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/007b05e9480ae22c2accda8e22d3ef33fba5b580"
-          },
-          {
-            "Text": "feat: 575-feature-add-company-participation-in-type (#959)",
-            "SHA": "c3f2f1fa74d3368366110cb7f73f4af52fe64fc6",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-07T16:27:55Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/c3f2f1fa74d3368366110cb7f73f4af52fe64fc6"
-          },
-          {
-            "Text": "Use HTTPRoute instead of Ingress (#958)",
-            "SHA": "33978593c967fe52250c38174e59dab5b369c65b",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-02-07T15:54:32Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/33978593c967fe52250c38174e59dab5b369c65b"
-          },
-          {
-            "Text": "add filter for kind giver in skill tree view (#957)",
-            "SHA": "a1301c480b89b7ea9c4ea7100d8be6502a5718b3",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-07T10:04:02Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/a1301c480b89b7ea9c4ea7100d8be6502a5718b3"
-          },
-          {
-            "Text": "fix: update organization of certification (#956)",
-            "SHA": "ca45df58dbebec9bf7c155d25539a438b21d33ac",
-            "Author": {
-              "name": "eersada-prodyna",
-              "link": "https://github.com/eersada-prodyna"
-            },
-            "Timestamp": "2025-01-31T11:56:33Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ca45df58dbebec9bf7c155d25539a438b21d33ac"
-          },
-          {
-            "Text": "feat: 644 add awards to yasm (#938)",
-            "SHA": "d6276ffff5d7c32d94ee41478d7312406d32fb71",
-            "Author": {
-              "name": "irhox",
-              "link": "https://github.com/irhox"
-            },
-            "Timestamp": "2025-01-30T16:57:12Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d6276ffff5d7c32d94ee41478d7312406d32fb71"
-          },
-          {
-            "Text": "feat(199): add country to person search (#953)",
-            "SHA": "cd8eed0f433b2b01841a7efdbc7e540b85b395c2",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-01-29T13:15:01Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/cd8eed0f433b2b01841a7efdbc7e540b85b395c2"
-          },
-          {
-            "Text": "fix: canceling edit mode resets the form properly (#952)",
-            "SHA": "219b30655ac1dca0ddef18f7c42f1e9333219c14",
-            "Author": {
-              "name": "JayminProd",
-              "link": "https://github.com/JayminProd"
-            },
-            "Timestamp": "2025-01-23T13:37:55Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/219b30655ac1dca0ddef18f7c42f1e9333219c14"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.68.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "chore: update api to 1.68.0 (#973)",
+            "Timestamp": "2025-02-19T10:12:04Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/13410132687"
+          }
+        ]
       }
     },
     {
@@ -932,7 +459,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2b93e69",
+          "Version": "8215272",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -983,19 +510,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump github.com/XSAM/otelsql from 0.36.0 to 0.37.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/152"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.4.7..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #152 from PRODYNA-YASM/dependabot/go_modules/github.com/XSAM/otelsql-0.37.0",
+            "SHA": "8215272c5a0dd93b95c59527daaad5c803d907fb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-02-19T08:51:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/8215272c5a0dd93b95c59527daaad5c803d907fb"
+          },
+          {
+            "Text": "Bump github.com/XSAM/otelsql from 0.36.0 to 0.37.0",
+            "SHA": "d9536dfdf596ff68fbc95402c04fbdd09eabf480",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-02-18T13:35:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/d9536dfdf596ff68fbc95402c04fbdd09eabf480"
+          },
           {
             "Text": "Merge pull request #153 from PRODYNA-YASM/dependabot/go_modules/github.com/go-sql-driver/mysql-1.9.0",
             "SHA": "2b93e693b36e8c14b9959cb02990a35dc9dd8b3d",
@@ -1275,26 +817,6 @@
             },
             "Timestamp": "2025-02-10T11:52:33Z",
             "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/5bd297b3373c82162e7b7ec1dd2c8c1b8c80ed04"
-          },
-          {
-            "Text": "Add some spans and improve error handling. Use otelhttp client so the traceparent is forwarded to yasm-backend",
-            "SHA": "6ae13534c884428a1c1a8fc6b720f6d7752c9f36",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-02-10T10:09:29Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/6ae13534c884428a1c1a8fc6b720f6d7752c9f36"
-          },
-          {
-            "Text": "Merge pull request #137 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.62.0",
-            "SHA": "cf076c08740aa0b17075e912d6517fb0302af531",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-02-10T06:59:56Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/cf076c08740aa0b17075e912d6517fb0302af531"
           }
         ]
       },
@@ -1506,8 +1028,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump github.com/prometheus/client_golang from 1.20.5 to 1.21.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/195"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
@@ -2591,5 +2118,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-02-19T07:32:25Z"
+  "LastUpdated": "2025-02-19T12:50:07Z"
 }
