@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "55b3362",
+          "Version": "266e699",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -45,15 +45,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
           {
             "Title": "build(deps): bump io.smallrye:jandex-maven-plugin from 3.2.6 to 3.2.7",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/835"
-          },
-          {
-            "Title": "feat: performance project search",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/834"
           }
         ]
       },
@@ -62,6 +58,16 @@
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.51.3..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "feat: performance project search (#834)",
+            "SHA": "266e699fef648416331e00016780b48e7a01e651",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2025-02-18T13:12:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/266e699fef648416331e00016780b48e7a01e651"
+          },
           {
             "Text": "feat: validate timerange for project participations (#833)",
             "SHA": "55b3362d0ddebeed5ab58bd2537f4691bfac1b59",
@@ -351,16 +357,6 @@
             },
             "Timestamp": "2025-02-06T14:06:02Z",
             "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/d30ce643c0a1bbcb2cd63df57fb481b39f30afba"
-          },
-          {
-            "Text": "feat: 644 add awards section to pdf profile export (#800)",
-            "SHA": "d87fb3196974aa03685ec612789eaab8cadb8669",
-            "Author": {
-              "name": "irhox",
-              "link": "https://github.com/irhox"
-            },
-            "Timestamp": "2025-02-06T14:04:57Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/d87fb3196974aa03685ec612789eaab8cadb8669"
           }
         ]
       },
@@ -379,7 +375,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d100156",
+          "Version": "749246e",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -430,27 +426,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 2,
         "PullRequests": [
-          {
-            "Title": "chore: bump yup from 0.32.11 to 1.6.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/955"
-          },
-          {
-            "Title": "chore: bump @nivo/bar from 0.87.0 to 0.88.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/935"
-          },
           {
             "Title": "feat: 916 Prepare multistage build",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/918"
-          },
-          {
-            "Title": "chore: bump @opentelemetry/api from 1.6.0 to 1.9.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/904"
-          },
-          {
-            "Title": "chore: bump style-loader from 3.3.4 to 4.0.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/892"
           },
           {
             "Title": "chore: bump html-loader from 1.3.2 to 5.1.0",
@@ -461,8 +441,38 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.51.6..HEAD",
-        "Count": 16,
+        "Count": 19,
         "Commits": [
+          {
+            "Text": "fix: error editing project name (#972)",
+            "SHA": "749246e8cc610ca2bc74377e0d5880ae529f29a6",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2025-02-18T14:50:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/749246e8cc610ca2bc74377e0d5880ae529f29a6"
+          },
+          {
+            "Text": "feat: refine shown skill hover (#971)",
+            "SHA": "4cac2ea5510dbf761148ddcc40c8969954a7c1a4",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2025-02-18T14:45:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/4cac2ea5510dbf761148ddcc40c8969954a7c1a4"
+          },
+          {
+            "Text": "chore: updated yup, nivo, opentelemetry to latest version and removed image-webpack-loader (#970)",
+            "SHA": "71c60bca4727cc38efd47dc9082c3099730b6357",
+            "Author": {
+              "name": "JayminProd",
+              "link": "https://github.com/JayminProd"
+            },
+            "Timestamp": "2025-02-18T08:50:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/71c60bca4727cc38efd47dc9082c3099730b6357"
+          },
           {
             "Text": "fix: removes formatting tags from participation tasks in pdf export (#969)",
             "SHA": "d10015680ff498f1349d05469e9ffde18dcc4bb8",
@@ -922,7 +932,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "08e846b",
+          "Version": "2b93e69",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -973,12 +983,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "Bump github.com/go-sql-driver/mysql from 1.8.1 to 1.9.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/153"
-          },
           {
             "Title": "Bump github.com/XSAM/otelsql from 0.36.0 to 0.37.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/152"
@@ -990,6 +996,26 @@
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.4.7..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #153 from PRODYNA-YASM/dependabot/go_modules/github.com/go-sql-driver/mysql-1.9.0",
+            "SHA": "2b93e693b36e8c14b9959cb02990a35dc9dd8b3d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-02-18T13:34:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/2b93e693b36e8c14b9959cb02990a35dc9dd8b3d"
+          },
+          {
+            "Text": "Bump github.com/go-sql-driver/mysql from 1.8.1 to 1.9.0",
+            "SHA": "047c4f62d4e62ae733a2ea58dcb38e81335881f6",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-02-18T05:58:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/047c4f62d4e62ae733a2ea58dcb38e81335881f6"
+          },
           {
             "Text": "Merge pull request #149 from PRODYNA-YASM/dependabot/go_modules/github.com/AzureAD/microsoft-authentication-library-for-go-1.4.0",
             "SHA": "08e846b77ea7bd92c44f9ced2ce07ad6cd930263",
@@ -1269,26 +1295,6 @@
             },
             "Timestamp": "2025-02-10T06:59:56Z",
             "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/cf076c08740aa0b17075e912d6517fb0302af531"
-          },
-          {
-            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.61.0 to 1.62.0",
-            "SHA": "92237744f56b22d0466a926f957766083167c965",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-02-10T06:00:12Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/92237744f56b22d0466a926f957766083167c965"
-          },
-          {
-            "Text": "print error on root level",
-            "SHA": "1134d1d4dbadab72ad30c907112a45f713c3d91f",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-02-06T18:09:22Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/1134d1d4dbadab72ad30c907112a45f713c3d91f"
           }
         ]
       },
@@ -2301,13 +2307,20 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "1.51.0",
+        "Tag": "v1.51.6",
         "SHA": "",
-        "Title": "1.51.0",
-        "Timestamp": "2025-01-17T08:07:33Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/1.51.0"
+        "Title": "v1.51.6",
+        "Timestamp": "2025-02-18T11:05:58Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/v1.51.6"
       },
       "Releases": [
+        {
+          "Tag": "v1.51.6",
+          "SHA": "",
+          "Title": "v1.51.6",
+          "Timestamp": "2025-02-18T11:03:00Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/v1.51.6"
+        },
         {
           "Tag": "1.51.0",
           "SHA": "",
@@ -2321,13 +2334,6 @@
           "Title": "1.48.0",
           "Timestamp": "2024-12-07T11:06:29Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/1.48.0"
-        },
-        {
-          "Tag": "1.46.0",
-          "SHA": "",
-          "Title": "1.46.0",
-          "Timestamp": "2024-11-08T13:55:37Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/1.46.0"
         }
       ],
       "PullRequests": {
@@ -2370,7 +2376,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-test",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-test/compare/1.51.0..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-test/compare/v1.51.6..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -2585,5 +2591,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-02-18T07:32:42Z"
+  "LastUpdated": "2025-02-19T07:32:25Z"
 }
