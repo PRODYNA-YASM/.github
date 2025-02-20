@@ -52,8 +52,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump quarkus.platform.version from 3.18.3 to 3.18.4",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/836"
+          },
           {
             "Title": "build(deps): bump io.smallrye:jandex-maven-plugin from 3.2.6 to 3.2.7",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/835"
@@ -138,8 +142,24 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 2,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "chore: bump eslint-import-resolver-typescript from 3.6.3 to 3.8.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/977"
+          },
+          {
+            "Title": "chore: bump @editorjs/editorjs from 2.30.6 to 2.30.8",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/976"
+          },
+          {
+            "Title": "chore: bump @mui/lab from 5.0.0-alpha.115 to 5.0.0-alpha.175",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/975"
+          },
+          {
+            "Title": "chore: bump react and @types/react",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/974"
+          },
           {
             "Title": "feat: 916 Prepare multistage build",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/918"
@@ -221,8 +241,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Add some tests",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/628"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -381,9 +406,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.68.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "e975688",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -391,13 +416,6 @@
           "Version": "1.68.0",
           "IsRelease": true,
           "IsCurrent": true
-        },
-        {
-          "Name": "prod",
-          "Link": "",
-          "Version": "1.4.7",
-          "IsRelease": true,
-          "IsCurrent": false
         }
       ],
       "LatestRelease": {
@@ -438,8 +456,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.68.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #154 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.21.0",
+            "SHA": "e975688983cca189744736e4240883d8c9dbd910",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-02-20T07:01:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/e975688983cca189744736e4240883d8c9dbd910"
+          },
+          {
+            "Text": "Bump github.com/prometheus/client_golang from 1.20.5 to 1.21.0",
+            "SHA": "f40926e2fed3045c794c9b673c73b1bf9a102799",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-02-20T05:22:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/f40926e2fed3045c794c9b673c73b1bf9a102799"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1278,8 +1317,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "Bump DataDog/datadog from 3.54.0 to 3.55.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/832"
+          },
           {
             "Title": "Kubernetes 1.31.3",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/817"
@@ -1801,5 +1844,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-02-19T21:42:19Z"
+  "LastUpdated": "2025-02-20T07:32:35Z"
 }
