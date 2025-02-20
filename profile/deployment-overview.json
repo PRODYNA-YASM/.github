@@ -18,6 +18,13 @@
           "Version": "1.68.0",
           "IsRelease": true,
           "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.68.0",
+          "IsRelease": true,
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -74,14 +81,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "feat: performance project search (#834)",
-            "Timestamp": "2025-02-19T09:55:07Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/13409823968"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -105,9 +106,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.51.6",
+          "Version": "1.68.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -180,14 +181,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "chore: update api to 1.68.0 (#973)",
-            "Timestamp": "2025-02-19T10:12:04Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/13410132687"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -416,6 +411,13 @@
           "Version": "1.68.0",
           "IsRelease": true,
           "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.68.0",
+          "IsRelease": true,
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -484,14 +486,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #152 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2025-02-19T16:15:25Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/13417234511"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -596,9 +592,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.8.4",
+          "Version": "1.10.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -667,13 +663,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "add helm package job (#193)",
-            "Timestamp": "2025-02-13T15:19:19Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/actions/runs/13310977794"
-          },
           {
             "Name": "Fix namespace for Gateway",
             "Timestamp": "2025-02-12T20:29:14Z",
@@ -1021,9 +1012,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.1.3",
+          "Version": "1.1.5",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1132,13 +1123,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #59 from PRODYNA-YASM/dependabot/docker/golang-1.2…",
-            "Timestamp": "2025-02-14T11:02:08Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-external/actions/runs/13327851724"
-          },
           {
             "Name": "Merge pull request #59 from PRODYNA-YASM/dependabot/docker/golang-1.2…",
             "Timestamp": "2025-02-14T11:01:00Z",
@@ -1168,9 +1154,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "8.15.3-0",
+          "Version": "8.17.1-0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1218,13 +1204,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 2,
         "Workflows": [
-          {
-            "Name": "Merge pull request #72 from PRODYNA-YASM/dependabot/docker/gotenberg/…",
-            "Timestamp": "2025-02-14T10:41:04Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/13327533062"
-          },
           {
             "Name": "Merge pull request #71 from PRODYNA-YASM/feature/gotenberg-8.17.0",
             "Timestamp": "2025-02-11T21:23:28Z",
@@ -1761,5 +1742,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-02-20T10:55:54Z"
+  "LastUpdated": "2025-02-20T14:59:18Z"
 }
