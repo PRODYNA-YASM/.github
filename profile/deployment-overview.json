@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.2 to 2.44.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/837"
+          },
           {
             "Title": "build(deps): bump quarkus.platform.version from 3.18.3 to 3.18.4",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/836"
@@ -92,9 +96,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.68.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "c2c8f02",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -146,8 +150,8 @@
         "Count": 6,
         "PullRequests": [
           {
-            "Title": "chore: bump eslint-import-resolver-typescript from 3.6.3 to 3.8.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/977"
+            "Title": "chore: bump eslint-import-resolver-typescript from 3.6.3 to 3.8.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/979"
           },
           {
             "Title": "chore: bump @editorjs/editorjs from 2.30.6 to 2.30.8",
@@ -174,8 +178,19 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.68.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "fix: changing organization of award now works (#978)",
+            "SHA": "c2c8f025121ad5ebe4b7aebbab7d7c5ac88bc7c4",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2025-02-20T18:48:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/c2c8f025121ad5ebe4b7aebbab7d7c5ac88bc7c4"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -694,9 +709,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.13.2",
+          "Version": "1.13.3",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -805,14 +820,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #210 from PRODYNA-YASM/dependabot/docker/golang-1.…",
-            "Timestamp": "2025-02-14T10:43:33Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/13327572884"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1277,8 +1286,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Bump hashicorp/azurerm from 4.19.0 to 4.20.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/835"
+          },
           {
             "Title": "Bump DataDog/datadog from 3.54.0 to 3.55.0 in /terraform/kubernetes",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/832"
@@ -1292,8 +1305,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.68.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #836 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/hashicorp/azurerm-4.20.0",
+            "SHA": "a542d4ef2b18157ed6c4ebdd0ff57e9b742cd049",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-02-21T07:32:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a542d4ef2b18157ed6c4ebdd0ff57e9b742cd049"
+          },
+          {
+            "Text": "Bump hashicorp/azurerm from 4.19.0 to 4.20.0 in /terraform/kubernetes",
+            "SHA": "c623b8781a66ad22abc3f6c183ddc758ec4eb559",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-02-21T05:52:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c623b8781a66ad22abc3f6c183ddc758ec4eb559"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1742,5 +1776,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-02-20T14:59:18Z"
+  "LastUpdated": "2025-02-21T07:32:36Z"
 }
