@@ -207,26 +207,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.68.0",
+          "Version": "1.68.1",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.68.0",
+          "Version": "1.68.1",
           "IsRelease": true,
           "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.68.0",
+          "IsRelease": true,
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.68.0",
+        "Tag": "1.68.1",
         "SHA": "",
-        "Title": "API 1.68",
-        "Timestamp": "2025-02-19T14:35:34Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.68.0"
+        "Title": "Improved unit tests for Umantis XML parsing",
+        "Timestamp": "2025-02-21T11:48:00Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.68.1"
       },
       "Releases": [
+        {
+          "Tag": "1.68.1",
+          "SHA": "",
+          "Title": "Improved unit tests for Umantis XML parsing",
+          "Timestamp": "2025-02-21T10:08:05Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.68.1"
+        },
         {
           "Tag": "1.68.0",
           "SHA": "",
@@ -240,28 +254,16 @@
           "Title": "API 1.66.0",
           "Timestamp": "2025-02-14T08:38:55Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.66.0"
-        },
-        {
-          "Tag": "1.64.0",
-          "SHA": "",
-          "Title": "API 1.64, go 1.24",
-          "Timestamp": "2025-02-13T09:40:13Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.64.0"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Add some tests",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/628"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.68.0..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.68.1..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -272,9 +274,9 @@
         "Count": 5,
         "Workflows": [
           {
-            "Name": "Merge pull request #625 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2025-02-19T14:35:36Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/13415104423"
+            "Name": "Merge pull request #628 from PRODYNA-YASM/627-umantis-support-for-new…",
+            "Timestamp": "2025-02-21T11:48:02Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/13456156676"
           },
           {
             "Name": "Merge pull request #622 from PRODYNA-YASM/dependabot/go_modules/githu…",
@@ -312,6 +314,13 @@
         },
         {
           "Name": "staging",
+          "Link": "",
+          "Version": "1.68.0",
+          "IsRelease": true,
+          "IsCurrent": true
+        },
+        {
+          "Name": "prod",
           "Link": "",
           "Version": "1.68.0",
           "IsRelease": true,
@@ -384,13 +393,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 4,
+        "Count": 3,
         "Workflows": [
-          {
-            "Name": "Merge pull request #434 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2025-02-19T14:36:07Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/13415115340"
-          },
           {
             "Name": "Merge pull request #433 from PRODYNA-YASM/dependabot/go_modules/githu…",
             "Timestamp": "2025-02-14T10:41:57Z",
@@ -576,14 +580,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #273 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2025-01-22T09:40:19Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/12905376710"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1235,14 +1233,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.68.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "0d7e087",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.68.0",
+          "Version": "1.68.1",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -1251,17 +1249,24 @@
           "Link": "",
           "Version": "1.68.0",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.68.0",
+        "Tag": "1.68.1",
         "SHA": "",
-        "Title": "Traefik 34.4.0, Otel Operator 0.80.1",
-        "Timestamp": "2025-02-20T09:35:38Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.68.0"
+        "Title": "Otel Operator 0.80.2, Grafana 8.9.1, Loki 6.27.0, Tempo 1.32.1, Terraform providers updates",
+        "Timestamp": "2025-02-21T11:04:59Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.68.1"
       },
       "Releases": [
+        {
+          "Tag": "1.68.1",
+          "SHA": "",
+          "Title": "Otel Operator 0.80.2, Grafana 8.9.1, Loki 6.27.0, Tempo 1.32.1, Terraform providers updates",
+          "Timestamp": "2025-02-21T10:58:21Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.68.1"
+        },
         {
           "Tag": "1.68.0",
           "SHA": "",
@@ -1275,27 +1280,12 @@
           "Title": "Centralize httproute configuration",
           "Timestamp": "2025-02-17T15:36:49Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.66.0"
-        },
-        {
-          "Tag": "1.65.0",
-          "SHA": "",
-          "Title": "HTTPRoute for receiving traces from the frontend",
-          "Timestamp": "2025-02-14T23:54:02Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.65.0"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 3,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "Bump hashicorp/azurerm from 4.19.0 to 4.20.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/835"
-          },
-          {
-            "Title": "Bump DataDog/datadog from 3.54.0 to 3.55.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/832"
-          },
           {
             "Title": "Kubernetes 1.31.3",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/817"
@@ -1304,28 +1294,28 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.68.0..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.68.1..HEAD",
         "Count": 2,
         "Commits": [
           {
-            "Text": "Merge pull request #836 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/hashicorp/azurerm-4.20.0",
-            "SHA": "a542d4ef2b18157ed6c4ebdd0ff57e9b742cd049",
+            "Text": "Merge pull request #841 from PRODYNA-YASM/feature/grafana-8.10.1",
+            "SHA": "0d7e087055a3d0f7c2d4190d09cb6d74cd972efa",
             "Author": {
               "name": "dkrizic",
               "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2025-02-21T07:32:01Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a542d4ef2b18157ed6c4ebdd0ff57e9b742cd049"
+            "Timestamp": "2025-02-21T22:34:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0d7e087055a3d0f7c2d4190d09cb6d74cd972efa"
           },
           {
-            "Text": "Bump hashicorp/azurerm from 4.19.0 to 4.20.0 in /terraform/kubernetes",
-            "SHA": "c623b8781a66ad22abc3f6c183ddc758ec4eb559",
+            "Text": "Grafana 8.10.1",
+            "SHA": "64804bfae8e71b46f172a5a47f8fae6205a03955",
             "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2025-02-21T05:52:11Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c623b8781a66ad22abc3f6c183ddc758ec4eb559"
+            "Timestamp": "2025-02-21T22:29:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/64804bfae8e71b46f172a5a47f8fae6205a03955"
           }
         ]
       },
@@ -1333,8 +1323,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "Merge pull request #837 from PRODYNA-YASM/feature/tempo-1.32.1",
+            "Timestamp": "2025-02-21T11:05:01Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/13455486921"
+          },
           {
             "Name": "Print filename on backup",
             "Timestamp": "2025-02-12T17:02:05Z",
@@ -1776,5 +1771,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-02-21T07:32:36Z"
+  "LastUpdated": "2025-02-22T07:32:38Z"
 }
