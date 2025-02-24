@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 3,
+        "Count": 4,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump org.apache.maven.plugins:maven-compiler-plugin from 3.13.0 to 3.14.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/838"
+          },
           {
             "Title": "build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.2 to 2.44.3",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/837"
@@ -1427,8 +1431,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "chore: bump org.apache.maven.plugins:maven-compiler-plugin from 3.13.0 to 3.14.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/269"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
@@ -1771,5 +1780,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-02-23T07:32:10Z"
+  "LastUpdated": "2025-02-24T07:32:16Z"
 }
