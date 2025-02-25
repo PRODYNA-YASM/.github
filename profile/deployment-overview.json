@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 4,
+        "Count": 5,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 5.1.0 to 5.2.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/839"
+          },
           {
             "Title": "build(deps): bump org.apache.maven.plugins:maven-compiler-plugin from 3.13.0 to 3.14.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/838"
@@ -100,7 +104,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "c2c8f02",
+          "Version": "699c813",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -182,8 +186,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.68.0..HEAD",
-        "Count": 1,
+        "Count": 2,
         "Commits": [
+          {
+            "Text": "feat: added rate limiting in middleware (#980)",
+            "SHA": "699c81374b87f5a84ffd91925550b5c9a2687206",
+            "Author": {
+              "name": "JayminProd",
+              "link": "https://github.com/JayminProd"
+            },
+            "Timestamp": "2025-02-24T11:00:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/699c81374b87f5a84ffd91925550b5c9a2687206"
+          },
           {
             "Text": "fix: changing organization of award now works (#978)",
             "SHA": "c2c8f025121ad5ebe4b7aebbab7d7c5ac88bc7c4",
@@ -520,9 +534,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.19.4",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "4499eea",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -577,8 +591,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.19.4..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #283 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.21.0",
+            "SHA": "4499eea61e3ed32df6ad1b8b379af315f32dbde6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-02-24T15:05:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/4499eea61e3ed32df6ad1b8b379af315f32dbde6"
+          },
+          {
+            "Text": "Bump github.com/prometheus/client_golang from 1.20.5 to 1.21.0",
+            "SHA": "0440b78a0d0d5156fec8c096f2ac9e1281620e39",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-02-24T14:59:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/0440b78a0d0d5156fec8c096f2ac9e1281620e39"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -646,8 +681,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump golang.org/x/oauth2 from 0.26.0 to 0.27.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/196"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
@@ -1780,5 +1820,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-02-24T07:32:16Z"
+  "LastUpdated": "2025-02-25T07:32:19Z"
 }
