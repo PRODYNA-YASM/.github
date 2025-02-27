@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-02-26T07:32:21Z
+Component Status overview. Last update 2025-02-27T07:32:46Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -15,7 +15,7 @@ Component Status overview. Last update 2025-02-26T07:32:21Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :green_square: 0 | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [6](https://github.com/prodyna-yasm/yasm-external/compare/1.1.5..HEAD) | :green_square: 0 | 1.1.5 |  :red_square: e6d8f54 |  :green_square: 1.1.5 |  :green_square: 1.1.5 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.17.1-0 |  :green_square: 8.17.1-0 |  :green_square: 8.17.1-0 |  :green_square: 8.17.1-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [4](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.68.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.68.1 |  :red_square: 0b2f917 |  :green_square: 1.68.1 |  :red_square: 1.68.0 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [6](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.68.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.68.1 |  :red_square: 03222da |  :green_square: 1.68.1 |  :red_square: 1.68.0 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :green_square: 0 | 1.63.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.68.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
@@ -526,7 +526,11 @@ Component Status overview. Last update 2025-02-26T07:32:21Z
 
 
 
-### [Commits on main since 1.68.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.68.1..HEAD) (4)
+### [Commits on main since 1.68.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.68.1..HEAD) (6)
+
+- [Merge pull request #843 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/kubernetes-2.36.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/03222da409b7876683a9161116ba7adcb72dd6e5) by [dkrizic](https://github.com/dkrizic) on 2025-02-27 07:12:35 +0000 UTC
+
+- [Bump kubernetes from 2.35.1 to 2.36.0 in /terraform/kubernetes](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0150eaa5688341d690e1c0d25dcd262a40df01a6) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-02-27 05:34:05 +0000 UTC
 
 - [Merge pull request #842 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/DataDog/datadog-3.56.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0b2f91729d78b7c730f226e4fe464f234ac7ec58) by [dkrizic](https://github.com/dkrizic) on 2025-02-26 06:12:34 +0000 UTC
 
@@ -549,7 +553,7 @@ Component Status overview. Last update 2025-02-26T07:32:21Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  0b2f917 |  1.68.1 |  1.68.0 | 
+| Version |  03222da |  1.68.1 |  1.68.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :red_square: | 
 

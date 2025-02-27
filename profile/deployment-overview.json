@@ -1313,7 +1313,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0b2f917",
+          "Version": "03222da",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1375,8 +1375,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.68.1..HEAD",
-        "Count": 4,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #843 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/kubernetes-2.36.0",
+            "SHA": "03222da409b7876683a9161116ba7adcb72dd6e5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-02-27T07:12:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/03222da409b7876683a9161116ba7adcb72dd6e5"
+          },
+          {
+            "Text": "Bump kubernetes from 2.35.1 to 2.36.0 in /terraform/kubernetes",
+            "SHA": "0150eaa5688341d690e1c0d25dcd262a40df01a6",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-02-27T05:34:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0150eaa5688341d690e1c0d25dcd262a40df01a6"
+          },
           {
             "Text": "Merge pull request #842 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/DataDog/datadog-3.56.0",
             "SHA": "0b2f91729d78b7c730f226e4fe464f234ac7ec58",
@@ -1876,5 +1896,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-02-26T07:32:21Z"
+  "LastUpdated": "2025-02-27T07:32:46Z"
 }
