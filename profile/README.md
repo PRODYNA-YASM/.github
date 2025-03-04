@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-03-03T07:33:04Z
+Component Status overview. Last update 2025-03-04T07:32:55Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [6](https://github.com/prodyna-yasm/yasm-backend/compare/1.68.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.68.0 |  :red_square: b715022 |  :green_square: 1.68.0 |  :green_square: 1.68.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [5](https://github.com/prodyna-yasm/yasm-frontend/compare/1.68.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.68.0 |  :red_square: ebb5b8a |  :green_square: 1.68.0 |  :green_square: 1.68.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [8](https://github.com/prodyna-yasm/yasm-frontend/compare/1.68.0..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.68.0 |  :red_square: 6f5c934 |  :green_square: 1.68.0 |  :green_square: 1.68.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [4](https://github.com/prodyna-yasm/yasm-integration/compare/1.68.1..HEAD) | :green_square: 0 | 1.68.1 |  :red_square: 505f0fd |  :green_square: 1.68.1 |  :red_square: 1.68.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [6](https://github.com/prodyna-yasm/yasmctl/compare/1.68.0..HEAD) | :green_square: 0 | 1.68.0 |  :red_square: a5362ff |  :green_square: 1.68.0 |  :green_square: 1.68.0 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [6](https://github.com/prodyna-yasm/yasm-metrics/compare/1.68.0..HEAD) | :green_square: 0 | 1.68.0 |  :red_square: fb2ac24 |  :green_square: 1.68.0 |  :green_square: 1.68.0 | 
@@ -80,7 +80,13 @@ Component Status overview. Last update 2025-03-03T07:33:04Z
 
 
 
-### [Commits on main since 1.68.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.68.0..HEAD) (5)
+### [Commits on main since 1.68.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.68.0..HEAD) (8)
+
+- [chore: bump @opentelemetry/semantic-conventions from 1.27.0 to 1.30.0 (#984)](https://github.com/prodyna-yasm/yasm-frontend/commit/6f5c934aab8172f8cab909801138628455b6c32b) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-03-04 06:21:16 +0000 UTC
+
+- [chore: bump @babel/preset-env from 7.25.9 to 7.26.9 (#985)](https://github.com/prodyna-yasm/yasm-frontend/commit/77ff957c9974dc91ae52caf2aed4f81e5735bf38) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-03-04 06:14:16 +0000 UTC
+
+- [chore: bump @babel/preset-react from 7.24.7 to 7.26.3 (#982)](https://github.com/prodyna-yasm/yasm-frontend/commit/7ec52d45a897ab46b24a6bf85f2100e6cdcb9de8) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-03-03 07:52:59 +0000 UTC
 
 - [chore: bump @typescript-eslint/eslint-plugin from 8.15.0 to 8.25.0 (#983)](https://github.com/prodyna-yasm/yasm-frontend/commit/ebb5b8a28d3d088789f05a1be93ffca130af1d08) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-03-03 07:02:16 +0000 UTC
 
@@ -95,9 +101,7 @@ Component Status overview. Last update 2025-03-03T07:33:04Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
-
-- [chore: bump @babel/preset-react from 7.24.7 to 7.26.3](https://github.com/PRODYNA-YASM/yasm-frontend/pull/982)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (5)
 
 - [fix: experience in year and remove alpha dependency](https://github.com/PRODYNA-YASM/yasm-frontend/pull/981)
 
@@ -115,7 +119,7 @@ Component Status overview. Last update 2025-03-03T07:33:04Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  ebb5b8a |  1.68.0 |  1.68.0 | 
+| Version |  6f5c934 |  1.68.0 |  1.68.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
