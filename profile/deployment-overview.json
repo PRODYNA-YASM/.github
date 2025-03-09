@@ -719,7 +719,7 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 4,
+        "Count": 3,
         "Workflows": [
           {
             "Name": "Merge pull request #628 from PRODYNA-YASM/627-umantis-support-for-new…",
@@ -735,11 +735,6 @@
             "Name": "Merge pull request #621 from PRODYNA-YASM/dependabot/docker/golang-1.…",
             "Timestamp": "2025-02-13T09:43:45Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/13304798141"
-          },
-          {
-            "Name": "Merge pull request #614 from PRODYNA-YASM/dependabot/docker/golang-1.…",
-            "Timestamp": "2025-02-06T10:48:21Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/13177109777"
           }
         ]
       }
@@ -990,7 +985,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "c38f906",
+          "Version": "5019e95",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1041,19 +1036,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "feat: 762 update sql statement for getting availability type from people planner",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/287"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.20.0..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #287 from PRODYNA-YASM/feature/762-update-availibility-maconomy-db-query-for-fetching--availability-type",
+            "SHA": "5019e9556c5649a47b917c7f82623801e3401591",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-03-08T10:18:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/5019e9556c5649a47b917c7f82623801e3401591"
+          },
+          {
+            "Text": "feat: 762 update sql statement for getting availabilities from people planner (remove unused res.Name, abd cal.Name);",
+            "SHA": "d1e6012e1620f53e39531c630bef4f3f6fd28efa",
+            "Author": {
+              "name": "ig0rserov",
+              "link": "https://github.com/ig0rserov"
+            },
+            "Timestamp": "2025-03-07T19:01:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/d1e6012e1620f53e39531c630bef4f3f6fd28efa"
+          },
           {
             "Text": "Print status differently",
             "SHA": "c38f9064cb1a5f0b2b986973a62151ef13a49806",
@@ -2529,5 +2539,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-03-08T07:32:29Z"
+  "LastUpdated": "2025-03-09T07:32:33Z"
 }

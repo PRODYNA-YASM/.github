@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-03-08T07:32:29Z
+Component Status overview. Last update 2025-03-09T07:32:33Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -9,7 +9,7 @@ Component Status overview. Last update 2025-03-08T07:32:29Z
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [20](https://github.com/prodyna-yasm/yasm-integration/compare/1.68.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.68.1 |  :red_square: d3f3b4f | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [4](https://github.com/prodyna-yasm/yasmctl/compare/1.69.0..HEAD) | :green_square: 0 | 1.69.0 |  :red_square: 9c06e28 |  :green_square: 1.69.0 |  :red_square: 1.68.0 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [2](https://github.com/prodyna-yasm/yasm-metrics/compare/1.69.0..HEAD) | :green_square: 0 | 1.69.0 |  :red_square: c12a9eb |  :green_square: 1.69.0 |  :red_square: 1.68.0 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.20.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.20.0 |  :red_square: c38f906 |  :green_square: 1.20.0 |  :red_square: 1.19.4 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [4](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.20.0..HEAD) | :green_square: 0 | 1.20.0 |  :red_square: 5019e95 |  :green_square: 1.20.0 |  :red_square: 1.19.4 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [10](https://github.com/prodyna-yasm/yasm-github/compare/1.10.1..HEAD) | :green_square: 0 | 1.10.1 |  :red_square: b4df675 |  :green_square: 1.10.1 |  :red_square: 1.10.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [18](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.13.3..HEAD) | :green_square: 0 | 1.13.3 |  :red_square: c4b614d |  :green_square: 1.13.3 |  :green_square: 1.13.3 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :green_square: 0 | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
@@ -234,15 +234,13 @@ Component Status overview. Last update 2025-03-08T07:32:29Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (4)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (3)
 
 - [Merge pull request #628 from PRODYNA-YASM/627-umantis-support-for-new…](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/13456156676) created on 2025-02-21 11:48:02 +0000 UTC
 
 - [Merge pull request #622 from PRODYNA-YASM/dependabot/go_modules/githu…](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/13327555282) created on 2025-02-14 10:42:26 +0000 UTC
 
 - [Merge pull request #621 from PRODYNA-YASM/dependabot/docker/golang-1.…](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/13304798141) created on 2025-02-13 09:43:45 +0000 UTC
-
-- [Merge pull request #614 from PRODYNA-YASM/dependabot/docker/golang-1.…](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/13177109777) created on 2025-02-06 10:48:21 +0000 UTC
 
 
 
@@ -346,7 +344,11 @@ Component Status overview. Last update 2025-03-08T07:32:29Z
 
 
 
-### [Commits on main since 1.20.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.20.0..HEAD) (2)
+### [Commits on main since 1.20.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.20.0..HEAD) (4)
+
+- [Merge pull request #287 from PRODYNA-YASM/feature/762-update-availibility-maconomy-db-query-for-fetching--availability-type](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/5019e9556c5649a47b917c7f82623801e3401591) by [dkrizic](https://github.com/dkrizic) on 2025-03-08 10:18:10 +0000 UTC
+
+- [feat: 762 update sql statement for getting availabilities from people planner (remove unused res.Name, abd cal.Name);](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/d1e6012e1620f53e39531c630bef4f3f6fd28efa) by [ig0rserov](https://github.com/ig0rserov) on 2025-03-07 19:01:59 +0000 UTC
 
 - [Print status differently](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/c38f9064cb1a5f0b2b986973a62151ef13a49806) by [dkrizic](https://github.com/dkrizic) on 2025-03-06 23:19:37 +0000 UTC
 
@@ -355,17 +357,12 @@ Component Status overview. Last update 2025-03-08T07:32:29Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) (1)
-
-- [feat: 762 update sql statement for getting availability type from people planner](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/287)
-
-
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  c38f906 |  1.20.0 |  1.19.4 | 
+| Version |  5019e95 |  1.20.0 |  1.19.4 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :red_square: | 
 
