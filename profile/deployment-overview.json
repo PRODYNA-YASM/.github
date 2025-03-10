@@ -174,7 +174,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "84aab2e",
+          "Version": "8568125",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -244,8 +244,38 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.68.0..HEAD",
-        "Count": 20,
+        "Count": 23,
         "Commits": [
+          {
+            "Text": "chore: bump material-symbols from 0.18.0 to 0.29.0 (#998)",
+            "SHA": "85681252b771f739123e14d82bb87c615e862bdd",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-03-10T07:21:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/85681252b771f739123e14d82bb87c615e862bdd"
+          },
+          {
+            "Text": "chore: bump @mui/material from 6.4.6 to 6.4.7 (#999)",
+            "SHA": "94d6423960843da5acaf33dc01334fef2e2a766d",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-03-10T06:59:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/94d6423960843da5acaf33dc01334fef2e2a766d"
+          },
+          {
+            "Text": "chore: bump @types/styled-components from 5.1.26 to 5.1.34 (#1000)",
+            "SHA": "7eb95ea8b018eed36ef0e2d8c719a41a92a3b14b",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-03-10T06:42:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7eb95ea8b018eed36ef0e2d8c719a41a92a3b14b"
+          },
           {
             "Text": "chore: bump eslint-config-prettier from 9.1.0 to 10.0.2 (#995)",
             "SHA": "84aab2e79d7623a7d2b9d7b04af1bc5d019764de",
@@ -463,7 +493,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d3f3b4f",
+          "Version": "61f38fb",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -500,19 +530,44 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Feature/762 fetching extra availibity type",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/640"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.68.1..HEAD",
-        "Count": 20,
+        "Count": 23,
         "Commits": [
+          {
+            "Text": "Merge pull request #640 from PRODYNA-YASM/feature/762-fetching-extra-availibity-type",
+            "SHA": "61f38fbeffaf9a16a30827c77c8f481215292633",
+            "Author": {
+              "name": "ig0rserov",
+              "link": "https://github.com/ig0rserov"
+            },
+            "Timestamp": "2025-03-09T13:50:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/61f38fbeffaf9a16a30827c77c8f481215292633"
+          },
+          {
+            "Text": "feat: 762 - fetching extra availability type from new availabilities2 endpoint ; use new yasm-api due to changes in availability fields;",
+            "SHA": "4aeea5aaf88aa5c8fb081f602fc6d442451cfa22",
+            "Author": {
+              "name": "ig0rserov",
+              "link": "https://github.com/ig0rserov"
+            },
+            "Timestamp": "2025-03-07T19:05:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/4aeea5aaf88aa5c8fb081f602fc6d442451cfa22"
+          },
+          {
+            "Text": "feat: 762 - fetching extra availability type from yasm-proxy-odbc; use new yasm-api due to changes in availability fields",
+            "SHA": "168060e15395b525dc18877e14009ff75c7dea65",
+            "Author": {
+              "name": "ig0rserov",
+              "link": "https://github.com/ig0rserov"
+            },
+            "Timestamp": "2025-03-07T12:53:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/168060e15395b525dc18877e14009ff75c7dea65"
+          },
           {
             "Text": "IsOpportunity is receved as bool",
             "SHA": "d3f3b4f881ddc7982299a401cfd4fd7dd0f7c7f1",
@@ -883,7 +938,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "c12a9eb",
+          "Version": "09fcb12",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -940,8 +995,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.69.0..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #166 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.70.0",
+            "SHA": "09fcb123221571f87ba0c8bfa7eb18099a7888b9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-03-10T06:33:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/09fcb123221571f87ba0c8bfa7eb18099a7888b9"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.69.0 to 1.70.0",
+            "SHA": "970e09a4211ab7175fe7ae32d94e90238e549c34",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-03-10T05:37:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/970e09a4211ab7175fe7ae32d94e90238e549c34"
+          },
           {
             "Text": "Merge pull request #165 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp-0.60.0",
             "SHA": "c12a9eb7f4d770ab07076bef94f90dbf4d29a4ba",
@@ -2039,16 +2114,16 @@
         "Count": 5,
         "PullRequests": [
           {
-            "Title": "Bump hashicorp/azurerm from 4.21.0 to 4.21.1 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/853"
+            "Title": "Bump hashicorp/azurerm from 4.21.0 to 4.22.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/856"
+          },
+          {
+            "Title": "Bump hashicorp/azurerm from 4.21.0 to 4.22.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/855"
           },
           {
             "Title": "Bump DataDog/datadog from 3.56.0 to 3.57.0 in /terraform/kubernetes",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/852"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 4.21.0 to 4.21.1 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/851"
           },
           {
             "Title": "Bump kubernetes from 2.35.1 to 2.36.0 in /terraform/kubernetes",
@@ -2539,5 +2614,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-03-09T07:32:33Z"
+  "LastUpdated": "2025-03-10T07:32:41Z"
 }
