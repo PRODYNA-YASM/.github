@@ -578,9 +578,16 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "643cc2c",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.70.0",
+          "IsRelease": true,
+          "IsCurrent": true
+        },
+        {
+          "Name": "staging",
+          "Link": "",
+          "Version": "1.70.0",
+          "IsRelease": true,
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -628,8 +635,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 4,
         "Workflows": [
+          {
+            "Name": "Merge pull request #647 from PRODYNA-YASM/dependabot/go_modules/githu…",
+            "Timestamp": "2025-03-14T12:36:00Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/13856693345"
+          },
           {
             "Name": "Merge pull request #628 from PRODYNA-YASM/627-umantis-support-for-new…",
             "Timestamp": "2025-02-21T11:48:02Z",
@@ -1453,14 +1465,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1427a79",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.70.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.69.2",
+          "Version": "1.70.0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -1469,17 +1481,24 @@
           "Link": "",
           "Version": "1.69.2",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.69.2",
+        "Tag": "1.70.0",
         "SHA": "",
-        "Title": "Fix LB annotations",
-        "Timestamp": "2025-03-12T22:45:37Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.69.2"
+        "Title": "Tempo 1.32.7",
+        "Timestamp": "2025-03-14T12:39:40Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.70.0"
       },
       "Releases": [
+        {
+          "Tag": "1.70.0",
+          "SHA": "",
+          "Title": "Tempo 1.32.7",
+          "Timestamp": "2025-03-14T10:59:34Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.70.0"
+        },
         {
           "Tag": "1.69.2",
           "SHA": "",
@@ -1493,13 +1512,6 @@
           "Title": "Remove unneeded ports on staging and prod",
           "Timestamp": "2025-03-12T22:08:10Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.69.1"
-        },
-        {
-          "Tag": "1.69.0",
-          "SHA": "",
-          "Title": "Update to Traefik Grafana, Otel Operator, Loki, Tempo and some bug fixes",
-          "Timestamp": "2025-03-12T15:14:44Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.69.0"
         }
       ],
       "PullRequests": {
@@ -1522,77 +1534,21 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.69.2..HEAD",
-        "Count": 6,
-        "Commits": [
-          {
-            "Text": "Merge pull request #872 from PRODYNA-YASM/feature/tempo-1.32.7",
-            "SHA": "1427a79d65e6aea16898e72dbf276b0e9d5780eb",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-03-14T10:59:34Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1427a79d65e6aea16898e72dbf276b0e9d5780eb"
-          },
-          {
-            "Text": "Merge branch 'feature/tempo-1.32.7' of github.com:PRODYNA-YASM/yasm-infrastructure-staged into feature/tempo-1.32.7",
-            "SHA": "961985e87164ecc0a6b5dff8b9f46db2fc7d1252",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-03-14T10:43:11Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/961985e87164ecc0a6b5dff8b9f46db2fc7d1252"
-          },
-          {
-            "Text": "Tempo 1.32.7",
-            "SHA": "ba268138c6f8f18e1ff74e0735e5c987b25217b7",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-03-14T10:42:41Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ba268138c6f8f18e1ff74e0735e5c987b25217b7"
-          },
-          {
-            "Text": "Tempo 1.32.7",
-            "SHA": "383217877888b47f225d08ab81e5cddf63ae4a07",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-03-14T10:40:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/383217877888b47f225d08ab81e5cddf63ae4a07"
-          },
-          {
-            "Text": "Merge pull request #871 from PRODYNA-YASM/feature/tempo-1.32.6",
-            "SHA": "0e9019c65e795f1ab0d5d6c300ac58a4da737bbc",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-03-14T08:50:31Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0e9019c65e795f1ab0d5d6c300ac58a4da737bbc"
-          },
-          {
-            "Text": "Tempo 1.32.6",
-            "SHA": "079a72417f33570da2a0140905ab780918114e6f",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-03-14T08:43:43Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/079a72417f33570da2a0140905ab780918114e6f"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.70.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "Merge pull request #872 from PRODYNA-YASM/feature/tempo-1.32.7",
+            "Timestamp": "2025-03-14T12:39:42Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/13856761734"
+          },
           {
             "Name": "Print filename on backup",
             "Timestamp": "2025-02-12T17:02:05Z",
@@ -2112,5 +2068,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-03-14T12:39:49Z"
+  "LastUpdated": "2025-03-14T12:48:52Z"
 }
