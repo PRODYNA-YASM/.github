@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-03-15T07:32:23Z
+Component Status overview. Last update 2025-03-16T07:32:45Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -141,15 +141,13 @@ Component Status overview. Last update 2025-03-15T07:32:23Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (4)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (3)
 
 - [Merge pull request #647 from PRODYNA-YASM/dependabot/go_modules/githu…](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/13856693345) created on 2025-03-14 12:36:00 +0000 UTC
 
 - [Merge pull request #628 from PRODYNA-YASM/627-umantis-support-for-new…](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/13456156676) created on 2025-02-21 11:48:02 +0000 UTC
 
 - [Merge pull request #622 from PRODYNA-YASM/dependabot/go_modules/githu…](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/13327555282) created on 2025-02-14 10:42:26 +0000 UTC
-
-- [Merge pull request #621 from PRODYNA-YASM/dependabot/docker/golang-1.…](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/13304798141) created on 2025-02-13 09:43:45 +0000 UTC
 
 
 

@@ -242,7 +242,7 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 4,
+        "Count": 3,
         "Workflows": [
           {
             "Name": "Merge pull request #647 from PRODYNA-YASM/dependabot/go_modules/githu…",
@@ -258,11 +258,6 @@
             "Name": "Merge pull request #622 from PRODYNA-YASM/dependabot/go_modules/githu…",
             "Timestamp": "2025-02-14T10:42:26Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/13327555282"
-          },
-          {
-            "Name": "Merge pull request #621 from PRODYNA-YASM/dependabot/docker/golang-1.…",
-            "Timestamp": "2025-02-13T09:43:45Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/13304798141"
           }
         ]
       }
@@ -1770,5 +1765,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-03-15T07:32:23Z"
+  "LastUpdated": "2025-03-16T07:32:45Z"
 }
