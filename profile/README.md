@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-03-21T07:33:02Z
+Component Status overview. Last update 2025-03-21T11:56:17Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.70.0 |  :green_square: 1.70.0 |  :green_square: 1.70.0 |  :red_square: 1.68.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.70.5 |  :green_square: 1.70.5 |  :green_square: 1.70.5 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.70.0 |  :green_square: 1.70.0 |  :green_square: 1.70.0 |  :green_square: 1.70.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.70.6 |  :green_square: 1.70.6 |  :green_square: 1.70.6 |  :green_square: 1.70.6 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [10](https://github.com/prodyna-yasm/yasm-integration/compare/1.70.0..HEAD) | :green_square: 0 | 1.70.0 |  :red_square: fe73cd5 |  :green_square: 1.70.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [4](https://github.com/prodyna-yasm/yasmctl/compare/1.70.0..HEAD) | :green_square: 0 | 1.70.0 |  :red_square: 8492f66 |  :green_square: 1.70.0 |  :red_square: 1.68.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.21.0..HEAD) | :green_square: 0 | 1.21.0 |  :red_square: dd5d245 |  :green_square: 1.21.0 |  :red_square: 1.19.4 | 
@@ -14,11 +14,11 @@ Component Status overview. Last update 2025-03-21T07:33:02Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :green_square: 0 | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.1.7 |  :green_square: 1.1.7 |  :green_square: 1.1.7 |  :red_square: 1.1.5 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.18.0-0 |  :green_square: 8.18.0-0 |  :green_square: 8.18.0-0 |  :green_square: 8.18.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.70.1..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.70.1 |  :red_square: 864f093 |  :green_square: 1.70.1 |  :green_square: 1.70.1 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [11](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.70.1..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.70.1 |  :red_square: c1d8fdb |  :green_square: 1.70.1 |  :green_square: 1.70.1 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :green_square: 0 | 1.63.0 | 
-| [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.70.0 | 
+| [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.70.6 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.71.0 | 
-| [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.70.0 | 
+| [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.70.6 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [8](https://github.com/prodyna-yasm/yasm-test/compare/v1.51.6..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.51.6 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [4](https://github.com/prodyna-yasm/yasm-metrics/compare/1.70.0..HEAD) | :green_square: 0 | 1.70.0 |  :red_square: b1eb1e3 |  :green_square: 1.70.0 |  :red_square: 1.68.0 | 
@@ -50,9 +50,9 @@ Component Status overview. Last update 2025-03-21T07:33:02Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.70.0 |  1.70.0 |  1.68.0 | 
+| Version |  1.70.0 |  1.70.0 |  1.70.0 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -66,14 +66,9 @@ Component Status overview. Last update 2025-03-21T07:33:02Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting) (1)
-
-- [build(deps): bump quarkus.platform.version from 3.19.2 to 3.19.3 (#848)](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/13857726264) created on 2025-03-14 13:33:50 +0000 UTC
 
 
-
-
-## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.70.5
+## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.70.6
 
 
 
@@ -98,27 +93,22 @@ Component Status overview. Last update 2025-03-21T07:33:02Z
 
 ### Environments
 
-| Environment |  dev |  staging | 
-| --- |  --- |  --- | 
-| Version |  1.70.5 |  1.70.5 | 
-| Release |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: | 
+| Environment |  dev |  staging |  prod | 
+| --- |  --- |  --- |  --- | 
+| Version |  1.70.6 |  1.70.6 |  1.70.6 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
+
+- [Update Changelog](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.70.6) on 2025-03-20 14:32:22 +0000 UTC
 
 - [Show employee with ongoing participation, when hovering project duration (only ongoing project)](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.70.5) on 2025-03-20 14:32:22 +0000 UTC
 
 - [Adding and deleting awards will refresh the list](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.70.4) on 2025-03-19 10:30:18 +0000 UTC
 
-- [Fix deleting award, fix handling of award to participants and show warning when trying to delete award that is linked to Employee](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.70.3) on 2025-03-19 07:34:02 +0000 UTC
 
-
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
-
-- [feat: show ongoing participation (#1032)](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/13972092107) created on 2025-03-20 14:41:58 +0000 UTC
 
 
 
@@ -492,7 +482,23 @@ Component Status overview. Last update 2025-03-21T07:33:02Z
 
 
 
-### [Commits on main since 1.70.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.70.1..HEAD) (3)
+### [Commits on main since 1.70.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.70.1..HEAD) (11)
+
+- [Merge pull request #887 from PRODYNA-YASM/feature/neo4j-2025-2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c1d8fdb8ed51b0fcbbb519bf19909bed864c1bad) by [dkrizic](https://github.com/dkrizic) on 2025-03-21 09:57:34 +0000 UTC
+
+- [Merge pull request #884 from PRODYNA-YASM/feature/prometheus-node-exporter-4.45.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0acd64409aa3c0c125c3fc7737638696936d38fc) by [dkrizic](https://github.com/dkrizic) on 2025-03-21 09:17:09 +0000 UTC
+
+- [Merge pull request #885 from PRODYNA-YASM/feature/kube-state-metrics-5.31.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/7172b198a02f1858bb02c35038ab610540fea284) by [dkrizic](https://github.com/dkrizic) on 2025-03-21 09:09:42 +0000 UTC
+
+- [Merge pull request #886 from PRODYNA-YASM/feature/opentelemetry-operator-0.83.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/feecd5086cbc1305c54efe84cdc76dff7b8095ad) by [dkrizic](https://github.com/dkrizic) on 2025-03-21 09:03:55 +0000 UTC
+
+- [Neo4j 2025.2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a5d1fab51cb7b9c855d64ad1b2fff84c6ca12b8b) by [dkrizic](https://github.com/dkrizic) on 2025-03-21 00:06:20 +0000 UTC
+
+- [OpenTelemetry Exporter 0.83.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/17e97653bc62c06dcb333d5bdb9c64612d0a9ed0) by [dkrizic](https://github.com/dkrizic) on 2025-03-21 00:04:32 +0000 UTC
+
+- [Kube-state-metrics 5.31.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6f71baf1b8a3c8d260c5e5e3d7f65f1bb2bfa1dd) by [dkrizic](https://github.com/dkrizic) on 2025-03-21 00:03:25 +0000 UTC
+
+- [Prometheus node exporter 4.45.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/31cd66c2d1f2767748f1515811c3564459d47ffa) by [dkrizic](https://github.com/dkrizic) on 2025-03-21 00:02:34 +0000 UTC
 
 - [Merge pull request #883 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/DataDog/datadog-3.58.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/864f0932c3da5e0f4ad564365c08bfdb2be9ab7b) by [dkrizic](https://github.com/dkrizic) on 2025-03-20 06:25:49 +0000 UTC
 
@@ -503,15 +509,7 @@ Component Status overview. Last update 2025-03-21T07:33:02Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (6)
-
-- [Neo4j 2025.2](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/887)
-
-- [OpenTelemetry Exporter 0.83.1](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/886)
-
-- [Kube-state-metrics 5.31.0](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/885)
-
-- [Prometheus node exporter 4.45.0](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/884)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (2)
 
 - [Switch from Kubenet to Cilium](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/874)
 
@@ -523,7 +521,7 @@ Component Status overview. Last update 2025-03-21T07:33:02Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  864f093 |  1.70.1 |  1.70.1 | 
+| Version |  c1d8fdb |  1.70.1 |  1.70.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -576,7 +574,7 @@ Component Status overview. Last update 2025-03-21T07:33:02Z
 
 
 
-## [yasm](https://github.com/prodyna-yasm/yasm) 1.70.0
+## [yasm](https://github.com/prodyna-yasm/yasm) 1.70.6
 
 
 
@@ -595,11 +593,11 @@ Component Status overview. Last update 2025-03-21T07:33:02Z
 
 ### Last releases
 
+- [YASM 1.70.6 - Availability assignments, Improved Project Classification, Company Badges](https://github.com/PRODYNA-YASM/yasm/releases/tag/1.70.6) on 2025-02-21 11:47:07 +0000 UTC
+
 - [YASM 1.70.0 - Availability assignments, Improved Project Classification, Company Badges](https://github.com/PRODYNA-YASM/yasm/releases/tag/1.70.0) on 2025-02-21 11:47:07 +0000 UTC
 
 - [YASM 1.68.0 - New features like Awards, Merge Projects, Extended Reporting Data, Introduction Pitch Roles. Improvement in search logic and switch to Gateway API from Ingress](https://github.com/PRODYNA-YASM/yasm/releases/tag/1.68.0) on 2025-02-06 16:12:52 +0000 UTC
-
-- [YASM 1.51.6 - Improved Neo4j performance, added word count display, correct handling of confidential projects  ](https://github.com/PRODYNA-YASM/yasm/releases/tag/1.51.6) on 2024-08-20 11:25:32 +0000 UTC
 
 
 
@@ -641,7 +639,7 @@ Component Status overview. Last update 2025-03-21T07:33:02Z
 
 
 
-## [yasm](https://github.com/prodyna-yasm/yasm) 1.70.0
+## [yasm](https://github.com/prodyna-yasm/yasm) 1.70.6
 
 
 
@@ -660,11 +658,11 @@ Component Status overview. Last update 2025-03-21T07:33:02Z
 
 ### Last releases
 
+- [YASM 1.70.6 - Availability assignments, Improved Project Classification, Company Badges](https://github.com/PRODYNA-YASM/yasm/releases/tag/1.70.6) on 2025-02-21 11:47:07 +0000 UTC
+
 - [YASM 1.70.0 - Availability assignments, Improved Project Classification, Company Badges](https://github.com/PRODYNA-YASM/yasm/releases/tag/1.70.0) on 2025-02-21 11:47:07 +0000 UTC
 
 - [YASM 1.68.0 - New features like Awards, Merge Projects, Extended Reporting Data, Introduction Pitch Roles. Improvement in search logic and switch to Gateway API from Ingress](https://github.com/PRODYNA-YASM/yasm/releases/tag/1.68.0) on 2025-02-06 16:12:52 +0000 UTC
-
-- [YASM 1.51.6 - Improved Neo4j performance, added word count display, correct handling of confidential projects  ](https://github.com/PRODYNA-YASM/yasm/releases/tag/1.51.6) on 2024-08-20 11:25:32 +0000 UTC
 
 
 
