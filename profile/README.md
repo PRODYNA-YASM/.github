@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-03-20T07:32:22Z
+Component Status overview. Last update 2025-03-21T07:33:02Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.70.0 |  :green_square: 1.70.0 |  :green_square: 1.70.0 |  :red_square: 1.68.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.70.4 |  :green_square: 1.70.4 |  :green_square: 1.70.4 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.70.5 |  :green_square: 1.70.5 |  :green_square: 1.70.5 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [10](https://github.com/prodyna-yasm/yasm-integration/compare/1.70.0..HEAD) | :green_square: 0 | 1.70.0 |  :red_square: fe73cd5 |  :green_square: 1.70.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [4](https://github.com/prodyna-yasm/yasmctl/compare/1.70.0..HEAD) | :green_square: 0 | 1.70.0 |  :red_square: 8492f66 |  :green_square: 1.70.0 |  :red_square: 1.68.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.21.0..HEAD) | :green_square: 0 | 1.21.0 |  :red_square: dd5d245 |  :green_square: 1.21.0 |  :red_square: 1.19.4 | 
@@ -14,14 +14,14 @@ Component Status overview. Last update 2025-03-20T07:32:22Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :green_square: 0 | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.1.7 |  :green_square: 1.1.7 |  :green_square: 1.1.7 |  :red_square: 1.1.5 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.18.0-0 |  :green_square: 8.18.0-0 |  :green_square: 8.18.0-0 |  :green_square: 8.18.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.70.1..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.70.1 |  :red_square: 864f093 |  :green_square: 1.70.1 |  :green_square: 1.70.1 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.70.1..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.70.1 |  :red_square: 864f093 |  :green_square: 1.70.1 |  :green_square: 1.70.1 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :green_square: 0 | 1.63.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.70.0 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :green_square: 0 | 1.71.0 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.71.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.70.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [8](https://github.com/prodyna-yasm/yasm-test/compare/v1.51.6..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.51.6 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [2](https://github.com/prodyna-yasm/yasm-metrics/compare/1.70.0..HEAD) | :green_square: 0 | 1.70.0 |  :red_square: 63aa39f |  :green_square: 1.70.0 |  :red_square: 1.68.0 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [4](https://github.com/prodyna-yasm/yasm-metrics/compare/1.70.0..HEAD) | :green_square: 0 | 1.70.0 |  :red_square: b1eb1e3 |  :green_square: 1.70.0 |  :red_square: 1.68.0 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :green_square: 0 | :green_square: 0 | 1.7.0 |  :green_square: 1.7.0 |  :green_square: 1.7.0 |  :green_square: 1.7.0 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.2.0 |  :green_square: 1.2.0 |  :green_square: 1.2.0 |  :green_square: 1.2.0 | 
 
@@ -36,13 +36,13 @@ Component Status overview. Last update 2025-03-20T07:32:22Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (4)
 
+- [fix: 644 remove organization from awards, make yearOfAward nullable](https://github.com/PRODYNA-YASM/yasm-backend/pull/853)
+
 - [build(deps): bump quarkus.platform.version from 3.19.3 to 3.19.4](https://github.com/PRODYNA-YASM/yasm-backend/pull/852)
 
 - [feat: add LayoutFile upload, delete, search](https://github.com/PRODYNA-YASM/yasm-backend/pull/851)
 
 - [build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 5.2.0 to 5.2.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/850)
-
-- [fix: add default value for year of award when creating award entity](https://github.com/PRODYNA-YASM/yasm-backend/pull/849)
 
 
 
@@ -73,7 +73,7 @@ Component Status overview. Last update 2025-03-20T07:32:22Z
 
 
 
-## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.70.4
+## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.70.5
 
 
 
@@ -100,25 +100,25 @@ Component Status overview. Last update 2025-03-20T07:32:22Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  1.70.4 |  1.70.4 | 
+| Version |  1.70.5 |  1.70.5 | 
 | Release |  :green_square: |  :green_square: | 
 | Current |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Show employee with ongoing participation, when hovering project duration (only ongoing project)](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.70.5) on 2025-03-20 14:32:22 +0000 UTC
+
 - [Adding and deleting awards will refresh the list](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.70.4) on 2025-03-19 10:30:18 +0000 UTC
 
 - [Fix deleting award, fix handling of award to participants and show warning when trying to delete award that is linked to Employee](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.70.3) on 2025-03-19 07:34:02 +0000 UTC
-
-- [ Fixed redirection to 404 page after deleting an Entity, fixed asynchronity issue deleting Organization](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.70.2) on 2025-03-17 09:49:12 +0000 UTC
 
 
 
 
 ### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
 
-- [fix: invalidateQuery on adding and deleting awards (#1030)](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/13944528119) created on 2025-03-19 10:39:23 +0000 UTC
+- [feat: show ongoing participation (#1032)](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/13972092107) created on 2025-03-20 14:41:58 +0000 UTC
 
 
 
@@ -503,7 +503,15 @@ Component Status overview. Last update 2025-03-20T07:32:22Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (2)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (6)
+
+- [Neo4j 2025.2](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/887)
+
+- [OpenTelemetry Exporter 0.83.1](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/886)
+
+- [Kube-state-metrics 5.31.0](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/885)
+
+- [Prometheus node exporter 4.45.0](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/884)
 
 - [Switch from Kubenet to Cilium](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/874)
 
@@ -603,6 +611,11 @@ Component Status overview. Last update 2025-03-20T07:32:22Z
 
 
 
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (1)
+
+- [fix: 644 remove organization from awards, make yearOfAward nullable](https://github.com/PRODYNA-YASM/yasm-api/pull/276)
 
 
 
@@ -766,7 +779,11 @@ Component Status overview. Last update 2025-03-20T07:32:22Z
 
 
 
-### [Commits on main since 1.70.0](https://github.com/prodyna-yasm/yasm-metrics/compare/1.70.0..HEAD) (2)
+### [Commits on main since 1.70.0](https://github.com/prodyna-yasm/yasm-metrics/compare/1.70.0..HEAD) (4)
+
+- [Merge pull request #170 from PRODYNA-YASM/dependabot/go_modules/github.com/go-sql-driver/mysql-1.9.1](https://github.com/prodyna-yasm/yasm-metrics/commit/b1eb1e3ef19bec3fef4982ca902306c297e1b4ee) by [dkrizic](https://github.com/dkrizic) on 2025-03-21 07:27:32 +0000 UTC
+
+- [Bump github.com/go-sql-driver/mysql from 1.9.0 to 1.9.1](https://github.com/prodyna-yasm/yasm-metrics/commit/1c9af5e41bb31f1a56a0b8c83fbc7f26f5f5c7ab) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-03-21 05:46:45 +0000 UTC
 
 - [Merge pull request #169 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.71.0](https://github.com/prodyna-yasm/yasm-metrics/commit/63aa39f2e7d0a0a1dfbe1297e37ed066caf3e3f6) by [dkrizic](https://github.com/dkrizic) on 2025-03-20 06:26:00 +0000 UTC
 
@@ -780,7 +797,7 @@ Component Status overview. Last update 2025-03-20T07:32:22Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  63aa39f |  1.70.0 |  1.68.0 | 
+| Version |  b1eb1e3 |  1.70.0 |  1.68.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :red_square: | 
 
