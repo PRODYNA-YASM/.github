@@ -200,7 +200,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "fe73cd5",
+          "Version": "feb4bb9",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -257,8 +257,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.70.0..HEAD",
-        "Count": 10,
+        "Count": 12,
         "Commits": [
+          {
+            "Text": "Merge pull request #653 from PRODYNA-YASM/dependabot/go_modules/go_modules-036d30de33",
+            "SHA": "feb4bb9e4da8ff3282ac2fd608b7e8ef53e2157c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-03-21T22:56:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/feb4bb9e4da8ff3282ac2fd608b7e8ef53e2157c"
+          },
+          {
+            "Text": "Bump github.com/golang-jwt/jwt/v5 in the go_modules group",
+            "SHA": "d6f7f3723b5af4d123a5b506bb54de3c3cd0dc62",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-03-21T22:11:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/d6f7f3723b5af4d123a5b506bb54de3c3cd0dc62"
+          },
           {
             "Text": "Merge pull request #652 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.71.0",
             "SHA": "fe73cd519d1fa699e072ed53e56ac560e305d0df",
@@ -611,9 +631,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.10.3",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "43bbd11",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -668,8 +688,69 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.10.3..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 6,
+        "Commits": [
+          {
+            "Text": "Merge pull request #218 from PRODYNA-YASM/feature/component-updates",
+            "SHA": "43bbd1176b71da4587b7fd9952d1f0d8300eb9f7",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-03-21T23:25:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/43bbd1176b71da4587b7fd9952d1f0d8300eb9f7"
+          },
+          {
+            "Text": "Component updates",
+            "SHA": "e1c9819b4de57ceb00ebe2893f668a06ca15e1f6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-03-21T23:20:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/e1c9819b4de57ceb00ebe2893f668a06ca15e1f6"
+          },
+          {
+            "Text": "Merge pull request #217 from PRODYNA-YASM/dependabot/go_modules/go_modules-ba6d682d0f",
+            "SHA": "b90078977e15f96f338e77f73519c3984a5996b6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-03-21T23:16:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/b90078977e15f96f338e77f73519c3984a5996b6"
+          },
+          {
+            "Text": "Bump github.com/golang-jwt/jwt/v4 in the go_modules group",
+            "SHA": "f834162e39ae842f7b6dd3e015d7e064da4f53b7",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-03-21T23:12:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/f834162e39ae842f7b6dd3e015d7e064da4f53b7"
+          },
+          {
+            "Text": "Merge pull request #216 from PRODYNA-YASM/dependabot/go_modules/go_modules-036d30de33",
+            "SHA": "29f369f63eec6e7a3bfe8c5bfde185b5cc5b8b6a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-03-21T23:11:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/29f369f63eec6e7a3bfe8c5bfde185b5cc5b8b6a"
+          },
+          {
+            "Text": "Bump github.com/golang-jwt/jwt/v5 in the go_modules group",
+            "SHA": "50e8528e1dad9c8b8231596c12869316970a1dcf",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-03-21T22:13:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/50e8528e1dad9c8b8231596c12869316970a1dcf"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1156,33 +1237,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "c1d8fdb",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.70.2",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.70.1",
+          "Version": "1.70.2",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.70.1",
+          "Version": "1.70.2",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.70.1",
+        "Tag": "1.70.2",
         "SHA": "",
-        "Title": "Updates to Kured, DAPR, Kube-state-metrics, OpenTelemetry Collector and Grafana",
-        "Timestamp": "2025-03-18T08:31:05Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.70.1"
+        "Title": "Migrate from Kubenet to Cilium, Update to DAPR, OpenTelemetry, Kube-State-Metrics, Prometheus Node Exporter, Neo4j 2025.2",
+        "Timestamp": "2025-03-21T17:13:02Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.70.2"
       },
       "Releases": [
+        {
+          "Tag": "1.70.2",
+          "SHA": "",
+          "Title": "Migrate from Kubenet to Cilium, Update to DAPR, OpenTelemetry, Kube-State-Metrics, Prometheus Node Exporter, Neo4j 2025.2",
+          "Timestamp": "2025-03-21T16:06:56Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.70.2"
+        },
         {
           "Tag": "1.70.1",
           "SHA": "",
@@ -1196,23 +1284,12 @@
           "Title": "Tempo 1.32.7",
           "Timestamp": "2025-03-14T10:59:34Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.70.0"
-        },
-        {
-          "Tag": "1.69.2",
-          "SHA": "",
-          "Title": "Fix LB annotations",
-          "Timestamp": "2025-03-12T22:37:02Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.69.2"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "Switch from Kubenet to Cilium",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/874"
-          },
           {
             "Title": "Kubernetes 1.31.3",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/817"
@@ -1221,120 +1298,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.70.1..HEAD",
-        "Count": 11,
-        "Commits": [
-          {
-            "Text": "Merge pull request #887 from PRODYNA-YASM/feature/neo4j-2025-2",
-            "SHA": "c1d8fdb8ed51b0fcbbb519bf19909bed864c1bad",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-03-21T09:57:34Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c1d8fdb8ed51b0fcbbb519bf19909bed864c1bad"
-          },
-          {
-            "Text": "Merge pull request #884 from PRODYNA-YASM/feature/prometheus-node-exporter-4.45.0",
-            "SHA": "0acd64409aa3c0c125c3fc7737638696936d38fc",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-03-21T09:17:09Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0acd64409aa3c0c125c3fc7737638696936d38fc"
-          },
-          {
-            "Text": "Merge pull request #885 from PRODYNA-YASM/feature/kube-state-metrics-5.31.0",
-            "SHA": "7172b198a02f1858bb02c35038ab610540fea284",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-03-21T09:09:42Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/7172b198a02f1858bb02c35038ab610540fea284"
-          },
-          {
-            "Text": "Merge pull request #886 from PRODYNA-YASM/feature/opentelemetry-operator-0.83.1",
-            "SHA": "feecd5086cbc1305c54efe84cdc76dff7b8095ad",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-03-21T09:03:55Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/feecd5086cbc1305c54efe84cdc76dff7b8095ad"
-          },
-          {
-            "Text": "Neo4j 2025.2",
-            "SHA": "a5d1fab51cb7b9c855d64ad1b2fff84c6ca12b8b",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-03-21T00:06:20Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a5d1fab51cb7b9c855d64ad1b2fff84c6ca12b8b"
-          },
-          {
-            "Text": "OpenTelemetry Exporter 0.83.1",
-            "SHA": "17e97653bc62c06dcb333d5bdb9c64612d0a9ed0",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-03-21T00:04:32Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/17e97653bc62c06dcb333d5bdb9c64612d0a9ed0"
-          },
-          {
-            "Text": "Kube-state-metrics 5.31.0",
-            "SHA": "6f71baf1b8a3c8d260c5e5e3d7f65f1bb2bfa1dd",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-03-21T00:03:25Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6f71baf1b8a3c8d260c5e5e3d7f65f1bb2bfa1dd"
-          },
-          {
-            "Text": "Prometheus node exporter 4.45.0",
-            "SHA": "31cd66c2d1f2767748f1515811c3564459d47ffa",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-03-21T00:02:34Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/31cd66c2d1f2767748f1515811c3564459d47ffa"
-          },
-          {
-            "Text": "Merge pull request #883 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/DataDog/datadog-3.58.0",
-            "SHA": "864f0932c3da5e0f4ad564365c08bfdb2be9ab7b",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-03-20T06:25:49Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/864f0932c3da5e0f4ad564365c08bfdb2be9ab7b"
-          },
-          {
-            "Text": "Bump DataDog/datadog from 3.57.0 to 3.58.0 in /terraform/kubernetes",
-            "SHA": "47bd5a37642dcf07ef7d380f07d31bb21e899563",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-03-20T05:50:17Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/47bd5a37642dcf07ef7d380f07d31bb21e899563"
-          },
-          {
-            "Text": "Merge pull request #882 from PRODYNA-YASM/feature/dapr-1.15.3",
-            "SHA": "ebbab6276cba4400e16f8fe23e05d71df001d56b",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-03-18T09:07:12Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ebbab6276cba4400e16f8fe23e05d71df001d56b"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.70.2..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1665,6 +1631,14 @@
         "Count": 7,
         "PullRequests": [
           {
+            "Title": "chore(deps): Bump @azure/msal-node from 3.1.0 to 3.4.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/262"
+          },
+          {
+            "Title": "chore(deps-dev): Bump @types/node from 22.10.10 to 22.13.11",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/261"
+          },
+          {
             "Title": "chore(deps-dev): Bump typescript from 5.6.3 to 5.8.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/260"
           },
@@ -1679,14 +1653,6 @@
           {
             "Title": "chore(deps-dev): Bump mochawesome-merge from 4.3.0 to 5.0.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/257"
-          },
-          {
-            "Title": "chore(deps): Bump @azure/msal-node from 3.1.0 to 3.3.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/256"
-          },
-          {
-            "Title": "chore(deps-dev): Bump @types/node from 22.10.10 to 22.13.10",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/255"
           },
           {
             "Title": "Xray poc",
@@ -1796,7 +1762,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "b1eb1e3",
+          "Version": "0805f52",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1853,8 +1819,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.70.0..HEAD",
-        "Count": 4,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #171 from PRODYNA-YASM/dependabot/go_modules/go_modules-036d30de33",
+            "SHA": "0805f5235dc745f890491be4bacf220ceef83976",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-03-21T22:55:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/0805f5235dc745f890491be4bacf220ceef83976"
+          },
+          {
+            "Text": "Bump github.com/golang-jwt/jwt/v5 in the go_modules group",
+            "SHA": "681b1fb4a514c978097e734d42c4bb1982d730c0",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-03-21T22:31:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/681b1fb4a514c978097e734d42c4bb1982d730c0"
+          },
           {
             "Text": "Merge pull request #170 from PRODYNA-YASM/dependabot/go_modules/github.com/go-sql-driver/mysql-1.9.1",
             "SHA": "b1eb1e3ef19bec3fef4982ca902306c297e1b4ee",
@@ -1918,9 +1904,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.7.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "4b9f3e9",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1975,8 +1961,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-mainproject",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/compare/1.7.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #98 from PRODYNA-YASM/dependabot/go_modules/go_modules-ba6d682d0f",
+            "SHA": "4b9f3e9cc47ebb0e40a96c4099503fe1bc3fdcd7",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-03-21T22:54:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/4b9f3e9cc47ebb0e40a96c4099503fe1bc3fdcd7"
+          },
+          {
+            "Text": "Bump github.com/golang-jwt/jwt/v4 in the go_modules group",
+            "SHA": "370491511736c43f3369bddfc7882ae63a206300",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-03-21T22:34:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/370491511736c43f3369bddfc7882ae63a206300"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2081,5 +2088,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-03-21T12:03:12Z"
+  "LastUpdated": "2025-03-22T07:32:37Z"
 }
