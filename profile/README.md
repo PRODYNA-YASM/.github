@@ -1,12 +1,12 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-03-24T10:13:26Z
+Component Status overview. Last update 2025-03-25T07:33:50Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.70.0 |  :green_square: 1.70.0 |  :green_square: 1.70.0 |  :green_square: 1.70.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.70.6 |  :green_square: 1.70.6 |  :green_square: 1.70.6 |  :green_square: 1.70.6 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.71.0 |  :green_square: 1.71.0 |  :green_square: 1.71.0 |  :red_square: 1.70.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.70.6..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.70.6 |  :red_square: ff401c1 |  :green_square: 1.70.6 |  :green_square: 1.70.6 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.71.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.71.0 |  :red_square: aa7eb91 |  :green_square: 1.71.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.71.0 |  :green_square: 1.71.0 |  :green_square: 1.71.0 |  :red_square: 1.70.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.21.0..HEAD) | :green_square: 0 | 1.21.0 |  :red_square: dd5d245 |  :green_square: 1.21.0 |  :green_square: 1.21.0 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [6](https://github.com/prodyna-yasm/yasm-github/compare/1.10.3..HEAD) | :green_square: 0 | 1.10.3 |  :red_square: 43bbd11 |  :green_square: 1.10.3 |  :green_square: 1.10.3 | 
@@ -73,11 +73,14 @@ Component Status overview. Last update 2025-03-24T10:13:26Z
 
 
 
+### [Commits on main since 1.70.6](https://github.com/prodyna-yasm/yasm-frontend/compare/1.70.6..HEAD) (1)
+
+- [feat: manual workflow (#1033)](https://github.com/prodyna-yasm/yasm-frontend/commit/ff401c1f17c6d16e005456b1cfe0ff024f96d01b) by [eersada-prodyna](https://github.com/eersada-prodyna) on 2025-03-24 13:59:45 +0000 UTC
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
 
-- [feat: manual workflow](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1033)
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
 
 - [chore: bump @opentelemetry/instrumentation-document-load from 0.37.0 to 0.45.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1029)
 
@@ -97,9 +100,9 @@ Component Status overview. Last update 2025-03-24T10:13:26Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.70.6 |  1.70.6 |  1.70.6 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  ff401c1 |  1.70.6 |  1.70.6 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -120,6 +123,13 @@ Component Status overview. Last update 2025-03-24T10:13:26Z
 
 
 
+### [Commits on main since 1.71.0](https://github.com/prodyna-yasm/yasm-integration/compare/1.71.0..HEAD) (2)
+
+- [Merge pull request #656 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.66.1](https://github.com/prodyna-yasm/yasm-integration/commit/aa7eb914b39d12dc0121cbe0c1e145c212b69325) by [dkrizic](https://github.com/dkrizic) on 2025-03-25 04:41:16 +0000 UTC
+
+- [Bump github.com/microsoftgraph/msgraph-sdk-go from 1.66.0 to 1.66.1](https://github.com/prodyna-yasm/yasm-integration/commit/8fe5e4b9ee86f6fd55f9c58088953c168f7f72d9) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-03-25 02:25:12 +0000 UTC
+
+
 
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (1)
@@ -130,11 +140,11 @@ Component Status overview. Last update 2025-03-24T10:13:26Z
 
 ### Environments
 
-| Environment |  dev |  staging |  prod | 
-| --- |  --- |  --- |  --- | 
-| Version |  1.71.0 |  1.71.0 |  1.70.0 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Environment |  dev |  staging | 
+| --- |  --- |  --- | 
+| Version |  aa7eb91 |  1.71.0 | 
+| Release |  :red_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: | 
 
 
 ### Last releases
@@ -700,9 +710,9 @@ Component Status overview. Last update 2025-03-24T10:13:26Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (7)
 
-- [chore(deps): Bump @azure/msal-node from 3.1.0 to 3.4.0](https://github.com/PRODYNA-YASM/yasm-test/pull/262)
+- [chore(deps-dev): Bump @types/node from 22.10.10 to 22.13.13](https://github.com/PRODYNA-YASM/yasm-test/pull/263)
 
-- [chore(deps-dev): Bump @types/node from 22.10.10 to 22.13.11](https://github.com/PRODYNA-YASM/yasm-test/pull/261)
+- [chore(deps): Bump @azure/msal-node from 3.1.0 to 3.4.0](https://github.com/PRODYNA-YASM/yasm-test/pull/262)
 
 - [chore(deps-dev): Bump typescript from 5.6.3 to 5.8.2](https://github.com/PRODYNA-YASM/yasm-test/pull/260)
 

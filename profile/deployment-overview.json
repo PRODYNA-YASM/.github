@@ -100,9 +100,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.70.6",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "ff401c1",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -151,12 +151,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 6,
         "PullRequests": [
-          {
-            "Title": "feat: manual workflow",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1033"
-          },
           {
             "Title": "chore: bump @opentelemetry/instrumentation-document-load from 0.37.0 to 0.45.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1029"
@@ -186,8 +182,19 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.70.6..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "feat: manual workflow (#1033)",
+            "SHA": "ff401c1f17c6d16e005456b1cfe0ff024f96d01b",
+            "Author": {
+              "name": "eersada-prodyna",
+              "link": "https://github.com/eersada-prodyna"
+            },
+            "Timestamp": "2025-03-24T13:59:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ff401c1f17c6d16e005456b1cfe0ff024f96d01b"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -204,9 +211,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.71.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "aa7eb91",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -214,13 +221,6 @@
           "Version": "1.71.0",
           "IsRelease": true,
           "IsCurrent": true
-        },
-        {
-          "Name": "prod",
-          "Link": "",
-          "Version": "1.70.0",
-          "IsRelease": true,
-          "IsCurrent": false
         }
       ],
       "LatestRelease": {
@@ -266,8 +266,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.71.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #656 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.66.1",
+            "SHA": "aa7eb914b39d12dc0121cbe0c1e145c212b69325",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-03-25T04:41:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/aa7eb914b39d12dc0121cbe0c1e145c212b69325"
+          },
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.66.0 to 1.66.1",
+            "SHA": "8fe5e4b9ee86f6fd55f9c58088953c168f7f72d9",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-03-25T02:25:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/8fe5e4b9ee86f6fd55f9c58088953c168f7f72d9"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1529,12 +1550,12 @@
         "Count": 7,
         "PullRequests": [
           {
-            "Title": "chore(deps): Bump @azure/msal-node from 3.1.0 to 3.4.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/262"
+            "Title": "chore(deps-dev): Bump @types/node from 22.10.10 to 22.13.13",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/263"
           },
           {
-            "Title": "chore(deps-dev): Bump @types/node from 22.10.10 to 22.13.11",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/261"
+            "Title": "chore(deps): Bump @azure/msal-node from 3.1.0 to 3.4.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/262"
           },
           {
             "Title": "chore(deps-dev): Bump typescript from 5.6.3 to 5.8.2",
@@ -1930,5 +1951,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-03-24T10:13:26Z"
+  "LastUpdated": "2025-03-25T07:33:50Z"
 }
