@@ -223,7 +223,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "433a5f0",
+          "Version": "53ee4fc",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -267,19 +267,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.67.0 to 1.67.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/664"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.72.0..HEAD",
-        "Count": 6,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Merge pull request #664 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.67.1",
+            "SHA": "53ee4fce8930bf92017307f106d591df48928d31",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-03T07:38:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/53ee4fce8930bf92017307f106d591df48928d31"
+          },
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.67.0 to 1.67.1",
+            "SHA": "7edde3c37437001a72b885a433f8c219c8951eb5",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-04-03T06:41:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/7edde3c37437001a72b885a433f8c219c8951eb5"
+          },
           {
             "Text": "Merge pull request #665 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-core-1.3.2",
             "SHA": "433a5f0fdb850abe474eb0e5d0fcf814b46bc6ae",
@@ -1093,9 +1108,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.1.7",
+          "Version": "1.1.8",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1143,13 +1158,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #79 from PRODYNA-YASM/dependabot/docker/golang-1.2…",
-            "Timestamp": "2025-04-02T10:01:17Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-external/actions/runs/14216865724"
-          },
           {
             "Name": "Merge pull request #69 from PRODYNA-YASM/dependabot/go_modules/go.ope…",
             "Timestamp": "2025-03-06T13:25:31Z",
@@ -1165,14 +1175,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "9a41f33",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "8.19.1-0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "8.19.0-0",
+          "Version": "8.19.1-0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -1185,13 +1195,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "8.19.0-0",
+        "Tag": "8.19.1-0",
         "SHA": "",
-        "Title": "Gotenberg 8.19.0",
-        "Timestamp": "2025-03-31T13:40:19Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.19.0-0"
+        "Title": "Gotenberg 8.19.1, Helm Chart 1.12.0",
+        "Timestamp": "2025-04-03T11:17:40Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.19.1-0"
       },
       "Releases": [
+        {
+          "Tag": "8.19.1-0",
+          "SHA": "",
+          "Title": "Gotenberg 8.19.1, Helm Chart 1.12.0",
+          "Timestamp": "2025-04-03T11:06:07Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.19.1-0"
+        },
         {
           "Tag": "8.19.0-0",
           "SHA": "",
@@ -1205,13 +1222,6 @@
           "Title": "Gotenberg 8.18, Helm chart 1.11",
           "Timestamp": "2025-03-18T07:53:54Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.18.0-0"
-        },
-        {
-          "Tag": "8.17.3-0",
-          "SHA": "",
-          "Title": "8.17.3-0",
-          "Timestamp": "2025-03-07T07:30:03Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.17.3-0"
         }
       ],
       "PullRequests": {
@@ -1221,37 +1231,21 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.19.0-0..HEAD",
-        "Count": 2,
-        "Commits": [
-          {
-            "Text": "Merge pull request #83 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.19.1",
-            "SHA": "9a41f33a6b827b78b3e695da6fd84ba7cd8865f5",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-04-03T06:42:12Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/9a41f33a6b827b78b3e695da6fd84ba7cd8865f5"
-          },
-          {
-            "Text": "Bump gotenberg/gotenberg from 8.19.0 to 8.19.1",
-            "SHA": "4c03420811bd63cf75626eb54675715dd985c94d",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-04-03T00:47:24Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/4c03420811bd63cf75626eb54675715dd985c94d"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.19.1-0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 4,
         "Workflows": [
+          {
+            "Name": "Merge pull request #84 from PRODYNA-YASM/feature/gotenberg-8.19.1",
+            "Timestamp": "2025-04-03T11:17:42Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/14241654871"
+          },
           {
             "Name": "Merge pull request #81 from PRODYNA-YASM/feature/gotenberg-8.19.0",
             "Timestamp": "2025-03-31T13:40:21Z",
@@ -1277,9 +1271,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.72.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "fb6c991",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1291,9 +1285,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.70.2",
+          "Version": "1.72.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1343,20 +1337,26 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.72.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "Merge pull request #901 from PRODYNA-YASM/feature/grafana-8.11.1",
+            "SHA": "fb6c9918214b10fc9f25829dabf6f5cae39245ba",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-03T11:06:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/fb6c9918214b10fc9f25829dabf6f5cae39245ba"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #897 from PRODYNA-YASM/feature/loki-6.29.0",
-            "Timestamp": "2025-04-02T10:00:33Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/14216849822"
-          },
           {
             "Name": "Merge pull request #872 from PRODYNA-YASM/feature/tempo-1.32.7",
             "Timestamp": "2025-03-14T12:39:42Z",
@@ -2170,5 +2170,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-04-03T07:33:23Z"
+  "LastUpdated": "2025-04-03T11:34:00Z"
 }
