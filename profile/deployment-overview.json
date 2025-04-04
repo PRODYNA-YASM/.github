@@ -567,9 +567,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.10.4",
+          "Version": "1.10.5",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -617,13 +617,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #227 from PRODYNA-YASM/226-dummy-change",
-            "Timestamp": "2025-04-03T14:03:18Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/actions/runs/14244975909"
-          },
           {
             "Name": "Merge pull request #202 from PRODYNA-YASM/dependabot/go_modules/go.op…",
             "Timestamp": "2025-03-06T13:24:12Z",
@@ -2051,5 +2046,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-04-03T14:07:35Z"
+  "LastUpdated": "2025-04-04T07:32:54Z"
 }
