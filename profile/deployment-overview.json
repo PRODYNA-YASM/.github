@@ -1136,7 +1136,7 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 2,
         "Workflows": [
           {
             "Name": "Merge pull request #81 from PRODYNA-YASM/feature/gotenberg-8.19.0",
@@ -1147,11 +1147,6 @@
             "Name": "Merge pull request #76 from PRODYNA-YASM/dependabot/docker/gotenberg/…",
             "Timestamp": "2025-03-12T13:42:08Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/13812843195"
-          },
-          {
-            "Name": "Merge pull request #75 from PRODYNA-YASM/dkrizic/update-gotenberg",
-            "Timestamp": "2025-03-05T09:05:48Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/13672273738"
           }
         ]
       }
@@ -2046,5 +2041,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-04-04T07:32:54Z"
+  "LastUpdated": "2025-04-05T07:32:33Z"
 }

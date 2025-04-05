@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-04-04T07:32:54Z
+Component Status overview. Last update 2025-04-05T07:32:33Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -461,13 +461,11 @@ Component Status overview. Last update 2025-04-04T07:32:54Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting) (3)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting) (2)
 
 - [Merge pull request #81 from PRODYNA-YASM/feature/gotenberg-8.19.0](https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/14172983469) created on 2025-03-31 13:40:21 +0000 UTC
 
 - [Merge pull request #76 from PRODYNA-YASM/dependabot/docker/gotenberg/…](https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/13812843195) created on 2025-03-12 13:42:08 +0000 UTC
-
-- [Merge pull request #75 from PRODYNA-YASM/dkrizic/update-gotenberg](https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/13672273738) created on 2025-03-05 09:05:48 +0000 UTC
 
 
 
