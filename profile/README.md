@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-04-05T07:32:33Z
+Component Status overview. Last update 2025-04-06T07:32:51Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -206,13 +206,9 @@ Component Status overview. Last update 2025-04-05T07:32:33Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting) (3)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting) (1)
 
 - [Merge pull request #448 from PRODYNA-YASM/dependabot/go_modules/githu…](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/14032305911) created on 2025-03-24 09:57:48 +0000 UTC
-
-- [Merge pull request #440 from PRODYNA-YASM/dependabot/go_modules/go.op…](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/13699603630) created on 2025-03-06 13:17:32 +0000 UTC
-
-- [Merge pull request #440 from PRODYNA-YASM/dependabot/go_modules/go.op…](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/13698968260) created on 2025-03-06 12:44:07 +0000 UTC
 
 
 
@@ -245,11 +241,6 @@ Component Status overview. Last update 2025-04-05T07:32:33Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #286 from PRODYNA-YASM/284-extend-availities-query…](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/13703333048) created on 2025-03-06 16:22:55 +0000 UTC
-
-
 
 
 ## [yasm-github](https://github.com/prodyna-yasm/yasm-github) 1.10.5
@@ -278,11 +269,6 @@ Component Status overview. Last update 2025-04-05T07:32:33Z
 - [Remove sBroker demo log entry](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.10.3) on 2025-03-12 07:51:41 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #202 from PRODYNA-YASM/dependabot/go_modules/go.op…](https://github.com/PRODYNA-YASM/yasm-github/actions/runs/13699731516) created on 2025-03-06 13:24:12 +0000 UTC
 
 
 
@@ -424,11 +410,6 @@ Component Status overview. Last update 2025-04-05T07:32:33Z
 - [OpenAPI 1.35](https://github.com/PRODYNA-YASM/yasm-external/releases/tag/1.1.6) on 2025-03-06 13:22:02 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-external/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #69 from PRODYNA-YASM/dependabot/go_modules/go.ope…](https://github.com/PRODYNA-YASM/yasm-external/actions/runs/13699756101) created on 2025-03-06 13:25:31 +0000 UTC
 
 
 
@@ -768,11 +749,9 @@ Component Status overview. Last update 2025-04-05T07:32:33Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-metrics/actions?query=is%3Awaiting) (2)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-metrics/actions?query=is%3Awaiting) (1)
 
 - [Merge pull request #172 from PRODYNA-YASM/feature/component-updates](https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/14032442607) created on 2025-03-24 10:04:30 +0000 UTC
-
-- [Merge pull request #160 from PRODYNA-YASM/dependabot/go_modules/go.op…](https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/13698988035) created on 2025-03-06 12:45:08 +0000 UTC
 
 
 
