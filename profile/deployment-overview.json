@@ -151,7 +151,7 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 8,
+        "Count": 7,
         "PullRequests": [
           {
             "Title": "chore: bump html-react-parser from 3.0.15 to 5.2.3",
@@ -160,10 +160,6 @@
           {
             "Title": "feat: 644 delete organization from award form, add functionality to connect awards directly with employees",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1036"
-          },
-          {
-            "Title": "refactor: remove webpack and migrate to vite ",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1035"
           },
           {
             "Title": "chore: bump @opentelemetry/instrumentation-document-load from 0.37.0 to 0.45.0",
@@ -190,8 +186,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.72.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "fix no-unused-vars (#1043)",
+            "SHA": "8ddb22c3021bd393d39b631486fcaa51648bbafc",
+            "Author": {
+              "name": "readmey",
+              "link": "https://github.com/readmey"
+            },
+            "Timestamp": "2025-04-07T07:33:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/8ddb22c3021bd393d39b631486fcaa51648bbafc"
+          },
+          {
+            "Text": "refactor: remove webpack and migrate to vite  (#1035)",
+            "SHA": "1f6cfbb5528b39269b67a8a27b0ea29a6e708958",
+            "Author": {
+              "name": "readmey",
+              "link": "https://github.com/readmey"
+            },
+            "Timestamp": "2025-04-07T07:20:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/1f6cfbb5528b39269b67a8a27b0ea29a6e708958"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1181,11 +1198,19 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 2,
+        "Count": 4,
         "PullRequests": [
           {
-            "Title": "Bump DataDog/datadog from 3.58.0 to 3.59.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/900"
+            "Title": "Bump hashicorp/azurerm from 4.25.0 to 4.26.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/905"
+          },
+          {
+            "Title": "Bump DataDog/datadog from 3.58.0 to 3.59.1 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/904"
+          },
+          {
+            "Title": "Bump hashicorp/azurerm from 4.25.0 to 4.26.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/903"
           },
           {
             "Title": "Kubernetes 1.31.3",
@@ -2008,5 +2033,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-04-06T07:32:51Z"
+  "LastUpdated": "2025-04-07T07:34:47Z"
 }
