@@ -59,8 +59,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 4,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.3 to 2.44.4",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/874"
+          },
+          {
+            "Title": "build(deps): bump io.smallrye:jandex-maven-plugin from 3.2.7 to 3.3.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/873"
+          },
           {
             "Title": "build(deps): bump org.jacoco:jacoco-maven-plugin from 0.8.12 to 0.8.13",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/872"
@@ -100,9 +108,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.72.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "4c0458e",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -151,8 +159,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "refactor: consistent components",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1046"
+          },
+          {
+            "Title": "chore: bump vite from 6.2.3 to 6.2.5",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1044"
+          },
           {
             "Title": "chore: bump html-react-parser from 3.0.15 to 5.2.3",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1040"
@@ -176,18 +192,24 @@
           {
             "Title": "feat: 916 Prepare multistage build",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/918"
-          },
-          {
-            "Title": "chore: bump html-loader from 1.3.2 to 5.1.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/800"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.72.2..HEAD",
-        "Count": 2,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "refactor: fix warnings and typescript issues (#1045)",
+            "SHA": "4c0458e8f98b8207bbe960241bba18c3f4fd3a9d",
+            "Author": {
+              "name": "readmey",
+              "link": "https://github.com/readmey"
+            },
+            "Timestamp": "2025-04-07T10:00:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/4c0458e8f98b8207bbe960241bba18c3f4fd3a9d"
+          },
           {
             "Text": "fix no-unused-vars (#1043)",
             "SHA": "8ddb22c3021bd393d39b631486fcaa51648bbafc",
@@ -479,9 +501,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.22.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "7e574e7",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -536,8 +558,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.22.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #294 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.71.1",
+            "SHA": "7e574e7cc4add412a0126c1a2abe49fcab8632bf",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-07T14:48:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/7e574e7cc4add412a0126c1a2abe49fcab8632bf"
+          },
+          {
+            "Text": "Bump google.golang.org/grpc from 1.71.0 to 1.71.1",
+            "SHA": "33e35f22dd0db0e00871c1c04ea9ad47bd2478f3",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-04-07T14:25:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/33e35f22dd0db0e00871c1c04ea9ad47bd2478f3"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -554,9 +597,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.10.5",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "f9317d0",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -611,8 +654,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.10.5..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #228 from PRODYNA-YASM/dependabot/go_modules/golang.org/x/oauth2-0.29.0",
+            "SHA": "f9317d0f5bdb502b941aa9f8629368ace2809fde",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-08T03:42:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/f9317d0f5bdb502b941aa9f8629368ace2809fde"
+          },
+          {
+            "Text": "Bump golang.org/x/oauth2 from 0.28.0 to 0.29.0",
+            "SHA": "6e649f9080c13235891878cf5e931fa78bc39e2a",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-04-08T00:47:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/6e649f9080c13235891878cf5e931fa78bc39e2a"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1147,9 +1211,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.72.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "3e0e4ce",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1198,20 +1262,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 4,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "Bump hashicorp/azurerm from 4.25.0 to 4.26.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/905"
-          },
-          {
-            "Title": "Bump DataDog/datadog from 3.58.0 to 3.59.1 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/904"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 4.25.0 to 4.26.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/903"
-          },
           {
             "Title": "Kubernetes 1.31.3",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/817"
@@ -1221,8 +1273,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.72.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #906 from PRODYNA-YASM/feature/traefik-35.0.0",
+            "SHA": "3e0e4ce408b17f678aa03c49a17af17031a7df41",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-07T13:00:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3e0e4ce408b17f678aa03c49a17af17031a7df41"
+          },
+          {
+            "Text": "Traefik 35.0.0, update providers",
+            "SHA": "79b134a37d6c302a791c2fafc44dc53d17ff3412",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-07T12:58:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/79b134a37d6c302a791c2fafc44dc53d17ff3412"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1553,6 +1626,10 @@
         "Count": 7,
         "PullRequests": [
           {
+            "Title": "chore(deps-dev): Bump typescript from 5.6.3 to 5.8.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/271"
+          },
+          {
             "Title": "chore(deps-dev): Bump @types/node from 22.10.10 to 22.14.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/270"
           },
@@ -1567,10 +1644,6 @@
           {
             "Title": "chore(deps): Bump @azure/msal-node from 3.1.0 to 3.4.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/264"
-          },
-          {
-            "Title": "chore(deps-dev): Bump typescript from 5.6.3 to 5.8.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/260"
           },
           {
             "Title": "chore(deps-dev): Bump mochawesome-merge from 4.3.0 to 5.0.0",
@@ -1684,9 +1757,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.72.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "fd284ba",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1741,8 +1814,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.72.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #180 from PRODYNA-YASM/dependabot/go_modules/github.com/go-sql-driver/mysql-1.9.2",
+            "SHA": "fd284ba3a69e5c412c70ade458671f7318971c8a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-08T05:36:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/fd284ba3a69e5c412c70ade458671f7318971c8a"
+          },
+          {
+            "Text": "Bump github.com/go-sql-driver/mysql from 1.9.1 to 1.9.2",
+            "SHA": "38ecc5458ad47ea2507ccbf42a23f10b0d6426a4",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-04-08T05:32:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/38ecc5458ad47ea2507ccbf42a23f10b0d6426a4"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2033,5 +2127,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-04-07T07:34:47Z"
+  "LastUpdated": "2025-04-08T07:33:32Z"
 }
