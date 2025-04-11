@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "feat: enable cors all origin temporarily (for mobile testing)",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/876"
+          },
           {
             "Title": "build(deps): bump quarkus.platform.version from 3.21.0 to 3.21.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/875"
@@ -2233,5 +2237,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-04-10T07:34:01Z"
+  "LastUpdated": "2025-04-11T07:32:59Z"
 }
