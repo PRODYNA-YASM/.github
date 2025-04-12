@@ -1,13 +1,13 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-04-11T07:32:59Z
+Component Status overview. Last update 2025-04-12T07:32:31Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.72.0 |  :green_square: 1.72.0 |  :green_square: 1.72.0 |  :green_square: 1.72.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.72.3 |  :green_square: 1.72.3 |  :green_square: 1.72.3 |  :green_square: 1.72.3 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-backend/compare/1.72.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.72.0 |  :red_square: 5efeda0 |  :green_square: 1.72.0 |  :green_square: 1.72.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.72.3 |  :green_square: 1.72.3 |  :green_square: 1.72.3 |  :green_square: 1.72.3 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [12](https://github.com/prodyna-yasm/yasm-integration/compare/1.72.0..HEAD) | :green_square: 0 | 1.72.0 |  :red_square: dbc0a95 |  :green_square: 1.72.0 |  :green_square: 1.72.0 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.72.0 |  :green_square: 1.72.0 |  :green_square: 1.72.0 |  :green_square: 1.72.0 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.72.0 |  :green_square: 1.72.0 |  :green_square: 1.72.0 |  :green_square: 1.72.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.22.0..HEAD) | :green_square: 0 | 1.22.0 |  :red_square: 7e574e7 |  :green_square: 1.22.0 |  :green_square: 1.22.0 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [4](https://github.com/prodyna-yasm/yasm-github/compare/1.10.5..HEAD) | :green_square: 0 | 1.10.5 |  :red_square: 5837695 |  :green_square: 1.10.5 |  :green_square: 1.10.5 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [12](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.13.4..HEAD) | :green_square: 0 | 1.13.4 |  :red_square: c654281 |  :green_square: 1.13.4 |  :green_square: 1.13.4 | 
@@ -17,7 +17,7 @@ Component Status overview. Last update 2025-04-11T07:32:59Z
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.72.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.72.1 |  :red_square: 3e0e4ce |  :green_square: 1.72.1 |  :green_square: 1.72.1 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :green_square: 0 | 1.63.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.72.0 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.72.0 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :green_square: 0 | 1.73.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.72.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [8](https://github.com/prodyna-yasm/yasm-test/compare/v1.51.6..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.51.6 | 
@@ -32,9 +32,14 @@ Component Status overview. Last update 2025-04-11T07:32:59Z
 
 
 
+### [Commits on main since 1.72.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.72.0..HEAD) (1)
+
+- [feat: 644 remove organization from awards, make yearOfAward nullable, add functionality to connect awards directly with employees (#853)](https://github.com/prodyna-yasm/yasm-backend/commit/5efeda0970f8d2c3412772956bc24cfbffa32766) by [irhox](https://github.com/irhox) on 2025-04-11 15:10:25 +0000 UTC
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (7)
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (6)
 
 - [feat: enable cors all origin temporarily (for mobile testing)](https://github.com/PRODYNA-YASM/yasm-backend/pull/876)
 
@@ -48,17 +53,15 @@ Component Status overview. Last update 2025-04-11T07:32:59Z
 
 - [build(deps): bump eclipse-temurin from 23.0.2_7-jre-ubi9-minimal to 24_36-jre-ubi9-minimal](https://github.com/PRODYNA-YASM/yasm-backend/pull/854)
 
-- [feat: 644 remove organization from awards, make yearOfAward nullable, add functionality to connect awards directly with employees](https://github.com/PRODYNA-YASM/yasm-backend/pull/853)
-
 
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.72.0 |  1.72.0 |  1.72.0 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  5efeda0 |  1.72.0 |  1.72.0 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -81,13 +84,15 @@ Component Status overview. Last update 2025-04-11T07:32:59Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (8)
+
+- [chore: bump vite from 6.2.5 to 6.2.6](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1048)
 
 - [chore: bump @opentelemetry/resources from 1.30.1 to 2.0.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1047)
 
 - [chore: bump html-react-parser from 3.0.15 to 5.2.3](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1040)
 
-- [feat: 644 delete organization from award form, add functionality to connect awards directly with employees](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1036)
+- [feat: 644 delete organization from award](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1036)
 
 - [chore: bump @opentelemetry/instrumentation-document-load from 0.37.0 to 0.45.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1029)
 
@@ -195,6 +200,11 @@ Component Status overview. Last update 2025-04-11T07:32:59Z
 
 
 
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasmctl/pulls) (1)
+
+- [Bump github.com/prodyna-yasm/yasm-api-go from 1.72.0 to 1.73.0](https://github.com/PRODYNA-YASM/yasmctl/pull/454)
 
 
 
@@ -483,11 +493,9 @@ Component Status overview. Last update 2025-04-11T07:32:59Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting) (2)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting) (1)
 
 - [Merge pull request #81 from PRODYNA-YASM/feature/gotenberg-8.19.0](https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/14172983469) created on 2025-03-31 13:40:21 +0000 UTC
-
-- [Merge pull request #76 from PRODYNA-YASM/dependabot/docker/gotenberg/…](https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/13812843195) created on 2025-03-12 13:42:08 +0000 UTC
 
 
 
@@ -599,16 +607,11 @@ Component Status overview. Last update 2025-04-11T07:32:59Z
 
 
 
-## [yasm-api](https://github.com/prodyna-yasm/yasm-api) 1.72.0
+## [yasm-api](https://github.com/prodyna-yasm/yasm-api) 1.73.0
 
 
 
 
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (1)
-
-- [feat: 644 remove organization from awards, make yearOfAward nullable, add functionality to connect awards directly with employees](https://github.com/PRODYNA-YASM/yasm-api/pull/276)
 
 
 
@@ -623,11 +626,11 @@ Component Status overview. Last update 2025-04-11T07:32:59Z
 
 ### Last releases
 
+- [1.73.0 Removed organization from awards, Created endpoint to connect awards directly with employees](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.73.0) on 2025-04-11 11:38:36 +0000 UTC
+
 - [1.72.0](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.72.0) on 2025-03-31 07:40:02 +0000 UTC
 
 - [1.71.0](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.71.0) on 2025-03-19 07:39:43 +0000 UTC
-
-- [1.70.0 Detailed employee availabilities](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.70.0) on 2025-03-07 10:14:49 +0000 UTC
 
 
 
