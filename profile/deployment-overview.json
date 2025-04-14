@@ -652,6 +652,148 @@
       }
     },
     {
+      "Name": "yasm-metrics",
+      "Error": "",
+      "Environments": [
+        {
+          "Name": "dev",
+          "Link": "",
+          "Version": "8ad6bda",
+          "IsRelease": false,
+          "IsCurrent": false
+        },
+        {
+          "Name": "staging",
+          "Link": "",
+          "Version": "1.72.0",
+          "IsRelease": true,
+          "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.72.0",
+          "IsRelease": true,
+          "IsCurrent": true
+        }
+      ],
+      "LatestRelease": {
+        "Tag": "1.72.0",
+        "SHA": "",
+        "Title": "API 1.72.0, other small updates",
+        "Timestamp": "2025-04-02T08:52:00Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.72.0"
+      },
+      "Releases": [
+        {
+          "Tag": "1.72.0",
+          "SHA": "",
+          "Title": "API 1.72.0, other small updates",
+          "Timestamp": "2025-04-02T06:50:00Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.72.0"
+        },
+        {
+          "Tag": "1.71.0",
+          "SHA": "",
+          "Title": "API 1.71.0, Component updates",
+          "Timestamp": "2025-03-24T10:01:06Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.71.0"
+        },
+        {
+          "Tag": "1.70.0",
+          "SHA": "",
+          "Title": "API 1.70.0, component updates",
+          "Timestamp": "2025-03-14T06:43:01Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.70.0"
+        }
+      ],
+      "PullRequests": {
+        "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
+        "Count": 0,
+        "PullRequests": null
+      },
+      "Link": "https://github.com/prodyna-yasm/yasm-metrics",
+      "Commits": {
+        "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.72.0..HEAD",
+        "Count": 6,
+        "Commits": [
+          {
+            "Text": "Merge pull request #182 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.73.0",
+            "SHA": "8ad6bda94327a6acb6ab53eaf4c905c9941d8c2f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-14T06:35:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/8ad6bda94327a6acb6ab53eaf4c905c9941d8c2f"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.72.0 to 1.73.0",
+            "SHA": "c7c9b3c64f950e7aba7eb8977991757a97beeaae",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-04-14T06:10:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/c7c9b3c64f950e7aba7eb8977991757a97beeaae"
+          },
+          {
+            "Text": "Merge pull request #181 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.22.0",
+            "SHA": "026855ee11cae615efb4f1989ab833224389fb8b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-09T07:18:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/026855ee11cae615efb4f1989ab833224389fb8b"
+          },
+          {
+            "Text": "Bump github.com/prometheus/client_golang from 1.21.1 to 1.22.0",
+            "SHA": "ed7db4eb7196d7f20d3ac7a5a87137c41a77d763",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-04-09T05:51:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/ed7db4eb7196d7f20d3ac7a5a87137c41a77d763"
+          },
+          {
+            "Text": "Merge pull request #180 from PRODYNA-YASM/dependabot/go_modules/github.com/go-sql-driver/mysql-1.9.2",
+            "SHA": "fd284ba3a69e5c412c70ade458671f7318971c8a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-08T05:36:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/fd284ba3a69e5c412c70ade458671f7318971c8a"
+          },
+          {
+            "Text": "Bump github.com/go-sql-driver/mysql from 1.9.1 to 1.9.2",
+            "SHA": "38ecc5458ad47ea2507ccbf42a23f10b0d6426a4",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-04-08T05:32:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/38ecc5458ad47ea2507ccbf42a23f10b0d6426a4"
+          }
+        ]
+      },
+      "DefaultBranch": "main",
+      "Tags": null,
+      "Workflows": {
+        "Link": "https://github.com/prodyna-yasm/yasm-metrics/actions?query=is%3Awaiting",
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #172 from PRODYNA-YASM/feature/component-updates",
+            "Timestamp": "2025-03-24T10:04:30Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/14032442607"
+          }
+        ]
+      }
+    },
+    {
       "Name": "yasm-github",
       "Error": "",
       "Environments": [
@@ -1349,7 +1491,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "3e0e4ce",
+          "Version": "d2cb06d",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1411,8 +1553,58 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.72.1..HEAD",
-        "Count": 2,
+        "Count": 7,
         "Commits": [
+          {
+            "Text": "Merge pull request #908 from PRODYNA-YASM/feature/rename-fox-and-hound",
+            "SHA": "d2cb06d5c200625f12ae3ad77bf1d82d1fd9d6f6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-14T09:13:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d2cb06d5c200625f12ae3ad77bf1d82d1fd9d6f6"
+          },
+          {
+            "Text": "Rename foxandhound to fox-and-hound",
+            "SHA": "75d48ea5bdbe2b583d3f064241147e5df755e63e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-14T09:02:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/75d48ea5bdbe2b583d3f064241147e5df755e63e"
+          },
+          {
+            "Text": "Merge pull request #907 from PRODYNA-YASM/feature/add-foxandhound",
+            "SHA": "0da9245d5c83c97d2cb19a21b8293c3caaae552c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-14T07:52:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0da9245d5c83c97d2cb19a21b8293c3caaae552c"
+          },
+          {
+            "Text": "Create namespace FoxAndHound",
+            "SHA": "3780d02039b42bba78da47bcfd6d48020abe006f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-14T07:50:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3780d02039b42bba78da47bcfd6d48020abe006f"
+          },
+          {
+            "Text": "Create FoxAndHound",
+            "SHA": "f6b514d928bc9f35138b6d44c84abe0b30c869f5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-14T07:49:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f6b514d928bc9f35138b6d44c84abe0b30c869f5"
+          },
           {
             "Text": "Merge pull request #906 from PRODYNA-YASM/feature/traefik-35.0.0",
             "SHA": "3e0e4ce408b17f678aa03c49a17af17031a7df41",
@@ -1485,8 +1677,49 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.63.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "Merge pull request #167 from PRODYNA-YASM/feature/rename-fox-and-hound",
+            "SHA": "d982831b253e19cce713807e444e2001da46eb8c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-14T09:09:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/d982831b253e19cce713807e444e2001da46eb8c"
+          },
+          {
+            "Text": "Rename FoxAndHound to fox-and-hound",
+            "SHA": "b3b57fa6c3eed586c2a634c89aaa864d9fc5d164",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-14T09:07:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/b3b57fa6c3eed586c2a634c89aaa864d9fc5d164"
+          },
+          {
+            "Text": "Merge pull request #166 from PRODYNA-YASM/feature/add-foxandhound",
+            "SHA": "2e9747698f26fe9a9c6c4e18a72a2eab95af2869",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-14T07:48:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/2e9747698f26fe9a9c6c4e18a72a2eab95af2869"
+          },
+          {
+            "Text": "Add FoxAndHound",
+            "SHA": "05ed57ba39a4582f7bc632986af04f039e76185a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-14T07:46:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/05ed57ba39a4582f7bc632986af04f039e76185a"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1878,148 +2111,6 @@
       }
     },
     {
-      "Name": "yasm-metrics",
-      "Error": "",
-      "Environments": [
-        {
-          "Name": "dev",
-          "Link": "",
-          "Version": "8ad6bda",
-          "IsRelease": false,
-          "IsCurrent": false
-        },
-        {
-          "Name": "staging",
-          "Link": "",
-          "Version": "1.72.0",
-          "IsRelease": true,
-          "IsCurrent": true
-        },
-        {
-          "Name": "prod",
-          "Link": "",
-          "Version": "1.72.0",
-          "IsRelease": true,
-          "IsCurrent": true
-        }
-      ],
-      "LatestRelease": {
-        "Tag": "1.72.0",
-        "SHA": "",
-        "Title": "API 1.72.0, other small updates",
-        "Timestamp": "2025-04-02T08:52:00Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.72.0"
-      },
-      "Releases": [
-        {
-          "Tag": "1.72.0",
-          "SHA": "",
-          "Title": "API 1.72.0, other small updates",
-          "Timestamp": "2025-04-02T06:50:00Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.72.0"
-        },
-        {
-          "Tag": "1.71.0",
-          "SHA": "",
-          "Title": "API 1.71.0, Component updates",
-          "Timestamp": "2025-03-24T10:01:06Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.71.0"
-        },
-        {
-          "Tag": "1.70.0",
-          "SHA": "",
-          "Title": "API 1.70.0, component updates",
-          "Timestamp": "2025-03-14T06:43:01Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.70.0"
-        }
-      ],
-      "PullRequests": {
-        "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 0,
-        "PullRequests": null
-      },
-      "Link": "https://github.com/prodyna-yasm/yasm-metrics",
-      "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.72.0..HEAD",
-        "Count": 6,
-        "Commits": [
-          {
-            "Text": "Merge pull request #182 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.73.0",
-            "SHA": "8ad6bda94327a6acb6ab53eaf4c905c9941d8c2f",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-04-14T06:35:28Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/8ad6bda94327a6acb6ab53eaf4c905c9941d8c2f"
-          },
-          {
-            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.72.0 to 1.73.0",
-            "SHA": "c7c9b3c64f950e7aba7eb8977991757a97beeaae",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-04-14T06:10:51Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/c7c9b3c64f950e7aba7eb8977991757a97beeaae"
-          },
-          {
-            "Text": "Merge pull request #181 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.22.0",
-            "SHA": "026855ee11cae615efb4f1989ab833224389fb8b",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-04-09T07:18:28Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/026855ee11cae615efb4f1989ab833224389fb8b"
-          },
-          {
-            "Text": "Bump github.com/prometheus/client_golang from 1.21.1 to 1.22.0",
-            "SHA": "ed7db4eb7196d7f20d3ac7a5a87137c41a77d763",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-04-09T05:51:29Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/ed7db4eb7196d7f20d3ac7a5a87137c41a77d763"
-          },
-          {
-            "Text": "Merge pull request #180 from PRODYNA-YASM/dependabot/go_modules/github.com/go-sql-driver/mysql-1.9.2",
-            "SHA": "fd284ba3a69e5c412c70ade458671f7318971c8a",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-04-08T05:36:30Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/fd284ba3a69e5c412c70ade458671f7318971c8a"
-          },
-          {
-            "Text": "Bump github.com/go-sql-driver/mysql from 1.9.1 to 1.9.2",
-            "SHA": "38ecc5458ad47ea2507ccbf42a23f10b0d6426a4",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-04-08T05:32:50Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/38ecc5458ad47ea2507ccbf42a23f10b0d6426a4"
-          }
-        ]
-      },
-      "DefaultBranch": "main",
-      "Tags": null,
-      "Workflows": {
-        "Link": "https://github.com/prodyna-yasm/yasm-metrics/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #172 from PRODYNA-YASM/feature/component-updates",
-            "Timestamp": "2025-03-24T10:04:30Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/14032442607"
-          }
-        ]
-      }
-    },
-    {
       "Name": "yasm-mainproject",
       "Error": "",
       "Environments": [
@@ -2298,6 +2389,375 @@
         "Count": 0,
         "Workflows": null
       }
+    },
+    {
+      "Name": "fox-and-hound",
+      "Error": "GET https://api.github.com/repos/prodyna-yasm/fox-and-hound/releases/latest: 404 Not Found []",
+      "Environments": null,
+      "LatestRelease": {
+        "Tag": "",
+        "SHA": "",
+        "Title": "",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Link": ""
+      },
+      "Releases": null,
+      "PullRequests": {
+        "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
+        "Count": 9,
+        "PullRequests": [
+          {
+            "Title": "Bump @angular/cli from 19.1.5 to 19.2.7 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/24"
+          },
+          {
+            "Title": "Bump @angular/material from 19.1.2 to 19.2.9 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/23"
+          },
+          {
+            "Title": "Feature/yasm infra integration",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/22"
+          },
+          {
+            "Title": "Bump typescript from 5.7.3 to 5.8.3 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/20"
+          },
+          {
+            "Title": "Bump @babel/helpers from 7.26.7 to 7.27.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/17"
+          },
+          {
+            "Title": "Bump @types/jasmine from 5.1.5 to 5.1.7 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/12"
+          },
+          {
+            "Title": "Bump jasmine-core from 5.5.0 to 5.6.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/11"
+          },
+          {
+            "Title": "Bump gorm.io/gorm from 1.25.7-0.20240204074919-46816ad31dde to 1.25.12 in /backend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/7"
+          },
+          {
+            "Title": "Bump gorm.io/driver/mysql from 1.5.3 to 1.5.7 in /backend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/6"
+          }
+        ]
+      },
+      "Link": "https://github.com/prodyna-yasm/fox-and-hound",
+      "Commits": {
+        "Link": "https://github.com/prodyna-yasm/fox-and-hound/compare/..HEAD",
+        "Count": 30,
+        "Commits": [
+          {
+            "Text": "Merge pull request #18 from PRODYNA-YASM/feature/metrics-endpoint",
+            "SHA": "11af9956fdbdadc0e73d1c8ba210f20365b0b48e",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-04-07T19:58:01Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/11af9956fdbdadc0e73d1c8ba210f20365b0b48e"
+          },
+          {
+            "Text": "Removing pulumi from devcontainer",
+            "SHA": "1454cae565bca8f4d565dc27f357d39427d49a7f",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-04-05T15:59:22Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/1454cae565bca8f4d565dc27f357d39427d49a7f"
+          },
+          {
+            "Text": "Removing api from frontend",
+            "SHA": "dc645109b8b7e4be7723308c5ed7938f58b35617",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-04-05T15:09:11Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/dc645109b8b7e4be7723308c5ed7938f58b35617"
+          },
+          {
+            "Text": "Clean up nginx",
+            "SHA": "af7b41a365dcbbedc133e40a2c93cf5bb5291a3f",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-04-05T14:50:44Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/af7b41a365dcbbedc133e40a2c93cf5bb5291a3f"
+          },
+          {
+            "Text": "Removing pulumi and moving backend Dockerfile",
+            "SHA": "5e8101acfb11f162169e9b0384d9d70606978845",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-04-05T14:46:32Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/5e8101acfb11f162169e9b0384d9d70606978845"
+          },
+          {
+            "Text": "Adding metrics",
+            "SHA": "a126e480d502f3b5f190dbb255c0beb68ae0ac08",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-04-05T14:46:11Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/a126e480d502f3b5f190dbb255c0beb68ae0ac08"
+          },
+          {
+            "Text": "Merge pull request #5 from sceneo/feature/msal-implementation",
+            "SHA": "242333b7b6eee34326ddf007a762e4f06430bd39",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-03-19T05:09:35Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/242333b7b6eee34326ddf007a762e4f06430bd39"
+          },
+          {
+            "Text": "Add dependabot configuration",
+            "SHA": "439278df567dc0028a0f4591fe4f08b6308e683e",
+            "Author": {
+              "name": "TomLederer",
+              "link": "https://github.com/TomLederer"
+            },
+            "Timestamp": "2025-03-18T21:49:31Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/439278df567dc0028a0f4591fe4f08b6308e683e"
+          },
+          {
+            "Text": "Implement msal",
+            "SHA": "4d6d60b393a68441499455a873f18c6c5e01f418",
+            "Author": {
+              "name": "TomLederer",
+              "link": "https://github.com/TomLederer"
+            },
+            "Timestamp": "2025-03-18T21:41:00Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/4d6d60b393a68441499455a873f18c6c5e01f418"
+          },
+          {
+            "Text": "Merge pull request #4 from sceneo/feature/staging-environment",
+            "SHA": "d9fd5b679bdd003e7cd15dc2400780726f67994e",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-14T23:25:12Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/d9fd5b679bdd003e7cd15dc2400780726f67994e"
+          },
+          {
+            "Text": "frontend api",
+            "SHA": "3cc63e35e4dcd0a6caa1a182a210f6981ae2b0a5",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-14T23:20:19Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/3cc63e35e4dcd0a6caa1a182a210f6981ae2b0a5"
+          },
+          {
+            "Text": "config image tags",
+            "SHA": "8c947374dcab1a93f834f60ccf16566ed4cf0921",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-14T23:20:11Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/8c947374dcab1a93f834f60ccf16566ed4cf0921"
+          },
+          {
+            "Text": "fixing database name",
+            "SHA": "c4730a7ea85b97475b5f54d2c8f7e0335bdbf1e0",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-14T23:19:56Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/c4730a7ea85b97475b5f54d2c8f7e0335bdbf1e0"
+          },
+          {
+            "Text": "Fixing port shizzl",
+            "SHA": "3aa099f9d991a21bb31e55b446dd5300963a60f3",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-14T23:19:38Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/3aa099f9d991a21bb31e55b446dd5300963a60f3"
+          },
+          {
+            "Text": "Updating pulumi to use url instead of domain name in webapp and move stack to private since org run out of free trial",
+            "SHA": "00ae551e6aa649130461bdd5246c362b7e1320ad",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-14T16:10:18Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/00ae551e6aa649130461bdd5246c362b7e1320ad"
+          },
+          {
+            "Text": "update frontend api",
+            "SHA": "e8ee0f49fde5a20748183293eb878f3973a34616",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-14T14:09:03Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/e8ee0f49fde5a20748183293eb878f3973a34616"
+          },
+          {
+            "Text": "Reset backend to expose default http port",
+            "SHA": "1c8882ab326796edfa9f51a37c95b7bc4a4e7b94",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-14T14:08:10Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/1c8882ab326796edfa9f51a37c95b7bc4a4e7b94"
+          },
+          {
+            "Text": "Adjust webapp to fetch config from server",
+            "SHA": "fb219cab887b49ff4756fbedcd86c6996524ed57",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-14T14:07:44Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/fb219cab887b49ff4756fbedcd86c6996524ed57"
+          },
+          {
+            "Text": "Adjust config to use tls setting in connection string",
+            "SHA": "bc352f07cb32c95372bc4fa8e2a4e1615c392814",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-14T14:06:40Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/bc352f07cb32c95372bc4fa8e2a4e1615c392814"
+          },
+          {
+            "Text": "Check if enc port is set and add minimal health endpoint",
+            "SHA": "bc48336b597ac22ed138cd08cd85670e41ef7a11",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-14T14:06:13Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/bc48336b597ac22ed138cd08cd85670e41ef7a11"
+          },
+          {
+            "Text": "Removing unused environments file",
+            "SHA": "bb2b47afa892c8cc44b1bf6598a606f23438bf29",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-10T17:57:26Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/bb2b47afa892c8cc44b1bf6598a606f23438bf29"
+          },
+          {
+            "Text": "Adjust webapp to fetch config from nginx during gin init",
+            "SHA": "cb20244d63e8137b706cb76392a27d6f94e3c56e",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-10T17:56:34Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/cb20244d63e8137b706cb76392a27d6f94e3c56e"
+          },
+          {
+            "Text": "Imporving readme",
+            "SHA": "959274e8b1cda9b1695ce0af9307a6b37cab579b",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-10T17:55:37Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/959274e8b1cda9b1695ce0af9307a6b37cab579b"
+          },
+          {
+            "Text": "Adding java and openapi cli to devcontainer",
+            "SHA": "5ae87f3bb28feb842c235f3a944b6d520cc302c7",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-10T17:55:22Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/5ae87f3bb28feb842c235f3a944b6d520cc302c7"
+          },
+          {
+            "Text": "Setting forontend nginx port to 80",
+            "SHA": "d1417c1e47902faf9041da12c218f41f1618130d",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-09T14:30:39Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/d1417c1e47902faf9041da12c218f41f1618130d"
+          },
+          {
+            "Text": "change infra to auto set env variables",
+            "SHA": "34c99ca7f5a12a1e2976458dede5b8fadebf5440",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-09T14:28:31Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/34c99ca7f5a12a1e2976458dede5b8fadebf5440"
+          },
+          {
+            "Text": "fixing init.sql",
+            "SHA": "e326e2aa9dc1329ee0be50a69437ec961b945e92",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-09T14:28:17Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/e326e2aa9dc1329ee0be50a69437ec961b945e92"
+          },
+          {
+            "Text": "adjusting dockerfiles",
+            "SHA": "e95dd8e57e735774e2b26a5e85060d82a30d4ad4",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-09T14:28:08Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/e95dd8e57e735774e2b26a5e85060d82a30d4ad4"
+          },
+          {
+            "Text": "make webapp fetch config on startup",
+            "SHA": "c56034738481affb41b5d2b3f7d20f7c0d0fa7af",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-09T14:27:50Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/c56034738481affb41b5d2b3f7d20f7c0d0fa7af"
+          },
+          {
+            "Text": "Make backend fetch environment variables",
+            "SHA": "3345b31e55b612f0294fc845afebfa8a3b5775e0",
+            "Author": {
+              "name": "johannesrosskopp",
+              "link": "https://github.com/johannesrosskopp"
+            },
+            "Timestamp": "2025-03-09T14:26:55Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/3345b31e55b612f0294fc845afebfa8a3b5775e0"
+          }
+        ]
+      },
+      "DefaultBranch": "main",
+      "Tags": null,
+      "Workflows": {
+        "Link": "https://github.com/prodyna-yasm/fox-and-hound/actions?query=is%3Awaiting",
+        "Count": 0,
+        "Workflows": null
+      }
     }
   ],
   "EnvironmentDescription": [
@@ -2314,5 +2774,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-04-14T07:34:09Z"
+  "LastUpdated": "2025-04-14T09:26:56Z"
 }
