@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-04-15T07:35:32Z
+Component Status overview. Last update 2025-04-15T12:39:24Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -15,7 +15,7 @@ Component Status overview. Last update 2025-04-15T07:35:32Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [2](https://github.com/prodyna-yasm/yasm-external/compare/1.1.8..HEAD) | :green_square: 0 | 1.1.8 |  :red_square: 05c7a07 |  :green_square: 1.1.8 |  :green_square: 1.1.8 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [2](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.19.1-0..HEAD) | :green_square: 0 | 8.19.1-0 |  :red_square: d8be60e |  :green_square: 8.19.1-0 |  :green_square: 8.19.1-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [7](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.72.1..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.72.1 |  :red_square: d2cb06d |  :green_square: 1.72.1 |  :green_square: 1.72.1 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.0..HEAD) | :green_square: 0 | 1.73.0 |  :red_square: 42f3583 |  :green_square: 1.73.0 |  :red_square: 1.72.1 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [4](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.63.0..HEAD) | :green_square: 0 | 1.63.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.72.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :green_square: 0 | 1.73.0 | 
@@ -570,35 +570,18 @@ Component Status overview. Last update 2025-04-15T07:35:32Z
 
 
 
-## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 1.72.1
+## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 1.73.0
 
 
 
 
-### [Commits on main since 1.72.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.72.1..HEAD) (7)
+### [Commits on main since 1.73.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.0..HEAD) (2)
 
-- [Merge pull request #908 from PRODYNA-YASM/feature/rename-fox-and-hound](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d2cb06d5c200625f12ae3ad77bf1d82d1fd9d6f6) by [dkrizic](https://github.com/dkrizic) on 2025-04-14 09:13:49 +0000 UTC
+- [Merge pull request #912 from PRODYNA-YASM/feature/fah-gateway](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/42f3583c52150f00caaef20c46099373dd00f17f) by [dkrizic](https://github.com/dkrizic) on 2025-04-15 11:42:33 +0000 UTC
 
-- [Rename foxandhound to fox-and-hound](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/75d48ea5bdbe2b583d3f064241147e5df755e63e) by [dkrizic](https://github.com/dkrizic) on 2025-04-14 09:02:52 +0000 UTC
-
-- [Merge pull request #907 from PRODYNA-YASM/feature/add-foxandhound](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0da9245d5c83c97d2cb19a21b8293c3caaae552c) by [dkrizic](https://github.com/dkrizic) on 2025-04-14 07:52:58 +0000 UTC
-
-- [Create namespace FoxAndHound](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3780d02039b42bba78da47bcfd6d48020abe006f) by [dkrizic](https://github.com/dkrizic) on 2025-04-14 07:50:09 +0000 UTC
-
-- [Create FoxAndHound](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f6b514d928bc9f35138b6d44c84abe0b30c869f5) by [dkrizic](https://github.com/dkrizic) on 2025-04-14 07:49:23 +0000 UTC
-
-- [Merge pull request #906 from PRODYNA-YASM/feature/traefik-35.0.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3e0e4ce408b17f678aa03c49a17af17031a7df41) by [dkrizic](https://github.com/dkrizic) on 2025-04-07 13:00:52 +0000 UTC
-
-- [Traefik 35.0.0, update providers](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/79b134a37d6c302a791c2fafc44dc53d17ff3412) by [dkrizic](https://github.com/dkrizic) on 2025-04-07 12:58:00 +0000 UTC
+- [Hostname and certificates for Fox-and-hound](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/594364f62caee28fd23a7b60a519a766e43441db) by [dkrizic](https://github.com/dkrizic) on 2025-04-15 11:38:40 +0000 UTC
 
 
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (2)
-
-- [grafana 8.12.0](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/909)
-
-- [Kubernetes 1.31.3](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/817)
 
 
 
@@ -606,20 +589,25 @@ Component Status overview. Last update 2025-04-15T07:35:32Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  d2cb06d |  1.72.1 |  1.72.1 | 
+| Version |  42f3583 |  1.73.0 |  1.72.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
+
+- [Infrastructure for Fox-and-hound, Kubernetes 1.31.1, other updates](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.0) on 2025-04-15 09:32:27 +0000 UTC
 
 - [Back to Tempo 1.32.7 to fix Service Graph bug](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.72.1) on 2025-04-03 12:23:38 +0000 UTC
 
 - [Update to OpenTelemetry Operator, Traefik, Tempo and Loki](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.72.0) on 2025-04-02 09:55:12 +0000 UTC
 
-- [Migrate from Kubenet to Cilium, Update to DAPR, OpenTelemetry, Kube-State-Metrics, Prometheus Node Exporter, Neo4j 2025.2](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.70.2) on 2025-03-21 16:06:56 +0000 UTC
 
 
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting) (1)
+
+- [Merge pull request #910 from PRODYNA-YASM/feature/opentelemetry-opera…](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/14466287733) created on 2025-04-15 09:40:09 +0000 UTC
 
 
 

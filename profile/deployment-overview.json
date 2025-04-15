@@ -1527,14 +1527,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d2cb06d",
+          "Version": "42f3583",
           "IsRelease": false,
           "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.72.1",
+          "Version": "1.73.0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -1543,17 +1543,24 @@
           "Link": "",
           "Version": "1.72.1",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.72.1",
+        "Tag": "1.73.0",
         "SHA": "",
-        "Title": "Back to Tempo 1.32.7 to fix Service Graph bug",
-        "Timestamp": "2025-04-03T12:37:38Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.72.1"
+        "Title": "Infrastructure for Fox-and-hound, Kubernetes 1.31.1, other updates",
+        "Timestamp": "2025-04-15T09:40:07Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.0"
       },
       "Releases": [
+        {
+          "Tag": "1.73.0",
+          "SHA": "",
+          "Title": "Infrastructure for Fox-and-hound, Kubernetes 1.31.1, other updates",
+          "Timestamp": "2025-04-15T09:32:27Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.0"
+        },
         {
           "Tag": "1.72.1",
           "SHA": "",
@@ -1567,103 +1574,37 @@
           "Title": "Update to OpenTelemetry Operator, Traefik, Tempo and Loki",
           "Timestamp": "2025-04-02T09:55:12Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.72.0"
-        },
-        {
-          "Tag": "1.70.2",
-          "SHA": "",
-          "Title": "Migrate from Kubenet to Cilium, Update to DAPR, OpenTelemetry, Kube-State-Metrics, Prometheus Node Exporter, Neo4j 2025.2",
-          "Timestamp": "2025-03-21T16:06:56Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.70.2"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 2,
-        "PullRequests": [
-          {
-            "Title": "grafana 8.12.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/909"
-          },
-          {
-            "Title": "Kubernetes 1.31.3",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/817"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.72.1..HEAD",
-        "Count": 7,
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.0..HEAD",
+        "Count": 2,
         "Commits": [
           {
-            "Text": "Merge pull request #908 from PRODYNA-YASM/feature/rename-fox-and-hound",
-            "SHA": "d2cb06d5c200625f12ae3ad77bf1d82d1fd9d6f6",
+            "Text": "Merge pull request #912 from PRODYNA-YASM/feature/fah-gateway",
+            "SHA": "42f3583c52150f00caaef20c46099373dd00f17f",
             "Author": {
               "name": "dkrizic",
               "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2025-04-14T09:13:49Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d2cb06d5c200625f12ae3ad77bf1d82d1fd9d6f6"
+            "Timestamp": "2025-04-15T11:42:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/42f3583c52150f00caaef20c46099373dd00f17f"
           },
           {
-            "Text": "Rename foxandhound to fox-and-hound",
-            "SHA": "75d48ea5bdbe2b583d3f064241147e5df755e63e",
+            "Text": "Hostname and certificates for Fox-and-hound",
+            "SHA": "594364f62caee28fd23a7b60a519a766e43441db",
             "Author": {
               "name": "dkrizic",
               "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2025-04-14T09:02:52Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/75d48ea5bdbe2b583d3f064241147e5df755e63e"
-          },
-          {
-            "Text": "Merge pull request #907 from PRODYNA-YASM/feature/add-foxandhound",
-            "SHA": "0da9245d5c83c97d2cb19a21b8293c3caaae552c",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-04-14T07:52:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0da9245d5c83c97d2cb19a21b8293c3caaae552c"
-          },
-          {
-            "Text": "Create namespace FoxAndHound",
-            "SHA": "3780d02039b42bba78da47bcfd6d48020abe006f",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-04-14T07:50:09Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3780d02039b42bba78da47bcfd6d48020abe006f"
-          },
-          {
-            "Text": "Create FoxAndHound",
-            "SHA": "f6b514d928bc9f35138b6d44c84abe0b30c869f5",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-04-14T07:49:23Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f6b514d928bc9f35138b6d44c84abe0b30c869f5"
-          },
-          {
-            "Text": "Merge pull request #906 from PRODYNA-YASM/feature/traefik-35.0.0",
-            "SHA": "3e0e4ce408b17f678aa03c49a17af17031a7df41",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-04-07T13:00:52Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3e0e4ce408b17f678aa03c49a17af17031a7df41"
-          },
-          {
-            "Text": "Traefik 35.0.0, update providers",
-            "SHA": "79b134a37d6c302a791c2fafc44dc53d17ff3412",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-04-07T12:58:00Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/79b134a37d6c302a791c2fafc44dc53d17ff3412"
+            "Timestamp": "2025-04-15T11:38:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/594364f62caee28fd23a7b60a519a766e43441db"
           }
         ]
       },
@@ -1671,8 +1612,14 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #910 from PRODYNA-YASM/feature/opentelemetry-opera…",
+            "Timestamp": "2025-04-15T09:40:09Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/14466287733"
+          }
+        ]
       }
     },
     {
@@ -2699,5 +2646,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-04-15T07:35:32Z"
+  "LastUpdated": "2025-04-15T12:39:24Z"
 }
