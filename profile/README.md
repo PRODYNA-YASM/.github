@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-04-17T07:34:29Z
+Component Status overview. Last update 2025-04-18T07:33:51Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-backend/compare/1.72.0..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.72.0 |  :red_square: 2c70365 |  :green_square: 1.72.0 |  :green_square: 1.72.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.72.3..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.72.3 |  :red_square: b5b6553 |  :green_square: 1.72.3 |  :green_square: 1.72.3 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.72.3..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.72.3 |  :red_square: af04635 |  :green_square: 1.72.3 |  :green_square: 1.72.3 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [16](https://github.com/prodyna-yasm/yasm-integration/compare/1.72.0..HEAD) | :green_square: 0 | 1.72.0 |  :red_square: 94045b6 |  :green_square: 1.72.0 |  :green_square: 1.72.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [4](https://github.com/prodyna-yasm/yasmctl/compare/1.72.0..HEAD) | :green_square: 0 | 1.72.0 |  :red_square: 7d62990 |  :green_square: 1.72.0 |  :green_square: 1.72.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [4](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.22.0..HEAD) | :green_square: 0 | 1.22.0 |  :red_square: 2619970 |  :green_square: 1.22.0 |  :green_square: 1.22.0 | 
@@ -23,7 +23,7 @@ Component Status overview. Last update 2025-04-17T07:34:29Z
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [8](https://github.com/prodyna-yasm/yasm-test/compare/v1.51.6..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.51.6 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [2](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.7.1..HEAD) | :green_square: 0 | 1.7.1 |  :red_square: 94d135e |  :green_square: 1.7.1 |  :red_square: 1.7.0 | 
-| [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.2.0 |  :green_square: 1.2.0 |  :green_square: 1.2.0 |  :green_square: 1.2.0 | 
+| [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :red_square: [30](https://github.com/prodyna-yasm/fox-and-hound/compare/..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/fox-and-hound/pulls) |  |  :red_square: a776e05 | 
 
 
@@ -85,7 +85,9 @@ Component Status overview. Last update 2025-04-17T07:34:29Z
 
 
 
-### [Commits on main since 1.72.3](https://github.com/prodyna-yasm/yasm-frontend/compare/1.72.3..HEAD) (1)
+### [Commits on main since 1.72.3](https://github.com/prodyna-yasm/yasm-frontend/compare/1.72.3..HEAD) (2)
+
+- [feat: mobile optimization (#1051)](https://github.com/prodyna-yasm/yasm-frontend/commit/af0463512f96a7cde6361fea387a911252ff2684) by [readmey](https://github.com/readmey) on 2025-04-17 13:59:12 +0000 UTC
 
 - [feat: 644 delete organization connection from awards (#1036)](https://github.com/prodyna-yasm/yasm-frontend/commit/b5b6553f5eb803f80823ecb9c660dd1f0dc0d50b) by [irhox](https://github.com/irhox) on 2025-04-15 13:12:05 +0000 UTC
 
@@ -94,7 +96,7 @@ Component Status overview. Last update 2025-04-17T07:34:29Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (9)
 
-- [chore: bump vite from 6.2.5 to 6.3.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1050)
+- [chore: bump vite from 6.2.5 to 6.3.2](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1052)
 
 - [feat: 292 created shopping cart component](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1049)
 
@@ -118,7 +120,7 @@ Component Status overview. Last update 2025-04-17T07:34:29Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  b5b6553 |  1.72.3 |  1.72.3 | 
+| Version |  af04635 |  1.72.3 |  1.72.3 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -919,7 +921,7 @@ Component Status overview. Last update 2025-04-17T07:34:29Z
 
 
 
-## [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) 1.2.0
+## [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) 1.3.0
 
 
 
@@ -938,18 +940,18 @@ Component Status overview. Last update 2025-04-17T07:34:29Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.2.0 |  1.2.0 |  1.2.0 | 
+| Version |  1.3.0 |  1.3.0 |  1.3.0 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
 | Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Update Storage Account Credentials](https://github.com/PRODYNA-YASM/sales-copilot/releases/tag/1.3.0) on 2025-02-17 10:07:36 +0000 UTC
+
 - [The Revive](https://github.com/PRODYNA-YASM/sales-copilot/releases/tag/1.2.0) on 2025-02-17 10:07:36 +0000 UTC
 
 - [Use Gateway API](https://github.com/PRODYNA-YASM/sales-copilot/releases/tag/1.1.2) on 2025-02-11 23:50:46 +0000 UTC
-
-- [Using less resources](https://github.com/PRODYNA-YASM/sales-copilot/releases/tag/1.1.1) on 2024-12-04 22:49:47 +0000 UTC
 
 
 
