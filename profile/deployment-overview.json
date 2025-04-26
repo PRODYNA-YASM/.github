@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2c70365",
+          "Version": "79e9b78",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -86,8 +86,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.72.0..HEAD",
-        "Count": 3,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "fix: replaced DocumentBuilderFactory.newInstance with newDefaultInstance (#881)",
+            "SHA": "79e9b7819d6e66f1c24f38258fce2d1ada0b9401",
+            "Author": {
+              "name": "jding31",
+              "link": "https://github.com/jding31"
+            },
+            "Timestamp": "2025-04-25T12:27:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/79e9b7819d6e66f1c24f38258fce2d1ada0b9401"
+          },
           {
             "Text": "feat: allow cors (#877)",
             "SHA": "2c703659453b2259fd63a3835fa7d7b3e268cdaf",
@@ -2259,6 +2269,10 @@
         "Count": 7,
         "PullRequests": [
           {
+            "Title": "chore(deps-dev): Bump @types/node from 22.10.10 to 22.15.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/281"
+          },
+          {
             "Title": "chore(deps-dev): Bump cypress from 14.1.0 to 14.3.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/280"
           },
@@ -2269,10 +2283,6 @@
           {
             "Title": "chore(deps): Bump @azure/msal-node from 3.1.0 to 3.5.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/276"
-          },
-          {
-            "Title": "chore(deps-dev): Bump @types/node from 22.10.10 to 22.14.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/275"
           },
           {
             "Title": "chore(deps-dev): Bump typescript from 5.6.3 to 5.8.3",
@@ -2961,5 +2971,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-04-25T07:33:11Z"
+  "LastUpdated": "2025-04-26T07:32:23Z"
 }

@@ -1,10 +1,10 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-04-25T07:33:11Z
+Component Status overview. Last update 2025-04-26T07:32:23Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-backend/compare/1.72.0..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.72.0 |  :red_square: 2c70365 |  :green_square: 1.72.0 |  :green_square: 1.72.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-backend/compare/1.72.0..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.72.0 |  :red_square: 79e9b78 |  :green_square: 1.72.0 |  :green_square: 1.72.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.72.3..HEAD) | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.72.3 |  :red_square: af04635 |  :green_square: 1.72.3 |  :green_square: 1.72.3 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [18](https://github.com/prodyna-yasm/yasm-integration/compare/1.72.0..HEAD) | :green_square: 0 | 1.72.0 |  :red_square: d0a8536 |  :green_square: 1.72.0 |  :green_square: 1.72.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [4](https://github.com/prodyna-yasm/yasmctl/compare/1.72.0..HEAD) | :green_square: 0 | 1.72.0 |  :red_square: 7d62990 |  :green_square: 1.72.0 |  :green_square: 1.72.0 | 
@@ -33,7 +33,9 @@ Component Status overview. Last update 2025-04-25T07:33:11Z
 
 
 
-### [Commits on main since 1.72.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.72.0..HEAD) (3)
+### [Commits on main since 1.72.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.72.0..HEAD) (4)
+
+- [fix: replaced DocumentBuilderFactory.newInstance with newDefaultInstance (#881)](https://github.com/prodyna-yasm/yasm-backend/commit/79e9b7819d6e66f1c24f38258fce2d1ada0b9401) by [jding31](https://github.com/jding31) on 2025-04-25 12:27:29 +0000 UTC
 
 - [feat: allow cors (#877)](https://github.com/prodyna-yasm/yasm-backend/commit/2c703659453b2259fd63a3835fa7d7b3e268cdaf) by [coding4kay](https://github.com/coding4kay) on 2025-04-14 12:48:37 +0000 UTC
 
@@ -62,7 +64,7 @@ Component Status overview. Last update 2025-04-25T07:33:11Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  2c70365 |  1.72.0 |  1.72.0 | 
+| Version |  79e9b78 |  1.72.0 |  1.72.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -871,13 +873,13 @@ Component Status overview. Last update 2025-04-25T07:33:11Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (7)
 
+- [chore(deps-dev): Bump @types/node from 22.10.10 to 22.15.2](https://github.com/PRODYNA-YASM/yasm-test/pull/281)
+
 - [chore(deps-dev): Bump cypress from 14.1.0 to 14.3.2](https://github.com/PRODYNA-YASM/yasm-test/pull/280)
 
 - [chore(deps): Bump cypress/included from 13.15.0 to 14.3.2](https://github.com/PRODYNA-YASM/yasm-test/pull/279)
 
 - [chore(deps): Bump @azure/msal-node from 3.1.0 to 3.5.1](https://github.com/PRODYNA-YASM/yasm-test/pull/276)
-
-- [chore(deps-dev): Bump @types/node from 22.10.10 to 22.14.1](https://github.com/PRODYNA-YASM/yasm-test/pull/275)
 
 - [chore(deps-dev): Bump typescript from 5.6.3 to 5.8.3](https://github.com/PRODYNA-YASM/yasm-test/pull/271)
 
