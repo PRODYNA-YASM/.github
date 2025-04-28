@@ -145,7 +145,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "af04635",
+          "Version": "73f41b1",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -196,23 +196,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 10,
+        "Count": 7,
         "PullRequests": [
-          {
-            "Title": "chore: bump react-router and react-router-dom",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1054"
-          },
-          {
-            "Title": "chore: bump vite from 6.2.5 to 6.3.3",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1053"
-          },
           {
             "Title": "feat: 292 created shopping cart component",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1049"
-          },
-          {
-            "Title": "chore: bump vite from 6.2.5 to 6.2.6",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1048"
           },
           {
             "Title": "chore: bump @opentelemetry/resources from 1.30.1 to 2.0.0",
@@ -243,8 +231,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.72.3..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "chore: bump react-router and react-router-dom (#1054)",
+            "SHA": "73f41b11cada34ae0e61fff8077c8134b01ba796",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-04-27T14:25:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/73f41b11cada34ae0e61fff8077c8134b01ba796"
+          },
+          {
+            "Text": "chore: bump vite from 6.2.5 to 6.3.3 (#1053)",
+            "SHA": "2deb6bf02a67582661cf49cda6e2d4850d5addf1",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-04-27T14:11:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2deb6bf02a67582661cf49cda6e2d4850d5addf1"
+          },
           {
             "Text": "feat: mobile optimization (#1051)",
             "SHA": "af0463512f96a7cde6361fea387a911252ff2684",
@@ -1844,8 +1852,21 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 3,
+        "PullRequests": [
+          {
+            "Title": "Bump DataDog/datadog from 3.60.0 to 3.60.1 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/916"
+          },
+          {
+            "Title": "Bump hashicorp/azurerm from 4.26.0 to 4.27.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/915"
+          },
+          {
+            "Title": "Bump hashicorp/azurerm from 4.26.0 to 4.27.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/914"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -2096,8 +2117,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "chore: bump org.openapitools:openapi-generator-maven-plugin from 7.12.0 to 7.13.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/279"
+          },
           {
             "Title": "chore: bump com.fasterxml.jackson.core:jackson-databind from 2.18.3 to 2.19.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/278"
@@ -2621,19 +2646,27 @@
       "Releases": null,
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 4,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "Bump @angular/forms from 19.2.7 to 19.2.8 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/62"
+          },
+          {
+            "Title": "Bump @angular/compiler-cli from 19.2.7 to 19.2.8 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/61"
+          },
+          {
+            "Title": "Bump jasmine-core from 5.6.0 to 5.7.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/60"
+          },
+          {
+            "Title": "Bump gorm.io/gorm from 1.25.12 to 1.26.0 in /backend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/59"
+          },
           {
             "Title": "Bump @angular-devkit/build-angular from 19.2.8 to 19.2.9 in /frontend in the npm_and_yarn group across 1 directory",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/58"
-          },
-          {
-            "Title": "Bump @angular/forms from 19.2.6 to 19.2.7 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/57"
-          },
-          {
-            "Title": "Bump @angular/compiler-cli from 19.2.6 to 19.2.7 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/56"
           },
           {
             "Title": "Bump @babel/helpers from 7.26.7 to 7.27.0 in /frontend",
@@ -2971,5 +3004,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-04-27T07:32:43Z"
+  "LastUpdated": "2025-04-28T07:45:50Z"
 }
