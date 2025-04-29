@@ -2291,28 +2291,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 7,
+        "Count": 2,
         "PullRequests": [
-          {
-            "Title": "chore(deps-dev): Bump @types/node from 22.10.10 to 22.15.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/281"
-          },
-          {
-            "Title": "chore(deps-dev): Bump cypress from 14.1.0 to 14.3.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/280"
-          },
-          {
-            "Title": "chore(deps): Bump cypress/included from 13.15.0 to 14.3.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/279"
-          },
-          {
-            "Title": "chore(deps): Bump @azure/msal-node from 3.1.0 to 3.5.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/276"
-          },
-          {
-            "Title": "chore(deps-dev): Bump typescript from 5.6.3 to 5.8.3",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/271"
-          },
           {
             "Title": "chore(deps-dev): Bump mochawesome-merge from 4.3.0 to 5.0.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/257"
@@ -2326,8 +2306,68 @@
       "Link": "https://github.com/prodyna-yasm/yasm-test",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/compare/v1.51.6..HEAD",
-        "Count": 8,
+        "Count": 14,
         "Commits": [
+          {
+            "Text": "chore(deps): Bump @azure/msal-node from 3.1.0 to 3.5.1 (#276)",
+            "SHA": "cef9b81e82457d57561267e79583648b02605788",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-04-29T07:23:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/cef9b81e82457d57561267e79583648b02605788"
+          },
+          {
+            "Text": "chore(deps): Bump cypress/included from 13.15.0 to 14.3.2 (#279)",
+            "SHA": "2a363dfedcd9491caffd259f636bfac23bee6b06",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-04-29T07:23:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/2a363dfedcd9491caffd259f636bfac23bee6b06"
+          },
+          {
+            "Text": "chore(deps-dev): Bump @types/node from 22.10.10 to 22.15.2 (#281)",
+            "SHA": "08436dadc503fa6b0bddc19de4b96c41f8c60929",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-04-29T07:23:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/08436dadc503fa6b0bddc19de4b96c41f8c60929"
+          },
+          {
+            "Text": "chore(deps-dev): Bump typescript from 5.6.3 to 5.8.3 (#271)",
+            "SHA": "8ce6c34c78832209414bb0e038382bbe01c20fc6",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-04-29T07:23:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/8ce6c34c78832209414bb0e038382bbe01c20fc6"
+          },
+          {
+            "Text": "chore(deps-dev): Bump cypress from 14.1.0 to 14.3.2 (#280)",
+            "SHA": "bab0f012c1eb03b031a6760640695d3566ec5cdc",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-04-29T07:22:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/bab0f012c1eb03b031a6760640695d3566ec5cdc"
+          },
+          {
+            "Text": "General refactoring and code improvments (#282)",
+            "SHA": "17e6c26ffb1a1fb8fd97ef6ac6f7733fe89d1e8f",
+            "Author": {
+              "name": "codinski",
+              "link": "https://github.com/codinski"
+            },
+            "Timestamp": "2025-04-29T07:14:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/17e6c26ffb1a1fb8fd97ef6ac6f7733fe89d1e8f"
+          },
           {
             "Text": "chore(deps): Bump jose from 5.9.6 to 6.0.10 (#254)",
             "SHA": "0dec5e01d45d1782cb6910fad1971a67e0aa4db0",
@@ -3004,5 +3044,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-04-28T07:45:50Z"
+  "LastUpdated": "2025-04-29T07:34:33Z"
 }

@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-04-28T07:45:50Z
+Component Status overview. Last update 2025-04-29T07:34:33Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -21,7 +21,7 @@ Component Status overview. Last update 2025-04-28T07:45:50Z
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.73.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.72.0 | 
 | [yasm-nginx](https://github.com/prodyna-yasm/yasm-nginx) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-nginx/pulls) | 1.25.4-2 | 
-| [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [8](https://github.com/prodyna-yasm/yasm-test/compare/v1.51.6..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.51.6 | 
+| [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [14](https://github.com/prodyna-yasm/yasm-test/compare/v1.51.6..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.51.6 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [4](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.7.1..HEAD) | :green_square: 0 | 1.7.1 |  :red_square: 0c29adc |  :green_square: 1.7.1 |  :red_square: 1.7.0 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :red_square: [30](https://github.com/prodyna-yasm/fox-and-hound/compare/..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/fox-and-hound/pulls) |  |  :red_square: 091183f | 
@@ -859,7 +859,19 @@ Component Status overview. Last update 2025-04-28T07:45:50Z
 
 
 
-### [Commits on main since v1.51.6](https://github.com/prodyna-yasm/yasm-test/compare/v1.51.6..HEAD) (8)
+### [Commits on main since v1.51.6](https://github.com/prodyna-yasm/yasm-test/compare/v1.51.6..HEAD) (14)
+
+- [chore(deps): Bump @azure/msal-node from 3.1.0 to 3.5.1 (#276)](https://github.com/prodyna-yasm/yasm-test/commit/cef9b81e82457d57561267e79583648b02605788) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-04-29 07:23:56 +0000 UTC
+
+- [chore(deps): Bump cypress/included from 13.15.0 to 14.3.2 (#279)](https://github.com/prodyna-yasm/yasm-test/commit/2a363dfedcd9491caffd259f636bfac23bee6b06) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-04-29 07:23:46 +0000 UTC
+
+- [chore(deps-dev): Bump @types/node from 22.10.10 to 22.15.2 (#281)](https://github.com/prodyna-yasm/yasm-test/commit/08436dadc503fa6b0bddc19de4b96c41f8c60929) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-04-29 07:23:33 +0000 UTC
+
+- [chore(deps-dev): Bump typescript from 5.6.3 to 5.8.3 (#271)](https://github.com/prodyna-yasm/yasm-test/commit/8ce6c34c78832209414bb0e038382bbe01c20fc6) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-04-29 07:23:21 +0000 UTC
+
+- [chore(deps-dev): Bump cypress from 14.1.0 to 14.3.2 (#280)](https://github.com/prodyna-yasm/yasm-test/commit/bab0f012c1eb03b031a6760640695d3566ec5cdc) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-04-29 07:22:59 +0000 UTC
+
+- [General refactoring and code improvments (#282)](https://github.com/prodyna-yasm/yasm-test/commit/17e6c26ffb1a1fb8fd97ef6ac6f7733fe89d1e8f) by [codinski](https://github.com/codinski) on 2025-04-29 07:14:54 +0000 UTC
 
 - [chore(deps): Bump jose from 5.9.6 to 6.0.10 (#254)](https://github.com/prodyna-yasm/yasm-test/commit/0dec5e01d45d1782cb6910fad1971a67e0aa4db0) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-03-13 12:51:44 +0000 UTC
 
@@ -880,17 +892,7 @@ Component Status overview. Last update 2025-04-28T07:45:50Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (7)
-
-- [chore(deps-dev): Bump @types/node from 22.10.10 to 22.15.2](https://github.com/PRODYNA-YASM/yasm-test/pull/281)
-
-- [chore(deps-dev): Bump cypress from 14.1.0 to 14.3.2](https://github.com/PRODYNA-YASM/yasm-test/pull/280)
-
-- [chore(deps): Bump cypress/included from 13.15.0 to 14.3.2](https://github.com/PRODYNA-YASM/yasm-test/pull/279)
-
-- [chore(deps): Bump @azure/msal-node from 3.1.0 to 3.5.1](https://github.com/PRODYNA-YASM/yasm-test/pull/276)
-
-- [chore(deps-dev): Bump typescript from 5.6.3 to 5.8.3](https://github.com/PRODYNA-YASM/yasm-test/pull/271)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (2)
 
 - [chore(deps-dev): Bump mochawesome-merge from 4.3.0 to 5.0.0](https://github.com/PRODYNA-YASM/yasm-test/pull/257)
 
