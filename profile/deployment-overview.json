@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 5,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump org.jsoup:jsoup from 1.19.1 to 1.20.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/882"
+          },
           {
             "Title": "build(deps): bump quarkus.platform.version from 3.21.0 to 3.21.4",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/880"
@@ -196,8 +200,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "feat: add ability to add awards directly in persons detail page",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1055"
+          },
           {
             "Title": "feat: 292 created shopping cart component",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1049"
@@ -1801,33 +1809,33 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "cf82e84",
-          "IsRelease": false,
-          "IsCurrent": false
-        },
-        {
-          "Name": "staging",
-          "Link": "",
-          "Version": "1.73.0",
+          "Version": "1.73.1",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
-          "Name": "prod",
+          "Name": "staging",
           "Link": "",
-          "Version": "1.72.1",
+          "Version": "1.73.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.73.0",
+        "Tag": "1.73.1",
         "SHA": "",
-        "Title": "Infrastructure for Fox-and-hound, Kubernetes 1.31.1, other updates",
-        "Timestamp": "2025-04-15T09:40:07Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.0"
+        "Title": "Hostname and certificate for Fox-and-Hound, Update Service Principals, component updates",
+        "Timestamp": "2025-04-29T20:43:45Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.1"
       },
       "Releases": [
+        {
+          "Tag": "1.73.1",
+          "SHA": "",
+          "Title": "Hostname and certificate for Fox-and-Hound, Update Service Principals, component updates",
+          "Timestamp": "2025-04-29T20:35:45Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.1"
+        },
         {
           "Tag": "1.73.0",
           "SHA": "",
@@ -1841,86 +1849,30 @@
           "Title": "Back to Tempo 1.32.7 to fix Service Graph bug",
           "Timestamp": "2025-04-03T12:23:38Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.72.1"
-        },
-        {
-          "Tag": "1.72.0",
-          "SHA": "",
-          "Title": "Update to OpenTelemetry Operator, Traefik, Tempo and Loki",
-          "Timestamp": "2025-04-02T09:55:12Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.72.0"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 3,
-        "PullRequests": [
-          {
-            "Title": "Bump DataDog/datadog from 3.60.0 to 3.60.1 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/916"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 4.26.0 to 4.27.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/915"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 4.26.0 to 4.27.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/914"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.0..HEAD",
-        "Count": 4,
-        "Commits": [
-          {
-            "Text": "Merge pull request #913 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/DataDog/datadog-3.60.0",
-            "SHA": "cf82e84f741f0511011f8643d9533a472015ceeb",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-04-17T07:06:27Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/cf82e84f741f0511011f8643d9533a472015ceeb"
-          },
-          {
-            "Text": "Bump DataDog/datadog from 3.59.1 to 3.60.0 in /terraform/kubernetes",
-            "SHA": "cad90624fbd2c3158bbfdef9f3b5689ee0bb783c",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-04-17T05:16:00Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/cad90624fbd2c3158bbfdef9f3b5689ee0bb783c"
-          },
-          {
-            "Text": "Merge pull request #912 from PRODYNA-YASM/feature/fah-gateway",
-            "SHA": "42f3583c52150f00caaef20c46099373dd00f17f",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-04-15T11:42:33Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/42f3583c52150f00caaef20c46099373dd00f17f"
-          },
-          {
-            "Text": "Hostname and certificates for Fox-and-hound",
-            "SHA": "594364f62caee28fd23a7b60a519a766e43441db",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-04-15T11:38:40Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/594364f62caee28fd23a7b60a519a766e43441db"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.1..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "Merge pull request #919 from PRODYNA-YASM/feature/component-updates",
+            "Timestamp": "2025-04-29T20:43:47Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/14740963077"
+          },
           {
             "Name": "Merge pull request #910 from PRODYNA-YASM/feature/opentelemetry-opera…",
             "Timestamp": "2025-04-15T09:40:09Z",
@@ -1934,13 +1886,20 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "1.63.0",
+        "Tag": "1.73.0",
         "SHA": "",
-        "Title": "1.63.0",
-        "Timestamp": "2025-02-12T15:05:09Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-common/releases/tag/1.63.0"
+        "Title": "Base infrastructure for Fox and Hound, rotate secrets for SPs",
+        "Timestamp": "2025-04-29T20:42:32Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-common/releases/tag/1.73.0"
       },
       "Releases": [
+        {
+          "Tag": "1.73.0",
+          "SHA": "",
+          "Title": "Base infrastructure for Fox and Hound, rotate secrets for SPs",
+          "Timestamp": "2025-04-29T20:26:49Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-common/releases/tag/1.73.0"
+        },
         {
           "Tag": "1.63.0",
           "SHA": "",
@@ -1954,71 +1913,18 @@
           "Title": "1.51.0",
           "Timestamp": "2025-01-20T08:32:32Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-common/releases/tag/1.51.0"
-        },
-        {
-          "Tag": "1.48.0",
-          "SHA": "",
-          "Title": "Refining Storage Account configuration",
-          "Timestamp": "2024-11-28T15:07:22Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-common/releases/tag/1.48.0"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Update SP",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-common/pull/168"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.63.0..HEAD",
-        "Count": 4,
-        "Commits": [
-          {
-            "Text": "Merge pull request #167 from PRODYNA-YASM/feature/rename-fox-and-hound",
-            "SHA": "d982831b253e19cce713807e444e2001da46eb8c",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-04-14T09:09:35Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/d982831b253e19cce713807e444e2001da46eb8c"
-          },
-          {
-            "Text": "Rename FoxAndHound to fox-and-hound",
-            "SHA": "b3b57fa6c3eed586c2a634c89aaa864d9fc5d164",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-04-14T09:07:42Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/b3b57fa6c3eed586c2a634c89aaa864d9fc5d164"
-          },
-          {
-            "Text": "Merge pull request #166 from PRODYNA-YASM/feature/add-foxandhound",
-            "SHA": "2e9747698f26fe9a9c6c4e18a72a2eab95af2869",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-04-14T07:48:31Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/2e9747698f26fe9a9c6c4e18a72a2eab95af2869"
-          },
-          {
-            "Text": "Add FoxAndHound",
-            "SHA": "05ed57ba39a4582f7bc632986af04f039e76185a",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-04-14T07:46:35Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/05ed57ba39a4582f7bc632986af04f039e76185a"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.73.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2294,8 +2200,8 @@
         "Count": 2,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump mochawesome-merge from 4.3.0 to 5.0.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/257"
+            "Title": "chore(deps): Bump openid-client from 6.1.3 to 6.4.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/283"
           },
           {
             "Title": "Xray poc",
@@ -2306,8 +2212,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-test",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/compare/v1.51.6..HEAD",
-        "Count": 14,
+        "Count": 15,
         "Commits": [
+          {
+            "Text": "chore(deps-dev): Bump mochawesome-merge from 4.3.0 to 5.0.0 (#257)",
+            "SHA": "25bc9946e5cddf2e71cdfc70068695f327f7309f",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-04-29T07:36:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/25bc9946e5cddf2e71cdfc70068695f327f7309f"
+          },
           {
             "Text": "chore(deps): Bump @azure/msal-node from 3.1.0 to 3.5.1 (#276)",
             "SHA": "cef9b81e82457d57561267e79583648b02605788",
@@ -2686,8 +2602,16 @@
       "Releases": null,
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 6,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "#64 Questions should be sortable",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/69"
+          },
+          {
+            "Title": "#66 Fix average rating datasource",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/67"
+          },
           {
             "Title": "Bump @angular/forms from 19.2.7 to 19.2.8 in /frontend",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/62"
@@ -3044,5 +2968,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-04-29T07:34:33Z"
+  "LastUpdated": "2025-04-30T07:33:38Z"
 }
