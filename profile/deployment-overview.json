@@ -149,7 +149,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "73f41b1",
+          "Version": "c045b9c",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -203,8 +203,8 @@
         "Count": 8,
         "PullRequests": [
           {
-            "Title": "feat: add ability to add awards directly in persons detail page",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1055"
+            "Title": "chore: bump vite from 6.3.3 to 6.3.4",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1056"
           },
           {
             "Title": "feat: 292 created shopping cart component",
@@ -239,8 +239,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.72.3..HEAD",
-        "Count": 4,
+        "Count": 5,
         "Commits": [
+          {
+            "Text": "feat: add ability to add awards directly in persons detail page (#1055)",
+            "SHA": "c045b9c54c61c1f0fa6ddecbff096805bcd11d63",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2025-04-30T14:51:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/c045b9c54c61c1f0fa6ddecbff096805bcd11d63"
+          },
           {
             "Text": "chore: bump react-router and react-router-dom (#1054)",
             "SHA": "73f41b11cada34ae0e61fff8077c8134b01ba796",
@@ -1792,14 +1802,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #81 from PRODYNA-YASM/feature/gotenberg-8.19.0",
-            "Timestamp": "2025-03-31T13:40:21Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/14172983469"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1815,6 +1819,13 @@
         },
         {
           "Name": "staging",
+          "Link": "",
+          "Version": "1.73.1",
+          "IsRelease": true,
+          "IsCurrent": true
+        },
+        {
+          "Name": "prod",
           "Link": "",
           "Version": "1.73.1",
           "IsRelease": true,
@@ -1853,8 +1864,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump DataDog/datadog from 3.60.1 to 3.61.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/920"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -1866,13 +1882,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #919 from PRODYNA-YASM/feature/component-updates",
-            "Timestamp": "2025-04-29T20:43:47Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/14740963077"
-          },
           {
             "Name": "Merge pull request #910 from PRODYNA-YASM/feature/opentelemetry-opera…",
             "Timestamp": "2025-04-15T09:40:09Z",
@@ -1917,14 +1928,40 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Prepration for changing to application passwords",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-common/pull/170"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.73.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #169 from PRODYNA-YASM/feature/cleanup3",
+            "SHA": "063fc9f754e22596a212d3042680d57c6bcca862",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-30T08:02:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/063fc9f754e22596a212d3042680d57c6bcca862"
+          },
+          {
+            "Text": "Cleanup 3",
+            "SHA": "e926e94168803e6ef7256b7049facddc7af2f2a8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-04-30T08:00:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/e926e94168803e6ef7256b7049facddc7af2f2a8"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2197,8 +2234,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "chore(deps): Bump @azure/msal-node from 3.5.1 to 3.5.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/284"
+          },
           {
             "Title": "chore(deps): Bump openid-client from 6.1.3 to 6.4.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/283"
@@ -2968,5 +3009,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-04-30T07:33:38Z"
+  "LastUpdated": "2025-05-01T07:33:29Z"
 }
