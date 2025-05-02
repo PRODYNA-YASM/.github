@@ -297,17 +297,12 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
           {
             "Name": "fix: group affiliation filter (#1041)",
             "Timestamp": "2025-04-02T11:19:42Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/14218339663"
-          },
-          {
-            "Name": "feat: added classification and confidentiality to project search (#1039)",
-            "Timestamp": "2025-04-01T14:47:40Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/14198761827"
           }
         ]
       }
@@ -3009,5 +3004,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-05-01T07:33:29Z"
+  "LastUpdated": "2025-05-02T07:33:55Z"
 }
