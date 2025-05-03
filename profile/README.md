@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-05-02T07:33:55Z
+Component Status overview. Last update 2025-05-03T07:32:46Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -142,11 +142,6 @@ Component Status overview. Last update 2025-05-02T07:33:55Z
 - [Fix Group Affiliation Filter](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.72.1) on 2025-04-02 11:05:00 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
-
-- [fix: group affiliation filter (#1041)](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/14218339663) created on 2025-04-02 11:19:42 +0000 UTC
 
 
 
