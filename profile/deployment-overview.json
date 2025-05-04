@@ -2632,8 +2632,16 @@
       "Releases": null,
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 8,
+        "Count": 10,
         "PullRequests": [
+          {
+            "Title": "#46 The train has no break",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/71"
+          },
+          {
+            "Title": "#68 Make categories sortable",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/70"
+          },
           {
             "Title": "#64 Questions should be sortable",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/69"
@@ -2998,5 +3006,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-05-03T07:32:46Z"
+  "LastUpdated": "2025-05-04T07:32:44Z"
 }
