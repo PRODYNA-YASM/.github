@@ -2632,8 +2632,24 @@
       "Releases": null,
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 10,
+        "Count": 11,
         "PullRequests": [
+          {
+            "Title": "Bump @angular/forms from 19.2.7 to 19.2.9 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/75"
+          },
+          {
+            "Title": "Bump @angular/compiler-cli from 19.2.7 to 19.2.9 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/74"
+          },
+          {
+            "Title": "Bump @angular-devkit/build-angular from 19.2.8 to 19.2.10 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/73"
+          },
+          {
+            "Title": "Bump jasmine-core from 5.6.0 to 5.7.1 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/72"
+          },
           {
             "Title": "#46 The train has no break",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/71"
@@ -2649,18 +2665,6 @@
           {
             "Title": "#66 Fix average rating datasource",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/67"
-          },
-          {
-            "Title": "Bump @angular/forms from 19.2.7 to 19.2.8 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/62"
-          },
-          {
-            "Title": "Bump @angular/compiler-cli from 19.2.7 to 19.2.8 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/61"
-          },
-          {
-            "Title": "Bump jasmine-core from 5.6.0 to 5.7.0 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/60"
           },
           {
             "Title": "Bump gorm.io/gorm from 1.25.12 to 1.26.0 in /backend",
@@ -3006,5 +3010,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-05-04T07:32:44Z"
+  "LastUpdated": "2025-05-05T07:34:16Z"
 }
