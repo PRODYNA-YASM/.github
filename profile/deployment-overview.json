@@ -369,8 +369,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump golang from 1.24.2-alpine3.20 to 1.24.3-alpine3.20",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/671"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -826,7 +831,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0f5135f",
+          "Version": "5cee6c4",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -877,8 +882,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "Bump github.com/pressly/goose/v3 from 3.24.2 to 3.24.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/186"
+          },
           {
             "Title": "feat: Add person table and sync functionality for person data",
             "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/183"
@@ -888,8 +897,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.72.0..HEAD",
-        "Count": 10,
+        "Count": 12,
         "Commits": [
+          {
+            "Text": "Merge pull request #187 from PRODYNA-YASM/dependabot/docker/golang-1.24.3-alpine3.20",
+            "SHA": "5cee6c40e12789ea6dcd539e5818f2e9c5babfcb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-07T05:52:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/5cee6c40e12789ea6dcd539e5818f2e9c5babfcb"
+          },
+          {
+            "Text": "Bump golang from 1.24.2-alpine3.20 to 1.24.3-alpine3.20",
+            "SHA": "31702d014ac4cb7f67e8fe128e2ead303c17adfc",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-05-07T05:37:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/31702d014ac4cb7f67e8fe128e2ead303c17adfc"
+          },
           {
             "Text": "Merge pull request #185 from PRODYNA-YASM/dependabot/go_modules/github.com/golang-migrate/migrate/v4-4.18.3",
             "SHA": "0f5135fcafdc8fa7400b52c89342adaabbebc76d",
@@ -2238,8 +2267,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 4,
+        "Count": 5,
         "PullRequests": [
+          {
+            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 22.15.12",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/286"
+          },
           {
             "Title": "chore(deps): Bump jose from 6.0.10 to 6.0.11",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/285"
@@ -2636,7 +2669,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "f7a87f4",
+          "Version": "e315827",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -2651,35 +2684,11 @@
       "Releases": null,
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 8,
+        "Count": 2,
         "PullRequests": [
-          {
-            "Title": "Add role access control for HR, Admin \u0026 Managment view",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/76"
-          },
-          {
-            "Title": "Bump @angular/forms from 19.2.7 to 19.2.9 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/75"
-          },
-          {
-            "Title": "Bump @angular/compiler-cli from 19.2.7 to 19.2.9 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/74"
-          },
-          {
-            "Title": "Bump @angular-devkit/build-angular from 19.2.8 to 19.2.10 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/73"
-          },
-          {
-            "Title": "Bump jasmine-core from 5.6.0 to 5.7.1 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/72"
-          },
           {
             "Title": "Bump gorm.io/gorm from 1.25.12 to 1.26.0 in /backend",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/59"
-          },
-          {
-            "Title": "Bump @angular-devkit/build-angular from 19.2.8 to 19.2.9 in /frontend in the npm_and_yarn group across 1 directory",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/58"
           },
           {
             "Title": "Bump @babel/helpers from 7.26.7 to 7.27.0 in /frontend",
@@ -2692,6 +2701,96 @@
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/compare/..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #79 from PRODYNA-YASM/feature/role-access",
+            "SHA": "e315827e8e1730833ece74e186cb9e043bf79e84",
+            "Author": {
+              "name": "TomLederer",
+              "link": "https://github.com/TomLederer"
+            },
+            "Timestamp": "2025-05-07T06:12:54Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/e315827e8e1730833ece74e186cb9e043bf79e84"
+          },
+          {
+            "Text": "Fix access errors due to timing problems",
+            "SHA": "7de47bba6ccbe7561f1b696aa0d8fbb37a03a03a",
+            "Author": {
+              "name": "TomLederer",
+              "link": "https://github.com/TomLederer"
+            },
+            "Timestamp": "2025-05-07T06:07:07Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/7de47bba6ccbe7561f1b696aa0d8fbb37a03a03a"
+          },
+          {
+            "Text": "Merge pull request #78 from PRODYNA-YASM/feature/role-access",
+            "SHA": "8f9e3572d8cbc2ffccfa9740e26647b3986ae80a",
+            "Author": {
+              "name": "TomLederer",
+              "link": "https://github.com/TomLederer"
+            },
+            "Timestamp": "2025-05-06T22:12:10Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/8f9e3572d8cbc2ffccfa9740e26647b3986ae80a"
+          },
+          {
+            "Text": "Fix initial loading of process info",
+            "SHA": "35df0d5e67ac94d766f337d7cd51788b97624cf2",
+            "Author": {
+              "name": "TomLederer",
+              "link": "https://github.com/TomLederer"
+            },
+            "Timestamp": "2025-05-06T22:08:48Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/35df0d5e67ac94d766f337d7cd51788b97624cf2"
+          },
+          {
+            "Text": "Merge pull request #77 from PRODYNA-YASM/feature/role-access",
+            "SHA": "ad389bd525bfc482b4afd63f49eb2d40a9a3c8d2",
+            "Author": {
+              "name": "TomLederer",
+              "link": "https://github.com/TomLederer"
+            },
+            "Timestamp": "2025-05-06T21:56:26Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/ad389bd525bfc482b4afd63f49eb2d40a9a3c8d2"
+          },
+          {
+            "Text": "minor fixes",
+            "SHA": "90f47842900ec646f65a062dbbf29c57fd91ac72",
+            "Author": {
+              "name": "TomLederer",
+              "link": "https://github.com/TomLederer"
+            },
+            "Timestamp": "2025-05-06T21:52:45Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/90f47842900ec646f65a062dbbf29c57fd91ac72"
+          },
+          {
+            "Text": "Merge pull request #76 from PRODYNA-YASM/feature/role-access",
+            "SHA": "9b2bd84063be094080f51301cba7dee3ed8d99cd",
+            "Author": {
+              "name": "TomLederer",
+              "link": "https://github.com/TomLederer"
+            },
+            "Timestamp": "2025-05-06T21:40:57Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/9b2bd84063be094080f51301cba7dee3ed8d99cd"
+          },
+          {
+            "Text": "Final process implementation",
+            "SHA": "6923c659f071d378da4b581583122bfeb183b72f",
+            "Author": {
+              "name": "TomLederer",
+              "link": "https://github.com/TomLederer"
+            },
+            "Timestamp": "2025-05-06T21:22:36Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/6923c659f071d378da4b581583122bfeb183b72f"
+          },
+          {
+            "Text": "Add role access control for HR, Admin \u0026 Managment view",
+            "SHA": "ada804db07ee498d0e404b77fa9f1e87b2676997",
+            "Author": {
+              "name": "TomLederer",
+              "link": "https://github.com/TomLederer"
+            },
+            "Timestamp": "2025-05-05T19:12:45Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/ada804db07ee498d0e404b77fa9f1e87b2676997"
+          },
           {
             "Text": "Merge pull request #70 from PRODYNA-YASM/feature/_68_MakeCategoriesSortable",
             "SHA": "f7a87f409896902a5901900ae6b9a7618f306d3a",
@@ -2901,96 +3000,6 @@
             },
             "Timestamp": "2025-04-15T23:18:08Z",
             "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/3d6c2460540f0b12b1f4fed56c423d71034cb723"
-          },
-          {
-            "Text": "Minor fixes",
-            "SHA": "624f3af54902ca9df94adec0f23f6d5bf1d01111",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-04-15T23:14:42Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/624f3af54902ca9df94adec0f23f6d5bf1d01111"
-          },
-          {
-            "Text": "Merge pull request #33 from PRODYNA-YASM/feature/fix-api-access",
-            "SHA": "3d13e8a4791291f62e3032a4d2da2d4d1426ec96",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-04-15T22:57:02Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/3d13e8a4791291f62e3032a4d2da2d4d1426ec96"
-          },
-          {
-            "Text": "Remove api.access for now",
-            "SHA": "d59856b46baa9d4a2d932ee5cf82885bb95b5148",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-04-15T22:54:08Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/d59856b46baa9d4a2d932ee5cf82885bb95b5148"
-          },
-          {
-            "Text": "Merge pull request #32 from PRODYNA-YASM/feature/fix-fallback-to-tls",
-            "SHA": "6a09e10ffa0ca558a9a55b6c0b365df27deae4be",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-04-15T22:31:37Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/6a09e10ffa0ca558a9a55b6c0b365df27deae4be"
-          },
-          {
-            "Text": "Fallback to tls true per default",
-            "SHA": "89c59ad00f4ab00e441b371af3918b462c4905d6",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-04-15T22:26:18Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/89c59ad00f4ab00e441b371af3918b462c4905d6"
-          },
-          {
-            "Text": "Merge pull request #31 from PRODYNA-YASM/feature/fix-container-port",
-            "SHA": "af60abd4fdb1d1a451495ddecbbb690cbfa4773b",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-04-15T22:19:31Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/af60abd4fdb1d1a451495ddecbbb690cbfa4773b"
-          },
-          {
-            "Text": "Update container port to 80",
-            "SHA": "098acf7e5723a4a4791224e936287f3c7407902b",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-04-15T22:12:54Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/098acf7e5723a4a4791224e936287f3c7407902b"
-          },
-          {
-            "Text": "Merge pull request #30 from PRODYNA-YASM/feature/fix-port-mismatch",
-            "SHA": "b1c9aaa3f0fe5884b9626009f2d6e8eded0a39c7",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-04-15T22:02:28Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/b1c9aaa3f0fe5884b9626009f2d6e8eded0a39c7"
-          },
-          {
-            "Text": "Fix port mismatch for frontend",
-            "SHA": "fe59f6284a32fd8f2300ab261feabda58e12a120",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-04-15T21:58:52Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/fe59f6284a32fd8f2300ab261feabda58e12a120"
           }
         ]
       },
@@ -3017,5 +3026,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-05-06T07:34:40Z"
+  "LastUpdated": "2025-05-07T07:34:26Z"
 }
