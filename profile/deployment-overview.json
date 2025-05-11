@@ -2662,7 +2662,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "90434d0",
+          "Version": "d6256db",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -2677,15 +2677,19 @@
       "Releases": null,
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
           {
-            "Title": "Bump gorm.io/gorm from 1.25.12 to 1.26.0 in /backend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/59"
+            "Title": "#85 Show selection for management board as table instead of autocomplete",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/91"
           },
           {
-            "Title": "Bump @babel/helpers from 7.26.7 to 7.27.0 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/17"
+            "Title": "#82 Show date without time in status by hr and candidate view",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/89"
+          },
+          {
+            "Title": "#84 show percentage sign average slider",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/87"
           }
         ]
       },
@@ -2694,6 +2698,26 @@
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/compare/..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #59 from PRODYNA-YASM/dependabot/go_modules/backend/gorm.io/gorm-1.26.0",
+            "SHA": "d6256db90e200d922240d9fc0753fd14f985439b",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-05-10T20:05:18Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/d6256db90e200d922240d9fc0753fd14f985439b"
+          },
+          {
+            "Text": "Merge pull request #17 from PRODYNA-YASM/dependabot/npm_and_yarn/frontend/babel/helpers-7.27.0",
+            "SHA": "258bc8ca8ad5b753ccb9e61aac5cee7144c793bb",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-05-10T20:05:06Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/258bc8ca8ad5b753ccb9e61aac5cee7144c793bb"
+          },
           {
             "Text": "Merge pull request #83 from PRODYNA-YASM/feature/translation-fixes",
             "SHA": "90434d01ba4a2a45731bd525bdf96668c7e47ebd",
@@ -2915,6 +2939,16 @@
             "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/197d43e8eed756df8f1fe601aeb58467a416650e"
           },
           {
+            "Text": "Bump gorm.io/gorm from 1.25.12 to 1.26.0 in /backend",
+            "SHA": "5e15572a27108c009391b87d26d7eecf89264699",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-04-28T02:45:13Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/5e15572a27108c009391b87d26d7eecf89264699"
+          },
+          {
             "Text": "Merge pull request #54 from PRODYNA-YASM/feature/date_fields_and_rating_cards_mngmnt",
             "SHA": "091183f1004c7a2bc8da7c49dfdf70c7cb523229",
             "Author": {
@@ -2963,36 +2997,6 @@
             },
             "Timestamp": "2025-03-22T18:26:55Z",
             "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/3750d7faf7e44256cd76de60667a95ca6cadbe88"
-          },
-          {
-            "Text": "add country selector",
-            "SHA": "dac6f5ebd4d5fee01973eeb03da760cd06f41eb8",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2025-03-22T17:18:41Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/dac6f5ebd4d5fee01973eeb03da760cd06f41eb8"
-          },
-          {
-            "Text": "Introduce new datasets",
-            "SHA": "3c85d7f3c69be555751fc7b286296d070c63bfaf",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2025-03-22T17:10:55Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/3c85d7f3c69be555751fc7b286296d070c63bfaf"
-          },
-          {
-            "Text": "Merge pull request #36 from PRODYNA-YASM/feature/prasentation-workflow-policy",
-            "SHA": "a776e0568784e0fd257ea2e056f3a2b24d767ad1",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-04-16T08:19:48Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/a776e0568784e0fd257ea2e056f3a2b24d767ad1"
           }
         ]
       },
@@ -3019,5 +3023,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-05-10T07:32:40Z"
+  "LastUpdated": "2025-05-11T07:32:46Z"
 }
