@@ -229,8 +229,8 @@
         "Count": 6,
         "PullRequests": [
           {
-            "Title": "chore: bump html-react-parser from 3.0.15 to 5.2.4",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1059"
+            "Title": "chore: bump html-react-parser from 3.0.15 to 5.2.5",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1060"
           },
           {
             "Title": "feat: 292 created shopping cart component",
@@ -699,8 +699,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump github.com/olekukonko/tablewriter from 0.0.5 to 1.0.4",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/456"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
@@ -1662,9 +1667,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.1.8",
+          "Version": "1.1.9",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1712,14 +1717,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #85 from PRODYNA-YASM/feature/demo-for-david",
-            "Timestamp": "2025-05-09T08:40:10Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-external/actions/runs/14925002940"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -3063,5 +3062,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-05-12T07:34:10Z"
+  "LastUpdated": "2025-05-13T07:34:47Z"
 }
