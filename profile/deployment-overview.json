@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 5,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump io.smallrye:jandex-maven-plugin from 3.3.0 to 3.3.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/886"
+          },
           {
             "Title": "build(deps): bump quarkus.platform.version from 3.21.0 to 3.22.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/885"
@@ -366,7 +370,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d1590d1",
+          "Version": "8380a51",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -409,8 +413,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.72.0..HEAD",
-        "Count": 22,
+        "Count": 24,
         "Commits": [
+          {
+            "Text": "Merge pull request #673 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.71.0",
+            "SHA": "8380a51af68279d31c7a8f40dba9337a5f414815",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-14T05:18:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/8380a51af68279d31c7a8f40dba9337a5f414815"
+          },
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.70.0 to 1.71.0",
+            "SHA": "19a995c6cb17729a4baf8c7ccc398833e767d522",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-05-14T01:26:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/19a995c6cb17729a4baf8c7ccc398833e767d522"
+          },
           {
             "Text": "Merge pull request #671 from PRODYNA-YASM/dependabot/docker/golang-1.24.3-alpine3.20",
             "SHA": "d1590d13184d897231020aa19d75747e96559c15",
@@ -648,7 +672,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "7d62990",
+          "Version": "8f9f684",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -699,19 +723,44 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump github.com/olekukonko/tablewriter from 0.0.5 to 1.0.4",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/456"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.72.0..HEAD",
-        "Count": 4,
+        "Count": 7,
         "Commits": [
+          {
+            "Text": "Merge pull request #457 from PRODYNA-YASM/feature/dependency-update",
+            "SHA": "8f9f6843521e432d43e34b0afa93b2c936a9d2c5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-13T16:17:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/8f9f6843521e432d43e34b0afa93b2c936a9d2c5"
+          },
+          {
+            "Text": "Update libs",
+            "SHA": "109853b6b1335e0fdcdc8a6afdf5c4ed74f0e869",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-13T14:43:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/109853b6b1335e0fdcdc8a6afdf5c4ed74f0e869"
+          },
+          {
+            "Text": "Update dependencies",
+            "SHA": "cf896d54ad626668b1a6da50ce825223816ec17e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-13T14:42:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/cf896d54ad626668b1a6da50ce825223816ec17e"
+          },
           {
             "Text": "Merge pull request #455 from PRODYNA-YASM/dependabot/go_modules/go_modules-bbb8b02913",
             "SHA": "7d6299053d7d18447014d7891af4299f38365f62",
@@ -1824,9 +1873,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.73.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "3e608ed",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1875,27 +1924,125 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 3,
-        "PullRequests": [
-          {
-            "Title": "Bump hashicorp/azurerm from 4.27.0 to 4.28.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/925"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 4.27.0 to 4.28.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/924"
-          },
-          {
-            "Title": "Bump DataDog/datadog from 3.60.1 to 3.61.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/920"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 11,
+        "Commits": [
+          {
+            "Text": "Merge pull request #930 from PRODYNA-YASM/feature/tempo-1.39.4",
+            "SHA": "3e608eda9d67a355e48e08e2d0be2633f1a44345",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-13T22:02:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3e608eda9d67a355e48e08e2d0be2633f1a44345"
+          },
+          {
+            "Text": "Tempo 1.39.4",
+            "SHA": "80a2706d0b12884fcf905530b9fdd1fc0a5ef91e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-13T16:16:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/80a2706d0b12884fcf905530b9fdd1fc0a5ef91e"
+          },
+          {
+            "Text": "Fix actual image tag",
+            "SHA": "cb20dc1b838f04a1c9c303ae05ddc659731637f2",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-13T16:02:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/cb20dc1b838f04a1c9c303ae05ddc659731637f2"
+          },
+          {
+            "Text": "Merge pull request #929 from PRODYNA-YASM/feature/neo4j-2025.4.0",
+            "SHA": "6dcd1888f97f8404f1d61b73ba4b3fa8e3ea5d0a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-13T15:53:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6dcd1888f97f8404f1d61b73ba4b3fa8e3ea5d0a"
+          },
+          {
+            "Text": "Merge pull request #928 from PRODYNA-YASM/feature/observability-updates",
+            "SHA": "fe76325485138f826b01410b2febcc3e87e272fe",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-13T15:47:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/fe76325485138f826b01410b2febcc3e87e272fe"
+          },
+          {
+            "Text": "Use Neo4j 2025.4.0",
+            "SHA": "df0c0dfc1ad14fd472e4f32e15e46d8102d2bc6f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-13T15:43:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/df0c0dfc1ad14fd472e4f32e15e46d8102d2bc6f"
+          },
+          {
+            "Text": "UPdate some libs",
+            "SHA": "de87fc2dbabcb0c4dcc8a51be78464f623a8add8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-13T15:40:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/de87fc2dbabcb0c4dcc8a51be78464f623a8add8"
+          },
+          {
+            "Text": "Merge pull request #927 from PRODYNA-YASM/feature/grafana-9.0.0",
+            "SHA": "2e93f86a99bdceab6ba385b3ce3bfeb7a50b1354",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-13T14:17:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/2e93f86a99bdceab6ba385b3ce3bfeb7a50b1354"
+          },
+          {
+            "Text": "Merge pull request #926 from PRODYNA-YASM/feature/update-providers",
+            "SHA": "ac8040dcd081467a7f40d8cd99ee37ba4bba7562",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-13T14:08:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ac8040dcd081467a7f40d8cd99ee37ba4bba7562"
+          },
+          {
+            "Text": "Grafana 9.0.0",
+            "SHA": "f96db218f6d9b713110c6408bb5687ca70fef85f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-13T13:41:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f96db218f6d9b713110c6408bb5687ca70fef85f"
+          },
+          {
+            "Text": "Update providers",
+            "SHA": "64f18e4f89e74cb3cefc15e009fe75dfae6b7445",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-13T13:39:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/64f18e4f89e74cb3cefc15e009fe75dfae6b7445"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -3062,5 +3209,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-05-13T07:34:47Z"
+  "LastUpdated": "2025-05-14T07:34:29Z"
 }
