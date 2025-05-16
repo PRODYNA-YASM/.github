@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "feat: 849 rework location area on export",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/887"
+          },
           {
             "Title": "build(deps): bump io.smallrye:jandex-maven-plugin from 3.3.0 to 3.3.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/886"
@@ -70,12 +74,12 @@
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/885"
           },
           {
-            "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 5.3.0 to 5.4.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/883"
-          },
-          {
             "Title": "build(deps): bump org.apache.xmlgraphics:batik-all from 1.18 to 1.19",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/884"
+          },
+          {
+            "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 5.3.0 to 5.4.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/883"
           },
           {
             "Title": "build(deps): bump org.jsoup:jsoup from 1.19.1 to 1.20.1",
@@ -233,20 +237,20 @@
         "Count": 6,
         "PullRequests": [
           {
+            "Title": "chore: bump @opentelemetry/resources from 1.30.1 to 2.0.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1062"
+          },
+          {
+            "Title": "chore: bump @opentelemetry/instrumentation-document-load from 0.37.0 to 0.46.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1061"
+          },
+          {
             "Title": "chore: bump html-react-parser from 3.0.15 to 5.2.5",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1060"
           },
           {
             "Title": "feat: 292 created shopping cart component",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1049"
-          },
-          {
-            "Title": "chore: bump @opentelemetry/resources from 1.30.1 to 2.0.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1047"
-          },
-          {
-            "Title": "chore: bump @opentelemetry/instrumentation-document-load from 0.37.0 to 0.45.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1029"
           },
           {
             "Title": "chore: bump react-dom and @types/react-dom",
@@ -994,7 +998,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "45bef20",
+          "Version": "a1d2351",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1056,8 +1060,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.72.0..HEAD",
-        "Count": 18,
+        "Count": 20,
         "Commits": [
+          {
+            "Text": "Merge pull request #190 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/common-0.64.0",
+            "SHA": "a1d235170aaf2abeb62976794bb98f35a7504b06",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-16T06:41:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/a1d235170aaf2abeb62976794bb98f35a7504b06"
+          },
+          {
+            "Text": "Bump github.com/prometheus/common from 0.63.0 to 0.64.0",
+            "SHA": "5ad4613e113a7527f71b6bff60a18ca088351485",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-05-16T05:19:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/5ad4613e113a7527f71b6bff60a18ca088351485"
+          },
           {
             "Text": "Merge pull request #189 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.72.1",
             "SHA": "45bef204ce0bb0112615e510c0e9f9578d8d7945",
@@ -1808,9 +1832,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.1.9",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "5965a66",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1865,8 +1889,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-external",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/compare/1.1.9..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #86 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.72.1",
+            "SHA": "5965a66c36234ebb3f56b92f0a6f1c3358281efa",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T10:08:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/5965a66c36234ebb3f56b92f0a6f1c3358281efa"
+          },
+          {
+            "Text": "Bump google.golang.org/grpc from 1.72.0 to 1.72.1",
+            "SHA": "cd4a99863af525e7a4ada06a965b6c30d063ca74",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-05-15T10:05:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/cd4a99863af525e7a4ada06a965b6c30d063ca74"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1979,23 +2024,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "3e608ed",
+          "Version": "9d93356",
           "IsRelease": false,
           "IsCurrent": false
-        },
-        {
-          "Name": "staging",
-          "Link": "",
-          "Version": "1.73.2",
-          "IsRelease": true,
-          "IsCurrent": true
-        },
-        {
-          "Name": "prod",
-          "Link": "",
-          "Version": "1.73.2",
-          "IsRelease": true,
-          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -2030,14 +2061,169 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump DataDog/datadog from 3.61.0 to 3.62.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/937"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.2..HEAD",
-        "Count": 11,
+        "Count": 26,
         "Commits": [
+          {
+            "Text": "Merge pull request #936 from PRODYNA-YASM/feature/add-fox-and-hound-mysql-secret",
+            "SHA": "9d93356d75ac894b54078899d93a152c474d3603",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T23:03:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/9d93356d75ac894b54078899d93a152c474d3603"
+          },
+          {
+            "Text": "Add fox-and-hound mysql secret",
+            "SHA": "ea523d8d123e05b636d1bb65169b1851cc753daa",
+            "Author": {
+              "name": "TomLederer",
+              "link": "https://github.com/TomLederer"
+            },
+            "Timestamp": "2025-05-15T16:11:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ea523d8d123e05b636d1bb65169b1851cc753daa"
+          },
+          {
+            "Text": "Enable local-blocks on tempo",
+            "SHA": "cb5d6181cfd131f3946f67458b581f99d6e86ede",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T16:00:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/cb5d6181cfd131f3946f67458b581f99d6e86ede"
+          },
+          {
+            "Text": "Grafana 9.0.0 again",
+            "SHA": "2745f68fef9e3a238e1420f160531f8eeea21d64",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T15:47:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/2745f68fef9e3a238e1420f160531f8eeea21d64"
+          },
+          {
+            "Text": "Remove this insecure thing",
+            "SHA": "58e66565ec340618bbd3392502ff472a11c8165d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T15:24:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/58e66565ec340618bbd3392502ff472a11c8165d"
+          },
+          {
+            "Text": "Old state of Otel Collector",
+            "SHA": "a2263bf3da0b131b719997427bd1a9fe42da66e6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T15:03:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a2263bf3da0b131b719997427bd1a9fe42da66e6"
+          },
+          {
+            "Text": "Back to Tempo 1.32",
+            "SHA": "8ab051c80fa1b1be13f501e14e1eac3e6a89c4fd",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T15:01:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/8ab051c80fa1b1be13f501e14e1eac3e6a89c4fd"
+          },
+          {
+            "Text": "Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-staged",
+            "SHA": "dd5abd288de179b83acec9704e915efa735d6f5b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T12:45:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/dd5abd288de179b83acec9704e915efa735d6f5b"
+          },
+          {
+            "Text": "Remove orgIds",
+            "SHA": "b9f13f36873a4c23aae0fe3730bb3a47eedc71a3",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T12:45:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b9f13f36873a4c23aae0fe3730bb3a47eedc71a3"
+          },
+          {
+            "Text": "Merge pull request #935 from PRODYNA-YASM/feature/check-interval",
+            "SHA": "70fc8755c95d9525a188b98795eb7b6278e5a211",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T12:16:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/70fc8755c95d9525a188b98795eb7b6278e5a211"
+          },
+          {
+            "Text": "Fix interval",
+            "SHA": "c8ebbffc0e1ffab3c4b1b72e601126732be810b2",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T11:53:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c8ebbffc0e1ffab3c4b1b72e601126732be810b2"
+          },
+          {
+            "Text": "Merge pull request #934 from PRODYNA-YASM/feature/use-org-everywhere",
+            "SHA": "414e880192d8b5c87c27b9009213b25d02b3332a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T11:51:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/414e880192d8b5c87c27b9009213b25d02b3332a"
+          },
+          {
+            "Text": "Use orgId 1 everywhere",
+            "SHA": "aa0bfb698b81a73eeb7896cc3f10aa8a3f8b35db",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T11:48:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/aa0bfb698b81a73eeb7896cc3f10aa8a3f8b35db"
+          },
+          {
+            "Text": "Merge pull request #933 from PRODYNA-YASM/feature/downgrad-grafana-8.15.0",
+            "SHA": "ac7f5ae29fc36ee7cc2c60d5910f84b040d746ee",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T11:11:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ac7f5ae29fc36ee7cc2c60d5910f84b040d746ee"
+          },
+          {
+            "Text": "Downgrade Grafana to 8.15.0",
+            "SHA": "ca5ce2d341274fd0d31cd3f194cfd1e196ded385",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T11:08:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ca5ce2d341274fd0d31cd3f194cfd1e196ded385"
+          },
           {
             "Text": "Merge pull request #930 from PRODYNA-YASM/feature/tempo-1.39.4",
             "SHA": "3e608eda9d67a355e48e08e2d0be2633f1a44345",
@@ -2154,14 +2340,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #910 from PRODYNA-YASM/feature/opentelemetry-opera…",
-            "Timestamp": "2025-04-15T09:40:09Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/14466287733"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -2211,8 +2391,68 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.73.0..HEAD",
-        "Count": 2,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Fix sku name",
+            "SHA": "734747662d3a9290b522b522b7c308c5768ade80",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T22:43:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/734747662d3a9290b522b522b7c308c5768ade80"
+          },
+          {
+            "Text": "Try one larger size",
+            "SHA": "8f58e8b8ca9dd16b6bd2c07ee51d45579575636f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T22:41:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/8f58e8b8ca9dd16b6bd2c07ee51d45579575636f"
+          },
+          {
+            "Text": "Try again in westeurope",
+            "SHA": "ee4c7c293f75fbb0f1da60b8e450cbd809bde55f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T22:30:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/ee4c7c293f75fbb0f1da60b8e450cbd809bde55f"
+          },
+          {
+            "Text": "Try to get database in germany",
+            "SHA": "891c01b42ed3e34d3a3a797a74a77eb73635b320",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T22:08:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/891c01b42ed3e34d3a3a797a74a77eb73635b320"
+          },
+          {
+            "Text": "Merge pull request #171 from PRODYNA-YASM/feature/add-fox-and-hound-mysql",
+            "SHA": "74c709e9db59b6624f1d70d26055839a3cc6b033",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T21:28:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/74c709e9db59b6624f1d70d26055839a3cc6b033"
+          },
+          {
+            "Text": "Add mysql database for fox-and-hound",
+            "SHA": "1e18b4d6839a3b736f3cac2a6e2d1e747a079ffc",
+            "Author": {
+              "name": "TomLederer",
+              "link": "https://github.com/TomLederer"
+            },
+            "Timestamp": "2025-05-15T16:04:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-common/commit/1e18b4d6839a3b736f3cac2a6e2d1e747a079ffc"
+          },
           {
             "Text": "Merge pull request #169 from PRODYNA-YASM/feature/cleanup3",
             "SHA": "063fc9f754e22596a212d3042680d57c6bcca862",
@@ -2710,7 +2950,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "685e6ca",
+          "Version": "964a9fa",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2767,8 +3007,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-mainproject",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/compare/1.7.1..HEAD",
-        "Count": 6,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Merge pull request #106 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.72.1",
+            "SHA": "964a9faff780e447ac2b4dc4c72ef1e0d4a66df8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-15T21:09:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/964a9faff780e447ac2b4dc4c72ef1e0d4a66df8"
+          },
+          {
+            "Text": "Bump google.golang.org/grpc from 1.72.0 to 1.72.1",
+            "SHA": "47633731115bbad8ac7403a2732f5150e3693718",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-05-15T16:41:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/47633731115bbad8ac7403a2732f5150e3693718"
+          },
           {
             "Text": "Merge pull request #105 from PRODYNA-YASM/dependabot/docker/golang-1.24.3-alpine3.20",
             "SHA": "685e6ca0a7a7bf2fe6fe1d34d51d36f902e0715f",
@@ -2925,27 +3185,63 @@
     },
     {
       "Name": "fox-and-hound",
-      "Error": "GET https://api.github.com/repos/prodyna-yasm/fox-and-hound/releases/latest: 404 Not Found []",
+      "Error": "",
       "Environments": [
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d6256db",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.0.7",
+          "IsRelease": true,
+          "IsCurrent": true
+        },
+        {
+          "Name": "staging",
+          "Link": "",
+          "Version": "1.0.7",
+          "IsRelease": true,
+          "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.0.7",
+          "IsRelease": true,
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "",
+        "Tag": "1.0.7",
         "SHA": "",
-        "Title": "",
-        "Timestamp": "0001-01-01T00:00:00Z",
-        "Link": ""
+        "Title": "New Deployment to Prod",
+        "Timestamp": "2025-05-15T15:05:50Z",
+        "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/releases/tag/1.0.7"
       },
-      "Releases": null,
+      "Releases": [
+        {
+          "Tag": "1.0.7",
+          "SHA": "",
+          "Title": "New Deployment to Prod",
+          "Timestamp": "2025-05-15T14:53:06Z",
+          "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/releases/tag/1.0.7"
+        },
+        {
+          "Tag": "1.0.6",
+          "SHA": "",
+          "Title": "Deployment to Prod",
+          "Timestamp": "2025-05-15T12:11:38Z",
+          "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/releases/tag/1.0.6"
+        },
+        {
+          "Tag": "1.0.5",
+          "SHA": "",
+          "Title": "First deployment to prod",
+          "Timestamp": "2025-05-15T12:11:38Z",
+          "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/releases/tag/1.0.5"
+        }
+      ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 9,
+        "Count": 6,
         "PullRequests": [
           {
             "Title": "Bump @azure/msal-browser from 4.11.1 to 4.12.0 in /frontend",
@@ -2970,327 +3266,14 @@
           {
             "Title": "Bump gorm.io/gorm from 1.26.0 to 1.26.1 in /backend",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/92"
-          },
-          {
-            "Title": "#85 Show selection for management board as table instead of autocomplete",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/91"
-          },
-          {
-            "Title": "#82 Show date without time in status by hr and candidate view",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/89"
-          },
-          {
-            "Title": "#84 show percentage sign average slider",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/87"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/fox-and-hound",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/fox-and-hound/compare/..HEAD",
-        "Count": 30,
-        "Commits": [
-          {
-            "Text": "Merge pull request #59 from PRODYNA-YASM/dependabot/go_modules/backend/gorm.io/gorm-1.26.0",
-            "SHA": "d6256db90e200d922240d9fc0753fd14f985439b",
-            "Author": {
-              "name": "sceneo",
-              "link": "https://github.com/sceneo"
-            },
-            "Timestamp": "2025-05-10T20:05:18Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/d6256db90e200d922240d9fc0753fd14f985439b"
-          },
-          {
-            "Text": "Merge pull request #17 from PRODYNA-YASM/dependabot/npm_and_yarn/frontend/babel/helpers-7.27.0",
-            "SHA": "258bc8ca8ad5b753ccb9e61aac5cee7144c793bb",
-            "Author": {
-              "name": "sceneo",
-              "link": "https://github.com/sceneo"
-            },
-            "Timestamp": "2025-05-10T20:05:06Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/258bc8ca8ad5b753ccb9e61aac5cee7144c793bb"
-          },
-          {
-            "Text": "Merge pull request #83 from PRODYNA-YASM/feature/translation-fixes",
-            "SHA": "90434d01ba4a2a45731bd525bdf96668c7e47ebd",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-05-08T20:03:13Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/90434d01ba4a2a45731bd525bdf96668c7e47ebd"
-          },
-          {
-            "Text": "Adapt translations; fix wrong clientId for prod environment",
-            "SHA": "f2c27228f221b467e6aeb0da52caa5ea466a6cb0",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-05-08T19:59:35Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/f2c27228f221b467e6aeb0da52caa5ea466a6cb0"
-          },
-          {
-            "Text": "Merge pull request #80 from PRODYNA-YASM/feature/role-access",
-            "SHA": "87131aa04a69c786d068972064d463a6fd34b346",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-05-07T12:43:08Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/87131aa04a69c786d068972064d463a6fd34b346"
-          },
-          {
-            "Text": "Add category sortable",
-            "SHA": "097c4be419851dd4251bb011f168596497c8ff67",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-05-07T12:37:22Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/097c4be419851dd4251bb011f168596497c8ff67"
-          },
-          {
-            "Text": "Merge pull request #79 from PRODYNA-YASM/feature/role-access",
-            "SHA": "e315827e8e1730833ece74e186cb9e043bf79e84",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-05-07T06:12:54Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/e315827e8e1730833ece74e186cb9e043bf79e84"
-          },
-          {
-            "Text": "Fix access errors due to timing problems",
-            "SHA": "7de47bba6ccbe7561f1b696aa0d8fbb37a03a03a",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-05-07T06:07:07Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/7de47bba6ccbe7561f1b696aa0d8fbb37a03a03a"
-          },
-          {
-            "Text": "Merge pull request #78 from PRODYNA-YASM/feature/role-access",
-            "SHA": "8f9e3572d8cbc2ffccfa9740e26647b3986ae80a",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-05-06T22:12:10Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/8f9e3572d8cbc2ffccfa9740e26647b3986ae80a"
-          },
-          {
-            "Text": "Fix initial loading of process info",
-            "SHA": "35df0d5e67ac94d766f337d7cd51788b97624cf2",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-05-06T22:08:48Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/35df0d5e67ac94d766f337d7cd51788b97624cf2"
-          },
-          {
-            "Text": "Merge pull request #77 from PRODYNA-YASM/feature/role-access",
-            "SHA": "ad389bd525bfc482b4afd63f49eb2d40a9a3c8d2",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-05-06T21:56:26Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/ad389bd525bfc482b4afd63f49eb2d40a9a3c8d2"
-          },
-          {
-            "Text": "minor fixes",
-            "SHA": "90f47842900ec646f65a062dbbf29c57fd91ac72",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-05-06T21:52:45Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/90f47842900ec646f65a062dbbf29c57fd91ac72"
-          },
-          {
-            "Text": "Merge pull request #76 from PRODYNA-YASM/feature/role-access",
-            "SHA": "9b2bd84063be094080f51301cba7dee3ed8d99cd",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-05-06T21:40:57Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/9b2bd84063be094080f51301cba7dee3ed8d99cd"
-          },
-          {
-            "Text": "Final process implementation",
-            "SHA": "6923c659f071d378da4b581583122bfeb183b72f",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-05-06T21:22:36Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/6923c659f071d378da4b581583122bfeb183b72f"
-          },
-          {
-            "Text": "Add role access control for HR, Admin \u0026 Managment view",
-            "SHA": "ada804db07ee498d0e404b77fa9f1e87b2676997",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-05-05T19:12:45Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/ada804db07ee498d0e404b77fa9f1e87b2676997"
-          },
-          {
-            "Text": "Merge pull request #70 from PRODYNA-YASM/feature/_68_MakeCategoriesSortable",
-            "SHA": "f7a87f409896902a5901900ae6b9a7618f306d3a",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-05-05T17:11:50Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/f7a87f409896902a5901900ae6b9a7618f306d3a"
-          },
-          {
-            "Text": "Merge pull request #67 from PRODYNA-YASM/feature/_66_FixAverageRatingDatasource",
-            "SHA": "a3246cdbd85b0bdd1b4b18f39a4bd356185a7531",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-05-05T16:55:27Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/a3246cdbd85b0bdd1b4b18f39a4bd356185a7531"
-          },
-          {
-            "Text": "Merge pull request #69 from PRODYNA-YASM/feature/_64_CreateSortableQuestions",
-            "SHA": "f5cb76fc86087085923112e320b7e21cdd7cb137",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-05-05T16:54:49Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/f5cb76fc86087085923112e320b7e21cdd7cb137"
-          },
-          {
-            "Text": "Merge branch 'main' into feature/_68_MakeCategoriesSortable",
-            "SHA": "ed61e5a3759bd950f9af5fca35e7fcc4e11fe638",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-05-05T16:45:56Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/ed61e5a3759bd950f9af5fca35e7fcc4e11fe638"
-          },
-          {
-            "Text": "Merge pull request #71 from PRODYNA-YASM/feature/_46_TheTrainHasNoBreak",
-            "SHA": "10c3886100d7e1b1070591d28e284eadeb55f504",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-05-05T16:44:31Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/10c3886100d7e1b1070591d28e284eadeb55f504"
-          },
-          {
-            "Text": "#46 The train has no break",
-            "SHA": "025a0e0b4d742f2f3c908fa87ec63201dd33fd71",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2025-05-03T19:26:38Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/025a0e0b4d742f2f3c908fa87ec63201dd33fd71"
-          },
-          {
-            "Text": "#68 Make categories sortable",
-            "SHA": "d3f4b7ffed3acd15152f9c98f60dd31393febd84",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2025-05-03T18:55:04Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/d3f4b7ffed3acd15152f9c98f60dd31393febd84"
-          },
-          {
-            "Text": "#64 Questions should be sortable",
-            "SHA": "20f3aaa7bcdb3fbbef8470304a0d7b889d594a9d",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2025-04-29T19:16:46Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/20f3aaa7bcdb3fbbef8470304a0d7b889d594a9d"
-          },
-          {
-            "Text": "#66 Fix average rating datasource",
-            "SHA": "197d43e8eed756df8f1fe601aeb58467a416650e",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2025-04-29T18:21:31Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/197d43e8eed756df8f1fe601aeb58467a416650e"
-          },
-          {
-            "Text": "Bump gorm.io/gorm from 1.25.12 to 1.26.0 in /backend",
-            "SHA": "5e15572a27108c009391b87d26d7eecf89264699",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-04-28T02:45:13Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/5e15572a27108c009391b87d26d7eecf89264699"
-          },
-          {
-            "Text": "Merge pull request #54 from PRODYNA-YASM/feature/date_fields_and_rating_cards_mngmnt",
-            "SHA": "091183f1004c7a2bc8da7c49dfdf70c7cb523229",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-04-24T06:16:54Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/091183f1004c7a2bc8da7c49dfdf70c7cb523229"
-          },
-          {
-            "Text": "Minor styling changes",
-            "SHA": "ad515a418bfc76996928be9b461a72eff411981b",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-04-18T23:10:51Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/ad515a418bfc76996928be9b461a72eff411981b"
-          },
-          {
-            "Text": "Set date format; Add hr-administration",
-            "SHA": "7c1ba614d86247ef6065099ba596c2f92d1ec2d1",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-04-18T23:06:28Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/7c1ba614d86247ef6065099ba596c2f92d1ec2d1"
-          },
-          {
-            "Text": "Merge pull request #38 from PRODYNA-YASM/feature/FixToDos",
-            "SHA": "58cee43fd45fb0eed0833ade985b8deda0fe2122",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2025-04-18T18:57:46Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/58cee43fd45fb0eed0833ade985b8deda0fe2122"
-          },
-          {
-            "Text": "use extracted theme from yasm",
-            "SHA": "3750d7faf7e44256cd76de60667a95ca6cadbe88",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2025-03-22T18:26:55Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/3750d7faf7e44256cd76de60667a95ca6cadbe88"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/fox-and-hound/compare/1.0.7..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -3315,5 +3298,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-05-15T07:34:16Z"
+  "LastUpdated": "2025-05-16T07:34:29Z"
 }
