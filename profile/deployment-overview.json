@@ -2028,128 +2028,78 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "536eb41",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.73.5",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.73.3",
+          "Version": "1.73.5",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.73.3",
+          "Version": "1.73.5",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.73.3",
+        "Tag": "1.73.5",
         "SHA": "",
-        "Title": "Grafana 9, Neo4j 2025.4.0, small configuration changes",
-        "Timestamp": "2025-05-16T09:29:25Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.3"
+        "Title": "DAPR 1.15.5",
+        "Timestamp": "2025-05-17T21:44:31Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.5"
       },
       "Releases": [
+        {
+          "Tag": "1.73.5",
+          "SHA": "",
+          "Title": "DAPR 1.15.5",
+          "Timestamp": "2025-05-17T19:05:49Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.5"
+        },
+        {
+          "Tag": "1.73.4",
+          "SHA": "",
+          "Title": "Tempo 1.39.4 with new configuration",
+          "Timestamp": "2025-05-17T09:06:17Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.4"
+        },
         {
           "Tag": "1.73.3",
           "SHA": "",
           "Title": "Grafana 9, Neo4j 2025.4.0, small configuration changes",
           "Timestamp": "2025-05-15T23:03:02Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.3"
-        },
-        {
-          "Tag": "1.73.2",
-          "SHA": "",
-          "Title": "Update Grafana to 8.15.0",
-          "Timestamp": "2025-05-07T13:53:08Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.2"
-        },
-        {
-          "Tag": "1.73.1",
-          "SHA": "",
-          "Title": "Hostname and certificate for Fox-and-Hound, Update Service Principals, component updates",
-          "Timestamp": "2025-04-29T20:35:45Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.1"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump DataDog/datadog from 3.61.0 to 3.62.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/937"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.3..HEAD",
-        "Count": 5,
-        "Commits": [
-          {
-            "Text": "Merge pull request #938 from PRODYNA-YASM/feature/fix-mysql-firewall-rules",
-            "SHA": "536eb411628bc525e56df495cc1d364f84092bb2",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-05-17T07:18:53Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/536eb411628bc525e56df495cc1d364f84092bb2"
-          },
-          {
-            "Text": "Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-staged",
-            "SHA": "a889843a9738bc159e379e49f46ee076181f4994",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-05-16T17:11:32Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a889843a9738bc159e379e49f46ee076181f4994"
-          },
-          {
-            "Text": "Fix overrides",
-            "SHA": "82e2d58e38c88b9f4d5f5a73aa52d5a5eb43887e",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-05-16T17:00:11Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/82e2d58e38c88b9f4d5f5a73aa52d5a5eb43887e"
-          },
-          {
-            "Text": "Merge pull request #939 from PRODYNA-YASM/feature/tempo-1.39.4w",
-            "SHA": "119154a257886120425225b617808830f6f3001d",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-05-16T16:43:50Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/119154a257886120425225b617808830f6f3001d"
-          },
-          {
-            "Text": "Tempo 1.39.4",
-            "SHA": "754558749008dbfce3db986b648318640375dc25",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-05-16T16:37:52Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/754558749008dbfce3db986b648318640375dc25"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.5..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Ok, this configuration",
+            "Timestamp": "2025-05-17T09:12:51Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/15083759081"
+          }
+        ]
       }
     },
     {
@@ -3025,5 +2975,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-05-17T07:32:49Z"
+  "LastUpdated": "2025-05-18T07:32:54Z"
 }
