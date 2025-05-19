@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-05-18T07:32:54Z
+Component Status overview. Last update 2025-05-19T07:34:30Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -15,7 +15,7 @@ Component Status overview. Last update 2025-05-18T07:32:54Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [2](https://github.com/prodyna-yasm/yasm-external/compare/1.1.9..HEAD) | :green_square: 0 | 1.1.9 |  :red_square: 5965a66 |  :green_square: 1.1.9 |  :green_square: 1.1.9 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [2](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.19.1-0..HEAD) | :green_square: 0 | 8.19.1-0 |  :red_square: d8be60e |  :green_square: 8.19.1-0 |  :green_square: 8.19.1-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.73.5 |  :green_square: 1.73.5 |  :green_square: 1.73.5 |  :green_square: 1.73.5 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.5..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.73.5 |  :red_square: 5517c2a |  :green_square: 1.73.5 |  :green_square: 1.73.5 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.73.1 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.72.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.73.0 | 
@@ -666,6 +666,18 @@ Component Status overview. Last update 2025-05-18T07:32:54Z
 
 
 
+### [Commits on main since 1.73.5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.5..HEAD) (2)
+
+- [Merge pull request #941 from PRODYNA-YASM/dependabot/terraform/terraform/azure/hashicorp/azurerm-4.29.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/5517c2a8fb5ccabea7d42861beadb90989472486) by [dkrizic](https://github.com/dkrizic) on 2025-05-19 06:15:24 +0000 UTC
+
+- [Bump hashicorp/azurerm from 4.28.0 to 4.29.0 in /terraform/azure](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/335b54f854e74f38f7f29c56522024641bf070d7) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-05-19 05:33:28 +0000 UTC
+
+
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (1)
+
+- [Bump hashicorp/azurerm from 4.28.0 to 4.29.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/942)
 
 
 
@@ -673,9 +685,9 @@ Component Status overview. Last update 2025-05-18T07:32:54Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.73.5 |  1.73.5 |  1.73.5 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  5517c2a |  1.73.5 |  1.73.5 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -1040,15 +1052,15 @@ Component Status overview. Last update 2025-05-18T07:32:54Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (6)
 
+- [Bump @angular/compiler-cli from 19.2.9 to 19.2.11 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/102)
+
+- [Bump @angular/forms from 19.2.9 to 19.2.11 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/101)
+
+- [Bump @angular/cli from 19.2.10 to 19.2.12 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/100)
+
+- [Bump @angular/platform-browser from 19.2.9 to 19.2.11 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/99)
+
 - [Bump @azure/msal-browser from 4.11.1 to 4.12.0 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/97)
-
-- [Bump @angular/cli from 19.2.10 to 19.2.11 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/96)
-
-- [Bump @angular/compiler-cli from 19.2.9 to 19.2.10 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/95)
-
-- [Bump @angular/forms from 19.2.9 to 19.2.10 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/94)
-
-- [Bump @angular/platform-browser from 19.2.9 to 19.2.10 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/93)
 
 - [Bump gorm.io/gorm from 1.26.0 to 1.26.1 in /backend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/92)
 

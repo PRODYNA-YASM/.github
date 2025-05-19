@@ -2028,9 +2028,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.73.5",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "5517c2a",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -2079,14 +2079,40 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump hashicorp/azurerm from 4.28.0 to 4.29.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/942"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.5..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #941 from PRODYNA-YASM/dependabot/terraform/terraform/azure/hashicorp/azurerm-4.29.0",
+            "SHA": "5517c2a8fb5ccabea7d42861beadb90989472486",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-19T06:15:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/5517c2a8fb5ccabea7d42861beadb90989472486"
+          },
+          {
+            "Text": "Bump hashicorp/azurerm from 4.28.0 to 4.29.0 in /terraform/azure",
+            "SHA": "335b54f854e74f38f7f29c56522024641bf070d7",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-05-19T05:33:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/335b54f854e74f38f7f29c56522024641bf070d7"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2921,24 +2947,24 @@
         "Count": 6,
         "PullRequests": [
           {
+            "Title": "Bump @angular/compiler-cli from 19.2.9 to 19.2.11 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/102"
+          },
+          {
+            "Title": "Bump @angular/forms from 19.2.9 to 19.2.11 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/101"
+          },
+          {
+            "Title": "Bump @angular/cli from 19.2.10 to 19.2.12 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/100"
+          },
+          {
+            "Title": "Bump @angular/platform-browser from 19.2.9 to 19.2.11 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/99"
+          },
+          {
             "Title": "Bump @azure/msal-browser from 4.11.1 to 4.12.0 in /frontend",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/97"
-          },
-          {
-            "Title": "Bump @angular/cli from 19.2.10 to 19.2.11 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/96"
-          },
-          {
-            "Title": "Bump @angular/compiler-cli from 19.2.9 to 19.2.10 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/95"
-          },
-          {
-            "Title": "Bump @angular/forms from 19.2.9 to 19.2.10 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/94"
-          },
-          {
-            "Title": "Bump @angular/platform-browser from 19.2.9 to 19.2.10 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/93"
           },
           {
             "Title": "Bump gorm.io/gorm from 1.26.0 to 1.26.1 in /backend",
@@ -2975,5 +3001,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-05-18T07:32:54Z"
+  "LastUpdated": "2025-05-19T07:34:30Z"
 }
