@@ -183,7 +183,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "5544263",
+          "Version": "17b9ff3",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -234,12 +234,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 6,
         "PullRequests": [
-          {
-            "Title": "feat: removed styled components dependency",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1063"
-          },
           {
             "Title": "chore: bump @opentelemetry/resources from 1.30.1 to 2.0.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1062"
@@ -269,8 +265,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.72.3..HEAD",
-        "Count": 9,
+        "Count": 10,
         "Commits": [
+          {
+            "Text": "feat: removed styled components dependency (#1063)",
+            "SHA": "17b9ff304e155eb68448b5ed399b0ce0c90671b8",
+            "Author": {
+              "name": "mayer-prodyna",
+              "link": "https://github.com/mayer-prodyna"
+            },
+            "Timestamp": "2025-05-19T10:45:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/17b9ff304e155eb68448b5ed399b0ce0c90671b8"
+          },
           {
             "Text": "feat: 835 sum up experience time (#1058)",
             "SHA": "5544263ff222f6fdee7e553dd0a5537867d25e0d",
@@ -866,7 +872,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "4bfb251",
+          "Version": "da2ff02",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -923,8 +929,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.22.0..HEAD",
-        "Count": 6,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Merge pull request #297 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.72.1",
+            "SHA": "da2ff029498baa91efedbe449d0d9c5aafe039c5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-19T16:02:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/da2ff029498baa91efedbe449d0d9c5aafe039c5"
+          },
+          {
+            "Text": "Bump google.golang.org/grpc from 1.72.0 to 1.72.1",
+            "SHA": "d8db7eda48c985f047386eef495b7cb9007ac019",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-05-19T14:02:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/d8db7eda48c985f047386eef495b7cb9007ac019"
+          },
           {
             "Text": "Merge pull request #296 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.72.0",
             "SHA": "4bfb251fce42354ea4849897c3656cd5ea382ed7",
@@ -2028,7 +2054,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "5517c2a",
+          "Version": "637e9ca",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2079,19 +2105,44 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump hashicorp/azurerm from 4.28.0 to 4.29.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/942"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.5..HEAD",
-        "Count": 2,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #943 from PRODYNA-YASM/feature/traefik-35.3.0",
+            "SHA": "637e9ca4d32646242140d9e173a381372bb10c58",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-19T16:27:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/637e9ca4d32646242140d9e173a381372bb10c58"
+          },
+          {
+            "Text": "Traefik 35.3.0",
+            "SHA": "d4c3b33ec2791b57728418392846e7104eba77ec",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-19T16:21:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d4c3b33ec2791b57728418392846e7104eba77ec"
+          },
+          {
+            "Text": "Merge pull request #942 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/hashicorp/azurerm-4.29.0",
+            "SHA": "a4000f4d7e25a8973c96637ecfbfa3a2c45a398a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-19T08:56:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a4000f4d7e25a8973c96637ecfbfa3a2c45a398a"
+          },
           {
             "Text": "Merge pull request #941 from PRODYNA-YASM/dependabot/terraform/terraform/azure/hashicorp/azurerm-4.29.0",
             "SHA": "5517c2a8fb5ccabea7d42861beadb90989472486",
@@ -2101,6 +2152,16 @@
             },
             "Timestamp": "2025-05-19T06:15:24Z",
             "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/5517c2a8fb5ccabea7d42861beadb90989472486"
+          },
+          {
+            "Text": "Bump hashicorp/azurerm from 4.28.0 to 4.29.0 in /terraform/kubernetes",
+            "SHA": "f9c9136170b71f29b8df2d8c579fd1f0715bba56",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-05-19T05:36:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f9c9136170b71f29b8df2d8c579fd1f0715bba56"
           },
           {
             "Text": "Bump hashicorp/azurerm from 4.28.0 to 4.29.0 in /terraform/azure",
@@ -2452,8 +2513,8 @@
         "Count": 7,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 22.15.18",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/294"
+            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 22.15.19",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/295"
           },
           {
             "Title": "chore(deps): Bump cypress/included from 14.3.2 to 14.3.3",
@@ -3001,5 +3062,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-05-19T07:34:30Z"
+  "LastUpdated": "2025-05-20T07:34:51Z"
 }
