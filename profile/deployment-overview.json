@@ -902,23 +902,23 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "e68d46e",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.22.1",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.22.0",
+          "Version": "1.22.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.22.0",
+          "Version": "1.22.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1272,9 +1272,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.10.6",
+          "Version": "1.10.7",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1322,14 +1322,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Go 1.24.3",
-            "Timestamp": "2025-05-20T08:15:20Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/actions/runs/15132410678"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1339,23 +1333,23 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "ec81038",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.13.5",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.13.4",
+          "Version": "1.13.5",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.13.4",
+          "Version": "1.13.5",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1609,9 +1603,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.1.9",
+          "Version": "1.1.10",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1659,14 +1653,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Component updates",
-            "Timestamp": "2025-05-20T08:13:31Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-external/actions/runs/15132376324"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -2466,9 +2454,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.7.1",
+          "Version": "1.7.2",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -2516,14 +2504,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Component updates",
-            "Timestamp": "2025-05-20T08:12:57Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-mainproject/actions/runs/15132364829"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -2725,5 +2707,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-05-20T08:19:10Z"
+  "LastUpdated": "2025-05-20T08:56:22Z"
 }
