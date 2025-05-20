@@ -1664,14 +1664,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d8be60e",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "8.20.1-0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "8.19.1-0",
+          "Version": "8.20.1-0",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -1680,17 +1680,24 @@
           "Link": "",
           "Version": "8.19.1-0",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "8.19.1-0",
+        "Tag": "8.20.1-0",
         "SHA": "",
-        "Title": "Gotenberg 8.19.1, Helm Chart 1.12.0",
-        "Timestamp": "2025-04-03T11:17:40Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.19.1-0"
+        "Title": "Gotenberg 8.20.1",
+        "Timestamp": "2025-05-20T08:58:15Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.20.1-0"
       },
       "Releases": [
+        {
+          "Tag": "8.20.1-0",
+          "SHA": "",
+          "Title": "Gotenberg 8.20.1",
+          "Timestamp": "2025-04-14T06:36:55Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.20.1-0"
+        },
         {
           "Tag": "8.19.1-0",
           "SHA": "",
@@ -1704,13 +1711,6 @@
           "Title": "Gotenberg 8.19.0",
           "Timestamp": "2025-03-31T12:44:15Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.19.0-0"
-        },
-        {
-          "Tag": "8.18.0-0",
-          "SHA": "",
-          "Title": "Gotenberg 8.18, Helm chart 1.11",
-          "Timestamp": "2025-03-18T07:53:54Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.18.0-0"
         }
       ],
       "PullRequests": {
@@ -1720,37 +1720,22 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.19.1-0..HEAD",
-        "Count": 2,
-        "Commits": [
-          {
-            "Text": "Merge pull request #85 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.20.1",
-            "SHA": "d8be60e9a8102cbf5de33b3a052bb45bb384b9aa",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-04-14T06:36:55Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/d8be60e9a8102cbf5de33b3a052bb45bb384b9aa"
-          },
-          {
-            "Text": "Bump gotenberg/gotenberg from 8.19.1 to 8.20.1",
-            "SHA": "4bc232add065a670eb18073b681160501292a231",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-04-14T00:48:41Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/4bc232add065a670eb18073b681160501292a231"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.20.1-0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #85 from PRODYNA-YASM/dependabot/docker/gotenberg/…",
+            "Timestamp": "2025-05-20T08:58:17Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/15133299485"
+          }
+        ]
       }
     },
     {
@@ -1760,14 +1745,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "ad60f1d",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.73.6",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.73.5",
+          "Version": "1.73.6",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -1776,17 +1761,24 @@
           "Link": "",
           "Version": "1.73.5",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.73.5",
+        "Tag": "1.73.6",
         "SHA": "",
-        "Title": "DAPR 1.15.5",
-        "Timestamp": "2025-05-17T21:44:31Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.5"
+        "Title": "Traeik 35.3.0, Mimir 5.6.1",
+        "Timestamp": "2025-05-20T08:59:20Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.6"
       },
       "Releases": [
+        {
+          "Tag": "1.73.6",
+          "SHA": "",
+          "Title": "Traeik 35.3.0, Mimir 5.6.1",
+          "Timestamp": "2025-05-20T07:58:10Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.6"
+        },
         {
           "Tag": "1.73.5",
           "SHA": "",
@@ -1800,13 +1792,6 @@
           "Title": "Tempo 1.39.4 with new configuration",
           "Timestamp": "2025-05-17T09:06:17Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.4"
-        },
-        {
-          "Tag": "1.73.3",
-          "SHA": "",
-          "Title": "Grafana 9, Neo4j 2025.4.0, small configuration changes",
-          "Timestamp": "2025-05-15T23:03:02Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.3"
         }
       ],
       "PullRequests": {
@@ -1816,97 +1801,21 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.5..HEAD",
-        "Count": 8,
-        "Commits": [
-          {
-            "Text": "Merge pull request #944 from PRODYNA-YASM/feature/mimir-5.6.1",
-            "SHA": "ad60f1d3291e8e71954c57703ebf5372a5009478",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-05-20T07:58:10Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ad60f1d3291e8e71954c57703ebf5372a5009478"
-          },
-          {
-            "Text": "Mimir distributed 5.6.1",
-            "SHA": "86bb8abae32f4dac790b026877a32d16f1df7ef4",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-05-20T07:54:52Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/86bb8abae32f4dac790b026877a32d16f1df7ef4"
-          },
-          {
-            "Text": "Merge pull request #943 from PRODYNA-YASM/feature/traefik-35.3.0",
-            "SHA": "637e9ca4d32646242140d9e173a381372bb10c58",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-05-19T16:27:20Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/637e9ca4d32646242140d9e173a381372bb10c58"
-          },
-          {
-            "Text": "Traefik 35.3.0",
-            "SHA": "d4c3b33ec2791b57728418392846e7104eba77ec",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-05-19T16:21:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d4c3b33ec2791b57728418392846e7104eba77ec"
-          },
-          {
-            "Text": "Merge pull request #942 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/hashicorp/azurerm-4.29.0",
-            "SHA": "a4000f4d7e25a8973c96637ecfbfa3a2c45a398a",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-05-19T08:56:29Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a4000f4d7e25a8973c96637ecfbfa3a2c45a398a"
-          },
-          {
-            "Text": "Merge pull request #941 from PRODYNA-YASM/dependabot/terraform/terraform/azure/hashicorp/azurerm-4.29.0",
-            "SHA": "5517c2a8fb5ccabea7d42861beadb90989472486",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-05-19T06:15:24Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/5517c2a8fb5ccabea7d42861beadb90989472486"
-          },
-          {
-            "Text": "Bump hashicorp/azurerm from 4.28.0 to 4.29.0 in /terraform/kubernetes",
-            "SHA": "f9c9136170b71f29b8df2d8c579fd1f0715bba56",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-05-19T05:36:38Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f9c9136170b71f29b8df2d8c579fd1f0715bba56"
-          },
-          {
-            "Text": "Bump hashicorp/azurerm from 4.28.0 to 4.29.0 in /terraform/azure",
-            "SHA": "335b54f854e74f38f7f29c56522024641bf070d7",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-05-19T05:33:28Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/335b54f854e74f38f7f29c56522024641bf070d7"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.6..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "Merge pull request #944 from PRODYNA-YASM/feature/mimir-5.6.1",
+            "Timestamp": "2025-05-20T08:59:22Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/15133321474"
+          },
           {
             "Name": "Ok, this configuration",
             "Timestamp": "2025-05-17T09:12:51Z",
@@ -2707,5 +2616,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-05-20T08:56:22Z"
+  "LastUpdated": "2025-05-20T09:05:36Z"
 }

@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-05-20T08:56:22Z
+Component Status overview. Last update 2025-05-20T09:05:36Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -14,8 +14,8 @@ Component Status overview. Last update 2025-05-20T08:56:22Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.1.10 |  :green_square: 1.1.10 |  :green_square: 1.1.10 |  :green_square: 1.1.10 | 
-| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [2](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.19.1-0..HEAD) | :green_square: 0 | 8.19.1-0 |  :red_square: d8be60e |  :green_square: 8.19.1-0 |  :green_square: 8.19.1-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [8](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.5..HEAD) | :green_square: 0 | 1.73.5 |  :red_square: ad60f1d |  :green_square: 1.73.5 |  :green_square: 1.73.5 | 
+| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.20.1-0 |  :green_square: 8.20.1-0 |  :green_square: 8.20.1-0 |  :red_square: 8.19.1-0 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.73.6 |  :green_square: 1.73.6 |  :green_square: 1.73.6 |  :red_square: 1.73.5 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.73.1 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.72.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.73.0 | 
@@ -558,16 +558,9 @@ Component Status overview. Last update 2025-05-20T08:56:22Z
 
 
 
-## [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) 8.19.1-0
+## [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) 8.20.1-0
 
 
-
-
-### [Commits on main since 8.19.1-0](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.19.1-0..HEAD) (2)
-
-- [Merge pull request #85 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.20.1](https://github.com/prodyna-yasm/yasm-gotenberg/commit/d8be60e9a8102cbf5de33b3a052bb45bb384b9aa) by [dkrizic](https://github.com/dkrizic) on 2025-04-14 06:36:55 +0000 UTC
-
-- [Bump gotenberg/gotenberg from 8.19.1 to 8.20.1](https://github.com/prodyna-yasm/yasm-gotenberg/commit/4bc232add065a670eb18073b681160501292a231) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-04-14 00:48:41 +0000 UTC
 
 
 
@@ -577,46 +570,32 @@ Component Status overview. Last update 2025-05-20T08:56:22Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  d8be60e |  8.19.1-0 |  8.19.1-0 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  8.20.1-0 |  8.20.1-0 |  8.19.1-0 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
+
+- [Gotenberg 8.20.1](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.20.1-0) on 2025-04-14 06:36:55 +0000 UTC
 
 - [Gotenberg 8.19.1, Helm Chart 1.12.0](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.19.1-0) on 2025-04-03 11:06:07 +0000 UTC
 
 - [Gotenberg 8.19.0](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.19.0-0) on 2025-03-31 12:44:15 +0000 UTC
 
-- [Gotenberg 8.18, Helm chart 1.11](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.18.0-0) on 2025-03-18 07:53:54 +0000 UTC
+
+
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting) (1)
+
+- [Merge pull request #85 from PRODYNA-YASM/dependabot/docker/gotenberg/…](https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/15133299485) created on 2025-05-20 08:58:17 +0000 UTC
 
 
 
 
+## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 1.73.6
 
 
-## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 1.73.5
-
-
-
-
-### [Commits on main since 1.73.5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.5..HEAD) (8)
-
-- [Merge pull request #944 from PRODYNA-YASM/feature/mimir-5.6.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ad60f1d3291e8e71954c57703ebf5372a5009478) by [dkrizic](https://github.com/dkrizic) on 2025-05-20 07:58:10 +0000 UTC
-
-- [Mimir distributed 5.6.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/86bb8abae32f4dac790b026877a32d16f1df7ef4) by [dkrizic](https://github.com/dkrizic) on 2025-05-20 07:54:52 +0000 UTC
-
-- [Merge pull request #943 from PRODYNA-YASM/feature/traefik-35.3.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/637e9ca4d32646242140d9e173a381372bb10c58) by [dkrizic](https://github.com/dkrizic) on 2025-05-19 16:27:20 +0000 UTC
-
-- [Traefik 35.3.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d4c3b33ec2791b57728418392846e7104eba77ec) by [dkrizic](https://github.com/dkrizic) on 2025-05-19 16:21:47 +0000 UTC
-
-- [Merge pull request #942 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/hashicorp/azurerm-4.29.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a4000f4d7e25a8973c96637ecfbfa3a2c45a398a) by [dkrizic](https://github.com/dkrizic) on 2025-05-19 08:56:29 +0000 UTC
-
-- [Merge pull request #941 from PRODYNA-YASM/dependabot/terraform/terraform/azure/hashicorp/azurerm-4.29.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/5517c2a8fb5ccabea7d42861beadb90989472486) by [dkrizic](https://github.com/dkrizic) on 2025-05-19 06:15:24 +0000 UTC
-
-- [Bump hashicorp/azurerm from 4.28.0 to 4.29.0 in /terraform/kubernetes](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f9c9136170b71f29b8df2d8c579fd1f0715bba56) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-05-19 05:36:38 +0000 UTC
-
-- [Bump hashicorp/azurerm from 4.28.0 to 4.29.0 in /terraform/azure](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/335b54f854e74f38f7f29c56522024641bf070d7) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-05-19 05:33:28 +0000 UTC
 
 
 
@@ -626,23 +605,25 @@ Component Status overview. Last update 2025-05-20T08:56:22Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  ad60f1d |  1.73.5 |  1.73.5 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.73.6 |  1.73.6 |  1.73.5 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
+
+- [Traeik 35.3.0, Mimir 5.6.1](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.6) on 2025-05-20 07:58:10 +0000 UTC
 
 - [DAPR 1.15.5](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.5) on 2025-05-17 19:05:49 +0000 UTC
 
 - [Tempo 1.39.4 with new configuration](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.4) on 2025-05-17 09:06:17 +0000 UTC
 
-- [Grafana 9, Neo4j 2025.4.0, small configuration changes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.3) on 2025-05-15 23:03:02 +0000 UTC
 
 
 
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting) (2)
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting) (1)
+- [Merge pull request #944 from PRODYNA-YASM/feature/mimir-5.6.1](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/15133321474) created on 2025-05-20 08:59:22 +0000 UTC
 
 - [Ok, this configuration](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/15083759081) created on 2025-05-17 09:12:51 +0000 UTC
 
