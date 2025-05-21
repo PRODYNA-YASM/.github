@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "234e878",
+          "Version": "512bad1",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -59,11 +59,15 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 7,
+        "Count": 8,
         "PullRequests": [
           {
-            "Title": "feat: 849 rework location area on export",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/887"
+            "Title": "build(deps): bump com.github.tomakehurst:wiremock-jre8 from 2.35.0 to 2.35.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/889"
+          },
+          {
+            "Title": "build(deps): bump com.github.tomakehurst:wiremock-jre8 from 2.35.0 to 2.35.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/888"
           },
           {
             "Title": "build(deps): bump io.smallrye:jandex-maven-plugin from 3.3.0 to 3.3.1",
@@ -94,8 +98,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.72.0..HEAD",
-        "Count": 7,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "feat: 849 rework location area on export (#887)",
+            "SHA": "512bad1b55e1acb31eab4eb6267b38039d46cfe8",
+            "Author": {
+              "name": "mayer-prodyna",
+              "link": "https://github.com/mayer-prodyna"
+            },
+            "Timestamp": "2025-05-20T11:32:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/512bad1b55e1acb31eab4eb6267b38039d46cfe8"
+          },
           {
             "Text": "build(deps): bump io.smallrye:jandex-maven-plugin from 3.2.7 to 3.3.0 (#873)",
             "SHA": "234e878e3ef412e5ce3a7817bd58797d5c218603",
@@ -384,7 +398,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "7670817",
+          "Version": "30a37fc",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -429,6 +443,26 @@
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.72.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #676 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.72.0",
+            "SHA": "30a37fcfc8e05f5a0165753545029041713f4978",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-21T06:36:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/30a37fcfc8e05f5a0165753545029041713f4978"
+          },
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.71.0 to 1.72.0",
+            "SHA": "c07ed0d64962ffbc9f1d59533931abef6f118bc0",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-05-21T01:22:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/c07ed0d64962ffbc9f1d59533931abef6f118bc0"
+          },
           {
             "Text": "Component updates",
             "SHA": "7670817c1ad6050684cbb0a22b43b189a85e6475",
@@ -708,26 +742,6 @@
             },
             "Timestamp": "2025-04-02T06:43:26Z",
             "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/c3871d4c0af91453bf6e70d462aa046478b51d3f"
-          },
-          {
-            "Text": "Bump google.golang.org/grpc from 1.71.0 to 1.71.1",
-            "SHA": "c766226ac400754fb45c3d6eec3f18a235a0b271",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-04-02T01:40:42Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/c766226ac400754fb45c3d6eec3f18a235a0b271"
-          },
-          {
-            "Text": "Bump golang from 1.24.1-alpine3.20 to 1.24.2-alpine3.20",
-            "SHA": "a92c5f098a5f571bb8081377b06fcc9ef06fad12",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-04-02T01:25:15Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/a92c5f098a5f571bb8081377b06fcc9ef06fad12"
           }
         ]
       },
@@ -1745,14 +1759,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.73.6",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "a654a6e",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.73.6",
+          "Version": "1.73.7",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -1765,13 +1779,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "1.73.6",
+        "Tag": "1.73.7",
         "SHA": "",
-        "Title": "Traeik 35.3.0, Mimir 5.6.1",
-        "Timestamp": "2025-05-20T08:59:20Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.6"
+        "Title": "Kubernetes 1.32.3",
+        "Timestamp": "2025-05-20T12:40:22Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.7"
       },
       "Releases": [
+        {
+          "Tag": "1.73.7",
+          "SHA": "",
+          "Title": "Kubernetes 1.32.3",
+          "Timestamp": "2025-05-20T10:02:53Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.7"
+        },
         {
           "Tag": "1.73.6",
           "SHA": "",
@@ -1785,13 +1806,6 @@
           "Title": "DAPR 1.15.5",
           "Timestamp": "2025-05-17T19:05:49Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.5"
-        },
-        {
-          "Tag": "1.73.4",
-          "SHA": "",
-          "Title": "Tempo 1.39.4 with new configuration",
-          "Timestamp": "2025-05-17T09:06:17Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.4"
         }
       ],
       "PullRequests": {
@@ -1801,16 +1815,82 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.6..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.7..HEAD",
+        "Count": 6,
+        "Commits": [
+          {
+            "Text": "Merge pull request #948 from PRODYNA-YASM/feature/otel-operator-0.88.7",
+            "SHA": "a654a6e347093684e8e29eb69d4c203f082ad24a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-21T07:27:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a654a6e347093684e8e29eb69d4c203f082ad24a"
+          },
+          {
+            "Text": "Merge pull request #946 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/kubernetes-2.37.0",
+            "SHA": "08f0dcf9d9af737bf12aad13f4e0c134e701cf89",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-21T07:21:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/08f0dcf9d9af737bf12aad13f4e0c134e701cf89"
+          },
+          {
+            "Text": "Merge pull request #947 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/DataDog/datadog-3.63.0",
+            "SHA": "414b32cbaf5c96431445d81041429a1c3510d760",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-21T07:16:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/414b32cbaf5c96431445d81041429a1c3510d760"
+          },
+          {
+            "Text": "Otel Operator 0.88.7",
+            "SHA": "0a3dbf77cb7d102d1d0b69372d338cf4c956ec7b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-21T06:59:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0a3dbf77cb7d102d1d0b69372d338cf4c956ec7b"
+          },
+          {
+            "Text": "Bump DataDog/datadog from 3.62.0 to 3.63.0 in /terraform/kubernetes",
+            "SHA": "cae33d7a1695bd87c2d8fa95961c3efed97397f3",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-05-21T05:36:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/cae33d7a1695bd87c2d8fa95961c3efed97397f3"
+          },
+          {
+            "Text": "Bump kubernetes from 2.36.0 to 2.37.0 in /terraform/kubernetes",
+            "SHA": "a2657b8e2c758ad382a5eeae09203e08b9525a66",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-05-21T05:36:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a2657b8e2c758ad382a5eeae09203e08b9525a66"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 3,
         "Workflows": [
+          {
+            "Name": "Merge pull request #945 from PRODYNA-YASM/feature/kubernetes-1.32.3",
+            "Timestamp": "2025-05-20T12:40:24Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/15137773167"
+          },
           {
             "Name": "Merge pull request #944 from PRODYNA-YASM/feature/mimir-5.6.1",
             "Timestamp": "2025-05-20T08:59:22Z",
@@ -1971,8 +2051,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "chore: bump io.smallrye.reactive:mutiny from 2.8.0 to 2.9.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/280"
+          },
           {
             "Title": "chore: bump org.openapitools:openapi-generator-maven-plugin from 7.12.0 to 7.13.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/279"
@@ -2616,5 +2700,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-05-20T09:05:36Z"
+  "LastUpdated": "2025-05-21T07:34:30Z"
 }
