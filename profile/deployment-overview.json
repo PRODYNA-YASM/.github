@@ -1122,8 +1122,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "run every 30 minutes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/201"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
@@ -2823,31 +2828,35 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
           {
-            "Title": "Bump @angular/compiler-cli from 19.2.9 to 19.2.11 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/102"
+            "Title": "Bump @angular/compiler-cli from 19.2.9 to 19.2.13 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/111"
           },
           {
-            "Title": "Bump @angular/forms from 19.2.9 to 19.2.11 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/101"
+            "Title": "Bump @angular/cli from 19.2.10 to 19.2.13 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/110"
           },
           {
-            "Title": "Bump @angular/cli from 19.2.10 to 19.2.12 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/100"
+            "Title": "Bump @angular/forms from 19.2.9 to 19.2.13 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/109"
           },
           {
-            "Title": "Bump @angular/platform-browser from 19.2.9 to 19.2.11 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/99"
+            "Title": "Bump @angular/platform-browser from 19.2.9 to 19.2.13 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/108"
+          },
+          {
+            "Title": "Bump github.com/gin-gonic/gin from 1.10.0 to 1.10.1 in /backend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/107"
+          },
+          {
+            "Title": "Bump gorm.io/gorm from 1.26.0 to 1.30.0 in /backend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/106"
           },
           {
             "Title": "Bump @azure/msal-browser from 4.11.1 to 4.12.0 in /frontend",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/97"
-          },
-          {
-            "Title": "Bump gorm.io/gorm from 1.26.0 to 1.26.1 in /backend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/92"
           }
         ]
       },
@@ -2880,5 +2889,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-05-25T07:33:56Z"
+  "LastUpdated": "2025-05-26T07:41:28Z"
 }
