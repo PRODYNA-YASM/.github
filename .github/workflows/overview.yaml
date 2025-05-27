@@ -28,7 +28,7 @@ jobs:
         uses: prodyna/deployment-overview@v0.7
         with:
           organization: prodyna-yasm
-          repositories: yasm-backend,yasm-frontend,yasm-integration,yasmctl,yasm-proxy-odbc,yasm-metrics,yasm-github,yasm-geocoding,yasm-data,yasm-external,yasm-gotenberg,yasm-infrastructure-staged,yasm-infrastructure-common,yasm,yasm-api,yasm,yasm-nginx,yasm-test,yasm-mainproject,sales-copilot,fox-and-hound
+          repositories: yasm-backend,yasm-frontend,yasm-integration,yasmctl,yasm-proxy-odbc,yasm-metrics,yasm-github,yasm-geocoding,yasm-data,yasm-external,yasm-gotenberg,yasm-infrastructure-staged,yasm-infrastructure-common,yasm,yasm-api,yasm,yasm-test,yasm-mainproject,sales-copilot,fox-and-hound
           environments: dev,staging,prod
           environment-links: https://dev-yasm.prodyna.com,https://staging-yasm.prodyna.com,https://yasm.prodyna.com
           verbose: 1
