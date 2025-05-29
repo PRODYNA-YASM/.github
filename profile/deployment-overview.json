@@ -248,8 +248,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "feat: 770 bulk download pdf profiles",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1067"
+          },
           {
             "Title": "chore: bump @opentelemetry/resources from 1.30.1 to 2.0.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1062"
@@ -1248,14 +1252,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "23ff1ff",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.10.9",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.10.8",
+          "Version": "1.10.9",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -1268,13 +1272,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "1.10.8",
+        "Tag": "1.10.9",
         "SHA": "",
-        "Title": "Component updates",
-        "Timestamp": "2025-05-23T09:18:24Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.10.8"
+        "Title": "Update gRPC and dummy change for demo",
+        "Timestamp": "2025-05-28T08:57:47Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.10.9"
       },
       "Releases": [
+        {
+          "Tag": "1.10.9",
+          "SHA": "",
+          "Title": "Update gRPC and dummy change for demo",
+          "Timestamp": "2025-05-28T08:54:16Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.10.9"
+        },
         {
           "Tag": "1.10.8",
           "SHA": "",
@@ -1288,13 +1299,6 @@
           "Title": "Go 1.24.3",
           "Timestamp": "2025-05-20T08:14:18Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.10.7"
-        },
-        {
-          "Tag": "1.10.6",
-          "SHA": "",
-          "Title": "Security updates",
-          "Timestamp": "2025-05-07T11:39:02Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.10.6"
         }
       ],
       "PullRequests": {
@@ -1304,37 +1308,21 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.10.8..HEAD",
-        "Count": 2,
-        "Commits": [
-          {
-            "Text": "Merge pull request #244 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.72.2",
-            "SHA": "23ff1ffe963dd1e7b2a64f37e54f215d1674e810",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-05-27T06:50:24Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/23ff1ffe963dd1e7b2a64f37e54f215d1674e810"
-          },
-          {
-            "Text": "Bump google.golang.org/grpc from 1.72.1 to 1.72.2",
-            "SHA": "fdd98109a6e89b6355f1f109b8da930624060161",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-05-26T23:58:51Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/fdd98109a6e89b6355f1f109b8da930624060161"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.10.9..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "Merge pull request #246 from PRODYNA-YASM/feature/245-dummy-change-fo…",
+            "Timestamp": "2025-05-28T08:57:49Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-github/actions/runs/15295932616"
+          },
           {
             "Name": "Merge pull request #240 from PRODYNA-YASM/dependabot/go_modules/go.op…",
             "Timestamp": "2025-05-23T09:18:25Z",
@@ -2040,8 +2028,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Update Loki to 6.30.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/959"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -2525,8 +2518,8 @@
         "Count": 7,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 22.15.21",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/298"
+            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 22.15.23",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/299"
           },
           {
             "Title": "chore(deps-dev): Bump cypress from 14.3.2 to 14.4.0",
@@ -3088,8 +3081,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 7,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "Feature/ 112 allow hr admin to modify candidate view",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/113"
+          },
           {
             "Title": "Bump @angular/compiler-cli from 19.2.9 to 19.2.13 in /frontend",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/111"
@@ -3149,5 +3146,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-05-28T07:34:27Z"
+  "LastUpdated": "2025-05-29T07:34:10Z"
 }
