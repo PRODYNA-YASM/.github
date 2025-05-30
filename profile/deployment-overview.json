@@ -2028,8 +2028,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 1,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Bump hashicorp/azurerm from 4.30.0 to 4.31.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/961"
+          },
+          {
+            "Title": "Bump hashicorp/azurerm from 4.30.0 to 4.31.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/960"
+          },
           {
             "Title": "Update Loki to 6.30.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/959"
@@ -2518,8 +2526,8 @@
         "Count": 7,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 22.15.23",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/299"
+            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 22.15.24",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/300"
           },
           {
             "Title": "chore(deps-dev): Bump cypress from 14.3.2 to 14.4.0",
@@ -3081,8 +3089,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 8,
+        "Count": 9,
         "PullRequests": [
+          {
+            "Title": "104 use proper unauthorized page",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/114"
+          },
           {
             "Title": "Feature/ 112 allow hr admin to modify candidate view",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/113"
@@ -3146,5 +3158,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-05-29T07:34:10Z"
+  "LastUpdated": "2025-05-30T07:33:58Z"
 }
