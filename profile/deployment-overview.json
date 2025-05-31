@@ -1977,7 +1977,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "ca23a3f",
+          "Version": "8538405",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2028,27 +2028,74 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 3,
-        "PullRequests": [
-          {
-            "Title": "Bump hashicorp/azurerm from 4.30.0 to 4.31.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/961"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 4.30.0 to 4.31.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/960"
-          },
-          {
-            "Title": "Update Loki to 6.30.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/959"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.8..HEAD",
-        "Count": 12,
+        "Count": 18,
         "Commits": [
+          {
+            "Text": "Merge pull request #959 from PRODYNA-YASM/feature/loki-6.30.1",
+            "SHA": "8538405efe945d14f4d7f5ffd0b2585830777cec",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-30T11:00:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/8538405efe945d14f4d7f5ffd0b2585830777cec"
+          },
+          {
+            "Text": "Merge pull request #960 from PRODYNA-YASM/dependabot/terraform/terraform/azure/hashicorp/azurerm-4.31.0",
+            "SHA": "d64cfb5572fe0ad610a401ae3afc5c0ed29d5da9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-30T10:48:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d64cfb5572fe0ad610a401ae3afc5c0ed29d5da9"
+          },
+          {
+            "Text": "Merge pull request #961 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/hashicorp/azurerm-4.31.0",
+            "SHA": "32c52f0a95c65c2386f44f8014da13c8ee590383",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-30T10:41:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/32c52f0a95c65c2386f44f8014da13c8ee590383"
+          },
+          {
+            "Text": "Bump hashicorp/azurerm from 4.30.0 to 4.31.0 in /terraform/kubernetes",
+            "SHA": "659f2f3437717f822d200627e43275e54325a9a1",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-05-30T05:39:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/659f2f3437717f822d200627e43275e54325a9a1"
+          },
+          {
+            "Text": "Bump hashicorp/azurerm from 4.30.0 to 4.31.0 in /terraform/azure",
+            "SHA": "2b3083363e4657f0affac80cbf9567a7d1235870",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-05-30T05:29:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/2b3083363e4657f0affac80cbf9567a7d1235870"
+          },
+          {
+            "Text": "Update Loki to 6.30.1",
+            "SHA": "a68dd4a605e608319efcfa1a0018c267e84acd89",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-05-28T10:03:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a68dd4a605e608319efcfa1a0018c267e84acd89"
+          },
           {
             "Text": "Merge pull request #958 from PRODYNA-YASM/feature/otel-operator-0.89.0",
             "SHA": "ca23a3f06f47f8ff26064362b0dacd5af02a442c",
@@ -3089,8 +3136,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 9,
+        "Count": 10,
         "PullRequests": [
+          {
+            "Title": "Feature/ 103 add pdf export",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/115"
+          },
           {
             "Title": "104 use proper unauthorized page",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/114"
@@ -3158,5 +3209,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-05-30T07:33:58Z"
+  "LastUpdated": "2025-05-31T07:33:27Z"
 }

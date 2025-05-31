@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-05-30T07:33:58Z
+Component Status overview. Last update 2025-05-31T07:33:27Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -15,7 +15,7 @@ Component Status overview. Last update 2025-05-30T07:33:58Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [14](https://github.com/prodyna-yasm/yasm-external/compare/1.1.10..HEAD) | :green_square: 0 | 1.1.10 |  :red_square: 9f37c8f |  :green_square: 1.1.10 |  :green_square: 1.1.10 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.21.0-0 |  :green_square: 8.21.0-0 |  :green_square: 8.21.0-0 |  :red_square: 8.19.1-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [12](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.8..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.73.8 |  :red_square: ca23a3f |  :green_square: 1.73.8 |  :green_square: 1.73.8 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [18](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.8..HEAD) | :green_square: 0 | 1.73.8 |  :red_square: 8538405 |  :green_square: 1.73.8 |  :green_square: 1.73.8 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.73.1 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :red_square: [3](https://github.com/prodyna-yasm/yasm/compare/1.72.0..HEAD) | :green_square: 0 | 1.72.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.73.0 | 
@@ -23,7 +23,7 @@ Component Status overview. Last update 2025-05-30T07:33:58Z
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [15](https://github.com/prodyna-yasm/yasm-test/compare/v1.51.6..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.51.6 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [14](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.7.2..HEAD) | :green_square: 0 | 1.7.2 |  :red_square: fa23cff |  :green_square: 1.7.2 |  :green_square: 1.7.2 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [1](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :red_square: f3c0835 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
-| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :green_square: 0 | :yellow_square: [9](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 1.0.8 |  :green_square: 1.0.8 |  :green_square: 1.0.8 |  :green_square: 1.0.8 | 
+| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :green_square: 0 | :yellow_square: [10](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 1.0.8 |  :green_square: 1.0.8 |  :green_square: 1.0.8 |  :green_square: 1.0.8 | 
 
 
 
@@ -656,7 +656,19 @@ Component Status overview. Last update 2025-05-30T07:33:58Z
 
 
 
-### [Commits on main since 1.73.8](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.8..HEAD) (12)
+### [Commits on main since 1.73.8](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.8..HEAD) (18)
+
+- [Merge pull request #959 from PRODYNA-YASM/feature/loki-6.30.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/8538405efe945d14f4d7f5ffd0b2585830777cec) by [dkrizic](https://github.com/dkrizic) on 2025-05-30 11:00:16 +0000 UTC
+
+- [Merge pull request #960 from PRODYNA-YASM/dependabot/terraform/terraform/azure/hashicorp/azurerm-4.31.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d64cfb5572fe0ad610a401ae3afc5c0ed29d5da9) by [dkrizic](https://github.com/dkrizic) on 2025-05-30 10:48:26 +0000 UTC
+
+- [Merge pull request #961 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/hashicorp/azurerm-4.31.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/32c52f0a95c65c2386f44f8014da13c8ee590383) by [dkrizic](https://github.com/dkrizic) on 2025-05-30 10:41:50 +0000 UTC
+
+- [Bump hashicorp/azurerm from 4.30.0 to 4.31.0 in /terraform/kubernetes](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/659f2f3437717f822d200627e43275e54325a9a1) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-05-30 05:39:54 +0000 UTC
+
+- [Bump hashicorp/azurerm from 4.30.0 to 4.31.0 in /terraform/azure](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/2b3083363e4657f0affac80cbf9567a7d1235870) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-05-30 05:29:00 +0000 UTC
+
+- [Update Loki to 6.30.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a68dd4a605e608319efcfa1a0018c267e84acd89) by [dkrizic](https://github.com/dkrizic) on 2025-05-28 10:03:48 +0000 UTC
 
 - [Merge pull request #958 from PRODYNA-YASM/feature/otel-operator-0.89.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ca23a3f06f47f8ff26064362b0dacd5af02a442c) by [dkrizic](https://github.com/dkrizic) on 2025-05-27 15:08:27 +0000 UTC
 
@@ -685,21 +697,12 @@ Component Status overview. Last update 2025-05-30T07:33:58Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (3)
-
-- [Bump hashicorp/azurerm from 4.30.0 to 4.31.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/961)
-
-- [Bump hashicorp/azurerm from 4.30.0 to 4.31.0 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/960)
-
-- [Update Loki to 6.30.1](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/959)
-
-
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  ca23a3f |  1.73.8 |  1.73.8 | 
+| Version |  8538405 |  1.73.8 |  1.73.8 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -1068,7 +1071,9 @@ Component Status overview. Last update 2025-05-30T07:33:58Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (9)
+### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (10)
+
+- [Feature/ 103 add pdf export](https://github.com/PRODYNA-YASM/fox-and-hound/pull/115)
 
 - [104 use proper unauthorized page](https://github.com/PRODYNA-YASM/fox-and-hound/pull/114)
 
