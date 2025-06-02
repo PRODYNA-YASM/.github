@@ -422,7 +422,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "c83e1b2",
+          "Version": "114eb5e",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -467,6 +467,26 @@
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.72.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #686 from PRODYNA-YASM/dependabot/docker/alpine-3.22.0",
+            "SHA": "114eb5e2eec30ae8c2438dc524dd368fa4024f4b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-02T03:53:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/114eb5e2eec30ae8c2438dc524dd368fa4024f4b"
+          },
+          {
+            "Text": "Bump alpine from 3.21.3 to 3.22.0",
+            "SHA": "6ed5f138cc9fa9a3d0d96d26d3dcc7e77e13b35d",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-06-02T01:08:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/6ed5f138cc9fa9a3d0d96d26d3dcc7e77e13b35d"
+          },
           {
             "Text": "Merge pull request #685 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.72.2",
             "SHA": "c83e1b23175143fb2700241cf4df0a1654c151bd",
@@ -746,26 +766,6 @@
             },
             "Timestamp": "2025-05-08T06:03:03Z",
             "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/626eb62d9274fdb25d01101bfb718854ede7798c"
-          },
-          {
-            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.69.0 to 1.70.0",
-            "SHA": "a5cbf00c90bd6f9725899fa85d0b6b2085798c4c",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-05-08T01:53:24Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/a5cbf00c90bd6f9725899fa85d0b6b2085798c4c"
-          },
-          {
-            "Text": "Bump golang from 1.24.2-alpine3.20 to 1.24.3-alpine3.20",
-            "SHA": "843cd7b9addfe4e69ed10af24115b9c6714a0330",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-05-07T01:29:39Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/843cd7b9addfe4e69ed10af24115b9c6714a0330"
           }
         ]
       },
@@ -1207,8 +1207,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "build(deps): bump alpine from 3.21.3 to 3.22.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/206"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
@@ -2028,8 +2033,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump DataDog/datadog from 3.63.0 to 3.65.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/962"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -3085,9 +3095,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.0.8",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "c849748",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -3136,35 +3146,27 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 10,
+        "Count": 7,
         "PullRequests": [
           {
-            "Title": "Feature/ 103 add pdf export",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/115"
+            "Title": "Bump @angular/forms from 19.2.9 to 20.0.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/120"
           },
           {
-            "Title": "104 use proper unauthorized page",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/114"
+            "Title": "Bump @angular/compiler-cli from 19.2.9 to 20.0.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/119"
           },
           {
-            "Title": "Feature/ 112 allow hr admin to modify candidate view",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/113"
+            "Title": "Bump @azure/msal-browser from 4.11.1 to 4.13.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/118"
           },
           {
-            "Title": "Bump @angular/compiler-cli from 19.2.9 to 19.2.13 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/111"
+            "Title": "Bump @angular/cli from 19.2.10 to 20.0.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/117"
           },
           {
-            "Title": "Bump @angular/cli from 19.2.10 to 19.2.13 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/110"
-          },
-          {
-            "Title": "Bump @angular/forms from 19.2.9 to 19.2.13 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/109"
-          },
-          {
-            "Title": "Bump @angular/platform-browser from 19.2.9 to 19.2.13 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/108"
+            "Title": "Bump @angular/platform-browser from 19.2.9 to 20.0.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/116"
           },
           {
             "Title": "Bump github.com/gin-gonic/gin from 1.10.0 to 1.10.1 in /backend",
@@ -3173,18 +3175,175 @@
           {
             "Title": "Bump gorm.io/gorm from 1.26.0 to 1.30.0 in /backend",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/106"
-          },
-          {
-            "Title": "Bump @azure/msal-browser from 4.11.1 to 4.12.0 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/97"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/fox-and-hound",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/compare/1.0.8..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 16,
+        "Commits": [
+          {
+            "Text": "Merge pull request #121 from PRODYNA-YASM/cleanup",
+            "SHA": "c8497482603e0c1e5ff3f324129b07e6dcf181fd",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-06-02T05:54:22Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/c8497482603e0c1e5ff3f324129b07e6dcf181fd"
+          },
+          {
+            "Text": "minor cleanup",
+            "SHA": "905b2189c1d4b48bda1358aa5709b527d6044e36",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-06-02T05:49:52Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/905b2189c1d4b48bda1358aa5709b527d6044e36"
+          },
+          {
+            "Text": "Merge pull request #113 from PRODYNA-YASM/feature/_112_AllowHrAdminToModifyCandidateView",
+            "SHA": "f0f4c3654e517d20074ac21caabbf9e916dba2dd",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-06-02T05:28:27Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/f0f4c3654e517d20074ac21caabbf9e916dba2dd"
+          },
+          {
+            "Text": "Merge pull request #114 from PRODYNA-YASM/feature/_104_CreateProperUnauthorizedPage",
+            "SHA": "cd50f6b4afecc64f290e13b8b816a71c8e6df1fc",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-06-02T05:27:54Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/cd50f6b4afecc64f290e13b8b816a71c8e6df1fc"
+          },
+          {
+            "Text": "Merge pull request #115 from PRODYNA-YASM/feature/_103_AddPdfExport",
+            "SHA": "19c83f069458c9ac6862b309998734ff2018a7af",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-06-02T05:27:21Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/19c83f069458c9ac6862b309998734ff2018a7af"
+          },
+          {
+            "Text": "103 Add Pdf export",
+            "SHA": "d4fef6d637ce35d884754cc7307d70ae00b98fb2",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-06-02T05:25:48Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/d4fef6d637ce35d884754cc7307d70ae00b98fb2"
+          },
+          {
+            "Text": "103 Add Pdf export",
+            "SHA": "417d73aa89506901908e3a3758502aca614472d1",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-06-02T05:24:41Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/417d73aa89506901908e3a3758502aca614472d1"
+          },
+          {
+            "Text": "103 Add Pdf export",
+            "SHA": "80ee9492def334a6a8b946405b06e92dcd44d505",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-05-30T13:35:00Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/80ee9492def334a6a8b946405b06e92dcd44d505"
+          },
+          {
+            "Text": "103 Add Pdf export",
+            "SHA": "32b9f5faa1cf46ea311c1545ffc2bcb7792f9072",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-05-30T08:20:50Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/32b9f5faa1cf46ea311c1545ffc2bcb7792f9072"
+          },
+          {
+            "Text": "103 Add Pdf export",
+            "SHA": "713720b866a62915f8e13a6307e5e05a2af69142",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-05-30T07:38:38Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/713720b866a62915f8e13a6307e5e05a2af69142"
+          },
+          {
+            "Text": "104 use proper unauthorized page",
+            "SHA": "37dfd9333b1e194b6f0867fd5e2bdd71a6943bdb",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-05-29T17:17:53Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/37dfd9333b1e194b6f0867fd5e2bdd71a6943bdb"
+          },
+          {
+            "Text": "Add modifiedByHr functionality",
+            "SHA": "61f9f7325220ade83fe6c1a357054fc5f594e025",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-05-28T19:08:36Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/61f9f7325220ade83fe6c1a357054fc5f594e025"
+          },
+          {
+            "Text": "Add modifiedByHr functionality",
+            "SHA": "fd25a59929287c87596f58806ef7e28cc2984d0b",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-05-28T19:03:58Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/fd25a59929287c87596f58806ef7e28cc2984d0b"
+          },
+          {
+            "Text": "Add modifiedByHr functionality",
+            "SHA": "7a1684e07387ce05d7d2c1e92c9f1479164d3e6d",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-05-28T18:44:06Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/7a1684e07387ce05d7d2c1e92c9f1479164d3e6d"
+          },
+          {
+            "Text": "Add modifiedByHr functionality",
+            "SHA": "c6a03f0857eecb8b54b1770858750bd4d5521da1",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-05-28T16:05:36Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/c6a03f0857eecb8b54b1770858750bd4d5521da1"
+          },
+          {
+            "Text": "Add modifiedByHr functionality",
+            "SHA": "5cb3c6a34e3c6d64a680b748966f2a8a0b045c09",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-05-28T15:25:16Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/5cb3c6a34e3c6d64a680b748966f2a8a0b045c09"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -3209,5 +3368,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-06-01T07:33:26Z"
+  "LastUpdated": "2025-06-02T07:35:40Z"
 }
