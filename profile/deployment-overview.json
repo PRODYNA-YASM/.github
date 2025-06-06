@@ -473,8 +473,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump google.golang.org/grpc from 1.72.2 to 1.73.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/688"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -1261,8 +1266,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 1,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump google.golang.org/grpc from 1.72.2 to 1.73.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/210"
+          },
+          {
+            "Title": "build(deps): bump github.com/XSAM/otelsql from 0.38.0 to 0.39.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/209"
+          },
           {
             "Title": "Dummy change",
             "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/208"
@@ -1382,8 +1395,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump google.golang.org/grpc from 1.72.2 to 1.73.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/247"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
@@ -1463,8 +1481,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump google.golang.org/grpc from 1.72.2 to 1.73.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/241"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
@@ -2142,8 +2165,17 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump hashicorp/azurerm from 4.31.0 to 4.32.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/966"
+          },
+          {
+            "Title": "Bump hashicorp/azurerm from 4.31.0 to 4.32.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/965"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -2763,8 +2795,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump google.golang.org/grpc from 1.72.2 to 1.73.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-mainproject/pull/118"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-mainproject",
       "Commits": {
@@ -3155,5 +3192,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-06-05T07:34:32Z"
+  "LastUpdated": "2025-06-06T07:34:15Z"
 }
