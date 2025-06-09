@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-06-08T07:32:54Z
+Component Status overview. Last update 2025-06-09T07:35:33Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -23,7 +23,7 @@ Component Status overview. Last update 2025-06-08T07:32:54Z
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [15](https://github.com/prodyna-yasm/yasm-test/compare/v1.51.6..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.51.6 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [18](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.7.2..HEAD) | :green_square: 0 | 1.7.2 |  :red_square: 3a10349 |  :green_square: 1.7.2 |  :green_square: 1.7.2 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [1](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :red_square: f3c0835 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
-| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :green_square: 0 | :yellow_square: [8](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 1.1.1 |  :green_square: 1.1.1 |  :green_square: 1.1.1 |  :green_square: 1.1.1 | 
+| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :green_square: 0 | :yellow_square: [9](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 1.1.1 |  :green_square: 1.1.1 |  :green_square: 1.1.1 |  :green_square: 1.1.1 | 
 
 
 
@@ -1094,19 +1094,21 @@ Component Status overview. Last update 2025-06-08T07:32:54Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (8)
+### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (9)
+
+- [Bump @angular/platform-browser from 19.2.9 to 20.0.2 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/136)
+
+- [Bump @angular/forms from 19.2.9 to 20.0.2 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/135)
+
+- [Bump @angular/compiler-cli from 19.2.9 to 20.0.2 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/134)
+
+- [Bump @angular/cli from 19.2.10 to 20.0.1 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/133)
+
+- [Bump gorm.io/driver/mysql from 1.5.7 to 1.6.0 in /backend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/132)
 
 - [Bump the npm_and_yarn group in /frontend with 2 updates](https://github.com/PRODYNA-YASM/fox-and-hound/pull/131)
 
-- [Bump @angular/forms from 19.2.9 to 20.0.0 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/120)
-
-- [Bump @angular/compiler-cli from 19.2.9 to 20.0.0 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/119)
-
 - [Bump @azure/msal-browser from 4.11.1 to 4.13.0 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/118)
-
-- [Bump @angular/cli from 19.2.10 to 20.0.0 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/117)
-
-- [Bump @angular/platform-browser from 19.2.9 to 20.0.0 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/116)
 
 - [Bump github.com/gin-gonic/gin from 1.10.0 to 1.10.1 in /backend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/107)
 

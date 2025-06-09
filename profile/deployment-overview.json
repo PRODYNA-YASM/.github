@@ -3189,31 +3189,35 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 8,
+        "Count": 9,
         "PullRequests": [
+          {
+            "Title": "Bump @angular/platform-browser from 19.2.9 to 20.0.2 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/136"
+          },
+          {
+            "Title": "Bump @angular/forms from 19.2.9 to 20.0.2 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/135"
+          },
+          {
+            "Title": "Bump @angular/compiler-cli from 19.2.9 to 20.0.2 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/134"
+          },
+          {
+            "Title": "Bump @angular/cli from 19.2.10 to 20.0.1 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/133"
+          },
+          {
+            "Title": "Bump gorm.io/driver/mysql from 1.5.7 to 1.6.0 in /backend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/132"
+          },
           {
             "Title": "Bump the npm_and_yarn group in /frontend with 2 updates",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/131"
           },
           {
-            "Title": "Bump @angular/forms from 19.2.9 to 20.0.0 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/120"
-          },
-          {
-            "Title": "Bump @angular/compiler-cli from 19.2.9 to 20.0.0 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/119"
-          },
-          {
             "Title": "Bump @azure/msal-browser from 4.11.1 to 4.13.0 in /frontend",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/118"
-          },
-          {
-            "Title": "Bump @angular/cli from 19.2.10 to 20.0.0 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/117"
-          },
-          {
-            "Title": "Bump @angular/platform-browser from 19.2.9 to 20.0.0 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/116"
           },
           {
             "Title": "Bump github.com/gin-gonic/gin from 1.10.0 to 1.10.1 in /backend",
@@ -3254,5 +3258,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-06-08T07:32:54Z"
+  "LastUpdated": "2025-06-09T07:35:33Z"
 }
