@@ -1,12 +1,12 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-06-10T07:34:57Z
+Component Status overview. Last update 2025-06-11T07:34:33Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [8](https://github.com/prodyna-yasm/yasm-backend/compare/1.72.0..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.72.0 |  :red_square: 512bad1 |  :green_square: 1.72.0 |  :green_square: 1.72.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [13](https://github.com/prodyna-yasm/yasm-frontend/compare/1.72.3..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.72.3 |  :red_square: af02f8f |  :green_square: 1.72.3 |  :green_square: 1.72.3 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [30](https://github.com/prodyna-yasm/yasm-integration/compare/1.72.0..HEAD) | :green_square: 0 | 1.72.0 |  :red_square: 196d26f | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [30](https://github.com/prodyna-yasm/yasm-integration/compare/1.72.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.72.0 |  :red_square: 6636925 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [16](https://github.com/prodyna-yasm/yasmctl/compare/1.72.0..HEAD) | :green_square: 0 | 1.72.0 |  :red_square: eb8db1b |  :green_square: 1.72.0 |  :green_square: 1.72.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [12](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.22.1..HEAD) | :green_square: 0 | 1.22.1 |  :red_square: 572921e |  :green_square: 1.22.1 |  :green_square: 1.22.1 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [10](https://github.com/prodyna-yasm/yasm-metrics/compare/1.72.5..HEAD) | :green_square: 0 | 1.72.5 |  :red_square: cdddcf6 |  :green_square: 1.72.5 |  :green_square: 1.72.5 | 
@@ -180,6 +180,10 @@ Component Status overview. Last update 2025-06-10T07:34:57Z
 
 ### [Commits on main since 1.72.0](https://github.com/prodyna-yasm/yasm-integration/compare/1.72.0..HEAD) (30)
 
+- [Merge pull request #690 from PRODYNA-YASM/dependabot/go_modules/github.com/Azure/azure-sdk-for-go/sdk/azidentity-1.10.1](https://github.com/prodyna-yasm/yasm-integration/commit/6636925f29922478e45faca62a297c21b793b3da) by [dkrizic](https://github.com/dkrizic) on 2025-06-11 05:39:58 +0000 UTC
+
+- [Bump github.com/Azure/azure-sdk-for-go/sdk/azidentity](https://github.com/prodyna-yasm/yasm-integration/commit/8e38b11a7d426172201e0b9c9fdb2c8eac7255d7) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-06-11 01:36:42 +0000 UTC
+
 - [Merge pull request #688 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.73.0](https://github.com/prodyna-yasm/yasm-integration/commit/196d26f7926f1019e4fa5a875730d48addca012e) by [dkrizic](https://github.com/dkrizic) on 2025-06-06 11:06:45 +0000 UTC
 
 - [Bump google.golang.org/grpc from 1.72.2 to 1.73.0](https://github.com/prodyna-yasm/yasm-integration/commit/f97f9b8195b95c13326110c1c9f7271c7d374a75) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-06-06 01:09:51 +0000 UTC
@@ -236,11 +240,12 @@ Component Status overview. Last update 2025-06-10T07:34:57Z
 
 - [Merge pull request #675 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.72.1](https://github.com/prodyna-yasm/yasm-integration/commit/6c4a87356d20e153524ea704f4d8f18f41622993) by [dkrizic](https://github.com/dkrizic) on 2025-05-15 07:16:26 +0000 UTC
 
-- [Bump google.golang.org/grpc from 1.72.0 to 1.72.1](https://github.com/prodyna-yasm/yasm-integration/commit/ddcd90477f3333e9e3460875270814e677036f8d) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-05-15 01:18:18 +0000 UTC
-
-- [Bump github.com/Azure/azure-sdk-for-go/sdk/azidentity](https://github.com/prodyna-yasm/yasm-integration/commit/cf46c32db933df715497f4dc527574664bb7d099) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-05-15 01:18:10 +0000 UTC
 
 
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (1)
+
+- [Bump github.com/microsoftgraph/msgraph-sdk-go from 1.73.0 to 1.74.0](https://github.com/PRODYNA-YASM/yasm-integration/pull/689)
 
 
 
@@ -248,7 +253,7 @@ Component Status overview. Last update 2025-06-10T07:34:57Z
 
 | Environment |  dev | 
 | --- |  --- | 
-| Version |  196d26f | 
+| Version |  6636925 | 
 | Release |  :red_square: | 
 | Current |  :red_square: | 
 
@@ -945,9 +950,9 @@ Component Status overview. Last update 2025-06-10T07:34:57Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (7)
 
-- [chore(deps): Bump openid-client from 6.1.3 to 6.5.1](https://github.com/PRODYNA-YASM/yasm-test/pull/306)
+- [chore(deps-dev): Bump @types/node from 22.15.3 to 24.0.0](https://github.com/PRODYNA-YASM/yasm-test/pull/307)
 
-- [chore(deps-dev): Bump @types/node from 22.15.3 to 22.15.30](https://github.com/PRODYNA-YASM/yasm-test/pull/305)
+- [chore(deps): Bump openid-client from 6.1.3 to 6.5.1](https://github.com/PRODYNA-YASM/yasm-test/pull/306)
 
 - [chore(deps-dev): Bump cypress from 14.3.2 to 14.4.1](https://github.com/PRODYNA-YASM/yasm-test/pull/304)
 

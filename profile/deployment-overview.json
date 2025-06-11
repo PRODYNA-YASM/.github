@@ -436,7 +436,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "196d26f",
+          "Version": "6636925",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -473,14 +473,39 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.73.0 to 1.74.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/689"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.72.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #690 from PRODYNA-YASM/dependabot/go_modules/github.com/Azure/azure-sdk-for-go/sdk/azidentity-1.10.1",
+            "SHA": "6636925f29922478e45faca62a297c21b793b3da",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-11T05:39:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/6636925f29922478e45faca62a297c21b793b3da"
+          },
+          {
+            "Text": "Bump github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+            "SHA": "8e38b11a7d426172201e0b9c9fdb2c8eac7255d7",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-06-11T01:36:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/8e38b11a7d426172201e0b9c9fdb2c8eac7255d7"
+          },
           {
             "Text": "Merge pull request #688 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.73.0",
             "SHA": "196d26f7926f1019e4fa5a875730d48addca012e",
@@ -760,26 +785,6 @@
             },
             "Timestamp": "2025-05-15T07:16:26Z",
             "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/6c4a87356d20e153524ea704f4d8f18f41622993"
-          },
-          {
-            "Text": "Bump google.golang.org/grpc from 1.72.0 to 1.72.1",
-            "SHA": "ddcd90477f3333e9e3460875270814e677036f8d",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-05-15T01:18:18Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/ddcd90477f3333e9e3460875270814e677036f8d"
-          },
-          {
-            "Text": "Bump github.com/Azure/azure-sdk-for-go/sdk/azidentity",
-            "SHA": "cf46c32db933df715497f4dc527574664bb7d099",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-05-15T01:18:10Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/cf46c32db933df715497f4dc527574664bb7d099"
           }
         ]
       },
@@ -2653,12 +2658,12 @@
         "Count": 7,
         "PullRequests": [
           {
-            "Title": "chore(deps): Bump openid-client from 6.1.3 to 6.5.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/306"
+            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 24.0.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/307"
           },
           {
-            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 22.15.30",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/305"
+            "Title": "chore(deps): Bump openid-client from 6.1.3 to 6.5.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/306"
           },
           {
             "Title": "chore(deps-dev): Bump cypress from 14.3.2 to 14.4.1",
@@ -3325,5 +3330,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-06-10T07:34:57Z"
+  "LastUpdated": "2025-06-11T07:34:33Z"
 }
