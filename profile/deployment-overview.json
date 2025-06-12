@@ -2231,9 +2231,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.73.10",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "bef0524",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -2275,23 +2275,165 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 2,
-        "PullRequests": [
-          {
-            "Title": "Bump hashicorp/azurerm from 4.31.0 to 4.32.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/966"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 4.31.0 to 4.32.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/965"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.10..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 15,
+        "Commits": [
+          {
+            "Text": "Merge pull request #971 from PRODYNA-YASM/feature/kubernetes-1.32.4",
+            "SHA": "2db37e703bd60d27fe2ed8fd90aef9af5ccdf5cb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-12T07:20:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/2db37e703bd60d27fe2ed8fd90aef9af5ccdf5cb"
+          },
+          {
+            "Text": "Kubernetes 1.32.4",
+            "SHA": "38cd9a2c210d0d7458ca72cd27ed8f1a1e292cbb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-12T07:15:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/38cd9a2c210d0d7458ca72cd27ed8f1a1e292cbb"
+          },
+          {
+            "Text": "Merge pull request #970 from PRODYNA-YASM/feature/tempo-querier-port-3200",
+            "SHA": "bef0524db31c67b06998193d8dd1615d39ca7a40",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-12T07:13:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/bef0524db31c67b06998193d8dd1615d39ca7a40"
+          },
+          {
+            "Text": "Put Tempo on query port 3200",
+            "SHA": "f2e4d3d90febb6cf80cd797c87f8bc35edfa2682",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-12T07:09:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f2e4d3d90febb6cf80cd797c87f8bc35edfa2682"
+          },
+          {
+            "Text": "Reinstall otel collectors",
+            "SHA": "bf647af374a2d7f79d1061889972d3b71dd83911",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-11T23:01:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/bf647af374a2d7f79d1061889972d3b71dd83911"
+          },
+          {
+            "Text": "Remove otel collector for now",
+            "SHA": "37c119eb8e2fcd6531b4147dab527570dd4a1b24",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-11T22:55:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/37c119eb8e2fcd6531b4147dab527570dd4a1b24"
+          },
+          {
+            "Text": "Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-staged",
+            "SHA": "50df0e41ed0526684892d62003f472254adf11b6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-11T22:46:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/50df0e41ed0526684892d62003f472254adf11b6"
+          },
+          {
+            "Text": "Dummy change",
+            "SHA": "ad3f11b158cd9a8365f5af13af8f227f5244794e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-11T22:46:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ad3f11b158cd9a8365f5af13af8f227f5244794e"
+          },
+          {
+            "Text": "Merge pull request #969 from PRODYNA-YASM/feature/component-updates",
+            "SHA": "8c100a92ff831ded30afd0e001afc1c3f63b5a20",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-11T22:22:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/8c100a92ff831ded30afd0e001afc1c3f63b5a20"
+          },
+          {
+            "Text": "Azure 4.32.0",
+            "SHA": "f4d64fb5fa124d0f4d9acbaf8d6cde53fcd09746",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-11T22:14:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f4d64fb5fa124d0f4d9acbaf8d6cde53fcd09746"
+          },
+          {
+            "Text": "Tempo 1.42.0",
+            "SHA": "536a902b48808a0d0cdd965062befd86355aa780",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-11T22:13:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/536a902b48808a0d0cdd965062befd86355aa780"
+          },
+          {
+            "Text": "Neo4j 2025.05.0",
+            "SHA": "9548d141d78ded8a86fc230badf93a1499ce444d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-11T22:13:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/9548d141d78ded8a86fc230badf93a1499ce444d"
+          },
+          {
+            "Text": "Otel Operator 0.90.3",
+            "SHA": "7554db82152b4c177a74d1a2288ec36d6fed3b59",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-11T22:11:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/7554db82152b4c177a74d1a2288ec36d6fed3b59"
+          },
+          {
+            "Text": "Cert-Manager 1.18.0",
+            "SHA": "83f1614a017bbdda5bc7ce77b0933ff7f043fb33",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-11T22:11:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/83f1614a017bbdda5bc7ce77b0933ff7f043fb33"
+          },
+          {
+            "Text": "Traefik 36.1.00",
+            "SHA": "20c35b26800cec75970f15ecc77ea1bab96cdde1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-11T22:10:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/20c35b26800cec75970f15ecc77ea1bab96cdde1"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2655,8 +2797,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 7,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "chore(deps): Bump brace-expansion from 2.0.1 to 2.0.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/308"
+          },
           {
             "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 24.0.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/307"
@@ -3330,5 +3476,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-06-11T07:34:33Z"
+  "LastUpdated": "2025-06-12T07:34:43Z"
 }
