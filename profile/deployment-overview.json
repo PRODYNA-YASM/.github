@@ -1508,9 +1508,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.73.11",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "4d664ca",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1559,14 +1559,100 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump hashicorp/azurerm from 4.32.0 to 4.33.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/973"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.11..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 8,
+        "Commits": [
+          {
+            "Text": "6.29.0",
+            "SHA": "4d664ca3d90bbfec9c95b83a915f10c02b989f61",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-13T07:23:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/4d664ca3d90bbfec9c95b83a915f10c02b989f61"
+          },
+          {
+            "Text": "Merge pull request #975 from PRODYNA-YASM/feature/downgrade-loki-6.29.1",
+            "SHA": "7f9734add33e2979d627721ca80ebeacde2a4096",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-13T07:18:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/7f9734add33e2979d627721ca80ebeacde2a4096"
+          },
+          {
+            "Text": "Downgrade loki to 6.29.1",
+            "SHA": "e3bdb389227f3142d53499a7842fa9f1c5f9995e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-13T07:09:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e3bdb389227f3142d53499a7842fa9f1c5f9995e"
+          },
+          {
+            "Text": "Merge pull request #974 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/hashicorp/azurerm-4.33.0",
+            "SHA": "265239c08cb01c1085c36968cac1a72f9bd470b5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-13T05:54:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/265239c08cb01c1085c36968cac1a72f9bd470b5"
+          },
+          {
+            "Text": "Bump hashicorp/azurerm from 4.32.0 to 4.33.0 in /terraform/kubernetes",
+            "SHA": "a94a481f7ead926230a243aedfb7e492da0f45ec",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-06-13T05:42:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a94a481f7ead926230a243aedfb7e492da0f45ec"
+          },
+          {
+            "Text": "Add pvc to ingester",
+            "SHA": "26bbba05944559622a889c4e15dad4616ac601d9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-12T19:52:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/26bbba05944559622a889c4e15dad4616ac601d9"
+          },
+          {
+            "Text": "Merge pull request #972 from PRODYNA-YASM/feature/pattern-ingester",
+            "SHA": "de68001193534842e080f8921b862ca4e8dc9326",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-12T18:45:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/de68001193534842e080f8921b862ca4e8dc9326"
+          },
+          {
+            "Text": "Activate pattern ingester",
+            "SHA": "4cb3e8cc5feacc5dcccb04a3e73cc50eec1ba677",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-12T16:06:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/4cb3e8cc5feacc5dcccb04a3e73cc50eec1ba677"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2609,5 +2695,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-06-12T13:28:36Z"
+  "LastUpdated": "2025-06-13T07:34:36Z"
 }

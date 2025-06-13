@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-06-12T13:28:36Z
+Component Status overview. Last update 2025-06-13T07:34:36Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -15,7 +15,7 @@ Component Status overview. Last update 2025-06-12T13:28:36Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.1.11 |  :green_square: 1.1.11 |  :green_square: 1.1.11 |  :red_square: 1.1.10 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.21.0-0 |  :green_square: 8.21.0-0 |  :green_square: 8.21.0-0 |  :green_square: 8.21.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.73.11 |  :green_square: 1.73.11 |  :green_square: 1.73.11 |  :green_square: 1.73.11 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [8](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.11..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.73.11 |  :red_square: 4d664ca |  :green_square: 1.73.11 |  :green_square: 1.73.11 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.73.1 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :red_square: [3](https://github.com/prodyna-yasm/yasm/compare/1.72.0..HEAD) | :green_square: 0 | 1.72.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.73.0 | 
@@ -564,6 +564,30 @@ Component Status overview. Last update 2025-06-12T13:28:36Z
 
 
 
+### [Commits on main since 1.73.11](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.11..HEAD) (8)
+
+- [6.29.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/4d664ca3d90bbfec9c95b83a915f10c02b989f61) by [dkrizic](https://github.com/dkrizic) on 2025-06-13 07:23:32 +0000 UTC
+
+- [Merge pull request #975 from PRODYNA-YASM/feature/downgrade-loki-6.29.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/7f9734add33e2979d627721ca80ebeacde2a4096) by [dkrizic](https://github.com/dkrizic) on 2025-06-13 07:18:33 +0000 UTC
+
+- [Downgrade loki to 6.29.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e3bdb389227f3142d53499a7842fa9f1c5f9995e) by [dkrizic](https://github.com/dkrizic) on 2025-06-13 07:09:29 +0000 UTC
+
+- [Merge pull request #974 from PRODYNA-YASM/dependabot/terraform/terraform/kubernetes/hashicorp/azurerm-4.33.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/265239c08cb01c1085c36968cac1a72f9bd470b5) by [dkrizic](https://github.com/dkrizic) on 2025-06-13 05:54:18 +0000 UTC
+
+- [Bump hashicorp/azurerm from 4.32.0 to 4.33.0 in /terraform/kubernetes](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a94a481f7ead926230a243aedfb7e492da0f45ec) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-06-13 05:42:01 +0000 UTC
+
+- [Add pvc to ingester](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/26bbba05944559622a889c4e15dad4616ac601d9) by [dkrizic](https://github.com/dkrizic) on 2025-06-12 19:52:11 +0000 UTC
+
+- [Merge pull request #972 from PRODYNA-YASM/feature/pattern-ingester](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/de68001193534842e080f8921b862ca4e8dc9326) by [dkrizic](https://github.com/dkrizic) on 2025-06-12 18:45:18 +0000 UTC
+
+- [Activate pattern ingester](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/4cb3e8cc5feacc5dcccb04a3e73cc50eec1ba677) by [dkrizic](https://github.com/dkrizic) on 2025-06-12 16:06:36 +0000 UTC
+
+
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (1)
+
+- [Bump hashicorp/azurerm from 4.32.0 to 4.33.0 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/973)
 
 
 
@@ -571,9 +595,9 @@ Component Status overview. Last update 2025-06-12T13:28:36Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.73.11 |  1.73.11 |  1.73.11 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  4d664ca |  1.73.11 |  1.73.11 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
