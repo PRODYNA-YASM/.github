@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-06-14T07:33:05Z
+Component Status overview. Last update 2025-06-15T07:33:17Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -15,7 +15,7 @@ Component Status overview. Last update 2025-06-14T07:33:05Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.1.11 |  :green_square: 1.1.11 |  :green_square: 1.1.11 |  :red_square: 1.1.10 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.21.0-0 |  :green_square: 8.21.0-0 |  :green_square: 8.21.0-0 |  :green_square: 8.21.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [23](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.11..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.73.11 |  :red_square: 9e6c0eb | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [30](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.11..HEAD) | :green_square: 0 | 1.73.11 |  :red_square: a263dcd | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.73.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.73.1 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :red_square: [3](https://github.com/prodyna-yasm/yasm/compare/1.72.0..HEAD) | :green_square: 0 | 1.72.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.73.0 | 
@@ -504,7 +504,21 @@ Component Status overview. Last update 2025-06-14T07:33:05Z
 
 
 
-### [Commits on main since 1.73.11](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.11..HEAD) (23)
+### [Commits on main since 1.73.11](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.11..HEAD) (30)
+
+- [Without structured](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a263dcd56c79e208ff38d11a429a4ed9f8bc318c) by [dkrizic](https://github.com/dkrizic) on 2025-06-15 00:25:13 +0000 UTC
+
+- [Update config for ring](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/69f5d5151aeda315ee5057645b02bb32dfc3da74) by [dkrizic](https://github.com/dkrizic) on 2025-06-14 23:58:56 +0000 UTC
+
+- [Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/360f085855fe0ce174015bb8c00a143f93ca5317) by [dkrizic](https://github.com/dkrizic) on 2025-06-14 23:53:24 +0000 UTC
+
+- [Ok, try this config](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ac4a6033cf8192f703555527932a4bdaf3cdbf55) by [dkrizic](https://github.com/dkrizic) on 2025-06-14 23:53:12 +0000 UTC
+
+- [Merge pull request #977 from PRODYNA-YASM/feature/component-updates](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/301ad8c30b04213c4bf697168b122454b1e65d20) by [dkrizic](https://github.com/dkrizic) on 2025-06-14 19:49:55 +0000 UTC
+
+- [Merge pull request #973 from PRODYNA-YASM/dependabot/terraform/terraform/azure/hashicorp/azurerm-4.33.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/df4deeb495310fb54701131a88ff5a0be4766314) by [dkrizic](https://github.com/dkrizic) on 2025-06-14 19:42:43 +0000 UTC
+
+- [Update Mimir and kube-state-metrics](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/38db3b98b6a8fd28ad589b921541b818e0d6748b) by [dkrizic](https://github.com/dkrizic) on 2025-06-14 16:02:36 +0000 UTC
 
 - [Merge pull request #976 from PRODYNA-YASM/grafana-9.2.3](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/9e6c0eba9f319c3aecf6758b77ef7156765485f0) by [dkrizic](https://github.com/dkrizic) on 2025-06-14 00:08:40 +0000 UTC
 
@@ -546,18 +560,13 @@ Component Status overview. Last update 2025-06-14T07:33:05Z
 
 - [Bump hashicorp/azurerm from 4.32.0 to 4.33.0 in /terraform/kubernetes](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a94a481f7ead926230a243aedfb7e492da0f45ec) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-06-13 05:42:01 +0000 UTC
 
+- [Bump hashicorp/azurerm from 4.32.0 to 4.33.0 in /terraform/azure](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0cd859e2164dd4d70f824792bccbf982dda2a5ad) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-06-13 05:37:16 +0000 UTC
+
 - [Add pvc to ingester](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/26bbba05944559622a889c4e15dad4616ac601d9) by [dkrizic](https://github.com/dkrizic) on 2025-06-12 19:52:11 +0000 UTC
 
 - [Merge pull request #972 from PRODYNA-YASM/feature/pattern-ingester](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/de68001193534842e080f8921b862ca4e8dc9326) by [dkrizic](https://github.com/dkrizic) on 2025-06-12 18:45:18 +0000 UTC
 
-- [Activate pattern ingester](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/4cb3e8cc5feacc5dcccb04a3e73cc50eec1ba677) by [dkrizic](https://github.com/dkrizic) on 2025-06-12 16:06:36 +0000 UTC
 
-
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (1)
-
-- [Bump hashicorp/azurerm from 4.32.0 to 4.33.0 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/973)
 
 
 
@@ -565,7 +574,7 @@ Component Status overview. Last update 2025-06-14T07:33:05Z
 
 | Environment |  dev | 
 | --- |  --- | 
-| Version |  9e6c0eb | 
+| Version |  a263dcd | 
 | Release |  :red_square: | 
 | Current |  :red_square: | 
 
