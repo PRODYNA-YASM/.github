@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-06-17T07:36:00Z
+Component Status overview. Last update 2025-06-18T07:35:19Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -15,7 +15,7 @@ Component Status overview. Last update 2025-06-17T07:36:00Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.1.11 |  :green_square: 1.1.11 |  :green_square: 1.1.11 |  :green_square: 1.1.11 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [4](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.21.0-0..HEAD) | :green_square: 0 | 8.21.0-0 |  :red_square: 83e1569 |  :green_square: 8.21.0-0 |  :green_square: 8.21.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [30](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.11..HEAD) | :green_square: 0 | 1.73.11 |  :red_square: 77fc101 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.12..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.73.12 |  :red_square: 61a52a3 |  :green_square: 1.73.12 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.73.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.73.1 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :red_square: [3](https://github.com/prodyna-yasm/yasm/compare/1.72.0..HEAD) | :green_square: 0 | 1.72.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.73.0 | 
@@ -511,98 +511,49 @@ Component Status overview. Last update 2025-06-17T07:36:00Z
 
 
 
-## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 1.73.11
+## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 1.73.12
 
 
 
 
-### [Commits on main since 1.73.11](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.11..HEAD) (30)
+### [Commits on main since 1.73.12](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.12..HEAD) (2)
 
-- [Merge pull request #982 from PRODYNA-YASM/feature/grafana-9.2.4](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/77fc1015c1c77eedf7eda7c1d9489cfdfe31f23f) by [dkrizic](https://github.com/dkrizic) on 2025-06-17 07:28:46 +0000 UTC
+- [Merge pull request #984 from PRODYNA-YASM/feature/grafana-9.2.6](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/61a52a3f20b017256c9666d26258bd33f7799741) by [dkrizic](https://github.com/dkrizic) on 2025-06-17 21:14:31 +0000 UTC
 
-- [Fix Loki -> Jaeger ports](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/764a261a09d30c1eedf972914f451895e00850c7) by [dkrizic](https://github.com/dkrizic) on 2025-06-17 00:32:36 +0000 UTC
-
-- [Enable collector again](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/74d34a0e7e9bf7fb388b7881835f09547559799c) by [dkrizic](https://github.com/dkrizic) on 2025-06-17 00:24:49 +0000 UTC
-
-- [Remove Otel Collector temporarily](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/2261caa16361d9f177598f31a5f4ee9d451afc95) by [dkrizic](https://github.com/dkrizic) on 2025-06-17 00:20:27 +0000 UTC
-
-- [Ok, use another port](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d372b15118c63deea08861000a61376776a032ec) by [dkrizic](https://github.com/dkrizic) on 2025-06-16 23:55:16 +0000 UTC
-
-- [Use dedicated port for jaeger](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/dc4dd8835c70ea053aa152cfedfd65299b2b1d1b) by [dkrizic](https://github.com/dkrizic) on 2025-06-16 23:48:16 +0000 UTC
-
-- [Merge pull request #983 from PRODYNA-YASM/feature/enable-tracing-for-loki](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/fe7dd0d48c7f9a23a1e28d1f71278cabaecde6d2) by [dkrizic](https://github.com/dkrizic) on 2025-06-16 23:37:46 +0000 UTC
-
-- [Set replica for pattern ingester](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/40cf5a49a4669510a518953a4f288f1f3c8b52b8) by [dkrizic](https://github.com/dkrizic) on 2025-06-16 23:32:07 +0000 UTC
-
-- [Enable tracing in Loki](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a71241f98a0da60f9ae1069e29d8af10c4f5a8dc) by [dkrizic](https://github.com/dkrizic) on 2025-06-16 23:28:26 +0000 UTC
-
-- [Grafana 9.2.4](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/09d0fcf1905807c3ee5aac8ef9084fb79b5aceb0) by [dkrizic](https://github.com/dkrizic) on 2025-06-16 23:14:58 +0000 UTC
-
-- [Ok, back to old version](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/442bfca9b03bc220af8d7aa9e77a2b278f0916f3) by [dkrizic](https://github.com/dkrizic) on 2025-06-16 18:30:26 +0000 UTC
-
-- [No json logging for mimir](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ece89b28fcc7e3def87a78d74f45bba704554beb) by [dkrizic](https://github.com/dkrizic) on 2025-06-16 18:19:22 +0000 UTC
-
-- [Merge pull request #981 from PRODYNA-YASM/feature/tempo-json-logging](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1e20e6b661e2116b10e603d3213098461b465209) by [dkrizic](https://github.com/dkrizic) on 2025-06-16 18:03:01 +0000 UTC
-
-- [Fix logging](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/712f5254c5b6f70e6fef318985c067922d0e7e94) by [dkrizic](https://github.com/dkrizic) on 2025-06-16 17:54:44 +0000 UTC
-
-- [Merge pull request #980 from PRODYNA-YASM/feature/tempo-json-logging](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3a96a27e318a0d365adfc985c27fd6e6c7b5fcb0) by [dkrizic](https://github.com/dkrizic) on 2025-06-16 12:09:56 +0000 UTC
-
-- [Merge branch 'main' into feature/tempo-json-logging](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/87b6cebb797c71c93d98554987913e4268fd11b4) by [dkrizic](https://github.com/dkrizic) on 2025-06-16 12:04:16 +0000 UTC
-
-- [Merge pull request #979 from PRODYNA-YASM/feature/mimir-json-logging](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/eefde289b2beb03d1841780434d8c6df69c8024a) by [dkrizic](https://github.com/dkrizic) on 2025-06-16 11:56:37 +0000 UTC
-
-- [Merge branch 'main' into feature/mimir-json-logging](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/deed178c05ebe047e26e3fe7dfc8e392db2cbe6b) by [dkrizic](https://github.com/dkrizic) on 2025-06-16 11:49:25 +0000 UTC
-
-- [Merge pull request #978 from PRODYNA-YASM/feature/loki-json-logging](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3285ad34ce378321a264e025da5111c3f4d3a1a9) by [dkrizic](https://github.com/dkrizic) on 2025-06-16 00:20:59 +0000 UTC
-
-- [Json logging for Mimi](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/bd9b71378a7706131e5dc01fe640053001c39c4e) by [dkrizic](https://github.com/dkrizic) on 2025-06-16 00:12:40 +0000 UTC
-
-- [Log in JSON (Tempo)](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/849ab13384df44afadaed314dcb9c696cc80fcdc) by [dkrizic](https://github.com/dkrizic) on 2025-06-16 00:10:10 +0000 UTC
-
-- [Let Loki using JSON logging](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/530d911bff60fb9f0237e3845dd2e65ec51c17bf) by [dkrizic](https://github.com/dkrizic) on 2025-06-16 00:07:41 +0000 UTC
-
-- [More memory for ingester and querier](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/8c9305a291abbf9cc829a4b0b9a3c3f1284bc651) by [dkrizic](https://github.com/dkrizic) on 2025-06-15 10:38:28 +0000 UTC
-
-- [Without structured](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a263dcd56c79e208ff38d11a429a4ed9f8bc318c) by [dkrizic](https://github.com/dkrizic) on 2025-06-15 00:25:13 +0000 UTC
-
-- [Update config for ring](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/69f5d5151aeda315ee5057645b02bb32dfc3da74) by [dkrizic](https://github.com/dkrizic) on 2025-06-14 23:58:56 +0000 UTC
-
-- [Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/360f085855fe0ce174015bb8c00a143f93ca5317) by [dkrizic](https://github.com/dkrizic) on 2025-06-14 23:53:24 +0000 UTC
-
-- [Ok, try this config](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ac4a6033cf8192f703555527932a4bdaf3cdbf55) by [dkrizic](https://github.com/dkrizic) on 2025-06-14 23:53:12 +0000 UTC
-
-- [Merge pull request #977 from PRODYNA-YASM/feature/component-updates](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/301ad8c30b04213c4bf697168b122454b1e65d20) by [dkrizic](https://github.com/dkrizic) on 2025-06-14 19:49:55 +0000 UTC
-
-- [Merge pull request #973 from PRODYNA-YASM/dependabot/terraform/terraform/azure/hashicorp/azurerm-4.33.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/df4deeb495310fb54701131a88ff5a0be4766314) by [dkrizic](https://github.com/dkrizic) on 2025-06-14 19:42:43 +0000 UTC
-
-- [Update Mimir and kube-state-metrics](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/38db3b98b6a8fd28ad589b921541b818e0d6748b) by [dkrizic](https://github.com/dkrizic) on 2025-06-14 16:02:36 +0000 UTC
+- [Grafana 9.2.6](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6aa0b9bd44b69fcba8a6002086acc0a8dc815772) by [dkrizic](https://github.com/dkrizic) on 2025-06-17 21:09:25 +0000 UTC
 
 
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (1)
+
+- [Bump DataDog/datadog from 3.65.0 to 3.66.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/985)
 
 
 
 ### Environments
 
-| Environment |  dev | 
-| --- |  --- | 
-| Version |  77fc101 | 
-| Release |  :red_square: | 
-| Current |  :red_square: | 
+| Environment |  dev |  staging | 
+| --- |  --- |  --- | 
+| Version |  61a52a3 |  1.73.12 | 
+| Release |  :red_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: | 
 
 
 ### Last releases
+
+- [Pattern ingester, komponent updates](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.12) on 2025-06-17 07:28:46 +0000 UTC
 
 - [Kubernetes 1.32.4, Tempo config fix, all charts up-to-date](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.11) on 2025-06-12 07:20:56 +0000 UTC
 
 - [New fancy version of Kube-system-metrics](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.10) on 2025-06-06 12:44:34 +0000 UTC
 
-- [Update to Traefik, Tempo, OTel Operator](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.9) on 2025-06-03 13:19:56 +0000 UTC
 
 
 
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting) (5)
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting) (4)
+- [Merge pull request #982 from PRODYNA-YASM/feature/grafana-9.2.4](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/15701394274) created on 2025-06-17 07:51:49 +0000 UTC
 
 - [Merge pull request #968 from PRODYNA-YASM/967-update-kube-syste-metri…](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/15491031064) created on 2025-06-06 12:54:32 +0000 UTC
 
