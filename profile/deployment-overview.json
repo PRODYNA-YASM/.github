@@ -493,8 +493,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.74.0 to 1.75.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/692"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -1319,26 +1324,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "61a52a3",
+          "Version": "ffec1c3",
           "IsRelease": false,
           "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.73.12",
+          "Version": "1.73.13",
+          "IsRelease": true,
+          "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.73.13",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.73.12",
+        "Tag": "1.73.13",
         "SHA": "",
-        "Title": "Pattern ingester, komponent updates",
-        "Timestamp": "2025-06-17T07:51:47Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.12"
+        "Title": "Grafana 9.26, Tempo 1.42.2",
+        "Timestamp": "2025-06-18T07:59:01Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.13"
       },
       "Releases": [
+        {
+          "Tag": "1.73.13",
+          "SHA": "",
+          "Title": "Grafana 9.26, Tempo 1.42.2",
+          "Timestamp": "2025-06-18T07:53:57Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.13"
+        },
         {
           "Tag": "1.73.12",
           "SHA": "",
@@ -1352,13 +1371,6 @@
           "Title": "Kubernetes 1.32.4, Tempo config fix, all charts up-to-date",
           "Timestamp": "2025-06-12T07:20:56Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.11"
-        },
-        {
-          "Tag": "1.73.10",
-          "SHA": "",
-          "Title": "New fancy version of Kube-system-metrics",
-          "Timestamp": "2025-06-06T12:44:34Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.10"
         }
       ],
       "PullRequests": {
@@ -1366,35 +1378,35 @@
         "Count": 1,
         "PullRequests": [
           {
-            "Title": "Bump DataDog/datadog from 3.65.0 to 3.66.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/985"
+            "Title": "Bump hashicorp/helm from 2.17.0 to 3.0.1 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/988"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.12..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.13..HEAD",
         "Count": 2,
         "Commits": [
           {
-            "Text": "Merge pull request #984 from PRODYNA-YASM/feature/grafana-9.2.6",
-            "SHA": "61a52a3f20b017256c9666d26258bd33f7799741",
+            "Text": "Merge pull request #987 from PRODYNA-YASM/feature/cert-manager-1.18.1",
+            "SHA": "ffec1c35260077a43fd465c6b823111c4584518a",
             "Author": {
               "name": "dkrizic",
               "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2025-06-17T21:14:31Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/61a52a3f20b017256c9666d26258bd33f7799741"
+            "Timestamp": "2025-06-18T15:09:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ffec1c35260077a43fd465c6b823111c4584518a"
           },
           {
-            "Text": "Grafana 9.2.6",
-            "SHA": "6aa0b9bd44b69fcba8a6002086acc0a8dc815772",
+            "Text": "Cert-Manager 1.18.1",
+            "SHA": "a931ef4b445156383d8560c28afe1aa8bf60377c",
             "Author": {
               "name": "dkrizic",
               "link": "https://github.com/dkrizic"
             },
-            "Timestamp": "2025-06-17T21:09:25Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6aa0b9bd44b69fcba8a6002086acc0a8dc815772"
+            "Timestamp": "2025-06-18T14:52:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a931ef4b445156383d8560c28afe1aa8bf60377c"
           }
         ]
       },
@@ -1402,13 +1414,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 5,
+        "Count": 4,
         "Workflows": [
-          {
-            "Name": "Merge pull request #982 from PRODYNA-YASM/feature/grafana-9.2.4",
-            "Timestamp": "2025-06-17T07:51:49Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/15701394274"
-          },
           {
             "Name": "Merge pull request #968 from PRODYNA-YASM/967-update-kube-syste-metri…",
             "Timestamp": "2025-06-06T12:54:32Z",
@@ -1634,12 +1641,12 @@
         "Count": 3,
         "PullRequests": [
           {
-            "Title": "chore: bump com.fasterxml.jackson.core:jackson-databind from 2.18.3 to 2.19.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/281"
+            "Title": "chore: bump io.smallrye.reactive:mutiny from 2.8.0 to 2.9.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/282"
           },
           {
-            "Title": "chore: bump io.smallrye.reactive:mutiny from 2.8.0 to 2.9.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/280"
+            "Title": "chore: bump com.fasterxml.jackson.core:jackson-databind from 2.18.3 to 2.19.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/281"
           },
           {
             "Title": "chore: bump org.openapitools:openapi-generator-maven-plugin from 7.12.0 to 7.13.0",
@@ -1784,6 +1791,14 @@
         "Count": 8,
         "PullRequests": [
           {
+            "Title": "chore(deps-dev): Bump cypress from 14.3.2 to 14.5.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/312"
+          },
+          {
+            "Title": "chore(deps): Bump cypress/included from 14.3.2 to 14.5.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/311"
+          },
+          {
             "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 24.0.3",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/310"
           },
@@ -1794,14 +1809,6 @@
           {
             "Title": "chore(deps): Bump openid-client from 6.1.3 to 6.5.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/306"
-          },
-          {
-            "Title": "chore(deps-dev): Bump cypress from 14.3.2 to 14.4.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/304"
-          },
-          {
-            "Title": "chore(deps): Bump cypress/included from 14.3.2 to 14.4.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/303"
           },
           {
             "Title": "chore(deps): Bump @azure/msal-node from 3.5.1 to 3.6.0",
@@ -2283,5 +2290,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-06-18T07:35:19Z"
+  "LastUpdated": "2025-06-19T07:34:48Z"
 }
