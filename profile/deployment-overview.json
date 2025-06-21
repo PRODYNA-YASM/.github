@@ -369,8 +369,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "First version that works with the new table writer",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/466"
+          },
           {
             "Title": "Update all libs",
             "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/465"
@@ -408,9 +412,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.22.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "70619e8",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -465,8 +469,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.22.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #307 from PRODYNA-YASM/dependabot/go_modules/github.com/go-chi/chi/v5-5.2.2",
+            "SHA": "70619e82475d0b42c57c4a192218872761dfcd52",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-20T18:29:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/70619e82475d0b42c57c4a192218872761dfcd52"
+          },
+          {
+            "Text": "Bump github.com/go-chi/chi/v5 from 5.2.1 to 5.2.2",
+            "SHA": "b89109150608c063cd6db7f3b9695315f3296dd1",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-06-20T17:00:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/b89109150608c063cd6db7f3b9695315f3296dd1"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -639,9 +664,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.13.6",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "fa67790",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -696,8 +721,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.13.6..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #243 from PRODYNA-YASM/dependabot/go_modules/github.com/go-chi/chi/v5-5.2.2",
+            "SHA": "fa6779088db9202e225b4eeada3eb63becb87465",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-20T18:28:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/fa6779088db9202e225b4eeada3eb63becb87465"
+          },
+          {
+            "Text": "Bump github.com/go-chi/chi/v5 from 5.2.1 to 5.2.2",
+            "SHA": "ea2cf5be814599a9673690f22150448b08567ce1",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-06-20T16:59:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/ea2cf5be814599a9673690f22150448b08567ce1"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1219,13 +1265,20 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "1.72.0",
+        "Tag": "1.73.0",
         "SHA": "",
-        "Title": "Add project type filter to project search, created dependency review, fixed handling of new object structure of personal task.",
-        "Timestamp": "2025-04-01T14:45:31Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm/releases/tag/1.72.0"
+        "Title": "Introduce ShoppingCart Feature, Mobile Optimization, Award enhancement, bugfixes",
+        "Timestamp": "2025-06-20T13:05:24Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm/releases/tag/1.73.0"
       },
       "Releases": [
+        {
+          "Tag": "1.73.0",
+          "SHA": "",
+          "Title": "Introduce ShoppingCart Feature, Mobile Optimization, Award enhancement, bugfixes",
+          "Timestamp": "2025-05-27T07:53:20Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm/releases/tag/1.73.0"
+        },
         {
           "Tag": "1.72.0",
           "SHA": "",
@@ -1239,13 +1292,6 @@
           "Title": "YASM 1.70.6 - Availability assignments, Improved Project Classification, Company Badges",
           "Timestamp": "2025-02-21T11:47:07Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm/releases/tag/1.70.6"
-        },
-        {
-          "Tag": "1.70.0",
-          "SHA": "",
-          "Title": "YASM 1.70.0 - Availability assignments, Improved Project Classification, Company Badges",
-          "Timestamp": "2025-02-21T11:47:07Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm/releases/tag/1.70.0"
         }
       ],
       "PullRequests": {
@@ -1255,40 +1301,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm/compare/1.72.0..HEAD",
-        "Count": 3,
-        "Commits": [
-          {
-            "Text": "Merge pull request #865 from PRODYNA-YASM/feature/article_intro",
-            "SHA": "e77b548c2462705e07c4ba3786f3e601352915f1",
-            "Author": {
-              "name": "tschoebelpd",
-              "link": "https://github.com/tschoebelpd"
-            },
-            "Timestamp": "2025-05-27T07:53:20Z",
-            "Link": "https://github.com/prodyna-yasm/yasm/commit/e77b548c2462705e07c4ba3786f3e601352915f1"
-          },
-          {
-            "Text": "rework 2",
-            "SHA": "c2c394e594aedfecf5fcd3c50a12d924f956d83d",
-            "Author": {
-              "name": "tschoebelpd",
-              "link": "https://github.com/tschoebelpd"
-            },
-            "Timestamp": "2025-05-27T07:51:24Z",
-            "Link": "https://github.com/prodyna-yasm/yasm/commit/c2c394e594aedfecf5fcd3c50a12d924f956d83d"
-          },
-          {
-            "Text": "rework",
-            "SHA": "f7e2a7cf9612b5dc6ea029d4f2692d7144e8b91d",
-            "Author": {
-              "name": "tschoebelpd",
-              "link": "https://github.com/tschoebelpd"
-            },
-            "Timestamp": "2025-05-26T14:12:45Z",
-            "Link": "https://github.com/prodyna-yasm/yasm/commit/f7e2a7cf9612b5dc6ea029d4f2692d7144e8b91d"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm/compare/1.73.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1376,13 +1391,20 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "1.72.0",
+        "Tag": "1.73.0",
         "SHA": "",
-        "Title": "Add project type filter to project search, created dependency review, fixed handling of new object structure of personal task.",
-        "Timestamp": "2025-04-01T14:45:31Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm/releases/tag/1.72.0"
+        "Title": "Introduce ShoppingCart Feature, Mobile Optimization, Award enhancement, bugfixes",
+        "Timestamp": "2025-06-20T13:05:24Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm/releases/tag/1.73.0"
       },
       "Releases": [
+        {
+          "Tag": "1.73.0",
+          "SHA": "",
+          "Title": "Introduce ShoppingCart Feature, Mobile Optimization, Award enhancement, bugfixes",
+          "Timestamp": "2025-05-27T07:53:20Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm/releases/tag/1.73.0"
+        },
         {
           "Tag": "1.72.0",
           "SHA": "",
@@ -1396,13 +1418,6 @@
           "Title": "YASM 1.70.6 - Availability assignments, Improved Project Classification, Company Badges",
           "Timestamp": "2025-02-21T11:47:07Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm/releases/tag/1.70.6"
-        },
-        {
-          "Tag": "1.70.0",
-          "SHA": "",
-          "Title": "YASM 1.70.0 - Availability assignments, Improved Project Classification, Company Badges",
-          "Timestamp": "2025-02-21T11:47:07Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm/releases/tag/1.70.0"
         }
       ],
       "PullRequests": {
@@ -1412,40 +1427,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm/compare/1.72.0..HEAD",
-        "Count": 3,
-        "Commits": [
-          {
-            "Text": "Merge pull request #865 from PRODYNA-YASM/feature/article_intro",
-            "SHA": "e77b548c2462705e07c4ba3786f3e601352915f1",
-            "Author": {
-              "name": "tschoebelpd",
-              "link": "https://github.com/tschoebelpd"
-            },
-            "Timestamp": "2025-05-27T07:53:20Z",
-            "Link": "https://github.com/prodyna-yasm/yasm/commit/e77b548c2462705e07c4ba3786f3e601352915f1"
-          },
-          {
-            "Text": "rework 2",
-            "SHA": "c2c394e594aedfecf5fcd3c50a12d924f956d83d",
-            "Author": {
-              "name": "tschoebelpd",
-              "link": "https://github.com/tschoebelpd"
-            },
-            "Timestamp": "2025-05-27T07:51:24Z",
-            "Link": "https://github.com/prodyna-yasm/yasm/commit/c2c394e594aedfecf5fcd3c50a12d924f956d83d"
-          },
-          {
-            "Text": "rework",
-            "SHA": "f7e2a7cf9612b5dc6ea029d4f2692d7144e8b91d",
-            "Author": {
-              "name": "tschoebelpd",
-              "link": "https://github.com/tschoebelpd"
-            },
-            "Timestamp": "2025-05-26T14:12:45Z",
-            "Link": "https://github.com/prodyna-yasm/yasm/commit/f7e2a7cf9612b5dc6ea029d4f2692d7144e8b91d"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm/compare/1.73.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1993,5 +1977,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-06-20T13:05:01Z"
+  "LastUpdated": "2025-06-21T07:33:38Z"
 }
