@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-06-29T07:33:47Z
+Component Status overview. Last update 2025-06-30T07:35:40Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -855,9 +855,9 @@ Component Status overview. Last update 2025-06-29T07:33:47Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (10)
 
-- [Bump @angular/forms from 19.2.9 to 20.0.4 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/151)
+- [Bump @angular/cli from 19.2.10 to 20.0.4 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/152)
 
-- [Bump @angular/cli from 19.2.10 to 20.0.3 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/150)
+- [Bump @angular/forms from 19.2.9 to 20.0.4 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/151)
 
 - [Bump @azure/msal-browser from 4.11.1 to 4.13.2 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/149)
 
