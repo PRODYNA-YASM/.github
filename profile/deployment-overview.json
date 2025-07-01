@@ -59,8 +59,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 5.4.0 to 5.5.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/894"
+          },
+          {
+            "Title": "feat: 883 restrict visibility of former employee ID to admin users",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/893"
+          },
           {
             "Title": "build(deps): bump org.jsoup:jsoup from 1.19.1 to 1.21.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/892"
@@ -72,10 +80,6 @@
           {
             "Title": "build(deps): bump quarkus.platform.version from 3.21.0 to 3.22.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/885"
-          },
-          {
-            "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 5.3.0 to 5.4.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/883"
           },
           {
             "Title": "build(deps): bump org.apache.xmlgraphics:batik-all from 1.18 to 1.19",
@@ -176,8 +180,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "feat: remove former employee ID filter from PersonInformation compone…",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1080"
+          },
           {
             "Title": "feat: 292 design and functionality improvement of shoppingcart feature",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1077"
@@ -562,7 +570,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "3270664",
+          "Version": "567b1a1",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -619,8 +627,68 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.23.0..HEAD",
-        "Count": 2,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Merge pull request #310 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc-1.37.0",
+            "SHA": "567b1a1a2e4a7f93ea5b491a00ee8d893cfc5250",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-30T23:39:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/567b1a1a2e4a7f93ea5b491a00ee8d893cfc5250"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc",
+            "SHA": "297b261c606fd7c4a802e80d99effb9c70ccd09b",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-06-30T23:35:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/297b261c606fd7c4a802e80d99effb9c70ccd09b"
+          },
+          {
+            "Text": "Merge pull request #311 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc-1.37.0",
+            "SHA": "346ef5d7141504b68a213a522e4df2f275d8e006",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-30T23:33:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/346ef5d7141504b68a213a522e4df2f275d8e006"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc",
+            "SHA": "d62bc5863a864f2363ecd6161f4bcfab6db3bc77",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-06-30T23:31:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/d62bc5863a864f2363ecd6161f4bcfab6db3bc77"
+          },
+          {
+            "Text": "Merge pull request #309 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace-1.37.0",
+            "SHA": "4533ea9cedc7bd943012e25c5b7727009224551d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-06-30T16:26:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/4533ea9cedc7bd943012e25c5b7727009224551d"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace",
+            "SHA": "ecc15c3ee4628707f4328ebb2dc5f30edd055e36",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-06-30T16:24:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/ecc15c3ee4628707f4328ebb2dc5f30edd055e36"
+          },
           {
             "Text": "Merge pull request #308 from PRODYNA-YASM/dependabot/go_modules/github.com/go-viper/mapstructure/v2-2.3.0",
             "SHA": "3270664001ec916b8a11173ad9db8ddcbf13869d",
@@ -1659,8 +1727,8 @@
         "Count": 8,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 24.0.4",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/316"
+            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 24.0.7",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/317"
           },
           {
             "Title": "chore(deps): Bump openid-client from 6.1.3 to 6.6.1",
@@ -2158,5 +2226,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-06-30T07:35:40Z"
+  "LastUpdated": "2025-07-01T07:36:13Z"
 }
