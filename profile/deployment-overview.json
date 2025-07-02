@@ -1366,8 +1366,17 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump hashicorp/azurerm from 4.34.0 to 4.35.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1002"
+          },
+          {
+            "Title": "Bump hashicorp/azurerm from 4.34.0 to 4.35.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1001"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -1567,8 +1576,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.69 to 3.0.70",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/286"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
@@ -1727,8 +1741,8 @@
         "Count": 8,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 24.0.7",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/317"
+            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 24.0.8",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/318"
           },
           {
             "Title": "chore(deps): Bump openid-client from 6.1.3 to 6.6.1",
@@ -2226,5 +2240,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-07-01T07:36:13Z"
+  "LastUpdated": "2025-07-02T07:35:13Z"
 }
