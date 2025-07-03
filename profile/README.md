@@ -1,12 +1,12 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-07-02T07:35:13Z
+Component Status overview. Last update 2025-07-03T07:35:27Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-backend/compare/1.73.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.73.0 |  :red_square: c3f4fd8 |  :green_square: 1.73.0 |  :red_square: 1.72.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [7](https://github.com/prodyna-yasm/yasm-frontend/compare/1.73.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.73.0 |  :red_square: ceb3a2d |  :green_square: 1.73.0 |  :red_square: 1.72.3 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.73.1 |  :green_square: 1.73.1 |  :green_square: 1.73.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [8](https://github.com/prodyna-yasm/yasm-frontend/compare/1.73.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.73.0 |  :red_square: 3f9e804 |  :green_square: 1.73.0 |  :red_square: 1.72.3 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.73.1..HEAD) | :green_square: 0 | 1.73.1 |  :red_square: 362f8e9 |  :green_square: 1.73.1 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [9](https://github.com/prodyna-yasm/yasmctl/compare/1.73.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.73.0 |  :red_square: c9321d2 |  :green_square: 1.73.0 |  :red_square: 1.72.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [8](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.23.0..HEAD) | :green_square: 0 | 1.23.0 |  :red_square: 567b1a1 |  :green_square: 1.23.0 |  :green_square: 1.23.0 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :green_square: 0 | :green_square: 0 | 1.73.1 |  :green_square: 1.73.1 |  :green_square: 1.73.1 |  :green_square: 1.73.1 | 
@@ -89,7 +89,9 @@ Component Status overview. Last update 2025-07-02T07:35:13Z
 
 
 
-### [Commits on main since 1.73.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.73.0..HEAD) (7)
+### [Commits on main since 1.73.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.73.0..HEAD) (8)
+
+- [feat: 292 design and functionality improvement of shoppingcart feature (#1077)](https://github.com/prodyna-yasm/yasm-frontend/commit/3f9e804f2e198fb8f7a2daf8ccb9dc8d86071e74) by [irhox](https://github.com/irhox) on 2025-07-02 15:23:00 +0000 UTC
 
 - [feat: 870 display employee ID only for current employees (#1073)](https://github.com/prodyna-yasm/yasm-frontend/commit/ceb3a2dcab91ff56c69c118bf8759fef61f4ea18) by [ig0rserov](https://github.com/ig0rserov) on 2025-06-26 11:55:57 +0000 UTC
 
@@ -108,11 +110,9 @@ Component Status overview. Last update 2025-07-02T07:35:13Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
 
 - [feat: remove former employee ID filter from PersonInformation compone…](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1080)
-
-- [feat: 292 design and functionality improvement of shoppingcart feature](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1077)
 
 - [feat: 770 bulk download pdf profiles](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1067)
 
@@ -130,7 +130,7 @@ Component Status overview. Last update 2025-07-02T07:35:13Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  ceb3a2d |  1.73.0 |  1.72.3 | 
+| Version |  3f9e804 |  1.73.0 |  1.72.3 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :red_square: | 
 
@@ -153,6 +153,13 @@ Component Status overview. Last update 2025-07-02T07:35:13Z
 
 
 
+### [Commits on main since 1.73.1](https://github.com/prodyna-yasm/yasm-integration/compare/1.73.1..HEAD) (2)
+
+- [Merge pull request #703 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.77.0](https://github.com/prodyna-yasm/yasm-integration/commit/362f8e9e941bcfee14fb80e4657ed0fead935840) by [dkrizic](https://github.com/dkrizic) on 2025-07-03 06:39:39 +0000 UTC
+
+- [Bump github.com/microsoftgraph/msgraph-sdk-go from 1.76.0 to 1.77.0](https://github.com/prodyna-yasm/yasm-integration/commit/9b3f4d9fc80e20c16feb096dafa16b598d7eda15) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-07-03 01:54:43 +0000 UTC
+
+
 
 
 
@@ -160,9 +167,9 @@ Component Status overview. Last update 2025-07-02T07:35:13Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  1.73.1 |  1.73.1 | 
-| Release |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: | 
+| Version |  362f8e9 |  1.73.1 | 
+| Release |  :red_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: | 
 
 
 ### Last releases
@@ -762,15 +769,15 @@ Component Status overview. Last update 2025-07-02T07:35:13Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (8)
 
-- [chore(deps-dev): Bump @types/node from 22.15.3 to 24.0.8](https://github.com/PRODYNA-YASM/yasm-test/pull/318)
+- [chore(deps): Bump cypress/included from 14.3.2 to 14.5.1](https://github.com/PRODYNA-YASM/yasm-test/pull/323)
 
-- [chore(deps): Bump openid-client from 6.1.3 to 6.6.1](https://github.com/PRODYNA-YASM/yasm-test/pull/315)
+- [chore(deps-dev): Bump @types/node from 22.15.3 to 24.0.10](https://github.com/PRODYNA-YASM/yasm-test/pull/322)
 
-- [chore(deps): Bump @azure/msal-node from 3.5.1 to 3.6.1](https://github.com/PRODYNA-YASM/yasm-test/pull/313)
+- [chore(deps-dev): Bump cypress from 14.3.2 to 14.5.1](https://github.com/PRODYNA-YASM/yasm-test/pull/321)
 
-- [chore(deps-dev): Bump cypress from 14.3.2 to 14.5.0](https://github.com/PRODYNA-YASM/yasm-test/pull/312)
+- [chore(deps): Bump @azure/msal-node from 3.5.1 to 3.6.2](https://github.com/PRODYNA-YASM/yasm-test/pull/320)
 
-- [chore(deps): Bump cypress/included from 14.3.2 to 14.5.0](https://github.com/PRODYNA-YASM/yasm-test/pull/311)
+- [chore(deps): Bump openid-client from 6.1.3 to 6.6.2](https://github.com/PRODYNA-YASM/yasm-test/pull/319)
 
 - [chore(deps): Bump brace-expansion from 2.0.1 to 2.0.2](https://github.com/PRODYNA-YASM/yasm-test/pull/308)
 

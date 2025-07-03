@@ -129,7 +129,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "ceb3a2d",
+          "Version": "3f9e804",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -180,15 +180,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 6,
         "PullRequests": [
           {
             "Title": "feat: remove former employee ID filter from PersonInformation compone…",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1080"
-          },
-          {
-            "Title": "feat: 292 design and functionality improvement of shoppingcart feature",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1077"
           },
           {
             "Title": "feat: 770 bulk download pdf profiles",
@@ -215,8 +211,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.73.0..HEAD",
-        "Count": 7,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "feat: 292 design and functionality improvement of shoppingcart feature (#1077)",
+            "SHA": "3f9e804f2e198fb8f7a2daf8ccb9dc8d86071e74",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2025-07-02T15:23:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/3f9e804f2e198fb8f7a2daf8ccb9dc8d86071e74"
+          },
           {
             "Text": "feat: 870 display employee ID only for current employees (#1073)",
             "SHA": "ceb3a2dcab91ff56c69c118bf8759fef61f4ea18",
@@ -304,9 +310,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.73.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "362f8e9",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -354,8 +360,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.73.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #703 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.77.0",
+            "SHA": "362f8e9e941bcfee14fb80e4657ed0fead935840",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-03T06:39:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/362f8e9e941bcfee14fb80e4657ed0fead935840"
+          },
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.76.0 to 1.77.0",
+            "SHA": "9b3f4d9fc80e20c16feb096dafa16b598d7eda15",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-03T01:54:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/9b3f4d9fc80e20c16feb096dafa16b598d7eda15"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1741,24 +1768,24 @@
         "Count": 8,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 24.0.8",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/318"
+            "Title": "chore(deps): Bump cypress/included from 14.3.2 to 14.5.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/323"
           },
           {
-            "Title": "chore(deps): Bump openid-client from 6.1.3 to 6.6.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/315"
+            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 24.0.10",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/322"
           },
           {
-            "Title": "chore(deps): Bump @azure/msal-node from 3.5.1 to 3.6.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/313"
+            "Title": "chore(deps-dev): Bump cypress from 14.3.2 to 14.5.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/321"
           },
           {
-            "Title": "chore(deps-dev): Bump cypress from 14.3.2 to 14.5.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/312"
+            "Title": "chore(deps): Bump @azure/msal-node from 3.5.1 to 3.6.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/320"
           },
           {
-            "Title": "chore(deps): Bump cypress/included from 14.3.2 to 14.5.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/311"
+            "Title": "chore(deps): Bump openid-client from 6.1.3 to 6.6.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/319"
           },
           {
             "Title": "chore(deps): Bump brace-expansion from 2.0.1 to 2.0.2",
@@ -2240,5 +2267,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-07-02T07:35:13Z"
+  "LastUpdated": "2025-07-03T07:35:27Z"
 }
