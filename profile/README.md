@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-07-03T07:35:27Z
+Component Status overview. Last update 2025-07-04T07:36:04Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -18,7 +18,7 @@ Component Status overview. Last update 2025-07-03T07:35:27Z
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.73.16 |  :green_square: 1.73.16 |  :green_square: 1.73.16 |  :green_square: 1.73.16 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.73.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.73.1 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.73.0 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [5](https://github.com/prodyna-yasm/yasm-api/compare/1.73.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.73.0 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [6](https://github.com/prodyna-yasm/yasm-api/compare/1.73.0..HEAD) | :green_square: 0 | 1.73.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.73.0 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [15](https://github.com/prodyna-yasm/yasm-test/compare/v1.51.6..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.51.6 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :green_square: 0 | :green_square: 0 | 1.7.4 |  :green_square: 1.7.4 |  :green_square: 1.7.4 |  :green_square: 1.7.4 | 
@@ -41,13 +41,13 @@ Component Status overview. Last update 2025-07-03T07:35:27Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (7)
 
+- [build(deps): bump io.smallrye:jandex-maven-plugin from 3.3.1 to 3.3.2](https://github.com/PRODYNA-YASM/yasm-backend/pull/895)
+
 - [build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 5.4.0 to 5.5.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/894)
 
 - [feat: 883 restrict visibility of former employee ID to admin users](https://github.com/PRODYNA-YASM/yasm-backend/pull/893)
 
 - [build(deps): bump org.jsoup:jsoup from 1.19.1 to 1.21.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/892)
-
-- [build(deps): bump io.smallrye:jandex-maven-plugin from 3.3.0 to 3.3.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/886)
 
 - [build(deps): bump quarkus.platform.version from 3.21.0 to 3.22.2](https://github.com/PRODYNA-YASM/yasm-backend/pull/885)
 
@@ -566,13 +566,11 @@ Component Status overview. Last update 2025-07-03T07:35:27Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting) (3)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting) (2)
 
 - [Merge pull request #1000 from PRODYNA-YASM/feature/grafana-9.2.8](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/15925584125) created on 2025-06-27 11:51:08 +0000 UTC
 
 - [Merge pull request #968 from PRODYNA-YASM/967-update-kube-syste-metri…](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/15491031064) created on 2025-06-06 12:54:32 +0000 UTC
-
-- [Merge pull request #964 from PRODYNA-YASM/feature/updates](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/15419631248) created on 2025-06-03 14:09:04 +0000 UTC
 
 
 
@@ -654,7 +652,9 @@ Component Status overview. Last update 2025-07-03T07:35:27Z
 
 
 
-### [Commits on main since 1.73.0](https://github.com/prodyna-yasm/yasm-api/compare/1.73.0..HEAD) (5)
+### [Commits on main since 1.73.0](https://github.com/prodyna-yasm/yasm-api/compare/1.73.0..HEAD) (6)
+
+- [chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin (#287)](https://github.com/prodyna-yasm/yasm-api/commit/ea8987a18aaee361bf92a18ffd3e89a8d86fbcdd) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-07-04 00:33:15 +0000 UTC
 
 - [chore: bump com.fasterxml.jackson.core:jackson-databind (#281)](https://github.com/prodyna-yasm/yasm-api/commit/f2cddf6c8f7c05e88f6b234122603c53fe82c27f) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-06-27 07:50:36 +0000 UTC
 
@@ -667,11 +667,6 @@ Component Status overview. Last update 2025-07-03T07:35:27Z
 - [chore: bump io.smallrye.reactive:mutiny from 2.8.0 to 2.9.1 (#282)](https://github.com/prodyna-yasm/yasm-api/commit/935f741d7611fa573d0b39143465f8f8f12c0b26) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-06-20 12:15:31 +0000 UTC
 
 
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (1)
-
-- [chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.69 to 3.0.70](https://github.com/PRODYNA-YASM/yasm-api/pull/286)
 
 
 
