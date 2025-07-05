@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "c3f4fd8",
+          "Version": "2de02cd",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -59,28 +59,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 7,
+        "Count": 2,
         "PullRequests": [
-          {
-            "Title": "build(deps): bump io.smallrye:jandex-maven-plugin from 3.3.1 to 3.3.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/895"
-          },
-          {
-            "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 5.4.0 to 5.5.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/894"
-          },
-          {
-            "Title": "feat: 883 restrict visibility of former employee ID to admin users",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/893"
-          },
-          {
-            "Title": "build(deps): bump org.jsoup:jsoup from 1.19.1 to 1.21.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/892"
-          },
-          {
-            "Title": "build(deps): bump quarkus.platform.version from 3.21.0 to 3.22.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/885"
-          },
           {
             "Title": "build(deps): bump org.apache.xmlgraphics:batik-all from 1.18 to 1.19",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/884"
@@ -94,8 +74,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.73.0..HEAD",
-        "Count": 1,
+        "Count": 5,
         "Commits": [
+          {
+            "Text": "build(deps): bump org.jsoup:jsoup from 1.19.1 to 1.21.1 (#892)",
+            "SHA": "2de02cd833bfd51b83ea329f478da66183d19635",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-05T07:24:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/2de02cd833bfd51b83ea329f478da66183d19635"
+          },
+          {
+            "Text": "build(deps): bump io.smallrye:jandex-maven-plugin from 3.3.1 to 3.3.2 (#895)",
+            "SHA": "54389a6974545d2c61dab8dae00c0c2a28f2004d",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-04T22:39:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/54389a6974545d2c61dab8dae00c0c2a28f2004d"
+          },
+          {
+            "Text": "build: update quarkus 3.24.2 (#896)",
+            "SHA": "19df2d15066a9299afe18a6e1bf2094a2d6f3933",
+            "Author": {
+              "name": "coding4kay",
+              "link": "https://github.com/coding4kay"
+            },
+            "Timestamp": "2025-07-04T22:27:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/19df2d15066a9299afe18a6e1bf2094a2d6f3933"
+          },
+          {
+            "Text": "feat: 883 restrict visibility of former employee ID to admin users (#893)",
+            "SHA": "ce64eec6ba3a5abb3875513ac4ffc11a32d51d8e",
+            "Author": {
+              "name": "ig0rserov",
+              "link": "https://github.com/ig0rserov"
+            },
+            "Timestamp": "2025-07-04T11:59:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/ce64eec6ba3a5abb3875513ac4ffc11a32d51d8e"
+          },
           {
             "Text": "feat: DAPR json logging (#891)",
             "SHA": "c3f4fd8074878b487a2ca5173f8ab5cd44b88b1b",
@@ -129,9 +149,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.73.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "8c5855e",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -180,12 +200,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 5,
         "PullRequests": [
-          {
-            "Title": "feat: remove former employee ID filter from PersonInformation compone…",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1080"
-          },
           {
             "Title": "feat: 770 bulk download pdf profiles",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1067"
@@ -211,8 +227,19 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.73.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "feat: remove former employee ID filter from PersonInformation component, it is part of yasm-backend to filter out the former employee id for non admin users (#1080)",
+            "SHA": "8c5855e4a7fb58a58132a6acc675f715ba8c4a1a",
+            "Author": {
+              "name": "ig0rserov",
+              "link": "https://github.com/ig0rserov"
+            },
+            "Timestamp": "2025-07-04T11:59:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/8c5855e4a7fb58a58132a6acc675f715ba8c4a1a"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1194,9 +1221,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "8.21.0-0",
+          "Version": "8.21.1-0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1244,14 +1271,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #87 from PRODYNA-YASM/feature/gotenberg-8.21.1",
-            "Timestamp": "2025-06-20T12:22:34Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/15778840656"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -2053,9 +2074,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.2.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "e7bdbb2",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -2104,7 +2125,7 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 10,
+        "Count": 6,
         "PullRequests": [
           {
             "Title": "Bump @angular/cli from 19.2.10 to 20.0.4 in /frontend",
@@ -2127,32 +2148,77 @@
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/147"
           },
           {
-            "Title": "Bump github.com/go-sql-driver/mysql from 1.9.2 to 1.9.3 in /backend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/141"
-          },
-          {
-            "Title": "Bump gorm.io/driver/mysql from 1.5.7 to 1.6.0 in /backend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/132"
-          },
-          {
             "Title": "Bump the npm_and_yarn group in /frontend with 2 updates",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/131"
-          },
-          {
-            "Title": "Bump github.com/gin-gonic/gin from 1.10.0 to 1.10.1 in /backend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/107"
-          },
-          {
-            "Title": "Bump gorm.io/gorm from 1.26.0 to 1.30.0 in /backend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/106"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/fox-and-hound",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/compare/1.2.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 6,
+        "Commits": [
+          {
+            "Text": "Merge pull request #141 from PRODYNA-YASM/dependabot/go_modules/backend/github.com/go-sql-driver/mysql-1.9.3",
+            "SHA": "e7bdbb2bb46837ef3e74f7535cbf896d1ae6856e",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-07-04T14:38:26Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/e7bdbb2bb46837ef3e74f7535cbf896d1ae6856e"
+          },
+          {
+            "Text": "Bump github.com/go-sql-driver/mysql from 1.9.2 to 1.9.3 in /backend",
+            "SHA": "9ef189b8c035ce36126813b7c4006a97ecdc70ab",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-04T14:36:30Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/9ef189b8c035ce36126813b7c4006a97ecdc70ab"
+          },
+          {
+            "Text": "Merge pull request #132 from PRODYNA-YASM/dependabot/go_modules/backend/gorm.io/driver/mysql-1.6.0",
+            "SHA": "6b4b060995b90acef737302e126210a9a9c9c828",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-07-04T14:35:02Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/6b4b060995b90acef737302e126210a9a9c9c828"
+          },
+          {
+            "Text": "Bump gorm.io/driver/mysql from 1.5.7 to 1.6.0 in /backend",
+            "SHA": "7e3faa99fe1d5cbd9e39f8b43b39a5908e29a471",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-04T14:34:53Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/7e3faa99fe1d5cbd9e39f8b43b39a5908e29a471"
+          },
+          {
+            "Text": "Merge pull request #107 from PRODYNA-YASM/dependabot/go_modules/backend/github.com/gin-gonic/gin-1.10.1",
+            "SHA": "78dc758b0208b25369a0bae29e3a0114d97fb998",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-07-04T14:32:08Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/78dc758b0208b25369a0bae29e3a0114d97fb998"
+          },
+          {
+            "Text": "Merge pull request #106 from PRODYNA-YASM/dependabot/go_modules/backend/gorm.io/gorm-1.30.0",
+            "SHA": "bc7b2b010e893d49305c842269cb79f7e47495b8",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-07-04T14:31:49Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/bc7b2b010e893d49305c842269cb79f7e47495b8"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2177,5 +2243,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-07-04T11:13:46Z"
+  "LastUpdated": "2025-07-05T07:33:24Z"
 }
