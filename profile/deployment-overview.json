@@ -8,14 +8,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2de02cd",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.73.1",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.73.0",
+          "Version": "1.73.1",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -28,13 +28,20 @@
         }
       ],
       "LatestRelease": {
-        "Tag": "1.73.0",
+        "Tag": "1.73.1",
         "SHA": "",
-        "Title": "Removed organization dependency from awards, allow cors, replaced DocumentBuilderFactory.newInstance with newDefaultInstance, rework location area on export, update dependencies",
-        "Timestamp": "2025-06-20T12:22:57Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.73.0"
+        "Title": "1.73.1",
+        "Timestamp": "2025-07-05T19:45:50Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.73.1"
       },
       "Releases": [
+        {
+          "Tag": "1.73.1",
+          "SHA": "",
+          "Title": "1.73.1",
+          "Timestamp": "2025-07-05T19:29:44Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.73.1"
+        },
         {
           "Tag": "1.73.0",
           "SHA": "",
@@ -48,13 +55,6 @@
           "Title": "Add external to project search filter, created dependency review, fixed handling of new object structure of personal task.",
           "Timestamp": "2025-04-01T14:31:34Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.72.0"
-        },
-        {
-          "Tag": "1.70.0",
-          "SHA": "",
-          "Title": "Add shopping cart groups and add employee availability type",
-          "Timestamp": "2025-03-14T12:35:29Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.70.0"
         }
       ],
       "PullRequests": {
@@ -73,67 +73,21 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.73.0..HEAD",
-        "Count": 5,
-        "Commits": [
-          {
-            "Text": "build(deps): bump org.jsoup:jsoup from 1.19.1 to 1.21.1 (#892)",
-            "SHA": "2de02cd833bfd51b83ea329f478da66183d19635",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-07-05T07:24:45Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/2de02cd833bfd51b83ea329f478da66183d19635"
-          },
-          {
-            "Text": "build(deps): bump io.smallrye:jandex-maven-plugin from 3.3.1 to 3.3.2 (#895)",
-            "SHA": "54389a6974545d2c61dab8dae00c0c2a28f2004d",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-07-04T22:39:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/54389a6974545d2c61dab8dae00c0c2a28f2004d"
-          },
-          {
-            "Text": "build: update quarkus 3.24.2 (#896)",
-            "SHA": "19df2d15066a9299afe18a6e1bf2094a2d6f3933",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-07-04T22:27:37Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/19df2d15066a9299afe18a6e1bf2094a2d6f3933"
-          },
-          {
-            "Text": "feat: 883 restrict visibility of former employee ID to admin users (#893)",
-            "SHA": "ce64eec6ba3a5abb3875513ac4ffc11a32d51d8e",
-            "Author": {
-              "name": "ig0rserov",
-              "link": "https://github.com/ig0rserov"
-            },
-            "Timestamp": "2025-07-04T11:59:03Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/ce64eec6ba3a5abb3875513ac4ffc11a32d51d8e"
-          },
-          {
-            "Text": "feat: DAPR json logging (#891)",
-            "SHA": "c3f4fd8074878b487a2ca5173f8ab5cd44b88b1b",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-06-26T09:57:14Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/c3f4fd8074878b487a2ca5173f8ab5cd44b88b1b"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.73.1..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "fix: pdf formatting (#899)",
+            "Timestamp": "2025-07-05T19:45:52Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/16091483567"
+          },
           {
             "Name": "feat: update quarkus (#890)",
             "Timestamp": "2025-06-20T12:22:59Z",
@@ -1282,9 +1236,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.73.17",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "2242c4b",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1339,8 +1293,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.17..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #1004 from PRODYNA-YASM/feature/grafana-tempo-updates",
+            "SHA": "2242c4b1858860107984bb26adbb10cb1dda3ca1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-05T10:32:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/2242c4b1858860107984bb26adbb10cb1dda3ca1"
+          },
+          {
+            "Text": "Tempo 1.43.0, Grafana 9.2.10",
+            "SHA": "c113a06062f1f33745664beb7a5c3670c689af26",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-05T09:48:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c113a06062f1f33745664beb7a5c3670c689af26"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2125,31 +2100,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 6,
+        "Count": 1,
         "PullRequests": [
           {
-            "Title": "Bump @angular/cli from 19.2.10 to 20.0.4 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/152"
-          },
-          {
-            "Title": "Bump @angular/forms from 19.2.9 to 20.0.4 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/151"
-          },
-          {
-            "Title": "Bump @azure/msal-browser from 4.11.1 to 4.13.2 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/149"
-          },
-          {
-            "Title": "Bump @angular/platform-browser from 19.2.9 to 20.0.4 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/148"
-          },
-          {
-            "Title": "Bump @angular/compiler-cli from 19.2.9 to 20.0.4 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/147"
-          },
-          {
-            "Title": "Bump the npm_and_yarn group in /frontend with 2 updates",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/131"
+            "Title": "#156 Upgrade to Angular 20",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/162"
           }
         ]
       },
@@ -2243,5 +2198,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-07-05T07:33:24Z"
+  "LastUpdated": "2025-07-06T07:33:27Z"
 }
