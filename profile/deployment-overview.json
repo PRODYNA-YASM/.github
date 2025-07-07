@@ -59,8 +59,28 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 2,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.4 to 2.44.5",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/904"
+          },
+          {
+            "Title": "build(deps): bump xalan:serializer from 2.7.2 to 2.7.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/903"
+          },
+          {
+            "Title": "build(deps): bump xml-apis:xml-apis from 1.4.01 to 2.0.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/902"
+          },
+          {
+            "Title": "build(deps): bump org.apache.maven.plugins:maven-enforcer-plugin from 3.5.0 to 3.6.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/901"
+          },
+          {
+            "Title": "feat: reactor project layouts",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/900"
+          },
           {
             "Title": "build(deps): bump org.apache.xmlgraphics:batik-all from 1.18 to 1.19",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/884"
@@ -1321,17 +1341,12 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
           {
             "Name": "Merge pull request #1000 from PRODYNA-YASM/feature/grafana-9.2.8",
             "Timestamp": "2025-06-27T11:51:08Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/15925584125"
-          },
-          {
-            "Name": "Merge pull request #968 from PRODYNA-YASM/967-update-kube-syste-metri…",
-            "Timestamp": "2025-06-06T12:54:32Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/15491031064"
           }
         ]
       }
@@ -1504,8 +1519,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "feat: reactor project layouts",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/288"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
@@ -2049,7 +2069,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "e7bdbb2",
+          "Version": "6a7d59a",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2100,19 +2120,59 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 1,
+        "Count": 6,
         "PullRequests": [
           {
-            "Title": "#156 Upgrade to Angular 20",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/162"
+            "Title": "Bump @types/jasmine from 5.1.7 to 5.1.8 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/168"
+          },
+          {
+            "Title": "Bump @azure/msal-browser from 4.11.1 to 4.14.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/167"
+          },
+          {
+            "Title": "Bump jasmine-core from 5.7.1 to 5.8.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/166"
+          },
+          {
+            "Title": "Bump @openapitools/openapi-generator-cli from 2.20.0 to 2.21.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/165"
+          },
+          {
+            "Title": "Bump whatwg-url from 5.0.0 to 14.2.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/164"
+          },
+          {
+            "Title": "Feature/ 155,161 157, 153, 88",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/163"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/fox-and-hound",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/compare/1.2.0..HEAD",
-        "Count": 6,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Merge pull request #162 from PRODYNA-YASM/feature/_156_upgradeAngularAndOtherFeDependencies",
+            "SHA": "6a7d59ad3a577d700e0f6d0ffd5df855d8ef4925",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-07-06T12:01:07Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/6a7d59ad3a577d700e0f6d0ffd5df855d8ef4925"
+          },
+          {
+            "Text": "#156 Upgrade to Angular 20",
+            "SHA": "8aa26e5dd4d56a7c1a88ac8be4068cef8ad70ace",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-07-05T19:04:30Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/8aa26e5dd4d56a7c1a88ac8be4068cef8ad70ace"
+          },
           {
             "Text": "Merge pull request #141 from PRODYNA-YASM/dependabot/go_modules/backend/github.com/go-sql-driver/mysql-1.9.3",
             "SHA": "e7bdbb2bb46837ef3e74f7535cbf896d1ae6856e",
@@ -2198,5 +2258,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-07-06T07:33:27Z"
+  "LastUpdated": "2025-07-07T07:35:53Z"
 }
