@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-07-07T07:35:53Z
+Component Status overview. Last update 2025-07-08T07:35:50Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.73.1 |  :green_square: 1.73.1 |  :green_square: 1.73.1 |  :red_square: 1.72.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.73.1..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.73.1 |  :red_square: 8c5855e |  :green_square: 1.73.1 |  :red_square: 1.72.3 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.73.2 |  :green_square: 1.73.2 |  :green_square: 1.73.2 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.73.1..HEAD) | :green_square: 0 | 1.73.1 |  :red_square: 362f8e9 |  :green_square: 1.73.1 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [9](https://github.com/prodyna-yasm/yasmctl/compare/1.73.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.73.0 |  :red_square: c9321d2 |  :green_square: 1.73.0 |  :red_square: 1.72.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [8](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.23.0..HEAD) | :green_square: 0 | 1.23.0 |  :red_square: 567b1a1 |  :green_square: 1.23.0 |  :green_square: 1.23.0 | 
@@ -36,7 +36,7 @@ Component Status overview. Last update 2025-07-07T07:35:53Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (7)
 
-- [build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.4 to 2.44.5](https://github.com/PRODYNA-YASM/yasm-backend/pull/904)
+- [build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.4 to 2.45.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/905)
 
 - [build(deps): bump xalan:serializer from 2.7.2 to 2.7.3](https://github.com/PRODYNA-YASM/yasm-backend/pull/903)
 
@@ -81,14 +81,9 @@ Component Status overview. Last update 2025-07-07T07:35:53Z
 
 
 
-## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.73.1
+## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.73.2
 
 
-
-
-### [Commits on main since 1.73.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.73.1..HEAD) (1)
-
-- [feat: remove former employee ID filter from PersonInformation component, it is part of yasm-backend to filter out the former employee id for non admin users (#1080)](https://github.com/prodyna-yasm/yasm-frontend/commit/8c5855e4a7fb58a58132a6acc675f715ba8c4a1a) by [ig0rserov](https://github.com/ig0rserov) on 2025-07-04 11:59:06 +0000 UTC
 
 
 
@@ -109,20 +104,20 @@ Component Status overview. Last update 2025-07-07T07:35:53Z
 
 ### Environments
 
-| Environment |  dev |  staging |  prod | 
-| --- |  --- |  --- |  --- | 
-| Version |  8c5855e |  1.73.1 |  1.72.3 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :red_square: | 
+| Environment |  dev |  staging | 
+| --- |  --- |  --- | 
+| Version |  1.73.2 |  1.73.2 | 
+| Release |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Filter out former employees from role member suggestions, remove former employee ID filter from PersonInformation component](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.2) on 2025-07-07 09:30:10 +0000 UTC
+
 - [Design and Functionality improvements to shoppingcart feature, dependency updates](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.1) on 2025-07-02 15:23:00 +0000 UTC
 
 - [added shoppingCart component, remove styled components dependency, mobile optimization, remove organization dep from awards, allow one month participation , dependecy updates](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.0) on 2025-06-20 12:16:14 +0000 UTC
-
-- [Vite Migration & Code Cleanup Release](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.72.3) on 2025-04-08 08:46:54 +0000 UTC
 
 
 

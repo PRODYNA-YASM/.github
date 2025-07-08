@@ -62,8 +62,8 @@
         "Count": 7,
         "PullRequests": [
           {
-            "Title": "build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.4 to 2.44.5",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/904"
+            "Title": "build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.4 to 2.45.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/905"
           },
           {
             "Title": "build(deps): bump xalan:serializer from 2.7.2 to 2.7.3",
@@ -123,33 +123,33 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8c5855e",
-          "IsRelease": false,
-          "IsCurrent": false
-        },
-        {
-          "Name": "staging",
-          "Link": "",
-          "Version": "1.73.1",
+          "Version": "1.73.2",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
-          "Name": "prod",
+          "Name": "staging",
           "Link": "",
-          "Version": "1.72.3",
+          "Version": "1.73.2",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.73.1",
+        "Tag": "1.73.2",
         "SHA": "",
-        "Title": "Design and Functionality improvements to shoppingcart feature, dependency updates",
-        "Timestamp": "2025-07-04T11:06:37Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.1"
+        "Title": "Filter out former employees from role member suggestions, remove former employee ID filter from PersonInformation component",
+        "Timestamp": "2025-07-07T09:38:27Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.2"
       },
       "Releases": [
+        {
+          "Tag": "1.73.2",
+          "SHA": "",
+          "Title": "Filter out former employees from role member suggestions, remove former employee ID filter from PersonInformation component",
+          "Timestamp": "2025-07-07T09:30:10Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.2"
+        },
         {
           "Tag": "1.73.1",
           "SHA": "",
@@ -163,13 +163,6 @@
           "Title": "added shoppingCart component, remove styled components dependency, mobile optimization, remove organization dep from awards, allow one month participation , dependecy updates",
           "Timestamp": "2025-06-20T12:16:14Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.0"
-        },
-        {
-          "Tag": "1.72.3",
-          "SHA": "",
-          "Title": "Vite Migration \u0026 Code Cleanup Release",
-          "Timestamp": "2025-04-08T08:46:54Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.72.3"
         }
       ],
       "PullRequests": {
@@ -200,20 +193,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.73.1..HEAD",
-        "Count": 1,
-        "Commits": [
-          {
-            "Text": "feat: remove former employee ID filter from PersonInformation component, it is part of yasm-backend to filter out the former employee id for non admin users (#1080)",
-            "SHA": "8c5855e4a7fb58a58132a6acc675f715ba8c4a1a",
-            "Author": {
-              "name": "ig0rserov",
-              "link": "https://github.com/ig0rserov"
-            },
-            "Timestamp": "2025-07-04T11:59:06Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/8c5855e4a7fb58a58132a6acc675f715ba8c4a1a"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.73.2..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2258,5 +2240,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-07-07T07:35:53Z"
+  "LastUpdated": "2025-07-08T07:35:50Z"
 }
