@@ -167,8 +167,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 5,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "chore: bump @opentelemetry/instrumentation-document-load from 0.47.0 to 0.47.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1082"
+          },
           {
             "Title": "feat: 770 bulk download pdf profiles",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1067"
@@ -262,8 +266,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.73.1..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #704 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.78.0",
+            "SHA": "6e4f769f4a56f81fec587008c83fdcc79aea752c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-09T07:31:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/6e4f769f4a56f81fec587008c83fdcc79aea752c"
+          },
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.77.0 to 1.78.0",
+            "SHA": "caa1df55ff50337782e995ff2a79ffeab3777533",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-09T01:38:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/caa1df55ff50337782e995ff2a79ffeab3777533"
+          },
           {
             "Text": "Merge pull request #703 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.77.0",
             "SHA": "362f8e9e941bcfee14fb80e4657ed0fead935840",
@@ -1238,7 +1262,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2242c4b",
+          "Version": "bb1d17a",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1295,8 +1319,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.17..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #1005 from PRODYNA-YASM/feature/tempo-1.44.0",
+            "SHA": "bb1d17a127fd8c3637910c691711550de8e83d9c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-08T20:11:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/bb1d17a127fd8c3637910c691711550de8e83d9c"
+          },
+          {
+            "Text": "Tempo 1.44.0",
+            "SHA": "7872bb80966bd50cfb9414af5b6469d864f15459",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-08T19:59:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/7872bb80966bd50cfb9414af5b6469d864f15459"
+          },
           {
             "Text": "Merge pull request #1004 from PRODYNA-YASM/feature/grafana-tempo-updates",
             "SHA": "2242c4b1858860107984bb26adbb10cb1dda3ca1",
@@ -2240,5 +2284,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-07-08T07:35:50Z"
+  "LastUpdated": "2025-07-09T07:35:22Z"
 }
