@@ -167,11 +167,15 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
           {
-            "Title": "chore: bump @opentelemetry/instrumentation-document-load from 0.47.0 to 0.47.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1082"
+            "Title": "chore: bump node from 24.3.0-slim to 24.4.0-slim",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1084"
+          },
+          {
+            "Title": "chore: bump @opentelemetry/instrumentation-document-load from 0.47.0 to 0.48.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1083"
           },
           {
             "Title": "feat: 770 bulk download pdf profiles",
@@ -216,7 +220,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "362f8e9",
+          "Version": "dad93e4",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -266,8 +270,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.73.1..HEAD",
-        "Count": 4,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Merge pull request #705 from PRODYNA-YASM/feature/go-1.24.5",
+            "SHA": "dad93e4a81b52fc0b00fb11ccc7306d40aa2008c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-09T22:21:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/dad93e4a81b52fc0b00fb11ccc7306d40aa2008c"
+          },
+          {
+            "Text": "Alpine 1.22",
+            "SHA": "41fb4fa67b2f98f3d700207b4300ef1c2fd1edc1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-09T22:10:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/41fb4fa67b2f98f3d700207b4300ef1c2fd1edc1"
+          },
+          {
+            "Text": "After tidy",
+            "SHA": "8b4e15698ed3b8309e29f30077e6fda79fefd615",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-09T20:12:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/8b4e15698ed3b8309e29f30077e6fda79fefd615"
+          },
+          {
+            "Text": "Go 1.24.5",
+            "SHA": "88d919478243fedaf4b069061fee6cfb326afa95",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-09T20:12:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/88d919478243fedaf4b069061fee6cfb326afa95"
+          },
           {
             "Text": "Merge pull request #704 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.78.0",
             "SHA": "6e4f769f4a56f81fec587008c83fdcc79aea752c",
@@ -523,7 +567,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "567b1a1",
+          "Version": "92ec694",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -580,8 +624,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.23.0..HEAD",
-        "Count": 8,
+        "Count": 10,
         "Commits": [
+          {
+            "Text": "Merge pull request #315 from PRODYNA-YASM/feature/go-1.24.5",
+            "SHA": "92ec69477ace132f950498289c40367756f6afb4",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-09T22:18:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/92ec69477ace132f950498289c40367756f6afb4"
+          },
+          {
+            "Text": "Go 1.24.5",
+            "SHA": "7a272018fa99a0fd458a2b31e40f660c52241c91",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-09T20:18:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/7a272018fa99a0fd458a2b31e40f660c52241c91"
+          },
           {
             "Text": "Merge pull request #310 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc-1.37.0",
             "SHA": "567b1a1a2e4a7f93ea5b491a00ee8d893cfc5250",
@@ -679,9 +743,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.73.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "2aabc57",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -736,8 +800,39 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.73.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 3,
+        "Commits": [
+          {
+            "Text": "Merge pull request #224 from PRODYNA-YASM/feature/go-1.24.5",
+            "SHA": "2aabc5747c45c90e7a6d566e0d0cc73dc499dab7",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-09T22:18:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/2aabc5747c45c90e7a6d566e0d0cc73dc499dab7"
+          },
+          {
+            "Text": "Alpine 3.22",
+            "SHA": "e89549c7a6edf1562eec93b4e16586e906b65422",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-09T20:22:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/e89549c7a6edf1562eec93b4e16586e906b65422"
+          },
+          {
+            "Text": "Go 1.24.5",
+            "SHA": "ccccbfe508b85346ddc0cb3738c66eba73cc1653",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-09T20:06:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/ccccbfe508b85346ddc0cb3738c66eba73cc1653"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -754,9 +849,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.11.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "f90d4fd",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -811,8 +906,39 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.11.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 3,
+        "Commits": [
+          {
+            "Text": "Merge pull request #259 from PRODYNA-YASM/feature/go-1.24.5",
+            "SHA": "f90d4fd3968a7653401c679b6798b99991eac53f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-09T22:34:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/f90d4fd3968a7653401c679b6798b99991eac53f"
+          },
+          {
+            "Text": "Alpine 3.22",
+            "SHA": "dbb55979034367845c4f11aba552075552790ea8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-09T22:22:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/dbb55979034367845c4f11aba552075552790ea8"
+          },
+          {
+            "Text": "Go 1.24.5",
+            "SHA": "6d076e5035fef66d41dc64e4fc8a03268a486e88",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-09T20:12:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/6d076e5035fef66d41dc64e4fc8a03268a486e88"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -829,7 +955,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "cb04c9b",
+          "Version": "9fb096d",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -886,8 +1012,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.14.0..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #250 from PRODYNA-YASM/dependabot/docker/golang-1.24.5",
+            "SHA": "9fb096da84db09cae48ba7ea35b7a96af574039d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-09T19:27:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/9fb096da84db09cae48ba7ea35b7a96af574039d"
+          },
+          {
+            "Text": "Bump golang from 1.24.4 to 1.24.5",
+            "SHA": "90dae5e5728cf4836b6629106504944ff48427f1",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-09T17:02:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/90dae5e5728cf4836b6629106504944ff48427f1"
+          },
           {
             "Text": "Merge pull request #249 from PRODYNA-YASM/dependabot/go_modules/go_modules-3464edad9a",
             "SHA": "cb04c9bf95eedf5452ee582761a820e3391333e1",
@@ -1157,8 +1303,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Go 1.24.5",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-external/pull/105"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-external",
       "Commits": {
@@ -1262,14 +1413,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "bb1d17a",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.73.18",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.73.17",
+          "Version": "1.73.18",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -1278,17 +1429,24 @@
           "Link": "",
           "Version": "1.73.17",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.73.17",
+        "Tag": "1.73.18",
         "SHA": "",
-        "Title": "Component updates, including Neo4j",
-        "Timestamp": "2025-07-04T08:43:32Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.17"
+        "Title": "Tempo 1.44, Loki 6.31",
+        "Timestamp": "2025-07-09T09:10:50Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.18"
       },
       "Releases": [
+        {
+          "Tag": "1.73.18",
+          "SHA": "",
+          "Title": "Tempo 1.44, Loki 6.31",
+          "Timestamp": "2025-07-09T09:00:30Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.18"
+        },
         {
           "Tag": "1.73.17",
           "SHA": "",
@@ -1302,13 +1460,6 @@
           "Title": "Tempo 1.42.3, Grafana 9.2.8",
           "Timestamp": "2025-06-27T11:45:21Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.16"
-        },
-        {
-          "Tag": "1.73.15",
-          "SHA": "",
-          "Title": "Otel Operator 0.90.4, Kube State Metrics 6.0.0, Traefik 36.2.0",
-          "Timestamp": "2025-06-24T09:07:47Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.73.15"
         }
       ],
       "PullRequests": {
@@ -1318,57 +1469,21 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.17..HEAD",
-        "Count": 4,
-        "Commits": [
-          {
-            "Text": "Merge pull request #1005 from PRODYNA-YASM/feature/tempo-1.44.0",
-            "SHA": "bb1d17a127fd8c3637910c691711550de8e83d9c",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-07-08T20:11:56Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/bb1d17a127fd8c3637910c691711550de8e83d9c"
-          },
-          {
-            "Text": "Tempo 1.44.0",
-            "SHA": "7872bb80966bd50cfb9414af5b6469d864f15459",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-07-08T19:59:29Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/7872bb80966bd50cfb9414af5b6469d864f15459"
-          },
-          {
-            "Text": "Merge pull request #1004 from PRODYNA-YASM/feature/grafana-tempo-updates",
-            "SHA": "2242c4b1858860107984bb26adbb10cb1dda3ca1",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-07-05T10:32:01Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/2242c4b1858860107984bb26adbb10cb1dda3ca1"
-          },
-          {
-            "Text": "Tempo 1.43.0, Grafana 9.2.10",
-            "SHA": "c113a06062f1f33745664beb7a5c3670c689af26",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-07-05T09:48:23Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c113a06062f1f33745664beb7a5c3670c689af26"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.18..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "Merge pull request #1006 from PRODYNA-YASM/feature/loki-6.31.0",
+            "Timestamp": "2025-07-09T09:10:52Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/16165237175"
+          },
           {
             "Name": "Merge pull request #1000 from PRODYNA-YASM/feature/grafana-9.2.8",
             "Timestamp": "2025-06-27T11:51:08Z",
@@ -1556,8 +1671,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.73.0..HEAD",
-        "Count": 6,
+        "Count": 7,
         "Commits": [
+          {
+            "Text": "chore: bump io.smallrye.reactive:mutiny from 2.9.2 to 2.9.3 (#289)",
+            "SHA": "58525972c809e41a85f47b2f301c7756a9b39f3e",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-10T06:56:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/58525972c809e41a85f47b2f301c7756a9b39f3e"
+          },
           {
             "Text": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin (#287)",
             "SHA": "ea8987a18aaee361bf92a18ffd3e89a8d86fbcdd",
@@ -1720,20 +1845,20 @@
         "Count": 8,
         "PullRequests": [
           {
+            "Title": "chore(deps): Bump @azure/msal-node from 3.5.1 to 3.6.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/325"
+          },
+          {
+            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 24.0.12",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/324"
+          },
+          {
             "Title": "chore(deps): Bump cypress/included from 14.3.2 to 14.5.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/323"
           },
           {
-            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 24.0.10",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/322"
-          },
-          {
             "Title": "chore(deps-dev): Bump cypress from 14.3.2 to 14.5.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/321"
-          },
-          {
-            "Title": "chore(deps): Bump @azure/msal-node from 3.5.1 to 3.6.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/320"
           },
           {
             "Title": "chore(deps): Bump openid-client from 6.1.3 to 6.6.2",
@@ -2095,7 +2220,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "6a7d59a",
+          "Version": "9b5dafb",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2146,39 +2271,124 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 6,
-        "PullRequests": [
-          {
-            "Title": "Bump @types/jasmine from 5.1.7 to 5.1.8 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/168"
-          },
-          {
-            "Title": "Bump @azure/msal-browser from 4.11.1 to 4.14.0 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/167"
-          },
-          {
-            "Title": "Bump jasmine-core from 5.7.1 to 5.8.0 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/166"
-          },
-          {
-            "Title": "Bump @openapitools/openapi-generator-cli from 2.20.0 to 2.21.0 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/165"
-          },
-          {
-            "Title": "Bump whatwg-url from 5.0.0 to 14.2.0 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/164"
-          },
-          {
-            "Title": "Feature/ 155,161 157, 153, 88",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/163"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/fox-and-hound",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/compare/1.2.0..HEAD",
-        "Count": 8,
+        "Count": 19,
         "Commits": [
+          {
+            "Text": "Merge pull request #165 from PRODYNA-YASM/dependabot/npm_and_yarn/frontend/openapitools/openapi-generator-cli-2.21.0",
+            "SHA": "9b5dafb4e5f7fab2acaecefb1e064a6c2285b095",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-07-10T07:23:30Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/9b5dafb4e5f7fab2acaecefb1e064a6c2285b095"
+          },
+          {
+            "Text": "Bump @openapitools/openapi-generator-cli in /frontend",
+            "SHA": "1a9141434117ff05fffb95788e0c7c036686b32d",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-10T07:20:34Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/1a9141434117ff05fffb95788e0c7c036686b32d"
+          },
+          {
+            "Text": "Merge pull request #166 from PRODYNA-YASM/dependabot/npm_and_yarn/frontend/jasmine-core-5.8.0",
+            "SHA": "50859f6164b38f083ccd6e81e571302da4cb5992",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-07-10T07:19:26Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/50859f6164b38f083ccd6e81e571302da4cb5992"
+          },
+          {
+            "Text": "Merge pull request #163 from PRODYNA-YASM/feature/_155_FullWidthIsBiggerInFullscreenMode",
+            "SHA": "894265bf32898a089722010f37fd161ceb50b121",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-07-10T07:18:54Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/894265bf32898a089722010f37fd161ceb50b121"
+          },
+          {
+            "Text": "Bump jasmine-core from 5.7.1 to 5.8.0 in /frontend",
+            "SHA": "e22a530f9965a8b4f423758759a893436b852359",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-07T03:17:44Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/e22a530f9965a8b4f423758759a893436b852359"
+          },
+          {
+            "Text": "make it sassy",
+            "SHA": "ca3fc8748905bcf9af95bcef55de9681a240249d",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-07-06T12:51:14Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/ca3fc8748905bcf9af95bcef55de9681a240249d"
+          },
+          {
+            "Text": "#153 text boxes with answers should be bigger",
+            "SHA": "d61068ad96312c51cf3f6ac9e091e1532cf134c3",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-07-06T12:48:39Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/d61068ad96312c51cf3f6ac9e091e1532cf134c3"
+          },
+          {
+            "Text": "#153 text boxes with answers should be bigger",
+            "SHA": "024622d9930d8d0c76593ece249ba1bda32a0fe3",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-07-06T12:33:57Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/024622d9930d8d0c76593ece249ba1bda32a0fe3"
+          },
+          {
+            "Text": "#157 rename Your answer to candidate answer",
+            "SHA": "89954107cb6ac37f70e708ff7f12e8dc460ce6ed",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-07-06T12:27:01Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/89954107cb6ac37f70e708ff7f12e8dc460ce6ed"
+          },
+          {
+            "Text": "#155 Make use of full width",
+            "SHA": "704fad5106e0e4d7549f52e3ca92392cbf83e95f",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-07-06T12:24:22Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/704fad5106e0e4d7549f52e3ca92392cbf83e95f"
+          },
+          {
+            "Text": "#155 Make use of full width",
+            "SHA": "826bca583d1cb4ce9557d2473681a73e518f8f59",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-07-06T12:09:23Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/826bca583d1cb4ce9557d2473681a73e518f8f59"
+          },
           {
             "Text": "Merge pull request #162 from PRODYNA-YASM/feature/_156_upgradeAngularAndOtherFeDependencies",
             "SHA": "6a7d59ad3a577d700e0f6d0ffd5df855d8ef4925",
@@ -2284,5 +2494,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-07-09T07:35:22Z"
+  "LastUpdated": "2025-07-10T07:35:27Z"
 }
