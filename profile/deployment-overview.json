@@ -8,9 +8,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.73.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "f4d9591",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -59,15 +59,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 7,
+        "Count": 6,
         "PullRequests": [
           {
             "Title": "build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.4 to 2.45.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/905"
-          },
-          {
-            "Title": "build(deps): bump xalan:serializer from 2.7.2 to 2.7.3",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/903"
           },
           {
             "Title": "build(deps): bump xml-apis:xml-apis from 1.4.01 to 2.0.2",
@@ -94,8 +90,19 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.73.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "build(deps): bump xalan:serializer from 2.7.2 to 2.7.3 (#903)",
+            "SHA": "f4d9591e86f96eaea586c986ea1c73d976c718a1",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-11T09:58:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/f4d9591e86f96eaea586c986ea1c73d976c718a1"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -123,9 +130,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.73.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "6ba8d3b",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -167,15 +174,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 6,
         "PullRequests": [
           {
-            "Title": "chore: bump node from 24.3.0-slim to 24.4.0-slim",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1084"
-          },
-          {
-            "Title": "chore: bump @opentelemetry/instrumentation-document-load from 0.47.0 to 0.48.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1083"
+            "Title": "fix: 292 bugs with clicking outside of shoppingcart dialogs",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1086"
           },
           {
             "Title": "feat: 770 bulk download pdf profiles",
@@ -202,8 +205,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.73.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "chore: bump node from 24.3.0-slim to 24.4.0-slim (#1084)",
+            "SHA": "6ba8d3b09a52106f3f802a8a81f4c087f35aa096",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-11T08:53:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/6ba8d3b09a52106f3f802a8a81f4c087f35aa096"
+          },
+          {
+            "Text": "chore: bump @opentelemetry/instrumentation-document-load (#1083)",
+            "SHA": "da85ba12583858b38293530c16c27fb5e0807f5e",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-11T07:58:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/da85ba12583858b38293530c16c27fb5e0807f5e"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -314,7 +338,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "c9321d2",
+          "Version": "3a09056",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -376,8 +400,28 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.73.0..HEAD",
-        "Count": 9,
+        "Count": 11,
         "Commits": [
+          {
+            "Text": "Merge pull request #472 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.74.0",
+            "SHA": "3a090562cc1df753e8c425f5a251c3ec69f4658c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-12T07:26:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/3a090562cc1df753e8c425f5a251c3ec69f4658c"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.73.0 to 1.74.0",
+            "SHA": "b5d48b4d93c3c056be1661f57b8ea41252cc09df",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-11T22:01:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/b5d48b4d93c3c056be1661f57b8ea41252cc09df"
+          },
           {
             "Text": "Merge pull request #469 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp-0.62.0",
             "SHA": "c9321d286625a701ba0062ea82708455251670c7",
@@ -1095,9 +1139,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.2.0",
+          "Version": "1.2.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1145,13 +1189,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #105 from PRODYNA-YASM/feature/go-1.24.5",
-            "Timestamp": "2025-07-10T13:34:31Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-external/actions/runs/16196599034"
-          },
           {
             "Name": "Merge pull request #98 from PRODYNA-YASM/dependabot/go_modules/go.ope…",
             "Timestamp": "2025-06-26T08:46:45Z",
@@ -1242,7 +1281,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "b4037ca",
+          "Version": "96c83a4",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1312,8 +1351,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.18..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #1011 from PRODYNA-YASM/feature/tempo-1.45.0",
+            "SHA": "96c83a44fe5096882b38e4d4978a4dfc5536f1c2",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-11T10:26:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/96c83a44fe5096882b38e4d4978a4dfc5536f1c2"
+          },
+          {
+            "Text": "Tempo 1.45.0",
+            "SHA": "6834e6a5d260587e6238d0f099a4e6085dcca957",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-11T08:00:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6834e6a5d260587e6238d0f099a4e6085dcca957"
+          },
           {
             "Text": "Merge pull request #1007 from PRODYNA-YASM/feature/otel-operator-0.91.0",
             "SHA": "b4037ca257830b801085f355de11c33dad78b2e8",
@@ -1492,13 +1551,20 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "1.73.0",
+        "Tag": "1.74.0",
         "SHA": "",
-        "Title": "1.73.0 Removed organization from awards, Created endpoint to connect awards directly with employees",
-        "Timestamp": "2025-04-11T11:41:22Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.73.0"
+        "Title": "1.74.0 Refactor Project References",
+        "Timestamp": "2025-07-11T10:58:01Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.74.0"
       },
       "Releases": [
+        {
+          "Tag": "1.74.0",
+          "SHA": "",
+          "Title": "1.74.0 Refactor Project References",
+          "Timestamp": "2025-07-11T10:54:55Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.74.0"
+        },
         {
           "Tag": "1.73.0",
           "SHA": "",
@@ -1512,101 +1578,18 @@
           "Title": "1.72.0",
           "Timestamp": "2025-03-31T07:40:02Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.72.0"
-        },
-        {
-          "Tag": "1.71.0",
-          "SHA": "",
-          "Title": "1.71.0",
-          "Timestamp": "2025-03-19T07:39:43Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.71.0"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "feat: reactor project layouts",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/288"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.73.0..HEAD",
-        "Count": 7,
-        "Commits": [
-          {
-            "Text": "chore: bump io.smallrye.reactive:mutiny from 2.9.2 to 2.9.3 (#289)",
-            "SHA": "58525972c809e41a85f47b2f301c7756a9b39f3e",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-07-10T06:56:07Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/58525972c809e41a85f47b2f301c7756a9b39f3e"
-          },
-          {
-            "Text": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin (#287)",
-            "SHA": "ea8987a18aaee361bf92a18ffd3e89a8d86fbcdd",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-07-04T00:33:15Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/ea8987a18aaee361bf92a18ffd3e89a8d86fbcdd"
-          },
-          {
-            "Text": "chore: bump com.fasterxml.jackson.core:jackson-databind (#281)",
-            "SHA": "f2cddf6c8f7c05e88f6b234122603c53fe82c27f",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-06-27T07:50:36Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/f2cddf6c8f7c05e88f6b234122603c53fe82c27f"
-          },
-          {
-            "Text": "chore: bump org.openapitools:openapi-generator-maven-plugin (#285)",
-            "SHA": "93895342c53080126372697d7b05f219f5389ae3",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-06-26T05:34:17Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/93895342c53080126372697d7b05f219f5389ae3"
-          },
-          {
-            "Text": "chore: bump io.smallrye.reactive:mutiny from 2.9.1 to 2.9.2 (#284)",
-            "SHA": "1d27d07daaf93cad2aeeb881fe247aba2c7aa771",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-06-24T07:11:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/1d27d07daaf93cad2aeeb881fe247aba2c7aa771"
-          },
-          {
-            "Text": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin (#283)",
-            "SHA": "4f0ee120bc818f1434abdcc7d233ec57eefe1343",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-06-23T06:19:02Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/4f0ee120bc818f1434abdcc7d233ec57eefe1343"
-          },
-          {
-            "Text": "chore: bump io.smallrye.reactive:mutiny from 2.8.0 to 2.9.1 (#282)",
-            "SHA": "935f741d7611fa573d0b39143465f8f8f12c0b26",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-06-20T12:15:31Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/935f741d7611fa573d0b39143465f8f8f12c0b26"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.74.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1708,12 +1691,12 @@
         "Count": 8,
         "PullRequests": [
           {
-            "Title": "chore(deps): Bump @azure/msal-node from 3.5.1 to 3.6.3",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/325"
+            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 24.0.13",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/326"
           },
           {
-            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 24.0.12",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/324"
+            "Title": "chore(deps): Bump @azure/msal-node from 3.5.1 to 3.6.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/325"
           },
           {
             "Title": "chore(deps): Bump cypress/included from 14.3.2 to 14.5.1",
@@ -2363,5 +2346,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-07-11T07:36:06Z"
+  "LastUpdated": "2025-07-12T07:34:18Z"
 }
