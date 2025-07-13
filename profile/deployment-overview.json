@@ -301,7 +301,7 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 5,
+        "Count": 4,
         "Workflows": [
           {
             "Name": "Merge pull request #705 from PRODYNA-YASM/feature/go-1.24.5",
@@ -322,11 +322,6 @@
             "Name": "Merge pull request #692 from PRODYNA-YASM/dependabot/go_modules/githu…",
             "Timestamp": "2025-06-19T23:34:18Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/15767953865"
-          },
-          {
-            "Name": "Merge pull request #689 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2025-06-12T09:32:27Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/15606919339"
           }
         ]
       }
@@ -1281,7 +1276,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "96c83a4",
+          "Version": "b4dc55e",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1332,27 +1327,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 3,
-        "PullRequests": [
-          {
-            "Title": "Bump hashicorp/azurerm from 4.35.0 to 4.36.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1010"
-          },
-          {
-            "Title": "Bump DataDog/datadog from 3.66.0 to 3.67.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1009"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 4.35.0 to 4.36.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1008"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.73.18..HEAD",
-        "Count": 4,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #1012 from PRODYNA-YASM/feature/update-providers",
+            "SHA": "b4dc55eb3b9a939dd9b6332a71b4041b1a7762ca",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-12T20:39:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b4dc55eb3b9a939dd9b6332a71b4041b1a7762ca"
+          },
+          {
+            "Text": "AzureRM 4.36, DataDog 3.67",
+            "SHA": "d9486d2845cb2a22c30b18d9e68c82663c3eaea3",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-12T10:55:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d9486d2845cb2a22c30b18d9e68c82663c3eaea3"
+          },
           {
             "Text": "Merge pull request #1011 from PRODYNA-YASM/feature/tempo-1.45.0",
             "SHA": "96c83a44fe5096882b38e4d4978a4dfc5536f1c2",
@@ -2346,5 +2348,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-07-12T07:34:18Z"
+  "LastUpdated": "2025-07-13T07:35:14Z"
 }
