@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump org.apache.xmlgraphics:xmlgraphics-commons from 2.10 to 2.11",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/906"
+          },
           {
             "Title": "build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.4 to 2.45.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/905"
@@ -174,8 +178,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "chore: bump editorjs-html from 3.4.3 to 4.0.5",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1087"
+          },
           {
             "Title": "fix: 292 bugs with clicking outside of shoppingcart dialogs",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1086"
@@ -244,9 +252,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.73.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "4958a95",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -294,8 +302,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.73.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #706 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.74.0",
+            "SHA": "4958a952233eb223ed9a4037134add51f6bde5c7",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-14T05:15:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/4958a952233eb223ed9a4037134add51f6bde5c7"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.73.0 to 1.74.0",
+            "SHA": "c947d49d6a499082b879f95a7d2653cd159ec614",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-14T01:50:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/c947d49d6a499082b879f95a7d2653cd159ec614"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -611,7 +640,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2aabc57",
+          "Version": "60ae52c",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -668,8 +697,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.73.1..HEAD",
-        "Count": 3,
+        "Count": 5,
         "Commits": [
+          {
+            "Text": "Merge pull request #225 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.74.0",
+            "SHA": "60ae52c8f93490a0177f8525bd37e2ee1c4baa51",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-14T07:33:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/60ae52c8f93490a0177f8525bd37e2ee1c4baa51"
+          },
+          {
+            "Text": "build(deps): bump github.com/prodyna-yasm/yasm-api-go",
+            "SHA": "9c858b3a0d8e7044de147538b71b4fdfdfd1fded",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-14T07:22:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/9c858b3a0d8e7044de147538b71b4fdfdfd1fded"
+          },
           {
             "Text": "Merge pull request #224 from PRODYNA-YASM/feature/go-1.24.5",
             "SHA": "2aabc5747c45c90e7a6d566e0d0cc73dc499dab7",
@@ -2125,8 +2174,17 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump @angular/cli from 20.0.5 to 20.1.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/170"
+          },
+          {
+            "Title": "Bump @azure/msal-browser from 4.11.1 to 4.15.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/169"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/fox-and-hound",
       "Commits": {
@@ -2348,5 +2406,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-07-13T07:35:14Z"
+  "LastUpdated": "2025-07-14T07:37:04Z"
 }
