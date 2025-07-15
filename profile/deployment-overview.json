@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 7,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "fix: 292 bug with deleting shoppingcartgroup with multiple members",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/907"
+          },
           {
             "Title": "build(deps): bump org.apache.xmlgraphics:xmlgraphics-commons from 2.10 to 2.11",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/906"
@@ -2406,5 +2410,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-07-14T07:37:04Z"
+  "LastUpdated": "2025-07-15T07:36:59Z"
 }
