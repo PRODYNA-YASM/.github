@@ -8,33 +8,33 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "f4d9591",
+          "Version": "4fbe9d6",
           "IsRelease": false,
           "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.73.1",
+          "Version": "1.74.0",
           "IsRelease": true,
           "IsCurrent": true
-        },
-        {
-          "Name": "prod",
-          "Link": "",
-          "Version": "1.72.0",
-          "IsRelease": true,
-          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.73.1",
+        "Tag": "1.74.0",
         "SHA": "",
-        "Title": "1.73.1",
-        "Timestamp": "2025-07-05T19:45:50Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.73.1"
+        "Title": "Fix bug with deleting shoppingCartGroup with multiple members, reactor project layouts",
+        "Timestamp": "2025-07-15T13:03:07Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.74.0"
       },
       "Releases": [
+        {
+          "Tag": "1.74.0",
+          "SHA": "",
+          "Title": "Fix bug with deleting shoppingCartGroup with multiple members, reactor project layouts",
+          "Timestamp": "2025-07-15T12:52:20Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.74.0"
+        },
         {
           "Tag": "1.73.1",
           "SHA": "",
@@ -48,26 +48,15 @@
           "Title": "Removed organization dependency from awards, allow cors, replaced DocumentBuilderFactory.newInstance with newDefaultInstance, rework location area on export, update dependencies",
           "Timestamp": "2025-06-13T15:34:55Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.73.0"
-        },
-        {
-          "Tag": "1.72.0",
-          "SHA": "",
-          "Title": "Add external to project search filter, created dependency review, fixed handling of new object structure of personal task.",
-          "Timestamp": "2025-04-01T14:31:34Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.72.0"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 8,
+        "Count": 5,
         "PullRequests": [
           {
-            "Title": "fix: 292 bug with deleting shoppingcartgroup with multiple members",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/907"
-          },
-          {
-            "Title": "build(deps): bump org.apache.xmlgraphics:xmlgraphics-commons from 2.10 to 2.11",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/906"
+            "Title": "build(deps): bump quarkus.platform.version from 3.24.2 to 3.24.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/908"
           },
           {
             "Title": "build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.4 to 2.45.0",
@@ -76,14 +65,6 @@
           {
             "Title": "build(deps): bump xml-apis:xml-apis from 1.4.01 to 2.0.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/902"
-          },
-          {
-            "Title": "build(deps): bump org.apache.maven.plugins:maven-enforcer-plugin from 3.5.0 to 3.6.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/901"
-          },
-          {
-            "Title": "feat: reactor project layouts",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/900"
           },
           {
             "Title": "build(deps): bump org.apache.xmlgraphics:batik-all from 1.18 to 1.19",
@@ -97,18 +78,18 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.73.1..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.74.0..HEAD",
         "Count": 1,
         "Commits": [
           {
-            "Text": "build(deps): bump xalan:serializer from 2.7.2 to 2.7.3 (#903)",
-            "SHA": "f4d9591e86f96eaea586c986ea1c73d976c718a1",
+            "Text": "build(deps): bump org.apache.maven.plugins:maven-enforcer-plugin from 3.5.0 to 3.6.1 (#909)",
+            "SHA": "4fbe9d6c54e8f04d99551630938973b64f587bf5",
             "Author": {
               "name": "dependabot[bot]",
               "link": "https://github.com/dependabot[bot]"
             },
-            "Timestamp": "2025-07-11T09:58:07Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/f4d9591e86f96eaea586c986ea1c73d976c718a1"
+            "Timestamp": "2025-07-16T05:00:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/4fbe9d6c54e8f04d99551630938973b64f587bf5"
           }
         ]
       },
@@ -116,8 +97,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 3,
         "Workflows": [
+          {
+            "Name": "fix: 292 bug with deleting shoppingcartgroup with multiple members (#…",
+            "Timestamp": "2025-07-15T13:03:09Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/16294034982"
+          },
           {
             "Name": "fix: pdf formatting (#899)",
             "Timestamp": "2025-07-05T19:45:52Z",
@@ -138,26 +124,33 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "6ba8d3b",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.73.3",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.73.2",
+          "Version": "1.73.3",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.73.2",
+        "Tag": "1.73.3",
         "SHA": "",
-        "Title": "Filter out former employees from role member suggestions, remove former employee ID filter from PersonInformation component",
-        "Timestamp": "2025-07-07T09:38:27Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.2"
+        "Title": "Fixing bug with wrong clicking outside of shoppingCart Dialogs",
+        "Timestamp": "2025-07-15T11:08:41Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.3"
       },
       "Releases": [
+        {
+          "Tag": "1.73.3",
+          "SHA": "",
+          "Title": "Fixing bug with wrong clicking outside of shoppingCart Dialogs",
+          "Timestamp": "2025-07-15T08:58:46Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.3"
+        },
         {
           "Tag": "1.73.2",
           "SHA": "",
@@ -171,26 +164,15 @@
           "Title": "Design and Functionality improvements to shoppingcart feature, dependency updates",
           "Timestamp": "2025-07-02T15:23:00Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.1"
-        },
-        {
-          "Tag": "1.73.0",
-          "SHA": "",
-          "Title": "added shoppingCart component, remove styled components dependency, mobile optimization, remove organization dep from awards, allow one month participation , dependecy updates",
-          "Timestamp": "2025-06-20T12:16:14Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.0"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 6,
         "PullRequests": [
           {
             "Title": "chore: bump editorjs-html from 3.4.3 to 4.0.5",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1087"
-          },
-          {
-            "Title": "fix: 292 bugs with clicking outside of shoppingcart dialogs",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1086"
           },
           {
             "Title": "feat: 770 bulk download pdf profiles",
@@ -216,30 +198,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.73.2..HEAD",
-        "Count": 2,
-        "Commits": [
-          {
-            "Text": "chore: bump node from 24.3.0-slim to 24.4.0-slim (#1084)",
-            "SHA": "6ba8d3b09a52106f3f802a8a81f4c087f35aa096",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-07-11T08:53:49Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/6ba8d3b09a52106f3f802a8a81f4c087f35aa096"
-          },
-          {
-            "Text": "chore: bump @opentelemetry/instrumentation-document-load (#1083)",
-            "SHA": "da85ba12583858b38293530c16c27fb5e0807f5e",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-07-11T07:58:57Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/da85ba12583858b38293530c16c27fb5e0807f5e"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.73.3..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -256,7 +217,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "4958a95",
+          "Version": "d4f1e12",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -306,8 +267,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.73.2..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #707 from PRODYNA-YASM/dependabot/docker/alpine-3.22.1",
+            "SHA": "d4f1e12fd4b2dbb9282df8f02f67648079339dd0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-16T04:59:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/d4f1e12fd4b2dbb9282df8f02f67648079339dd0"
+          },
+          {
+            "Text": "Bump alpine from 3.22.0 to 3.22.1",
+            "SHA": "d5de44ad56203c7492929b3589c279745caa2d78",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-16T01:45:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/d5de44ad56203c7492929b3589c279745caa2d78"
+          },
           {
             "Text": "Merge pull request #706 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.74.0",
             "SHA": "4958a952233eb223ed9a4037134add51f6bde5c7",
@@ -695,8 +676,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "build(deps): bump alpine from 3.22.0 to 3.22.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/226"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
@@ -770,7 +756,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "f90d4fd",
+          "Version": "4b906f2",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -821,14 +807,39 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump github.com/golang-jwt/jwt/v5 from 5.2.2 to 5.2.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/260"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.11.0..HEAD",
-        "Count": 3,
+        "Count": 5,
         "Commits": [
+          {
+            "Text": "Merge pull request #261 from PRODYNA-YASM/dependabot/docker/alpine-3.22.1",
+            "SHA": "4b906f28beaeb79397caedc64b53a3da14207425",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-16T05:02:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/4b906f28beaeb79397caedc64b53a3da14207425"
+          },
+          {
+            "Text": "Bump alpine from 3.22.0 to 3.22.1",
+            "SHA": "96ca2a79a4c88ce003e1bf83e6d9aeffba64aff9",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-15T23:56:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/96ca2a79a4c88ce003e1bf83e6d9aeffba64aff9"
+          },
           {
             "Text": "Merge pull request #259 from PRODYNA-YASM/feature/go-1.24.5",
             "SHA": "f90d4fd3968a7653401c679b6798b99991eac53f",
@@ -1746,8 +1757,8 @@
         "Count": 8,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 24.0.13",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/326"
+            "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 24.0.14",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/327"
           },
           {
             "Title": "chore(deps): Bump @azure/msal-node from 3.5.1 to 3.6.3",
@@ -1965,9 +1976,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.7.4",
+          "Version": "1.7.5",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -2015,14 +2026,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #129 from PRODYNA-YASM/feature/go-1.24.5",
-            "Timestamp": "2025-07-10T14:51:00Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-mainproject/actions/runs/16198434347"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -2410,5 +2415,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-07-15T07:36:59Z"
+  "LastUpdated": "2025-07-16T07:36:36Z"
 }
