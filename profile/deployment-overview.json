@@ -18,6 +18,13 @@
           "Version": "1.74.0",
           "IsRelease": true,
           "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.74.0",
+          "IsRelease": true,
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -97,18 +104,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "fix: 292 bug with deleting shoppingcartgroup with multiple members (#…",
-            "Timestamp": "2025-07-15T13:03:09Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/16294034982"
-          },
-          {
-            "Name": "fix: pdf formatting (#899)",
-            "Timestamp": "2025-07-05T19:45:52Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/16091483567"
-          },
           {
             "Name": "feat: update quarkus (#890)",
             "Timestamp": "2025-06-20T12:22:59Z",
@@ -227,6 +224,13 @@
         },
         {
           "Name": "staging",
+          "Link": "",
+          "Version": "1.73.2",
+          "IsRelease": true,
+          "IsCurrent": true
+        },
+        {
+          "Name": "prod",
           "Link": "",
           "Version": "1.73.2",
           "IsRelease": true,
@@ -364,13 +368,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 2,
         "Workflows": [
-          {
-            "Name": "Merge pull request #705 from PRODYNA-YASM/feature/go-1.24.5",
-            "Timestamp": "2025-07-10T14:52:55Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/16198480253"
-          },
           {
             "Name": "Merge pull request #692 from PRODYNA-YASM/dependabot/go_modules/githu…",
             "Timestamp": "2025-06-20T12:28:35Z",
@@ -2594,5 +2593,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-07-17T14:33:07Z"
+  "LastUpdated": "2025-07-17T14:41:17Z"
 }
