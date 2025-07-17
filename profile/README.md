@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-07-17T14:41:17Z
+Component Status overview. Last update 2025-07-17T15:12:43Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-backend/compare/1.74.0..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.74.0 |  :red_square: 4fbe9d6 |  :green_square: 1.74.0 |  :green_square: 1.74.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.73.4 |  :green_square: 1.73.4 |  :green_square: 1.73.4 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-backend/compare/1.74.0..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.74.0 |  :green_square: 1.74.0 |  :green_square: 1.74.0 |  :green_square: 1.74.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.73.5 |  :green_square: 1.73.5 |  :green_square: 1.73.5 |  :green_square: 1.73.5 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [8](https://github.com/prodyna-yasm/yasm-integration/compare/1.73.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.73.2 |  :red_square: 8b978a4 |  :green_square: 1.73.2 |  :green_square: 1.73.2 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [11](https://github.com/prodyna-yasm/yasmctl/compare/1.73.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.73.0 |  :red_square: 3a09056 |  :green_square: 1.73.0 |  :green_square: 1.73.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.23.1 |  :green_square: 1.23.1 |  :green_square: 1.23.1 |  :green_square: 1.23.1 | 
@@ -57,9 +57,9 @@ Component Status overview. Last update 2025-07-17T14:41:17Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  4fbe9d6 |  1.74.0 |  1.74.0 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.74.0 |  1.74.0 |  1.74.0 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -80,7 +80,7 @@ Component Status overview. Last update 2025-07-17T14:41:17Z
 
 
 
-## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.73.4
+## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.73.5
 
 
 
@@ -107,20 +107,20 @@ Component Status overview. Last update 2025-07-17T14:41:17Z
 
 ### Environments
 
-| Environment |  dev |  staging | 
-| --- |  --- |  --- | 
-| Version |  1.73.4 |  1.73.4 | 
-| Release |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: | 
+| Environment |  dev |  staging |  prod | 
+| --- |  --- |  --- |  --- | 
+| Version |  1.73.5 |  1.73.5 |  1.73.5 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Ignore tests results, no other changes](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.5) on 2025-07-17 15:03:44 +0000 UTC
+
 - [Change naming in collection sharing input field](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.4) on 2025-07-17 10:02:30 +0000 UTC
 
 - [Fixing bug with wrong clicking outside of shoppingCart Dialogs](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.3) on 2025-07-15 08:58:46 +0000 UTC
-
-- [Filter out former employees from role member suggestions, remove former employee ID filter from PersonInformation component](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.2) on 2025-07-07 09:30:10 +0000 UTC
 
 
 

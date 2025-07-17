@@ -8,9 +8,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "4fbe9d6",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.74.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
@@ -121,26 +121,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.73.4",
+          "Version": "1.73.5",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.73.4",
+          "Version": "1.73.5",
+          "IsRelease": true,
+          "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.73.5",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.73.4",
+        "Tag": "1.73.5",
         "SHA": "",
-        "Title": "Change naming in collection sharing input field",
-        "Timestamp": "2025-07-17T10:10:00Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.4"
+        "Title": "Ignore tests results, no other changes",
+        "Timestamp": "2025-07-17T15:08:33Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.5"
       },
       "Releases": [
+        {
+          "Tag": "1.73.5",
+          "SHA": "",
+          "Title": "Ignore tests results, no other changes",
+          "Timestamp": "2025-07-17T15:03:44Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.5"
+        },
         {
           "Tag": "1.73.4",
           "SHA": "",
@@ -154,13 +168,6 @@
           "Title": "Fixing bug with wrong clicking outside of shoppingCart Dialogs",
           "Timestamp": "2025-07-15T08:58:46Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.3"
-        },
-        {
-          "Tag": "1.73.2",
-          "SHA": "",
-          "Title": "Filter out former employees from role member suggestions, remove former employee ID filter from PersonInformation component",
-          "Timestamp": "2025-07-07T09:30:10Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.2"
         }
       ],
       "PullRequests": {
@@ -199,7 +206,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.73.4..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.73.5..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -2593,5 +2600,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-07-17T14:41:17Z"
+  "LastUpdated": "2025-07-17T15:12:43Z"
 }
