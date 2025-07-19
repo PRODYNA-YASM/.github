@@ -172,8 +172,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "chore: bump @eslint/plugin-kit from 0.3.1 to 0.3.3 in the npm_and_yarn group",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1092"
+          },
           {
             "Title": "chore: bump html-react-parser from 3.0.15 to 5.2.6",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1091"
@@ -1926,13 +1930,20 @@
       "Error": "",
       "Environments": null,
       "LatestRelease": {
-        "Tag": "v1.51.6",
+        "Tag": "v1.74.0",
         "SHA": "",
-        "Title": "v1.51.6",
-        "Timestamp": "2025-02-18T11:05:58Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/v1.51.6"
+        "Title": "v1.74.0",
+        "Timestamp": "2025-07-18T11:52:02Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/v1.74.0"
       },
       "Releases": [
+        {
+          "Tag": "v1.74.0",
+          "SHA": "",
+          "Title": "v1.74.0",
+          "Timestamp": "2025-07-18T11:17:56Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/v1.74.0"
+        },
         {
           "Tag": "v1.51.6",
           "SHA": "",
@@ -1946,18 +1957,11 @@
           "Title": "1.51.0",
           "Timestamp": "2025-01-17T07:59:05Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/1.51.0"
-        },
-        {
-          "Tag": "1.48.0",
-          "SHA": "",
-          "Title": "1.48.0",
-          "Timestamp": "2024-12-07T11:06:29Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-test/releases/tag/1.48.0"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 8,
+        "Count": 7,
         "PullRequests": [
           {
             "Title": "chore(deps): Bump cypress/included from 14.3.2 to 14.5.2",
@@ -1966,10 +1970,6 @@
           {
             "Title": "chore(deps): Bump jose from 6.0.10 to 6.0.12",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/329"
-          },
-          {
-            "Title": "chore(deps-dev): Bump cypress from 14.3.2 to 14.5.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/328"
           },
           {
             "Title": "chore(deps-dev): Bump @types/node from 22.15.3 to 24.0.14",
@@ -1995,160 +1995,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-test",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-test/compare/v1.51.6..HEAD",
-        "Count": 15,
-        "Commits": [
-          {
-            "Text": "chore(deps-dev): Bump mochawesome-merge from 4.3.0 to 5.0.0 (#257)",
-            "SHA": "25bc9946e5cddf2e71cdfc70068695f327f7309f",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-04-29T07:36:03Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/25bc9946e5cddf2e71cdfc70068695f327f7309f"
-          },
-          {
-            "Text": "chore(deps): Bump @azure/msal-node from 3.1.0 to 3.5.1 (#276)",
-            "SHA": "cef9b81e82457d57561267e79583648b02605788",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-04-29T07:23:56Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/cef9b81e82457d57561267e79583648b02605788"
-          },
-          {
-            "Text": "chore(deps): Bump cypress/included from 13.15.0 to 14.3.2 (#279)",
-            "SHA": "2a363dfedcd9491caffd259f636bfac23bee6b06",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-04-29T07:23:46Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/2a363dfedcd9491caffd259f636bfac23bee6b06"
-          },
-          {
-            "Text": "chore(deps-dev): Bump @types/node from 22.10.10 to 22.15.2 (#281)",
-            "SHA": "08436dadc503fa6b0bddc19de4b96c41f8c60929",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-04-29T07:23:33Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/08436dadc503fa6b0bddc19de4b96c41f8c60929"
-          },
-          {
-            "Text": "chore(deps-dev): Bump typescript from 5.6.3 to 5.8.3 (#271)",
-            "SHA": "8ce6c34c78832209414bb0e038382bbe01c20fc6",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-04-29T07:23:21Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/8ce6c34c78832209414bb0e038382bbe01c20fc6"
-          },
-          {
-            "Text": "chore(deps-dev): Bump cypress from 14.1.0 to 14.3.2 (#280)",
-            "SHA": "bab0f012c1eb03b031a6760640695d3566ec5cdc",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-04-29T07:22:59Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/bab0f012c1eb03b031a6760640695d3566ec5cdc"
-          },
-          {
-            "Text": "General refactoring and code improvments (#282)",
-            "SHA": "17e6c26ffb1a1fb8fd97ef6ac6f7733fe89d1e8f",
-            "Author": {
-              "name": "codinski",
-              "link": "https://github.com/codinski"
-            },
-            "Timestamp": "2025-04-29T07:14:54Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/17e6c26ffb1a1fb8fd97ef6ac6f7733fe89d1e8f"
-          },
-          {
-            "Text": "chore(deps): Bump jose from 5.9.6 to 6.0.10 (#254)",
-            "SHA": "0dec5e01d45d1782cb6910fad1971a67e0aa4db0",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-03-13T12:51:44Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/0dec5e01d45d1782cb6910fad1971a67e0aa4db0"
-          },
-          {
-            "Text": "fix: update organization suggestions selector for improved visibility (#253)",
-            "SHA": "23f51dc4f9ec7a233ac84796c3a0af58db72f35c",
-            "Author": {
-              "name": "codinski",
-              "link": "https://github.com/codinski"
-            },
-            "Timestamp": "2025-03-13T10:44:53Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/23f51dc4f9ec7a233ac84796c3a0af58db72f35c"
-          },
-          {
-            "Text": "Cypress version update (#252)",
-            "SHA": "d3257b01519aae24df475b890fdadd401a647fdc",
-            "Author": {
-              "name": "codinski",
-              "link": "https://github.com/codinski"
-            },
-            "Timestamp": "2025-03-13T10:08:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/d3257b01519aae24df475b890fdadd401a647fdc"
-          },
-          {
-            "Text": "chore(deps-dev): Bump cross-spawn from 7.0.3 to 7.0.6 (#230)",
-            "SHA": "d44b3b32f6a2b85f664c013428371e80a3b83c4a",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-03-13T10:06:03Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/d44b3b32f6a2b85f664c013428371e80a3b83c4a"
-          },
-          {
-            "Text": "chore(deps-dev): Bump @types/mocha from 10.0.9 to 10.0.10 (#226)",
-            "SHA": "935e2fc5dba2aca4d2ecbd66d2c72ff3bdecae38",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-03-13T10:05:22Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/935e2fc5dba2aca4d2ecbd66d2c72ff3bdecae38"
-          },
-          {
-            "Text": "chore(deps): Bump @azure/msal-node from 2.15.0 to 3.1.0 (#247)",
-            "SHA": "583bcd31431f2a8d6cb6b53d680f7a621721203d",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-03-13T09:58:02Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/583bcd31431f2a8d6cb6b53d680f7a621721203d"
-          },
-          {
-            "Text": "chore(deps-dev): Bump @types/node from 22.8.1 to 22.10.10 (#248)",
-            "SHA": "c202d03105b860fea1bfeaf02e8bf0ce333d38f0",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-03-13T09:57:42Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/c202d03105b860fea1bfeaf02e8bf0ce333d38f0"
-          },
-          {
-            "Text": "Update Cypress version to 14.1.0 (#251)",
-            "SHA": "fd4adb9c25258c87d2f1fdaf6334185a5a9409fb",
-            "Author": {
-              "name": "codinski",
-              "link": "https://github.com/codinski"
-            },
-            "Timestamp": "2025-03-13T09:57:20Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/fd4adb9c25258c87d2f1fdaf6334185a5a9409fb"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-test/compare/v1.74.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2659,5 +2508,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-07-18T07:36:58Z"
+  "LastUpdated": "2025-07-19T07:34:24Z"
 }
