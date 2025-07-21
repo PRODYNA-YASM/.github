@@ -62,12 +62,12 @@
         "Count": 5,
         "PullRequests": [
           {
-            "Title": "build(deps): bump quarkus.platform.version from 3.24.2 to 3.24.4",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/910"
+            "Title": "build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.4 to 2.46.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/911"
           },
           {
-            "Title": "build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.4 to 2.45.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/905"
+            "Title": "build(deps): bump quarkus.platform.version from 3.24.2 to 3.24.4",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/910"
           },
           {
             "Title": "build(deps): bump xml-apis:xml-apis from 1.4.01 to 2.0.2",
@@ -104,14 +104,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "feat: update quarkus (#890)",
-            "Timestamp": "2025-06-20T12:22:59Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/15778847677"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -394,14 +388,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #692 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2025-06-20T12:28:35Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/15778946082"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1634,8 +1622,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump DataDog/datadog from 3.67.0 to 3.68.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1016"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -1809,7 +1802,7 @@
     },
     {
       "Name": "yasm",
-      "Error": "",
+      "Error": "GET https://api.github.com/repos/prodyna-yasm/yasm/commits?since=2025-06-20T13%3A05%3A24Z: 502 Server Error []",
       "Environments": null,
       "LatestRelease": {
         "Tag": "1.73.0",
@@ -1848,7 +1841,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm/compare/1.73.0..HEAD",
+        "Link": "",
         "Count": 0,
         "Commits": null
       },
@@ -1902,8 +1895,19 @@
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.74.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "chore: bump com.fasterxml.jackson.core:jackson-databind (#290)",
+            "SHA": "bad6c01e724ae94ef5fcdde55f5b516397c0f64f",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-21T06:22:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/bad6c01e724ae94ef5fcdde55f5b516397c0f64f"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2266,7 +2270,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "9b5dafb",
+          "Version": "478a47e",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2317,11 +2321,23 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 2,
+        "Count": 5,
         "PullRequests": [
           {
-            "Title": "Bump @angular/cli from 20.0.5 to 20.1.0 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/170"
+            "Title": "Bump @openapitools/openapi-generator-cli from 2.21.0 to 2.21.3 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/176"
+          },
+          {
+            "Title": "Bump github.com/swaggo/swag from 1.16.4 to 1.16.5 in /backend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/175"
+          },
+          {
+            "Title": "Bump @angular/cli from 20.0.5 to 20.1.1 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/174"
+          },
+          {
+            "Title": "Bump jasmine-core from 5.8.0 to 5.9.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/173"
           },
           {
             "Title": "Bump @azure/msal-browser from 4.11.1 to 4.15.0 in /frontend",
@@ -2332,8 +2348,28 @@
       "Link": "https://github.com/prodyna-yasm/fox-and-hound",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/compare/1.2.0..HEAD",
-        "Count": 19,
+        "Count": 21,
         "Commits": [
+          {
+            "Text": "Merge pull request #172 from PRODYNA-YASM/feature/_171_ManagementRatingsSeemOff",
+            "SHA": "478a47eb993050e54c50462a2435dd0850f46147",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-07-20T18:14:12Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/478a47eb993050e54c50462a2435dd0850f46147"
+          },
+          {
+            "Text": "171 Use real management ratings",
+            "SHA": "b836efc109ed0d06ccabdedad1af7f19164c50ba",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-07-20T18:08:49Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/b836efc109ed0d06ccabdedad1af7f19164c50ba"
+          },
           {
             "Text": "Merge pull request #165 from PRODYNA-YASM/dependabot/npm_and_yarn/frontend/openapitools/openapi-generator-cli-2.21.0",
             "SHA": "9b5dafb4e5f7fab2acaecefb1e064a6c2285b095",
@@ -2549,5 +2585,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-07-20T07:34:26Z"
+  "LastUpdated": "2025-07-21T07:39:37Z"
 }
