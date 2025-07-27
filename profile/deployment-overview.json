@@ -1617,14 +1617,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #98 from PRODYNA-YASM/dependabot/go_modules/go.ope…",
-            "Timestamp": "2025-06-26T08:46:45Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-external/actions/runs/15897261064"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -2597,5 +2591,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-07-26T07:34:52Z"
+  "LastUpdated": "2025-07-27T07:35:03Z"
 }

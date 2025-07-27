@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-07-26T07:34:52Z
+Component Status overview. Last update 2025-07-27T07:35:03Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -551,11 +551,6 @@ Component Status overview. Last update 2025-07-26T07:34:52Z
 - [OpenTelemetry 1.37.0](https://github.com/PRODYNA-YASM/yasm-external/releases/tag/1.1.12) on 2025-06-25 11:29:41 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-external/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #98 from PRODYNA-YASM/dependabot/go_modules/go.ope…](https://github.com/PRODYNA-YASM/yasm-external/actions/runs/15897261064) created on 2025-06-26 08:46:45 +0000 UTC
 
 
 
