@@ -1,10 +1,10 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-07-28T07:37:55Z
+Component Status overview. Last update 2025-07-29T07:37:54Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-backend/compare/1.74.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.74.0 |  :red_square: 6eaae7b |  :green_square: 1.74.0 |  :green_square: 1.74.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-backend/compare/1.74.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.74.0 |  :red_square: 01892fd |  :green_square: 1.74.0 |  :green_square: 1.74.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.73.6 |  :green_square: 1.73.6 |  :green_square: 1.73.6 |  :green_square: 1.73.6 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [14](https://github.com/prodyna-yasm/yasm-integration/compare/1.73.2..HEAD) | :green_square: 0 | 1.73.2 |  :red_square: b4fd104 |  :green_square: 1.73.2 |  :green_square: 1.73.2 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [13](https://github.com/prodyna-yasm/yasmctl/compare/1.73.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.73.0 |  :red_square: 02d325e |  :green_square: 1.73.0 |  :green_square: 1.73.0 | 
@@ -32,7 +32,9 @@ Component Status overview. Last update 2025-07-28T07:37:55Z
 
 
 
-### [Commits on main since 1.74.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.74.0..HEAD) (2)
+### [Commits on main since 1.74.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.74.0..HEAD) (3)
+
+- [fix: 292 bug with deleting shoppingCart with multiple ShoppingCartGroups and sharedWith multiple persons (#915)](https://github.com/prodyna-yasm/yasm-backend/commit/01892fdd3e986e403bb5101f0e171cb1c571b4b9) by [irhox](https://github.com/irhox) on 2025-07-28 07:43:08 +0000 UTC
 
 - [build(deps): bump eclipse-temurin from 23.0.2_7-jre-ubi9-minimal to 24.0.1_9-jre-ubi9-minimal (#879)](https://github.com/prodyna-yasm/yasm-backend/commit/6eaae7b8f579038e4f37c368905506ece1d01cb4) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-07-22 10:05:55 +0000 UTC
 
@@ -41,9 +43,7 @@ Component Status overview. Last update 2025-07-28T07:37:55Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (7)
-
-- [fix: 292 bug with deleting shoppingCart with multiple ShoppingCartGroups and sharedWith multiple persons](https://github.com/PRODYNA-YASM/yasm-backend/pull/915)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (6)
 
 - [build(deps): bump io.smallrye:jandex-maven-plugin from 3.3.2 to 3.4.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/914)
 
@@ -63,7 +63,7 @@ Component Status overview. Last update 2025-07-28T07:37:55Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  6eaae7b |  1.74.0 |  1.74.0 | 
+| Version |  01892fd |  1.74.0 |  1.74.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
