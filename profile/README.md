@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-07-29T07:37:54Z
+Component Status overview. Last update 2025-07-30T07:38:14Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -20,7 +20,7 @@ Component Status overview. Last update 2025-07-29T07:37:54Z
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.73.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [1](https://github.com/prodyna-yasm/yasm-api/compare/1.74.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.74.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.73.0 | 
-| [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
+| [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [6](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.7.5..HEAD) | :green_square: 0 | 1.7.5 |  :red_square: b34d7ac |  :green_square: 1.7.5 |  :green_square: 1.7.5 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [1](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :red_square: f3c0835 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.0.0 |  :green_square: 2.0.0 |  :green_square: 2.0.0 |  :green_square: 2.0.0 | 
@@ -802,7 +802,11 @@ Component Status overview. Last update 2025-07-29T07:37:54Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (5)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (7)
+
+- [chore(deps-dev): Bump cypress from 14.5.2 to 14.5.3](https://github.com/PRODYNA-YASM/yasm-test/pull/341)
+
+- [chore(deps): Bump cypress/included from 14.5.2 to 14.5.3](https://github.com/PRODYNA-YASM/yasm-test/pull/340)
 
 - [chore(deps-dev): Bump dotenv from 16.5.0 to 17.2.1](https://github.com/PRODYNA-YASM/yasm-test/pull/339)
 

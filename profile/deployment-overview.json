@@ -2211,8 +2211,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 5,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "chore(deps-dev): Bump cypress from 14.5.2 to 14.5.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/341"
+          },
+          {
+            "Title": "chore(deps): Bump cypress/included from 14.5.2 to 14.5.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/340"
+          },
           {
             "Title": "chore(deps-dev): Bump dotenv from 16.5.0 to 17.2.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/339"
@@ -2595,5 +2603,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-07-29T07:37:54Z"
+  "LastUpdated": "2025-07-30T07:38:14Z"
 }
