@@ -247,7 +247,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "b4fd104",
+          "Version": "6029e3f",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -304,8 +304,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.73.2..HEAD",
-        "Count": 14,
+        "Count": 16,
         "Commits": [
+          {
+            "Text": "Merge pull request #713 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.81.0",
+            "SHA": "6029e3fa4062d199cf1f5871c62fada33ee63f44",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-31T02:01:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/6029e3fa4062d199cf1f5871c62fada33ee63f44"
+          },
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.80.0 to 1.81.0",
+            "SHA": "17c5659d4aab765e4243d45178de669aa828d209",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-31T01:05:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/17c5659d4aab765e4243d45178de669aa828d209"
+          },
           {
             "Text": "Merge pull request #711 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.80.0",
             "SHA": "b4fd1040812cfdef8a2968347a1f788c7237b66a",
@@ -935,7 +955,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "9786eab",
+          "Version": "72419e6",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -992,8 +1012,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.11.0..HEAD",
-        "Count": 11,
+        "Count": 13,
         "Commits": [
+          {
+            "Text": "Merge pull request #264 from PRODYNA-YASM/dependabot/go_modules/github.com/golang-jwt/jwt/v5-5.3.0",
+            "SHA": "72419e673a65d3a5ed6d8d6dfcc7e8f16bbae4e9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-07-31T00:35:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/72419e673a65d3a5ed6d8d6dfcc7e8f16bbae4e9"
+          },
+          {
+            "Text": "Bump github.com/golang-jwt/jwt/v5 from 5.2.3 to 5.3.0",
+            "SHA": "d11a5f4d4b4c176274d12d9d4ec0b2db7e7ee6de",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-07-30T23:48:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/d11a5f4d4b4c176274d12d9d4ec0b2db7e7ee6de"
+          },
           {
             "Text": "Merge pull request #263 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.74.2",
             "SHA": "9786eabf7fb6d92b1036ae01cdd307360b174d84",
@@ -1760,8 +1800,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 2,
+        "Count": 4,
         "PullRequests": [
+          {
+            "Title": "Bump hashicorp/azurerm from 4.37.0 to 4.38.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1022"
+          },
+          {
+            "Title": "Bump hashicorp/azurerm from 4.37.0 to 4.38.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1021"
+          },
           {
             "Title": "Bump DataDog/datadog from 3.68.0 to 3.69.0 in /terraform/kubernetes",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1020"
@@ -2546,8 +2594,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "183 Show rating in management board as it is configured for the candi…",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/184"
+          },
           {
             "Title": "Bump @azure/msal-browser from 4.11.1 to 4.16.0 in /frontend",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/180"
@@ -2603,5 +2655,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-07-30T07:38:14Z"
+  "LastUpdated": "2025-07-31T07:37:40Z"
 }
