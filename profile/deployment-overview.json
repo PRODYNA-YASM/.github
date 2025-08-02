@@ -769,7 +769,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "ec9ef9a",
+          "Version": "0dd9db6",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -820,19 +820,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "build(deps): bump github.com/prometheus/client_golang from 1.22.0 to 1.23.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/229"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.73.1..HEAD",
-        "Count": 11,
+        "Count": 13,
         "Commits": [
+          {
+            "Text": "Merge pull request #229 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.23.0",
+            "SHA": "0dd9db6c1dee1efa08e4692ee191a61587a7ddbf",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-01T15:26:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/0dd9db6c1dee1efa08e4692ee191a61587a7ddbf"
+          },
+          {
+            "Text": "build(deps): bump github.com/prometheus/client_golang",
+            "SHA": "70c33404d72eaab462fbe4dda47bea4c3c6a5493",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-08-01T05:55:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/70c33404d72eaab462fbe4dda47bea4c3c6a5493"
+          },
           {
             "Text": "Merge pull request #228 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.74.2",
             "SHA": "ec9ef9a7efbeb6031fb25f86a1bd0edcc87b79b3",
@@ -1583,7 +1598,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0edb5fd",
+          "Version": "e87b357",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1640,8 +1655,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-external",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/compare/1.2.1..HEAD",
-        "Count": 6,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Merge pull request #109 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.23.0",
+            "SHA": "e87b357a4830afae90675a9d576c830ccc8a49c6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-01T15:21:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/e87b357a4830afae90675a9d576c830ccc8a49c6"
+          },
+          {
+            "Text": "Bump github.com/prometheus/client_golang from 1.22.0 to 1.23.0",
+            "SHA": "294e5e3d4e32f89e9045d4b86cc76036053f496f",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-08-01T09:28:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/294e5e3d4e32f89e9045d4b86cc76036053f496f"
+          },
           {
             "Text": "Merge pull request #108 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.74.2",
             "SHA": "0edb5fd68e54037bb30f7a72f3cbd734ffefa5a2",
@@ -2720,5 +2755,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-08-01T07:38:12Z"
+  "LastUpdated": "2025-08-02T07:34:25Z"
 }
