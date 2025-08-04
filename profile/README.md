@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-08-03T07:34:47Z
+Component Status overview. Last update 2025-08-04T07:40:33Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -23,7 +23,7 @@ Component Status overview. Last update 2025-08-03T07:34:47Z
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [8](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.7.5..HEAD) | :green_square: 0 | 1.7.5 |  :red_square: 25b06b0 |  :green_square: 1.7.5 |  :green_square: 1.7.5 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [1](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :red_square: f3c0835 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
-| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.0.0 |  :green_square: 2.0.0 |  :green_square: 2.0.0 |  :green_square: 2.0.0 | 
+| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :green_square: 0 | :yellow_square: [8](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.0.0 |  :green_square: 2.0.0 |  :green_square: 2.0.0 |  :green_square: 2.0.0 | 
 
 
 
@@ -968,19 +968,21 @@ Component Status overview. Last update 2025-08-03T07:34:47Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (7)
+### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (8)
+
+- [Bump github.com/prometheus/client_golang from 1.22.0 to 1.23.0 in /backend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/189)
+
+- [Bump github.com/swaggo/swag from 1.16.4 to 1.16.6 in /backend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/188)
+
+- [Bump @angular/cli from 20.0.5 to 20.1.4 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/187)
+
+- [Bump @azure/msal-browser from 4.11.1 to 4.18.0 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/186)
 
 - [183 Show rating in management board as it is configured for the candi…](https://github.com/PRODYNA-YASM/fox-and-hound/pull/184)
 
-- [Bump @azure/msal-browser from 4.11.1 to 4.16.0 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/180)
-
 - [Bump @openapitools/openapi-generator-cli from 2.21.0 to 2.21.4 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/179)
 
-- [Bump @angular/cli from 20.0.5 to 20.1.3 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/178)
-
 - [Bump gorm.io/gorm from 1.30.0 to 1.30.1 in /backend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/177)
-
-- [Bump github.com/swaggo/swag from 1.16.4 to 1.16.5 in /backend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/175)
 
 - [Bump jasmine-core from 5.8.0 to 5.9.0 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/173)
 
