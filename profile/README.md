@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-08-04T07:40:33Z
+Component Status overview. Last update 2025-08-05T07:38:53Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -832,6 +832,8 @@ Component Status overview. Last update 2025-08-04T07:40:33Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (7)
 
+- [chore(deps-dev): Bump @types/node from 24.0.15 to 24.2.0](https://github.com/PRODYNA-YASM/yasm-test/pull/342)
+
 - [chore(deps-dev): Bump cypress from 14.5.2 to 14.5.3](https://github.com/PRODYNA-YASM/yasm-test/pull/341)
 
 - [chore(deps): Bump cypress/included from 14.5.2 to 14.5.3](https://github.com/PRODYNA-YASM/yasm-test/pull/340)
@@ -841,8 +843,6 @@ Component Status overview. Last update 2025-08-04T07:40:33Z
 - [chore(deps): Bump @azure/msal-node from 3.6.3 to 3.6.4](https://github.com/PRODYNA-YASM/yasm-test/pull/338)
 
 - [chore(deps-dev): Bump @types/node-forge from 1.3.11 to 1.3.13](https://github.com/PRODYNA-YASM/yasm-test/pull/337)
-
-- [chore(deps-dev): Bump @types/node from 24.0.15 to 24.1.0](https://github.com/PRODYNA-YASM/yasm-test/pull/336)
 
 - [Xray poc](https://github.com/PRODYNA-YASM/yasm-test/pull/245)
 

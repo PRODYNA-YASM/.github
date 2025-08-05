@@ -2342,6 +2342,10 @@
         "Count": 7,
         "PullRequests": [
           {
+            "Title": "chore(deps-dev): Bump @types/node from 24.0.15 to 24.2.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/342"
+          },
+          {
             "Title": "chore(deps-dev): Bump cypress from 14.5.2 to 14.5.3",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/341"
           },
@@ -2360,10 +2364,6 @@
           {
             "Title": "chore(deps-dev): Bump @types/node-forge from 1.3.11 to 1.3.13",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/337"
-          },
-          {
-            "Title": "chore(deps-dev): Bump @types/node from 24.0.15 to 24.1.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/336"
           },
           {
             "Title": "Xray poc",
@@ -2759,5 +2759,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-08-04T07:40:33Z"
+  "LastUpdated": "2025-08-05T07:38:53Z"
 }
