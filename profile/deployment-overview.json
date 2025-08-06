@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump eclipse-temurin from 24.0.1_9-jre-ubi9-minimal to 24.0.2_12-jre-ubi9-minimal",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/916"
+          },
           {
             "Title": "build(deps): bump io.smallrye:jandex-maven-plugin from 3.3.2 to 3.4.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/914"
@@ -193,16 +197,16 @@
         "Count": 8,
         "PullRequests": [
           {
+            "Title": "chore: bump node from 24.4.0-slim to 24.5.0-slim",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1095"
+          },
+          {
             "Title": "chore: bump @eslint/plugin-kit from 0.3.1 to 0.3.3 in the npm_and_yarn group",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1092"
           },
           {
             "Title": "chore: bump html-react-parser from 3.0.15 to 5.2.6",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1091"
-          },
-          {
-            "Title": "chore: bump node from 24.4.0-slim to 24.4.1-slim",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1088"
           },
           {
             "Title": "chore: bump editorjs-html from 3.4.3 to 4.0.5",
@@ -247,16 +251,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "6029e3f",
+          "Version": "0d213cb",
           "IsRelease": false,
           "IsCurrent": false
-        },
-        {
-          "Name": "staging",
-          "Link": "",
-          "Version": "1.73.2",
-          "IsRelease": true,
-          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -298,14 +295,39 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump github.com/Azure/azure-sdk-for-go/sdk/azidentity from 1.10.1 to 1.11.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/714"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.73.2..HEAD",
-        "Count": 16,
+        "Count": 18,
         "Commits": [
+          {
+            "Text": "Merge pull request #715 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.82.0",
+            "SHA": "0d213cbbe7e094aed83826a5cad011bdb59e68d6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-06T01:46:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/0d213cbbe7e094aed83826a5cad011bdb59e68d6"
+          },
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.81.0 to 1.82.0",
+            "SHA": "81d0790c5704e0318acbb09d2fceb0ea92eecfdb",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-08-06T01:18:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/81d0790c5704e0318acbb09d2fceb0ea92eecfdb"
+          },
           {
             "Text": "Merge pull request #713 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.81.0",
             "SHA": "6029e3fa4062d199cf1f5871c62fada33ee63f44",
@@ -2759,5 +2781,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-08-05T07:38:53Z"
+  "LastUpdated": "2025-08-06T07:38:51Z"
 }
