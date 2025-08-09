@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-08-08T07:38:01Z
+Component Status overview. Last update 2025-08-09T07:34:07Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -859,13 +859,13 @@ Component Status overview. Last update 2025-08-08T07:38:01Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (7)
 
+- [chore(deps): Bump cypress/included from 14.5.2 to 14.5.4](https://github.com/PRODYNA-YASM/yasm-test/pull/345)
+
+- [chore(deps-dev): Bump cypress from 14.5.2 to 14.5.4](https://github.com/PRODYNA-YASM/yasm-test/pull/344)
+
 - [chore(deps): Bump @azure/msal-node from 3.6.3 to 3.7.0](https://github.com/PRODYNA-YASM/yasm-test/pull/343)
 
 - [chore(deps-dev): Bump @types/node from 24.0.15 to 24.2.0](https://github.com/PRODYNA-YASM/yasm-test/pull/342)
-
-- [chore(deps-dev): Bump cypress from 14.5.2 to 14.5.3](https://github.com/PRODYNA-YASM/yasm-test/pull/341)
-
-- [chore(deps): Bump cypress/included from 14.5.2 to 14.5.3](https://github.com/PRODYNA-YASM/yasm-test/pull/340)
 
 - [chore(deps-dev): Bump dotenv from 16.5.0 to 17.2.1](https://github.com/PRODYNA-YASM/yasm-test/pull/339)
 

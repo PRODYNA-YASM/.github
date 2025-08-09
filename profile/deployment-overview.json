@@ -2437,20 +2437,20 @@
         "Count": 7,
         "PullRequests": [
           {
+            "Title": "chore(deps): Bump cypress/included from 14.5.2 to 14.5.4",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/345"
+          },
+          {
+            "Title": "chore(deps-dev): Bump cypress from 14.5.2 to 14.5.4",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/344"
+          },
+          {
             "Title": "chore(deps): Bump @azure/msal-node from 3.6.3 to 3.7.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/343"
           },
           {
             "Title": "chore(deps-dev): Bump @types/node from 24.0.15 to 24.2.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/342"
-          },
-          {
-            "Title": "chore(deps-dev): Bump cypress from 14.5.2 to 14.5.3",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/341"
-          },
-          {
-            "Title": "chore(deps): Bump cypress/included from 14.5.2 to 14.5.3",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/340"
           },
           {
             "Title": "chore(deps-dev): Bump dotenv from 16.5.0 to 17.2.1",
@@ -2874,5 +2874,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-08-08T07:38:01Z"
+  "LastUpdated": "2025-08-09T07:34:07Z"
 }
