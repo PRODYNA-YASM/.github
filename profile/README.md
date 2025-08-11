@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-08-10T07:34:23Z
+Component Status overview. Last update 2025-08-11T07:37:55Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -1001,13 +1001,13 @@ Component Status overview. Last update 2025-08-10T07:34:23Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (8)
 
+- [Bump @azure/msal-browser from 4.11.1 to 4.19.0 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/191)
+
+- [Bump @angular/cli from 20.0.5 to 20.1.5 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/190)
+
 - [Bump github.com/prometheus/client_golang from 1.22.0 to 1.23.0 in /backend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/189)
 
 - [Bump github.com/swaggo/swag from 1.16.4 to 1.16.6 in /backend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/188)
-
-- [Bump @angular/cli from 20.0.5 to 20.1.4 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/187)
-
-- [Bump @azure/msal-browser from 4.11.1 to 4.18.0 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/186)
 
 - [183 Show rating in management board as it is configured for the candi…](https://github.com/PRODYNA-YASM/fox-and-hound/pull/184)
 
