@@ -269,7 +269,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "3199680",
+          "Version": "3d4e99d",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -306,12 +306,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "Bump golang from 1.24.6-alpine3.22 to 1.25.0-alpine3.22",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/719"
-          },
           {
             "Title": "Bump github.com/Azure/azure-sdk-for-go/sdk/azidentity from 1.10.1 to 1.11.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/714"
@@ -321,8 +317,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.73.2..HEAD",
-        "Count": 24,
+        "Count": 26,
         "Commits": [
+          {
+            "Text": "Merge pull request #719 from PRODYNA-YASM/dependabot/docker/golang-1.25.0-alpine3.22",
+            "SHA": "3d4e99de3649a57958749aeea5ddc6dccc55e4f8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-15T22:35:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/3d4e99de3649a57958749aeea5ddc6dccc55e4f8"
+          },
+          {
+            "Text": "Bump golang from 1.24.6-alpine3.22 to 1.25.0-alpine3.22",
+            "SHA": "1e39c8f523d62d569c53dbd7b5a7abde40c29fb1",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-08-14T01:37:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/1e39c8f523d62d569c53dbd7b5a7abde40c29fb1"
+          },
           {
             "Text": "Merge pull request #718 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.83.0",
             "SHA": "3199680e98f8444de73ea2415da534a09fc0e76a",
@@ -2232,7 +2248,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "974a2d2",
+          "Version": "23d0584",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2283,31 +2299,129 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 4,
+        "Count": 1,
         "PullRequests": [
           {
-            "Title": "Bump hashicorp/azurerm from 4.37.0 to 4.40.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1030"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 4.37.0 to 4.40.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1029"
-          },
-          {
-            "Title": "Bump DataDog/datadog from 3.68.0 to 3.71.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1028"
-          },
-          {
-            "Title": "Bump kubernetes from 2.37.1 to 2.38.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1019"
+            "Title": "Update prometheus stuff",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1036"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.74.0..HEAD",
-        "Count": 13,
+        "Count": 24,
         "Commits": [
+          {
+            "Text": "Merge pull request #1035 from PRODYNA-YASM/feature/tempo-1.46.3",
+            "SHA": "23d05846dce30bf1042034f03e17fc73879b9720",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-15T22:44:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/23d05846dce30bf1042034f03e17fc73879b9720"
+          },
+          {
+            "Text": "Merge pull request #1034 from PRODYNA-YASM/feature/grafana-9.3.2",
+            "SHA": "369b4ce0396ca65cf3b73af64ec63eccfa23e1d0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-15T22:29:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/369b4ce0396ca65cf3b73af64ec63eccfa23e1d0"
+          },
+          {
+            "Text": "Merge pull request #1033 from PRODYNA-YASM/feature/traefik-37.0.0",
+            "SHA": "42123d03f02e76191d0b745772642c0bb221b00d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-15T22:18:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/42123d03f02e76191d0b745772642c0bb221b00d"
+          },
+          {
+            "Text": "Use new syntax for namespace policy",
+            "SHA": "c395ef6cffbe1b3c9996e21b0bd90e7b05532d84",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-15T22:14:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c395ef6cffbe1b3c9996e21b0bd90e7b05532d84"
+          },
+          {
+            "Text": "Tempo 1.46.3",
+            "SHA": "e9db4c5489125c93ddf82627d5d1724befa7e619",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-15T21:44:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e9db4c5489125c93ddf82627d5d1724befa7e619"
+          },
+          {
+            "Text": "Merge pull request #1031 from PRODYNA-YASM/feature/traefik-37.0.0",
+            "SHA": "30763d0bba9aa672af06343a1de768b556dea519",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-15T21:43:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/30763d0bba9aa672af06343a1de768b556dea519"
+          },
+          {
+            "Text": "Merge pull request #1032 from PRODYNA-YASM/feature/update-terraform-plugins",
+            "SHA": "8ac5fecf29e38e76a50dfe784e005d0790c0c142",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-15T21:37:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/8ac5fecf29e38e76a50dfe784e005d0790c0c142"
+          },
+          {
+            "Text": "Fix azurerm version",
+            "SHA": "953306c87ec3c611a79e872bc083832e741ad88a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-15T21:32:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/953306c87ec3c611a79e872bc083832e741ad88a"
+          },
+          {
+            "Text": "Update providers",
+            "SHA": "fee89d43a5c5aa2b3712ce092001148cb1210e88",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-15T21:29:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/fee89d43a5c5aa2b3712ce092001148cb1210e88"
+          },
+          {
+            "Text": "Grafana 9.3.2",
+            "SHA": "0b9d8812c6af3dbfea8e6adbe7e03734672a1052",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-15T21:23:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0b9d8812c6af3dbfea8e6adbe7e03734672a1052"
+          },
+          {
+            "Text": "Traefik 37.0.0",
+            "SHA": "1face8be41f781fe792e2c30fbe4f46ec0876760",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-15T21:18:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1face8be41f781fe792e2c30fbe4f46ec0876760"
+          },
           {
             "Text": "Merge pull request #1018 from PRODYNA-YASM/feature/traefik-no-addinternals",
             "SHA": "974a2d2a3c7f830c490f87f100c903de96ab57f9",
@@ -2755,16 +2869,16 @@
         "Count": 8,
         "PullRequests": [
           {
+            "Title": "chore(deps-dev): Bump @types/node from 24.0.15 to 24.3.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/349"
+          },
+          {
             "Title": "chore(deps): Bump @azure/msal-node from 3.6.3 to 3.7.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/348"
           },
           {
             "Title": "chore(deps): Bump actions/checkout from 4 to 5",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/347"
-          },
-          {
-            "Title": "chore(deps-dev): Bump @types/node from 24.0.15 to 24.2.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/346"
           },
           {
             "Title": "chore(deps): Bump cypress/included from 14.5.2 to 14.5.4",
@@ -3233,5 +3347,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-08-15T07:35:14Z"
+  "LastUpdated": "2025-08-16T07:33:41Z"
 }
