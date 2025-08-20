@@ -1,17 +1,17 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-08-20T11:59:11Z
+Component Status overview. Last update 2025-08-20T12:16:52Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-backend/compare/1.74.0..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.74.0 |  :red_square: ea4c599 |  :green_square: 1.74.0 |  :green_square: 1.74.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.73.6 |  :green_square: 1.73.6 |  :green_square: 1.73.6 |  :green_square: 1.73.6 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [30](https://github.com/prodyna-yasm/yasm-integration/compare/1.73.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.73.2 |  :red_square: 4d8d1b1 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.74.0 |  :red_square: 502fe4d | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [17](https://github.com/prodyna-yasm/yasmctl/compare/1.73.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.73.0 |  :red_square: 105a122 |  :green_square: 1.73.0 |  :green_square: 1.73.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.23.2 |  :green_square: 1.23.2 |  :green_square: 1.23.2 |  :red_square: 1.23.1 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :green_square: 0 | :green_square: 0 | 1.74.0 |  :green_square: 1.74.0 |  :green_square: 1.74.0 |  :red_square: 1.73.1 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.11.1 |  :green_square: 1.11.1 |  :green_square: 1.11.1 |  :red_square: 1.11.0 | 
-| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [20](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.14.0..HEAD) | :green_square: 0 | 1.14.0 |  :red_square: 6a60771 |  :green_square: 1.14.0 |  :green_square: 1.14.0 | 
+| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [22](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.14.0..HEAD) | :green_square: 0 | 1.14.0 |  :red_square: 6f3bc0c |  :green_square: 1.14.0 |  :green_square: 1.14.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.2 |  :green_square: 1.2.2 |  :green_square: 1.2.2 |  :red_square: 1.2.1 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.22.0-0 |  :green_square: 8.22.0-0 |  :green_square: 8.22.0-0 |  :red_square: 8.21.1-0 | 
@@ -138,79 +138,11 @@ Component Status overview. Last update 2025-08-20T11:59:11Z
 
 
 
-## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.73.2
+## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.74.0
 
 
 
 
-### [Commits on main since 1.73.2](https://github.com/prodyna-yasm/yasm-integration/compare/1.73.2..HEAD) (30)
-
-- [Merge pull request #720 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.75.0](https://github.com/prodyna-yasm/yasm-integration/commit/4d8d1b171eb85860b94da7da9c09b0fc3d3e4e1c) by [dkrizic](https://github.com/dkrizic) on 2025-08-20 04:41:32 +0000 UTC
-
-- [Bump google.golang.org/grpc from 1.74.2 to 1.75.0](https://github.com/prodyna-yasm/yasm-integration/commit/348f62195b9cab757ec449fa70becd9a0fd436fa) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-08-20 03:18:08 +0000 UTC
-
-- [Merge pull request #714 from PRODYNA-YASM/dependabot/go_modules/github.com/Azure/azure-sdk-for-go/sdk/azidentity-1.11.0](https://github.com/prodyna-yasm/yasm-integration/commit/aae0ac2fba50d434a56105327fa36266966e65be) by [dkrizic](https://github.com/dkrizic) on 2025-08-16 08:26:25 +0000 UTC
-
-- [Merge pull request #719 from PRODYNA-YASM/dependabot/docker/golang-1.25.0-alpine3.22](https://github.com/prodyna-yasm/yasm-integration/commit/3d4e99de3649a57958749aeea5ddc6dccc55e4f8) by [dkrizic](https://github.com/dkrizic) on 2025-08-15 22:35:46 +0000 UTC
-
-- [Bump golang from 1.24.6-alpine3.22 to 1.25.0-alpine3.22](https://github.com/prodyna-yasm/yasm-integration/commit/1e39c8f523d62d569c53dbd7b5a7abde40c29fb1) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-08-14 01:37:43 +0000 UTC
-
-- [Bump github.com/Azure/azure-sdk-for-go/sdk/azidentity](https://github.com/prodyna-yasm/yasm-integration/commit/c8bbe74887bdf2040a8b2c84b8ebbd41a3841d8e) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-08-13 03:54:15 +0000 UTC
-
-- [Merge pull request #718 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.83.0](https://github.com/prodyna-yasm/yasm-integration/commit/3199680e98f8444de73ea2415da534a09fc0e76a) by [dkrizic](https://github.com/dkrizic) on 2025-08-13 03:52:42 +0000 UTC
-
-- [Bump github.com/microsoftgraph/msgraph-sdk-go from 1.82.0 to 1.83.0](https://github.com/prodyna-yasm/yasm-integration/commit/b6de7d863a188859007de41f052b55e22df024c1) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-08-13 02:59:26 +0000 UTC
-
-- [Merge pull request #717 from PRODYNA-YASM/dependabot/github_actions/actions/checkout-5](https://github.com/prodyna-yasm/yasm-integration/commit/cddc8f0f798c6ca9e37a66abb21801e4cdea5b69) by [dkrizic](https://github.com/dkrizic) on 2025-08-12 16:01:01 +0000 UTC
-
-- [Bump actions/checkout from 4 to 5](https://github.com/prodyna-yasm/yasm-integration/commit/75f72d9ec9a6d21d53e4e5891c01d33e9e34e733) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-08-12 09:58:37 +0000 UTC
-
-- [Merge pull request #716 from PRODYNA-YASM/dependabot/docker/golang-1.24.6-alpine3.22](https://github.com/prodyna-yasm/yasm-integration/commit/194aa6649b10e22009165004d8e14ee6eca41dc4) by [dkrizic](https://github.com/dkrizic) on 2025-08-07 02:19:21 +0000 UTC
-
-- [Bump golang from 1.24.5-alpine3.22 to 1.24.6-alpine3.22](https://github.com/prodyna-yasm/yasm-integration/commit/62cb69b44cd0ac249dfa5ee6b05952cad39034b9) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-08-07 01:39:03 +0000 UTC
-
-- [Merge pull request #715 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.82.0](https://github.com/prodyna-yasm/yasm-integration/commit/0d213cbbe7e094aed83826a5cad011bdb59e68d6) by [dkrizic](https://github.com/dkrizic) on 2025-08-06 01:46:16 +0000 UTC
-
-- [Bump github.com/microsoftgraph/msgraph-sdk-go from 1.81.0 to 1.82.0](https://github.com/prodyna-yasm/yasm-integration/commit/81d0790c5704e0318acbb09d2fceb0ea92eecfdb) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-08-06 01:18:01 +0000 UTC
-
-- [Merge pull request #713 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.81.0](https://github.com/prodyna-yasm/yasm-integration/commit/6029e3fa4062d199cf1f5871c62fada33ee63f44) by [dkrizic](https://github.com/dkrizic) on 2025-07-31 02:01:10 +0000 UTC
-
-- [Bump github.com/microsoftgraph/msgraph-sdk-go from 1.80.0 to 1.81.0](https://github.com/prodyna-yasm/yasm-integration/commit/17c5659d4aab765e4243d45178de669aa828d209) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-07-31 01:05:49 +0000 UTC
-
-- [Merge pull request #711 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.80.0](https://github.com/prodyna-yasm/yasm-integration/commit/b4fd1040812cfdef8a2968347a1f788c7237b66a) by [dkrizic](https://github.com/dkrizic) on 2025-07-23 09:23:56 +0000 UTC
-
-- [Merge pull request #712 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.74.2](https://github.com/prodyna-yasm/yasm-integration/commit/2322a73dcae136890666f6c369b0723c3500e985) by [dkrizic](https://github.com/dkrizic) on 2025-07-23 06:23:37 +0000 UTC
-
-- [Bump google.golang.org/grpc from 1.74.0 to 1.74.2](https://github.com/prodyna-yasm/yasm-integration/commit/2441bc08674a10f787d36ab12df3eb073f447d4e) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-07-23 01:50:38 +0000 UTC
-
-- [Bump github.com/microsoftgraph/msgraph-sdk-go from 1.79.0 to 1.80.0](https://github.com/prodyna-yasm/yasm-integration/commit/7260d4d51b872dbca66ed219909e61bed1ab1331) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-07-23 01:50:28 +0000 UTC
-
-- [Merge pull request #708 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.74.0](https://github.com/prodyna-yasm/yasm-integration/commit/eaa02fd61990fdf9ed2b86f81204896b002657e3) by [dkrizic](https://github.com/dkrizic) on 2025-07-17 16:36:26 +0000 UTC
-
-- [Merge pull request #709 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.79.0](https://github.com/prodyna-yasm/yasm-integration/commit/8b978a411712415373f42790a9dd077b09ad44a5) by [dkrizic](https://github.com/dkrizic) on 2025-07-17 11:51:17 +0000 UTC
-
-- [Merge pull request #710 from PRODYNA-YASM/dependabot/go_modules/github.com/spf13/pflag-1.0.7](https://github.com/prodyna-yasm/yasm-integration/commit/09227231a152ad89780f5c6d414591f7e6ced1a0) by [dkrizic](https://github.com/dkrizic) on 2025-07-17 05:39:27 +0000 UTC
-
-- [Bump github.com/spf13/pflag from 1.0.6 to 1.0.7](https://github.com/prodyna-yasm/yasm-integration/commit/863121e8787d971c2b6f8d934dc26292d17d0f95) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-07-17 01:33:15 +0000 UTC
-
-- [Bump github.com/microsoftgraph/msgraph-sdk-go from 1.78.0 to 1.79.0](https://github.com/prodyna-yasm/yasm-integration/commit/b021462040a6a9969603760998ded57343dcce8c) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-07-17 01:33:11 +0000 UTC
-
-- [Bump google.golang.org/grpc from 1.73.0 to 1.74.0](https://github.com/prodyna-yasm/yasm-integration/commit/86120b6b74e775271957785a8e8c8b3fef678ea5) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-07-17 01:33:04 +0000 UTC
-
-- [Merge pull request #707 from PRODYNA-YASM/dependabot/docker/alpine-3.22.1](https://github.com/prodyna-yasm/yasm-integration/commit/d4f1e12fd4b2dbb9282df8f02f67648079339dd0) by [dkrizic](https://github.com/dkrizic) on 2025-07-16 04:59:37 +0000 UTC
-
-- [Bump alpine from 3.22.0 to 3.22.1](https://github.com/prodyna-yasm/yasm-integration/commit/d5de44ad56203c7492929b3589c279745caa2d78) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-07-16 01:45:01 +0000 UTC
-
-- [Merge pull request #706 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.74.0](https://github.com/prodyna-yasm/yasm-integration/commit/4958a952233eb223ed9a4037134add51f6bde5c7) by [dkrizic](https://github.com/dkrizic) on 2025-07-14 05:15:52 +0000 UTC
-
-- [Bump github.com/prodyna-yasm/yasm-api-go from 1.73.0 to 1.74.0](https://github.com/prodyna-yasm/yasm-integration/commit/c947d49d6a499082b879f95a7d2653cd159ec614) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-07-14 01:50:17 +0000 UTC
-
-
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (1)
-
-- [Update list, Go 1.25](https://github.com/PRODYNA-YASM/yasm-integration/pull/721)
 
 
 
@@ -218,18 +150,18 @@ Component Status overview. Last update 2025-08-20T11:59:11Z
 
 | Environment |  dev | 
 | --- |  --- | 
-| Version |  4d8d1b1 | 
+| Version |  502fe4d | 
 | Release |  :red_square: | 
 | Current |  :red_square: | 
 
 
 ### Last releases
 
+- [YASM API 1.74.0, Go 1.25.0](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.74.0) on 2025-08-20 12:02:03 +0000 UTC
+
 - [Go 1.24.5, MSGraph 1.78](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.73.2) on 2025-07-09 22:21:42 +0000 UTC
 
 - [Preserve employeeId when anonymizing, component updates](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.73.1) on 2025-06-27 07:49:16 +0000 UTC
-
-- [API 1.73.0, DAPR logs in json, some updates](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.73.0) on 2025-06-19 09:15:32 +0000 UTC
 
 
 
@@ -418,7 +350,11 @@ Component Status overview. Last update 2025-08-20T11:59:11Z
 
 
 
-### [Commits on main since 1.14.0](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.14.0..HEAD) (20)
+### [Commits on main since 1.14.0](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.14.0..HEAD) (22)
+
+- [Merge pull request #259 from PRODYNA-YASM/feature/go-1.25](https://github.com/prodyna-yasm/yasm-geocoding/commit/6f3bc0c67992cfb64bff298ed3fe4515002b65e7) by [dkrizic](https://github.com/dkrizic) on 2025-08-20 12:12:47 +0000 UTC
+
+- [Go 1.25.0, update libs](https://github.com/prodyna-yasm/yasm-geocoding/commit/b9102b0779284e81d61ac28053453b0d45f4c536) by [dkrizic](https://github.com/dkrizic) on 2025-08-20 12:08:07 +0000 UTC
 
 - [Merge pull request #258 from PRODYNA-YASM/dependabot/docker/golang-1.25.0](https://github.com/prodyna-yasm/yasm-geocoding/commit/6a607712b7d2a296f9203242621d8f06b45db9e2) by [dkrizic](https://github.com/dkrizic) on 2025-08-14 16:47:16 +0000 UTC
 
@@ -468,7 +404,7 @@ Component Status overview. Last update 2025-08-20T11:59:11Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  6a60771 |  1.14.0 |  1.14.0 | 
+| Version |  6f3bc0c |  1.14.0 |  1.14.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
