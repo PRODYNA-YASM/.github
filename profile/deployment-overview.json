@@ -1765,9 +1765,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.7.5",
+          "Version": "1.7.6",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1836,14 +1836,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #137 from PRODYNA-YASM/feature/updates",
-            "Timestamp": "2025-08-18T07:59:57Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-mainproject/actions/runs/17034655134"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -2141,5 +2135,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-08-22T12:14:11Z"
+  "LastUpdated": "2025-08-22T13:26:24Z"
 }
