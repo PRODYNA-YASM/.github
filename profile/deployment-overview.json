@@ -843,14 +843,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #268 from PRODYNA-YASM/feature/go-1.25",
-            "Timestamp": "2025-08-20T11:48:51Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/actions/runs/17097477297"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -924,14 +918,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #259 from PRODYNA-YASM/feature/go-1.25",
-            "Timestamp": "2025-08-20T12:18:52Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/17098146688"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1282,9 +1270,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.74.4",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "7a87d14",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1296,9 +1284,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.74.3",
+          "Version": "1.74.4",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1339,20 +1327,36 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.74.4..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #1052 from PRODYNA-YASM/feature/prometheus-crd-23.0.0",
+            "SHA": "7a87d14e9cdae90189eb893864e90db75c5fb1fe",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-22T11:40:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/7a87d14e9cdae90189eb893864e90db75c5fb1fe"
+          },
+          {
+            "Text": "Prometheus CRD 23.0.0",
+            "SHA": "6b88394717a1f43c09492faba9bee380956a8f64",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-22T10:06:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6b88394717a1f43c09492faba9bee380956a8f64"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 2,
         "Workflows": [
-          {
-            "Name": "Merge pull request #1051 from PRODYNA-YASM/feature/loki-6.37.0",
-            "Timestamp": "2025-08-22T07:12:57Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/17148744613"
-          },
           {
             "Name": "Merge pull request #1043 from PRODYNA-YASM/feature/tempo-1.46.6",
             "Timestamp": "2025-08-20T08:15:44Z",
@@ -1832,14 +1836,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #137 from PRODYNA-YASM/feature/updates",
-            "Timestamp": "2025-08-18T07:59:57Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-mainproject/actions/runs/17034655134"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -2137,5 +2135,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-08-22T07:33:34Z"
+  "LastUpdated": "2025-08-22T11:48:34Z"
 }
