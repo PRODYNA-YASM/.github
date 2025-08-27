@@ -929,9 +929,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.14.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "e68fc35",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -986,8 +986,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.14.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #260 from PRODYNA-YASM/dependabot/go_modules/github.com/stretchr/testify-1.11.0",
+            "SHA": "e68fc35d923b70988f885b7a691aa66cba3c5ba0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-26T09:18:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/e68fc35d923b70988f885b7a691aa66cba3c5ba0"
+          },
+          {
+            "Text": "Bump github.com/stretchr/testify from 1.10.0 to 1.11.0",
+            "SHA": "ed5cc9c4d3b511c7457e7eb66b301f41b5dcc235",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-08-26T08:46:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/ed5cc9c4d3b511c7457e7eb66b301f41b5dcc235"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1345,7 +1366,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "bc601a2",
+          "Version": "439cccd",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1402,8 +1423,68 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.74.4..HEAD",
-        "Count": 7,
+        "Count": 13,
         "Commits": [
+          {
+            "Text": "Merge pull request #1057 from PRODYNA-YASM/feature/kube-state-metrics-6.1.5",
+            "SHA": "439cccd426c0fc76814eaefe694b72bc28290693",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-26T12:59:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/439cccd426c0fc76814eaefe694b72bc28290693"
+          },
+          {
+            "Text": "Kube-state-metrics 6.1.5",
+            "SHA": "3e3df4719a975ca32a2d9ec459fe740efbef68b1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-26T11:42:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3e3df4719a975ca32a2d9ec459fe740efbef68b1"
+          },
+          {
+            "Text": "Merge pull request #1056 from PRODYNA-YASM/feature/tempo-1.46.5",
+            "SHA": "dcf184ce3fe01c2748538d5009a6b37f36a32ada",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-26T09:55:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/dcf184ce3fe01c2748538d5009a6b37f36a32ada"
+          },
+          {
+            "Text": "Tempo 1.46.5",
+            "SHA": "405e8b8b54dbe736c0bbc2f421bc98603c4e770c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-26T08:28:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/405e8b8b54dbe736c0bbc2f421bc98603c4e770c"
+          },
+          {
+            "Text": "Merge pull request #1055 from PRODYNA-YASM/feature/grafana-9.3.5",
+            "SHA": "a7ad4dc67ba1e3d8038319116debcfa96cdb0a0b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-26T08:05:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a7ad4dc67ba1e3d8038319116debcfa96cdb0a0b"
+          },
+          {
+            "Text": "Grafana 9.3.5",
+            "SHA": "ec32aec902b117aff19fe84dd55b3cac6b05acb4",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-26T07:58:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ec32aec902b117aff19fe84dd55b3cac6b05acb4"
+          },
           {
             "Text": "Oh, the chart uses the old image, ok",
             "SHA": "bc601a22e055b1c2f30d36e950c3dcd46896959d",
@@ -2270,5 +2351,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-08-26T07:34:42Z"
+  "LastUpdated": "2025-08-27T07:33:25Z"
 }
