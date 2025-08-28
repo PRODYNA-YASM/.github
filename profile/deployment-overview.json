@@ -283,7 +283,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "cc83f07",
+          "Version": "a1f109b",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -340,8 +340,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.74.1..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #724 from PRODYNA-YASM/dependabot/go_modules/github.com/stretchr/testify-1.11.1",
+            "SHA": "a1f109b3552a4d00accd27d39ec81af477d320b5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-28T05:30:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/a1f109b3552a4d00accd27d39ec81af477d320b5"
+          },
+          {
+            "Text": "Bump github.com/stretchr/testify from 1.11.0 to 1.11.1",
+            "SHA": "8e47e29aa3e2ced9bd300e0f970bd6683e16b749",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-08-28T04:12:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/8e47e29aa3e2ced9bd300e0f970bd6683e16b749"
+          },
           {
             "Text": "Merge pull request #723 from PRODYNA-YASM/dependabot/go_modules/github.com/stretchr/testify-1.11.0",
             "SHA": "cc83f0767490145f4fb6f01078e88faa6454b375",
@@ -929,7 +949,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "e68fc35",
+          "Version": "526cc68",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -986,8 +1006,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.14.1..HEAD",
-        "Count": 2,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #261 from PRODYNA-YASM/dependabot/go_modules/github.com/go-chi/chi/v5-5.2.3",
+            "SHA": "526cc6816d75352ec89becee92191298fabd6d8b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-28T05:32:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/526cc6816d75352ec89becee92191298fabd6d8b"
+          },
+          {
+            "Text": "Merge pull request #262 from PRODYNA-YASM/dependabot/go_modules/github.com/stretchr/testify-1.11.1",
+            "SHA": "4a0cbc61311351297b02a60d69cfa67496a7eeb3",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-28T05:32:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/4a0cbc61311351297b02a60d69cfa67496a7eeb3"
+          },
+          {
+            "Text": "Bump github.com/stretchr/testify from 1.11.0 to 1.11.1",
+            "SHA": "645412b37a38d8a61708cb126107498bdfde5d27",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-08-27T22:54:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/645412b37a38d8a61708cb126107498bdfde5d27"
+          },
+          {
+            "Text": "Bump github.com/go-chi/chi/v5 from 5.2.2 to 5.2.3",
+            "SHA": "6a94bf981ff5f073ec84d1603427cd40bf757efe",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-08-27T22:26:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/6a94bf981ff5f073ec84d1603427cd40bf757efe"
+          },
           {
             "Text": "Merge pull request #260 from PRODYNA-YASM/dependabot/go_modules/github.com/stretchr/testify-1.11.0",
             "SHA": "e68fc35d923b70988f885b7a691aa66cba3c5ba0",
@@ -1913,6 +1973,10 @@
         "Count": 8,
         "PullRequests": [
           {
+            "Title": "chore(deps): Bump @azure/msal-node from 3.6.3 to 3.7.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/354"
+          },
+          {
             "Title": "chore(deps-dev): Bump @types/node-forge from 1.3.11 to 1.3.14",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/353"
           },
@@ -1923,10 +1987,6 @@
           {
             "Title": "chore(deps): Bump cypress/included from 14.5.2 to 15.0.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/351"
-          },
-          {
-            "Title": "chore(deps): Bump @azure/msal-node from 3.6.3 to 3.7.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/350"
           },
           {
             "Title": "chore(deps-dev): Bump @types/node from 24.0.15 to 24.3.0",
@@ -2351,5 +2411,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-08-27T07:33:25Z"
+  "LastUpdated": "2025-08-28T07:34:14Z"
 }
