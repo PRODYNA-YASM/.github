@@ -1,26 +1,26 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-08-28T07:34:14Z
+Component Status overview. Last update 2025-08-29T07:33:07Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [5](https://github.com/prodyna-yasm/yasm-backend/compare/1.74.0..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.74.0 |  :red_square: c0a836d |  :green_square: 1.74.0 |  :green_square: 1.74.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [6](https://github.com/prodyna-yasm/yasm-backend/compare/1.74.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.74.0 |  :red_square: c0a836d |  :green_square: 1.74.0 |  :green_square: 1.74.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.73.6 |  :green_square: 1.73.6 |  :green_square: 1.73.6 |  :green_square: 1.73.6 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [4](https://github.com/prodyna-yasm/yasm-integration/compare/1.74.1..HEAD) | :green_square: 0 | 1.74.1 |  :red_square: a1f109b |  :green_square: 1.74.1 |  :green_square: 1.74.1 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [19](https://github.com/prodyna-yasm/yasmctl/compare/1.73.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.73.0 |  :red_square: d1331ec |  :green_square: 1.73.0 |  :green_square: 1.73.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.23.2..HEAD) | :green_square: 0 | 1.23.2 |  :red_square: 8ec7cfd |  :green_square: 1.23.2 |  :green_square: 1.23.2 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [2](https://github.com/prodyna-yasm/yasm-metrics/compare/1.74.1..HEAD) | :green_square: 0 | 1.74.1 |  :red_square: 9959c86 |  :green_square: 1.74.1 |  :green_square: 1.74.1 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.11.1 |  :green_square: 1.11.1 |  :green_square: 1.11.1 |  :green_square: 1.11.1 | 
-| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [6](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.14.1..HEAD) | :green_square: 0 | 1.14.1 |  :red_square: 526cc68 |  :green_square: 1.14.1 |  :green_square: 1.14.1 | 
+| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [10](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.14.1..HEAD) | :green_square: 0 | 1.14.1 |  :red_square: c82f4d0 |  :green_square: 1.14.1 |  :green_square: 1.14.1 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.4 |  :green_square: 1.2.4 |  :green_square: 1.2.4 |  :green_square: 1.2.4 | 
-| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.22.0-0 |  :green_square: 8.22.0-0 |  :green_square: 8.22.0-0 |  :green_square: 8.22.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [13](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.74.4..HEAD) | :green_square: 0 | 1.74.4 |  :red_square: 439cccd |  :green_square: 1.74.4 |  :green_square: 1.74.4 | 
+| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [4](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.22.0-0..HEAD) | :green_square: 0 | 8.22.0-0 |  :red_square: 80e41c9 |  :green_square: 8.22.0-0 |  :green_square: 8.22.0-0 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [13](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.74.4..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.74.4 |  :red_square: 439cccd |  :green_square: 1.74.4 |  :green_square: 1.74.4 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.73.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.73.1 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.73.0 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [5](https://github.com/prodyna-yasm/yasm-api/compare/1.74.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.74.0 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [12](https://github.com/prodyna-yasm/yasm-api/compare/1.74.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.74.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.73.0 | 
-| [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :green_square: 0 | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
+| [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [2](https://github.com/prodyna-yasm/yasm-test/compare/v1.74.1..HEAD) | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [2](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.7.6..HEAD) | :green_square: 0 | 1.7.6 |  :red_square: 8e2eee8 |  :green_square: 1.7.6 |  :green_square: 1.7.6 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [1](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :red_square: f3c0835 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :red_square: [8](https://github.com/prodyna-yasm/fox-and-hound/compare/2.0.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.0.0 |  :red_square: 1d2ac1d |  :green_square: 2.0.0 |  :green_square: 2.0.0 | 
@@ -32,7 +32,9 @@ Component Status overview. Last update 2025-08-28T07:34:14Z
 
 
 
-### [Commits on main since 1.74.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.74.0..HEAD) (5)
+### [Commits on main since 1.74.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.74.0..HEAD) (6)
+
+- [build(deps): bump amannn/action-semantic-pull-request from 5 to 6 (#918)](https://github.com/prodyna-yasm/yasm-backend/commit/cc32b0a8c7812997aa148dc9faa358eb192a1e66) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-08-28 08:18:16 +0000 UTC
 
 - [build(deps): bump actions/setup-java from 4 to 5 (#919)](https://github.com/prodyna-yasm/yasm-backend/commit/c0a836d571d4e54b39b575dedce5c618144da301) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-08-25 09:41:45 +0000 UTC
 
@@ -47,9 +49,7 @@ Component Status overview. Last update 2025-08-28T07:34:14Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (8)
-
-- [build(deps): bump amannn/action-semantic-pull-request from 5 to 6](https://github.com/PRODYNA-YASM/yasm-backend/pull/918)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (7)
 
 - [build(deps): bump eclipse-temurin from 24.0.1_9-jre-ubi9-minimal to 24.0.2_12-jre-ubi9-minimal](https://github.com/PRODYNA-YASM/yasm-backend/pull/916)
 
@@ -98,9 +98,9 @@ Component Status overview. Last update 2025-08-28T07:34:14Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (10)
 
-- [feat: 551 add nationalities to side profile in employee details page](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1098)
+- [chore: bump node from 24.4.0-slim to 24.7.0-slim](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1099)
 
-- [chore: bump node from 24.4.0-slim to 24.6.0-slim](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1097)
+- [feat: 551 add nationalities to side profile in employee details page](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1098)
 
 - [chore: bump nginx from 1.29.0-otel to 1.29.1-otel](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1096)
 
@@ -378,7 +378,15 @@ Component Status overview. Last update 2025-08-28T07:34:14Z
 
 
 
-### [Commits on main since 1.14.1](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.14.1..HEAD) (6)
+### [Commits on main since 1.14.1](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.14.1..HEAD) (10)
+
+- [Merge pull request #264 from PRODYNA-YASM/alert-autofix-2](https://github.com/prodyna-yasm/yasm-geocoding/commit/c82f4d02b40a2e2ec146b13acc326d717cdaea31) by [dkrizic](https://github.com/dkrizic) on 2025-08-28 08:23:33 +0000 UTC
+
+- [Potential fix for code scanning alert no. 2: Workflow does not contain permissions](https://github.com/prodyna-yasm/yasm-geocoding/commit/4e13b8f2cec72d64001be3f745d7bc69a0e5e153) by [dkrizic](https://github.com/dkrizic) on 2025-08-28 08:21:10 +0000 UTC
+
+- [Merge pull request #263 from PRODYNA-YASM/alert-autofix-6](https://github.com/prodyna-yasm/yasm-geocoding/commit/8994cde03f4162bdb121dd65f4654740ab68fb34) by [dkrizic](https://github.com/dkrizic) on 2025-08-28 08:08:30 +0000 UTC
+
+- [Potential fix for code scanning alert no. 6: Workflow does not contain permissions](https://github.com/prodyna-yasm/yasm-geocoding/commit/9eea234e2eb78da18e7f55be7567276b35511aa0) by [dkrizic](https://github.com/dkrizic) on 2025-08-28 08:05:20 +0000 UTC
 
 - [Merge pull request #261 from PRODYNA-YASM/dependabot/go_modules/github.com/go-chi/chi/v5-5.2.3](https://github.com/prodyna-yasm/yasm-geocoding/commit/526cc6816d75352ec89becee92191298fabd6d8b) by [dkrizic](https://github.com/dkrizic) on 2025-08-28 05:32:46 +0000 UTC
 
@@ -400,7 +408,7 @@ Component Status overview. Last update 2025-08-28T07:34:14Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  526cc68 |  1.14.1 |  1.14.1 | 
+| Version |  c82f4d0 |  1.14.1 |  1.14.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -518,6 +526,17 @@ Component Status overview. Last update 2025-08-28T07:34:14Z
 
 
 
+### [Commits on main since 8.22.0-0](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.22.0-0..HEAD) (4)
+
+- [Merge pull request #92 from PRODYNA-YASM/alert-autofix-2](https://github.com/prodyna-yasm/yasm-gotenberg/commit/80e41c91f8d553443ecbf0e8c058c70ddfb53520) by [dkrizic](https://github.com/dkrizic) on 2025-08-28 08:15:25 +0000 UTC
+
+- [Potential fix for code scanning alert no. 2: Workflow does not contain permissions](https://github.com/prodyna-yasm/yasm-gotenberg/commit/99d574a55411f422e02cc1f152543aa089ab92b0) by [dkrizic](https://github.com/dkrizic) on 2025-08-28 08:13:09 +0000 UTC
+
+- [Merge pull request #91 from PRODYNA-YASM/alert-autofix-6](https://github.com/prodyna-yasm/yasm-gotenberg/commit/30d5f6a503b92e8c5cd72dff5febb299ccc4b476) by [dkrizic](https://github.com/dkrizic) on 2025-08-28 08:07:40 +0000 UTC
+
+- [Potential fix for code scanning alert no. 6: Workflow does not contain permissions](https://github.com/prodyna-yasm/yasm-gotenberg/commit/1273c3540a04c9265aa6f389d6a91f24f258a72a) by [dkrizic](https://github.com/dkrizic) on 2025-08-28 08:04:43 +0000 UTC
+
+
 
 
 
@@ -525,9 +544,9 @@ Component Status overview. Last update 2025-08-28T07:34:14Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  8.22.0-0 |  8.22.0-0 |  8.22.0-0 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  80e41c9 |  8.22.0-0 |  8.22.0-0 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -577,6 +596,13 @@ Component Status overview. Last update 2025-08-28T07:34:14Z
 - [Prometheus CRD 23.0.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6b88394717a1f43c09492faba9bee380956a8f64) by [dkrizic](https://github.com/dkrizic) on 2025-08-22 10:06:30 +0000 UTC
 
 
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (2)
+
+- [Bump hashicorp/azurerm from 4.41.0 to 4.42.0 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1059)
+
+- [Bump hashicorp/azurerm from 4.41.0 to 4.42.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1058)
 
 
 
@@ -686,7 +712,21 @@ Component Status overview. Last update 2025-08-28T07:34:14Z
 
 
 
-### [Commits on main since 1.74.0](https://github.com/prodyna-yasm/yasm-api/compare/1.74.0..HEAD) (5)
+### [Commits on main since 1.74.0](https://github.com/prodyna-yasm/yasm-api/compare/1.74.0..HEAD) (12)
+
+- [chore: bump com.fasterxml.jackson.core:jackson-databind (#302)](https://github.com/prodyna-yasm/yasm-api/commit/8d7997d027d7be6d2a3dba55e93f2f0722607984) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-08-29 05:34:36 +0000 UTC
+
+- [Potential fix for code scanning alert no. 1: Workflow does not contain permissions (#301)](https://github.com/prodyna-yasm/yasm-api/commit/0f1928979139b0859e3a4cc1b060746fb584d76e) by [dkrizic](https://github.com/dkrizic) on 2025-08-28 08:46:24 +0000 UTC
+
+- [Potential fix for code scanning alert no. 4: Workflow does not contain permissions (#300)](https://github.com/prodyna-yasm/yasm-api/commit/37ba58820bea4f749b654e9685848b1b57c103b6) by [dkrizic](https://github.com/dkrizic) on 2025-08-28 08:38:02 +0000 UTC
+
+- [Potential fix for code scanning alert no. 5: Workflow does not contain permissions (#299)](https://github.com/prodyna-yasm/yasm-api/commit/c7245a0dd2833426ad54f88984a8134c6d5f3f30) by [dkrizic](https://github.com/dkrizic) on 2025-08-28 08:31:36 +0000 UTC
+
+- [Potential fix for code scanning alert no. 3: Workflow does not contain permissions (#297)](https://github.com/prodyna-yasm/yasm-api/commit/9bd53d024f265338ea03a2e9ad7c77045805288e) by [dkrizic](https://github.com/dkrizic) on 2025-08-28 08:20:19 +0000 UTC
+
+- [Potential fix for code scanning alert no. 6: Workflow does not contain permissions (#298)](https://github.com/prodyna-yasm/yasm-api/commit/8c7e9e09c31c789ca3b95f2507a54dee6b7b0a24) by [dkrizic](https://github.com/dkrizic) on 2025-08-28 08:17:20 +0000 UTC
+
+- [chore: bump io.smallrye.reactive:mutiny from 2.9.3 to 2.9.4 (#292)](https://github.com/prodyna-yasm/yasm-api/commit/8f3961d26c608e7556131e937c1c77101df239e9) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-08-28 08:11:37 +0000 UTC
 
 - [chore: bump org.openapitools:openapi-generator-maven-plugin (#296)](https://github.com/prodyna-yasm/yasm-api/commit/b4afe8709b47247a6e5e8f05df85ce8dd53616a5) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-08-25 05:07:17 +0000 UTC
 
@@ -701,9 +741,7 @@ Component Status overview. Last update 2025-08-28T07:34:14Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (2)
-
-- [chore: bump io.smallrye.reactive:mutiny from 2.9.3 to 2.9.4](https://github.com/PRODYNA-YASM/yasm-api/pull/292)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (1)
 
 - [feat: 770 create new endpoint for bulk pdf profile creation](https://github.com/PRODYNA-YASM/yasm-api/pull/291)
 
@@ -766,9 +804,20 @@ Component Status overview. Last update 2025-08-28T07:34:14Z
 
 
 
+### [Commits on main since v1.74.1](https://github.com/prodyna-yasm/yasm-test/compare/v1.74.1..HEAD) (2)
+
+- [Merge pull request #356 from PRODYNA-YASM/alert-autofix-1](https://github.com/prodyna-yasm/yasm-test/commit/ae833365e9c06f2e417d73abbec63064052836fa) by [dkrizic](https://github.com/dkrizic) on 2025-08-28 08:50:20 +0000 UTC
+
+- [Potential fix for code scanning alert no. 1: Workflow does not contain permissions](https://github.com/prodyna-yasm/yasm-test/commit/e52476d218cd2d20b6bb08f58d452fac24c253a4) by [dkrizic](https://github.com/dkrizic) on 2025-08-28 08:41:31 +0000 UTC
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (8)
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (10)
+
+- [chore(deps-dev): Bump tmp from 0.2.3 to 0.2.5](https://github.com/PRODYNA-YASM/yasm-test/pull/357)
+
+- [Potential fix for code scanning alert no. 2: Workflow does not contain permissions](https://github.com/PRODYNA-YASM/yasm-test/pull/355)
 
 - [chore(deps): Bump @azure/msal-node from 3.6.3 to 3.7.3](https://github.com/PRODYNA-YASM/yasm-test/pull/354)
 

@@ -59,12 +59,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 8,
+        "Count": 7,
         "PullRequests": [
-          {
-            "Title": "build(deps): bump amannn/action-semantic-pull-request from 5 to 6",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/918"
-          },
           {
             "Title": "build(deps): bump eclipse-temurin from 24.0.1_9-jre-ubi9-minimal to 24.0.2_12-jre-ubi9-minimal",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/916"
@@ -98,8 +94,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.74.0..HEAD",
-        "Count": 5,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "build(deps): bump amannn/action-semantic-pull-request from 5 to 6 (#918)",
+            "SHA": "cc32b0a8c7812997aa148dc9faa358eb192a1e66",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-08-28T08:18:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/cc32b0a8c7812997aa148dc9faa358eb192a1e66"
+          },
           {
             "Text": "build(deps): bump actions/setup-java from 4 to 5 (#919)",
             "SHA": "c0a836d571d4e54b39b575dedce5c618144da301",
@@ -221,12 +227,12 @@
         "Count": 10,
         "PullRequests": [
           {
-            "Title": "feat: 551 add nationalities to side profile in employee details page",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1098"
+            "Title": "chore: bump node from 24.4.0-slim to 24.7.0-slim",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1099"
           },
           {
-            "Title": "chore: bump node from 24.4.0-slim to 24.6.0-slim",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1097"
+            "Title": "feat: 551 add nationalities to side profile in employee details page",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1098"
           },
           {
             "Title": "chore: bump nginx from 1.29.0-otel to 1.29.1-otel",
@@ -949,7 +955,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "526cc68",
+          "Version": "c82f4d0",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1006,8 +1012,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.14.1..HEAD",
-        "Count": 6,
+        "Count": 10,
         "Commits": [
+          {
+            "Text": "Merge pull request #264 from PRODYNA-YASM/alert-autofix-2",
+            "SHA": "c82f4d02b40a2e2ec146b13acc326d717cdaea31",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-28T08:23:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/c82f4d02b40a2e2ec146b13acc326d717cdaea31"
+          },
+          {
+            "Text": "Potential fix for code scanning alert no. 2: Workflow does not contain permissions",
+            "SHA": "4e13b8f2cec72d64001be3f745d7bc69a0e5e153",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-28T08:21:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/4e13b8f2cec72d64001be3f745d7bc69a0e5e153"
+          },
+          {
+            "Text": "Merge pull request #263 from PRODYNA-YASM/alert-autofix-6",
+            "SHA": "8994cde03f4162bdb121dd65f4654740ab68fb34",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-28T08:08:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/8994cde03f4162bdb121dd65f4654740ab68fb34"
+          },
+          {
+            "Text": "Potential fix for code scanning alert no. 6: Workflow does not contain permissions",
+            "SHA": "9eea234e2eb78da18e7f55be7567276b35511aa0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-28T08:05:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/9eea234e2eb78da18e7f55be7567276b35511aa0"
+          },
           {
             "Text": "Merge pull request #261 from PRODYNA-YASM/dependabot/go_modules/github.com/go-chi/chi/v5-5.2.3",
             "SHA": "526cc6816d75352ec89becee92191298fabd6d8b",
@@ -1351,9 +1397,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8.22.0-0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "80e41c9",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1408,8 +1454,49 @@
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.22.0-0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "Merge pull request #92 from PRODYNA-YASM/alert-autofix-2",
+            "SHA": "80e41c91f8d553443ecbf0e8c058c70ddfb53520",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-28T08:15:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/80e41c91f8d553443ecbf0e8c058c70ddfb53520"
+          },
+          {
+            "Text": "Potential fix for code scanning alert no. 2: Workflow does not contain permissions",
+            "SHA": "99d574a55411f422e02cc1f152543aa089ab92b0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-28T08:13:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/99d574a55411f422e02cc1f152543aa089ab92b0"
+          },
+          {
+            "Text": "Merge pull request #91 from PRODYNA-YASM/alert-autofix-6",
+            "SHA": "30d5f6a503b92e8c5cd72dff5febb299ccc4b476",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-28T08:07:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/30d5f6a503b92e8c5cd72dff5febb299ccc4b476"
+          },
+          {
+            "Text": "Potential fix for code scanning alert no. 6: Workflow does not contain permissions",
+            "SHA": "1273c3540a04c9265aa6f389d6a91f24f258a72a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-28T08:04:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/1273c3540a04c9265aa6f389d6a91f24f258a72a"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1477,8 +1564,17 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump hashicorp/azurerm from 4.41.0 to 4.42.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1059"
+          },
+          {
+            "Title": "Bump hashicorp/azurerm from 4.41.0 to 4.42.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1058"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -1804,12 +1900,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "chore: bump io.smallrye.reactive:mutiny from 2.9.3 to 2.9.4",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/292"
-          },
           {
             "Title": "feat: 770 create new endpoint for bulk pdf profile creation",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/291"
@@ -1819,8 +1911,78 @@
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.74.0..HEAD",
-        "Count": 5,
+        "Count": 12,
         "Commits": [
+          {
+            "Text": "chore: bump com.fasterxml.jackson.core:jackson-databind (#302)",
+            "SHA": "8d7997d027d7be6d2a3dba55e93f2f0722607984",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-08-29T05:34:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/8d7997d027d7be6d2a3dba55e93f2f0722607984"
+          },
+          {
+            "Text": "Potential fix for code scanning alert no. 1: Workflow does not contain permissions (#301)",
+            "SHA": "0f1928979139b0859e3a4cc1b060746fb584d76e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-28T08:46:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/0f1928979139b0859e3a4cc1b060746fb584d76e"
+          },
+          {
+            "Text": "Potential fix for code scanning alert no. 4: Workflow does not contain permissions (#300)",
+            "SHA": "37ba58820bea4f749b654e9685848b1b57c103b6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-28T08:38:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/37ba58820bea4f749b654e9685848b1b57c103b6"
+          },
+          {
+            "Text": "Potential fix for code scanning alert no. 5: Workflow does not contain permissions (#299)",
+            "SHA": "c7245a0dd2833426ad54f88984a8134c6d5f3f30",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-28T08:31:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/c7245a0dd2833426ad54f88984a8134c6d5f3f30"
+          },
+          {
+            "Text": "Potential fix for code scanning alert no. 3: Workflow does not contain permissions (#297)",
+            "SHA": "9bd53d024f265338ea03a2e9ad7c77045805288e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-28T08:20:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/9bd53d024f265338ea03a2e9ad7c77045805288e"
+          },
+          {
+            "Text": "Potential fix for code scanning alert no. 6: Workflow does not contain permissions (#298)",
+            "SHA": "8c7e9e09c31c789ca3b95f2507a54dee6b7b0a24",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-28T08:17:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/8c7e9e09c31c789ca3b95f2507a54dee6b7b0a24"
+          },
+          {
+            "Text": "chore: bump io.smallrye.reactive:mutiny from 2.9.3 to 2.9.4 (#292)",
+            "SHA": "8f3961d26c608e7556131e937c1c77101df239e9",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-08-28T08:11:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/8f3961d26c608e7556131e937c1c77101df239e9"
+          },
           {
             "Text": "chore: bump org.openapitools:openapi-generator-maven-plugin (#296)",
             "SHA": "b4afe8709b47247a6e5e8f05df85ce8dd53616a5",
@@ -1970,8 +2132,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 8,
+        "Count": 10,
         "PullRequests": [
+          {
+            "Title": "chore(deps-dev): Bump tmp from 0.2.3 to 0.2.5",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/357"
+          },
+          {
+            "Title": "Potential fix for code scanning alert no. 2: Workflow does not contain permissions",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/355"
+          },
           {
             "Title": "chore(deps): Bump @azure/msal-node from 3.6.3 to 3.7.3",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/354"
@@ -2009,8 +2179,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-test",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/compare/v1.74.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #356 from PRODYNA-YASM/alert-autofix-1",
+            "SHA": "ae833365e9c06f2e417d73abbec63064052836fa",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-28T08:50:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/ae833365e9c06f2e417d73abbec63064052836fa"
+          },
+          {
+            "Text": "Potential fix for code scanning alert no. 1: Workflow does not contain permissions",
+            "SHA": "e52476d218cd2d20b6bb08f58d452fac24c253a4",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-08-28T08:41:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/e52476d218cd2d20b6bb08f58d452fac24c253a4"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2411,5 +2602,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-08-28T07:34:14Z"
+  "LastUpdated": "2025-08-29T07:33:07Z"
 }
