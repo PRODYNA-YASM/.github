@@ -289,7 +289,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "a1f109b",
+          "Version": "09323d3",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -340,14 +340,51 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 4,
+        "PullRequests": [
+          {
+            "Title": "Bump github.com/spf13/pflag from 1.0.7 to 1.0.8",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/729"
+          },
+          {
+            "Title": "Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc from 1.37.0 to 1.38.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/727"
+          },
+          {
+            "Title": "Bump go.opentelemetry.io/otel/sdk from 1.37.0 to 1.38.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/726"
+          },
+          {
+            "Title": "Bump go.opentelemetry.io/contrib/instrumentation/runtime from 0.62.0 to 0.63.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/725"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.74.1..HEAD",
-        "Count": 4,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #728 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel-1.38.0",
+            "SHA": "09323d3c7c26dea08dc28bb9e1816a490663b357",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-09-01T05:16:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/09323d3c7c26dea08dc28bb9e1816a490663b357"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel from 1.37.0 to 1.38.0",
+            "SHA": "9dac6444d64c64415dcb14001788722ffb79411e",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-09-01T03:00:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/9dac6444d64c64415dcb14001788722ffb79411e"
+          },
           {
             "Text": "Merge pull request #724 from PRODYNA-YASM/dependabot/go_modules/github.com/stretchr/testify-1.11.1",
             "SHA": "a1f109b3552a4d00accd27d39ec81af477d320b5",
@@ -1495,7 +1532,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "80e41c9",
+          "Version": "156a0c4",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1552,8 +1589,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.22.0-0..HEAD",
-        "Count": 4,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #93 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.23.0",
+            "SHA": "156a0c4dd79861fa8b8a7f15b2d89301ea834dc0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-09-01T05:17:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/156a0c4dd79861fa8b8a7f15b2d89301ea834dc0"
+          },
+          {
+            "Text": "Bump gotenberg/gotenberg from 8.22.0 to 8.23.0",
+            "SHA": "76b8faefdfea82f4de22448adeacf7970d7309db",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-09-01T00:22:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/76b8faefdfea82f4de22448adeacf7970d7309db"
+          },
           {
             "Text": "Merge pull request #92 from PRODYNA-YASM/alert-autofix-2",
             "SHA": "80e41c91f8d553443ecbf0e8c058c70ddfb53520",
@@ -2681,27 +2738,31 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "Bump gorm.io/gorm from 1.30.0 to 1.30.2 in /backend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/216"
+          },
+          {
+            "Title": "Bump @angular/core from 20.0.6 to 20.2.3 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/215"
+          },
+          {
+            "Title": "Bump @angular/compiler from 20.0.6 to 20.2.3 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/214"
+          },
+          {
+            "Title": "Bump @angular/router from 20.0.6 to 20.2.3 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/213"
+          },
+          {
+            "Title": "Bump @angular/platform-browser-dynamic from 20.0.6 to 20.2.3 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/212"
+          },
           {
             "Title": "Bump @azure/msal-angular from 4.0.11 to 4.0.19 in /frontend",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/211"
-          },
-          {
-            "Title": "Bump @angular/router from 20.0.6 to 20.2.1 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/210"
-          },
-          {
-            "Title": "Bump @angular/platform-browser-dynamic from 20.0.6 to 20.2.1 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/209"
-          },
-          {
-            "Title": "Bump @angular/compiler from 20.0.6 to 20.2.1 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/208"
-          },
-          {
-            "Title": "Bump @angular/core from 20.0.6 to 20.2.1 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/207"
           },
           {
             "Title": "182 Show what is behind the rating",
@@ -2819,5 +2880,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-08-31T07:32:28Z"
+  "LastUpdated": "2025-09-01T07:34:33Z"
 }
