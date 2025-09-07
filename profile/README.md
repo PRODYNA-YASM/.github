@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-09-06T07:32:25Z
+Component Status overview. Last update 2025-09-07T07:32:37Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -10,7 +10,7 @@ Component Status overview. Last update 2025-09-06T07:32:25Z
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.73.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.73.0 |  :red_square: e5a2fe2 |  :green_square: 1.73.0 |  :green_square: 1.73.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.24.0 |  :green_square: 1.24.0 |  :green_square: 1.24.0 |  :green_square: 1.24.0 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [2](https://github.com/prodyna-yasm/yasm-metrics/compare/1.75.0..HEAD) | :green_square: 0 | 1.75.0 |  :red_square: 2a6f785 |  :green_square: 1.75.0 |  :red_square: 1.74.1 | 
-| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [2](https://github.com/prodyna-yasm/yasm-github/compare/1.12.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.12.0 |  :red_square: b7155cc |  :green_square: 1.12.0 |  :green_square: 1.12.0 | 
+| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [4](https://github.com/prodyna-yasm/yasm-github/compare/1.12.0..HEAD) | :green_square: 0 | 1.12.0 |  :red_square: f8f184e |  :green_square: 1.12.0 |  :green_square: 1.12.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [4](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.0..HEAD) | :green_square: 0 | 1.15.0 |  :red_square: faa1f53 |  :green_square: 1.15.0 |  :green_square: 1.15.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [2](https://github.com/prodyna-yasm/yasm-external/compare/1.2.5..HEAD) | :green_square: 0 | 1.2.5 |  :red_square: 28580c7 |  :green_square: 1.2.5 |  :red_square: 1.2.4 | 
@@ -365,7 +365,11 @@ Component Status overview. Last update 2025-09-06T07:32:25Z
 
 
 
-### [Commits on main since 1.12.0](https://github.com/prodyna-yasm/yasm-github/compare/1.12.0..HEAD) (2)
+### [Commits on main since 1.12.0](https://github.com/prodyna-yasm/yasm-github/compare/1.12.0..HEAD) (4)
+
+- [Merge pull request #277 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.23.2](https://github.com/prodyna-yasm/yasm-github/commit/f8f184eb44ba6463c01edd494971222df56452f9) by [dkrizic](https://github.com/dkrizic) on 2025-09-06 09:15:54 +0000 UTC
+
+- [Bump github.com/prometheus/client_golang from 1.23.1 to 1.23.2](https://github.com/prodyna-yasm/yasm-github/commit/f79bbb55dad1cf3aa2530b558fe64abc70fed6f3) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-09-05 23:09:17 +0000 UTC
 
 - [Merge pull request #276 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.23.1](https://github.com/prodyna-yasm/yasm-github/commit/b7155ccd78332c2bb0160c4f5901e76c04d89ba8) by [dkrizic](https://github.com/dkrizic) on 2025-09-04 23:17:13 +0000 UTC
 
@@ -374,17 +378,12 @@ Component Status overview. Last update 2025-09-06T07:32:25Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-github/pulls) (1)
-
-- [Bump github.com/prometheus/client_golang from 1.23.1 to 1.23.2](https://github.com/PRODYNA-YASM/yasm-github/pull/277)
-
-
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  b7155cc |  1.12.0 |  1.12.0 | 
+| Version |  f8f184e |  1.12.0 |  1.12.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 

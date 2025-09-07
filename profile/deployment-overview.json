@@ -962,7 +962,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "b7155cc",
+          "Version": "f8f184e",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1013,19 +1013,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump github.com/prometheus/client_golang from 1.23.1 to 1.23.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/277"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.12.0..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #277 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.23.2",
+            "SHA": "f8f184eb44ba6463c01edd494971222df56452f9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-09-06T09:15:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/f8f184eb44ba6463c01edd494971222df56452f9"
+          },
+          {
+            "Text": "Bump github.com/prometheus/client_golang from 1.23.1 to 1.23.2",
+            "SHA": "f79bbb55dad1cf3aa2530b558fe64abc70fed6f3",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-09-05T23:09:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/f79bbb55dad1cf3aa2530b558fe64abc70fed6f3"
+          },
           {
             "Text": "Merge pull request #276 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.23.1",
             "SHA": "b7155ccd78332c2bb0160c4f5901e76c04d89ba8",
@@ -2464,5 +2479,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-09-06T07:32:25Z"
+  "LastUpdated": "2025-09-07T07:32:37Z"
 }
