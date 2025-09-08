@@ -1,15 +1,15 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-09-07T07:32:37Z
+Component Status overview. Last update 2025-09-08T07:34:02Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [8](https://github.com/prodyna-yasm/yasm-backend/compare/1.74.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.74.0 |  :red_square: c804439 |  :green_square: 1.74.0 |  :green_square: 1.74.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.73.6..HEAD) | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.73.6 |  :red_square: 234cb15 |  :green_square: 1.73.6 |  :green_square: 1.73.6 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.75.0 |  :green_square: 1.75.0 |  :green_square: 1.75.0 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.75.0..HEAD) | :green_square: 0 | 1.75.0 |  :red_square: d8030bf |  :green_square: 1.75.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.73.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.73.0 |  :red_square: e5a2fe2 |  :green_square: 1.73.0 |  :green_square: 1.73.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.24.0 |  :green_square: 1.24.0 |  :green_square: 1.24.0 |  :green_square: 1.24.0 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [2](https://github.com/prodyna-yasm/yasm-metrics/compare/1.75.0..HEAD) | :green_square: 0 | 1.75.0 |  :red_square: 2a6f785 |  :green_square: 1.75.0 |  :red_square: 1.74.1 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [4](https://github.com/prodyna-yasm/yasm-metrics/compare/1.75.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-metrics/pulls) | 1.75.0 |  :red_square: 2e489e8 |  :green_square: 1.75.0 |  :red_square: 1.74.1 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [4](https://github.com/prodyna-yasm/yasm-github/compare/1.12.0..HEAD) | :green_square: 0 | 1.12.0 |  :red_square: f8f184e |  :green_square: 1.12.0 |  :green_square: 1.12.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [4](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.0..HEAD) | :green_square: 0 | 1.15.0 |  :red_square: faa1f53 |  :green_square: 1.15.0 |  :green_square: 1.15.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
@@ -23,7 +23,7 @@ Component Status overview. Last update 2025-09-07T07:32:37Z
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [2](https://github.com/prodyna-yasm/yasm-test/compare/v1.74.1..HEAD) | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [4](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.7.7..HEAD) | :green_square: 0 | 1.7.7 |  :red_square: d25bac7 |  :green_square: 1.7.7 |  :green_square: 1.7.7 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [1](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :red_square: f3c0835 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
-| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :red_square: [8](https://github.com/prodyna-yasm/fox-and-hound/compare/2.0.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.0.0 |  :red_square: 1d2ac1d |  :green_square: 2.0.0 |  :green_square: 2.0.0 | 
+| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :red_square: [8](https://github.com/prodyna-yasm/fox-and-hound/compare/2.0.0..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.0.0 |  :red_square: 1d2ac1d |  :green_square: 2.0.0 |  :green_square: 2.0.0 | 
 
 
 
@@ -156,6 +156,13 @@ Component Status overview. Last update 2025-09-07T07:32:37Z
 
 
 
+### [Commits on main since 1.75.0](https://github.com/prodyna-yasm/yasm-integration/compare/1.75.0..HEAD) (2)
+
+- [Merge pull request #734 from PRODYNA-YASM/dependabot/docker/golang-1.25.1-alpine3.22](https://github.com/prodyna-yasm/yasm-integration/commit/d8030bf30477f28038d144d6cb88fe96614d0091) by [dkrizic](https://github.com/dkrizic) on 2025-09-08 01:15:20 +0000 UTC
+
+- [Bump golang from 1.25.0-alpine3.22 to 1.25.1-alpine3.22](https://github.com/prodyna-yasm/yasm-integration/commit/1936ee74ca486f79230370567348b3f762e288e3) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-09-08 01:06:21 +0000 UTC
+
+
 
 
 
@@ -163,9 +170,9 @@ Component Status overview. Last update 2025-09-07T07:32:37Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  1.75.0 |  1.75.0 | 
-| Release |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: | 
+| Version |  d8030bf |  1.75.0 | 
+| Release |  :red_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: | 
 
 
 ### Last releases
@@ -321,7 +328,11 @@ Component Status overview. Last update 2025-09-07T07:32:37Z
 
 
 
-### [Commits on main since 1.75.0](https://github.com/prodyna-yasm/yasm-metrics/compare/1.75.0..HEAD) (2)
+### [Commits on main since 1.75.0](https://github.com/prodyna-yasm/yasm-metrics/compare/1.75.0..HEAD) (4)
+
+- [Merge pull request #259 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.23.2](https://github.com/prodyna-yasm/yasm-metrics/commit/2e489e8d5ac870fb547443f29c3e93a0c0ddcd80) by [dkrizic](https://github.com/dkrizic) on 2025-09-08 07:12:43 +0000 UTC
+
+- [build(deps): bump github.com/prometheus/client_golang](https://github.com/prodyna-yasm/yasm-metrics/commit/a0e0a60c80d2095cb1c539ceaba377e3060a854a) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-09-08 05:20:05 +0000 UTC
 
 - [Merge pull request #256 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.23.1](https://github.com/prodyna-yasm/yasm-metrics/commit/2a6f78536d55ee2ac673f30308ae26e2dfc812af) by [dkrizic](https://github.com/dkrizic) on 2025-09-05 06:27:05 +0000 UTC
 
@@ -330,12 +341,17 @@ Component Status overview. Last update 2025-09-07T07:32:37Z
 
 
 
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-metrics/pulls) (1)
+
+- [build(deps): bump golang from 1.25.0-alpine3.22 to 1.25.1-alpine3.22](https://github.com/PRODYNA-YASM/yasm-metrics/pull/257)
+
+
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  2a6f785 |  1.75.0 |  1.74.1 | 
+| Version |  2e489e8 |  1.75.0 |  1.74.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :red_square: | 
 
@@ -946,17 +962,21 @@ Component Status overview. Last update 2025-09-07T07:32:37Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (7)
+### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (9)
 
-- [Bump gorm.io/gorm from 1.30.0 to 1.30.2 in /backend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/216)
+- [Bump @angular/core from 20.0.6 to 20.2.4 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/223)
 
-- [Bump @angular/core from 20.0.6 to 20.2.3 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/215)
+- [Bump @angular/router from 20.0.6 to 20.2.4 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/222)
 
-- [Bump @angular/compiler from 20.0.6 to 20.2.3 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/214)
+- [Bump @angular/compiler from 20.0.6 to 20.2.4 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/221)
 
-- [Bump @angular/router from 20.0.6 to 20.2.3 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/213)
+- [Bump @angular/platform-browser-dynamic from 20.0.6 to 20.2.4 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/220)
 
-- [Bump @angular/platform-browser-dynamic from 20.0.6 to 20.2.3 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/212)
+- [Bump github.com/prometheus/client_golang from 1.22.0 to 1.23.2 in /backend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/219)
+
+- [Bump github.com/swaggo/gin-swagger from 1.6.0 to 1.6.1 in /backend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/218)
+
+- [Bump gorm.io/gorm from 1.30.0 to 1.30.3 in /backend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/217)
 
 - [Bump @azure/msal-angular from 4.0.11 to 4.0.19 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/211)
 
