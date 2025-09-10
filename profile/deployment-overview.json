@@ -837,9 +837,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.74.1",
+          "Version": "1.75.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -968,13 +968,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #251 from PRODYNA-YASM/feature/update-libs",
-            "Timestamp": "2025-09-04T13:14:26Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/17465072598"
-          },
           {
             "Name": "Merge pull request #234 from PRODYNA-YASM/feature/go-1.25",
             "Timestamp": "2025-08-20T11:47:58Z",
@@ -2646,5 +2641,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-09-10T13:56:10Z"
+  "LastUpdated": "2025-09-10T14:03:12Z"
 }
