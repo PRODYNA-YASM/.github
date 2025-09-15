@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-09-14T07:32:52Z
+Component Status overview. Last update 2025-09-15T07:34:31Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -36,11 +36,11 @@ Component Status overview. Last update 2025-09-14T07:32:52Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (7)
 
+- [build(deps): bump io.smallrye:jandex-maven-plugin from 3.3.2 to 3.5.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/922)
+
 - [build(deps): bump actions/github-script from 7 to 8](https://github.com/PRODYNA-YASM/yasm-backend/pull/921)
 
 - [build(deps): bump eclipse-temurin from 24.0.1_9-jre-ubi9-minimal to 24.0.2_12-jre-ubi9-minimal](https://github.com/PRODYNA-YASM/yasm-backend/pull/916)
-
-- [build(deps): bump io.smallrye:jandex-maven-plugin from 3.3.2 to 3.4.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/914)
 
 - [build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.4 to 2.46.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/912)
 
@@ -978,19 +978,19 @@ Component Status overview. Last update 2025-09-14T07:32:52Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (9)
 
-- [Bump @angular/core from 20.0.6 to 20.2.4 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/223)
+- [Bump @angular/platform-browser-dynamic from 20.0.6 to 20.3.0 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/228)
 
-- [Bump @angular/router from 20.0.6 to 20.2.4 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/222)
+- [Bump @angular/router from 20.0.6 to 20.3.0 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/227)
 
-- [Bump @angular/compiler from 20.0.6 to 20.2.4 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/221)
+- [Bump @angular/compiler from 20.0.6 to 20.3.0 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/226)
 
-- [Bump @angular/platform-browser-dynamic from 20.0.6 to 20.2.4 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/220)
+- [Bump @angular/core from 20.0.6 to 20.3.0 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/225)
+
+- [Bump gorm.io/gorm from 1.30.0 to 1.31.0 in /backend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/224)
 
 - [Bump github.com/prometheus/client_golang from 1.22.0 to 1.23.2 in /backend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/219)
 
 - [Bump github.com/swaggo/gin-swagger from 1.6.0 to 1.6.1 in /backend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/218)
-
-- [Bump gorm.io/gorm from 1.30.0 to 1.30.3 in /backend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/217)
 
 - [Bump @azure/msal-angular from 4.0.11 to 4.0.19 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/211)
 
