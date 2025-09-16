@@ -163,8 +163,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 9,
+        "Count": 10,
         "PullRequests": [
+          {
+            "Title": "feat: 770 add create external link for pdf profiles feature to bulk export",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1103"
+          },
           {
             "Title": "chore: bump node from 24.4.0-slim to 24.8.0-slim",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1102"
@@ -787,7 +791,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "a10b9c9",
+          "Version": "1871f08",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -844,8 +848,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.24.0..HEAD",
-        "Count": 2,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #334 from PRODYNA-YASM/dependabot/go_modules/github.com/spf13/viper-1.21.0",
+            "SHA": "1871f08f347badc3847e06fd2363703868271d43",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-09-15T15:26:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/1871f08f347badc3847e06fd2363703868271d43"
+          },
+          {
+            "Text": "Bump github.com/spf13/viper from 1.20.1 to 1.21.0",
+            "SHA": "bfc7088f3197762aa78a70b1738a717221eec732",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-09-15T15:03:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/bfc7088f3197762aa78a70b1738a717221eec732"
+          },
+          {
+            "Text": "Merge pull request #333 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.75.1",
+            "SHA": "16c6d229ebc520e3fd56c03ba65182faaded2e59",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-09-15T14:40:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/16c6d229ebc520e3fd56c03ba65182faaded2e59"
+          },
+          {
+            "Text": "Bump google.golang.org/grpc from 1.75.0 to 1.75.1",
+            "SHA": "6e30413bdad2115499c238b8b8ab01b42e68f389",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-09-15T13:25:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/6e30413bdad2115499c238b8b8ab01b42e68f389"
+          },
           {
             "Text": "Merge pull request #332 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.23.2",
             "SHA": "a10b9c9d4cfb74eb3ef29bf5254b7eb24435da7e",
@@ -1913,17 +1957,12 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
           {
             "Name": "Merge pull request #1043 from PRODYNA-YASM/feature/tempo-1.46.6",
             "Timestamp": "2025-08-20T08:15:44Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/17092646228"
-          },
-          {
-            "Name": "Merge pull request #1041 from PRODYNA-YASM/feature/neo4j-2025.7.1",
-            "Timestamp": "2025-08-16T20:18:10Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/17012495797"
           }
         ]
       }
@@ -2241,16 +2280,16 @@
         "Count": 10,
         "PullRequests": [
           {
+            "Title": "chore(deps-dev): Bump @types/node from 24.0.15 to 24.4.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/364"
+          },
+          {
             "Title": "chore(deps): Bump cypress/included from 14.5.2 to 15.2.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/363"
           },
           {
             "Title": "chore(deps-dev): Bump cypress from 14.5.2 to 15.2.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/362"
-          },
-          {
-            "Title": "chore(deps-dev): Bump @types/node from 24.0.15 to 24.3.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/361"
           },
           {
             "Title": "chore(deps-dev): Bump dotenv from 16.5.0 to 17.2.2",
@@ -2705,5 +2744,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-09-15T07:34:31Z"
+  "LastUpdated": "2025-09-16T07:33:39Z"
 }
