@@ -228,7 +228,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "cdf74e8",
+          "Version": "c0a3fad",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -279,14 +279,39 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.85.0 to 1.86.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/739"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.75.0..HEAD",
-        "Count": 10,
+        "Count": 12,
         "Commits": [
+          {
+            "Text": "Merge pull request #740 from PRODYNA-YASM/dependabot/go_modules/github.com/Azure/azure-sdk-for-go/sdk/azidentity-1.12.0",
+            "SHA": "c0a3fad8fef94a27d629fc37ce390e139d3aa4ce",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-09-17T06:52:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/c0a3fad8fef94a27d629fc37ce390e139d3aa4ce"
+          },
+          {
+            "Text": "Bump github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+            "SHA": "c6c4ef5552bd0287e1c02c373f5a8b7a8cd15ec3",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-09-17T01:06:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/c6c4ef5552bd0287e1c02c373f5a8b7a8cd15ec3"
+          },
           {
             "Text": "Merge pull request #737 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-core-1.4.0",
             "SHA": "cdf74e8808489d1d2c0cbc6ff8de16db34dbe7f4",
@@ -2135,8 +2160,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 1,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.72 to 3.0.73",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/308"
+          },
+          {
+            "Title": "chore: bump io.smallrye.reactive:mutiny from 2.9.4 to 3.0.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/307"
+          },
           {
             "Title": "chore: bump actions/setup-node from 4 to 5",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/305"
@@ -2280,8 +2313,8 @@
         "Count": 10,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump @types/node from 24.0.15 to 24.4.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/364"
+            "Title": "chore(deps-dev): Bump @types/node from 24.0.15 to 24.5.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/365"
           },
           {
             "Title": "chore(deps): Bump cypress/included from 14.5.2 to 15.2.0",
@@ -2744,5 +2777,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-09-16T07:33:39Z"
+  "LastUpdated": "2025-09-17T07:32:57Z"
 }
