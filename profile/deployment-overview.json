@@ -1756,7 +1756,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "94fb725",
+          "Version": "59e241a",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1807,27 +1807,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 3,
-        "PullRequests": [
-          {
-            "Title": "Bump hashicorp/azurerm from 4.44.0 to 4.45.1 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1082"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 4.44.0 to 4.45.1 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1083"
-          },
-          {
-            "Title": "Bump DataDog/datadog from 3.73.0 to 3.74.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1079"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.75.2..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #1084 from PRODYNA-YASM/feature/update-components",
+            "SHA": "59e241a66a0c1175fc6e47553960597f1290e663",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-09-23T13:13:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/59e241a66a0c1175fc6e47553960597f1290e663"
+          },
+          {
+            "Text": "Update helm charts and providers",
+            "SHA": "b7f7a20738bead05d4b179e9dddd5d4145d79e48",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-09-23T12:58:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b7f7a20738bead05d4b179e9dddd5d4145d79e48"
+          },
           {
             "Text": "Merge pull request #1078 from PRODYNA-YASM/feature/update-charts",
             "SHA": "94fb725f636504b4bfc3e406a1bb686393a19383",
@@ -2651,5 +2658,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-09-23T07:33:48Z"
+  "LastUpdated": "2025-09-24T07:33:46Z"
 }

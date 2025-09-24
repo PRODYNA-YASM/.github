@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-09-23T07:33:48Z
+Component Status overview. Last update 2025-09-24T07:33:46Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -15,7 +15,7 @@ Component Status overview. Last update 2025-09-23T07:33:48Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.6 |  :green_square: 1.2.6 |  :green_square: 1.2.6 |  :green_square: 1.2.6 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.23.1-0 |  :green_square: 8.23.1-0 |  :green_square: 8.23.1-0 |  :red_square: 8.23.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.75.2..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.75.2 |  :red_square: 94fb725 |  :green_square: 1.75.2 |  :green_square: 1.75.2 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [4](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.75.2..HEAD) | :green_square: 0 | 1.75.2 |  :red_square: 59e241a |  :green_square: 1.75.2 |  :green_square: 1.75.2 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.73.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.73.1 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.75.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.75.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.75.0 | 
@@ -604,7 +604,11 @@ Component Status overview. Last update 2025-09-23T07:33:48Z
 
 
 
-### [Commits on main since 1.75.2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.75.2..HEAD) (2)
+### [Commits on main since 1.75.2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.75.2..HEAD) (4)
+
+- [Merge pull request #1084 from PRODYNA-YASM/feature/update-components](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/59e241a66a0c1175fc6e47553960597f1290e663) by [dkrizic](https://github.com/dkrizic) on 2025-09-23 13:13:05 +0000 UTC
+
+- [Update helm charts and providers](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b7f7a20738bead05d4b179e9dddd5d4145d79e48) by [dkrizic](https://github.com/dkrizic) on 2025-09-23 12:58:44 +0000 UTC
 
 - [Merge pull request #1078 from PRODYNA-YASM/feature/update-charts](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/94fb725f636504b4bfc3e406a1bb686393a19383) by [dkrizic](https://github.com/dkrizic) on 2025-09-17 16:46:50 +0000 UTC
 
@@ -613,21 +617,12 @@ Component Status overview. Last update 2025-09-23T07:33:48Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (3)
-
-- [Bump hashicorp/azurerm from 4.44.0 to 4.45.1 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1082)
-
-- [Bump hashicorp/azurerm from 4.44.0 to 4.45.1 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1083)
-
-- [Bump DataDog/datadog from 3.73.0 to 3.74.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1079)
-
-
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  94fb725 |  1.75.2 |  1.75.2 | 
+| Version |  59e241a |  1.75.2 |  1.75.2 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
