@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-09-24T07:33:46Z
+Component Status overview. Last update 2025-09-25T07:34:49Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -15,7 +15,7 @@ Component Status overview. Last update 2025-09-24T07:33:46Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.6 |  :green_square: 1.2.6 |  :green_square: 1.2.6 |  :green_square: 1.2.6 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.23.1-0 |  :green_square: 8.23.1-0 |  :green_square: 8.23.1-0 |  :red_square: 8.23.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [4](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.75.2..HEAD) | :green_square: 0 | 1.75.2 |  :red_square: 59e241a |  :green_square: 1.75.2 |  :green_square: 1.75.2 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.75.3..HEAD) | :green_square: 0 | 1.75.3 |  :red_square: 3beff4e |  :green_square: 1.75.3 |  :green_square: 1.75.3 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.73.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.73.1 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.75.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.75.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.75.0 | 
@@ -36,13 +36,13 @@ Component Status overview. Last update 2025-09-24T07:33:46Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (7)
 
+- [build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.4 to 3.0.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/923)
+
 - [build(deps): bump io.smallrye:jandex-maven-plugin from 3.3.2 to 3.5.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/922)
 
 - [build(deps): bump actions/github-script from 7 to 8](https://github.com/PRODYNA-YASM/yasm-backend/pull/921)
 
 - [build(deps): bump eclipse-temurin from 24.0.1_9-jre-ubi9-minimal to 24.0.2_12-jre-ubi9-minimal](https://github.com/PRODYNA-YASM/yasm-backend/pull/916)
-
-- [build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.4 to 2.46.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/912)
 
 - [build(deps): bump quarkus.platform.version from 3.24.2 to 3.24.4](https://github.com/PRODYNA-YASM/yasm-backend/pull/910)
 
@@ -599,20 +599,16 @@ Component Status overview. Last update 2025-09-24T07:33:46Z
 
 
 
-## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 1.75.2
+## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 1.75.3
 
 
 
 
-### [Commits on main since 1.75.2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.75.2..HEAD) (4)
+### [Commits on main since 1.75.3](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.75.3..HEAD) (2)
 
-- [Merge pull request #1084 from PRODYNA-YASM/feature/update-components](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/59e241a66a0c1175fc6e47553960597f1290e663) by [dkrizic](https://github.com/dkrizic) on 2025-09-23 13:13:05 +0000 UTC
+- [Merge pull request #1086 from PRODYNA-YASM/feature/improve-traefik-security](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3beff4e74b56573154fd2ec22080cbdcd0502d49) by [dkrizic](https://github.com/dkrizic) on 2025-09-24 10:45:34 +0000 UTC
 
-- [Update helm charts and providers](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b7f7a20738bead05d4b179e9dddd5d4145d79e48) by [dkrizic](https://github.com/dkrizic) on 2025-09-23 12:58:44 +0000 UTC
-
-- [Merge pull request #1078 from PRODYNA-YASM/feature/update-charts](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/94fb725f636504b4bfc3e406a1bb686393a19383) by [dkrizic](https://github.com/dkrizic) on 2025-09-17 16:46:50 +0000 UTC
-
-- [Update DAPR, Grafana and Otel Operator](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/4111ea44c2029a6d4523c21c44f2ecd118ffb27c) by [dkrizic](https://github.com/dkrizic) on 2025-09-17 16:40:17 +0000 UTC
+- [Some stricter security for Traefik](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/85acd61e1ddae4029aa8d776737a661108532771) by [dkrizic](https://github.com/dkrizic) on 2025-09-24 10:43:07 +0000 UTC
 
 
 
@@ -622,18 +618,18 @@ Component Status overview. Last update 2025-09-24T07:33:46Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  59e241a |  1.75.2 |  1.75.2 | 
+| Version |  3beff4e |  1.75.3 |  1.75.3 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Fix cert-manager permissions](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.75.3) on 2025-09-24 09:35:39 +0000 UTC
+
 - [Fix country code for YASM Dashboard](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.75.2) on 2025-09-13 00:19:11 +0000 UTC
 
 - [Reactivate Traefik OpenTelemetry (again)](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.75.1) on 2025-09-12 16:05:17 +0000 UTC
-
-- [Updates to Prometheus CRD, Grafana, Neo4j, Tempo, Kube-State-Metrics, Terraform providers, Loki, DAPR, OpenTelemery Operator](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.75.0) on 2025-09-04 09:02:24 +0000 UTC
 
 
 
@@ -808,13 +804,13 @@ Component Status overview. Last update 2025-09-24T07:33:46Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (10)
 
+- [chore(deps): Bump cypress/included from 14.5.2 to 15.3.0](https://github.com/PRODYNA-YASM/yasm-test/pull/370)
+
+- [chore(deps-dev): Bump cypress from 14.5.2 to 15.3.0](https://github.com/PRODYNA-YASM/yasm-test/pull/369)
+
 - [chore(deps-dev): Bump @types/node from 24.0.15 to 24.5.2](https://github.com/PRODYNA-YASM/yasm-test/pull/368)
 
 - [chore(deps): Bump @azure/msal-node from 3.6.3 to 3.7.4](https://github.com/PRODYNA-YASM/yasm-test/pull/366)
-
-- [chore(deps): Bump cypress/included from 14.5.2 to 15.2.0](https://github.com/PRODYNA-YASM/yasm-test/pull/363)
-
-- [chore(deps-dev): Bump cypress from 14.5.2 to 15.2.0](https://github.com/PRODYNA-YASM/yasm-test/pull/362)
 
 - [chore(deps-dev): Bump dotenv from 16.5.0 to 17.2.2](https://github.com/PRODYNA-YASM/yasm-test/pull/358)
 
