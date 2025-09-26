@@ -1807,8 +1807,17 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump hashicorp/azurerm from 4.45.1 to 4.46.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1088"
+          },
+          {
+            "Title": "Bump hashicorp/azurerm from 4.45.1 to 4.46.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1087"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -2170,6 +2179,10 @@
         "Count": 10,
         "PullRequests": [
           {
+            "Title": "chore(deps): Bump @azure/msal-node from 3.6.3 to 3.8.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/371"
+          },
+          {
             "Title": "chore(deps): Bump cypress/included from 14.5.2 to 15.3.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/370"
           },
@@ -2180,10 +2193,6 @@
           {
             "Title": "chore(deps-dev): Bump @types/node from 24.0.15 to 24.5.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/368"
-          },
-          {
-            "Title": "chore(deps): Bump @azure/msal-node from 3.6.3 to 3.7.4",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/366"
           },
           {
             "Title": "chore(deps-dev): Bump dotenv from 16.5.0 to 17.2.2",
@@ -2638,5 +2647,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-09-25T07:34:49Z"
+  "LastUpdated": "2025-09-26T07:33:16Z"
 }
