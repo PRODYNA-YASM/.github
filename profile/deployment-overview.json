@@ -1689,9 +1689,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "8.23.0-0",
+          "Version": "8.23.1-0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1739,14 +1739,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #94 from PRODYNA-YASM/dependabot/docker/gotenberg/…",
-            "Timestamp": "2025-09-18T09:09:51Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/17823831055"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -2647,5 +2641,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-09-26T07:33:16Z"
+  "LastUpdated": "2025-09-27T07:32:41Z"
 }
