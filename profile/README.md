@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-10-05T07:32:27Z
+Component Status overview. Last update 2025-10-06T07:34:01Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -9,7 +9,7 @@ Component Status overview. Last update 2025-10-05T07:32:27Z
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [16](https://github.com/prodyna-yasm/yasm-integration/compare/1.75.0..HEAD) | :green_square: 0 | 1.75.0 |  :red_square: 272e9a2 |  :green_square: 1.75.0 |  :green_square: 1.75.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.73.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.73.0 |  :red_square: 829aa30 |  :green_square: 1.73.0 |  :green_square: 1.73.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [6](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.24.0..HEAD) | :green_square: 0 | 1.24.0 |  :red_square: 1871f08 |  :green_square: 1.24.0 |  :green_square: 1.24.0 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [12](https://github.com/prodyna-yasm/yasm-metrics/compare/1.75.0..HEAD) | :green_square: 0 | 1.75.0 |  :red_square: 7bbee84 |  :green_square: 1.75.0 |  :green_square: 1.75.0 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [14](https://github.com/prodyna-yasm/yasm-metrics/compare/1.75.0..HEAD) | :green_square: 0 | 1.75.0 |  :red_square: 2110478 |  :green_square: 1.75.0 |  :green_square: 1.75.0 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.12.1 |  :green_square: 1.12.1 |  :green_square: 1.12.1 |  :green_square: 1.12.1 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [12](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.0..HEAD) | :green_square: 0 | 1.15.0 |  :red_square: 600950a |  :green_square: 1.15.0 |  :green_square: 1.15.0 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
@@ -350,7 +350,11 @@ Component Status overview. Last update 2025-10-05T07:32:27Z
 
 
 
-### [Commits on main since 1.75.0](https://github.com/prodyna-yasm/yasm-metrics/compare/1.75.0..HEAD) (12)
+### [Commits on main since 1.75.0](https://github.com/prodyna-yasm/yasm-metrics/compare/1.75.0..HEAD) (14)
+
+- [Merge pull request #263 from PRODYNA-YASM/dependabot/go_modules/github.com/pressly/goose/v3-3.26.0](https://github.com/prodyna-yasm/yasm-metrics/commit/2110478093a3218610d1e14978f4a5ee644fe3b1) by [dkrizic](https://github.com/dkrizic) on 2025-10-06 06:26:31 +0000 UTC
+
+- [build(deps): bump github.com/pressly/goose/v3 from 3.25.0 to 3.26.0](https://github.com/prodyna-yasm/yasm-metrics/commit/b4c9bd6afa9674cfc26b9c5841daa5a5733cb812) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-10-06 05:20:54 +0000 UTC
 
 - [Merge pull request #262 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.76.0](https://github.com/prodyna-yasm/yasm-metrics/commit/7bbee84ffd64a6db08d78d92dc0558a4e8eef5f8) by [dkrizic](https://github.com/dkrizic) on 2025-10-03 08:37:54 +0000 UTC
 
@@ -384,7 +388,7 @@ Component Status overview. Last update 2025-10-05T07:32:27Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  7bbee84 |  1.75.0 |  1.75.0 | 
+| Version |  2110478 |  1.75.0 |  1.75.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -976,13 +980,13 @@ Component Status overview. Last update 2025-10-05T07:32:27Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (10)
 
-- [Bump @angular/router from 20.0.6 to 20.3.2 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/238)
+- [Bump @angular/core from 20.0.6 to 20.3.3 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/242)
 
-- [Bump @angular/platform-browser-dynamic from 20.0.6 to 20.3.2 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/237)
+- [Bump @angular/router from 20.0.6 to 20.3.3 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/241)
 
-- [Bump @angular/compiler from 20.0.6 to 20.3.2 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/236)
+- [Bump @angular/compiler from 20.0.6 to 20.3.3 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/240)
 
-- [Bump @angular/core from 20.0.6 to 20.3.2 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/235)
+- [Bump @angular/platform-browser-dynamic from 20.0.6 to 20.3.3 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/239)
 
 - [Bump @azure/msal-angular from 4.0.11 to 4.0.20 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/234)
 
