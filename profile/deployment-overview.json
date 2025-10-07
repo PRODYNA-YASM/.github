@@ -301,8 +301,17 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.86.0 to 1.87.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/743"
+          },
+          {
+            "Title": "Bump google.golang.org/grpc from 1.75.1 to 1.76.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/742"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -1054,8 +1063,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "build(deps): bump google.golang.org/grpc from 1.75.1 to 1.76.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/264"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
@@ -1219,9 +1233,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.12.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "a72d234",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1276,8 +1290,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.12.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #283 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.76.0",
+            "SHA": "a72d234939dc8bb4438d7f9526fedc0b05d34e52",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-06T23:37:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/a72d234939dc8bb4438d7f9526fedc0b05d34e52"
+          },
+          {
+            "Text": "Bump google.golang.org/grpc from 1.75.1 to 1.76.0",
+            "SHA": "8b6732799d06d19710c395645f198741172f6911",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-10-06T23:12:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/8b6732799d06d19710c395645f198741172f6911"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2130,16 +2165,16 @@
         "Count": 5,
         "PullRequests": [
           {
+            "Title": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.72 to 3.0.74",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/312"
+          },
+          {
             "Title": "chore: bump org.openapitools:openapi-generator-maven-plugin from 7.15.0 to 7.16.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/310"
           },
           {
             "Title": "chore: bump org.apache.maven.plugins:maven-compiler-plugin from 3.14.0 to 3.14.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/309"
-          },
-          {
-            "Title": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.72 to 3.0.73",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/308"
           },
           {
             "Title": "chore: bump io.smallrye.reactive:mutiny from 2.9.4 to 3.0.0",
@@ -2257,8 +2292,8 @@
         "Count": 10,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump @types/node from 24.0.15 to 24.6.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/375"
+            "Title": "chore(deps-dev): Bump @types/node from 24.0.15 to 24.7.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/376"
           },
           {
             "Title": "chore(deps-dev): Bump dotenv from 16.5.0 to 17.2.3",
@@ -2725,5 +2760,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-10-06T07:34:01Z"
+  "LastUpdated": "2025-10-07T07:33:24Z"
 }
