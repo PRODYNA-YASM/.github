@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d7e5abe",
+          "Version": "f3f9e91",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -59,7 +59,7 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 8,
+        "Count": 7,
         "PullRequests": [
           {
             "Title": "feat: 924 create new endpoint for calling third-party organization logo service",
@@ -72,10 +72,6 @@
           {
             "Title": "build(deps): bump io.smallrye:jandex-maven-plugin from 3.3.2 to 3.5.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/922"
-          },
-          {
-            "Title": "build(deps): bump actions/github-script from 7 to 8",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/921"
           },
           {
             "Title": "build(deps): bump eclipse-temurin from 24.0.1_9-jre-ubi9-minimal to 24.0.2_12-jre-ubi9-minimal",
@@ -98,8 +94,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.75.0..HEAD",
-        "Count": 2,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "build(deps): bump actions/github-script from 7 to 8 (#921)",
+            "SHA": "f3f9e91fceb3ebd89f46e754891fbeae52240256",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-10-09T11:03:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/f3f9e91fceb3ebd89f46e754891fbeae52240256"
+          },
           {
             "Text": "build(deps): bump github/codeql-action from 3 to 4 (#926)",
             "SHA": "d7e5abeb61be131921519d796b4bb90361ab51db",
@@ -191,16 +197,16 @@
         "Count": 10,
         "PullRequests": [
           {
+            "Title": "chore: bump node from 24.4.0-slim to 24.10.0-slim",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1107"
+          },
+          {
             "Title": "chore: bump nginx from 1.29.0-otel to 1.29.2-otel",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1106"
           },
           {
             "Title": "fix: 927 remove selected project member state when leaving project details page",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1105"
-          },
-          {
-            "Title": "chore: bump node from 24.4.0-slim to 24.9.0-slim",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1104"
           },
           {
             "Title": "chore: bump @opentelemetry/resources from 1.30.1 to 2.1.0",
@@ -264,7 +270,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "de88a2b",
+          "Version": "6e759aa",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -301,23 +307,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 2,
-        "PullRequests": [
-          {
-            "Title": "Bump github.com/Azure/azure-sdk-for-go/sdk/azidentity from 1.12.0 to 1.13.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/745"
-          },
-          {
-            "Title": "Bump github/codeql-action from 3 to 4",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/744"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.75.0..HEAD",
-        "Count": 24,
+        "Count": 28,
         "Commits": [
+          {
+            "Text": "Merge pull request #745 from PRODYNA-YASM/dependabot/go_modules/github.com/Azure/azure-sdk-for-go/sdk/azidentity-1.13.0",
+            "SHA": "6e759aa080ecc1e4107729ef93ef09e14ddbc1e0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-09T11:50:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/6e759aa080ecc1e4107729ef93ef09e14ddbc1e0"
+          },
+          {
+            "Text": "Merge pull request #744 from PRODYNA-YASM/dependabot/github_actions/github/codeql-action-4",
+            "SHA": "f6382244d7d75c1f530d0a2cb17347a769682ec9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-09T11:02:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/f6382244d7d75c1f530d0a2cb17347a769682ec9"
+          },
           {
             "Text": "Merge pull request #747 from PRODYNA-YASM/dependabot/docker/alpine-3.22.2",
             "SHA": "de88a2ba71d9aa320b614427b24fc1a9aaeb3fb2",
@@ -357,6 +374,26 @@
             },
             "Timestamp": "2025-10-08T01:06:18Z",
             "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/ad57db6eb0c1616468fd93f17534c982ed632d17"
+          },
+          {
+            "Text": "Bump github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+            "SHA": "04e6c0ff0f0b8d56ac5f4699c3b17dba9abdb31f",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-10-08T01:05:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/04e6c0ff0f0b8d56ac5f4699c3b17dba9abdb31f"
+          },
+          {
+            "Text": "Bump github/codeql-action from 3 to 4",
+            "SHA": "c73023223f6ae7cef0fc2a1db2ecb4f1938c3893",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-10-08T01:05:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/c73023223f6ae7cef0fc2a1db2ecb4f1938c3893"
           },
           {
             "Text": "Merge pull request #743 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.87.0",
@@ -1564,7 +1601,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1b385d6",
+          "Version": "4de8ec1",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1621,8 +1658,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.0..HEAD",
-        "Count": 16,
+        "Count": 18,
         "Commits": [
+          {
+            "Text": "Merge pull request #282 from PRODYNA-YASM/dependabot/docker/alpine-3.22.2",
+            "SHA": "4de8ec1cca1ebd388b5ccee9a4f99365f440059e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-09T16:29:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/4de8ec1cca1ebd388b5ccee9a4f99365f440059e"
+          },
+          {
+            "Text": "Bump alpine from 3.22.1 to 3.22.2",
+            "SHA": "7cfbe414f59e45e9ca8aa4e2d2b86f78e9506685",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-10-09T16:11:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/7cfbe414f59e45e9ca8aa4e2d2b86f78e9506685"
+          },
           {
             "Text": "Merge pull request #281 from PRODYNA-YASM/dependabot/docker/golang-1.25.2",
             "SHA": "1b385d62e3843acc073d4bda9634365088a3bd77",
@@ -2121,9 +2178,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8.23.2-0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "5a58a95",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -2178,8 +2235,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.23.2-0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #97 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.24.0",
+            "SHA": "5a58a95a76be5ec5a7e9a541eebba115982a7c59",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-10T02:05:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/5a58a95a76be5ec5a7e9a541eebba115982a7c59"
+          },
+          {
+            "Text": "Bump gotenberg/gotenberg from 8.23.2 to 8.24.0",
+            "SHA": "c6433fb3ec52dd2ec2fa81559faa8a5d545fac2c",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-10-10T00:09:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/c6433fb3ec52dd2ec2fa81559faa8a5d545fac2c"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -3168,5 +3246,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-10-09T07:33:43Z"
+  "LastUpdated": "2025-10-10T07:33:33Z"
 }
