@@ -143,7 +143,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2d4518e",
+          "Version": "f6845e5",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -194,7 +194,7 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 10,
+        "Count": 9,
         "PullRequests": [
           {
             "Title": "chore: bump node from 24.4.0-slim to 24.10.0-slim",
@@ -203,10 +203,6 @@
           {
             "Title": "chore: bump nginx from 1.29.0-otel to 1.29.2-otel",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1106"
-          },
-          {
-            "Title": "fix: 927 remove selected project member state when leaving project details page",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1105"
           },
           {
             "Title": "chore: bump @opentelemetry/resources from 1.30.1 to 2.1.0",
@@ -241,8 +237,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.75.0..HEAD",
-        "Count": 1,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "927 remove selected project member state when leaving project details page (#1105)",
+            "SHA": "f6845e5a48b8786e878d17534d3e6faf6da92a54",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2025-10-10T11:22:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/f6845e5a48b8786e878d17534d3e6faf6da92a54"
+          },
+          {
+            "Text": "feat: 931 add shareable link for other users to go directly to the intended collection (#1108)",
+            "SHA": "b120c2bbcb512e058940e8dbcc0b722b13cac14c",
+            "Author": {
+              "name": "irhox",
+              "link": "https://github.com/irhox"
+            },
+            "Timestamp": "2025-10-10T11:20:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b120c2bbcb512e058940e8dbcc0b722b13cac14c"
+          },
           {
             "Text": "feat: 770 add create external link for pdf profiles feature to bulk export (#1103)",
             "SHA": "2d4518e62f4a6928b0692aa257a780be308d2557",
@@ -2713,16 +2729,16 @@
         "Count": 10,
         "PullRequests": [
           {
+            "Title": "chore(deps-dev): Bump @types/node from 24.0.15 to 24.7.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/379"
+          },
+          {
             "Title": "chore(deps): Bump cypress/included from 14.5.2 to 15.4.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/378"
           },
           {
             "Title": "chore(deps-dev): Bump cypress from 14.5.2 to 15.4.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/377"
-          },
-          {
-            "Title": "chore(deps-dev): Bump @types/node from 24.0.15 to 24.7.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/376"
           },
           {
             "Title": "chore(deps-dev): Bump dotenv from 16.5.0 to 17.2.3",
@@ -3246,5 +3262,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-10-10T07:33:33Z"
+  "LastUpdated": "2025-10-11T07:32:56Z"
 }

@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-10-10T07:33:33Z
+Component Status overview. Last update 2025-10-11T07:32:56Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-backend/compare/1.75.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.75.0 |  :red_square: f3f9e91 |  :green_square: 1.75.0 |  :green_square: 1.75.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.75.0..HEAD) | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.75.0 |  :red_square: 2d4518e |  :green_square: 1.75.0 |  :green_square: 1.75.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-frontend/compare/1.75.0..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.75.0 |  :red_square: f6845e5 |  :green_square: 1.75.0 |  :green_square: 1.75.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [28](https://github.com/prodyna-yasm/yasm-integration/compare/1.75.0..HEAD) | :green_square: 0 | 1.75.0 |  :red_square: 6e759aa | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.73.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.73.0 |  :red_square: 93d23b5 |  :green_square: 1.73.0 |  :green_square: 1.73.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [6](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.24.0..HEAD) | :green_square: 0 | 1.24.0 |  :red_square: 1871f08 |  :green_square: 1.24.0 |  :green_square: 1.24.0 | 
@@ -88,20 +88,22 @@ Component Status overview. Last update 2025-10-10T07:33:33Z
 
 
 
-### [Commits on main since 1.75.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.75.0..HEAD) (1)
+### [Commits on main since 1.75.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.75.0..HEAD) (3)
+
+- [927 remove selected project member state when leaving project details page (#1105)](https://github.com/prodyna-yasm/yasm-frontend/commit/f6845e5a48b8786e878d17534d3e6faf6da92a54) by [irhox](https://github.com/irhox) on 2025-10-10 11:22:37 +0000 UTC
+
+- [feat: 931 add shareable link for other users to go directly to the intended collection (#1108)](https://github.com/prodyna-yasm/yasm-frontend/commit/b120c2bbcb512e058940e8dbcc0b722b13cac14c) by [irhox](https://github.com/irhox) on 2025-10-10 11:20:18 +0000 UTC
 
 - [feat: 770 add create external link for pdf profiles feature to bulk export (#1103)](https://github.com/prodyna-yasm/yasm-frontend/commit/2d4518e62f4a6928b0692aa257a780be308d2557) by [irhox](https://github.com/irhox) on 2025-09-17 08:14:34 +0000 UTC
 
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (10)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (9)
 
 - [chore: bump node from 24.4.0-slim to 24.10.0-slim](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1107)
 
 - [chore: bump nginx from 1.29.0-otel to 1.29.2-otel](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1106)
-
-- [fix: 927 remove selected project member state when leaving project details page](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1105)
 
 - [chore: bump @opentelemetry/resources from 1.30.1 to 2.1.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1101)
 
@@ -123,7 +125,7 @@ Component Status overview. Last update 2025-10-10T07:33:33Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  2d4518e |  1.75.0 |  1.75.0 | 
+| Version |  f6845e5 |  1.75.0 |  1.75.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -933,11 +935,11 @@ Component Status overview. Last update 2025-10-10T07:33:33Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (10)
 
+- [chore(deps-dev): Bump @types/node from 24.0.15 to 24.7.1](https://github.com/PRODYNA-YASM/yasm-test/pull/379)
+
 - [chore(deps): Bump cypress/included from 14.5.2 to 15.4.0](https://github.com/PRODYNA-YASM/yasm-test/pull/378)
 
 - [chore(deps-dev): Bump cypress from 14.5.2 to 15.4.0](https://github.com/PRODYNA-YASM/yasm-test/pull/377)
-
-- [chore(deps-dev): Bump @types/node from 24.0.15 to 24.7.0](https://github.com/PRODYNA-YASM/yasm-test/pull/376)
 
 - [chore(deps-dev): Bump dotenv from 16.5.0 to 17.2.3](https://github.com/PRODYNA-YASM/yasm-test/pull/373)
 
