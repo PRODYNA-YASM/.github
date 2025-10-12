@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-10-11T07:32:56Z
+Component Status overview. Last update 2025-10-12T07:32:55Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -1020,11 +1020,6 @@ Component Status overview. Last update 2025-10-11T07:32:56Z
 - [Go 1.25, all updates](https://github.com/PRODYNA-YASM/yasm-mainproject/releases/tag/1.7.6) on 2025-08-18 07:57:22 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-mainproject/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #152 from PRODYNA-YASM/feature/scratch](https://github.com/PRODYNA-YASM/yasm-mainproject/actions/runs/17646742877) created on 2025-09-11 13:51:01 +0000 UTC
 
 
 

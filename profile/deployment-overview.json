@@ -2937,14 +2937,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #152 from PRODYNA-YASM/feature/scratch",
-            "Timestamp": "2025-09-11T13:51:01Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-mainproject/actions/runs/17646742877"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -3262,5 +3256,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-10-11T07:32:56Z"
+  "LastUpdated": "2025-10-12T07:32:55Z"
 }
