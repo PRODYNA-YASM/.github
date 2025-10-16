@@ -2401,14 +2401,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "23495e2",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.75.4",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.75.3",
+          "Version": "1.75.4",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -2417,17 +2417,24 @@
           "Link": "",
           "Version": "1.75.3",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.75.3",
+        "Tag": "1.75.4",
         "SHA": "",
-        "Title": "Fix cert-manager permissions",
-        "Timestamp": "2025-09-24T09:40:29Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.75.3"
+        "Title": "Updates to Traefik, Cert-Manager and others",
+        "Timestamp": "2025-10-15T13:58:42Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.75.4"
       },
       "Releases": [
+        {
+          "Tag": "1.75.4",
+          "SHA": "",
+          "Title": "Updates to Traefik, Cert-Manager and others",
+          "Timestamp": "2025-10-15T13:16:25Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.75.4"
+        },
         {
           "Tag": "1.75.3",
           "SHA": "",
@@ -2441,92 +2448,36 @@
           "Title": "Fix country code for YASM Dashboard",
           "Timestamp": "2025-09-13T00:19:11Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.75.2"
-        },
-        {
-          "Tag": "1.75.1",
-          "SHA": "",
-          "Title": "Reactivate Traefik OpenTelemetry (again)",
-          "Timestamp": "2025-09-12T16:05:17Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.75.1"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
           {
-            "Title": "Bump hashicorp/azurerm from 4.46.0 to 4.48.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1094"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 4.46.0 to 4.48.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1093"
+            "Title": "Bump DataDog/datadog from 3.75.0 to 3.76.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1096"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.75.3..HEAD",
-        "Count": 5,
-        "Commits": [
-          {
-            "Text": "Merge pull request #1090 from PRODYNA-YASM/feature/library-updates",
-            "SHA": "23495e2b7f7db507cf68385b1b39c6364c433b73",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-10-02T08:38:25Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/23495e2b7f7db507cf68385b1b39c6364c433b73"
-          },
-          {
-            "Text": "Update the providers",
-            "SHA": "0b463b57f822e938f89ce41959cb563a6907cc44",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-10-02T08:34:40Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0b463b57f822e938f89ce41959cb563a6907cc44"
-          },
-          {
-            "Text": "Update Loki and OpenTelemetry Operator",
-            "SHA": "05bd2e414d36c5eae3040ad954f5d68f28fca70a",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-10-02T08:26:44Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/05bd2e414d36c5eae3040ad954f5d68f28fca70a"
-          },
-          {
-            "Text": "Merge pull request #1086 from PRODYNA-YASM/feature/improve-traefik-security",
-            "SHA": "3beff4e74b56573154fd2ec22080cbdcd0502d49",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-09-24T10:45:34Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3beff4e74b56573154fd2ec22080cbdcd0502d49"
-          },
-          {
-            "Text": "Some stricter security for Traefik",
-            "SHA": "85acd61e1ddae4029aa8d776737a661108532771",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-09-24T10:43:07Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/85acd61e1ddae4029aa8d776737a661108532771"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.75.4..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #1095 from PRODYNA-YASM/feature/update-components",
+            "Timestamp": "2025-10-15T13:58:44Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/18531425835"
+          }
+        ]
       }
     },
     {
@@ -3387,5 +3338,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-10-15T07:34:28Z"
+  "LastUpdated": "2025-10-16T07:33:55Z"
 }
