@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-10-19T07:32:34Z
+Component Status overview. Last update 2025-10-20T07:34:26Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -977,13 +977,13 @@ Component Status overview. Last update 2025-10-19T07:32:34Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (10)
 
-- [Bump @angular/platform-browser-dynamic from 20.0.6 to 20.3.4 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/246)
+- [Bump @angular/core from 20.0.6 to 20.3.6 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/250)
 
-- [Bump @angular/compiler from 20.0.6 to 20.3.4 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/245)
+- [Bump @angular/platform-browser-dynamic from 20.0.6 to 20.3.6 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/249)
 
-- [Bump @angular/core from 20.0.6 to 20.3.4 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/244)
+- [Bump @angular/compiler from 20.0.6 to 20.3.6 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/248)
 
-- [Bump @angular/router from 20.0.6 to 20.3.4 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/243)
+- [Bump @angular/router from 20.0.6 to 20.3.6 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/247)
 
 - [Bump @azure/msal-angular from 4.0.11 to 4.0.20 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/234)
 
