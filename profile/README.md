@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-10-20T07:34:26Z
+Component Status overview. Last update 2025-10-21T07:35:17Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -824,11 +824,11 @@ Component Status overview. Last update 2025-10-20T07:34:26Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (10)
 
+- [chore(deps-dev): Bump cypress from 14.5.2 to 15.5.0](https://github.com/PRODYNA-YASM/yasm-test/pull/384)
+
+- [chore(deps): Bump cypress/included from 14.5.2 to 15.5.0](https://github.com/PRODYNA-YASM/yasm-test/pull/383)
+
 - [chore(deps-dev): Bump @types/node from 24.0.15 to 24.8.1](https://github.com/PRODYNA-YASM/yasm-test/pull/382)
-
-- [chore(deps): Bump cypress/included from 14.5.2 to 15.4.0](https://github.com/PRODYNA-YASM/yasm-test/pull/378)
-
-- [chore(deps-dev): Bump cypress from 14.5.2 to 15.4.0](https://github.com/PRODYNA-YASM/yasm-test/pull/377)
 
 - [chore(deps-dev): Bump dotenv from 16.5.0 to 17.2.3](https://github.com/PRODYNA-YASM/yasm-test/pull/373)
 
