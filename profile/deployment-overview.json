@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2cff6ef",
+          "Version": "6d8f664",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -59,12 +59,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 7,
+        "Count": 5,
         "PullRequests": [
-          {
-            "Title": "build(deps): bump org.apache.maven.plugins:maven-surefire-plugin from 3.5.3 to 3.5.4",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/933"
-          },
           {
             "Title": "build(deps): bump org.apache.maven.plugins:maven-compiler-plugin from 3.14.0 to 3.14.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/932"
@@ -76,10 +72,6 @@
           {
             "Title": "fix: 914 searching with special characters bug",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/928"
-          },
-          {
-            "Title": "fix: 924 fix unit test for logo search endpoint",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/927"
           },
           {
             "Title": "build(deps): bump xml-apis:xml-apis from 1.4.01 to 2.0.2",
@@ -94,8 +86,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.75.0..HEAD",
-        "Count": 10,
+        "Count": 11,
         "Commits": [
+          {
+            "Text": "build(deps): bump org.apache.maven.plugins:maven-surefire-plugin from 3.5.3 to 3.5.4 (#933)",
+            "SHA": "6d8f664fac613cad609ac158ea8f861209433a5a",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-10-24T10:56:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/6d8f664fac613cad609ac158ea8f861209433a5a"
+          },
           {
             "Text": "build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 2.44.4 to 3.0.0 (#923)",
             "SHA": "2cff6efb0850ef01f74da2bd1a8c3bd70b77c3e0",
@@ -374,7 +376,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0e35f33",
+          "Version": "652b6b0",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -418,19 +420,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Using new structure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/750"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.75.1..HEAD",
-        "Count": 2,
+        "Count": 5,
         "Commits": [
+          {
+            "Text": "Merge pull request #750 from PRODYNA-YASM/feature/otel-metrics",
+            "SHA": "652b6b09cf4755b28d963284b22f1ebd519a8acf",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T13:26:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/652b6b09cf4755b28d963284b22f1ebd519a8acf"
+          },
+          {
+            "Text": "Merge branch 'main' into feature/otel-metrics",
+            "SHA": "bd129a109b215f96c6470fe22317e5e207b2fe4a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T13:13:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/bd129a109b215f96c6470fe22317e5e207b2fe4a"
+          },
           {
             "Text": "Merge pull request #751 from PRODYNA-YASM/dependabot/go_modules/github.com/microsoftgraph/msgraph-sdk-go-1.88.0",
             "SHA": "0e35f3367125c4fd6f8986618689f2ad83d482cd",
@@ -450,6 +467,16 @@
             },
             "Timestamp": "2025-10-24T01:04:52Z",
             "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/338789da45e0bd12a5be5047d8a546d3c3608517"
+          },
+          {
+            "Text": "Using new structure",
+            "SHA": "958200362a6ac010a87429bc074c9fa598ddfc12",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-23T14:24:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/958200362a6ac010a87429bc074c9fa598ddfc12"
           }
         ]
       },
@@ -855,7 +882,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "4cba91f",
+          "Version": "cc3a812",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -912,8 +939,58 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.24.0..HEAD",
-        "Count": 12,
+        "Count": 17,
         "Commits": [
+          {
+            "Text": "Enable exemplars",
+            "SHA": "cc3a812db5e375f06d8d7fd525ab8cc076bf4358",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T15:45:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/cc3a812db5e375f06d8d7fd525ab8cc076bf4358"
+          },
+          {
+            "Text": "Merge pull request #339 from PRODYNA-YASM/feature/disable-servicemonitor",
+            "SHA": "72bfbdc3bdb135a659df7199e02ccb4747da4dfb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T14:11:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/72bfbdc3bdb135a659df7199e02ccb4747da4dfb"
+          },
+          {
+            "Text": "Diable servicemonitor",
+            "SHA": "27eb941369b6ea95e297be667ba459833c771a57",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T14:03:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/27eb941369b6ea95e297be667ba459833c771a57"
+          },
+          {
+            "Text": "Merge pull request #338 from PRODYNA-YASM/feature/otel-metrics",
+            "SHA": "09e14ad160c07085a9a6136f91221fab13ce4ab4",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T13:31:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/09e14ad160c07085a9a6136f91221fab13ce4ab4"
+          },
+          {
+            "Text": "New structure",
+            "SHA": "4f08da8487ebe31f31659c3e9d085ced64f6a3e7",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T13:26:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/4f08da8487ebe31f31659c3e9d085ced64f6a3e7"
+          },
           {
             "Text": "Merge pull request #337 from PRODYNA-YASM/feature/go-1.25.3",
             "SHA": "4cba91fec9ab29c3833f31922ba7aed542b25dc6",
@@ -1051,9 +1128,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.75.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "a47d7b2",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1065,9 +1142,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.75.0",
+          "Version": "1.75.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1108,21 +1185,56 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.75.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 4,
+        "Commits": [
+          {
+            "Text": "Merge pull request #270 from PRODYNA-YASM/feature/otel-metrics",
+            "SHA": "a47d7b253d27e8ed6b3a93abd7dd9542ec65818a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T13:20:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/a47d7b253d27e8ed6b3a93abd7dd9542ec65818a"
+          },
+          {
+            "Text": "Merge branch 'main' into feature/otel-metrics",
+            "SHA": "d02fc5c4977b7d209027f179d08d2cb1753f0dc3",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T13:17:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/d02fc5c4977b7d209027f179d08d2cb1753f0dc3"
+          },
+          {
+            "Text": "Last offurence",
+            "SHA": "66da3e3641bc32ad5b29be330b0a76a3040eefb3",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T12:51:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/66da3e3641bc32ad5b29be330b0a76a3040eefb3"
+          },
+          {
+            "Text": "Update usage of metrics",
+            "SHA": "a4f60e273603e1fea715e67f1aa254bccc86b807",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T12:50:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/a4f60e273603e1fea715e67f1aa254bccc86b807"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #269 from PRODYNA-YASM/dependabot/docker/golang-1.…",
-            "Timestamp": "2025-10-22T17:14:57Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/18724199544"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1132,7 +1244,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2869a22",
+          "Version": "496f6ef",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1189,8 +1301,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.12.2..HEAD",
-        "Count": 12,
+        "Count": 14,
         "Commits": [
+          {
+            "Text": "Enable exemplars",
+            "SHA": "496f6efd2fd695720dd0beaf0231fcfbde6262ee",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T15:46:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/496f6efd2fd695720dd0beaf0231fcfbde6262ee"
+          },
+          {
+            "Text": "Enable exemplars",
+            "SHA": "427ed5dacaec608181985561fe0b63e92b876f00",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T15:33:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/427ed5dacaec608181985561fe0b63e92b876f00"
+          },
           {
             "Text": "Add test runtime coutner",
             "SHA": "2869a222d01123a705feeb90b3f3a516fe7013f8",
@@ -1328,9 +1460,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.15.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "cd6e3b2",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1385,8 +1517,79 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 7,
+        "Commits": [
+          {
+            "Text": "Merge branch 'main' of github.com:PRODYNA-YASM/yasm-geocoding",
+            "SHA": "cd6e3b2196971f978fcb436f64ae8e389edaf0a0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T15:48:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/cd6e3b2196971f978fcb436f64ae8e389edaf0a0"
+          },
+          {
+            "Text": "enable exemplars",
+            "SHA": "8741971541062fd4880e4d97b2348384c3864d41",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T15:48:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/8741971541062fd4880e4d97b2348384c3864d41"
+          },
+          {
+            "Text": "Merge pull request #285 from PRODYNA-YASM/feature/disable-servicemonitor",
+            "SHA": "f2e4ad9e742aa208fe29c39f22e35fb0f48ffa3c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T14:05:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/f2e4ad9e742aa208fe29c39f22e35fb0f48ffa3c"
+          },
+          {
+            "Text": "Disable servicemonitor",
+            "SHA": "db08cbb4f4cd9838ffd306eef6a5361b20bca601",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T13:59:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/db08cbb4f4cd9838ffd306eef6a5361b20bca601"
+          },
+          {
+            "Text": "Merge pull request #284 from PRODYNA-YASM/feature/otel-metrics",
+            "SHA": "3f03d44c953aa2f04b7d163baa156ecd75b52b1b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T13:20:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/3f03d44c953aa2f04b7d163baa156ecd75b52b1b"
+          },
+          {
+            "Text": "Last fix",
+            "SHA": "02951402f6420acece3ac32f523a91ba52094071",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T13:11:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/02951402f6420acece3ac32f523a91ba52094071"
+          },
+          {
+            "Text": "Send otel metrics",
+            "SHA": "c36c49c875de62337d8cf0a39f311c7e8d1dbdeb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T12:54:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/c36c49c875de62337d8cf0a39f311c7e8d1dbdeb"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1588,9 +1791,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.2.8",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "521cecf",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1639,19 +1842,105 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Using new structure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-external/pull/138"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-external",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/compare/1.2.8..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 9,
+        "Commits": [
+          {
+            "Text": "Enable exemplars",
+            "SHA": "521cecf395d107c7669f7f16642dfed8fa5ea3fd",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T15:46:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/521cecf395d107c7669f7f16642dfed8fa5ea3fd"
+          },
+          {
+            "Text": "Merge pull request #138 from PRODYNA-YASM/feature/otel-metrics",
+            "SHA": "c47b45bbd1a40a6779dbb1acc14fbafd2cf3c575",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T14:05:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/c47b45bbd1a40a6779dbb1acc14fbafd2cf3c575"
+          },
+          {
+            "Text": "Merge pull request #140 from PRODYNA-YASM/feature/disable-servicemonitor",
+            "SHA": "8f5201b3994134f46d7a87f73e6a4c4276861ba5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T14:04:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/8f5201b3994134f46d7a87f73e6a4c4276861ba5"
+          },
+          {
+            "Text": "Disable servicemonitor",
+            "SHA": "1cf269533bacb769f43dfa4655713b87d9905f5c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T13:58:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/1cf269533bacb769f43dfa4655713b87d9905f5c"
+          },
+          {
+            "Text": "Merge branch 'main' into feature/otel-metrics",
+            "SHA": "dc26fc310a266ef4724033c6178618eb64a38ea7",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T13:14:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/dc26fc310a266ef4724033c6178618eb64a38ea7"
+          },
+          {
+            "Text": "Merge pull request #139 from PRODYNA-YASM/feature/otel-metrics2",
+            "SHA": "1916ace166e66fae38a8877bbc833ff7a6f547bc",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T13:14:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/1916ace166e66fae38a8877bbc833ff7a6f547bc"
+          },
+          {
+            "Text": "Ignore binary",
+            "SHA": "488770b1fd6a106145d3901c44562df353a6c826",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T13:09:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/488770b1fd6a106145d3901c44562df353a6c826"
+          },
+          {
+            "Text": "Otel metrics",
+            "SHA": "6b4ea36db3d25ed07760b67143cbb815a5b24286",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T13:08:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/6b4ea36db3d25ed07760b67143cbb815a5b24286"
+          },
+          {
+            "Text": "Using new structure",
+            "SHA": "14fd8033b4349348c0bc13fd07d857adddcec7ac",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-23T14:09:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/14fd8033b4349348c0bc13fd07d857adddcec7ac"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1754,22 +2043,8 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "7cc11bc",
+          "Version": "8920f52",
           "IsRelease": false,
-          "IsCurrent": false
-        },
-        {
-          "Name": "staging",
-          "Link": "",
-          "Version": "1.75.5",
-          "IsRelease": true,
-          "IsCurrent": false
-        },
-        {
-          "Name": "prod",
-          "Link": "",
-          "Version": "1.75.5",
-          "IsRelease": true,
           "IsCurrent": false
         }
       ],
@@ -1805,27 +2080,164 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 3,
-        "PullRequests": [
-          {
-            "Title": "Bump hashicorp/azurerm from 4.49.0 to 4.50.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1105"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 4.49.0 to 4.50.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1104"
-          },
-          {
-            "Title": "Bump integrations/github from 6.6.0 to 6.7.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1102"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.75.6..HEAD",
-        "Count": 15,
+        "Count": 30,
         "Commits": [
+          {
+            "Text": "Remove servicemonitor from traefik",
+            "SHA": "8920f5235577445343c396fc250719e7fadb24ec",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-25T01:27:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/8920f5235577445343c396fc250719e7fadb24ec"
+          },
+          {
+            "Text": "Merge pull request #1111 from PRODYNA-YASM/feature/component-updates",
+            "SHA": "b1a04371507a5879300c7c47b22c1836f27efc49",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-25T00:55:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b1a04371507a5879300c7c47b22c1836f27efc49"
+          },
+          {
+            "Text": "Merge pull request #1110 from PRODYNA-YASM/feature/enable-traefik-otel-metircs",
+            "SHA": "e69d4714c709db11d4818983a4b78ac127c20cde",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-25T00:41:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e69d4714c709db11d4818983a4b78ac127c20cde"
+          },
+          {
+            "Text": "Try that one",
+            "SHA": "ff0919691fd4c895c638859d83fcf37ea7e8c4e0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-25T00:30:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ff0919691fd4c895c638859d83fcf37ea7e8c4e0"
+          },
+          {
+            "Text": "Try this syntax for extraArgs",
+            "SHA": "a2cfac3d02acbce0639351fc97437124af68365e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-25T00:16:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a2cfac3d02acbce0639351fc97437124af68365e"
+          },
+          {
+            "Text": "More memory for Grafana",
+            "SHA": "1bb0abc72c19e5f6243c153c04e4b85d362e6e29",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T22:06:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1bb0abc72c19e5f6243c153c04e4b85d362e6e29"
+          },
+          {
+            "Text": "Fix extra args",
+            "SHA": "42121466573643f7c246b87e144f94c4caf914be",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T16:36:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/42121466573643f7c246b87e144f94c4caf914be"
+          },
+          {
+            "Text": "Update components",
+            "SHA": "47a6122f38027b21db35d5a2d011ead9331939a8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T16:30:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/47a6122f38027b21db35d5a2d011ead9331939a8"
+          },
+          {
+            "Text": "Set exemplar limits correctly",
+            "SHA": "95c34815d794144c9fbdee8f0ab3d518078d1c49",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T16:26:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/95c34815d794144c9fbdee8f0ab3d518078d1c49"
+          },
+          {
+            "Text": "Exemplar limits",
+            "SHA": "5eb0a7f159a9c269c79b96ce0ddb1e25d7bb0271",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T16:09:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/5eb0a7f159a9c269c79b96ce0ddb1e25d7bb0271"
+          },
+          {
+            "Text": "Enable traefik otel metrics",
+            "SHA": "4a5face973de0117b36ede268528e217b5de4d73",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T14:09:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/4a5face973de0117b36ede268528e217b5de4d73"
+          },
+          {
+            "Text": "Disable metricstransform for now",
+            "SHA": "50932b71ab8bb799487f52aa7d64a5c8e05d44af",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T12:27:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/50932b71ab8bb799487f52aa7d64a5c8e05d44af"
+          },
+          {
+            "Text": "Merge pull request #1109 from PRODYNA-YASM/feature/otel-distributor",
+            "SHA": "7a97737245a6ec8309e051c2a51e817b0c4d32f5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T11:32:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/7a97737245a6ec8309e051c2a51e817b0c4d32f5"
+          },
+          {
+            "Text": "Update providers, allow OTLP labels in Mimir",
+            "SHA": "ca2d8510142d7c8d06dc73dbcd8ac06766460648",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T11:18:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ca2d8510142d7c8d06dc73dbcd8ac06766460648"
+          },
+          {
+            "Text": "Add resources to the metrics pipeline",
+            "SHA": "c4cee7462a60492bfb2f7da2f8e1d0eb4974570a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T10:48:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c4cee7462a60492bfb2f7da2f8e1d0eb4974570a"
+          },
           {
             "Text": "Allow otel attributes",
             "SHA": "7cc11bcd04f2d3638e6372dfde1fa8ae800c2154",
@@ -2391,7 +2803,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "c08bc1b",
+          "Version": "41ce645",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2448,8 +2860,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-mainproject",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/compare/1.8.1..HEAD",
-        "Count": 3,
+        "Count": 5,
         "Commits": [
+          {
+            "Text": "Merge pull request #159 from PRODYNA-YASM/feature/disable-servicemonitor",
+            "SHA": "41ce6458902c4dc05803f10a889c9b15a665e0e2",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T14:06:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/41ce6458902c4dc05803f10a889c9b15a665e0e2"
+          },
+          {
+            "Text": "Disable servicemonitor",
+            "SHA": "b409fa40cbaa023c110e1d9cb23be7e23d7a3511",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-24T13:58:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/b409fa40cbaa023c110e1d9cb23be7e23d7a3511"
+          },
           {
             "Text": "Merge pull request #158 from PRODYNA-YASM/feature/otel-metrics",
             "SHA": "c08bc1beb9fa2f2332b6f1c7a82559c01ad9d37c",
@@ -2698,5 +3130,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-10-24T07:33:20Z"
+  "LastUpdated": "2025-10-25T07:32:55Z"
 }
