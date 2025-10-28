@@ -778,9 +778,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.75.1",
+          "Version": "1.76.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -828,14 +828,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Send metrics all 30s with exemplars",
-            "Timestamp": "2025-10-28T16:43:31Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/18882360273"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -2133,5 +2127,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-10-28T19:14:12Z"
+  "LastUpdated": "2025-10-28T20:32:23Z"
 }
