@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-10-27T07:34:32Z
+Component Status overview. Last update 2025-10-28T07:34:03Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -15,12 +15,12 @@ Component Status overview. Last update 2025-10-27T07:34:32Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [10](https://github.com/prodyna-yasm/yasm-external/compare/1.2.8..HEAD) | :green_square: 0 | 1.2.8 |  :red_square: cffcbfc |  :green_square: 1.2.8 |  :green_square: 1.2.8 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.24.0-0 |  :green_square: 8.24.0-0 |  :green_square: 8.24.0-0 |  :red_square: 8.23.1-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [30](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.75.6..HEAD) | :green_square: 0 | 1.75.6 |  :red_square: 8920f52 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [30](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.75.6..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.75.6 |  :red_square: 8920f52 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.73.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.73.1 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.75.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [2](https://github.com/prodyna-yasm/yasm-api/compare/1.76.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.76.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.75.0 | 
-| [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [2](https://github.com/prodyna-yasm/yasm-test/compare/v1.74.1..HEAD) | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
+| [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [2](https://github.com/prodyna-yasm/yasm-test/compare/v1.74.1..HEAD) | :yellow_square: [12](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [7](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.8.1..HEAD) | :green_square: 0 | 1.8.1 |  :red_square: 647427e |  :green_square: 1.8.1 |  :red_square: 1.7.7 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [1](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :red_square: f3c0835 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 | 
@@ -755,6 +755,13 @@ Component Status overview. Last update 2025-10-27T07:34:32Z
 
 
 
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (2)
+
+- [Bump integrations/github from 6.7.0 to 6.7.1 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1113)
+
+- [Tempo 1.51.1](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1112)
+
+
 
 ### Environments
 
@@ -873,13 +880,13 @@ Component Status overview. Last update 2025-10-27T07:34:32Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (4)
 
+- [chore: bump io.smallrye.reactive:mutiny from 2.9.4 to 3.0.1](https://github.com/PRODYNA-YASM/yasm-api/pull/316)
+
 - [chore: bump org.openapitools:jackson-databind-nullable from 0.2.7 to 0.2.8](https://github.com/PRODYNA-YASM/yasm-api/pull/315)
 
 - [chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.72 to 3.0.75](https://github.com/PRODYNA-YASM/yasm-api/pull/313)
 
 - [chore: bump org.openapitools:openapi-generator-maven-plugin from 7.15.0 to 7.16.0](https://github.com/PRODYNA-YASM/yasm-api/pull/310)
-
-- [chore: bump io.smallrye.reactive:mutiny from 2.9.4 to 3.0.0](https://github.com/PRODYNA-YASM/yasm-api/pull/307)
 
 
 
@@ -949,7 +956,11 @@ Component Status overview. Last update 2025-10-27T07:34:32Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (10)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (12)
+
+- [chore(deps-dev): Bump validator from 13.12.0 to 13.15.20](https://github.com/PRODYNA-YASM/yasm-test/pull/387)
+
+- [chore(deps): Bump actions/upload-artifact from 4 to 5](https://github.com/PRODYNA-YASM/yasm-test/pull/386)
 
 - [chore(deps-dev): Bump @types/node from 24.0.15 to 24.9.1](https://github.com/PRODYNA-YASM/yasm-test/pull/385)
 

@@ -2144,8 +2144,17 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump integrations/github from 6.7.0 to 6.7.1 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1113"
+          },
+          {
+            "Title": "Tempo 1.51.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1112"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -2644,6 +2653,10 @@
         "Count": 4,
         "PullRequests": [
           {
+            "Title": "chore: bump io.smallrye.reactive:mutiny from 2.9.4 to 3.0.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/316"
+          },
+          {
             "Title": "chore: bump org.openapitools:jackson-databind-nullable from 0.2.7 to 0.2.8",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/315"
           },
@@ -2654,10 +2667,6 @@
           {
             "Title": "chore: bump org.openapitools:openapi-generator-maven-plugin from 7.15.0 to 7.16.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/310"
-          },
-          {
-            "Title": "chore: bump io.smallrye.reactive:mutiny from 2.9.4 to 3.0.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/307"
           }
         ]
       },
@@ -2785,8 +2794,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 10,
+        "Count": 12,
         "PullRequests": [
+          {
+            "Title": "chore(deps-dev): Bump validator from 13.12.0 to 13.15.20",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/387"
+          },
+          {
+            "Title": "chore(deps): Bump actions/upload-artifact from 4 to 5",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/386"
+          },
           {
             "Title": "chore(deps-dev): Bump @types/node from 24.0.15 to 24.9.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/385"
@@ -3234,5 +3251,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-10-27T07:34:32Z"
+  "LastUpdated": "2025-10-28T07:34:03Z"
 }
