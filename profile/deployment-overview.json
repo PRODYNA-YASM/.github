@@ -237,6 +237,13 @@
           "Version": "1.76.0",
           "IsRelease": true,
           "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.76.0",
+          "IsRelease": true,
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -284,13 +291,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Send metrics all 30s",
-            "Timestamp": "2025-10-28T16:42:00Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/18882318699"
-          },
           {
             "Name": "Merge pull request #749 from PRODYNA-YASM/feature/go-1.25.3",
             "Timestamp": "2025-10-16T15:20:10Z",
@@ -2131,5 +2133,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-10-28T19:10:03Z"
+  "LastUpdated": "2025-10-28T19:14:12Z"
 }
