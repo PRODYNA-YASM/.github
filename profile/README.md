@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-10-29T07:34:28Z
+Component Status overview. Last update 2025-10-29T11:53:55Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -10,7 +10,7 @@ Component Status overview. Last update 2025-10-29T07:34:28Z
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.73.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.73.0 |  :red_square: 93d23b5 |  :green_square: 1.73.0 |  :green_square: 1.73.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.24.1 |  :green_square: 1.24.1 |  :green_square: 1.24.1 |  :green_square: 1.24.1 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-metrics/pulls) | 1.76.0 |  :green_square: 1.76.0 |  :green_square: 1.76.0 |  :green_square: 1.76.0 | 
-| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.12.3 |  :green_square: 1.12.3 |  :green_square: 1.12.3 |  :green_square: 1.12.3 | 
+| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [2](https://github.com/prodyna-yasm/yasm-github/compare/1.12.3..HEAD) | :green_square: 0 | 1.12.3 |  :red_square: b9ce55d |  :green_square: 1.12.3 |  :green_square: 1.12.3 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.15.2 |  :green_square: 1.15.2 |  :green_square: 1.15.2 |  :green_square: 1.15.2 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.9 |  :green_square: 1.2.9 |  :green_square: 1.2.9 |  :green_square: 1.2.9 | 
@@ -124,6 +124,11 @@ Component Status overview. Last update 2025-10-29T07:34:28Z
 - [Fix permissions for deleting collections and roles, fix close button on role creation dialog](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.73.6) on 2025-07-25 08:16:49 +0000 UTC
 
 
+
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
+
+- [feat: 947 add link to update person picture (#1114)](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/18875183451) created on 2025-10-28 12:44:45 +0000 UTC
 
 
 
@@ -331,6 +336,13 @@ Component Status overview. Last update 2025-10-29T07:34:28Z
 
 
 
+### [Commits on main since 1.12.3](https://github.com/prodyna-yasm/yasm-github/compare/1.12.3..HEAD) (2)
+
+- [Merge pull request #289 from PRODYNA-YASM/feature/otelhttp-outbound](https://github.com/prodyna-yasm/yasm-github/commit/b9ce55dc67025bdf6e393256ce2e4708bb5d9be1) by [dkrizic](https://github.com/dkrizic) on 2025-10-29 10:54:13 +0000 UTC
+
+- [Make http outbound calls with otelhttp instrumentation](https://github.com/prodyna-yasm/yasm-github/commit/846636df0e4fbdcd8f6d229b4d9a4df5b5ab8359) by [dkrizic](https://github.com/dkrizic) on 2025-10-29 10:26:35 +0000 UTC
+
+
 
 
 
@@ -338,9 +350,9 @@ Component Status overview. Last update 2025-10-29T07:34:28Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.12.3 |  1.12.3 |  1.12.3 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  b9ce55d |  1.12.3 |  1.12.3 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases

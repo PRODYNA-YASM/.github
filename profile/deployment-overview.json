@@ -216,8 +216,14 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "feat: 947 add link to update person picture (#1114)",
+            "Timestamp": "2025-10-28T12:44:45Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/18875183451"
+          }
+        ]
       }
     },
     {
@@ -844,9 +850,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.12.3",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "b9ce55d",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -901,8 +907,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.12.3..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #289 from PRODYNA-YASM/feature/otelhttp-outbound",
+            "SHA": "b9ce55dc67025bdf6e393256ce2e4708bb5d9be1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-29T10:54:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/b9ce55dc67025bdf6e393256ce2e4708bb5d9be1"
+          },
+          {
+            "Text": "Make http outbound calls with otelhttp instrumentation",
+            "SHA": "846636df0e4fbdcd8f6d229b4d9a4df5b5ab8359",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-10-29T10:26:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/846636df0e4fbdcd8f6d229b4d9a4df5b5ab8359"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1526,7 +1553,7 @@
         "Tag": "1.76.0",
         "SHA": "",
         "Title": "External Link for Bulk Export of Profiles, Shareable Link for Collections, Update Profile Picture Link",
-        "Timestamp": "2025-10-28T12:55:36Z",
+        "Timestamp": "2025-10-29T08:56:40Z",
         "Link": "https://github.com/PRODYNA-YASM/yasm/releases/tag/1.76.0"
       },
       "Releases": [
@@ -1670,7 +1697,7 @@
         "Tag": "1.76.0",
         "SHA": "",
         "Title": "External Link for Bulk Export of Profiles, Shareable Link for Collections, Update Profile Picture Link",
-        "Timestamp": "2025-10-28T12:55:36Z",
+        "Timestamp": "2025-10-29T08:56:40Z",
         "Link": "https://github.com/PRODYNA-YASM/yasm/releases/tag/1.76.0"
       },
       "Releases": [
@@ -2137,5 +2164,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-10-29T07:34:28Z"
+  "LastUpdated": "2025-10-29T11:53:55Z"
 }
