@@ -1,13 +1,13 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-10-30T12:28:44Z
+Component Status overview. Last update 2025-10-31T07:33:18Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.76.0..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.76.0 |  :red_square: e9ef23a |  :green_square: 1.76.0 |  :green_square: 1.76.0 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.73.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.73.0 |  :red_square: 93d23b5 |  :green_square: 1.73.0 |  :green_square: 1.73.0 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.76.2 |  :green_square: 1.76.2 |  :green_square: 1.76.2 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.76.0 |  :green_square: 1.76.0 |  :green_square: 1.76.0 |  :red_square: 1.73.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.25.0 |  :green_square: 1.25.0 |  :green_square: 1.25.0 |  :red_square: 1.24.1 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :green_square: 0 | :green_square: 0 | 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 |  :red_square: 1.76.0 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.12.4 |  :green_square: 1.12.4 |  :green_square: 1.12.4 |  :green_square: 1.12.4 | 
@@ -15,15 +15,15 @@ Component Status overview. Last update 2025-10-30T12:28:44Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.9 |  :green_square: 1.2.9 |  :green_square: 1.2.9 |  :green_square: 1.2.9 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.24.0-0 |  :green_square: 8.24.0-0 |  :green_square: 8.24.0-0 |  :green_square: 8.24.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [6](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.76.0 |  :red_square: 9024021 |  :green_square: 1.76.0 |  :green_square: 1.76.0 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [6](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.76.0 |  :red_square: 9024021 |  :green_square: 1.76.0 |  :green_square: 1.76.0 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.76.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.76.0 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.76.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.76.0 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.76.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.76.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.76.0 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [2](https://github.com/prodyna-yasm/yasm-test/compare/v1.74.1..HEAD) | :yellow_square: [12](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :green_square: 0 | :green_square: 0 | 1.8.3 |  :green_square: 1.8.3 |  :green_square: 1.8.3 |  :green_square: 1.8.3 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [1](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :red_square: f3c0835 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
-| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 | 
+| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 | 
 
 
 
@@ -131,7 +131,7 @@ Component Status overview. Last update 2025-10-30T12:28:44Z
 
 
 
-## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.76.1
+## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.76.2
 
 
 
@@ -143,104 +143,36 @@ Component Status overview. Last update 2025-10-30T12:28:44Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  1.76.1 |  1.76.1 | 
+| Version |  1.76.2 |  1.76.2 | 
 | Release |  :green_square: |  :green_square: | 
 | Current |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Fix timeout issue for sync-availabilities](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.76.2) on 2025-10-31 02:03:24 +0000 UTC
+
 - [Fix panics with nil values, new metrics](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.76.1) on 2025-10-30 10:54:51 +0000 UTC
 
 - [msgraph 1.88.0, send exemplars, push metrics](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.76.0) on 2025-10-26 19:46:10 +0000 UTC
-
-- [Go 1.25.3, some component updates](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.75.1) on 2025-10-14 09:34:53 +0000 UTC
 
 
 
 
 ### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (2)
 
-- [Merge pull request #763 from PRODYNA-YASM/feature/metrics-tuning](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/18939111187) created on 2025-10-30 11:27:52 +0000 UTC
+- [Increase sync-availabilities job timeout from 1h to 3h (#769)](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/18960466639) created on 2025-10-31 02:04:36 +0000 UTC
 
 - [Merge pull request #749 from PRODYNA-YASM/feature/go-1.25.3](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/18566231225) created on 2025-10-16 15:20:10 +0000 UTC
 
 
 
 
-## [yasmctl](https://github.com/prodyna-yasm/yasmctl) 1.73.0
+## [yasmctl](https://github.com/prodyna-yasm/yasmctl) 1.76.0
 
 
 
 
-### [Commits on main since 1.73.0](https://github.com/prodyna-yasm/yasmctl/compare/1.73.0..HEAD) (30)
-
-- [Merge pull request #487 from PRODYNA-YASM/dependabot/github_actions/github/codeql-action-4](https://github.com/prodyna-yasm/yasmctl/commit/93d23b5b3907b6f6ed565315b316d0ed2084a0e2) by [dkrizic](https://github.com/dkrizic) on 2025-10-08 08:13:42 +0000 UTC
-
-- [Bump github/codeql-action from 3 to 4](https://github.com/prodyna-yasm/yasmctl/commit/df144d970d31534c567ba9561211ddf889d5b660) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-10-07 21:05:38 +0000 UTC
-
-- [Merge pull request #486 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.76.0](https://github.com/prodyna-yasm/yasmctl/commit/829aa30f9560c74a4e03ca0e4ec9a8e759a16caf) by [dkrizic](https://github.com/dkrizic) on 2025-10-02 21:30:40 +0000 UTC
-
-- [Bump github.com/prodyna-yasm/yasm-api-go from 1.75.0 to 1.76.0](https://github.com/prodyna-yasm/yasmctl/commit/331692df7d94fd3caeefa79894fe898da53126a6) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-10-02 21:05:35 +0000 UTC
-
-- [Merge pull request #485 from PRODYNA-YASM/dependabot/go_modules/github.com/spf13/viper-1.21.0](https://github.com/prodyna-yasm/yasmctl/commit/b6ee2383300d8facc98f35a5ee59e0e3c2edcf19) by [dkrizic](https://github.com/dkrizic) on 2025-09-08 21:50:37 +0000 UTC
-
-- [Bump github.com/spf13/viper from 1.20.1 to 1.21.0](https://github.com/prodyna-yasm/yasmctl/commit/9dd0a7800966cd9f607b42d71f951861e30f57b8) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-09-08 21:15:17 +0000 UTC
-
-- [Merge pull request #482 from PRODYNA-YASM/dependabot/go_modules/github.com/spf13/cobra-1.10.1](https://github.com/prodyna-yasm/yasmctl/commit/e5a2fe228bb79ec442ba75175d4fa1d9cbb926d5) by [dkrizic](https://github.com/dkrizic) on 2025-09-03 21:54:32 +0000 UTC
-
-- [Bump github.com/spf13/cobra from 1.9.1 to 1.10.1](https://github.com/prodyna-yasm/yasmctl/commit/682553f022875046f7cf61f08287fc8bd36c625c) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-09-03 21:44:05 +0000 UTC
-
-- [Merge pull request #483 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.75.0](https://github.com/prodyna-yasm/yasmctl/commit/e8a5a38209dc4135deeb28ef41c2060fb96cfdf9) by [dkrizic](https://github.com/dkrizic) on 2025-09-03 21:43:01 +0000 UTC
-
-- [Bump github.com/prodyna-yasm/yasm-api-go from 1.74.0 to 1.75.0](https://github.com/prodyna-yasm/yasmctl/commit/4d45871d7d86b80dafa0800a6b592b05d69bc24a) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-09-03 21:36:58 +0000 UTC
-
-- [Merge pull request #484 from PRODYNA-YASM/dependabot/go_modules/github.com/spf13/pflag-1.0.10](https://github.com/prodyna-yasm/yasmctl/commit/f3e4aec5244a622f2b294f7ad9fd3a55b37230df) by [dkrizic](https://github.com/dkrizic) on 2025-09-03 21:35:48 +0000 UTC
-
-- [Bump github.com/spf13/pflag from 1.0.7 to 1.0.10](https://github.com/prodyna-yasm/yasmctl/commit/19a9a5f9b5ba80ed3607e752a2ac33ee843120ed) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-09-03 16:41:56 +0000 UTC
-
-- [Merge pull request #477 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp-1.38.0](https://github.com/prodyna-yasm/yasmctl/commit/03e6edcab2a77ab114551ac9aa80e98cf09c2287) by [dkrizic](https://github.com/dkrizic) on 2025-09-01 07:48:45 +0000 UTC
-
-- [Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp](https://github.com/prodyna-yasm/yasmctl/commit/200a7ba913eb4b52ea6e67d834e1cd462f0e168d) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-08-30 00:28:18 +0000 UTC
-
-- [Merge pull request #478 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp-0.63.0](https://github.com/prodyna-yasm/yasmctl/commit/d6118b7943b0d33b4c423659c361fbe0496c62e7) by [dkrizic](https://github.com/dkrizic) on 2025-08-30 00:27:11 +0000 UTC
-
-- [Bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp](https://github.com/prodyna-yasm/yasmctl/commit/cf41df471ad8683e5fd8a8d4b359050c9a165e5e) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-08-29 21:47:21 +0000 UTC
-
-- [Merge pull request #481 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace-1.38.0](https://github.com/prodyna-yasm/yasmctl/commit/b007ffcfefed2b0e5818a8ecf8b2263c8dd18141) by [dkrizic](https://github.com/dkrizic) on 2025-08-29 21:46:12 +0000 UTC
-
-- [Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace](https://github.com/prodyna-yasm/yasmctl/commit/c17d4c59ef4da772e0a88d3618d4479478237d62) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-08-29 21:05:03 +0000 UTC
-
-- [Merge pull request #476 from PRODYNA-YASM/dependabot/go_modules/go_modules-e1b2e84e8b](https://github.com/prodyna-yasm/yasmctl/commit/d1331ecb43481506914a50c304084614f3c702c4) by [dkrizic](https://github.com/dkrizic) on 2025-08-21 14:51:08 +0000 UTC
-
-- [Bump github.com/go-viper/mapstructure/v2 in the go_modules group](https://github.com/prodyna-yasm/yasmctl/commit/b72e1118172dfb502f6f11f707414768f83c6b75) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-08-21 14:48:50 +0000 UTC
-
-- [Merge pull request #475 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-4.3.1](https://github.com/prodyna-yasm/yasmctl/commit/105a12293f3bb7594deeafad448c759292d635ef) by [dkrizic](https://github.com/dkrizic) on 2025-08-20 02:53:06 +0000 UTC
-
-- [Bump azure/setup-helm from 4.3.0 to 4.3.1](https://github.com/prodyna-yasm/yasmctl/commit/9b1f72450cb6dce2f36cae9f31b05961a4da09c6) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-08-20 01:08:00 +0000 UTC
-
-- [Merge pull request #474 from PRODYNA-YASM/dependabot/github_actions/actions/checkout-5](https://github.com/prodyna-yasm/yasmctl/commit/383dc2527d740ca0611760dc14ec326a30958425) by [dkrizic](https://github.com/dkrizic) on 2025-08-12 05:53:48 +0000 UTC
-
-- [Bump actions/checkout from 4 to 5](https://github.com/prodyna-yasm/yasmctl/commit/c0471fde288e860641473be27d050915041c18f1) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-08-12 05:17:32 +0000 UTC
-
-- [Merge pull request #473 from PRODYNA-YASM/dependabot/go_modules/github.com/spf13/pflag-1.0.7](https://github.com/prodyna-yasm/yasmctl/commit/02d325e6d5d1a8c65213f8a1a867d2a96503e63b) by [dkrizic](https://github.com/dkrizic) on 2025-07-19 18:54:37 +0000 UTC
-
-- [Bump github.com/spf13/pflag from 1.0.6 to 1.0.7](https://github.com/prodyna-yasm/yasmctl/commit/352be93c17e67e94f3457dc412a83415b17ade3e) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-07-17 22:00:52 +0000 UTC
-
-- [Merge pull request #472 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.74.0](https://github.com/prodyna-yasm/yasmctl/commit/3a090562cc1df753e8c425f5a251c3ec69f4658c) by [dkrizic](https://github.com/dkrizic) on 2025-07-12 07:26:36 +0000 UTC
-
-- [Bump github.com/prodyna-yasm/yasm-api-go from 1.73.0 to 1.74.0](https://github.com/prodyna-yasm/yasmctl/commit/b5d48b4d93c3c056be1661f57b8ea41252cc09df) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-07-11 22:01:00 +0000 UTC
-
-- [Merge pull request #469 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp-0.62.0](https://github.com/prodyna-yasm/yasmctl/commit/c9321d286625a701ba0062ea82708455251670c7) by [dkrizic](https://github.com/dkrizic) on 2025-06-26 10:10:51 +0000 UTC
-
-- [Bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp](https://github.com/prodyna-yasm/yasmctl/commit/44d60905733065d3a24583dcf3b2422f7e9ed746) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-06-26 10:01:41 +0000 UTC
-
-
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasmctl/pulls) (1)
-
-- [First version that works with the new table writer](https://github.com/PRODYNA-YASM/yasmctl/pull/466)
 
 
 
@@ -248,20 +180,25 @@ Component Status overview. Last update 2025-10-30T12:28:44Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  93d23b5 |  1.73.0 |  1.73.0 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.76.0 |  1.76.0 |  1.73.0 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
+
+- [API 1.76.0, new table writer, component udpates](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.76.0) on 2025-10-31 01:46:07 +0000 UTC
 
 - [API 1.73.0, component updates](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.73.0) on 2025-05-22 22:36:21 +0000 UTC
 
 - [Component updates](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.72.1) on 2025-05-22 22:36:21 +0000 UTC
 
-- [API 1.72.0, Viper 1.20.1](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.72.0) on 2025-04-01 06:59:33 +0000 UTC
 
 
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting) (1)
+
+- [Merge pull request #466 from PRODYNA-YASM/feature/new-versionof-table…](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/18960228706) created on 2025-10-31 01:49:25 +0000 UTC
 
 
 
@@ -543,7 +480,13 @@ Component Status overview. Last update 2025-10-30T12:28:44Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (3)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (6)
+
+- [Bump hashicorp/azurerm from 4.50.0 to 4.51.0 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1122)
+
+- [Bump hashicorp/azurerm from 4.50.0 to 4.51.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1121)
+
+- [Bump DataDog/datadog from 3.77.0 to 3.78.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1120)
 
 - [Update providers](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1119)
 
@@ -663,7 +606,9 @@ Component Status overview. Last update 2025-10-30T12:28:44Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (3)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (4)
+
+- [chore: bump com.fasterxml.jackson.core:jackson-databind from 2.20.0 to 2.20.1](https://github.com/PRODYNA-YASM/yasm-api/pull/318)
 
 - [chore: bump io.smallrye.reactive:mutiny from 2.9.4 to 3.0.1](https://github.com/PRODYNA-YASM/yasm-api/pull/316)
 
@@ -877,7 +822,9 @@ Component Status overview. Last update 2025-10-30T12:28:44Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (6)
+### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (7)
+
+- [Bump the npm_and_yarn group across 1 directory with 2 updates](https://github.com/PRODYNA-YASM/fox-and-hound/pull/265)
 
 - [Bump @angular/platform-browser from 20.3.6 to 20.3.7 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/264)
 
