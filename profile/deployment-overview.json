@@ -243,6 +243,13 @@
           "Version": "1.76.2",
           "IsRelease": true,
           "IsCurrent": true
+        },
+        {
+          "Name": "prod",
+          "Link": "",
+          "Version": "1.76.2",
+          "IsRelease": true,
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -290,13 +297,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Increase sync-availabilities job timeout from 1h to 3h (#769)",
-            "Timestamp": "2025-10-31T02:04:36Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/18960466639"
-          },
           {
             "Name": "Merge pull request #749 from PRODYNA-YASM/feature/go-1.25.3",
             "Timestamp": "2025-10-16T15:20:10Z",
@@ -326,9 +328,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.73.0",
+          "Version": "1.76.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -376,14 +378,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #466 from PRODYNA-YASM/feature/new-versionof-table…",
-            "Timestamp": "2025-10-31T01:49:25Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/18960228706"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -407,9 +403,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.24.1",
+          "Version": "1.25.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -457,14 +453,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #346 from PRODYNA-YASM/feature/remove-custom-http-…",
-            "Timestamp": "2025-10-30T11:27:08Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/18939092156"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -488,9 +478,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.76.0",
+          "Version": "1.76.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -538,14 +528,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #271 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2025-10-30T11:28:28Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/18939126046"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -1046,33 +1030,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "9024021",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.76.1",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.76.0",
+          "Version": "1.76.1",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.76.0",
+          "Version": "1.76.1",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.76.0",
+        "Tag": "1.76.1",
         "SHA": "",
-        "Title": "Enable OpenTelemetry push metrics, component updates",
-        "Timestamp": "2025-10-28T17:26:37Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.76.0"
+        "Title": "Library updates and fix for now GitHub provider version",
+        "Timestamp": "2025-10-31T10:27:18Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.76.1"
       },
       "Releases": [
+        {
+          "Tag": "1.76.1",
+          "SHA": "",
+          "Title": "Library updates and fix for now GitHub provider version",
+          "Timestamp": "2025-10-31T10:18:11Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.76.1"
+        },
         {
           "Tag": "1.76.0",
           "SHA": "",
@@ -1086,111 +1077,18 @@
           "Title": "New Traefik und Otel Operator",
           "Timestamp": "2025-10-22T10:06:06Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.75.6"
-        },
-        {
-          "Tag": "1.75.5",
-          "SHA": "",
-          "Title": "Kubernetes 1.33.3",
-          "Timestamp": "2025-10-22T16:01:50Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.75.5"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 6,
-        "PullRequests": [
-          {
-            "Title": "Bump hashicorp/azurerm from 4.50.0 to 4.51.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1122"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 4.50.0 to 4.51.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1121"
-          },
-          {
-            "Title": "Bump DataDog/datadog from 3.77.0 to 3.78.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1120"
-          },
-          {
-            "Title": "Update providers",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1119"
-          },
-          {
-            "Title": "Bump integrations/github from 6.7.1 to 6.7.3 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1117"
-          },
-          {
-            "Title": "Bump hashicorp/helm from 3.0.2 to 3.1.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1116"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.0..HEAD",
-        "Count": 6,
-        "Commits": [
-          {
-            "Text": "Merge pull request #1118 from PRODYNA-YASM/feature/update-helm",
-            "SHA": "9024021be81c2306008a0ac982f038dc4d9f16f3",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-10-30T10:17:23Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/9024021be81c2306008a0ac982f038dc4d9f16f3"
-          },
-          {
-            "Text": "Update some charts",
-            "SHA": "00538ec9bd8af2f5b4282e47f3713b73acb89207",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-10-30T10:01:27Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/00538ec9bd8af2f5b4282e47f3713b73acb89207"
-          },
-          {
-            "Text": "Try this one",
-            "SHA": "876fe9d9b5edd87a408965e081e4bd8b380c6fb4",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-10-28T18:22:32Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/876fe9d9b5edd87a408965e081e4bd8b380c6fb4"
-          },
-          {
-            "Text": "Ok, comment must go",
-            "SHA": "974afdf2301188e21d4da5f6caffb9b219dc98c4",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-10-28T18:08:35Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/974afdf2301188e21d4da5f6caffb9b219dc98c4"
-          },
-          {
-            "Text": "Try this syntax",
-            "SHA": "14488c9d965af2966ab589ec7095a14b68733c5a",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-10-28T18:02:29Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/14488c9d965af2966ab589ec7095a14b68733c5a"
-          },
-          {
-            "Text": "Fix extra args for mimir",
-            "SHA": "934d3d667450c00492198f82ef6850fd0d3910bf",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-10-28T17:47:59Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/934d3d667450c00492198f82ef6850fd0d3910bf"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.1..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1902,5 +1800,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-10-31T07:33:18Z"
+  "LastUpdated": "2025-10-31T10:55:31Z"
 }
