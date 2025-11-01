@@ -1,13 +1,13 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-10-31T10:55:31Z
+Component Status overview. Last update 2025-11-01T07:32:29Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.76.0..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.76.0 |  :red_square: e9ef23a |  :green_square: 1.76.0 |  :green_square: 1.76.0 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.76.2 |  :green_square: 1.76.2 |  :green_square: 1.76.2 |  :green_square: 1.76.2 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.76.0 |  :green_square: 1.76.0 |  :green_square: 1.76.0 |  :green_square: 1.76.0 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [1](https://github.com/prodyna-yasm/yasm-integration/compare/1.76.2..HEAD) | :green_square: 0 | 1.76.2 |  :red_square: e7346dc |  :green_square: 1.76.2 |  :green_square: 1.76.2 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.25.0 |  :green_square: 1.25.0 |  :green_square: 1.25.0 |  :green_square: 1.25.0 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :green_square: 0 | :green_square: 0 | 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.12.4 |  :green_square: 1.12.4 |  :green_square: 1.12.4 |  :green_square: 1.12.4 | 
@@ -15,7 +15,7 @@ Component Status overview. Last update 2025-10-31T10:55:31Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.9 |  :green_square: 1.2.9 |  :green_square: 1.2.9 |  :green_square: 1.2.9 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.24.0-0 |  :green_square: 8.24.0-0 |  :green_square: 8.24.0-0 |  :green_square: 8.24.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.76.2 |  :green_square: 1.76.2 |  :green_square: 1.76.2 |  :green_square: 1.76.2 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.76.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.76.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.76.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.76.0 | 
@@ -136,6 +136,11 @@ Component Status overview. Last update 2025-10-31T10:55:31Z
 
 
 
+### [Commits on main since 1.76.2](https://github.com/prodyna-yasm/yasm-integration/compare/1.76.2..HEAD) (1)
+
+- [Enable exemplars on yasm-integration (#770)](https://github.com/prodyna-yasm/yasm-integration/commit/e7346dc22129df229857eae1fc49185fa3e9e7b3) by [dkrizic](https://github.com/dkrizic) on 2025-10-31 17:35:14 +0000 UTC
+
+
 
 
 
@@ -143,9 +148,9 @@ Component Status overview. Last update 2025-10-31T10:55:31Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.76.2 |  1.76.2 |  1.76.2 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  e7346dc |  1.76.2 |  1.76.2 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -166,7 +171,7 @@ Component Status overview. Last update 2025-10-31T10:55:31Z
 
 
 
-## [yasmctl](https://github.com/prodyna-yasm/yasmctl) 1.76.0
+## [yasmctl](https://github.com/prodyna-yasm/yasmctl) 1.76.1
 
 
 
@@ -178,18 +183,18 @@ Component Status overview. Last update 2025-10-31T10:55:31Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.76.0 |  1.76.0 |  1.76.0 | 
+| Version |  1.76.1 |  1.76.1 |  1.76.1 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
 | Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Move yasmctl to frontend, instrument http client](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.76.1) on 2025-10-31 22:15:14 +0000 UTC
+
 - [API 1.76.0, new table writer, component udpates](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.76.0) on 2025-10-31 01:46:07 +0000 UTC
 
 - [API 1.73.0, component updates](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.73.0) on 2025-05-22 22:36:21 +0000 UTC
-
-- [Component updates](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.72.1) on 2025-05-22 22:36:21 +0000 UTC
 
 
 
@@ -441,7 +446,7 @@ Component Status overview. Last update 2025-10-31T10:55:31Z
 
 
 
-## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 1.76.1
+## [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) 1.76.2
 
 
 
@@ -453,18 +458,18 @@ Component Status overview. Last update 2025-10-31T10:55:31Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.76.1 |  1.76.1 |  1.76.1 | 
+| Version |  1.76.2 |  1.76.2 |  1.76.2 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
 | Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Move yasmctl to frontend](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.76.2) on 2025-10-31 22:15:30 +0000 UTC
+
 - [Library updates and fix for now GitHub provider version](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.76.1) on 2025-10-31 10:18:11 +0000 UTC
 
 - [Enable OpenTelemetry push metrics, component updates](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.76.0) on 2025-10-28 18:22:32 +0000 UTC
-
-- [New Traefik und Otel Operator](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.75.6) on 2025-10-22 10:06:06 +0000 UTC
 
 
 
