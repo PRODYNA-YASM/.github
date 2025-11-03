@@ -1101,8 +1101,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump integrations/github from 6.7.3 to 6.7.5 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1129"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
@@ -1759,8 +1764,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 7,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "Bump gorm.io/gorm from 1.31.0 to 1.31.1 in /backend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/266"
+          },
           {
             "Title": "Bump the npm_and_yarn group across 1 directory with 2 updates",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/265"
@@ -1820,5 +1829,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-11-02T07:32:53Z"
+  "LastUpdated": "2025-11-03T07:34:41Z"
 }

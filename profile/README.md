@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-11-02T07:32:53Z
+Component Status overview. Last update 2025-11-03T07:34:41Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -15,7 +15,7 @@ Component Status overview. Last update 2025-11-02T07:32:53Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.9 |  :green_square: 1.2.9 |  :green_square: 1.2.9 |  :green_square: 1.2.9 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.24.0-0 |  :green_square: 8.24.0-0 |  :green_square: 8.24.0-0 |  :green_square: 8.24.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.76.2 |  :green_square: 1.76.2 |  :green_square: 1.76.2 |  :green_square: 1.76.2 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.76.2 |  :green_square: 1.76.2 |  :green_square: 1.76.2 |  :green_square: 1.76.2 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.76.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.76.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.76.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.76.0 | 
@@ -23,7 +23,7 @@ Component Status overview. Last update 2025-11-02T07:32:53Z
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [2](https://github.com/prodyna-yasm/yasm-test/compare/v1.74.1..HEAD) | :yellow_square: [12](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :green_square: 0 | :green_square: 0 | 1.8.3 |  :green_square: 1.8.3 |  :green_square: 1.8.3 |  :green_square: 1.8.3 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [1](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :red_square: f3c0835 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
-| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 | 
+| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :green_square: 0 | :yellow_square: [8](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 | 
 
 
 
@@ -455,6 +455,11 @@ Component Status overview. Last update 2025-11-02T07:32:53Z
 
 
 
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (1)
+
+- [Bump integrations/github from 6.7.3 to 6.7.5 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1129)
+
+
 
 ### Environments
 
@@ -782,7 +787,9 @@ Component Status overview. Last update 2025-11-02T07:32:53Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (7)
+### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (8)
+
+- [Bump gorm.io/gorm from 1.31.0 to 1.31.1 in /backend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/266)
 
 - [Bump the npm_and_yarn group across 1 directory with 2 updates](https://github.com/PRODYNA-YASM/fox-and-hound/pull/265)
 
