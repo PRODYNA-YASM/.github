@@ -1101,8 +1101,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "Bump DataDog/datadog from 3.78.0 to 3.79.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1130"
+          },
           {
             "Title": "Bump integrations/github from 6.7.3 to 6.7.5 in /terraform/azure",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1129"
@@ -1829,5 +1833,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-11-03T07:34:41Z"
+  "LastUpdated": "2025-11-04T07:35:08Z"
 }
