@@ -1,27 +1,27 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-11-05T07:34:55Z
+Component Status overview. Last update 2025-11-06T07:34:17Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.76.0..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.76.0 |  :red_square: e9ef23a |  :green_square: 1.76.0 |  :green_square: 1.76.0 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.76.3 |  :green_square: 1.76.3 |  :green_square: 1.76.3 |  :green_square: 1.76.3 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.76.0..HEAD) | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.76.0 |  :red_square: e9ef23a |  :green_square: 1.76.0 |  :green_square: 1.76.0 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.76.3..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.76.3 |  :red_square: d2c7b79 |  :green_square: 1.76.3 |  :green_square: 1.76.3 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.25.0 |  :green_square: 1.25.0 |  :green_square: 1.25.0 |  :green_square: 1.25.0 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [4](https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-metrics/pulls) | 1.76.1 |  :red_square: 85915a8 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
-| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.12.4 |  :green_square: 1.12.4 |  :green_square: 1.12.4 |  :green_square: 1.12.4 | 
-| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.15.2 |  :green_square: 1.15.2 |  :green_square: 1.15.2 |  :green_square: 1.15.2 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.25.0 |  :green_square: 1.25.0 |  :green_square: 1.25.0 |  :green_square: 1.25.0 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [26](https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.1..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-metrics/pulls) | 1.76.1 |  :red_square: 3c41250 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
+| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [17](https://github.com/prodyna-yasm/yasm-github/compare/1.12.4..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.12.4 |  :red_square: cfd3b70 |  :green_square: 1.12.4 |  :green_square: 1.12.4 | 
+| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-geocoding/pulls) | 1.15.2 |  :green_square: 1.15.2 |  :green_square: 1.15.2 |  :green_square: 1.15.2 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
-| [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.9 |  :green_square: 1.2.9 |  :green_square: 1.2.9 |  :green_square: 1.2.9 | 
+| [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [17](https://github.com/prodyna-yasm/yasm-external/compare/1.2.9..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-external/pulls) | 1.2.9 |  :red_square: 71d56f8 |  :green_square: 1.2.9 |  :green_square: 1.2.9 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.24.0-0 |  :green_square: 8.24.0-0 |  :green_square: 8.24.0-0 |  :green_square: 8.24.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [16](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.2..HEAD) | :green_square: 0 | 1.76.2 |  :red_square: bdb6698 |  :green_square: 1.76.2 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [26](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.76.2 |  :red_square: fec3e80 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.76.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.76.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.76.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.76.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.76.0 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [2](https://github.com/prodyna-yasm/yasm-test/compare/v1.74.1..HEAD) | :yellow_square: [12](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
-| [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :green_square: 0 | :green_square: 0 | 1.8.3 |  :green_square: 1.8.3 |  :green_square: 1.8.3 |  :green_square: 1.8.3 | 
+| [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [10](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.8.3..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-mainproject/pulls) | 1.8.3 |  :red_square: 2ddf41e |  :green_square: 1.8.3 |  :green_square: 1.8.3 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [1](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :red_square: f3c0835 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :green_square: 0 | :yellow_square: [8](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 | 
 
@@ -34,7 +34,9 @@ Component Status overview. Last update 2025-11-05T07:34:55Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (5)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (6)
+
+- [Add comprehensive README documentation with architecture diagrams](https://github.com/PRODYNA-YASM/yasm-backend/pull/935)
 
 - [build(deps): bump io.smallrye:jandex-maven-plugin from 3.5.0 to 3.5.1](https://github.com/PRODYNA-YASM/yasm-backend/pull/934)
 
@@ -87,7 +89,9 @@ Component Status overview. Last update 2025-11-05T07:34:55Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (9)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (10)
+
+- [Add comprehensive README with architecture diagrams and environment documentation](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1118)
 
 - [chore: bump nginx from 1.29.0-otel to 1.29.3-otel](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1117)
 
@@ -136,6 +140,20 @@ Component Status overview. Last update 2025-11-05T07:34:55Z
 
 
 
+### [Commits on main since 1.76.3](https://github.com/prodyna-yasm/yasm-integration/compare/1.76.3..HEAD) (2)
+
+- [Bump golang from 1.25.3-alpine3.22 to 1.25.4-alpine3.22 (#772)](https://github.com/prodyna-yasm/yasm-integration/commit/d2c7b7941d23c025ced0eacc2bcc9b0071e6dd84) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-11-06 02:37:52 +0000 UTC
+
+- [Ensure http.route attribute contains only route path per OpenTelemetry spec (#771)](https://github.com/prodyna-yasm/yasm-integration/commit/65d2350278a18b77dc63c6406e76dedbd4ed8931) by [Copilot](https://github.com/Copilot) on 2025-11-06 01:14:03 +0000 UTC
+
+
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (2)
+
+- [Add comprehensive README documentation for yasm-integration](https://github.com/PRODYNA-YASM/yasm-integration/pull/774)
+
+- [Fix critical bugs and improve error handling, testing, and documentation](https://github.com/PRODYNA-YASM/yasm-integration/pull/773)
 
 
 
@@ -143,9 +161,9 @@ Component Status overview. Last update 2025-11-05T07:34:55Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.76.3 |  1.76.3 |  1.76.3 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  d2c7b79 |  1.76.3 |  1.76.3 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -203,6 +221,11 @@ Component Status overview. Last update 2025-11-05T07:34:55Z
 
 
 
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) (1)
+
+- [Remove the namespace](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/347)
+
+
 
 ### Environments
 
@@ -231,7 +254,51 @@ Component Status overview. Last update 2025-11-05T07:34:55Z
 
 
 
-### [Commits on main since 1.76.1](https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.1..HEAD) (4)
+### [Commits on main since 1.76.1](https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.1..HEAD) (26)
+
+- [Merge pull request #280 from PRODYNA-YASM/copilot/create-readme-for-tempo-metrics](https://github.com/prodyna-yasm/yasm-metrics/commit/3c412508968a1625a70ba64a5a4fd2e5b5fb3e43) by [dkrizic](https://github.com/dkrizic) on 2025-11-06 07:18:28 +0000 UTC
+
+- [Merge pull request #282 from PRODYNA-YASM/dependabot/go_modules/github.com/AzureAD/microsoft-authentication-library-for-go-1.6.0](https://github.com/prodyna-yasm/yasm-metrics/commit/25ceae93bc342b1640a86939b58fa84a64e9d361) by [dkrizic](https://github.com/dkrizic) on 2025-11-06 07:15:16 +0000 UTC
+
+- [build(deps): bump github.com/AzureAD/microsoft-authentication-library-for-go](https://github.com/prodyna-yasm/yasm-metrics/commit/c4b463cea663c1698bc4a6cdb151a126af60dd5e) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-11-06 05:18:15 +0000 UTC
+
+- [Create comprehensive README.md with architecture diagrams and full documentation](https://github.com/prodyna-yasm/yasm-metrics/commit/eb38a75f6cdad403aba312e44f63a5bb2c1134c4) by [Copilot](https://github.com/Copilot) on 2025-11-06 02:12:43 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-metrics/commit/6a2b2e9af006b2f49141970ead9bcacf1d37deaa) by [Copilot](https://github.com/Copilot) on 2025-11-06 02:06:26 +0000 UTC
+
+- [Merge pull request #277 from PRODYNA-YASM/copilot/update-otelhttp-middleware](https://github.com/prodyna-yasm/yasm-metrics/commit/014f2aee0fbe7fe4709ea40213ae14463cc457a7) by [dkrizic](https://github.com/dkrizic) on 2025-11-06 01:38:31 +0000 UTC
+
+- [Merge branch 'main' into copilot/update-otelhttp-middleware](https://github.com/prodyna-yasm/yasm-metrics/commit/de56ded7f012b4956bd338f0b4efcaef05376b77) by [dkrizic](https://github.com/dkrizic) on 2025-11-06 01:33:17 +0000 UTC
+
+- [Merge pull request #278 from PRODYNA-YASM/feature/fix-formatting](https://github.com/prodyna-yasm/yasm-metrics/commit/f4fae9c2c56a78699c5a6ddcf9f83d1cf21e8a8f) by [dkrizic](https://github.com/dkrizic) on 2025-11-06 01:31:57 +0000 UTC
+
+- [Fix formatting](https://github.com/prodyna-yasm/yasm-metrics/commit/509fceec4f8116552f25f9a4fcb07e37417b2e75) by [dkrizic](https://github.com/dkrizic) on 2025-11-06 01:27:53 +0000 UTC
+
+- [Formatting](https://github.com/prodyna-yasm/yasm-metrics/commit/f2300aefb4c274b4ce8b3872c789501fcfe9cbd1) by [dkrizic](https://github.com/dkrizic) on 2025-11-06 00:49:56 +0000 UTC
+
+- [Merge branch 'main' into copilot/update-otelhttp-middleware](https://github.com/prodyna-yasm/yasm-metrics/commit/8b0efe2f0e3b7cb4ba57e7c74063e7cbf9af45cf) by [dkrizic](https://github.com/dkrizic) on 2025-11-06 00:36:37 +0000 UTC
+
+- [Fix Go file formatting with go fmt](https://github.com/prodyna-yasm/yasm-metrics/commit/feed2e3daead16e421ae229ab2ec0188206ff60f) by [Copilot](https://github.com/Copilot) on 2025-11-06 00:20:05 +0000 UTC
+
+- [Update Dockerfile with new build instructions](https://github.com/prodyna-yasm/yasm-metrics/commit/15f2ea9df184766d02599c97be826721f2570bfc) by [dkrizic](https://github.com/dkrizic) on 2025-11-06 00:09:31 +0000 UTC
+
+- [Fix merge conflicts: Update custom otelhttp middleware with span name formatter](https://github.com/prodyna-yasm/yasm-metrics/commit/479f15bf34f1d7c4574ac5633e1ed504d8d3f169) by [Copilot](https://github.com/Copilot) on 2025-11-06 00:09:16 +0000 UTC
+
+- [Merge pull request #276 from PRODYNA-YASM/copilot/add-otelhttp-ingress-egress-middleware](https://github.com/prodyna-yasm/yasm-metrics/commit/7bf15393dc0ee3a41c721ddcb3cc94fceb6ab97c) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 23:46:11 +0000 UTC
+
+- [Fix test error message format](https://github.com/prodyna-yasm/yasm-metrics/commit/4bf17dd6d43d89c209e336b8acb0b3b516182a2e) by [Copilot](https://github.com/Copilot) on 2025-11-05 23:40:22 +0000 UTC
+
+- [Fix: Create new http.Client instance instead of modifying global default](https://github.com/prodyna-yasm/yasm-metrics/commit/a4271f7537149329a83ba40e8401c1329fe01c2b) by [Copilot](https://github.com/Copilot) on 2025-11-05 23:38:59 +0000 UTC
+
+- [Update otelhttp middleware to ensure http.route compliance per OpenTelemetry spec](https://github.com/prodyna-yasm/yasm-metrics/commit/4315d57dec905c66bf2c508c97fb851628f83249) by [Copilot](https://github.com/Copilot) on 2025-11-05 23:37:16 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-metrics/commit/317d035ecc56c6e691ba853d049fb7445d21092a) by [Copilot](https://github.com/Copilot) on 2025-11-05 23:20:59 +0000 UTC
+
+- [Add clarifying comment for MSAL HTTP client usage](https://github.com/prodyna-yasm/yasm-metrics/commit/9ad9d07ede6a55133b33923d1f9845e3a368be32) by [Copilot](https://github.com/Copilot) on 2025-11-05 18:33:09 +0000 UTC
+
+- [Implement OpenTelemetry HTTP middleware with http.route support](https://github.com/prodyna-yasm/yasm-metrics/commit/22cbc466f201523dfc68d04da22c2b617b099713) by [Copilot](https://github.com/Copilot) on 2025-11-05 18:30:11 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-metrics/commit/82e0eb565c9af4d962b90dc9cef7971c2ff6d68e) by [Copilot](https://github.com/Copilot) on 2025-11-05 18:14:00 +0000 UTC
 
 - [Merge pull request #275 from PRODYNA-YASM/feature/support-for-mimir-gateway](https://github.com/prodyna-yasm/yasm-metrics/commit/85915a89119a62286d269cdaa30d1917c7e09abd) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 04:18:51 +0000 UTC
 
@@ -244,7 +311,11 @@ Component Status overview. Last update 2025-11-05T07:34:55Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-metrics/pulls) (1)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-metrics/pulls) (3)
+
+- [build(deps): bump golang from 1.25.3-alpine3.22 to 1.25.4-alpine3.22](https://github.com/PRODYNA-YASM/yasm-metrics/pull/281)
+
+- [Fix critical bugs, add test coverage, improve error handling](https://github.com/PRODYNA-YASM/yasm-metrics/pull/279)
 
 - [Enhance otelsql instrumentation with explicit providers and semantic conventions](https://github.com/PRODYNA-YASM/yasm-metrics/pull/273)
 
@@ -254,7 +325,7 @@ Component Status overview. Last update 2025-11-05T07:34:55Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  85915a8 |  1.76.1 |  1.76.1 | 
+| Version |  3c41250 |  1.76.1 |  1.76.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -277,6 +348,48 @@ Component Status overview. Last update 2025-11-05T07:34:55Z
 
 
 
+### [Commits on main since 1.12.4](https://github.com/prodyna-yasm/yasm-github/compare/1.12.4..HEAD) (17)
+
+- [Merge pull request #293 from PRODYNA-YASM/copilot/create-readme-file](https://github.com/prodyna-yasm/yasm-github/commit/cfd3b704f1d18ab95c3c01d7d7363a3d242a61bf) by [dkrizic](https://github.com/dkrizic) on 2025-11-06 02:44:39 +0000 UTC
+
+- [Address code review feedback on README.md](https://github.com/prodyna-yasm/yasm-github/commit/32f872ef17e7176215e9b502a75fd1ef9b376bb8) by [Copilot](https://github.com/Copilot) on 2025-11-06 02:17:39 +0000 UTC
+
+- [Create comprehensive README.md with all requested sections](https://github.com/prodyna-yasm/yasm-github/commit/0838c7a98dbe392ba792ec56287bc24e2e8bc183) by [Copilot](https://github.com/Copilot) on 2025-11-06 02:16:42 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-github/commit/3fa0cbab146db097dc5f6d176835026b0a864743) by [Copilot](https://github.com/Copilot) on 2025-11-06 02:06:42 +0000 UTC
+
+- [Update Dockerfile content](https://github.com/prodyna-yasm/yasm-github/commit/faaff493d695acd322e05c640696c1842e619e7b) by [dkrizic](https://github.com/dkrizic) on 2025-11-06 00:12:04 +0000 UTC
+
+- [Merge pull request #291 from PRODYNA-YASM/copilot/update-otelhttp-middleware](https://github.com/prodyna-yasm/yasm-github/commit/e875d7e17641619d300f4213bbe872c5ea5b977b) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 23:43:51 +0000 UTC
+
+- [Complete: http.route attribute now matches OpenTelemetry spec](https://github.com/prodyna-yasm/yasm-github/commit/fc0119b04532f60e09653e5acf1e03a115716ed5) by [Copilot](https://github.com/Copilot) on 2025-11-05 23:24:59 +0000 UTC
+
+- [Update http.route to exclude HTTP method per OpenTelemetry spec](https://github.com/prodyna-yasm/yasm-github/commit/473bcf933cde334d490f4167c088c8df9f501bbd) by [Copilot](https://github.com/Copilot) on 2025-11-05 23:23:04 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-github/commit/fd43db7b12ca880b22908e3217c9b75b53f6b6f5) by [Copilot](https://github.com/Copilot) on 2025-11-05 23:17:08 +0000 UTC
+
+- [Merge pull request #290 from PRODYNA-YASM/copilot/add-http-middleware-for-otelhttp](https://github.com/prodyna-yasm/yasm-github/commit/a401f73ebdb4f1e9bc7708ab52ec3291e19b893c) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 23:04:21 +0000 UTC
+
+- [Merge branch 'main' into copilot/add-http-middleware-for-otelhttp](https://github.com/prodyna-yasm/yasm-github/commit/ba4de0c5a22eb1c042940c589d97bb291ce70b73) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 23:01:58 +0000 UTC
+
+- [Task completed: Add http.route attributes for ingress and egress HTTP requests](https://github.com/prodyna-yasm/yasm-github/commit/610c2e24c5a711c679fbdf5018d76371d3cb68d6) by [Copilot](https://github.com/Copilot) on 2025-11-05 18:31:18 +0000 UTC
+
+- [Address code review feedback: optimize regex compilation and remove unused function](https://github.com/prodyna-yasm/yasm-github/commit/05a7e6c8441b4292c2e9245150874a2c92a09347) by [Copilot](https://github.com/Copilot) on 2025-11-05 18:29:48 +0000 UTC
+
+- [Apply go fmt formatting](https://github.com/prodyna-yasm/yasm-github/commit/79aa226dff97d3787b18e9c4b881f6434c51dbd0) by [Copilot](https://github.com/Copilot) on 2025-11-05 18:27:06 +0000 UTC
+
+- [Add http.route attributes for ingress and egress HTTP requests using otelhttp](https://github.com/prodyna-yasm/yasm-github/commit/41dd24d35b97a2b963a8da6af04f18512c5401ee) by [Copilot](https://github.com/Copilot) on 2025-11-05 18:24:33 +0000 UTC
+
+- [Use newest version of otelhttp](https://github.com/prodyna-yasm/yasm-github/commit/e52862fc9139b3426b814c4a78b8f82fbb08f770) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 18:18:01 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-github/commit/e83a802a0dff9fb303cbdb6847d2ada426d5a68c) by [Copilot](https://github.com/Copilot) on 2025-11-05 18:14:45 +0000 UTC
+
+
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-github/pulls) (1)
+
+- [Code audit: improve error handling, fix security issues, add tests and documentation](https://github.com/PRODYNA-YASM/yasm-github/pull/292)
 
 
 
@@ -284,9 +397,9 @@ Component Status overview. Last update 2025-11-05T07:34:55Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.12.4 |  1.12.4 |  1.12.4 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  cfd3b70 |  1.12.4 |  1.12.4 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -307,6 +420,13 @@ Component Status overview. Last update 2025-11-05T07:34:55Z
 
 
 
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-geocoding/pulls) (2)
+
+- [Add comprehensive README with architecture diagrams and environment variable documentation](https://github.com/PRODYNA-YASM/yasm-geocoding/pull/287)
+
+- [Code review and refactoring for robustness, error handling, and test coverage](https://github.com/PRODYNA-YASM/yasm-geocoding/pull/286)
 
 
 
@@ -397,6 +517,48 @@ Component Status overview. Last update 2025-11-05T07:34:55Z
 
 
 
+### [Commits on main since 1.2.9](https://github.com/prodyna-yasm/yasm-external/compare/1.2.9..HEAD) (17)
+
+- [Merge pull request #144 from PRODYNA-YASM/copilot/create-readme-md](https://github.com/prodyna-yasm/yasm-external/commit/71d56f8e2d0606ae64311da55addfabc71ccb3eb) by [dkrizic](https://github.com/dkrizic) on 2025-11-06 07:29:47 +0000 UTC
+
+- [Fix technology reference: Helm templates instead of Smarty](https://github.com/prodyna-yasm/yasm-external/commit/3a4f5653d9b029c3236630f7910a3eea4218f32d) by [Copilot](https://github.com/Copilot) on 2025-11-06 02:16:52 +0000 UTC
+
+- [Create comprehensive README.md with architecture diagrams and documentation](https://github.com/prodyna-yasm/yasm-external/commit/7aab2a72c665e69855c29b558f7947aaa74d181f) by [Copilot](https://github.com/Copilot) on 2025-11-06 02:14:58 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-external/commit/a6c758658693ff45d4078f29b5578b7965bae0d4) by [Copilot](https://github.com/Copilot) on 2025-11-06 02:06:52 +0000 UTC
+
+- [Merge pull request #141 from PRODYNA-YASM/copilot/add-middleware-for-http-tracing](https://github.com/prodyna-yasm/yasm-external/commit/564a4ef5965c4e3b97571832d4d0552996380744) by [dkrizic](https://github.com/dkrizic) on 2025-11-06 00:30:47 +0000 UTC
+
+- [Merge branch 'main' into copilot/add-middleware-for-http-tracing](https://github.com/prodyna-yasm/yasm-external/commit/c3474936a52988c682d7357c805ff93c06187fe2) by [dkrizic](https://github.com/dkrizic) on 2025-11-06 00:27:42 +0000 UTC
+
+- [Resolve merge conflicts with main](https://github.com/prodyna-yasm/yasm-external/commit/690a7e30187259cb10084df4a325d2ab408be48b) by [Copilot](https://github.com/Copilot) on 2025-11-06 00:21:47 +0000 UTC
+
+- [Merge pull request #142 from PRODYNA-YASM/copilot/update-otelhttp-middleware](https://github.com/prodyna-yasm/yasm-external/commit/a2ae4159a3ad93372c360d3d732d30c7ff53892f) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 23:44:37 +0000 UTC
+
+- [Complete otelhttp middleware update for http.route attribute](https://github.com/prodyna-yasm/yasm-external/commit/6974a1f63635ceb265b9411d4cd7844769a09a6e) by [Copilot](https://github.com/Copilot) on 2025-11-05 23:25:06 +0000 UTC
+
+- [Wrap handlers with otelhttp.WithRouteTag to set http.route attribute correctly](https://github.com/prodyna-yasm/yasm-external/commit/ef686377e6e34d7e4984fae2726ae2324361e118) by [Copilot](https://github.com/Copilot) on 2025-11-05 23:23:00 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-external/commit/fd7b3d100860be10cc77d4c9ca6f6fa354798556) by [Copilot](https://github.com/Copilot) on 2025-11-05 23:16:08 +0000 UTC
+
+- [Add otelhttp middleware with http.route attribute for ingress and egress paths](https://github.com/prodyna-yasm/yasm-external/commit/b8c38f189057695163801c60aee2d26502b97c25) by [Copilot](https://github.com/Copilot) on 2025-11-05 18:55:17 +0000 UTC
+
+- [Add clarifying comment for housekeeping route tag](https://github.com/prodyna-yasm/yasm-external/commit/a5c27f0627e7652a4f4f3597f634b195b702ae63) by [Copilot](https://github.com/Copilot) on 2025-11-05 18:52:32 +0000 UTC
+
+- [Fix PostForm implementation and add test](https://github.com/prodyna-yasm/yasm-external/commit/0b083d6b1d2a26faf038069fef42161f77dd6243) by [Copilot](https://github.com/Copilot) on 2025-11-05 18:50:32 +0000 UTC
+
+- [Add tests for otelhttp middleware and HTTP client](https://github.com/prodyna-yasm/yasm-external/commit/ad61660ac0e6a9da94621c5638d103a103bba890) by [Copilot](https://github.com/Copilot) on 2025-11-05 18:45:43 +0000 UTC
+
+- [Add otelhttp middleware with http.route and HTTP client wrapper](https://github.com/prodyna-yasm/yasm-external/commit/1250b78e5a7c118e9bde25b5704f57dbbb0003db) by [Copilot](https://github.com/Copilot) on 2025-11-05 18:43:14 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-external/commit/70db20edd580e29e773be7ea3df82988780ac778) by [Copilot](https://github.com/Copilot) on 2025-11-05 18:33:43 +0000 UTC
+
+
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-external/pulls) (1)
+
+- [Security and robustness improvements with comprehensive test coverage](https://github.com/PRODYNA-YASM/yasm-external/pull/143)
 
 
 
@@ -404,9 +566,9 @@ Component Status overview. Last update 2025-11-05T07:34:55Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.2.9 |  1.2.9 |  1.2.9 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  71d56f8 |  1.2.9 |  1.2.9 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -457,7 +619,27 @@ Component Status overview. Last update 2025-11-05T07:34:55Z
 
 
 
-### [Commits on main since 1.76.2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.2..HEAD) (16)
+### [Commits on main since 1.76.2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.2..HEAD) (26)
+
+- [Fix syntax of prometheuswriteexporter](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/fec3e80377875e0ec9912895730174804ee884e1) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 16:19:59 +0000 UTC
+
+- [Write labels of metrics](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/eee1c6f14b0d769ba450d7250f9907800278a89f) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 16:11:32 +0000 UTC
+
+- [Disable Grafana tracing](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/5674c80831b116755800c46144fc94fc95ef9f32) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 13:13:30 +0000 UTC
+
+- [More memory for Loki ingester](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f802904675dd56de5a6fa6d7a4d90fb125fa7628) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 13:12:35 +0000 UTC
+
+- [100Gi for Kafka](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/be805a25600c06c262b8befd057da188a09b0a5c) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 12:54:46 +0000 UTC
+
+- [Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0eacef221a61a65458e470219d8c9b9f35a686a3) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 12:45:43 +0000 UTC
+
+- [50GB Disk for Kafka](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c39ab41204e34592d57236cff1d354cd5d82c8aa) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 12:45:30 +0000 UTC
+
+- [Fix resources for tempo-ingeter](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/db5e8fc9b5b6ae0a5378a6d998d4832d8c5dfb67) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 12:10:46 +0000 UTC
+
+- [Update dashboards](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/cb6ed122d75cf846a53b919c6f207d7a86997746) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 10:55:51 +0000 UTC
+
+- [More memory for ingester](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/cadf9054e215f9b5997473a19f3246bd73259668) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 09:33:32 +0000 UTC
 
 - [Go directly to Querier](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/bdb669879ac929b42dd9c94521f0c9afbfeebbee) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 04:32:17 +0000 UTC
 
@@ -494,14 +676,19 @@ Component Status overview. Last update 2025-11-05T07:34:55Z
 
 
 
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (1)
+
+- [Add comprehensive README documentation for YASM infrastructure repository](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1135)
+
+
 
 ### Environments
 
-| Environment |  dev |  prod | 
-| --- |  --- |  --- | 
-| Version |  bdb6698 |  1.76.2 | 
-| Release |  :red_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: | 
+| Environment |  dev | 
+| --- |  --- | 
+| Version |  fec3e80 | 
+| Release |  :red_square: | 
+| Current |  :red_square: | 
 
 
 ### Last releases
@@ -685,6 +872,8 @@ Component Status overview. Last update 2025-11-05T07:34:55Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (12)
 
+- [chore(deps): Bump cypress/included from 14.5.2 to 15.6.0](https://github.com/PRODYNA-YASM/yasm-test/pull/390)
+
 - [chore(deps-dev): Bump @types/node from 24.0.15 to 24.9.2](https://github.com/PRODYNA-YASM/yasm-test/pull/389)
 
 - [chore(deps): Bump @azure/msal-node from 3.6.3 to 3.8.1](https://github.com/PRODYNA-YASM/yasm-test/pull/388)
@@ -694,8 +883,6 @@ Component Status overview. Last update 2025-11-05T07:34:55Z
 - [chore(deps): Bump actions/upload-artifact from 4 to 5](https://github.com/PRODYNA-YASM/yasm-test/pull/386)
 
 - [chore(deps-dev): Bump cypress from 14.5.2 to 15.5.0](https://github.com/PRODYNA-YASM/yasm-test/pull/384)
-
-- [chore(deps): Bump cypress/included from 14.5.2 to 15.5.0](https://github.com/PRODYNA-YASM/yasm-test/pull/383)
 
 - [chore(deps-dev): Bump dotenv from 16.5.0 to 17.2.3](https://github.com/PRODYNA-YASM/yasm-test/pull/373)
 
@@ -738,6 +925,34 @@ Component Status overview. Last update 2025-11-05T07:34:55Z
 
 
 
+### [Commits on main since 1.8.3](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.8.3..HEAD) (10)
+
+- [Merge pull request #165 from PRODYNA-YASM/copilot/create-readme-md](https://github.com/prodyna-yasm/yasm-mainproject/commit/ed3bce63f95455d7ab85c23656022af20b6cbcda) by [dkrizic](https://github.com/dkrizic) on 2025-11-06 07:33:54 +0000 UTC
+
+- [Create comprehensive README.md with all required sections](https://github.com/prodyna-yasm/yasm-mainproject/commit/d4ba93b8794c9e82d645046d4b148876307ff26e) by [Copilot](https://github.com/Copilot) on 2025-11-06 02:15:15 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-mainproject/commit/79915109a43455359c6541e1f2b8168da1418157) by [Copilot](https://github.com/Copilot) on 2025-11-06 02:07:13 +0000 UTC
+
+- [Merge pull request #163 from PRODYNA-YASM/copilot/update-otelhttp-middleware-routing](https://github.com/prodyna-yasm/yasm-mainproject/commit/2ddf41ed104655e9a196870a14a12498635dffd7) by [dkrizic](https://github.com/dkrizic) on 2025-11-06 00:06:03 +0000 UTC
+
+- [Re-include /health and /metrics with WithRouteTag wrapping](https://github.com/prodyna-yasm/yasm-mainproject/commit/21f53a821141a643dc1cba4fab6ecdbc17007533) by [Copilot](https://github.com/Copilot) on 2025-11-05 23:54:48 +0000 UTC
+
+- [Add test execution to Dockerfile to fail build if tests fail](https://github.com/prodyna-yasm/yasm-mainproject/commit/31c2e3f403ae3d48aa3d852bcba6f0c9986a686b) by [Copilot](https://github.com/Copilot) on 2025-11-05 23:47:46 +0000 UTC
+
+- [Exclude /health and /metrics from WithRouteTag wrapping](https://github.com/prodyna-yasm/yasm-mainproject/commit/aaabd593921acdb71e59b0ac288bd55018e14e6d) by [Copilot](https://github.com/Copilot) on 2025-11-05 23:43:49 +0000 UTC
+
+- [Add integration tests for http.route attribute validation](https://github.com/prodyna-yasm/yasm-mainproject/commit/fe226c7c9fff9a55f9b7f751faf402ae08169b0d) by [Copilot](https://github.com/Copilot) on 2025-11-05 23:29:26 +0000 UTC
+
+- [Update otelhttp middleware to set http.route attribute with path only (no HTTP method)](https://github.com/prodyna-yasm/yasm-mainproject/commit/6b7aa8d0ff28659511af4a3f66ef36e8c7128604) by [Copilot](https://github.com/Copilot) on 2025-11-05 23:27:13 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-mainproject/commit/544086765b70dba11f0267374718d52984625e42) by [Copilot](https://github.com/Copilot) on 2025-11-05 23:16:54 +0000 UTC
+
+
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-mainproject/pulls) (1)
+
+- [Improve error handling, add timeouts, and increase test coverage](https://github.com/PRODYNA-YASM/yasm-mainproject/pull/164)
 
 
 
@@ -745,9 +960,9 @@ Component Status overview. Last update 2025-11-05T07:34:55Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.8.3 |  1.8.3 |  1.8.3 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  2ddf41e |  1.8.3 |  1.8.3 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
