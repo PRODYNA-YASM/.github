@@ -168,7 +168,7 @@
         "Count": 10,
         "PullRequests": [
           {
-            "Title": "Add comprehensive README with architecture diagrams and environment documentation",
+            "Title": "feat: Add comprehensive README with architecture diagrams and environment documentation",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1118"
           },
           {
@@ -241,7 +241,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d2c7b79",
+          "Version": "54c5946",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -292,12 +292,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "Add comprehensive README documentation for yasm-integration",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/774"
-          },
           {
             "Title": "Fix critical bugs and improve error handling, testing, and documentation",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/773"
@@ -307,8 +303,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.76.3..HEAD",
-        "Count": 2,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "Add comprehensive README documentation for yasm-integration (#774)",
+            "SHA": "54c59469d96afe9b43438994388db8ec46db3d1d",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T08:34:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/54c59469d96afe9b43438994388db8ec46db3d1d"
+          },
           {
             "Text": "Bump golang from 1.25.3-alpine3.22 to 1.25.4-alpine3.22 (#772)",
             "SHA": "d2c7b7941d23c025ced0eacc2bcc9b0071e6dd84",
@@ -427,9 +433,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.25.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "20dcf22",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -478,19 +484,175 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Remove the namespace",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/347"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.25.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 16,
+        "Commits": [
+          {
+            "Text": "Merge pull request #351 from PRODYNA-YASM/copilot/refactor-route-constants",
+            "SHA": "20dcf2284249a6c7c6f70fc527db345c117d5e80",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T13:05:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/20dcf2284249a6c7c6f70fc527db345c117d5e80"
+          },
+          {
+            "Text": "Refactor route constants to separate HTTP method from path",
+            "SHA": "52f0e1080e59c9b7730e293bf1d9c425513a9142",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T12:54:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/52f0e1080e59c9b7730e293bf1d9c425513a9142"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "cffaf4e9c945c2d05f1abbe19c71f8e6cb4363bb",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T12:46:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/cffaf4e9c945c2d05f1abbe19c71f8e6cb4363bb"
+          },
+          {
+            "Text": "Merge pull request #350 from PRODYNA-YASM/copilot/add-http-route-label-metric",
+            "SHA": "423569167d0df5bd1016ef455bcf82f52849e48d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T12:24:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/423569167d0df5bd1016ef455bcf82f52849e48d"
+          },
+          {
+            "Text": "Refactor routes into constants to avoid redundancy and improve maintainability",
+            "SHA": "1de62df124918382cea6e719606b0241586d739c",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T12:12:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/1de62df124918382cea6e719606b0241586d739c"
+          },
+          {
+            "Text": "Wrap metrics endpoint with WithRouteTag for consistency",
+            "SHA": "eb3e9befdbcc38896a42aaceaaf2d5244e6dd9e8",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T11:59:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/eb3e9befdbcc38896a42aaceaaf2d5244e6dd9e8"
+          },
+          {
+            "Text": "Use constants for route template parameter names in WithRouteTag",
+            "SHA": "1deaa14d19272590649e305855046e0cf45565ce",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T11:57:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/1deaa14d19272590649e305855046e0cf45565ce"
+          },
+          {
+            "Text": "Add http_route label to http_server_request_duration_seconds metric using otelhttp.WithRouteTag",
+            "SHA": "3ce41a0632af0a5928361b9f4dc2637fcdd99e49",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T11:56:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/3ce41a0632af0a5928361b9f4dc2637fcdd99e49"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "20f8721a10959eb6b8689100e8ab514529a5bdc5",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T11:49:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/20f8721a10959eb6b8689100e8ab514529a5bdc5"
+          },
+          {
+            "Text": "Merge pull request #349 from PRODYNA-YASM/feature/new-otel-metrics",
+            "SHA": "1cc2f1e1b0dceae8e1f843a1e6a0fafe0bb2c9b9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T11:38:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/1cc2f1e1b0dceae8e1f843a1e6a0fafe0bb2c9b9"
+          },
+          {
+            "Text": "Use new OTEL metrics",
+            "SHA": "cc4210a83e23916e250d5a4b423b25f98327324b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T11:18:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/cc4210a83e23916e250d5a4b423b25f98327324b"
+          },
+          {
+            "Text": "Merge pull request #348 from PRODYNA-YASM/copilot/replace-readme-with-comprehensive-version",
+            "SHA": "d2e80bfeda69f672d6fe1fa6472b23899ddf5469",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T08:56:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/d2e80bfeda69f672d6fe1fa6472b23899ddf5469"
+          },
+          {
+            "Text": "Replace default README with comprehensive version",
+            "SHA": "7a9eebb289a358219c4b13741eb1ce82d9f652ed",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T08:46:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/7a9eebb289a358219c4b13741eb1ce82d9f652ed"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "dca8acca50d4b0b91334ddc47ea2614357f6cfdb",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T08:37:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/dca8acca50d4b0b91334ddc47ea2614357f6cfdb"
+          },
+          {
+            "Text": "Merge pull request #347 from PRODYNA-YASM/feature/remote-service-namespace",
+            "SHA": "5342d11a7261f4208af7d723c1cb5f09410460c7",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T08:35:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/5342d11a7261f4208af7d723c1cb5f09410460c7"
+          },
+          {
+            "Text": "Remove the namespace",
+            "SHA": "f79c1f16933e458037b0f4e30fb28d96503f3d06",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-05T16:19:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/f79c1f16933e458037b0f4e30fb28d96503f3d06"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -507,7 +669,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "3c41250",
+          "Version": "22112d2",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -558,27 +720,94 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 3,
-        "PullRequests": [
-          {
-            "Title": "build(deps): bump golang from 1.25.3-alpine3.22 to 1.25.4-alpine3.22",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/281"
-          },
-          {
-            "Title": "Fix critical bugs, add test coverage, improve error handling",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/279"
-          },
-          {
-            "Title": "Enhance otelsql instrumentation with explicit providers and semantic conventions",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/273"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.1..HEAD",
-        "Count": 26,
+        "Count": 30,
         "Commits": [
+          {
+            "Text": "Remove test metric",
+            "SHA": "22112d2b6b924a97aa130ea93c5a85ea8879d76a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T13:44:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/22112d2b6b924a97aa130ea93c5a85ea8879d76a"
+          },
+          {
+            "Text": "Update libs",
+            "SHA": "02421eafd20c1abd7dde4553e0c769dc6e8a7517",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T13:41:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/02421eafd20c1abd7dde4553e0c769dc6e8a7517"
+          },
+          {
+            "Text": "Merge pull request #273 from PRODYNA-YASM/copilot/instrument-db-connection",
+            "SHA": "8fd9990e91ce9a6e7ee403ccf5fec56ec312fe32",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T13:21:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/8fd9990e91ce9a6e7ee403ccf5fec56ec312fe32"
+          },
+          {
+            "Text": "Merge branch 'main' into copilot/instrument-db-connection",
+            "SHA": "c0ece5d23fd0f6dd1109d0006f8ef74d5129ff7f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T13:15:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/c0ece5d23fd0f6dd1109d0006f8ef74d5129ff7f"
+          },
+          {
+            "Text": "Merge pull request #279 from PRODYNA-YASM/copilot/review-codebase-robustness",
+            "SHA": "1575c64d3dadd472bb23617f25bffb66317a2a07",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T11:58:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/1575c64d3dadd472bb23617f25bffb66317a2a07"
+          },
+          {
+            "Text": "Merge pull request #281 from PRODYNA-YASM/dependabot/docker/golang-1.25.4-alpine3.22",
+            "SHA": "8d267fb36401b941636cd0ab823c3f09539aa63c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T11:52:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/8d267fb36401b941636cd0ab823c3f09539aa63c"
+          },
+          {
+            "Text": "Merge pull request #283 from PRODYNA-YASM/feature/new-otel-metrics",
+            "SHA": "f00593270835f4e4430bd85023a9fd36f05473f0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T11:33:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/f00593270835f4e4430bd85023a9fd36f05473f0"
+          },
+          {
+            "Text": "Let the lib create the new otel metrics",
+            "SHA": "67e2f9987b9dba2aefb68ed028cc8c9073c1118e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T11:18:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/67e2f9987b9dba2aefb68ed028cc8c9073c1118e"
+          },
           {
             "Text": "Merge pull request #280 from PRODYNA-YASM/copilot/create-readme-for-tempo-metrics",
             "SHA": "3c412508968a1625a70ba64a5a4fd2e5b5fb3e43",
@@ -610,6 +839,46 @@
             "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/c4b463cea663c1698bc4a6cdb151a126af60dd5e"
           },
           {
+            "Text": "build(deps): bump golang from 1.25.3-alpine3.22 to 1.25.4-alpine3.22",
+            "SHA": "6727b185c427f8ea14a59ea9b6de7db155e6e27a",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-11-06T05:17:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/6727b185c427f8ea14a59ea9b6de7db155e6e27a"
+          },
+          {
+            "Text": "Return error instead of panic for nil database connection",
+            "SHA": "37a05c8921681505b1d18729212bc9a889e64a1a",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:23:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/37a05c8921681505b1d18729212bc9a889e64a1a"
+          },
+          {
+            "Text": "Add nil check for database connection parameter",
+            "SHA": "772365a6bc3cfe25ca2fa83d939856527e49f972",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:17:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/772365a6bc3cfe25ca2fa83d939856527e49f972"
+          },
+          {
+            "Text": "Add comprehensive godoc documentation",
+            "SHA": "ec838863351f85d9039cbf628d738ba3c1a06771",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:15:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/ec838863351f85d9039cbf628d738ba3c1a06771"
+          },
+          {
             "Text": "Create comprehensive README.md with architecture diagrams and full documentation",
             "SHA": "eb38a75f6cdad403aba312e44f63a5bb2c1134c4",
             "Author": {
@@ -620,6 +889,26 @@
             "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/eb38a75f6cdad403aba312e44f63a5bb2c1134c4"
           },
           {
+            "Text": "Add nil pointer checks and remove fmt.Printf",
+            "SHA": "9c43202fc23fbba00787ae725d5596636f1bcd01",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:12:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/9c43202fc23fbba00787ae725d5596636f1bcd01"
+          },
+          {
+            "Text": "Add comprehensive unit tests for critical packages",
+            "SHA": "90fcd9af4d5c5311453ae88e63bf09fde6b6b8c1",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:08:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/90fcd9af4d5c5311453ae88e63bf09fde6b6b8c1"
+          },
+          {
             "Text": "Initial plan",
             "SHA": "6a2b2e9af006b2f49141970ead9bcacf1d37deaa",
             "Author": {
@@ -628,6 +917,26 @@
             },
             "Timestamp": "2025-11-06T02:06:26Z",
             "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/6a2b2e9af006b2f49141970ead9bcacf1d37deaa"
+          },
+          {
+            "Text": "Fix critical issues: lock copy, panic, error handling",
+            "SHA": "1d0e3123167f82ed291d7d3e647e1fe97ac0b7c6",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:03:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/1d0e3123167f82ed291d7d3e647e1fe97ac0b7c6"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "bbc0bb4ff02900ba58c552b0d5dddc64c21f94f0",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T01:57:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/bbc0bb4ff02900ba58c552b0d5dddc64c21f94f0"
           },
           {
             "Text": "Merge pull request #277 from PRODYNA-YASM/copilot/update-otelhttp-middleware",
@@ -718,126 +1027,6 @@
             },
             "Timestamp": "2025-11-06T00:09:16Z",
             "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/479f15bf34f1d7c4574ac5633e1ed504d8d3f169"
-          },
-          {
-            "Text": "Merge pull request #276 from PRODYNA-YASM/copilot/add-otelhttp-ingress-egress-middleware",
-            "SHA": "7bf15393dc0ee3a41c721ddcb3cc94fceb6ab97c",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-05T23:46:11Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/7bf15393dc0ee3a41c721ddcb3cc94fceb6ab97c"
-          },
-          {
-            "Text": "Fix test error message format",
-            "SHA": "4bf17dd6d43d89c209e336b8acb0b3b516182a2e",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-05T23:40:22Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/4bf17dd6d43d89c209e336b8acb0b3b516182a2e"
-          },
-          {
-            "Text": "Fix: Create new http.Client instance instead of modifying global default",
-            "SHA": "a4271f7537149329a83ba40e8401c1329fe01c2b",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-05T23:38:59Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/a4271f7537149329a83ba40e8401c1329fe01c2b"
-          },
-          {
-            "Text": "Update otelhttp middleware to ensure http.route compliance per OpenTelemetry spec",
-            "SHA": "4315d57dec905c66bf2c508c97fb851628f83249",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-05T23:37:16Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/4315d57dec905c66bf2c508c97fb851628f83249"
-          },
-          {
-            "Text": "Initial plan",
-            "SHA": "317d035ecc56c6e691ba853d049fb7445d21092a",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-05T23:20:59Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/317d035ecc56c6e691ba853d049fb7445d21092a"
-          },
-          {
-            "Text": "Add clarifying comment for MSAL HTTP client usage",
-            "SHA": "9ad9d07ede6a55133b33923d1f9845e3a368be32",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-05T18:33:09Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/9ad9d07ede6a55133b33923d1f9845e3a368be32"
-          },
-          {
-            "Text": "Implement OpenTelemetry HTTP middleware with http.route support",
-            "SHA": "22cbc466f201523dfc68d04da22c2b617b099713",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-05T18:30:11Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/22cbc466f201523dfc68d04da22c2b617b099713"
-          },
-          {
-            "Text": "Initial plan",
-            "SHA": "82e0eb565c9af4d962b90dc9cef7971c2ff6d68e",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-05T18:14:00Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/82e0eb565c9af4d962b90dc9cef7971c2ff6d68e"
-          },
-          {
-            "Text": "Merge pull request #275 from PRODYNA-YASM/feature/support-for-mimir-gateway",
-            "SHA": "85915a89119a62286d269cdaa30d1917c7e09abd",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-05T04:18:51Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/85915a89119a62286d269cdaa30d1917c7e09abd"
-          },
-          {
-            "Text": "Fix URL for mimir-gateway",
-            "SHA": "02d688cf225973198f27d97180658fce3b50d66f",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-05T04:15:26Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/02d688cf225973198f27d97180658fce3b50d66f"
-          },
-          {
-            "Text": "Merge pull request #274 from PRODYNA-YASM/feature/restructure",
-            "SHA": "5b0bae16bd2688a45581070ce88992a8b0f36015",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-01T11:14:00Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/5b0bae16bd2688a45581070ce88992a8b0f36015"
-          },
-          {
-            "Text": "Restructure sync modules",
-            "SHA": "ce521de5a4b29c05c3dc7ae932282fa730047402",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-01T11:11:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/ce521de5a4b29c05c3dc7ae932282fa730047402"
           }
         ]
       },
@@ -1107,9 +1296,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.15.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "0f75cd2",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1158,23 +1347,175 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/pulls",
-        "Count": 2,
-        "PullRequests": [
-          {
-            "Title": "Add comprehensive README with architecture diagrams and environment variable documentation",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/287"
-          },
-          {
-            "Title": "Code review and refactoring for robustness, error handling, and test coverage",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/286"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 16,
+        "Commits": [
+          {
+            "Text": "Merge pull request #286 from PRODYNA-YASM/copilot/review-codebase-robustness",
+            "SHA": "0f75cd2aec192bb3102e749b20ada36331b9e370",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T08:59:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/0f75cd2aec192bb3102e749b20ada36331b9e370"
+          },
+          {
+            "Text": "Merge branch 'main' into copilot/review-codebase-robustness",
+            "SHA": "2927cd0581de62a674db1f2f3870d936cd171e5a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T08:49:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/2927cd0581de62a674db1f2f3870d936cd171e5a"
+          },
+          {
+            "Text": "Merge pull request #287 from PRODYNA-YASM/copilot/create-readme-with-sections",
+            "SHA": "26c0cd63bcfcbdd42d02a5f151a705e59cf6f08d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T08:26:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/26c0cd63bcfcbdd42d02a5f151a705e59cf6f08d"
+          },
+          {
+            "Text": "Add comprehensive README with architecture diagrams and environment variable documentation",
+            "SHA": "9968753e8dd199ddb5bbaaeb492dfbbb21fd1c43",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:38:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/9968753e8dd199ddb5bbaaeb492dfbbb21fd1c43"
+          },
+          {
+            "Text": "Create comprehensive README.md with architecture diagrams and full documentation",
+            "SHA": "ad365ec1e72cb622c4a17df204428bae5f5a3ba4",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:34:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/ad365ec1e72cb622c4a17df204428bae5f5a3ba4"
+          },
+          {
+            "Text": "Fix slog.Error syntax error in cmd/service.go",
+            "SHA": "6ece0f1a14923b625337cf023f4bb22c27e0b93f",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:29:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/6ece0f1a14923b625337cf023f4bb22c27e0b93f"
+          },
+          {
+            "Text": "Final code review and refactoring complete",
+            "SHA": "1d7828f92d41f696e431968daf5b42a1e88271ea",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:24:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/1d7828f92d41f696e431968daf5b42a1e88271ea"
+          },
+          {
+            "Text": "Fix code formatting with go fmt",
+            "SHA": "57e99fa369edd6f652a0691f491b2d883d3e1fdd",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:21:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/57e99fa369edd6f652a0691f491b2d883d3e1fdd"
+          },
+          {
+            "Text": "Remove build artifacts from git repository",
+            "SHA": "0062509d7c8225fe749346aeea10ca56ce1b948c",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:19:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/0062509d7c8225fe749346aeea10ca56ce1b948c"
+          },
+          {
+            "Text": "Enhance documentation and command descriptions",
+            "SHA": "022dd9db12031a958285e80a6d3ff5bfa91228aa",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:18:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/022dd9db12031a958285e80a6d3ff5bfa91228aa"
+          },
+          {
+            "Text": "Add comprehensive test coverage for handlers and geocoders",
+            "SHA": "60d4fb610a1f74cd7a819eafe1d44e0998bc2561",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:14:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/60d4fb610a1f74cd7a819eafe1d44e0998bc2561"
+          },
+          {
+            "Text": "Improve error handling, validation, and documentation",
+            "SHA": "92fead250040f34206665d0ae4a4e09df8691797",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:11:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/92fead250040f34206665d0ae4a4e09df8691797"
+          },
+          {
+            "Text": "Fix critical compilation errors and bugs",
+            "SHA": "4fc987ed1d11192066708d0f25d9529e3a01d39b",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:07:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/4fc987ed1d11192066708d0f25d9529e3a01d39b"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "2aa90bec22d604f7051c25e1266dd6c817681ed7",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:07:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/2aa90bec22d604f7051c25e1266dd6c817681ed7"
+          },
+          {
+            "Text": "Initial exploration and analysis of codebase",
+            "SHA": "f0116b6f41da79912dfb91ec57a63a0454945297",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:05:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/f0116b6f41da79912dfb91ec57a63a0454945297"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "a1b36da55034cdb9e442b420e5f30be0c909b305",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T01:58:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/a1b36da55034cdb9e442b420e5f30be0c909b305"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1376,14 +1717,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "71d56f8",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.2.10",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.2.9",
+          "Version": "1.2.10",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -1392,17 +1733,24 @@
           "Link": "",
           "Version": "1.2.9",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.2.9",
+        "Tag": "1.2.10",
         "SHA": "",
-        "Title": "Push metrics, send exemplars",
-        "Timestamp": "2025-10-28T16:45:29Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-external/releases/tag/1.2.9"
+        "Title": "Fix http metrics according to Otel semantics",
+        "Timestamp": "2025-11-06T14:53:03Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-external/releases/tag/1.2.10"
       },
       "Releases": [
+        {
+          "Tag": "1.2.10",
+          "SHA": "",
+          "Title": "Fix http metrics according to Otel semantics",
+          "Timestamp": "2025-11-06T14:47:18Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-external/releases/tag/1.2.10"
+        },
         {
           "Tag": "1.2.9",
           "SHA": "",
@@ -1416,13 +1764,6 @@
           "Title": "Go 1.25.3, dummy change for demo",
           "Timestamp": "2025-10-17T10:14:18Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-external/releases/tag/1.2.8"
-        },
-        {
-          "Tag": "1.2.7",
-          "SHA": "",
-          "Title": "Go 1.25.3 and other updates",
-          "Timestamp": "2025-10-14T09:22:04Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-external/releases/tag/1.2.7"
         }
       ],
       "PullRequests": {
@@ -1430,194 +1771,29 @@
         "Count": 1,
         "PullRequests": [
           {
-            "Title": "Security and robustness improvements with comprehensive test coverage",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-external/pull/143"
+            "Title": "Bump golang from 1.25.3-alpine3.22 to 1.25.4-alpine3.22",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-external/pull/145"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-external",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-external/compare/1.2.9..HEAD",
-        "Count": 17,
-        "Commits": [
-          {
-            "Text": "Merge pull request #144 from PRODYNA-YASM/copilot/create-readme-md",
-            "SHA": "71d56f8e2d0606ae64311da55addfabc71ccb3eb",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-06T07:29:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/71d56f8e2d0606ae64311da55addfabc71ccb3eb"
-          },
-          {
-            "Text": "Fix technology reference: Helm templates instead of Smarty",
-            "SHA": "3a4f5653d9b029c3236630f7910a3eea4218f32d",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-06T02:16:52Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/3a4f5653d9b029c3236630f7910a3eea4218f32d"
-          },
-          {
-            "Text": "Create comprehensive README.md with architecture diagrams and documentation",
-            "SHA": "7aab2a72c665e69855c29b558f7947aaa74d181f",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-06T02:14:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/7aab2a72c665e69855c29b558f7947aaa74d181f"
-          },
-          {
-            "Text": "Initial plan",
-            "SHA": "a6c758658693ff45d4078f29b5578b7965bae0d4",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-06T02:06:52Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/a6c758658693ff45d4078f29b5578b7965bae0d4"
-          },
-          {
-            "Text": "Merge pull request #141 from PRODYNA-YASM/copilot/add-middleware-for-http-tracing",
-            "SHA": "564a4ef5965c4e3b97571832d4d0552996380744",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-06T00:30:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/564a4ef5965c4e3b97571832d4d0552996380744"
-          },
-          {
-            "Text": "Merge branch 'main' into copilot/add-middleware-for-http-tracing",
-            "SHA": "c3474936a52988c682d7357c805ff93c06187fe2",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-06T00:27:42Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/c3474936a52988c682d7357c805ff93c06187fe2"
-          },
-          {
-            "Text": "Resolve merge conflicts with main",
-            "SHA": "690a7e30187259cb10084df4a325d2ab408be48b",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-06T00:21:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/690a7e30187259cb10084df4a325d2ab408be48b"
-          },
-          {
-            "Text": "Merge pull request #142 from PRODYNA-YASM/copilot/update-otelhttp-middleware",
-            "SHA": "a2ae4159a3ad93372c360d3d732d30c7ff53892f",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-05T23:44:37Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/a2ae4159a3ad93372c360d3d732d30c7ff53892f"
-          },
-          {
-            "Text": "Complete otelhttp middleware update for http.route attribute",
-            "SHA": "6974a1f63635ceb265b9411d4cd7844769a09a6e",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-05T23:25:06Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/6974a1f63635ceb265b9411d4cd7844769a09a6e"
-          },
-          {
-            "Text": "Wrap handlers with otelhttp.WithRouteTag to set http.route attribute correctly",
-            "SHA": "ef686377e6e34d7e4984fae2726ae2324361e118",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-05T23:23:00Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/ef686377e6e34d7e4984fae2726ae2324361e118"
-          },
-          {
-            "Text": "Initial plan",
-            "SHA": "fd7b3d100860be10cc77d4c9ca6f6fa354798556",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-05T23:16:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/fd7b3d100860be10cc77d4c9ca6f6fa354798556"
-          },
-          {
-            "Text": "Add otelhttp middleware with http.route attribute for ingress and egress paths",
-            "SHA": "b8c38f189057695163801c60aee2d26502b97c25",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-05T18:55:17Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/b8c38f189057695163801c60aee2d26502b97c25"
-          },
-          {
-            "Text": "Add clarifying comment for housekeeping route tag",
-            "SHA": "a5c27f0627e7652a4f4f3597f634b195b702ae63",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-05T18:52:32Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/a5c27f0627e7652a4f4f3597f634b195b702ae63"
-          },
-          {
-            "Text": "Fix PostForm implementation and add test",
-            "SHA": "0b083d6b1d2a26faf038069fef42161f77dd6243",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-05T18:50:32Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/0b083d6b1d2a26faf038069fef42161f77dd6243"
-          },
-          {
-            "Text": "Add tests for otelhttp middleware and HTTP client",
-            "SHA": "ad61660ac0e6a9da94621c5638d103a103bba890",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-05T18:45:43Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/ad61660ac0e6a9da94621c5638d103a103bba890"
-          },
-          {
-            "Text": "Add otelhttp middleware with http.route and HTTP client wrapper",
-            "SHA": "1250b78e5a7c118e9bde25b5704f57dbbb0003db",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-05T18:43:14Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/1250b78e5a7c118e9bde25b5704f57dbbb0003db"
-          },
-          {
-            "Text": "Initial plan",
-            "SHA": "70db20edd580e29e773be7ea3df82988780ac778",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-05T18:33:43Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/70db20edd580e29e773be7ea3df82988780ac778"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-external/compare/1.2.10..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Merge pull request #147 from PRODYNA-YASM/feature/146-demo-issue-for-…",
+            "Timestamp": "2025-11-06T14:53:25Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-external/actions/runs/19139732409"
+          }
+        ]
       }
     },
     {
@@ -1702,7 +1878,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "fec3e80",
+          "Version": "63de526",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -1739,19 +1915,44 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Add comprehensive README documentation for YASM infrastructure repository",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1135"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.2..HEAD",
-        "Count": 26,
+        "Count": 29,
         "Commits": [
+          {
+            "Text": "Merge pull request #1135 from PRODYNA-YASM/copilot/create-readme-file-structure",
+            "SHA": "63de526b4dcb7e21436c3e6ea92e7b431b300f6e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T08:41:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/63de526b4dcb7e21436c3e6ea92e7b431b300f6e"
+          },
+          {
+            "Text": "Add comprehensive README.md with all required sections",
+            "SHA": "15e0a34cfebf729a72118f269dc916989d5c9e92",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:12:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/15e0a34cfebf729a72118f269dc916989d5c9e92"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "f8cf8e7a89166b9e095d9191866c5bbad26dfb10",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:06:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f8cf8e7a89166b9e095d9191866c5bbad26dfb10"
+          },
           {
             "Text": "Fix syntax of prometheuswriteexporter",
             "SHA": "fec3e80377875e0ec9912895730174804ee884e1",
@@ -2428,7 +2629,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2ddf41e",
+          "Version": "34e8c45",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2479,19 +2680,24 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Improve error handling, add timeouts, and increase test coverage",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-mainproject/pull/164"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-mainproject",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/compare/1.8.3..HEAD",
-        "Count": 10,
+        "Count": 16,
         "Commits": [
+          {
+            "Text": "Merge pull request #164 from PRODYNA-YASM/copilot/refactor-codebase-for-stability",
+            "SHA": "34e8c4537d1070b17c1e239737eeae1aef01c14d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T08:28:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/34e8c4537d1070b17c1e239737eeae1aef01c14d"
+          },
           {
             "Text": "Merge pull request #165 from PRODYNA-YASM/copilot/create-readme-md",
             "SHA": "ed3bce63f95455d7ab85c23656022af20b6cbcda",
@@ -2501,6 +2707,16 @@
             },
             "Timestamp": "2025-11-06T07:33:54Z",
             "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/ed3bce63f95455d7ab85c23656022af20b6cbcda"
+          },
+          {
+            "Text": "Fix metrics recording to occur after successful write",
+            "SHA": "463726748a02b4ad7fe60b4ac90bb116fcac5903",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:17:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/463726748a02b4ad7fe60b4ac90bb116fcac5903"
           },
           {
             "Text": "Create comprehensive README.md with all required sections",
@@ -2513,6 +2729,36 @@
             "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/d4ba93b8794c9e82d645046d4b148876307ff26e"
           },
           {
+            "Text": "Add comprehensive documentation comments",
+            "SHA": "fc4ddc6c237e0609c32a5df02f982ddc11dc02e3",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:15:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/fc4ddc6c237e0609c32a5df02f982ddc11dc02e3"
+          },
+          {
+            "Text": "Add comprehensive test coverage for untested packages",
+            "SHA": "58a633059ee5b209be4ac14c43760b40e27fa052",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:10:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/58a633059ee5b209be4ac14c43760b40e27fa052"
+          },
+          {
+            "Text": "Fix error handling and Go best practices",
+            "SHA": "b012373175250de4449f81ad9ea1b59f1107ab07",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T02:07:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/b012373175250de4449f81ad9ea1b59f1107ab07"
+          },
+          {
             "Text": "Initial plan",
             "SHA": "79915109a43455359c6541e1f2b8168da1418157",
             "Author": {
@@ -2521,6 +2767,16 @@
             },
             "Timestamp": "2025-11-06T02:07:13Z",
             "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/79915109a43455359c6541e1f2b8168da1418157"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "c47f03b96d6740717d36a5adc611d6a68c71b6d5",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-06T01:58:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/c47f03b96d6740717d36a5adc611d6a68c71b6d5"
           },
           {
             "Text": "Merge pull request #163 from PRODYNA-YASM/copilot/update-otelhttp-middleware-routing",
@@ -2834,5 +3090,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-11-06T07:34:17Z"
+  "LastUpdated": "2025-11-06T14:58:10Z"
 }
