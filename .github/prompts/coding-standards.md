@@ -619,7 +619,7 @@ func (s *Server) handleGetUser(w http.ResponseWriter, r *http.Request) {
 
 func (s *Server) respondJSON(w http.ResponseWriter, status int, data interface{}) {
     w.Header().Set("Content-Type", "application/json")
-    w.WriteStatus(status)
+    w.WriteHeader(status)
     
     if err := json.NewEncoder(w).Encode(data); err != nil {
         s.logger.Error("failed to encode response", slog.String("error", err.Error()))
