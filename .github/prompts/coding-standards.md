@@ -715,6 +715,14 @@ func (s *UserService) CreateUser(ctx context.Context, email, name string) (*User
 ### Concurrency Patterns
 
 ```go
+import (
+    "context"
+    "fmt"
+    "io"
+    "net/http"
+    "time"
+)
+
 // Worker pool pattern
 func processItems(ctx context.Context, items []Item, workers int) error {
     jobs := make(chan Item, len(items))

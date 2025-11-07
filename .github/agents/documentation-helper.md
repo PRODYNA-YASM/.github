@@ -18,6 +18,14 @@ specializations:
   - User Guides
   - Code Comments
   - README Files
+tags:
+  - documentation
+  - technical-writing
+  - api-docs
+  - architecture
+categories:
+  - documentation
+  - knowledge-management
 ---
 
 # Documentation Helper Agent

@@ -16,6 +16,14 @@ expertise:
   - Quarkus
   - Microservices
   - Graph Databases
+tags:
+  - code-quality
+  - security
+  - testing
+  - performance
+categories:
+  - code-review
+  - quality-assurance
 ---
 
 # Code Reviewer Agent
