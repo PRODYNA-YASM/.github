@@ -241,7 +241,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "54c5946",
+          "Version": "3951977",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -303,8 +303,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.76.3..HEAD",
-        "Count": 3,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.88.0 to 1.89.0 (#775)",
+            "SHA": "3951977d98f665e5580275d3dd2f2bc7c95b4f18",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-11-07T03:06:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/3951977d98f665e5580275d3dd2f2bc7c95b4f18"
+          },
           {
             "Text": "Add comprehensive README documentation for yasm-integration (#774)",
             "SHA": "54c59469d96afe9b43438994388db8ec46db3d1d",
@@ -433,7 +443,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "20dcf22",
+          "Version": "df50b15",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -490,8 +500,38 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.25.0..HEAD",
-        "Count": 16,
+        "Count": 19,
         "Commits": [
+          {
+            "Text": "Use namespace instead of collecgion, which is rightier",
+            "SHA": "df50b15b2755cf54f691e6b074e88980a4fdf6b2",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-07T07:26:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/df50b15b2755cf54f691e6b074e88980a4fdf6b2"
+          },
+          {
+            "Text": "Merge branch 'main' of github.com:PRODYNA-YASM/yasm-proxy-odbc",
+            "SHA": "d13a8ffbdf2e40531e90560e46bc4f8d86fb70c2",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T16:23:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/d13a8ffbdf2e40531e90560e46bc4f8d86fb70c2"
+          },
+          {
+            "Text": "Using semver 1.30.0",
+            "SHA": "3f1240dba66d1c63833ac4f211bc5bc311ef73cf",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T16:23:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/3f1240dba66d1c63833ac4f211bc5bc311ef73cf"
+          },
           {
             "Text": "Merge pull request #351 from PRODYNA-YASM/copilot/refactor-route-constants",
             "SHA": "20dcf2284249a6c7c6f70fc527db345c117d5e80",
@@ -669,7 +709,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "22112d2",
+          "Version": "e5d6c71",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -720,14 +760,59 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Uupdate chart version, set semconv stability",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/284"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.1..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Ok, for http as well",
+            "SHA": "e5d6c71fb5e6ca3683076b7c0abc33d851170849",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T17:07:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/e5d6c71fb5e6ca3683076b7c0abc33d851170849"
+          },
+          {
+            "Text": "Fix the semantic convention",
+            "SHA": "7013de1b66fd191360f52b846b840fb14b1facc5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T17:00:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/7013de1b66fd191360f52b846b840fb14b1facc5"
+          },
+          {
+            "Text": "Fix",
+            "SHA": "a236b912e627065ed28b3e30661bfbb52900eaed",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T16:35:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/a236b912e627065ed28b3e30661bfbb52900eaed"
+          },
+          {
+            "Text": "Using semver 1.30.0",
+            "SHA": "63895bc1e175333a68642771fb3ea0f153c1cf82",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T16:23:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/63895bc1e175333a68642771fb3ea0f153c1cf82"
+          },
           {
             "Text": "Remove test metric",
             "SHA": "22112d2b6b924a97aa130ea93c5a85ea8879d76a",
@@ -987,46 +1072,6 @@
             },
             "Timestamp": "2025-11-06T00:49:56Z",
             "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/f2300aefb4c274b4ce8b3872c789501fcfe9cbd1"
-          },
-          {
-            "Text": "Merge branch 'main' into copilot/update-otelhttp-middleware",
-            "SHA": "8b0efe2f0e3b7cb4ba57e7c74063e7cbf9af45cf",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-06T00:36:37Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/8b0efe2f0e3b7cb4ba57e7c74063e7cbf9af45cf"
-          },
-          {
-            "Text": "Fix Go file formatting with go fmt",
-            "SHA": "feed2e3daead16e421ae229ab2ec0188206ff60f",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-06T00:20:05Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/feed2e3daead16e421ae229ab2ec0188206ff60f"
-          },
-          {
-            "Text": "Update Dockerfile with new build instructions",
-            "SHA": "15f2ea9df184766d02599c97be826721f2570bfc",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-06T00:09:31Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/15f2ea9df184766d02599c97be826721f2570bfc"
-          },
-          {
-            "Text": "Fix merge conflicts: Update custom otelhttp middleware with span name formatter",
-            "SHA": "479f15bf34f1d7c4574ac5633e1ed504d8d3f169",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-06T00:09:16Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/479f15bf34f1d7c4574ac5633e1ed504d8d3f169"
           }
         ]
       },
@@ -1296,7 +1341,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0f75cd2",
+          "Version": "2c09482",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1353,8 +1398,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.2..HEAD",
-        "Count": 16,
+        "Count": 18,
         "Commits": [
+          {
+            "Text": "Merge pull request #288 from PRODYNA-YASM/dependabot/docker/golang-1.25.4",
+            "SHA": "2c09482c8e468cc75fbdced7a309cc0016821806",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T16:27:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/2c09482c8e468cc75fbdced7a309cc0016821806"
+          },
+          {
+            "Text": "Bump golang from 1.25.3 to 1.25.4",
+            "SHA": "940f0abdc3fd19723d47e4b4a4b469b1bd5a73e7",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-11-06T16:09:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/940f0abdc3fd19723d47e4b4a4b469b1bd5a73e7"
+          },
           {
             "Text": "Merge pull request #286 from PRODYNA-YASM/copilot/review-codebase-robustness",
             "SHA": "0f75cd2aec192bb3102e749b20ada36331b9e370",
@@ -1717,9 +1782,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.2.10",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "1c3d57b",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1768,19 +1833,25 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump golang from 1.25.3-alpine3.22 to 1.25.4-alpine3.22",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-external/pull/145"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-external",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/compare/1.2.10..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "Merge pull request #145 from PRODYNA-YASM/dependabot/docker/golang-1.25.4-alpine3.22",
+            "SHA": "1c3d57b465b452b7768bf4ebb22461457d893d71",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T14:59:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/1c3d57b465b452b7768bf4ebb22461457d893d71"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1878,7 +1949,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "63de526",
+          "Version": "ceb5315",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -1915,14 +1986,81 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 4,
+        "PullRequests": [
+          {
+            "Title": "feature/update components",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1139"
+          },
+          {
+            "Title": "Bump hashicorp/azurerm from 4.51.0 to 4.52.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1138"
+          },
+          {
+            "Title": "Bump hashicorp/azurerm from 4.51.0 to 4.52.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1137"
+          },
+          {
+            "Title": "Drop high-cardinality labels to fix Mimir ingestion limit",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1136"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.2..HEAD",
-        "Count": 29,
+        "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #1140 from PRODYNA-YASM/copilot/remove-unnecessary-metric-labels",
+            "SHA": "ceb53159b0edafbe47fa6d56c898dc7fec201f00",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-07T07:27:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ceb53159b0edafbe47fa6d56c898dc7fec201f00"
+          },
+          {
+            "Text": "Remove unnecessary metric labels from OpenTelemetry configuration",
+            "SHA": "b1e2c29a8f0e09f28d60f8647a43a059d3a7d60c",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-07T06:57:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b1e2c29a8f0e09f28d60f8647a43a059d3a7d60c"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "78b1cdc75c0430ebd8314a2c1319308b1819aa1d",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-07T06:52:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/78b1cdc75c0430ebd8314a2c1319308b1819aa1d"
+          },
+          {
+            "Text": "Fix tempo metrics generator endpoint",
+            "SHA": "23fd67e5381fe8e0de64d1039a54e0b368941f91",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T16:52:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/23fd67e5381fe8e0de64d1039a54e0b368941f91"
+          },
+          {
+            "Text": "Set       max_label_names_per_series: 40  # Add this line to increase the limit from 30 to 40",
+            "SHA": "693d4f95a288ca231252ce449dca744ba23945c9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T15:50:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/693d4f95a288ca231252ce449dca744ba23945c9"
+          },
           {
             "Text": "Merge pull request #1135 from PRODYNA-YASM/copilot/create-readme-file-structure",
             "SHA": "63de526b4dcb7e21436c3e6ea92e7b431b300f6e",
@@ -2172,46 +2310,6 @@
             },
             "Timestamp": "2025-11-05T01:15:36Z",
             "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/7769927bab845f915abbd24f9d927fd67eeb304d"
-          },
-          {
-            "Text": "Merge pull request #1132 from PRODYNA-YASM/feature/update-providers",
-            "SHA": "b0fec65dbf143c9241ebd13e1e546ebad2c9a47f",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-05T00:36:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b0fec65dbf143c9241ebd13e1e546ebad2c9a47f"
-          },
-          {
-            "Text": "Update providers",
-            "SHA": "7461070ccc5e8deebce7a8a923d0e5494b18ad1d",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-05T00:30:33Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/7461070ccc5e8deebce7a8a923d0e5494b18ad1d"
-          },
-          {
-            "Text": "Merge pull request #1131 from PRODYNA-YASM/feature/update-components",
-            "SHA": "1b6e2fa52605e36dea17f0b7e5d2aa0e9b9bfabf",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-05T00:18:24Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1b6e2fa52605e36dea17f0b7e5d2aa0e9b9bfabf"
-          },
-          {
-            "Text": "Update Kube-state-metrics, Loki, Mimir, Otel Operator, Tempo",
-            "SHA": "62c78c2ec7fff1377a01772c4e8fb4fa05d634d6",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-05T00:13:23Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/62c78c2ec7fff1377a01772c4e8fb4fa05d634d6"
           }
         ]
       },
@@ -2629,7 +2727,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "34e8c45",
+          "Version": "0a7afe0",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2686,8 +2784,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-mainproject",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/compare/1.8.3..HEAD",
-        "Count": 16,
+        "Count": 18,
         "Commits": [
+          {
+            "Text": "Merge pull request #166 from PRODYNA-YASM/dependabot/docker/golang-1.25.4-alpine3.22",
+            "SHA": "0a7afe0ddbde68b9826d84d158880ea54e5f3172",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-06T16:27:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/0a7afe0ddbde68b9826d84d158880ea54e5f3172"
+          },
+          {
+            "Text": "Bump golang from 1.25.3-alpine3.22 to 1.25.4-alpine3.22",
+            "SHA": "09622f750da263ac94c75e7f437e999cdc49166f",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-11-06T16:12:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/09622f750da263ac94c75e7f437e999cdc49166f"
+          },
           {
             "Text": "Merge pull request #164 from PRODYNA-YASM/copilot/refactor-codebase-for-stability",
             "SHA": "34e8c4537d1070b17c1e239737eeae1aef01c14d",
@@ -2871,7 +2989,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "f3c0835",
+          "Version": "4350ccd",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2922,31 +3040,69 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/sales-copilot/pulls",
-        "Count": 4,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "Bump github/codeql-action from 3 to 4",
-            "Link": "https://github.com/PRODYNA-YASM/sales-copilot/pull/19"
-          },
           {
             "Title": "Bump python from 3.13 to 3.14",
             "Link": "https://github.com/PRODYNA-YASM/sales-copilot/pull/18"
-          },
-          {
-            "Title": "Bump actions/checkout from 4 to 5",
-            "Link": "https://github.com/PRODYNA-YASM/sales-copilot/pull/16"
-          },
-          {
-            "Title": "fix: Handle `\"location\": null` in organization object",
-            "Link": "https://github.com/PRODYNA-YASM/sales-copilot/pull/4"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/sales-copilot",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD",
-        "Count": 1,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #4 from PRODYNA-YASM/fix/none-location",
+            "SHA": "4350ccdad4134ab636e39d3b004de01f0cd1594a",
+            "Author": {
+              "name": "numbereself",
+              "link": "https://github.com/numbereself"
+            },
+            "Timestamp": "2025-11-06T16:35:07Z",
+            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/4350ccdad4134ab636e39d3b004de01f0cd1594a"
+          },
+          {
+            "Text": "Merge pull request #19 from PRODYNA-YASM/dependabot/github_actions/github/codeql-action-4",
+            "SHA": "8796f67a96045a6bbb30a53ee5b79749de220ad3",
+            "Author": {
+              "name": "numbereself",
+              "link": "https://github.com/numbereself"
+            },
+            "Timestamp": "2025-11-06T16:33:23Z",
+            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/8796f67a96045a6bbb30a53ee5b79749de220ad3"
+          },
+          {
+            "Text": "Merge pull request #16 from PRODYNA-YASM/dependabot/github_actions/actions/checkout-5",
+            "SHA": "d2ab9a4c9098584653cf315eaf9cd22abb157d9c",
+            "Author": {
+              "name": "numbereself",
+              "link": "https://github.com/numbereself"
+            },
+            "Timestamp": "2025-11-06T16:33:09Z",
+            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/d2ab9a4c9098584653cf315eaf9cd22abb157d9c"
+          },
+          {
+            "Text": "Bump github/codeql-action from 3 to 4",
+            "SHA": "94f402fc42bef7b09b140efa92b6a99fb6358c10",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-10-08T13:10:03Z",
+            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/94f402fc42bef7b09b140efa92b6a99fb6358c10"
+          },
+          {
+            "Text": "Bump actions/checkout from 4 to 5",
+            "SHA": "ab2881a516fcc8d1327da50d19763d3e4755615f",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-08-11T18:46:05Z",
+            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/ab2881a516fcc8d1327da50d19763d3e4755615f"
+          },
           {
             "Text": "Merge pull request #14 from PRODYNA-YASM/dependency-review",
             "SHA": "f3c0835fd45401d8e9c7ccac5f47f9ae89aaf765",
@@ -3090,5 +3246,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-11-06T14:58:10Z"
+  "LastUpdated": "2025-11-07T07:34:30Z"
 }
