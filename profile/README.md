@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-11-08T07:32:55Z
+Component Status overview. Last update 2025-11-09T07:32:34Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -15,7 +15,7 @@ Component Status overview. Last update 2025-11-08T07:32:55Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [1](https://github.com/prodyna-yasm/yasm-external/compare/1.2.10..HEAD) | :green_square: 0 | 1.2.10 |  :red_square: 1c3d57b |  :green_square: 1.2.10 |  :red_square: 1.2.9 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.24.0-0 |  :green_square: 8.24.0-0 |  :green_square: 8.24.0-0 |  :green_square: 8.24.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [30](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.2..HEAD) | :green_square: 0 | 1.76.2 |  :red_square: d35da0c | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [30](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.2..HEAD) | :green_square: 0 | 1.76.2 |  :red_square: 0ce1333 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.76.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.76.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.76.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.76.0 | 
@@ -662,6 +662,24 @@ Component Status overview. Last update 2025-11-08T07:32:55Z
 
 ### [Commits on main since 1.76.2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.2..HEAD) (30)
 
+- [Delete the webengine stuff as well](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0ce13334be0d2d60ddf8b755f7726d498ede819d) by [dkrizic](https://github.com/dkrizic) on 2025-11-08 20:35:12 +0000 UTC
+
+- [Fix resourceattributes and attributes](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d933b2ef1583c4b6497695becca2b246ad55ca23) by [dkrizic](https://github.com/dkrizic) on 2025-11-08 20:18:30 +0000 UTC
+
+- [Fix syntax](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1bafeeac9befa0586e4162a7b096af8bfe75c441) by [dkrizic](https://github.com/dkrizic) on 2025-11-08 20:10:35 +0000 UTC
+
+- [Try to remove resource attributes](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ad2ee9993651381de32296c3219f865d2f74d351) by [dkrizic](https://github.com/dkrizic) on 2025-11-08 19:37:51 +0000 UTC
+
+- [Don't delete if not added by hostmetrics](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ea7f80d8ca6e285087dc227d1dc19b674af45f2a) by [dkrizic](https://github.com/dkrizic) on 2025-11-08 19:07:52 +0000 UTC
+
+- [Remove process information from hostmetrics](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/231bd1ee2b0d078f5449f23fc2904212bf3a5563) by [dkrizic](https://github.com/dkrizic) on 2025-11-08 19:07:11 +0000 UTC
+
+- [Try to drop labels part 2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3abd48f97f12e204824742aaa14638b361177659) by [dkrizic](https://github.com/dkrizic) on 2025-11-08 12:54:47 +0000 UTC
+
+- [back to _ notation](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/abbd5b75a68c204dd4167a915240583d45cbff52) by [dkrizic](https://github.com/dkrizic) on 2025-11-08 12:52:07 +0000 UTC
+
+- [Use . instead of _ for dropping metric labels](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/75f2b2b7ba0b2ae8904c6faa6076c93ccf317a81) by [dkrizic](https://github.com/dkrizic) on 2025-11-08 12:20:34 +0000 UTC
+
 - [Merge pull request #1142 from PRODYNA-YASM/copilot/update-opentelemetry-collector-config](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d35da0cc5b4b9398cc7afdb76b25899e2a55b27f) by [dkrizic](https://github.com/dkrizic) on 2025-11-07 10:55:57 +0000 UTC
 
 - [Add attributes processor to drop unwanted metrics labels from OpenTelemetry pipeline](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a98bd6a16c7310810665e8a474e408fbf304bc01) by [Copilot](https://github.com/Copilot) on 2025-11-07 10:37:39 +0000 UTC
@@ -704,24 +722,6 @@ Component Status overview. Last update 2025-11-08T07:32:55Z
 
 - [Add comprehensive README.md with all required sections](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/15e0a34cfebf729a72118f269dc916989d5c9e92) by [Copilot](https://github.com/Copilot) on 2025-11-06 02:12:15 +0000 UTC
 
-- [Initial plan](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f8cf8e7a89166b9e095d9191866c5bbad26dfb10) by [Copilot](https://github.com/Copilot) on 2025-11-06 02:06:01 +0000 UTC
-
-- [Fix syntax of prometheuswriteexporter](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/fec3e80377875e0ec9912895730174804ee884e1) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 16:19:59 +0000 UTC
-
-- [Write labels of metrics](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/eee1c6f14b0d769ba450d7250f9907800278a89f) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 16:11:32 +0000 UTC
-
-- [Disable Grafana tracing](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/5674c80831b116755800c46144fc94fc95ef9f32) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 13:13:30 +0000 UTC
-
-- [More memory for Loki ingester](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f802904675dd56de5a6fa6d7a4d90fb125fa7628) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 13:12:35 +0000 UTC
-
-- [100Gi for Kafka](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/be805a25600c06c262b8befd057da188a09b0a5c) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 12:54:46 +0000 UTC
-
-- [Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0eacef221a61a65458e470219d8c9b9f35a686a3) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 12:45:43 +0000 UTC
-
-- [50GB Disk for Kafka](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c39ab41204e34592d57236cff1d354cd5d82c8aa) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 12:45:30 +0000 UTC
-
-- [Fix resources for tempo-ingeter](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/db5e8fc9b5b6ae0a5378a6d998d4832d8c5dfb67) by [dkrizic](https://github.com/dkrizic) on 2025-11-05 12:10:46 +0000 UTC
-
 
 
 
@@ -730,7 +730,7 @@ Component Status overview. Last update 2025-11-08T07:32:55Z
 
 | Environment |  dev | 
 | --- |  --- | 
-| Version |  d35da0c | 
+| Version |  0ce1333 | 
 | Release |  :red_square: | 
 | Current |  :red_square: | 
 
