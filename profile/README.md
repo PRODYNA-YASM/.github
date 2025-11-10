@@ -1,10 +1,10 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-11-09T07:32:34Z
+Component Status overview. Last update 2025-11-10T07:34:03Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.76.0..HEAD) | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.76.0 |  :red_square: e9ef23a |  :green_square: 1.76.0 |  :green_square: 1.76.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [4](https://github.com/prodyna-yasm/yasm-integration/compare/1.76.3..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.76.3 |  :red_square: 3951977 |  :green_square: 1.76.3 |  :green_square: 1.76.3 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
@@ -15,7 +15,7 @@ Component Status overview. Last update 2025-11-09T07:32:34Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [1](https://github.com/prodyna-yasm/yasm-external/compare/1.2.10..HEAD) | :green_square: 0 | 1.2.10 |  :red_square: 1c3d57b |  :green_square: 1.2.10 |  :red_square: 1.2.9 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.24.0-0 |  :green_square: 8.24.0-0 |  :green_square: 8.24.0-0 |  :green_square: 8.24.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [30](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.2..HEAD) | :green_square: 0 | 1.76.2 |  :red_square: 0ce1333 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [30](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.2..HEAD) | :green_square: 0 | 1.76.2 |  :red_square: 70bdb38 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.76.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.76.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.76.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.76.0 | 
@@ -34,11 +34,9 @@ Component Status overview. Last update 2025-11-09T07:32:34Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (8)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (7)
 
-- [feature/expose opentelemetry metrics](https://github.com/PRODYNA-YASM/yasm-backend/pull/938)
-
-- [Implement OpenTelemetry semantic conventions for Neo4j database metrics](https://github.com/PRODYNA-YASM/yasm-backend/pull/937)
+- [feat: Implement OpenTelemetry semantic conventions for Neo4j database metrics](https://github.com/PRODYNA-YASM/yasm-backend/pull/937)
 
 - [Add comprehensive README documentation with architecture diagrams](https://github.com/PRODYNA-YASM/yasm-backend/pull/935)
 
@@ -662,6 +660,12 @@ Component Status overview. Last update 2025-11-09T07:32:34Z
 
 ### [Commits on main since 1.76.2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.2..HEAD) (30)
 
+- [Merge pull request #1146 from PRODYNA-YASM/copilot/add-central-helm-chart-versions](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/70bdb38d7a16599f9ea55f231c8b4750374b7e57) by [dkrizic](https://github.com/dkrizic) on 2025-11-09 12:30:30 +0000 UTC
+
+- [Add central version.tf for all Helm chart versions](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/941877cb6858dc84e7dee1ad995245e325650d1c) by [Copilot](https://github.com/Copilot) on 2025-11-09 11:31:01 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/fa9e8cbe0e4010c3fa9881259030a2fb31e70d04) by [Copilot](https://github.com/Copilot) on 2025-11-09 11:22:31 +0000 UTC
+
 - [Delete the webengine stuff as well](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0ce13334be0d2d60ddf8b755f7726d498ede819d) by [dkrizic](https://github.com/dkrizic) on 2025-11-08 20:35:12 +0000 UTC
 
 - [Fix resourceattributes and attributes](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d933b2ef1583c4b6497695becca2b246ad55ca23) by [dkrizic](https://github.com/dkrizic) on 2025-11-08 20:18:30 +0000 UTC
@@ -716,12 +720,6 @@ Component Status overview. Last update 2025-11-09T07:32:34Z
 
 - [Fix tempo metrics generator endpoint](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/23fd67e5381fe8e0de64d1039a54e0b368941f91) by [dkrizic](https://github.com/dkrizic) on 2025-11-06 16:52:41 +0000 UTC
 
-- [Set       max_label_names_per_series: 40  # Add this line to increase the limit from 30 to 40](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/693d4f95a288ca231252ce449dca744ba23945c9) by [dkrizic](https://github.com/dkrizic) on 2025-11-06 15:50:18 +0000 UTC
-
-- [Merge pull request #1135 from PRODYNA-YASM/copilot/create-readme-file-structure](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/63de526b4dcb7e21436c3e6ea92e7b431b300f6e) by [dkrizic](https://github.com/dkrizic) on 2025-11-06 08:41:27 +0000 UTC
-
-- [Add comprehensive README.md with all required sections](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/15e0a34cfebf729a72118f269dc916989d5c9e92) by [Copilot](https://github.com/Copilot) on 2025-11-06 02:12:15 +0000 UTC
-
 
 
 
@@ -730,7 +728,7 @@ Component Status overview. Last update 2025-11-09T07:32:34Z
 
 | Environment |  dev | 
 | --- |  --- | 
-| Version |  0ce1333 | 
+| Version |  70bdb38 | 
 | Release |  :red_square: | 
 | Current |  :red_square: | 
 
