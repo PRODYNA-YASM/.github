@@ -175,9 +175,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.76.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "42c127b",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -226,19 +226,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 12,
+        "Count": 10,
         "PullRequests": [
           {
             "Title": "chore: bump node from 24.4.0-slim to 25.2.0-slim",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1123"
-          },
-          {
-            "Title": "fix: showing total hour in tooltip (Project view)",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1121"
-          },
-          {
-            "Title": "feat: Add tooltip message on direct hit indicator in search page",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1120"
           },
           {
             "Title": "feat: Add comprehensive README with architecture diagrams and environment documentation",
@@ -281,8 +273,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.76.0..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "feat: Add tooltip message on direct hit indicator in search page (#1120)",
+            "SHA": "42c127b90ec5baf4766e239dfb5cbaf8547a5f34",
+            "Author": {
+              "name": "Benkari",
+              "link": "https://github.com/Benkari"
+            },
+            "Timestamp": "2025-11-14T17:22:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/42c127b90ec5baf4766e239dfb5cbaf8547a5f34"
+          },
+          {
+            "Text": "fix: showing total hour in tooltip (Project view) (#1121)",
+            "SHA": "b7b0e4281cf6479efbce60cf2dcc91a8b98af417",
+            "Author": {
+              "name": "Benkari",
+              "link": "https://github.com/Benkari"
+            },
+            "Timestamp": "2025-11-14T15:40:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b7b0e4281cf6479efbce60cf2dcc91a8b98af417"
+          },
           {
             "Text": "Optimize resources (#1122)",
             "SHA": "28a2f8ea9399c2854374c1e071c86382d1edb2bd",
@@ -506,9 +518,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.25.0",
+          "Version": "1.26.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -556,14 +568,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #352 from PRODYNA-YASM/feature/optimize-resources",
-            "Timestamp": "2025-11-14T09:57:35Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/19360944073"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -587,9 +593,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.76.1",
+          "Version": "1.76.2",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -637,14 +643,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #288 from PRODYNA-YASM/feature/optimize-resources",
-            "Timestamp": "2025-11-14T09:58:23Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/19360960566"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -668,9 +668,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.12.4",
+          "Version": "1.13.0",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -727,14 +727,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #294 from PRODYNA-YASM/feature/linting",
-            "Timestamp": "2025-11-14T09:59:53Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/actions/runs/19360991642"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -744,33 +738,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "c40f2c5",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.15.3",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.15.2",
+          "Version": "1.15.3",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.15.2",
+          "Version": "1.15.3",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.15.2",
+        "Tag": "1.15.3",
         "SHA": "",
-        "Title": "Push metrics, send exemplars",
-        "Timestamp": "2025-10-28T16:45:00Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.15.2"
+        "Title": "Documentation",
+        "Timestamp": "2025-11-14T10:19:39Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.15.3"
       },
       "Releases": [
+        {
+          "Tag": "1.15.3",
+          "SHA": "",
+          "Title": "Documentation",
+          "Timestamp": "2025-11-12T12:48:21Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.15.3"
+        },
         {
           "Tag": "1.15.2",
           "SHA": "",
@@ -784,13 +785,6 @@
           "Title": "Library updates, Go 1.25.1",
           "Timestamp": "2025-10-14T19:18:54Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.15.1"
-        },
-        {
-          "Tag": "1.15.0",
-          "SHA": "",
-          "Title": "Library updates",
-          "Timestamp": "2025-09-04T06:59:36Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.15.0"
         }
       ],
       "PullRequests": {
@@ -800,210 +794,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.2..HEAD",
-        "Count": 20,
-        "Commits": [
-          {
-            "Text": "Merge branch 'main' of github.com:PRODYNA-YASM/yasm-geocoding",
-            "SHA": "c40f2c56f846f27b54754fd31411e7493c14d57e",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-12T12:48:21Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/c40f2c56f846f27b54754fd31411e7493c14d57e"
-          },
-          {
-            "Text": "Reduce resources",
-            "SHA": "d8d9bdf42fba5281a2ef72bbd286d90895e490f5",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-12T12:43:16Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/d8d9bdf42fba5281a2ef72bbd286d90895e490f5"
-          },
-          {
-            "Text": "Merge pull request #288 from PRODYNA-YASM/dependabot/docker/golang-1.25.4",
-            "SHA": "2c09482c8e468cc75fbdced7a309cc0016821806",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-06T16:27:57Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/2c09482c8e468cc75fbdced7a309cc0016821806"
-          },
-          {
-            "Text": "Bump golang from 1.25.3 to 1.25.4",
-            "SHA": "940f0abdc3fd19723d47e4b4a4b469b1bd5a73e7",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2025-11-06T16:09:07Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/940f0abdc3fd19723d47e4b4a4b469b1bd5a73e7"
-          },
-          {
-            "Text": "Merge pull request #286 from PRODYNA-YASM/copilot/review-codebase-robustness",
-            "SHA": "0f75cd2aec192bb3102e749b20ada36331b9e370",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-06T08:59:25Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/0f75cd2aec192bb3102e749b20ada36331b9e370"
-          },
-          {
-            "Text": "Merge branch 'main' into copilot/review-codebase-robustness",
-            "SHA": "2927cd0581de62a674db1f2f3870d936cd171e5a",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-06T08:49:01Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/2927cd0581de62a674db1f2f3870d936cd171e5a"
-          },
-          {
-            "Text": "Merge pull request #287 from PRODYNA-YASM/copilot/create-readme-with-sections",
-            "SHA": "26c0cd63bcfcbdd42d02a5f151a705e59cf6f08d",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2025-11-06T08:26:37Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/26c0cd63bcfcbdd42d02a5f151a705e59cf6f08d"
-          },
-          {
-            "Text": "Add comprehensive README with architecture diagrams and environment variable documentation",
-            "SHA": "9968753e8dd199ddb5bbaaeb492dfbbb21fd1c43",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-06T02:38:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/9968753e8dd199ddb5bbaaeb492dfbbb21fd1c43"
-          },
-          {
-            "Text": "Create comprehensive README.md with architecture diagrams and full documentation",
-            "SHA": "ad365ec1e72cb622c4a17df204428bae5f5a3ba4",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-06T02:34:22Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/ad365ec1e72cb622c4a17df204428bae5f5a3ba4"
-          },
-          {
-            "Text": "Fix slog.Error syntax error in cmd/service.go",
-            "SHA": "6ece0f1a14923b625337cf023f4bb22c27e0b93f",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-06T02:29:45Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/6ece0f1a14923b625337cf023f4bb22c27e0b93f"
-          },
-          {
-            "Text": "Final code review and refactoring complete",
-            "SHA": "1d7828f92d41f696e431968daf5b42a1e88271ea",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-06T02:24:18Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/1d7828f92d41f696e431968daf5b42a1e88271ea"
-          },
-          {
-            "Text": "Fix code formatting with go fmt",
-            "SHA": "57e99fa369edd6f652a0691f491b2d883d3e1fdd",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-06T02:21:15Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/57e99fa369edd6f652a0691f491b2d883d3e1fdd"
-          },
-          {
-            "Text": "Remove build artifacts from git repository",
-            "SHA": "0062509d7c8225fe749346aeea10ca56ce1b948c",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-06T02:19:33Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/0062509d7c8225fe749346aeea10ca56ce1b948c"
-          },
-          {
-            "Text": "Enhance documentation and command descriptions",
-            "SHA": "022dd9db12031a958285e80a6d3ff5bfa91228aa",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-06T02:18:45Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/022dd9db12031a958285e80a6d3ff5bfa91228aa"
-          },
-          {
-            "Text": "Add comprehensive test coverage for handlers and geocoders",
-            "SHA": "60d4fb610a1f74cd7a819eafe1d44e0998bc2561",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-06T02:14:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/60d4fb610a1f74cd7a819eafe1d44e0998bc2561"
-          },
-          {
-            "Text": "Improve error handling, validation, and documentation",
-            "SHA": "92fead250040f34206665d0ae4a4e09df8691797",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-06T02:11:42Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/92fead250040f34206665d0ae4a4e09df8691797"
-          },
-          {
-            "Text": "Fix critical compilation errors and bugs",
-            "SHA": "4fc987ed1d11192066708d0f25d9529e3a01d39b",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-06T02:07:46Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/4fc987ed1d11192066708d0f25d9529e3a01d39b"
-          },
-          {
-            "Text": "Initial plan",
-            "SHA": "2aa90bec22d604f7051c25e1266dd6c817681ed7",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-06T02:07:45Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/2aa90bec22d604f7051c25e1266dd6c817681ed7"
-          },
-          {
-            "Text": "Initial exploration and analysis of codebase",
-            "SHA": "f0116b6f41da79912dfb91ec57a63a0454945297",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-06T02:05:57Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/f0116b6f41da79912dfb91ec57a63a0454945297"
-          },
-          {
-            "Text": "Initial plan",
-            "SHA": "a1b36da55034cdb9e442b420e5f30be0c909b305",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-11-06T01:58:42Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/a1b36da55034cdb9e442b420e5f30be0c909b305"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.3..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1219,9 +1012,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.2.9",
+          "Version": "1.2.11",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1269,13 +1062,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #145 from PRODYNA-YASM/dependabot/docker/golang-1.…",
-            "Timestamp": "2025-11-14T10:00:46Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-external/actions/runs/19361014293"
-          },
           {
             "Name": "Merge pull request #147 from PRODYNA-YASM/feature/146-demo-issue-for-…",
             "Timestamp": "2025-11-06T14:53:25Z",
@@ -1450,7 +1238,7 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 3,
+        "Count": 2,
         "Workflows": [
           {
             "Name": "Merge pull request #1157 from PRODYNA-YASM/feature/tempo-1.56.0",
@@ -1461,11 +1249,6 @@
             "Name": "Fix featuregateMap",
             "Timestamp": "2025-10-22T14:10:16Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/18719047552"
-          },
-          {
-            "Name": "Merge pull request #1095 from PRODYNA-YASM/feature/update-components",
-            "Timestamp": "2025-10-15T13:58:44Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/18531425835"
           }
         ]
       }
@@ -1883,9 +1666,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.8.3",
+          "Version": "1.8.4",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -1933,13 +1716,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #167 from PRODYNA-YASM/feature/golang-linting",
-            "Timestamp": "2025-11-14T10:02:57Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-mainproject/actions/runs/19361072956"
-          },
           {
             "Name": "Merge pull request #157 from PRODYNA-YASM/feature/go-1.25.3",
             "Timestamp": "2025-10-16T14:35:49Z",
@@ -2250,13 +2028,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #256 from PRODYNA-YASM/feature/single-fe-image",
-            "Timestamp": "2025-10-22T07:35:25Z",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/actions/runs/18708888292"
-          },
           {
             "Name": "Merge pull request #256 from PRODYNA-YASM/feature/single-fe-image",
             "Timestamp": "2025-10-22T07:35:25Z",
@@ -2280,5 +2053,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-11-14T10:19:38Z"
+  "LastUpdated": "2025-11-15T07:32:54Z"
 }
