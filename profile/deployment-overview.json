@@ -407,17 +407,12 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
           {
             "Name": "Bump github.com/Azure/azure-sdk-for-go/sdk/azidentity (#776)",
             "Timestamp": "2025-11-14T09:59:15Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/19360978979"
-          },
-          {
-            "Name": "Merge pull request #749 from PRODYNA-YASM/feature/go-1.25.3",
-            "Timestamp": "2025-10-16T15:20:10Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/18566231225"
           }
         ]
       }
@@ -1558,8 +1553,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 12,
+        "Count": 13,
         "PullRequests": [
+          {
+            "Title": "chore(deps-dev): Bump js-yaml from 4.1.0 to 4.1.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/391"
+          },
           {
             "Title": "chore(deps): Bump cypress/included from 14.5.2 to 15.6.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/390"
@@ -1716,14 +1715,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #157 from PRODYNA-YASM/feature/go-1.25.3",
-            "Timestamp": "2025-10-16T14:35:49Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-mainproject/actions/runs/18564934980"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -2053,5 +2046,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-11-15T07:32:54Z"
+  "LastUpdated": "2025-11-16T07:33:13Z"
 }

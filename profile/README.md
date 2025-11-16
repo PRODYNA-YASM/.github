@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-11-15T07:32:54Z
+Component Status overview. Last update 2025-11-16T07:33:13Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -20,7 +20,7 @@ Component Status overview. Last update 2025-11-15T07:32:54Z
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.76.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.76.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.76.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.76.0 | 
-| [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [2](https://github.com/prodyna-yasm/yasm-test/compare/v1.74.1..HEAD) | :yellow_square: [12](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
+| [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [2](https://github.com/prodyna-yasm/yasm-test/compare/v1.74.1..HEAD) | :yellow_square: [13](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :green_square: 0 | :green_square: 0 | 1.8.4 |  :green_square: 1.8.4 |  :green_square: 1.8.4 |  :green_square: 1.8.4 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [8](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :red_square: [3](https://github.com/prodyna-yasm/fox-and-hound/compare/2.0.3..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 | 
@@ -194,11 +194,9 @@ Component Status overview. Last update 2025-11-15T07:32:54Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (2)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (1)
 
 - [Bump github.com/Azure/azure-sdk-for-go/sdk/azidentity (#776)](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/19360978979) created on 2025-11-14 09:59:15 +0000 UTC
-
-- [Merge pull request #749 from PRODYNA-YASM/feature/go-1.25.3](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/18566231225) created on 2025-10-16 15:20:10 +0000 UTC
 
 
 
@@ -695,7 +693,9 @@ Component Status overview. Last update 2025-11-15T07:32:54Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (12)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (13)
+
+- [chore(deps-dev): Bump js-yaml from 4.1.0 to 4.1.1](https://github.com/PRODYNA-YASM/yasm-test/pull/391)
 
 - [chore(deps): Bump cypress/included from 14.5.2 to 15.6.0](https://github.com/PRODYNA-YASM/yasm-test/pull/390)
 
@@ -771,11 +771,6 @@ Component Status overview. Last update 2025-11-15T07:32:54Z
 - [Push metrics, send exemplars](https://github.com/PRODYNA-YASM/yasm-mainproject/releases/tag/1.8.2) on 2025-10-26 19:47:19 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-mainproject/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #157 from PRODYNA-YASM/feature/go-1.25.3](https://github.com/PRODYNA-YASM/yasm-mainproject/actions/runs/18564934980) created on 2025-10-16 14:35:49 +0000 UTC
 
 
 
