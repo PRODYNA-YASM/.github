@@ -1125,8 +1125,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump gotenberg/gotenberg from 8.24.0 to 8.25.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/pull/99"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
@@ -2046,5 +2051,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-11-16T07:33:13Z"
+  "LastUpdated": "2025-11-17T07:34:33Z"
 }
