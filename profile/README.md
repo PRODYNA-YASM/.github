@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-11-17T07:34:33Z
+Component Status overview. Last update 2025-11-18T07:35:04Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -9,13 +9,13 @@ Component Status overview. Last update 2025-11-17T07:34:33Z
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.76.4 |  :green_square: 1.76.4 |  :green_square: 1.76.4 |  :red_square: 1.76.3 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.26.0 |  :green_square: 1.26.0 |  :green_square: 1.26.0 |  :green_square: 1.26.0 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :green_square: 0 | :green_square: 0 | 1.76.2 |  :green_square: 1.76.2 |  :green_square: 1.76.2 |  :green_square: 1.76.2 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-metrics/pulls) | 1.76.2 |  :green_square: 1.76.2 |  :green_square: 1.76.2 |  :green_square: 1.76.2 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.13.0 |  :green_square: 1.13.0 |  :green_square: 1.13.0 |  :green_square: 1.13.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.15.3 |  :green_square: 1.15.3 |  :green_square: 1.15.3 |  :green_square: 1.15.3 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.11 |  :green_square: 1.2.11 |  :green_square: 1.2.11 |  :green_square: 1.2.11 | 
-| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [2](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.24.0-0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-gotenberg/pulls) | 8.24.0-0 |  :red_square: 8.24.0-1 |  :red_square: 8.24.0-1 |  :green_square: 8.24.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :green_square: 0 | 1.76.3 |  :green_square: 1.76.3 |  :green_square: 1.76.3 | 
+| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.25.0-0 |  :green_square: 8.25.0-0 |  :green_square: 8.25.0-0 |  :red_square: 8.24.0-0 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.76.3 |  :green_square: 1.76.3 |  :green_square: 1.76.3 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.76.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.76.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.76.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.76.0 | 
@@ -112,7 +112,7 @@ Component Status overview. Last update 2025-11-17T07:34:33Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (10)
 
-- [chore: bump node from 24.4.0-slim to 25.2.0-slim](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1123)
+- [chore: bump node from 24.4.0-slim to 25.2.1-slim](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1124)
 
 - [feat: Add comprehensive README with architecture diagrams and environment documentation](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1118)
 
@@ -266,6 +266,11 @@ Component Status overview. Last update 2025-11-17T07:34:33Z
 
 
 
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-metrics/pulls) (1)
+
+- [build(deps): bump google.golang.org/grpc from 1.76.0 to 1.77.0](https://github.com/PRODYNA-YASM/yasm-metrics/pull/289)
 
 
 
@@ -453,23 +458,11 @@ Component Status overview. Last update 2025-11-17T07:34:33Z
 
 
 
-## [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) 8.24.0-0
+## [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) 8.25.0-0
 
 
 
 
-### [Commits on main since 8.24.0-0](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.24.0-0..HEAD) (2)
-
-- [Merge pull request #98 from PRODYNA-YASM/feature/optimize-resources](https://github.com/prodyna-yasm/yasm-gotenberg/commit/af68aef94fad0a7bde95c3078d23f87d905eaabb) by [dkrizic](https://github.com/dkrizic) on 2025-11-12 12:46:08 +0000 UTC
-
-- [Reduce resources for Gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg/commit/bc0b6ccac3225b06b80e74283895c863489a4896) by [dkrizic](https://github.com/dkrizic) on 2025-11-12 12:26:49 +0000 UTC
-
-
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-gotenberg/pulls) (1)
-
-- [Bump gotenberg/gotenberg from 8.24.0 to 8.25.0](https://github.com/PRODYNA-YASM/yasm-gotenberg/pull/99)
 
 
 
@@ -477,23 +470,25 @@ Component Status overview. Last update 2025-11-17T07:34:33Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  8.24.0-1 |  8.24.0-1 |  8.24.0-0 | 
+| Version |  8.25.0-0 |  8.25.0-0 |  8.24.0-0 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :red_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
+
+- [Gotenberg 8.25.0](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.25.0-0) on 2025-11-17 08:06:32 +0000 UTC
 
 - [Reduce resources](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.24.0-1) on 2025-11-12 12:46:08 +0000 UTC
 
 - [Gotenberg 8.24.0](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.24.0-0) on 2025-10-10 02:05:45 +0000 UTC
 
-- [Gotenberg 8.23.2, Using Helm chart 1.13.0](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.23.2-0) on 2025-10-02 08:32:20 +0000 UTC
 
 
 
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting) (2)
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting) (1)
+- [Merge pull request #99 from PRODYNA-YASM/dependabot/docker/gotenberg/…](https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/19424709444) created on 2025-11-17 09:27:55 +0000 UTC
 
 - [Merge pull request #98 from PRODYNA-YASM/feature/optimize-resources](https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/19361031485) created on 2025-11-14 10:01:21 +0000 UTC
 
@@ -505,6 +500,17 @@ Component Status overview. Last update 2025-11-17T07:34:33Z
 
 
 
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (4)
+
+- [Bump hashicorp/azurerm from 4.52.0 to 4.53.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1161)
+
+- [Bump integrations/github from 6.8.0 to 6.8.3 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1160)
+
+- [Bump hashicorp/helm from 3.1.0 to 3.1.1 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1159)
+
+- [Bump hashicorp/azurerm from 4.52.0 to 4.53.0 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1158)
 
 
 
