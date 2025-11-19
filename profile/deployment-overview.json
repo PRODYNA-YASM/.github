@@ -59,8 +59,24 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 6,
+        "Count": 10,
         "PullRequests": [
+          {
+            "Title": "Remove deprecated deny-licenses option from dependency-review workflow",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/953"
+          },
+          {
+            "Title": "Fix deny-licenses format in dependency-review workflow",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/952"
+          },
+          {
+            "Title": "feat: Replace deprecated deny-licenses with deny-packages in dependency-review workflow",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/951"
+          },
+          {
+            "Title": "feat: Replace cancel-workflow-action with native concurrency control",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/950"
+          },
           {
             "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 6.0.0 to 6.0.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/949"
@@ -175,16 +191,16 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "42c127b",
+          "Version": "79ff0ac",
           "IsRelease": false,
           "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.76.0",
+          "Version": "1.5.0",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         },
         {
           "Name": "prod",
@@ -273,8 +289,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.76.0..HEAD",
-        "Count": 4,
+        "Count": 5,
         "Commits": [
+          {
+            "Text": "feat: Remove deprecated deny-licenses option from dependency-review workflow (#1127)",
+            "SHA": "79ff0ac2c372c751e9892cb6e1eaf96526f42aab",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-18T13:24:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/79ff0ac2c372c751e9892cb6e1eaf96526f42aab"
+          },
           {
             "Text": "feat: Add tooltip message on direct hit indicator in search page (#1120)",
             "SHA": "42c127b90ec5baf4766e239dfb5cbaf8547a5f34",
@@ -321,8 +347,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "feat: Add tooltip message on direct hit indicator in search page (#1120)",
+            "Timestamp": "2025-11-18T10:46:57Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/19463322647"
+          },
           {
             "Name": "feat: 947 add link to update person picture (#1114)",
             "Timestamp": "2025-10-28T12:44:45Z",
@@ -338,9 +369,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.76.4",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "a992d21",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -348,13 +379,6 @@
           "Version": "1.76.4",
           "IsRelease": true,
           "IsCurrent": true
-        },
-        {
-          "Name": "prod",
-          "Link": "",
-          "Version": "1.76.3",
-          "IsRelease": true,
-          "IsCurrent": false
         }
       ],
       "LatestRelease": {
@@ -400,8 +424,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.76.4..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Update dependency review workflow to non-deprecated configuration (#778)",
+            "SHA": "a992d2130107ce65e97dad1b3fc2a80934a95ce5",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-18T12:28:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/a992d2130107ce65e97dad1b3fc2a80934a95ce5"
+          },
+          {
+            "Text": "Replace cancel-previous-runs job with native concurrency feature (#777)",
+            "SHA": "3e3e312246b9bfb048fb94d389dd71e61a37b42c",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-18T10:30:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/3e3e312246b9bfb048fb94d389dd71e61a37b42c"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -424,9 +469,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.76.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "0c48c98",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -481,8 +526,39 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.76.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 3,
+        "Commits": [
+          {
+            "Text": "Merge pull request #492 from PRODYNA-YASM/copilot/remove-cancel-previous-runs",
+            "SHA": "0c48c98a89eaba597fdb84b19131ca2142ea1ac2",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-18T09:23:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/0c48c98a89eaba597fdb84b19131ca2142ea1ac2"
+          },
+          {
+            "Text": "Replace cancel-previous-runs job with built-in concurrency feature",
+            "SHA": "d4ac070ed391cb6c8dc4001f7030e70b635c5df4",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-18T09:08:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/d4ac070ed391cb6c8dc4001f7030e70b635c5df4"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "264c9dcd0637a084c26abd7475f16c3d141a0d06",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-18T09:03:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/264c9dcd0637a084c26abd7475f16c3d141a0d06"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -499,9 +575,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.26.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "f592734",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -556,8 +632,39 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 3,
+        "Commits": [
+          {
+            "Text": "Merge pull request #353 from PRODYNA-YASM/copilot/update-ci-cd-concurrency",
+            "SHA": "f5927344e35d16a9698a10336e50cf904d789805",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-18T09:23:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/f5927344e35d16a9698a10336e50cf904d789805"
+          },
+          {
+            "Text": "Replace cancel-workflow-action with GitHub's built-in concurrency",
+            "SHA": "04868dab9005019ab7d58fe333ae5d874c3525d2",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-18T09:05:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/04868dab9005019ab7d58fe333ae5d874c3525d2"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "0caeeec880c768e274f061103b1490a45a126253",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-18T09:00:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/0caeeec880c768e274f061103b1490a45a126253"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -574,9 +681,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.76.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "3b2c587",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -625,19 +732,44 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
           {
-            "Title": "build(deps): bump google.golang.org/grpc from 1.76.0 to 1.77.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/289"
+            "Title": "build(deps): bump github.com/prometheus/common from 0.67.2 to 0.67.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/291"
+          },
+          {
+            "Title": "Replace cancel-previous-runs job with native concurrency control",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/290"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #289 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.77.0",
+            "SHA": "3b2c587e24610d762acd534bdbf3ccfa7dbae7f0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-18T08:02:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/3b2c587e24610d762acd534bdbf3ccfa7dbae7f0"
+          },
+          {
+            "Text": "build(deps): bump google.golang.org/grpc from 1.76.0 to 1.77.0",
+            "SHA": "f4194e9145012f868ecd3f59299b9eaac7a6db42",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-11-18T05:22:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/f4194e9145012f868ecd3f59299b9eaac7a6db42"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -654,9 +786,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.13.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "74b3a3e",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -705,12 +837,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "Reduce resources",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/295"
-          },
           {
             "Title": "Code audit: improve error handling, fix security issues, add tests and documentation",
             "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/292"
@@ -720,8 +848,79 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.13.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 7,
+        "Commits": [
+          {
+            "Text": "Merge pull request #299 from PRODYNA-YASM/copilot/remove-deny-licenses-option",
+            "SHA": "74b3a3e6de07f2613e8f90ce2e7746b9f60496ae",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-18T11:42:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/74b3a3e6de07f2613e8f90ce2e7746b9f60496ae"
+          },
+          {
+            "Text": "Remove deprecated deny-licenses option from dependency-review workflow",
+            "SHA": "3e16268950004f90515254d270181067d4988246",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-18T11:02:34Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/3e16268950004f90515254d270181067d4988246"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "0d0a14b58bcec57c69b74af8280523b80c37988a",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-18T10:54:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/0d0a14b58bcec57c69b74af8280523b80c37988a"
+          },
+          {
+            "Text": "Merge pull request #296 from PRODYNA-YASM/copilot/remove-cancel-previous-runs-job",
+            "SHA": "f63bde56b2ebb24b33a89a937272dc87eef686eb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-18T09:24:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/f63bde56b2ebb24b33a89a937272dc87eef686eb"
+          },
+          {
+            "Text": "Replace cancel-workflow-action with GitHub concurrency feature",
+            "SHA": "d1c63a64b0dc93fd90719b1f680d92ae9534f110",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-18T09:09:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/d1c63a64b0dc93fd90719b1f680d92ae9534f110"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "402cff03325349e7a15c5b22892aa1d27958e7a5",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-18T09:06:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/402cff03325349e7a15c5b22892aa1d27958e7a5"
+          },
+          {
+            "Text": "Merge pull request #295 from PRODYNA-YASM/feature/optimize-resources",
+            "SHA": "f57402532554912ddaf3d915447a855d54bbea74",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-18T08:46:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/f57402532554912ddaf3d915447a855d54bbea74"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -864,8 +1063,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-data/pulls",
-        "Count": 2,
+        "Count": 4,
         "PullRequests": [
+          {
+            "Title": "Replace cancel-previous-runs job with native concurrency feature",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-data/pull/124"
+          },
+          {
+            "Title": "Replace cancel-workflow-action with native concurrency control",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-data/pull/123"
+          },
           {
             "Title": "Bump actions/checkout from 4 to 5",
             "Link": "https://github.com/PRODYNA-YASM/yasm-data/pull/122"
@@ -998,9 +1205,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.2.11",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "23dff06",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1055,8 +1262,69 @@
       "Link": "https://github.com/prodyna-yasm/yasm-external",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/compare/1.2.11..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 6,
+        "Commits": [
+          {
+            "Text": "Merge pull request #152 from PRODYNA-YASM/copilot/remove-deprecated-deny-licenses",
+            "SHA": "23dff066fde3f810dcbced034fd38cde1959208c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-18T13:08:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/23dff066fde3f810dcbced034fd38cde1959208c"
+          },
+          {
+            "Text": "Remove deprecated deny-licenses option from dependency review workflow",
+            "SHA": "46cfc6d7e371c4dd36cc9c0bf5ccd49698cc612a",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-18T11:03:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/46cfc6d7e371c4dd36cc9c0bf5ccd49698cc612a"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "c5b8df2e7fb9e2c9c95b8d05f4493fc616d476f8",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-18T10:58:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/c5b8df2e7fb9e2c9c95b8d05f4493fc616d476f8"
+          },
+          {
+            "Text": "Merge pull request #148 from PRODYNA-YASM/copilot/update-ci-cd-workflow-concurrency",
+            "SHA": "eb417ea9c0fe408cfcaa9323735068e3fe3b7efd",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-18T10:01:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/eb417ea9c0fe408cfcaa9323735068e3fe3b7efd"
+          },
+          {
+            "Text": "Replace cancel-previous-runs job with concurrency feature",
+            "SHA": "fbb3e1f3a1de1f8a5989153377580d1b3c1f6d24",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-18T09:08:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/fbb3e1f3a1de1f8a5989153377580d1b3c1f6d24"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "879dafcfb5bd7ba175126007971f06a2961bb263",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-18T09:03:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/879dafcfb5bd7ba175126007971f06a2961bb263"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1143,17 +1411,12 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
           {
             "Name": "Merge pull request #99 from PRODYNA-YASM/dependabot/docker/gotenberg/…",
             "Timestamp": "2025-11-17T09:27:55Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/19424709444"
-          },
-          {
-            "Name": "Merge pull request #98 from PRODYNA-YASM/feature/optimize-resources",
-            "Timestamp": "2025-11-14T10:01:21Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/19361031485"
           }
         ]
       }
@@ -1165,9 +1428,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.76.3",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "edae25e",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1209,31 +1472,135 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 4,
-        "PullRequests": [
-          {
-            "Title": "Bump hashicorp/azurerm from 4.52.0 to 4.53.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1161"
-          },
-          {
-            "Title": "Bump integrations/github from 6.8.0 to 6.8.3 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1160"
-          },
-          {
-            "Title": "Bump hashicorp/helm from 3.1.0 to 3.1.1 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1159"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 4.52.0 to 4.53.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1158"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.3..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 12,
+        "Commits": [
+          {
+            "Text": "Merge pull request #1165 from PRODYNA-YASM/feature/kubernetes-1.33.5",
+            "SHA": "edae25e6318726bfbb06de62445b076a57c147ad",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-18T14:47:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/edae25e6318726bfbb06de62445b076a57c147ad"
+          },
+          {
+            "Text": "Kubernetes 1.33.5",
+            "SHA": "3c6b95754767c21f1083ee2eb041354174026952",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-18T13:10:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3c6b95754767c21f1083ee2eb041354174026952"
+          },
+          {
+            "Text": "Merge pull request #1164 from PRODYNA-YASM/copilot/update-concurrency-in-workflow",
+            "SHA": "ce7c055ceb6904b418d25b667d80819a90aaddb4",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-18T10:00:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ce7c055ceb6904b418d25b667d80819a90aaddb4"
+          },
+          {
+            "Text": "Update concurrency configuration in pull-request-merge workflow",
+            "SHA": "8445f98b94e11d2c4e4474f38ef199b8adba7c00",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-18T09:32:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/8445f98b94e11d2c4e4474f38ef199b8adba7c00"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "b6a881f6f7b86ec8410de1c2f5151efedf1b5eb4",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-18T09:26:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b6a881f6f7b86ec8410de1c2f5151efedf1b5eb4"
+          },
+          {
+            "Text": "Merge pull request #1163 from PRODYNA-YASM/feature/neo4j-2025-10",
+            "SHA": "0a700863015fdeadd4d54e6ae248e79d07433357",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-18T09:05:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0a700863015fdeadd4d54e6ae248e79d07433357"
+          },
+          {
+            "Text": "Fix pipeline, remove dependency to cancel-previous-runs",
+            "SHA": "cf0f326cf05d5d71aea9a029abeaea388fa4b4f4",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-18T09:00:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/cf0f326cf05d5d71aea9a029abeaea388fa4b4f4"
+          },
+          {
+            "Text": "Merge pull request #1162 from PRODYNA-YASM/feature/neo4j-2025-10",
+            "SHA": "45a783b8bdec35e3d9e548ff5eed2954edb7b9ac",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-18T08:58:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/45a783b8bdec35e3d9e548ff5eed2954edb7b9ac"
+          },
+          {
+            "Text": "Merge branch 'feature/neo4j-2025-10' of github.com:PRODYNA-YASM/yasm-infrastructure-staged into feature/neo4j-2025-10",
+            "SHA": "f6226d21e73bd3db8f8d7f41de5d4b7a90bd4d45",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-18T08:53:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f6226d21e73bd3db8f8d7f41de5d4b7a90bd4d45"
+          },
+          {
+            "Text": "Fix pipeline",
+            "SHA": "3270d5a97d7d70e0d9767aca6b0fd3cee31f9288",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-18T08:52:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3270d5a97d7d70e0d9767aca6b0fd3cee31f9288"
+          },
+          {
+            "Text": "Update terraform/kubernetes/version.tf",
+            "SHA": "b094956b5265ec92c57883db81ee22b3e4fd435c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-18T08:48:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b094956b5265ec92c57883db81ee22b3e4fd435c"
+          },
+          {
+            "Text": "Update Neo4j to 2025.10.1",
+            "SHA": "babd6ad1f773c119886be1c65aae7763fb48a807",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-18T08:41:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/babd6ad1f773c119886be1c65aae7763fb48a807"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1559,8 +1926,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 13,
+        "Count": 14,
         "PullRequests": [
+          {
+            "Title": "chore(deps): Bump glob",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/392"
+          },
           {
             "Title": "chore(deps-dev): Bump js-yaml from 4.1.0 to 4.1.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/391"
@@ -1657,9 +2028,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.8.4",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "6b7dd65",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1714,8 +2085,39 @@
       "Link": "https://github.com/prodyna-yasm/yasm-mainproject",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/compare/1.8.4..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 3,
+        "Commits": [
+          {
+            "Text": "Merge pull request #168 from PRODYNA-YASM/copilot/update-ci-cd-workflow",
+            "SHA": "6b7dd65c8abb8a064c94d121e0e1822334827250",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-18T09:29:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/6b7dd65c8abb8a064c94d121e0e1822334827250"
+          },
+          {
+            "Text": "Replace cancel-previous-runs job with GitHub Actions concurrency feature",
+            "SHA": "77e9e4b1d928922ffee3fc7cc3933af7b3c97a62",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-18T09:09:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/77e9e4b1d928922ffee3fc7cc3933af7b3c97a62"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "bd72d8672cec5656b58555ee2de1fa3ff6e61f81",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-18T09:05:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/bd72d8672cec5656b58555ee2de1fa3ff6e61f81"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1899,9 +2301,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2.0.3",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "b62dd0b",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1950,47 +2352,93 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 8,
+        "Count": 2,
         "PullRequests": [
           {
-            "Title": "Bump gorm.io/gorm from 1.31.0 to 1.31.1 in /backend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/266"
-          },
-          {
-            "Title": "Bump the npm_and_yarn group across 1 directory with 2 updates",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/265"
-          },
-          {
-            "Title": "Bump @angular/platform-browser from 20.3.6 to 20.3.7 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/264"
-          },
-          {
-            "Title": "Bump @angular/forms from 20.3.6 to 20.3.7 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/263"
-          },
-          {
-            "Title": "Bump @angular/router from 20.3.6 to 20.3.7 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/262"
-          },
-          {
-            "Title": "Bump @angular/common from 20.3.6 to 20.3.7 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/261"
+            "Title": "Replace styfle/cancel-workflow-action with native concurrency controls",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/268"
           },
           {
             "Title": "Bump whatwg-url from 5.0.0 to 15.1.0 in /frontend",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/259"
-          },
-          {
-            "Title": "182 Show what is behind the rating",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/206"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/fox-and-hound",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/compare/2.0.3..HEAD",
-        "Count": 3,
+        "Count": 16,
         "Commits": [
+          {
+            "Text": "Merge pull request #265 from PRODYNA-YASM/dependabot/npm_and_yarn/frontend/npm_and_yarn-cd81d8196d",
+            "SHA": "5b8cc572add19738c4383dbe07c4662facc82c78",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-11-18T19:31:26Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/5b8cc572add19738c4383dbe07c4662facc82c78"
+          },
+          {
+            "Text": "Merge pull request #264 from PRODYNA-YASM/dependabot/npm_and_yarn/frontend/angular/platform-browser-20.3.7",
+            "SHA": "ec5e7df2d30b9e3ebaf4f2c811c11a7d8c1f90a7",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-11-18T19:30:51Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/ec5e7df2d30b9e3ebaf4f2c811c11a7d8c1f90a7"
+          },
+          {
+            "Text": "Merge pull request #266 from PRODYNA-YASM/dependabot/go_modules/backend/gorm.io/gorm-1.31.1",
+            "SHA": "b62dd0b42f836814e87b347061b1de2e88ad3048",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-11-18T19:30:38Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/b62dd0b42f836814e87b347061b1de2e88ad3048"
+          },
+          {
+            "Text": "Merge pull request #206 from PRODYNA-YASM/feature/_182_ShowWhatIsBehindTheRating",
+            "SHA": "6db0ed7c70d40775be53dbc75295253336f0833c",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-11-18T19:30:15Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/6db0ed7c70d40775be53dbc75295253336f0833c"
+          },
+          {
+            "Text": "Merge pull request #263 from PRODYNA-YASM/dependabot/npm_and_yarn/frontend/angular/forms-20.3.7",
+            "SHA": "f040e9d0073e13c10d6eb4ccb697de8a70546f79",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-11-18T19:29:47Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/f040e9d0073e13c10d6eb4ccb697de8a70546f79"
+          },
+          {
+            "Text": "Merge pull request #262 from PRODYNA-YASM/dependabot/npm_and_yarn/frontend/angular/router-20.3.7",
+            "SHA": "8c646070a4d10657d6677cf246da2cee7b6eaed6",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-11-18T19:29:32Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/8c646070a4d10657d6677cf246da2cee7b6eaed6"
+          },
+          {
+            "Text": "Merge pull request #261 from PRODYNA-YASM/dependabot/npm_and_yarn/frontend/angular/common-20.3.7",
+            "SHA": "1ca0265804f4e1db348818686f5a6e6eb2a564c0",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-11-18T19:29:14Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/1ca0265804f4e1db348818686f5a6e6eb2a564c0"
+          },
           {
             "Text": "Merge pull request #267 from PRODYNA-YASM/feature/optimize-resources",
             "SHA": "cf68ba67f3fa9e4c3df36098da0bae914f02b4c8",
@@ -2020,6 +2468,66 @@
             },
             "Timestamp": "2025-11-12T12:22:50Z",
             "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/cf1620997f7dd4d708ff1928d511a68b0ec5dcd5"
+          },
+          {
+            "Text": "Bump gorm.io/gorm from 1.31.0 to 1.31.1 in /backend",
+            "SHA": "7230488f773f822ed75fec8e3c26b949783129fc",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-11-03T02:20:33Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/7230488f773f822ed75fec8e3c26b949783129fc"
+          },
+          {
+            "Text": "Bump the npm_and_yarn group across 1 directory with 2 updates",
+            "SHA": "497c86b484f7bf8f79f7769740ca1d3326fc9e36",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-10-30T17:38:44Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/497c86b484f7bf8f79f7769740ca1d3326fc9e36"
+          },
+          {
+            "Text": "Bump @angular/platform-browser from 20.3.6 to 20.3.7 in /frontend",
+            "SHA": "9f7ba43dc46263e686e50692d425a172e9691822",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-10-27T02:25:46Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/9f7ba43dc46263e686e50692d425a172e9691822"
+          },
+          {
+            "Text": "Bump @angular/forms from 20.3.6 to 20.3.7 in /frontend",
+            "SHA": "e4df1572a463f8e4d37af2df08e6cf386720e212",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-10-27T02:25:34Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/e4df1572a463f8e4d37af2df08e6cf386720e212"
+          },
+          {
+            "Text": "Bump @angular/router from 20.3.6 to 20.3.7 in /frontend",
+            "SHA": "4165c5ba547a351968959fe7d8517a4a30c9a0de",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-10-27T02:25:29Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/4165c5ba547a351968959fe7d8517a4a30c9a0de"
+          },
+          {
+            "Text": "Bump @angular/common from 20.3.6 to 20.3.7 in /frontend",
+            "SHA": "71c602617e995cffebcb2e11f70befe0d0c4f588",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-10-27T02:25:25Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/71c602617e995cffebcb2e11f70befe0d0c4f588"
           }
         ]
       },
@@ -2052,5 +2560,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-11-18T07:35:04Z"
+  "LastUpdated": "2025-11-19T07:34:19Z"
 }
