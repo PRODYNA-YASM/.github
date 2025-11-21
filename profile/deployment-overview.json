@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump actions/checkout from 5 to 6",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/956"
+          },
           {
             "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 6.0.0 to 6.0.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/949"
@@ -350,8 +354,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "Bump actions/checkout from 5 to 6",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/782"
+          },
           {
             "Title": "Fix critical bugs and improve error handling, testing, and documentation",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/773"
@@ -436,8 +444,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump actions/checkout from 5 to 6",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/494"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
@@ -648,8 +661,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "build(deps): bump actions/checkout from 5 to 6",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/293"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
@@ -988,16 +1006,16 @@
         "Count": 4,
         "PullRequests": [
           {
+            "Title": "Bump actions/checkout from 4 to 6",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-data/pull/125"
+          },
+          {
             "Title": "Replace cancel-previous-runs job with native concurrency feature",
             "Link": "https://github.com/PRODYNA-YASM/yasm-data/pull/124"
           },
           {
             "Title": "Replace cancel-workflow-action with native concurrency control",
             "Link": "https://github.com/PRODYNA-YASM/yasm-data/pull/123"
-          },
-          {
-            "Title": "Bump actions/checkout from 4 to 5",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-data/pull/122"
           },
           {
             "Title": "feat: add Jupyter notebook for updating user profiles and assigning r…",
@@ -1259,8 +1277,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump actions/checkout from 5 to 6",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/pull/100"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
@@ -1289,9 +1312,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.76.5",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "c945cc2",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1340,23 +1363,50 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
           {
-            "Title": "Bump hashicorp/azurerm from 4.53.0 to 4.54.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1167"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 4.53.0 to 4.54.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1166"
+            "Title": "Bump DataDog/datadog from 3.80.0 to 3.81.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1170"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.5..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 3,
+        "Commits": [
+          {
+            "Text": "Merge pull request #1169 from PRODYNA-YASM/feature/update-components",
+            "SHA": "c945cc2d49b1151baf8ff22a8b34d6c82e6aed1a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-20T16:30:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c945cc2d49b1151baf8ff22a8b34d6c82e6aed1a"
+          },
+          {
+            "Text": "iUpdate proviers",
+            "SHA": "6873a9cb334d460b3bff3f4efd795892ac68150c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-20T16:27:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6873a9cb334d460b3bff3f4efd795892ac68150c"
+          },
+          {
+            "Text": "Update some versions, Grafana, Otel operator, Tempo",
+            "SHA": "34a9a2066af6b96afce1bd99ae31e67e00f9a1e8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-20T16:22:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/34a9a2066af6b96afce1bd99ae31e67e00f9a1e8"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1529,8 +1579,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 4,
+        "Count": 5,
         "PullRequests": [
+          {
+            "Title": "chore: bump actions/checkout from 5 to 6",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/319"
+          },
           {
             "Title": "chore: bump com.fasterxml.jackson.core:jackson-databind from 2.20.0 to 2.20.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/318"
@@ -2278,5 +2332,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-11-20T15:36:25Z"
+  "LastUpdated": "2025-11-21T07:34:58Z"
 }
