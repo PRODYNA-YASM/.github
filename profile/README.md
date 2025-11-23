@@ -1,29 +1,29 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-11-22T07:32:50Z
+Component Status overview. Last update 2025-11-23T07:33:00Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [9](https://github.com/prodyna-yasm/yasm-backend/compare/1.76.1..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.76.1 |  :red_square: 3dcc74d |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.76.5..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.76.5 |  :red_square: f7a8528 |  :green_square: 1.76.5 |  :green_square: 1.76.5 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [5](https://github.com/prodyna-yasm/yasmctl/compare/1.76.1..HEAD) | :green_square: 0 | 1.76.1 |  :red_square: 56e32fc |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [3](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.0..HEAD) | :green_square: 0 | 1.26.0 |  :red_square: f592734 |  :green_square: 1.26.0 |  :green_square: 1.26.0 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [15](https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.2..HEAD) | :green_square: 0 | 1.76.2 |  :red_square: 304200a |  :green_square: 1.76.2 |  :green_square: 1.76.2 | 
-| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [11](https://github.com/prodyna-yasm/yasm-github/compare/1.13.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.13.1 |  :red_square: 0172ce2 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
-| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [15](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.4..HEAD) | :green_square: 0 | 1.15.4 |  :red_square: 86cd81c |  :green_square: 1.15.4 |  :red_square: 1.15.3 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [10](https://github.com/prodyna-yasm/yasm-backend/compare/1.76.1..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.76.1 |  :red_square: 3dcc74d |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.76.1..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.76.1 |  :red_square: a590a34 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [4](https://github.com/prodyna-yasm/yasm-integration/compare/1.76.5..HEAD) | :green_square: 0 | 1.76.5 |  :red_square: f735416 |  :green_square: 1.76.5 |  :green_square: 1.76.5 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [8](https://github.com/prodyna-yasm/yasmctl/compare/1.76.1..HEAD) | :green_square: 0 | 1.76.1 |  :red_square: 8cf8fc9 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [5](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.0..HEAD) | :green_square: 0 | 1.26.0 |  :red_square: bc326ef |  :green_square: 1.26.0 |  :green_square: 1.26.0 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [19](https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.2..HEAD) | :green_square: 0 | 1.76.2 |  :red_square: 84b61be |  :green_square: 1.76.2 |  :green_square: 1.76.2 | 
+| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [14](https://github.com/prodyna-yasm/yasm-github/compare/1.13.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.13.1 |  :red_square: 5cec7d7 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
+| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [17](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.4..HEAD) | :green_square: 0 | 1.15.4 |  :red_square: 7c39b19 |  :green_square: 1.15.4 |  :red_square: 1.15.3 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
-| [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [5](https://github.com/prodyna-yasm/yasm-external/compare/1.2.12..HEAD) | :green_square: 0 | 1.2.12 |  :red_square: fc5eb13 |  :green_square: 1.2.12 |  :green_square: 1.2.12 | 
+| [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [8](https://github.com/prodyna-yasm/yasm-external/compare/1.2.12..HEAD) | :green_square: 0 | 1.2.12 |  :red_square: 285973d |  :green_square: 1.2.12 |  :green_square: 1.2.12 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [2](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.25.0-0..HEAD) | :green_square: 0 | 8.25.0-0 |  :red_square: 7e5f492 |  :green_square: 8.25.0-0 |  :red_square: 8.24.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [8](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.5..HEAD) | :green_square: 0 | 1.76.5 |  :red_square: 661dedd |  :green_square: 1.76.5 |  :red_square: 1.76.4 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [13](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.5..HEAD) | :green_square: 0 | 1.76.5 |  :red_square: 820394b |  :green_square: 1.76.5 |  :red_square: 1.76.4 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.76.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.76.1 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.76.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [4](https://github.com/prodyna-yasm/yasm-api/compare/1.76.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.76.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.76.0 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [2](https://github.com/prodyna-yasm/yasm-test/compare/v1.74.1..HEAD) | :yellow_square: [14](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
-| [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [21](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.8.5..HEAD) | :green_square: 0 | 1.8.5 |  :red_square: 4db5d24 |  :green_square: 1.8.5 |  :green_square: 1.8.5 | 
-| [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [8](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
-| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :red_square: [16](https://github.com/prodyna-yasm/fox-and-hound/compare/2.0.3..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 | 
+| [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [24](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.8.5..HEAD) | :green_square: 0 | 1.8.5 |  :red_square: 19b89aa |  :green_square: 1.8.5 |  :green_square: 1.8.5 | 
+| [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [8](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
+| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :red_square: [16](https://github.com/prodyna-yasm/fox-and-hound/compare/2.0.3..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 | 
 
 
 
@@ -32,7 +32,9 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 
 
-### [Commits on main since 1.76.1](https://github.com/prodyna-yasm/yasm-backend/compare/1.76.1..HEAD) (9)
+### [Commits on main since 1.76.1](https://github.com/prodyna-yasm/yasm-backend/compare/1.76.1..HEAD) (10)
+
+- [feat: Optimize memory resources per KRR recommendations (#957)](https://github.com/prodyna-yasm/yasm-backend/commit/ff8f452e67b4879de9221a022b1e4203c9dddcb9) by [Copilot](https://github.com/Copilot) on 2025-11-23 02:02:45 +0000 UTC
 
 - [build(deps): bump actions/checkout from 5 to 6 (#956)](https://github.com/prodyna-yasm/yasm-backend/commit/50a977e200d7c70fecb43580c21d0f86bf09b51d) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-11-21 08:32:34 +0000 UTC
 
@@ -98,6 +100,11 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 
 
+### [Commits on main since 1.76.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.76.1..HEAD) (1)
+
+- [feat: Clean up duplicate resources block and document KRR validation (#1132)](https://github.com/prodyna-yasm/yasm-frontend/commit/a590a344adcc5a0dc0610417f1b20fdbcf1a0932) by [Copilot](https://github.com/Copilot) on 2025-11-23 02:04:41 +0000 UTC
+
+
 
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (8)
@@ -124,9 +131,9 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.76.1 |  1.76.1 |  1.76.1 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  a590a34 |  1.76.1 |  1.76.1 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -147,7 +154,11 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 
 
-### [Commits on main since 1.76.5](https://github.com/prodyna-yasm/yasm-integration/compare/1.76.5..HEAD) (2)
+### [Commits on main since 1.76.5](https://github.com/prodyna-yasm/yasm-integration/compare/1.76.5..HEAD) (4)
+
+- [Fix critical bugs and improve error handling, testing, and documentation (#773)](https://github.com/prodyna-yasm/yasm-integration/commit/f73541636e5cbeb863202be059b476d0d208e6bf) by [Copilot](https://github.com/Copilot) on 2025-11-23 02:09:44 +0000 UTC
+
+- [Optimize Kubernetes CronJob resources based on KRR analysis (#785)](https://github.com/prodyna-yasm/yasm-integration/commit/caad50ca57ff04682681ac7bb150dfe048443f6f) by [Copilot](https://github.com/Copilot) on 2025-11-23 02:05:39 +0000 UTC
 
 - [Enable Docker build caching with BuildKit cache mounts and GitHub Actions cache backend (#784)](https://github.com/prodyna-yasm/yasm-integration/commit/f7a8528e75d3c294c51d8f7c4a04e49e003cc81a) by [Copilot](https://github.com/Copilot) on 2025-11-22 00:12:22 +0000 UTC
 
@@ -156,17 +167,12 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (1)
-
-- [Fix critical bugs and improve error handling, testing, and documentation](https://github.com/PRODYNA-YASM/yasm-integration/pull/773)
-
-
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  f7a8528 |  1.76.5 |  1.76.5 | 
+| Version |  f735416 |  1.76.5 |  1.76.5 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -194,7 +200,13 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 
 
-### [Commits on main since 1.76.1](https://github.com/prodyna-yasm/yasmctl/compare/1.76.1..HEAD) (5)
+### [Commits on main since 1.76.1](https://github.com/prodyna-yasm/yasmctl/compare/1.76.1..HEAD) (8)
+
+- [Merge pull request #495 from PRODYNA-YASM/copilot/optimize-kubernetes-resources](https://github.com/prodyna-yasm/yasmctl/commit/8cf8fc9fe2980f080affca97d109135a0d8035c9) by [dkrizic](https://github.com/dkrizic) on 2025-11-23 02:21:02 +0000 UTC
+
+- [Optimize Kubernetes resources based on KRR recommendations](https://github.com/prodyna-yasm/yasmctl/commit/109aef35d570e8a976b4fce107e3e3b47061ea43) by [Copilot](https://github.com/Copilot) on 2025-11-23 01:37:20 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasmctl/commit/c03b4139f4993e8a92c2f91d7dcd11227c3513b2) by [Copilot](https://github.com/Copilot) on 2025-11-23 01:34:24 +0000 UTC
 
 - [Merge pull request #494 from PRODYNA-YASM/dependabot/github_actions/actions/checkout-6](https://github.com/prodyna-yasm/yasmctl/commit/56e32fcef5f8a46101ede429575ab55c37e1ff09) by [dkrizic](https://github.com/dkrizic) on 2025-11-21 08:34:16 +0000 UTC
 
@@ -214,7 +226,7 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  56e32fc |  1.76.1 |  1.76.1 | 
+| Version |  8cf8fc9 |  1.76.1 |  1.76.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -237,7 +249,11 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 
 
-### [Commits on main since 1.26.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.0..HEAD) (3)
+### [Commits on main since 1.26.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.0..HEAD) (5)
+
+- [Merge pull request #355 from PRODYNA-YASM/copilot/optimize-kubernetes-resources](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/bc326efe8b34545a2e8b64dd7f333c8cd0ff2cbc) by [dkrizic](https://github.com/dkrizic) on 2025-11-23 02:14:02 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/c146017c7a3184b130a888ab4cf8756ff769f15c) by [Copilot](https://github.com/Copilot) on 2025-11-23 01:36:29 +0000 UTC
 
 - [Merge pull request #353 from PRODYNA-YASM/copilot/update-ci-cd-concurrency](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/f5927344e35d16a9698a10336e50cf904d789805) by [dkrizic](https://github.com/dkrizic) on 2025-11-18 09:23:55 +0000 UTC
 
@@ -253,7 +269,7 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  f592734 |  1.26.0 |  1.26.0 | 
+| Version |  bc326ef |  1.26.0 |  1.26.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -276,7 +292,15 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 
 
-### [Commits on main since 1.76.2](https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.2..HEAD) (15)
+### [Commits on main since 1.76.2](https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.2..HEAD) (19)
+
+- [Merge pull request #295 from PRODYNA-YASM/copilot/optimize-kubernetes-resources](https://github.com/prodyna-yasm/yasm-metrics/commit/84b61be08c958c335eb6502717266489da1ed0a8) by [dkrizic](https://github.com/dkrizic) on 2025-11-23 02:21:36 +0000 UTC
+
+- [Update helm/yasm-metrics.yaml](https://github.com/prodyna-yasm/yasm-metrics/commit/5b37d61a9087443d44e8b8e244c717b98a378aa7) by [dkrizic](https://github.com/dkrizic) on 2025-11-23 02:08:53 +0000 UTC
+
+- [Optimize Kubernetes resources according to KRR report](https://github.com/prodyna-yasm/yasm-metrics/commit/91191387da66793786ef3d84a2d5e6e424d8a238) by [Copilot](https://github.com/Copilot) on 2025-11-23 01:45:00 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-metrics/commit/55a9ebc525d294ba107f772b7fa42b4df5033ee2) by [Copilot](https://github.com/Copilot) on 2025-11-23 01:39:50 +0000 UTC
 
 - [Merge pull request #294 from PRODYNA-YASM/copilot/enable-docker-build-caching](https://github.com/prodyna-yasm/yasm-metrics/commit/304200a068106e474df09b2e6eb744275c210e7f) by [dkrizic](https://github.com/dkrizic) on 2025-11-22 00:53:41 +0000 UTC
 
@@ -316,7 +340,7 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  304200a |  1.76.2 |  1.76.2 | 
+| Version |  84b61be |  1.76.2 |  1.76.2 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -339,7 +363,13 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 
 
-### [Commits on main since 1.13.1](https://github.com/prodyna-yasm/yasm-github/compare/1.13.1..HEAD) (11)
+### [Commits on main since 1.13.1](https://github.com/prodyna-yasm/yasm-github/compare/1.13.1..HEAD) (14)
+
+- [Merge pull request #305 from PRODYNA-YASM/copilot/optimize-kubernetes-resources](https://github.com/prodyna-yasm/yasm-github/commit/5cec7d75b3bfdc46f3bc4afb7a51a89f3b7b982b) by [dkrizic](https://github.com/dkrizic) on 2025-11-23 02:20:02 +0000 UTC
+
+- [Optimize Kubernetes resources based on KRR report](https://github.com/prodyna-yasm/yasm-github/commit/4bcde4deeb255e381a3a4564e304026dd76e0e45) by [Copilot](https://github.com/Copilot) on 2025-11-23 01:30:44 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-github/commit/32a8c0b0ad48df9ecbb1236d7aee1e24f56780f1) by [Copilot](https://github.com/Copilot) on 2025-11-23 01:26:36 +0000 UTC
 
 - [Merge pull request #303 from PRODYNA-YASM/copilot/add-swagger-documentation](https://github.com/prodyna-yasm/yasm-github/commit/0172ce2f59e56a7e5023da36143803805519d476) by [dkrizic](https://github.com/dkrizic) on 2025-11-21 23:59:45 +0000 UTC
 
@@ -376,7 +406,7 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  0172ce2 |  1.13.1 |  1.13.1 | 
+| Version |  5cec7d7 |  1.13.1 |  1.13.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -399,7 +429,11 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 
 
-### [Commits on main since 1.15.4](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.4..HEAD) (15)
+### [Commits on main since 1.15.4](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.4..HEAD) (17)
+
+- [Merge pull request #295 from PRODYNA-YASM/copilot/update-resource-limits](https://github.com/prodyna-yasm/yasm-geocoding/commit/7c39b19bc5883c419012b25ff59bdd43c6bad3c0) by [dkrizic](https://github.com/dkrizic) on 2025-11-23 02:13:35 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-geocoding/commit/d080fd1b0ea7702acb84c98d5f594345684e6c29) by [Copilot](https://github.com/Copilot) on 2025-11-23 01:34:53 +0000 UTC
 
 - [Merge pull request #294 from PRODYNA-YASM/copilot/enable-docker-build-caching](https://github.com/prodyna-yasm/yasm-geocoding/commit/86cd81c026597dc9bf1a9fa128d148b2ed90ca77) by [dkrizic](https://github.com/dkrizic) on 2025-11-22 00:07:28 +0000 UTC
 
@@ -439,7 +473,7 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  86cd81c |  1.15.4 |  1.15.3 | 
+| Version |  7c39b19 |  1.15.4 |  1.15.3 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :red_square: | 
 
@@ -531,7 +565,13 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 
 
-### [Commits on main since 1.2.12](https://github.com/prodyna-yasm/yasm-external/compare/1.2.12..HEAD) (5)
+### [Commits on main since 1.2.12](https://github.com/prodyna-yasm/yasm-external/compare/1.2.12..HEAD) (8)
+
+- [Merge pull request #156 from PRODYNA-YASM/copilot/optimize-kubernetes-resources](https://github.com/prodyna-yasm/yasm-external/commit/285973d25fff2ae0f738e7b1ad6909a905e43249) by [dkrizic](https://github.com/dkrizic) on 2025-11-23 01:34:07 +0000 UTC
+
+- [Optimize Kubernetes resources according to KRR report](https://github.com/prodyna-yasm/yasm-external/commit/a8aeb69c1cd84c273c2767a72731d546ff611fe7) by [Copilot](https://github.com/Copilot) on 2025-11-23 01:28:06 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-external/commit/adf149bdf10bb56f0fb4f5d1e547d67a6139d7ec) by [Copilot](https://github.com/Copilot) on 2025-11-23 01:24:51 +0000 UTC
 
 - [Merge pull request #155 from PRODYNA-YASM/copilot/enable-docker-build-caching](https://github.com/prodyna-yasm/yasm-external/commit/fc5eb1388e709a8ab605378eae54700848674e7b) by [dkrizic](https://github.com/dkrizic) on 2025-11-22 00:17:38 +0000 UTC
 
@@ -551,7 +591,7 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  fc5eb13 |  1.2.12 |  1.2.12 | 
+| Version |  285973d |  1.2.12 |  1.2.12 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -621,7 +661,17 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 
 
-### [Commits on main since 1.76.5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.5..HEAD) (8)
+### [Commits on main since 1.76.5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.5..HEAD) (13)
+
+- [Merge pull request #1174 from PRODYNA-YASM/copilot/optimize-resources-krr](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/820394bb96062e978aa269c72eef35b077a49c23) by [dkrizic](https://github.com/dkrizic) on 2025-11-23 02:24:55 +0000 UTC
+
+- [Optimize loki, tempo, mimir, and opentelemetry resources per KRR recommendations](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1dafeb2d32b2cd77cfdfe99ceae370884077b2e1) by [Copilot](https://github.com/Copilot) on 2025-11-23 00:37:40 +0000 UTC
+
+- [Add detailed comments explaining KRR resource optimization rationale](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/879169da37c402f65a2a11a084a9920de84bede3) by [Copilot](https://github.com/Copilot) on 2025-11-22 23:55:54 +0000 UTC
+
+- [Optimize Kubernetes resources according to KRR recommendations](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3ae63ebabbb2bbbcf4f6d4d1afbcaffb12e4cbf2) by [Copilot](https://github.com/Copilot) on 2025-11-22 23:53:37 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/584918486216a726191bbb78599ebb6c6db6c4b2) by [Copilot](https://github.com/Copilot) on 2025-11-22 23:45:52 +0000 UTC
 
 - [Merge pull request #1172 from PRODYNA-YASM/copilot/update-github-actions-permissions](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/661deddd757439851c1565cf0fbee55a37af1482) by [dkrizic](https://github.com/dkrizic) on 2025-11-21 12:37:35 +0000 UTC
 
@@ -647,7 +697,7 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  661dedd |  1.76.5 |  1.76.4 | 
+| Version |  820394b |  1.76.5 |  1.76.4 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :red_square: | 
 
@@ -901,7 +951,13 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 
 
-### [Commits on main since 1.8.5](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.8.5..HEAD) (21)
+### [Commits on main since 1.8.5](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.8.5..HEAD) (24)
+
+- [Merge pull request #176 from PRODYNA-YASM/copilot/optimize-kubernetes-resources](https://github.com/prodyna-yasm/yasm-mainproject/commit/19b89aaba5b969cf1d4718db446e295df1266136) by [dkrizic](https://github.com/dkrizic) on 2025-11-23 02:18:41 +0000 UTC
+
+- [Optimize Kubernetes resources according to KRR report](https://github.com/prodyna-yasm/yasm-mainproject/commit/e9a1b72263fdf4fb4d521aee5a5075a341bf1e1b) by [Copilot](https://github.com/Copilot) on 2025-11-23 01:32:05 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-mainproject/commit/29723a79341e4d061d4e42469a243dd1ca7a54a6) by [Copilot](https://github.com/Copilot) on 2025-11-23 01:27:17 +0000 UTC
 
 - [Merge pull request #175 from PRODYNA-YASM/copilot/enable-docker-build-caching](https://github.com/prodyna-yasm/yasm-mainproject/commit/4db5d248954914c42f814125b728b08310ee1a92) by [dkrizic](https://github.com/dkrizic) on 2025-11-22 00:16:15 +0000 UTC
 
@@ -953,7 +1009,7 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  4db5d24 |  1.8.5 |  1.8.5 | 
+| Version |  19b89aa |  1.8.5 |  1.8.5 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -997,7 +1053,9 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/sales-copilot/pulls) (2)
+### [Open Pull Requests](https://github.com/prodyna-yasm/sales-copilot/pulls) (3)
+
+- [Optimize Kubernetes resources per KRR analysis](https://github.com/PRODYNA-YASM/sales-copilot/pull/22)
 
 - [Bump actions/checkout from 5 to 6](https://github.com/PRODYNA-YASM/sales-copilot/pull/21)
 
@@ -1069,7 +1127,9 @@ Component Status overview. Last update 2025-11-22T07:32:50Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (3)
+### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (4)
+
+- [Optimize backend Kubernetes resources per KRR analysis](https://github.com/PRODYNA-YASM/fox-and-hound/pull/271)
 
 - [Bump the go_modules group across 1 directory with 2 updates](https://github.com/PRODYNA-YASM/fox-and-hound/pull/270)
 
