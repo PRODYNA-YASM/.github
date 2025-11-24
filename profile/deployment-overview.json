@@ -783,8 +783,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "build(deps): bump github.com/prometheus/common from 0.67.3 to 0.67.4",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/296"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
@@ -3118,8 +3123,24 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 4,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "Bump @angular/core from 20.3.6 to 21.0.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/275"
+          },
+          {
+            "Title": "Bump @angular/common from 20.3.7 to 21.0.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/274"
+          },
+          {
+            "Title": "Bump @types/jasmine from 5.1.12 to 5.1.13 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/273"
+          },
+          {
+            "Title": "Bump @angular/router from 20.3.7 to 21.0.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/272"
+          },
           {
             "Title": "Optimize backend Kubernetes resources per KRR analysis",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/271"
@@ -3328,5 +3349,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-11-23T07:33:00Z"
+  "LastUpdated": "2025-11-24T07:34:42Z"
 }
