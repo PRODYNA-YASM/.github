@@ -606,7 +606,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "bc326ef",
+          "Version": "8fb0daf",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -663,8 +663,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.0..HEAD",
-        "Count": 5,
+        "Count": 7,
         "Commits": [
+          {
+            "Text": "Merge pull request #356 from PRODYNA-YASM/dependabot/github_actions/actions/checkout-6",
+            "SHA": "8fb0daf605efccbdda0088e326a17a0a38d40755",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-24T13:38:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/8fb0daf605efccbdda0088e326a17a0a38d40755"
+          },
+          {
+            "Text": "Bump actions/checkout from 5 to 6",
+            "SHA": "8a7cb4376fc2d966d17cf9e27c75b5597ec7c91a",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-11-24T13:27:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/8a7cb4376fc2d966d17cf9e27c75b5597ec7c91a"
+          },
           {
             "Text": "Merge pull request #355 from PRODYNA-YASM/copilot/optimize-kubernetes-resources",
             "SHA": "bc326efe8b34545a2e8b64dd7f333c8cd0ff2cbc",
@@ -732,7 +752,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "84b61be",
+          "Version": "affcf5c",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -783,19 +803,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "build(deps): bump github.com/prometheus/common from 0.67.3 to 0.67.4",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/296"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.2..HEAD",
-        "Count": 19,
+        "Count": 21,
         "Commits": [
+          {
+            "Text": "Merge pull request #296 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/common-0.67.4",
+            "SHA": "affcf5c5434fc70ba18317e856b929d0b9ac1f32",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-24T08:26:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/affcf5c5434fc70ba18317e856b929d0b9ac1f32"
+          },
+          {
+            "Text": "build(deps): bump github.com/prometheus/common from 0.67.3 to 0.67.4",
+            "SHA": "bbd46785cc5c86a4259882b03c3e4339f963d68a",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-11-24T05:27:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/bbd46785cc5c86a4259882b03c3e4339f963d68a"
+          },
           {
             "Text": "Merge pull request #295 from PRODYNA-YASM/copilot/optimize-kubernetes-resources",
             "SHA": "84b61be08c958c335eb6502717266489da1ed0a8",
@@ -1933,7 +1968,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "820394b",
+          "Version": "064f1f6",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1990,8 +2025,78 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.5..HEAD",
-        "Count": 13,
+        "Count": 20,
         "Commits": [
+          {
+            "Text": "Disable actors in DAPR",
+            "SHA": "064f1f63f67a99ae7d4cb272cd4ce2c4df5956ae",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-24T11:41:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/064f1f63f67a99ae7d4cb272cd4ce2c4df5956ae"
+          },
+          {
+            "Text": "Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-staged",
+            "SHA": "7d392477718629db887b9b5e2ed34ae8b72696df",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-24T11:23:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/7d392477718629db887b9b5e2ed34ae8b72696df"
+          },
+          {
+            "Text": "Remove kubecost",
+            "SHA": "ba32c73bfc0cf2ad3f6f3d486043b45b8ce70c89",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-24T11:22:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ba32c73bfc0cf2ad3f6f3d486043b45b8ce70c89"
+          },
+          {
+            "Text": "Merge pull request #1175 from PRODYNA-YASM/feature/update-components",
+            "SHA": "3fc8d0878d5c1695b4bcaa44974cac803506aac6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-24T11:12:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3fc8d0878d5c1695b4bcaa44974cac803506aac6"
+          },
+          {
+            "Text": "Update some components",
+            "SHA": "a33cce19f7f2faa070770b356f9e4f3318ec79f0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-24T11:06:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a33cce19f7f2faa070770b356f9e4f3318ec79f0"
+          },
+          {
+            "Text": "Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-staged",
+            "SHA": "dde333dbe867fb59068b2d4b3ec2de26131b507c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-24T11:05:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/dde333dbe867fb59068b2d4b3ec2de26131b507c"
+          },
+          {
+            "Text": "First version, not continuing for now",
+            "SHA": "b336b762e8d7dabefd874afcc25bb2ea8460d155",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-24T11:04:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b336b762e8d7dabefd874afcc25bb2ea8460d155"
+          },
           {
             "Text": "Merge pull request #1174 from PRODYNA-YASM/copilot/optimize-resources-krr",
             "SHA": "820394bb96062e978aa269c72eef35b077a49c23",
@@ -2903,9 +3008,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.3.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "fcf34e8",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -2954,16 +3059,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/sales-copilot/pulls",
-        "Count": 3,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "Optimize Kubernetes resources per KRR analysis",
-            "Link": "https://github.com/PRODYNA-YASM/sales-copilot/pull/22"
-          },
-          {
-            "Title": "Bump actions/checkout from 5 to 6",
-            "Link": "https://github.com/PRODYNA-YASM/sales-copilot/pull/21"
-          },
           {
             "Title": "Bump python from 3.13 to 3.14",
             "Link": "https://github.com/PRODYNA-YASM/sales-copilot/pull/18"
@@ -2973,8 +3070,58 @@
       "Link": "https://github.com/prodyna-yasm/sales-copilot",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD",
-        "Count": 8,
+        "Count": 13,
         "Commits": [
+          {
+            "Text": "Merge pull request #21 from PRODYNA-YASM/dependabot/github_actions/actions/checkout-6",
+            "SHA": "fcf34e8736bacc7f84a1b88178ce72196c7483e7",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-24T12:42:46Z",
+            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/fcf34e8736bacc7f84a1b88178ce72196c7483e7"
+          },
+          {
+            "Text": "Merge pull request #22 from PRODYNA-YASM/copilot/optimize-kubernetes-resources",
+            "SHA": "91b8c854d982fae1b085b39c9007775f3cadddd6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-24T12:38:23Z",
+            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/91b8c854d982fae1b085b39c9007775f3cadddd6"
+          },
+          {
+            "Text": "Optimize Kubernetes resources based on KRR report",
+            "SHA": "757cb15d5b71a758c7da399f82ee1da1e7910df8",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-23T01:48:47Z",
+            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/757cb15d5b71a758c7da399f82ee1da1e7910df8"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "c38b58cbe9e6dde27542e757a42989e7c1e4bea9",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2025-11-23T01:43:53Z",
+            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/c38b58cbe9e6dde27542e757a42989e7c1e4bea9"
+          },
+          {
+            "Text": "Bump actions/checkout from 5 to 6",
+            "SHA": "5846ab56f9236c5e345da746602dee2ac9d19b27",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-11-21T13:09:34Z",
+            "Link": "https://github.com/prodyna-yasm/sales-copilot/commit/5846ab56f9236c5e345da746602dee2ac9d19b27"
+          },
           {
             "Text": "Merge pull request #20 from PRODYNA-YASM/feature/optimize-resources",
             "SHA": "be7c8e47d6273db51ca87463b3681f27d9d2a001",
@@ -3349,5 +3496,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-11-24T07:34:42Z"
+  "LastUpdated": "2025-11-25T07:35:01Z"
 }
