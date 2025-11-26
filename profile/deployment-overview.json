@@ -2429,12 +2429,12 @@
         "Count": 4,
         "PullRequests": [
           {
-            "Title": "chore: bump com.fasterxml.jackson.core:jackson-databind from 2.20.0 to 2.20.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/318"
+            "Title": "chore: bump io.smallrye.reactive:mutiny from 2.9.4 to 3.0.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/320"
           },
           {
-            "Title": "chore: bump io.smallrye.reactive:mutiny from 2.9.4 to 3.0.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/316"
+            "Title": "chore: bump com.fasterxml.jackson.core:jackson-databind from 2.20.0 to 2.20.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/318"
           },
           {
             "Title": "chore: bump org.openapitools:jackson-databind-nullable from 0.2.7 to 0.2.8",
@@ -3496,5 +3496,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-11-25T07:35:01Z"
+  "LastUpdated": "2025-11-26T07:34:47Z"
 }
