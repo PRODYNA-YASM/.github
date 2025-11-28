@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-11-27T07:35:01Z
+Component Status overview. Last update 2025-11-28T07:34:42Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -843,7 +843,7 @@ Component Status overview. Last update 2025-11-27T07:35:01Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (4)
 
-- [chore: bump io.smallrye.reactive:mutiny from 2.9.4 to 3.0.2](https://github.com/PRODYNA-YASM/yasm-api/pull/320)
+- [chore: bump io.smallrye.reactive:mutiny from 2.9.4 to 3.0.3](https://github.com/PRODYNA-YASM/yasm-api/pull/321)
 
 - [chore: bump com.fasterxml.jackson.core:jackson-databind from 2.20.0 to 2.20.1](https://github.com/PRODYNA-YASM/yasm-api/pull/318)
 
