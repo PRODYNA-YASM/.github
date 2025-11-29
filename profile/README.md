@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-11-28T07:34:42Z
+Component Status overview. Last update 2025-11-29T07:33:36Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -9,13 +9,13 @@ Component Status overview. Last update 2025-11-28T07:34:42Z
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [4](https://github.com/prodyna-yasm/yasm-integration/compare/1.76.5..HEAD) | :green_square: 0 | 1.76.5 |  :red_square: f735416 |  :green_square: 1.76.5 |  :green_square: 1.76.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [8](https://github.com/prodyna-yasm/yasmctl/compare/1.76.1..HEAD) | :green_square: 0 | 1.76.1 |  :red_square: 8cf8fc9 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [7](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.0..HEAD) | :green_square: 0 | 1.26.0 |  :red_square: 8fb0daf |  :green_square: 1.26.0 |  :green_square: 1.26.0 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [21](https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-metrics/pulls) | 1.76.2 |  :red_square: affcf5c |  :green_square: 1.76.2 |  :green_square: 1.76.2 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [21](https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.2..HEAD) | :green_square: 0 | 1.76.2 |  :red_square: affcf5c |  :green_square: 1.76.2 |  :green_square: 1.76.2 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [14](https://github.com/prodyna-yasm/yasm-github/compare/1.13.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.13.1 |  :red_square: 5cec7d7 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [17](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.4..HEAD) | :green_square: 0 | 1.15.4 |  :red_square: 7c39b19 |  :green_square: 1.15.4 |  :red_square: 1.15.3 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [8](https://github.com/prodyna-yasm/yasm-external/compare/1.2.12..HEAD) | :green_square: 0 | 1.2.12 |  :red_square: 285973d |  :green_square: 1.2.12 |  :green_square: 1.2.12 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [2](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.25.0-0..HEAD) | :green_square: 0 | 8.25.0-0 |  :red_square: 7e5f492 |  :green_square: 8.25.0-0 |  :red_square: 8.24.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [20](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.5..HEAD) | :green_square: 0 | 1.76.5 |  :red_square: 064f1f6 |  :green_square: 1.76.5 |  :red_square: 1.76.4 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [22](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.5..HEAD) | :green_square: 0 | 1.76.5 |  :red_square: 9384ae2 |  :green_square: 1.76.5 |  :red_square: 1.76.4 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.76.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.76.1 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.76.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [4](https://github.com/prodyna-yasm/yasm-api/compare/1.76.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.76.0 | 
@@ -341,11 +341,6 @@ Component Status overview. Last update 2025-11-28T07:34:42Z
 - [build(deps): bump google.golang.org/grpc from 1.76.0 to 1.77.0](https://github.com/prodyna-yasm/yasm-metrics/commit/f4194e9145012f868ecd3f59299b9eaac7a6db42) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-11-18 05:22:22 +0000 UTC
 
 
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-metrics/pulls) (1)
-
-- [Migrate logging from slog to logrus](https://github.com/PRODYNA-YASM/yasm-metrics/pull/298)
 
 
 
@@ -674,7 +669,11 @@ Component Status overview. Last update 2025-11-28T07:34:42Z
 
 
 
-### [Commits on main since 1.76.5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.5..HEAD) (20)
+### [Commits on main since 1.76.5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.5..HEAD) (22)
+
+- [Merge pull request #1176 from PRODYNA-YASM/feature/update-components](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/9384ae21041361d7dbded74c35be62e93ec7c38f) by [dkrizic](https://github.com/dkrizic) on 2025-11-28 16:50:38 +0000 UTC
+
+- [Uupdate some components](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/228ad3070bf29442acb16417496df50efa2f3b32) by [dkrizic](https://github.com/dkrizic) on 2025-11-28 15:00:28 +0000 UTC
 
 - [Disable actors in DAPR](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/064f1f63f67a99ae7d4cb272cd4ce2c4df5956ae) by [dkrizic](https://github.com/dkrizic) on 2025-11-24 11:41:29 +0000 UTC
 
@@ -724,7 +723,7 @@ Component Status overview. Last update 2025-11-28T07:34:42Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  064f1f6 |  1.76.5 |  1.76.4 | 
+| Version |  9384ae2 |  1.76.5 |  1.76.4 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :red_square: | 
 

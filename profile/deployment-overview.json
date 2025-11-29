@@ -803,13 +803,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Migrate logging from slog to logrus",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/298"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
@@ -1973,7 +1968,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "064f1f6",
+          "Version": "9384ae2",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2030,8 +2025,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.5..HEAD",
-        "Count": 20,
+        "Count": 22,
         "Commits": [
+          {
+            "Text": "Merge pull request #1176 from PRODYNA-YASM/feature/update-components",
+            "SHA": "9384ae21041361d7dbded74c35be62e93ec7c38f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-28T16:50:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/9384ae21041361d7dbded74c35be62e93ec7c38f"
+          },
+          {
+            "Text": "Uupdate some components",
+            "SHA": "228ad3070bf29442acb16417496df50efa2f3b32",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-11-28T15:00:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/228ad3070bf29442acb16417496df50efa2f3b32"
+          },
           {
             "Text": "Disable actors in DAPR",
             "SHA": "064f1f63f67a99ae7d4cb272cd4ce2c4df5956ae",
@@ -3509,5 +3524,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-11-28T07:34:42Z"
+  "LastUpdated": "2025-11-29T07:33:36Z"
 }
