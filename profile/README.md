@@ -1,27 +1,27 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-12-01T07:36:47Z
+Component Status overview. Last update 2025-12-02T07:36:32Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [10](https://github.com/prodyna-yasm/yasm-backend/compare/1.76.1..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.76.1 |  :red_square: 3dcc74d |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.76.1..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.76.1 |  :red_square: a590a34 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [4](https://github.com/prodyna-yasm/yasm-integration/compare/1.76.5..HEAD) | :green_square: 0 | 1.76.5 |  :red_square: f735416 |  :green_square: 1.76.5 |  :green_square: 1.76.5 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [5](https://github.com/prodyna-yasm/yasm-integration/compare/1.76.5..HEAD) | :green_square: 0 | 1.76.5 |  :red_square: 810c41c |  :green_square: 1.76.5 |  :green_square: 1.76.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [8](https://github.com/prodyna-yasm/yasmctl/compare/1.76.1..HEAD) | :green_square: 0 | 1.76.1 |  :red_square: 8cf8fc9 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [7](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.0..HEAD) | :green_square: 0 | 1.26.0 |  :red_square: 8fb0daf |  :green_square: 1.26.0 |  :green_square: 1.26.0 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [21](https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-metrics/pulls) | 1.76.2 |  :red_square: affcf5c |  :green_square: 1.76.2 |  :green_square: 1.76.2 | 
-| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [14](https://github.com/prodyna-yasm/yasm-github/compare/1.13.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.13.1 |  :red_square: 5cec7d7 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
-| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [17](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.4..HEAD) | :green_square: 0 | 1.15.4 |  :red_square: 7c39b19 |  :green_square: 1.15.4 |  :red_square: 1.15.3 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [27](https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.2..HEAD) | :green_square: 0 | 1.76.2 |  :red_square: 07965c4 |  :green_square: 1.76.2 |  :green_square: 1.76.2 | 
+| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [17](https://github.com/prodyna-yasm/yasm-github/compare/1.13.1..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.13.1 |  :red_square: 6399b03 |  :green_square: 1.13.1 |  :green_square: 1.13.1 | 
+| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [20](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.4..HEAD) | :green_square: 0 | 1.15.4 |  :red_square: e057884 |  :green_square: 1.15.4 |  :red_square: 1.15.3 | 
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
-| [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [8](https://github.com/prodyna-yasm/yasm-external/compare/1.2.12..HEAD) | :green_square: 0 | 1.2.12 |  :red_square: 285973d |  :green_square: 1.2.12 |  :green_square: 1.2.12 | 
+| [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [11](https://github.com/prodyna-yasm/yasm-external/compare/1.2.12..HEAD) | :green_square: 0 | 1.2.12 |  :red_square: 051a3ee |  :green_square: 1.2.12 |  :green_square: 1.2.12 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [2](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.25.0-0..HEAD) | :green_square: 0 | 8.25.0-0 |  :red_square: 7e5f492 |  :green_square: 8.25.0-0 |  :red_square: 8.24.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [22](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.5..HEAD) | :green_square: 0 | 1.76.5 |  :red_square: 9384ae2 |  :green_square: 1.76.5 |  :red_square: 1.76.4 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [24](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.5..HEAD) | :green_square: 0 | 1.76.5 |  :red_square: 6a7f525 |  :green_square: 1.76.5 |  :red_square: 1.76.4 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.76.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.76.1 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.76.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [4](https://github.com/prodyna-yasm/yasm-api/compare/1.76.0..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.76.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.76.0 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [2](https://github.com/prodyna-yasm/yasm-test/compare/v1.74.1..HEAD) | :yellow_square: [15](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
-| [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [24](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.8.5..HEAD) | :green_square: 0 | 1.8.5 |  :red_square: 19b89aa |  :green_square: 1.8.5 |  :green_square: 1.8.5 | 
+| [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [28](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.8.5..HEAD) | :green_square: 0 | 1.8.5 |  :red_square: 2dcadfb |  :green_square: 1.8.5 |  :green_square: 1.8.5 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [13](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :red_square: fcf34e8 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :red_square: [16](https://github.com/prodyna-yasm/fox-and-hound/compare/2.0.3..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 | 
 
@@ -154,7 +154,9 @@ Component Status overview. Last update 2025-12-01T07:36:47Z
 
 
 
-### [Commits on main since 1.76.5](https://github.com/prodyna-yasm/yasm-integration/compare/1.76.5..HEAD) (4)
+### [Commits on main since 1.76.5](https://github.com/prodyna-yasm/yasm-integration/compare/1.76.5..HEAD) (5)
+
+- [Run container as non-root user for improved security (#786)](https://github.com/prodyna-yasm/yasm-integration/commit/810c41c6359f5467fb6ae3f758fd7a9e478c0346) by [Copilot](https://github.com/Copilot) on 2025-12-01 09:18:38 +0000 UTC
 
 - [Fix critical bugs and improve error handling, testing, and documentation (#773)](https://github.com/prodyna-yasm/yasm-integration/commit/f73541636e5cbeb863202be059b476d0d208e6bf) by [Copilot](https://github.com/Copilot) on 2025-11-23 02:09:44 +0000 UTC
 
@@ -172,7 +174,7 @@ Component Status overview. Last update 2025-12-01T07:36:47Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  f735416 |  1.76.5 |  1.76.5 | 
+| Version |  810c41c |  1.76.5 |  1.76.5 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -296,7 +298,19 @@ Component Status overview. Last update 2025-12-01T07:36:47Z
 
 
 
-### [Commits on main since 1.76.2](https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.2..HEAD) (21)
+### [Commits on main since 1.76.2](https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.2..HEAD) (27)
+
+- [Merge pull request #300 from PRODYNA-YASM/copilot/modify-dockerfile-non-root-user](https://github.com/prodyna-yasm/yasm-metrics/commit/07965c436ff5e257c4910e30079832cf5a4653c8) by [dkrizic](https://github.com/dkrizic) on 2025-12-01 09:08:44 +0000 UTC
+
+- [Update Dockerfile](https://github.com/prodyna-yasm/yasm-metrics/commit/ec358d8dd2e71d8908a9652a2fab376966b7ca6e) by [dkrizic](https://github.com/dkrizic) on 2025-12-01 09:06:12 +0000 UTC
+
+- [Add non-root user to Dockerfile for improved security](https://github.com/prodyna-yasm/yasm-metrics/commit/9703b606880d5348f5a2201d92ce32882329fe41) by [Copilot](https://github.com/Copilot) on 2025-12-01 08:43:04 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-metrics/commit/e75f806d25b370bbcd708536b637ea1e7a72d685) by [Copilot](https://github.com/Copilot) on 2025-12-01 08:40:14 +0000 UTC
+
+- [Merge pull request #299 from PRODYNA-YASM/dependabot/go_modules/github.com/golang-migrate/migrate/v4-4.19.1](https://github.com/prodyna-yasm/yasm-metrics/commit/1ac3dd225bb7bcf070a4a98a5dd902e00b73e01e) by [dkrizic](https://github.com/dkrizic) on 2025-12-01 07:47:21 +0000 UTC
+
+- [build(deps): bump github.com/golang-migrate/migrate/v4](https://github.com/prodyna-yasm/yasm-metrics/commit/713043dea08ae68c67c59b40179911c045c93c3c) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-12-01 05:50:03 +0000 UTC
 
 - [Merge pull request #296 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/common-0.67.4](https://github.com/prodyna-yasm/yasm-metrics/commit/affcf5c5434fc70ba18317e856b929d0b9ac1f32) by [dkrizic](https://github.com/dkrizic) on 2025-11-24 08:26:33 +0000 UTC
 
@@ -343,17 +357,12 @@ Component Status overview. Last update 2025-12-01T07:36:47Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-metrics/pulls) (1)
-
-- [build(deps): bump github.com/golang-migrate/migrate/v4 from 4.19.0 to 4.19.1](https://github.com/PRODYNA-YASM/yasm-metrics/pull/299)
-
-
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  affcf5c |  1.76.2 |  1.76.2 | 
+| Version |  07965c4 |  1.76.2 |  1.76.2 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -376,7 +385,13 @@ Component Status overview. Last update 2025-12-01T07:36:47Z
 
 
 
-### [Commits on main since 1.13.1](https://github.com/prodyna-yasm/yasm-github/compare/1.13.1..HEAD) (14)
+### [Commits on main since 1.13.1](https://github.com/prodyna-yasm/yasm-github/compare/1.13.1..HEAD) (17)
+
+- [Merge pull request #307 from PRODYNA-YASM/copilot/modify-dockerfile-non-root-user](https://github.com/prodyna-yasm/yasm-github/commit/6399b033c1eb89ba1465705ca6a8791ac9089535) by [dkrizic](https://github.com/dkrizic) on 2025-12-01 09:04:29 +0000 UTC
+
+- [Modify Dockerfile to run as non-root user (UID 1001, GID 1001) for improved security](https://github.com/prodyna-yasm/yasm-github/commit/1ce2e910327c2b518fafd3f0bc04caaa2f16ee88) by [Copilot](https://github.com/Copilot) on 2025-12-01 08:47:21 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-github/commit/8589c8543517674f37a8854fdc56048e56386a3c) by [Copilot](https://github.com/Copilot) on 2025-12-01 08:43:36 +0000 UTC
 
 - [Merge pull request #305 from PRODYNA-YASM/copilot/optimize-kubernetes-resources](https://github.com/prodyna-yasm/yasm-github/commit/5cec7d75b3bfdc46f3bc4afb7a51a89f3b7b982b) by [dkrizic](https://github.com/dkrizic) on 2025-11-23 02:20:02 +0000 UTC
 
@@ -409,7 +424,9 @@ Component Status overview. Last update 2025-12-01T07:36:47Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-github/pulls) (1)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-github/pulls) (2)
+
+- [Run container as non-root user for improved security](https://github.com/PRODYNA-YASM/yasm-github/pull/306)
 
 - [Code audit: improve error handling, fix security issues, add tests and documentation](https://github.com/PRODYNA-YASM/yasm-github/pull/292)
 
@@ -419,7 +436,7 @@ Component Status overview. Last update 2025-12-01T07:36:47Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  5cec7d7 |  1.13.1 |  1.13.1 | 
+| Version |  6399b03 |  1.13.1 |  1.13.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -442,7 +459,13 @@ Component Status overview. Last update 2025-12-01T07:36:47Z
 
 
 
-### [Commits on main since 1.15.4](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.4..HEAD) (17)
+### [Commits on main since 1.15.4](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.4..HEAD) (20)
+
+- [Merge pull request #296 from PRODYNA-YASM/copilot/modify-dockerfile-non-root-user](https://github.com/prodyna-yasm/yasm-geocoding/commit/e057884c4ed19d5aebcfa1438ae747f42e72116e) by [dkrizic](https://github.com/dkrizic) on 2025-12-01 08:58:51 +0000 UTC
+
+- [Modify Dockerfile to run application as non-root user for improved security](https://github.com/prodyna-yasm/yasm-geocoding/commit/11950b069bfd0e82d34299bc7388dab0cc2c3943) by [Copilot](https://github.com/Copilot) on 2025-12-01 08:48:45 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-geocoding/commit/4c43137f4800dd342b4ed355768030644073662d) by [Copilot](https://github.com/Copilot) on 2025-12-01 08:45:04 +0000 UTC
 
 - [Merge pull request #295 from PRODYNA-YASM/copilot/update-resource-limits](https://github.com/prodyna-yasm/yasm-geocoding/commit/7c39b19bc5883c419012b25ff59bdd43c6bad3c0) by [dkrizic](https://github.com/dkrizic) on 2025-11-23 02:13:35 +0000 UTC
 
@@ -486,7 +509,7 @@ Component Status overview. Last update 2025-12-01T07:36:47Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  7c39b19 |  1.15.4 |  1.15.3 | 
+| Version |  e057884 |  1.15.4 |  1.15.3 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :red_square: | 
 
@@ -578,7 +601,13 @@ Component Status overview. Last update 2025-12-01T07:36:47Z
 
 
 
-### [Commits on main since 1.2.12](https://github.com/prodyna-yasm/yasm-external/compare/1.2.12..HEAD) (8)
+### [Commits on main since 1.2.12](https://github.com/prodyna-yasm/yasm-external/compare/1.2.12..HEAD) (11)
+
+- [Merge pull request #157 from PRODYNA-YASM/copilot/modify-dockerfile-non-root-user](https://github.com/prodyna-yasm/yasm-external/commit/051a3ee5ea19d0d00250203526b39abc0e6603c0) by [dkrizic](https://github.com/dkrizic) on 2025-12-01 08:53:09 +0000 UTC
+
+- [Modify Dockerfile to run application as non-root user for improved security](https://github.com/prodyna-yasm/yasm-external/commit/800ed84ed8e1cf4f0382df08d1e4d32d57245883) by [Copilot](https://github.com/Copilot) on 2025-12-01 08:48:15 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-external/commit/1ac30ea77eb448b37012fbf18995f3070e8021ae) by [Copilot](https://github.com/Copilot) on 2025-12-01 08:44:43 +0000 UTC
 
 - [Merge pull request #156 from PRODYNA-YASM/copilot/optimize-kubernetes-resources](https://github.com/prodyna-yasm/yasm-external/commit/285973d25fff2ae0f738e7b1ad6909a905e43249) by [dkrizic](https://github.com/dkrizic) on 2025-11-23 01:34:07 +0000 UTC
 
@@ -604,7 +633,7 @@ Component Status overview. Last update 2025-12-01T07:36:47Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  285973d |  1.2.12 |  1.2.12 | 
+| Version |  051a3ee |  1.2.12 |  1.2.12 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -674,7 +703,11 @@ Component Status overview. Last update 2025-12-01T07:36:47Z
 
 
 
-### [Commits on main since 1.76.5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.5..HEAD) (22)
+### [Commits on main since 1.76.5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.5..HEAD) (24)
+
+- [Merge pull request #1177 from PRODYNA-YASM/feature/update-components](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6a7f525923c4ac9e6e32b2a72abe40fa6fbd10fd) by [dkrizic](https://github.com/dkrizic) on 2025-12-01 21:57:05 +0000 UTC
+
+- [Update the versions of Grafana and Tempo](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/7ac44f8901ecacdbba0ee5336831257a4532f1ec) by [dkrizic](https://github.com/dkrizic) on 2025-12-01 15:20:13 +0000 UTC
 
 - [Merge pull request #1176 from PRODYNA-YASM/feature/update-components](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/9384ae21041361d7dbded74c35be62e93ec7c38f) by [dkrizic](https://github.com/dkrizic) on 2025-11-28 16:50:38 +0000 UTC
 
@@ -728,7 +761,7 @@ Component Status overview. Last update 2025-12-01T07:36:47Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  9384ae2 |  1.76.5 |  1.76.4 | 
+| Version |  6a7f525 |  1.76.5 |  1.76.4 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :red_square: | 
 
@@ -986,7 +1019,15 @@ Component Status overview. Last update 2025-12-01T07:36:47Z
 
 
 
-### [Commits on main since 1.8.5](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.8.5..HEAD) (24)
+### [Commits on main since 1.8.5](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.8.5..HEAD) (28)
+
+- [Merge pull request #177 from PRODYNA-YASM/copilot/modify-dockerfile-non-root-user](https://github.com/prodyna-yasm/yasm-mainproject/commit/2dcadfb4506e1591d3d2e1c0646c3e218c7b1b15) by [dkrizic](https://github.com/dkrizic) on 2025-12-01 08:59:21 +0000 UTC
+
+- [Fix stage comment to correctly identify Stage 2](https://github.com/prodyna-yasm/yasm-mainproject/commit/eb07c6d5017b18f9376c973fe9b7e93f0cb12406) by [Copilot](https://github.com/Copilot) on 2025-12-01 08:47:51 +0000 UTC
+
+- [Add non-root user for improved container security](https://github.com/prodyna-yasm/yasm-mainproject/commit/cfd57be376b01bf145340cafa898ff5621a2b648) by [Copilot](https://github.com/Copilot) on 2025-12-01 08:46:52 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/yasm-mainproject/commit/e3ef19cd2dce8788493d7982fa543d141a5dcc1b) by [Copilot](https://github.com/Copilot) on 2025-12-01 08:44:29 +0000 UTC
 
 - [Merge pull request #176 from PRODYNA-YASM/copilot/optimize-kubernetes-resources](https://github.com/prodyna-yasm/yasm-mainproject/commit/19b89aaba5b969cf1d4718db446e295df1266136) by [dkrizic](https://github.com/dkrizic) on 2025-11-23 02:18:41 +0000 UTC
 
@@ -1044,7 +1085,7 @@ Component Status overview. Last update 2025-12-01T07:36:47Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  19b89aa |  1.8.5 |  1.8.5 | 
+| Version |  2dcadfb |  1.8.5 |  1.8.5 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
