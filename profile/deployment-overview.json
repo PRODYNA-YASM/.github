@@ -379,8 +379,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump golang from 1.25.4-alpine3.22 to 1.25.5-alpine3.22",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/787"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -813,8 +818,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "build(deps): bump golang from 1.25.4-alpine3.22 to 1.25.5-alpine3.22",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/301"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
@@ -2801,6 +2811,10 @@
         "Count": 15,
         "PullRequests": [
           {
+            "Title": "chore(deps-dev): Bump validator from 13.12.0 to 13.15.23",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/396"
+          },
+          {
             "Title": "chore(deps): Bump node-forge from 1.3.1 to 1.3.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/395"
           },
@@ -2827,10 +2841,6 @@
           {
             "Title": "chore(deps): Bump @azure/msal-node from 3.6.3 to 3.8.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/388"
-          },
-          {
-            "Title": "chore(deps-dev): Bump validator from 13.12.0 to 13.15.20",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/387"
           },
           {
             "Title": "chore(deps): Bump actions/upload-artifact from 4 to 5",
@@ -3752,5 +3762,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-12-02T07:36:32Z"
+  "LastUpdated": "2025-12-03T07:36:01Z"
 }
