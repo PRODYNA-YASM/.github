@@ -12,7 +12,7 @@
 ## Access to YASM API
 
 * Endpoint
-* Swagger UI
+* Swagger UI https://dev-yasm.prodyna.com/api/graph/v1/swagger-ui/#/
 * Service Principal
   * Client ID
   * Client Secret
