@@ -1,10 +1,10 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-12-05T12:02:13Z
+Component Status overview. Last update 2025-12-06T07:33:34Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [15](https://github.com/prodyna-yasm/yasm-backend/compare/1.76.1..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.76.1 |  :red_square: 3dcc74d |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [19](https://github.com/prodyna-yasm/yasm-backend/compare/1.76.1..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.76.1 |  :red_square: 3dcc74d |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.76.1..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.76.1 |  :red_square: a590a34 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.76.6 |  :green_square: 1.76.6 |  :green_square: 1.76.6 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.76.2 |  :green_square: 1.76.2 |  :green_square: 1.76.2 |  :red_square: 1.76.1 | 
@@ -22,7 +22,7 @@ Component Status overview. Last update 2025-12-05T12:02:13Z
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.76.0 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [2](https://github.com/prodyna-yasm/yasm-test/compare/v1.74.1..HEAD) | :yellow_square: [16](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :green_square: 0 | :green_square: 0 | 1.8.6 |  :green_square: 1.8.6 |  :green_square: 1.8.6 |  :red_square: 1.8.5 | 
-| [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [13](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :red_square: fcf34e8 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
+| [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [15](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :green_square: 0 | 1.3.0 |  :red_square: b00e5e6 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :red_square: [16](https://github.com/prodyna-yasm/fox-and-hound/compare/2.0.3..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 |  :green_square: 2.0.3 | 
 
 
@@ -32,7 +32,15 @@ Component Status overview. Last update 2025-12-05T12:02:13Z
 
 
 
-### [Commits on main since 1.76.1](https://github.com/prodyna-yasm/yasm-backend/compare/1.76.1..HEAD) (15)
+### [Commits on main since 1.76.1](https://github.com/prodyna-yasm/yasm-backend/compare/1.76.1..HEAD) (19)
+
+- [build: update xml deps (#964)](https://github.com/prodyna-yasm/yasm-backend/commit/ad3ec5df41a10a3be8e6482ca6f386858940945d) by [coding4kay](https://github.com/coding4kay) on 2025-12-05 23:09:07 +0000 UTC
+
+- [build(deps): bump io.smallrye:jandex-maven-plugin from 3.5.1 to 3.5.3 (#960)](https://github.com/prodyna-yasm/yasm-backend/commit/9dc2ac3c805182fc89c2bfb695ddb0e4b160f45a) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-12-05 22:04:25 +0000 UTC
+
+- [build(deps): bump org.jsoup:jsoup from 1.21.1 to 1.21.2 (#959)](https://github.com/prodyna-yasm/yasm-backend/commit/d00b5fc8a3e419690bbeeeb0607de0ea8a47378f) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-12-05 21:35:38 +0000 UTC
+
+- [build(deps): bump org.jacoco:jacoco-maven-plugin from 0.8.13 to 0.8.14 (#961)](https://github.com/prodyna-yasm/yasm-backend/commit/768c8ecc726d4803fe0dd34a676d58708e453d64) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-12-05 21:28:59 +0000 UTC
 
 - [feat: Integrate jspecify for null safety annotations with compile-time NPE checking (#958)](https://github.com/prodyna-yasm/yasm-backend/commit/bfb5bc20fad945c841dc083d2433cfbb08ad81da) by [Copilot](https://github.com/Copilot) on 2025-12-05 00:55:56 +0000 UTC
 
@@ -67,17 +75,11 @@ Component Status overview. Last update 2025-12-05T12:02:13Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (7)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (4)
 
 - [fix: 488 Improve PDF pagination by adjusting page-break styles and en…](https://github.com/PRODYNA-YASM/yasm-backend/pull/963)
 
 - [feat: 910 Set minimum years of experience to 1 in TemplateModel](https://github.com/PRODYNA-YASM/yasm-backend/pull/962)
-
-- [build(deps): bump org.jacoco:jacoco-maven-plugin from 0.8.13 to 0.8.14](https://github.com/PRODYNA-YASM/yasm-backend/pull/961)
-
-- [build(deps): bump io.smallrye:jandex-maven-plugin from 3.5.1 to 3.5.3](https://github.com/PRODYNA-YASM/yasm-backend/pull/960)
-
-- [build(deps): bump org.jsoup:jsoup from 1.21.1 to 1.21.2](https://github.com/PRODYNA-YASM/yasm-backend/pull/959)
 
 - [build(deps): bump xml-apis:xml-apis from 1.4.01 to 2.0.2](https://github.com/PRODYNA-YASM/yasm-backend/pull/902)
 
@@ -883,7 +885,9 @@ Component Status overview. Last update 2025-12-05T12:02:13Z
 
 
 
-### [Commits on main since 1.3.0](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) (13)
+### [Commits on main since 1.3.0](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) (15)
+
+- [Merge pull request #18 from PRODYNA-YASM/dependabot/docker/python-3.14](https://github.com/prodyna-yasm/sales-copilot/commit/b00e5e66f6cc414653cb0c279d2256430afeb23e) by [dkrizic](https://github.com/dkrizic) on 2025-12-05 12:17:58 +0000 UTC
 
 - [Merge pull request #21 from PRODYNA-YASM/dependabot/github_actions/actions/checkout-6](https://github.com/prodyna-yasm/sales-copilot/commit/fcf34e8736bacc7f84a1b88178ce72196c7483e7) by [dkrizic](https://github.com/dkrizic) on 2025-11-24 12:42:46 +0000 UTC
 
@@ -907,6 +911,8 @@ Component Status overview. Last update 2025-12-05T12:02:13Z
 
 - [Bump github/codeql-action from 3 to 4](https://github.com/prodyna-yasm/sales-copilot/commit/94f402fc42bef7b09b140efa92b6a99fb6358c10) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-10-08 13:10:03 +0000 UTC
 
+- [Bump python from 3.13 to 3.14](https://github.com/prodyna-yasm/sales-copilot/commit/ca09d5a602837092e8ca1ea0e12df5d9a491945d) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-10-08 13:10:00 +0000 UTC
+
 - [Bump actions/checkout from 4 to 5](https://github.com/prodyna-yasm/sales-copilot/commit/ab2881a516fcc8d1327da50d19763d3e4755615f) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2025-08-11 18:46:05 +0000 UTC
 
 - [Merge pull request #14 from PRODYNA-YASM/dependency-review](https://github.com/prodyna-yasm/sales-copilot/commit/f3c0835fd45401d8e9c7ccac5f47f9ae89aaf765) by [dkrizic](https://github.com/dkrizic) on 2025-05-23 13:03:45 +0000 UTC
@@ -914,17 +920,12 @@ Component Status overview. Last update 2025-12-05T12:02:13Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/sales-copilot/pulls) (1)
-
-- [Bump python from 3.13 to 3.14](https://github.com/PRODYNA-YASM/sales-copilot/pull/18)
-
-
 
 ### Environments
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  fcf34e8 |  1.3.0 |  1.3.0 | 
+| Version |  b00e5e6 |  1.3.0 |  1.3.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
