@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-12-06T07:33:34Z
+Component Status overview. Last update 2025-12-07T07:33:17Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -472,11 +472,9 @@ Component Status overview. Last update 2025-12-06T07:33:34Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-external/actions?query=is%3Awaiting) (2)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-external/actions?query=is%3Awaiting) (1)
 
 - [Merge pull request #158 from PRODYNA-YASM/dependabot/docker/golang-1.…](https://github.com/PRODYNA-YASM/yasm-external/actions/runs/19959076513) created on 2025-12-05 09:48:03 +0000 UTC
-
-- [Merge pull request #147 from PRODYNA-YASM/feature/146-demo-issue-for-…](https://github.com/PRODYNA-YASM/yasm-external/actions/runs/19139732409) created on 2025-11-06 14:53:25 +0000 UTC
 
 
 

@@ -1156,17 +1156,12 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
           {
             "Name": "Merge pull request #158 from PRODYNA-YASM/dependabot/docker/golang-1.…",
             "Timestamp": "2025-12-05T09:48:03Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-external/actions/runs/19959076513"
-          },
-          {
-            "Name": "Merge pull request #147 from PRODYNA-YASM/feature/146-demo-issue-for-…",
-            "Timestamp": "2025-11-06T14:53:25Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-external/actions/runs/19139732409"
           }
         ]
       }
@@ -2641,5 +2636,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-12-06T07:33:34Z"
+  "LastUpdated": "2025-12-07T07:33:17Z"
 }
