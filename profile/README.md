@@ -1,10 +1,10 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-12-07T07:33:17Z
+Component Status overview. Last update 2025-12-08T07:36:51Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [19](https://github.com/prodyna-yasm/yasm-backend/compare/1.76.1..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.76.1 |  :red_square: 3dcc74d |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [19](https://github.com/prodyna-yasm/yasm-backend/compare/1.76.1..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.76.1 |  :red_square: 3dcc74d |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.76.1..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.76.1 |  :red_square: a590a34 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :green_square: 0 | 1.76.6 |  :green_square: 1.76.6 |  :green_square: 1.76.6 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.76.2 |  :green_square: 1.76.2 |  :green_square: 1.76.2 |  :red_square: 1.76.1 | 
@@ -15,7 +15,7 @@ Component Status overview. Last update 2025-12-07T07:33:17Z
 | [yasm-data](https://github.com/prodyna-yasm/yasm-data) | :red_square: [10](https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-data/pulls) | 1.37.0 |  :red_square: 0b66464 |  :green_square: 1.37.0 |  :green_square: 1.37.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.13 |  :green_square: 1.2.13 |  :green_square: 1.2.13 |  :red_square: 1.2.12 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.26.0-0 |  :green_square: 8.26.0-0 |  :green_square: 8.26.0-0 |  :red_square: 8.24.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [24](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.5..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.76.5 |  :red_square: 6a7f525 |  :green_square: 1.76.5 |  :red_square: 1.76.4 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [24](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.5..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.76.5 |  :red_square: 6a7f525 |  :green_square: 1.76.5 |  :red_square: 1.76.4 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.76.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.76.1 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.76.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [4](https://github.com/prodyna-yasm/yasm-api/compare/1.76.0..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.76.0 | 
@@ -75,7 +75,9 @@ Component Status overview. Last update 2025-12-07T07:33:17Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (4)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (5)
+
+- [build(deps): bump com.diffplug.spotless:spotless-maven-plugin from 3.0.0 to 3.1.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/965)
 
 - [fix: 488 Improve PDF pagination by adjusting page-break styles and en…](https://github.com/PRODYNA-YASM/yasm-backend/pull/963)
 
@@ -574,7 +576,9 @@ Component Status overview. Last update 2025-12-07T07:33:17Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (3)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (4)
+
+- [Bump integrations/github from 6.8.3 to 6.9.0 in /terraform/azure](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1181)
 
 - [Bump hashicorp/azurerm from 4.54.0 to 4.55.0 in /terraform/kubernetes](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1180)
 
