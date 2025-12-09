@@ -1,0 +1,19 @@
+#!/bin/bash
+
+CLIENT_ID="5d82c15b-1441-46ed-b3cf-98f40326e575"
+CLIENT_SECRET=""
+TENANT_ID="b2748d0a-856e-4184-bda8-831f9ffa8a48"
+SCOPE="api://yasm.prodyna.com/.default openid profile"
+TOKEN_URL="https://login.microsoftonline.com/${TENANT_ID}/oauth2/v2.0/token"
+API_URL="https://dev-yasm.prodyna.com/api/graph/v1/organizations/search"
+
+# Get bearer token
+RESPONSE=$(curl -s -X POST "$TOKEN_URL" \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "client_id=${CLIENT_ID}" \
+  -d "client_secret=${CLIENT_SECRET}" \
+  -d "scope=${SCOPE}" \
+  -d "grant_type=client_credentials")
+
+TOKEN=$(echo "$RESPONSE" | jq -r '.access_token')
+echo $TOKEN
