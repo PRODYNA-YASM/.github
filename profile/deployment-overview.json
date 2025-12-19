@@ -474,7 +474,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0dbd2e0",
+          "Version": "2e595fb",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -528,16 +528,26 @@
         "Count": 1,
         "PullRequests": [
           {
-            "Title": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.91.0 to 1.92.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/805"
+            "Title": "Bump alpine from 3.23.0 to 3.23.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/806"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.76.8..HEAD",
-        "Count": 1,
+        "Count": 2,
         "Commits": [
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.91.0 to 1.92.0 (#805)",
+            "SHA": "2e595fb3515e7c595a8788dba58a5c3f6d86d568",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-12-18T08:12:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/2e595fb3515e7c595a8788dba58a5c3f6d86d568"
+          },
           {
             "Text": "Tracing is parent based, only 10%, reduce metrics intervals and remove test metric (#804)",
             "SHA": "0dbd2e0f0120b71f47e490e0a144f7f76e306540",
@@ -787,7 +797,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "c652531",
+          "Version": "175b99b",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -838,19 +848,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "build(deps): bump alpine from 3.23.0 to 3.23.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/313"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.4..HEAD",
-        "Count": 6,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Merge pull request #313 from PRODYNA-YASM/dependabot/docker/alpine-3.23.2",
+            "SHA": "175b99ba2072e4a7ed0fb255b4523914a840fb2c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-12-18T08:10:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/175b99ba2072e4a7ed0fb255b4523914a840fb2c"
+          },
+          {
+            "Text": "build(deps): bump alpine from 3.23.0 to 3.23.2",
+            "SHA": "44275a460ee3bd1fe840a61d2fb55a7418efe8d7",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-12-18T05:20:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/44275a460ee3bd1fe840a61d2fb55a7418efe8d7"
+          },
           {
             "Text": "Merge pull request #312 from PRODYNA-YASM/fix/compile",
             "SHA": "c652531497f70f56f2effe3c7b03cdb83f985f4a",
@@ -928,7 +953,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "ef02ecf",
+          "Version": "0c90984",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -990,8 +1015,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.13.3..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #319 from PRODYNA-YASM/dependabot/docker/alpine-3.23.2",
+            "SHA": "0c9098433ba4ecd57091d0df97f59dd598c650a6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-12-18T23:45:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/0c9098433ba4ecd57091d0df97f59dd598c650a6"
+          },
+          {
+            "Text": "Bump alpine from 3.23.0 to 3.23.2",
+            "SHA": "5180aace80b42f63876ef6bdaebc7369a7cf3523",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-12-18T23:08:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/5180aace80b42f63876ef6bdaebc7369a7cf3523"
+          },
           {
             "Text": "Merge pull request #318 from PRODYNA-YASM/feature/parent-based-sampling",
             "SHA": "ef02ecf0130c919e2ff0cd9ecc595f5a0c23b8e3",
@@ -1545,7 +1590,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "79610b5",
+          "Version": "40aa086",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1596,8 +1641,20 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 3,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "Bump hashicorp/azurerm from 4.56.0 to 4.57.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1200"
+          },
+          {
+            "Title": "Bump DataDog/datadog from 3.82.0 to 3.83.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1199"
+          },
+          {
+            "Title": "Bump hashicorp/azurerm from 4.56.0 to 4.57.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1198"
+          },
           {
             "Title": "Optimize observability stack: reduce resources, implement tail sampling, standardize retention",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1191"
@@ -1615,8 +1672,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.76.7..HEAD",
-        "Count": 4,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-staged",
+            "SHA": "40aa0861615509af6cf0aee5911d9b22710f1b9f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-12-18T11:07:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/40aa0861615509af6cf0aee5911d9b22710f1b9f"
+          },
+          {
+            "Text": "Update Traefik CRDs",
+            "SHA": "944591104aaf86c433983089de210a0c071eba45",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-12-18T11:06:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/944591104aaf86c433983089de210a0c071eba45"
+          },
+          {
+            "Text": "Merge pull request #1197 from PRODYNA-YASM/feature/traefik-38.0.0",
+            "SHA": "e85423a1d89ae65bdec4900d19835a1080a81f8a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-12-18T10:49:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e85423a1d89ae65bdec4900d19835a1080a81f8a"
+          },
+          {
+            "Text": "Update Traefik and other components",
+            "SHA": "1c21126ecbf9e7ae6f19e2593703c5fd0e0da96b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-12-18T10:36:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1c21126ecbf9e7ae6f19e2593703c5fd0e0da96b"
+          },
           {
             "Text": "Merge pull request #1196 from PRODYNA-YASM/feature/disable-mimir-servicemonitors",
             "SHA": "79610b5d56b3fe8c9cdf9501e6c3d369a9aae0cc",
@@ -2751,5 +2848,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-12-18T07:36:36Z"
+  "LastUpdated": "2025-12-19T07:36:04Z"
 }
