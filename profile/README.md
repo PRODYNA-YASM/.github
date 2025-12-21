@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-12-20T07:33:28Z
+Component Status overview. Last update 2025-12-21T07:34:23Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -642,11 +642,6 @@ Component Status overview. Last update 2025-12-20T07:33:28Z
 - [Pipeline permissions, component updates, renew secrets](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.76.6) on 2025-12-12 14:31:38 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #1168 from PRODYNA-YASM/copilot/update-traefik-con…](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/19540599097) created on 2025-11-20 14:39:28 +0000 UTC
 
 
 
