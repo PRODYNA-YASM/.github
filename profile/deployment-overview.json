@@ -686,7 +686,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0f6eba1",
+          "Version": "62a2c28",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -743,8 +743,68 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.1..HEAD",
-        "Count": 6,
+        "Count": 12,
         "Commits": [
+          {
+            "Text": "Merge pull request #363 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc-1.39.0",
+            "SHA": "62a2c28cb958454239b6b6064a2f16ca217832ff",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-12-22T14:47:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/62a2c28cb958454239b6b6064a2f16ca217832ff"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc",
+            "SHA": "6874d83be33b9da13d1aa6bd3d11500b5c7a0c6f",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-12-22T14:30:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/6874d83be33b9da13d1aa6bd3d11500b5c7a0c6f"
+          },
+          {
+            "Text": "Merge pull request #364 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc-1.39.0",
+            "SHA": "e97840482736cb62f017635a8373f70d70b6d3a1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-12-22T14:28:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/e97840482736cb62f017635a8373f70d70b6d3a1"
+          },
+          {
+            "Text": "Merge pull request #365 from PRODYNA-YASM/dependabot/go_modules/github.com/XSAM/otelsql-0.41.0",
+            "SHA": "159294df0f5311db931048d38c4b774f3a121934",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-12-22T13:05:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/159294df0f5311db931048d38c4b774f3a121934"
+          },
+          {
+            "Text": "Bump github.com/XSAM/otelsql from 0.40.0 to 0.41.0",
+            "SHA": "78dd3c5073c4b03a04ad38ccc84c1957694324b8",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-12-22T13:03:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/78dd3c5073c4b03a04ad38ccc84c1957694324b8"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc",
+            "SHA": "1e119ef555e8158df718f56bb3f13f5807a105c1",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-12-22T13:03:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/1e119ef555e8158df718f56bb3f13f5807a105c1"
+          },
           {
             "Text": "Merge pull request #359 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp-0.64.0",
             "SHA": "0f6eba17d4adc0d00bc5bd45ae82326300e07e25",
@@ -2603,7 +2663,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "6df781d",
+          "Version": "d411bb9",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2654,23 +2714,15 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 8,
+        "Count": 5,
         "PullRequests": [
           {
-            "Title": "Bump @angular/common from 20.3.7 to 20.3.14 in /frontend in the npm_and_yarn group across 1 directory",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/276"
+            "Title": "159 pop up when new candidate has submitted a request",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/291"
           },
           {
-            "Title": "Bump @angular/core from 20.3.6 to 21.0.0 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/275"
-          },
-          {
-            "Title": "Bump @angular/common from 20.3.7 to 21.0.0 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/274"
-          },
-          {
-            "Title": "Bump @angular/router from 20.3.7 to 21.0.0 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/272"
+            "Title": "Bump the npm_and_yarn group across 1 directory with 3 updates",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/289"
           },
           {
             "Title": "Optimize backend Kubernetes resources per KRR analysis",
@@ -2683,10 +2735,6 @@
           {
             "Title": "Replace styfle/cancel-workflow-action with native concurrency controls",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/268"
-          },
-          {
-            "Title": "Bump whatwg-url from 5.0.0 to 15.1.0 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/259"
           }
         ]
       },
@@ -2695,6 +2743,46 @@
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/compare/2.0.3..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #290 from PRODYNA-YASM/feature/_269_HrAdminPage",
+            "SHA": "d411bb94eb58c66bb2db212979ad4b11ad943607",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-12-22T22:23:32Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/d411bb94eb58c66bb2db212979ad4b11ad943607"
+          },
+          {
+            "Text": "269 Hr Admin page",
+            "SHA": "0d892104d70b5fda9115a1b6f51e2cb346f51788",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-12-22T22:21:14Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/0d892104d70b5fda9115a1b6f51e2cb346f51788"
+          },
+          {
+            "Text": "Merge pull request #288 from PRODYNA-YASM/feature/_269_HrAdminPage",
+            "SHA": "35a32257f9416816b911dab83ca9ce7f5e932d6b",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2025-12-22T22:10:19Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/35a32257f9416816b911dab83ca9ce7f5e932d6b"
+          },
+          {
+            "Text": "269 Hr Admin page",
+            "SHA": "982162f1174d362bf9af7bbb9235c49b208ec79a",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2025-12-22T22:08:14Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/982162f1174d362bf9af7bbb9235c49b208ec79a"
+          },
           {
             "Text": "Merge pull request #277 from PRODYNA-YASM/feature/_269_HrAdminPage",
             "SHA": "6df781d3527fa359c621d993a92604bcfd0dfbda",
@@ -2954,46 +3042,6 @@
             },
             "Timestamp": "2025-12-15T06:41:02Z",
             "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/7c71c570e7c45db6418776cdd50de9b6702ddd48"
-          },
-          {
-            "Text": "Fix typo in filename: rename senior-candiate-status to senior-candidate-status",
-            "SHA": "718408eb7cf7fa37d78b0345b6452052e270b256",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-12-15T06:40:29Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/718408eb7cf7fa37d78b0345b6452052e270b256"
-          },
-          {
-            "Text": "Update frontend/src/app/hr/hr.component.ts",
-            "SHA": "371ee4f4659f8582142fde35f19a86d6ba5e068c",
-            "Author": {
-              "name": "sceneo",
-              "link": "https://github.com/sceneo"
-            },
-            "Timestamp": "2025-12-15T06:40:24Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/371ee4f4659f8582142fde35f19a86d6ba5e068c"
-          },
-          {
-            "Text": "Fix typo in spec filename: rename senior-candiate-status to senior-candidate-status",
-            "SHA": "27f5a180c09ef850e72182188dcebce7525c4162",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-12-15T06:39:20Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/27f5a180c09ef850e72182188dcebce7525c4162"
-          },
-          {
-            "Text": "Initial plan",
-            "SHA": "122d158fd24d28344f227cc8e08d39c52c4f27c7",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2025-12-15T06:39:11Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/122d158fd24d28344f227cc8e08d39c52c4f27c7"
           }
         ]
       },
@@ -3020,5 +3068,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-12-22T07:37:24Z"
+  "LastUpdated": "2025-12-23T07:37:02Z"
 }
