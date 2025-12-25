@@ -62,8 +62,8 @@
         "Count": 3,
         "PullRequests": [
           {
-            "Title": "build(deps): bump quarkus.platform.version from 3.30.2 to 3.30.4",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/968"
+            "Title": "build(deps): bump quarkus.platform.version from 3.30.2 to 3.30.5",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/969"
           },
           {
             "Title": "build(deps): bump xml-apis:xml-apis from 1.4.01 to 2.0.2",
@@ -882,7 +882,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "a386cab",
+          "Version": "62a19b4",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -933,19 +933,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "build(deps): bump google.golang.org/grpc from 1.77.0 to 1.78.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/315"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.4..HEAD",
-        "Count": 10,
+        "Count": 12,
         "Commits": [
+          {
+            "Text": "Merge pull request #315 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.78.0",
+            "SHA": "62a19b4f086c9ce6a2e129769f455d5ab32073b9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2025-12-24T11:38:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/62a19b4f086c9ce6a2e129769f455d5ab32073b9"
+          },
+          {
+            "Text": "build(deps): bump google.golang.org/grpc from 1.77.0 to 1.78.0",
+            "SHA": "5df5fae7ef1e76ad7fa50b9edba4caa36f60f2a3",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2025-12-24T05:21:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/5df5fae7ef1e76ad7fa50b9edba4caa36f60f2a3"
+          },
           {
             "Text": "Merge pull request #314 from PRODYNA-YASM/feature/fix-platform",
             "SHA": "a386cab7dfdc59ddf53c7c2f84b4da4b6c24b13b",
@@ -3073,5 +3088,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2025-12-24T07:36:57Z"
+  "LastUpdated": "2025-12-25T07:35:49Z"
 }
