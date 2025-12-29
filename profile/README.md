@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2025-12-28T07:35:26Z
+Component Status overview. Last update 2025-12-29T07:37:59Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -23,7 +23,7 @@ Component Status overview. Last update 2025-12-28T07:35:26Z
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [2](https://github.com/prodyna-yasm/yasm-test/compare/v1.74.1..HEAD) | :yellow_square: [16](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [6](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.8.7..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-mainproject/pulls) | 1.8.7 |  :green_square: 1.8.7 |  :green_square: 1.8.7 |  :green_square: 1.8.7 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [15](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :green_square: 0 | 1.3.0 |  :red_square: b00e5e6 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
-| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :red_square: [30](https://github.com/prodyna-yasm/fox-and-hound/compare/2.0.3..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.0.3 |  :red_square: d411bb9 |  :green_square: 2.0.3 |  :green_square: 2.0.3 | 
+| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :red_square: [30](https://github.com/prodyna-yasm/fox-and-hound/compare/2.0.3..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.0.3 |  :red_square: d411bb9 |  :green_square: 2.0.3 |  :green_square: 2.0.3 | 
 
 
 
@@ -1066,7 +1066,15 @@ Component Status overview. Last update 2025-12-28T07:35:26Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (5)
+### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (9)
+
+- [Bump @angular/platform-browser-dynamic from 20.3.7 to 21.0.6 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/295)
+
+- [Bump @angular/cli from 20.3.7 to 21.0.4 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/294)
+
+- [Bump @angular/animations from 20.3.7 to 21.0.6 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/293)
+
+- [Bump @azure/msal-browser from 4.25.1 to 4.27.0 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/292)
 
 - [159 pop up when new candidate has submitted a request](https://github.com/PRODYNA-YASM/fox-and-hound/pull/291)
 
