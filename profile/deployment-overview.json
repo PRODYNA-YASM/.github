@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 3,
+        "Count": 4,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump org.jsoup:jsoup from 1.21.2 to 1.22.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/970"
+          },
           {
             "Title": "build(deps): bump quarkus.platform.version from 3.30.2 to 3.30.5",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/969"
@@ -3104,5 +3108,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-01-01T07:36:30Z"
+  "LastUpdated": "2026-01-02T07:37:34Z"
 }
