@@ -508,9 +508,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.76.9",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "22ae779",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -565,8 +565,19 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.76.9..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.92.0 to 1.93.0 (#808)",
+            "SHA": "22ae77903e6f8f1a8c304deda0c393591bdd1dc0",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-01-07T22:31:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/22ae77903e6f8f1a8c304deda0c393591bdd1dc0"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2873,5 +2884,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-01-07T07:38:22Z"
+  "LastUpdated": "2026-01-08T07:37:32Z"
 }
