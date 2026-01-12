@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-01-11T07:35:41Z
+Component Status overview. Last update 2026-01-12T07:39:07Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -246,11 +246,6 @@ Component Status overview. Last update 2026-01-11T07:35:41Z
 - [Move yasmctl to frontend, instrument http client](https://github.com/PRODYNA-YASM/yasmctl/releases/tag/1.76.1) on 2025-10-31 22:15:14 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #502 from PRODYNA-YASM/dependabot/go_modules/go.op…](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/20175123526) created on 2025-12-12 17:44:55 +0000 UTC
 
 
 
