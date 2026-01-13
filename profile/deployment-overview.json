@@ -559,8 +559,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "feat: 763 set end date for open project participations during anonymi…",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/810"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
@@ -2882,5 +2887,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-01-12T07:39:07Z"
+  "LastUpdated": "2026-01-13T07:37:33Z"
 }
