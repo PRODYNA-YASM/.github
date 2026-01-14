@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-01-13T07:37:33Z
+Component Status overview. Last update 2026-01-14T07:38:04Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [25](https://github.com/prodyna-yasm/yasm-backend/compare/1.76.1..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.76.1 |  :red_square: 05f365a |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-frontend/compare/1.76.1..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.76.1 |  :red_square: 81f3bb0 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [25](https://github.com/prodyna-yasm/yasm-backend/compare/1.76.1..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.76.1 |  :red_square: 05f365a |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [7](https://github.com/prodyna-yasm/yasm-frontend/compare/1.76.1..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.76.1 |  :red_square: 4f5c264 |  :green_square: 1.76.1 |  :green_square: 1.76.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [1](https://github.com/prodyna-yasm/yasm-integration/compare/1.76.9..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.76.9 |  :red_square: 22ae779 |  :green_square: 1.76.9 |  :green_square: 1.76.9 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.76.3 |  :green_square: 1.76.3 |  :green_square: 1.76.3 |  :red_square: 1.76.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.26.2 |  :green_square: 1.26.2 |  :green_square: 1.26.2 |  :red_square: 1.26.1 | 
@@ -87,7 +87,9 @@ Component Status overview. Last update 2026-01-13T07:37:33Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (5)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (6)
+
+- [fix: 1022 set generated PDF size to A4 dimensions](https://github.com/PRODYNA-YASM/yasm-backend/pull/973)
 
 - [build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 6.1.1 to 6.2.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/971)
 
@@ -128,7 +130,13 @@ Component Status overview. Last update 2026-01-13T07:37:33Z
 
 
 
-### [Commits on main since 1.76.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.76.1..HEAD) (4)
+### [Commits on main since 1.76.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.76.1..HEAD) (7)
+
+- [feat: Add comprehensive README with architecture diagrams and environment documentation (#1118)](https://github.com/prodyna-yasm/yasm-frontend/commit/461624bf335571988e589c9968248dba3bdbe5f6) by [Copilot](https://github.com/Copilot) on 2026-01-13 12:42:21 +0000 UTC
+
+- [fix(deps): update dependencies to patch security vulnerabilities (#1142)](https://github.com/prodyna-yasm/yasm-frontend/commit/4f5c2644648811312e1ba1f6d15afcca300c080b) by [TD99](https://github.com/TD99) on 2026-01-13 12:13:32 +0000 UTC
+
+- [feat: 995 share yasm search in url (#1136)](https://github.com/prodyna-yasm/yasm-frontend/commit/268f0c16219ac47e8b40ad6516fc86a7523893b3) by [ig0rserov](https://github.com/ig0rserov) on 2026-01-13 12:04:48 +0000 UTC
 
 - [fix: 996 reset form values and dialog state on close in AddProject and ExportUserProfile dialogs (#1139)](https://github.com/prodyna-yasm/yasm-frontend/commit/81f3bb0717a0f6bb6938bd2d42b85acaed21c580) by [ig0rserov](https://github.com/ig0rserov) on 2026-01-05 12:27:37 +0000 UTC
 
@@ -141,13 +149,7 @@ Component Status overview. Last update 2026-01-13T07:37:33Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (9)
-
-- [feat: 995 share yasm search in url](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1136)
-
-- [chore: bump js-yaml from 4.1.0 to 4.1.1 in the npm_and_yarn group across 1 directory](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1131)
-
-- [feat: Add comprehensive README with architecture diagrams and environment documentation](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1118)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
 
 - [chore: bump @opentelemetry/resources from 1.30.1 to 2.2.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1113)
 
@@ -167,7 +169,7 @@ Component Status overview. Last update 2026-01-13T07:37:33Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  81f3bb0 |  1.76.1 |  1.76.1 | 
+| Version |  4f5c264 |  1.76.1 |  1.76.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
