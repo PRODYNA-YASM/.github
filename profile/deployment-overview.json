@@ -410,8 +410,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "chore: bump node from 25.2.1-slim to 25.3.0-slim",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1143"
+          },
           {
             "Title": "chore: bump @opentelemetry/resources from 1.30.1 to 2.2.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1113"
@@ -944,7 +948,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d89fab0",
+          "Version": "0808005",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1001,8 +1005,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.6..HEAD",
-        "Count": 9,
+        "Count": 11,
         "Commits": [
+          {
+            "Text": "Merge pull request #309 from PRODYNA-YASM/dependabot/go_modules/github.com/go-chi/chi/v5-5.2.4",
+            "SHA": "0808005bd2ffd874254fe33194e5273e4c5ee034",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-14T17:10:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/0808005bd2ffd874254fe33194e5273e4c5ee034"
+          },
+          {
+            "Text": "Bump github.com/go-chi/chi/v5 from 5.2.3 to 5.2.4",
+            "SHA": "3c471e5313d72e5b3b1131675a48439cba2afca1",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-01-14T16:54:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/3c471e5313d72e5b3b1131675a48439cba2afca1"
+          },
           {
             "Text": "Update libst push",
             "SHA": "d89fab01c888a07a96dc6607d722dfa4a4579bf0",
@@ -1161,8 +1185,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-data/pulls",
-        "Count": 4,
+        "Count": 5,
         "PullRequests": [
+          {
+            "Title": "Bump styfle/cancel-workflow-action from 0.12.1 to 0.13.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-data/pull/126"
+          },
           {
             "Title": "Bump actions/checkout from 4 to 6",
             "Link": "https://github.com/PRODYNA-YASM/yasm-data/pull/125"
@@ -2909,5 +2937,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-01-14T07:38:04Z"
+  "LastUpdated": "2026-01-15T07:38:12Z"
 }
