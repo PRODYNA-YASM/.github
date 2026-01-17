@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "ab6d0e5",
+          "Version": "826e970",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -59,12 +59,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 3,
+        "Count": 2,
         "PullRequests": [
-          {
-            "Title": "build: add github test coverage",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/976"
-          },
           {
             "Title": "build(deps): bump xml-apis:xml-apis from 1.4.01 to 2.0.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/902"
@@ -78,8 +74,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.76.1..HEAD",
-        "Count": 28,
+        "Count": 29,
         "Commits": [
+          {
+            "Text": "docs: Migrate JavaDoc to JDK 25 markdown syntax with practical examples (#979)",
+            "SHA": "826e970d77cc5e25a136b7859c7be94311739966",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-01-16T19:12:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/826e970d77cc5e25a136b7859c7be94311739966"
+          },
           {
             "Text": "build(deps): bump org.jsoup:jsoup from 1.21.2 to 1.22.1 (#970)",
             "SHA": "ab6d0e58a3d19b50702aa40214401e58b188f2d1",
@@ -577,8 +583,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "Fix some metrics context stuff",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/816"
+          },
           {
             "Title": "feat: 763 set end date for open project participations during anonymi…",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/810"
@@ -657,8 +667,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Update all libs",
+            "Link": "https://github.com/PRODYNA-YASM/yasmctl/pull/505"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
@@ -716,9 +731,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.26.1",
+          "Version": "1.26.3",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -766,13 +781,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
-          {
-            "Name": "Merge pull request #369 from PRODYNA-YASM/feature/remove-dency-license",
-            "Timestamp": "2026-01-16T11:43:06Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/21065500030"
-          },
           {
             "Name": "Merge pull request #363 from PRODYNA-YASM/dependabot/go_modules/go.op…",
             "Timestamp": "2026-01-06T13:26:54Z",
@@ -2639,5 +2649,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-01-16T15:00:01Z"
+  "LastUpdated": "2026-01-17T07:34:38Z"
 }
