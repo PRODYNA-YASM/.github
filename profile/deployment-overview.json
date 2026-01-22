@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump quarkus.platform.version from 3.30.6 to 3.30.7",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/990"
+          },
           {
             "Title": "build(deps): bump xml-apis:xml-apis from 1.4.01 to 2.0.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/902"
@@ -393,7 +397,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "51daf8b",
+          "Version": "2bcc663",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -444,8 +448,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 8,
+        "Count": 10,
         "PullRequests": [
+          {
+            "Title": "chore: bump lodash from 4.17.21 to 4.17.23 in the npm_and_yarn group across 1 directory",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1162"
+          },
+          {
+            "Title": "feat: 551 display nationalities in PersonInformation component",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1160"
+          },
           {
             "Title": "chore: bump node from 25.3.0-slim to 25.4.0-slim",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1159"
@@ -483,8 +495,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.76.2..HEAD",
-        "Count": 8,
+        "Count": 9,
         "Commits": [
+          {
+            "Text": "feat: add stacked chips and more trophies to Feature/649 feature request add belongingloyalty batch for years at prodyna (#1161)",
+            "SHA": "2bcc663fc43d08d109333c67009948888e7bc7cb",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-01-21T10:38:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2bcc663fc43d08d109333c67009948888e7bc7cb"
+          },
           {
             "Text": "feat: Feature/649 feature request add belongingloyalty batch for years at prodyna (#1157)",
             "SHA": "51daf8b41bf6b409c7aa2a1ac076969c82bf9aa7",
@@ -588,7 +610,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "4984b8b",
+          "Version": "a76138d",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -625,19 +647,164 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump github.com/prodyna-yasm/yasm-api-go from 1.79.0 to 1.81.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/850"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.76.11..HEAD",
-        "Count": 15,
+        "Count": 30,
         "Commits": [
+          {
+            "Text": "Fix language sync to compare by Code field and surface API error details (#868)",
+            "SHA": "a76138d42574af56a8a69048e17acd3186eaa6bf",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-01-21T21:59:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/a76138d42574af56a8a69048e17acd3186eaa6bf"
+          },
+          {
+            "Text": "Some updates to the documentation",
+            "SHA": "0456dee794695b2316207928a0ef4cfe80615605",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-21T18:36:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/0456dee794695b2316207928a0ef4cfe80615605"
+          },
+          {
+            "Text": "Add --delete-languages flag to sync coredata command (#866)",
+            "SHA": "a8b4021ed1bb48b2370d16d0d420871c9eea182c",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-01-21T18:13:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/a8b4021ed1bb48b2370d16d0d420871c9eea182c"
+          },
+          {
+            "Text": "Rename aad to entraid throughout codebase (#864)",
+            "SHA": "cb53e280e9971a25b3467ca735aef066a2a0c0e8",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-01-21T17:34:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/cb53e280e9971a25b3467ca735aef066a2a0c0e8"
+          },
+          {
+            "Text": "Reflect simpler credential secret names",
+            "SHA": "967b2312c25f69166ff5a6f1993c7f843dec3854",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-21T16:52:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/967b2312c25f69166ff5a6f1993c7f843dec3854"
+          },
+          {
+            "Text": "Merge branch 'main' of ssh://github.com/prodyna-yasm/yasm-integration",
+            "SHA": "70a2d59eac0281a10e46c14013dea46ed03dbb49",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-21T16:42:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/70a2d59eac0281a10e46c14013dea46ed03dbb49"
+          },
+          {
+            "Text": "Update secret names again",
+            "SHA": "dd5677e52b280508b21fb37eebf09fbc8ceaf03f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-21T16:40:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/dd5677e52b280508b21fb37eebf09fbc8ceaf03f"
+          },
+          {
+            "Text": "859 fix names for secrets (#862)",
+            "SHA": "bb1b81996757e1f5c3a3b322c1258b9925da5ac1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-21T16:37:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/bb1b81996757e1f5c3a3b322c1258b9925da5ac1"
+          },
+          {
+            "Text": "859 fix names for secrets (#861)",
+            "SHA": "92fa49adf6578cd908c9a797f720ae3486f71119",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-21T15:07:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/92fa49adf6578cd908c9a797f720ae3486f71119"
+          },
+          {
+            "Text": "Fix secret names (#860)",
+            "SHA": "681fa47799073c9eb1a240ec0724bdf0ca8489d3",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-21T14:32:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/681fa47799073c9eb1a240ec0724bdf0ca8489d3"
+          },
+          {
+            "Text": "Implement language synchronization in coredata sync (#858)",
+            "SHA": "f17bbae7098f5754bdc1d75dff7cdb7eaa3e9018",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-01-21T12:31:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/f17bbae7098f5754bdc1d75dff7cdb7eaa3e9018"
+          },
+          {
+            "Text": "Align OpenTelemetry tracer names with package structure and instrument lookup methods (#856)",
+            "SHA": "ddb57f1271a518a2fdf93ae4e4720d7be46ce625",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-01-21T11:39:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/ddb57f1271a518a2fdf93ae4e4720d7be46ce625"
+          },
+          {
+            "Text": "Add coredata sync with YASM integration and deployment pipeline (#854)",
+            "SHA": "730565885f9a8c4eff39dae0d3a5bb99f6bd36fa",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-01-21T10:50:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/730565885f9a8c4eff39dae0d3a5bb99f6bd36fa"
+          },
+          {
+            "Text": "Externalize country-nationality mappings to JSON (#852)",
+            "SHA": "0f2d3c5f06e278febba1881ab9e947a2d8391c42",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-01-21T10:18:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/0f2d3c5f06e278febba1881ab9e947a2d8391c42"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.79.0 to 1.81.0 (#850)",
+            "SHA": "a04c867604dbc74bfc515491255a9c049cb65047",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-01-21T08:12:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/a04c867604dbc74bfc515491255a9c049cb65047"
+          },
           {
             "Text": "Implement nationality handling via Country API relationships (#847)",
             "SHA": "4984b8b3523a7a49b9db18a6820c4e63cf0bb38b",
@@ -1243,7 +1410,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "459db37",
+          "Version": "556b382",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1294,19 +1461,34 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "build(deps): bump github.com/prodyna-yasm/yasm-api-go from 1.78.0 to 1.81.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/320"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.76.6..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #320 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.81.0",
+            "SHA": "556b38238acc404456b9f93e9f8a5800abb11b1a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-21T08:12:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/556b38238acc404456b9f93e9f8a5800abb11b1a"
+          },
+          {
+            "Text": "build(deps): bump github.com/prodyna-yasm/yasm-api-go",
+            "SHA": "84a4455b760fa82f99be542ea1d8215e45ae0580",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-01-21T05:17:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/84a4455b760fa82f99be542ea1d8215e45ae0580"
+          },
           {
             "Text": "Merge pull request #319 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.78.0",
             "SHA": "459db377fadd3ec7667641b958ecd1df8859df15",
@@ -2009,7 +2191,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "56fa2e7",
+          "Version": "68d98d2",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2060,15 +2242,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 5,
+        "Count": 4,
         "PullRequests": [
           {
-            "Title": "Bump integrations/github from 6.10.1 to 6.10.2 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1211"
-          },
-          {
-            "Title": "Remove replicas",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1208"
+            "Title": "Bump DataDog/datadog from 3.84.0 to 3.85.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1216"
           },
           {
             "Title": "Optimize observability stack: reduce resources, implement tail sampling, standardize retention",
@@ -2087,8 +2265,128 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.77.0..HEAD",
-        "Count": 3,
+        "Count": 16,
         "Commits": [
+          {
+            "Text": "AAD -\u003e ENTRAID",
+            "SHA": "68d98d2fa543f603897002aafa08973392420387",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-21T18:22:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/68d98d2fa543f603897002aafa08973392420387"
+          },
+          {
+            "Text": "Distinct names for credentials",
+            "SHA": "871fe2b843669e183495242c48238ef16ec06dd1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-21T16:50:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/871fe2b843669e183495242c48238ef16ec06dd1"
+          },
+          {
+            "Text": "Rename secrets for consistency",
+            "SHA": "50edfb491a6b2a1b6c431f968e747bfefdbd14dc",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-21T16:36:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/50edfb491a6b2a1b6c431f968e747bfefdbd14dc"
+          },
+          {
+            "Text": "Merge pull request #1215 from PRODYNA-YASM/1212-credentials-for-yasm-integration-sync-coredata",
+            "SHA": "1fcad2490ea5690c30b2f0e6ce30ce00e58a8e1e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-21T14:42:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1fcad2490ea5690c30b2f0e6ce30ce00e58a8e1e"
+          },
+          {
+            "Text": "Use generic names",
+            "SHA": "4a6715aafcb65c027d5ff04018cad7c6fb349bb6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-21T14:36:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/4a6715aafcb65c027d5ff04018cad7c6fb349bb6"
+          },
+          {
+            "Text": "Merge pull request #1214 from PRODYNA-YASM/1212-credentials-for-yasm-integration-sync-coredata",
+            "SHA": "9a77e935e1c8d8fd149a8263ed8f69520c921676",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-21T14:06:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/9a77e935e1c8d8fd149a8263ed8f69520c921676"
+          },
+          {
+            "Text": "Fix namings",
+            "SHA": "68b69f3e880b4a55daccf78acf57f8ce380db462",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-21T13:58:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/68b69f3e880b4a55daccf78acf57f8ce380db462"
+          },
+          {
+            "Text": "Fix duplicate name",
+            "SHA": "85f6be3553182fda1cde0a5b27e229c803c45097",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-21T13:56:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/85f6be3553182fda1cde0a5b27e229c803c45097"
+          },
+          {
+            "Text": "Merge pull request #1213 from PRODYNA-YASM/1212-credentials-for-yasm-integration-sync-coredata",
+            "SHA": "24f4fbeb1d23939d7f28028d97991edbd995f8eb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-21T13:52:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/24f4fbeb1d23939d7f28028d97991edbd995f8eb"
+          },
+          {
+            "Text": "Update GitHub provider",
+            "SHA": "632938ef3b4d61cbba66b99afc4aa4996b4a854f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-21T13:49:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/632938ef3b4d61cbba66b99afc4aa4996b4a854f"
+          },
+          {
+            "Text": "Create secret for yasm-integration-sync-coredata",
+            "SHA": "eb3b3e8d86f0c3202197a18e413ee2361eac5905",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-21T13:49:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/eb3b3e8d86f0c3202197a18e413ee2361eac5905"
+          },
+          {
+            "Text": "Merge pull request #1208 from PRODYNA-YASM/feature/dapr-replicas-1",
+            "SHA": "30140d61d24d007ce60a0cdf30b652126cfc1f7c",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-21T11:14:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/30140d61d24d007ce60a0cdf30b652126cfc1f7c"
+          },
           {
             "Text": "Merge pull request #1210 from PRODYNA-YASM/feature/update-some-componenets",
             "SHA": "56fa2e72c33e429850db8ab81a60960deaec90b8",
@@ -2118,6 +2416,16 @@
             },
             "Timestamp": "2026-01-20T11:42:15Z",
             "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/92f97ad1a252a556e46abbfaed08b035c2791826"
+          },
+          {
+            "Text": "Remove replicas",
+            "SHA": "e7f4797abd06ce646660543a46f9f621c3346f14",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-18T11:51:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e7f4797abd06ce646660543a46f9f621c3346f14"
           }
         ]
       },
@@ -3276,5 +3584,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-01-21T07:40:36Z"
+  "LastUpdated": "2026-01-22T07:40:21Z"
 }
