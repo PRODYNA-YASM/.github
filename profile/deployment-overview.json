@@ -8,9 +8,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.81.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "5313caa",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -62,8 +62,8 @@
         "Count": 4,
         "PullRequests": [
           {
-            "Title": "feat: Feature/1025 feature request add belongingloyalty batches and employeesince to the profile pdfs",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/991"
+            "Title": "build(deps-dev): bump com.diffplug.spotless:spotless-maven-plugin from 3.1.0 to 3.2.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/992"
           },
           {
             "Title": "build(deps): bump quarkus.platform.version from 3.30.6 to 3.30.7",
@@ -82,8 +82,19 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "feat: Feature/1025 feature request add belongingloyalty batches and employeesince to the profile pdfs (#991)",
+            "SHA": "5313caa7e5b0a0e0a0b9e001dbaf267715e995b3",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-01-22T14:15:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/5313caa7e5b0a0e0a0b9e001dbaf267715e995b3"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -106,9 +117,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.81.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "7f05c2c",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -157,12 +168,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 10,
+        "Count": 9,
         "PullRequests": [
-          {
-            "Title": "feat: Feature/1025 feature request add belongingloyalty batches and employeesince to the profile pdfs",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1163"
-          },
           {
             "Title": "chore: bump lodash from 4.17.21 to 4.17.23 in the npm_and_yarn group across 1 directory",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1162"
@@ -204,8 +211,19 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "feat: Feature/1025 feature request add belongingloyalty batches and employeesince to the profile pdfs (#1163)",
+            "SHA": "7f05c2c3aa5843206c991395b4e99781913c3f3b",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-01-22T14:40:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7f05c2c3aa5843206c991395b4e99781913c3f3b"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -228,26 +246,33 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.81.0",
+          "Version": "1.81.1",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.81.0",
+          "Version": "1.81.1",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.81.0",
+        "Tag": "1.81.1",
         "SHA": "",
-        "Title": "Remove EntraID Extension Attributes, replaced by MaconomyDHW, new sync coredata (incomplete), cleanups, bug fixes",
-        "Timestamp": "2026-01-22T12:56:43Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.81.0"
+        "Title": "Trigger anonymization based on employment termination date",
+        "Timestamp": "2026-01-22T23:30:13Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.81.1"
       },
       "Releases": [
+        {
+          "Tag": "1.81.1",
+          "SHA": "",
+          "Title": "Trigger anonymization based on employment termination date",
+          "Timestamp": "2026-01-22T23:05:42Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.81.1"
+        },
         {
           "Tag": "1.81.0",
           "SHA": "",
@@ -261,19 +286,20 @@
           "Title": "Remove platforms",
           "Timestamp": "2026-01-16T13:51:06Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.76.11"
-        },
-        {
-          "Tag": "1.76.10",
-          "SHA": "",
-          "Title": "Remove platform, API 1.77.0, library updates",
-          "Timestamp": "2026-01-16T11:22:36Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.76.10"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 1,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.93.0 to 1.94.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/876"
+          },
+          {
+            "Title": "Fix: Prevent anonymization of Entra ID users with invalid Maconomy data",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/873"
+          },
           {
             "Title": "Add sync for locations and organizations core data",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/872"
@@ -282,7 +308,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.81.0..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.81.1..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -293,9 +319,9 @@
         "Count": 1,
         "Workflows": [
           {
-            "Name": "Fix some language formatting",
-            "Timestamp": "2026-01-22T12:56:45Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/21249287516"
+            "Name": "Trigger anonymization based on employment termination date from Macon…",
+            "Timestamp": "2026-01-22T23:30:15Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/21268669703"
           }
         ]
       }
@@ -388,14 +414,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.26.4",
+          "Version": "1.26.5",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.26.4",
+          "Version": "1.26.5",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -404,17 +430,24 @@
           "Link": "",
           "Version": "1.26.4",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.26.4",
+        "Tag": "1.26.5",
         "SHA": "",
-        "Title": "Replace cobra/viper with cli, employee info",
-        "Timestamp": "2026-01-22T13:05:31Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.26.4"
+        "Title": "Support for employeeTerminateDate",
+        "Timestamp": "2026-01-22T23:25:34Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.26.5"
       },
       "Releases": [
+        {
+          "Tag": "1.26.5",
+          "SHA": "",
+          "Title": "Support for employeeTerminateDate",
+          "Timestamp": "2026-01-22T17:23:35Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.26.5"
+        },
         {
           "Tag": "1.26.4",
           "SHA": "",
@@ -428,13 +461,6 @@
           "Title": "employeeinfo: Getting nationality and emplyedSince-Date from MaconomyDWH",
           "Timestamp": "2026-01-16T11:35:36Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.26.3"
-        },
-        {
-          "Tag": "1.26.2",
-          "SHA": "",
-          "Title": "OpenTelemetry 1.39",
-          "Timestamp": "2025-12-22T14:47:18Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/releases/tag/1.26.2"
         }
       ],
       "PullRequests": {
@@ -444,7 +470,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.4..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.5..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -452,8 +478,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 1,
+        "Count": 2,
         "Workflows": [
+          {
+            "Name": "Merge pull request #373 from PRODYNA-YASM/372-include-termination_dat…",
+            "Timestamp": "2026-01-22T23:25:36Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/21268562788"
+          },
           {
             "Name": "Merge pull request #363 from PRODYNA-YASM/dependabot/go_modules/go.op…",
             "Timestamp": "2026-01-06T13:26:54Z",
@@ -790,203 +821,6 @@
       }
     },
     {
-      "Name": "yasm-data",
-      "Error": "",
-      "Environments": [
-        {
-          "Name": "dev",
-          "Link": "",
-          "Version": "0b66464",
-          "IsRelease": false,
-          "IsCurrent": false
-        },
-        {
-          "Name": "staging",
-          "Link": "",
-          "Version": "1.37.0",
-          "IsRelease": true,
-          "IsCurrent": true
-        },
-        {
-          "Name": "prod",
-          "Link": "",
-          "Version": "1.37.0",
-          "IsRelease": true,
-          "IsCurrent": true
-        }
-      ],
-      "LatestRelease": {
-        "Tag": "1.37.0",
-        "SHA": "",
-        "Title": "Component update (pipeline)",
-        "Timestamp": "2024-07-24T07:09:38Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-data/releases/tag/1.37.0"
-      },
-      "Releases": [
-        {
-          "Tag": "1.37.0",
-          "SHA": "",
-          "Title": "Component update (pipeline)",
-          "Timestamp": "2024-06-18T13:07:30Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-data/releases/tag/1.37.0"
-        },
-        {
-          "Tag": "1.26.0",
-          "SHA": "",
-          "Title": "Add some roles",
-          "Timestamp": "2024-04-29T06:13:23Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-data/releases/tag/1.26.0"
-        },
-        {
-          "Tag": "1.10.2",
-          "SHA": "",
-          "Title": "New roles",
-          "Timestamp": "2024-04-29T06:13:23Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-data/releases/tag/1.10.2"
-        }
-      ],
-      "PullRequests": {
-        "Link": "https://github.com/prodyna-yasm/yasm-data/pulls",
-        "Count": 5,
-        "PullRequests": [
-          {
-            "Title": "Bump styfle/cancel-workflow-action from 0.12.1 to 0.13.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-data/pull/126"
-          },
-          {
-            "Title": "Bump actions/checkout from 4 to 6",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-data/pull/125"
-          },
-          {
-            "Title": "Replace cancel-previous-runs job with native concurrency feature",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-data/pull/124"
-          },
-          {
-            "Title": "Replace cancel-workflow-action with native concurrency control",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-data/pull/123"
-          },
-          {
-            "Title": "feat: add Jupyter notebook for updating user profiles and assigning r…",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-data/pull/121"
-          }
-        ]
-      },
-      "Link": "https://github.com/prodyna-yasm/yasm-data",
-      "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-data/compare/1.37.0..HEAD",
-        "Count": 10,
-        "Commits": [
-          {
-            "Text": "Merge pull request #120 from PRODYNA-YASM/feature/644_add-awards-to-fulltext-search",
-            "SHA": "03f633effd7918658b514e962287dac8430aae4a",
-            "Author": {
-              "name": "irhox",
-              "link": "https://github.com/irhox"
-            },
-            "Timestamp": "2025-02-17T12:37:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-data/commit/03f633effd7918658b514e962287dac8430aae4a"
-          },
-          {
-            "Text": "#644 add awards to fulltext index",
-            "SHA": "fc5958fe63dd3e869302a6122fb1e2ac9295a450",
-            "Author": {
-              "name": "irhox",
-              "link": "https://github.com/irhox"
-            },
-            "Timestamp": "2025-02-06T12:09:09Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-data/commit/fc5958fe63dd3e869302a6122fb1e2ac9295a450"
-          },
-          {
-            "Text": "Merge pull request #119 from PRODYNA-YASM/feature/add_python_notebooks_to_upload_data",
-            "SHA": "0b66464914ff58385b4fe3ab12a02da17f7ad2ce",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-01-30T14:44:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-data/commit/0b66464914ff58385b4fe3ab12a02da17f7ad2ce"
-          },
-          {
-            "Text": "feat: add jupyter notebooks to upload data",
-            "SHA": "38e3cc97589b014487c5bb3620647389bbff0cca",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-01-30T13:35:00Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-data/commit/38e3cc97589b014487c5bb3620647389bbff0cca"
-          },
-          {
-            "Text": "feat: add jupyter notebooks to upload data",
-            "SHA": "0d16aca0fe0cda64067b4e91085b5a78e102d113",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-01-30T13:33:30Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-data/commit/0d16aca0fe0cda64067b4e91085b5a78e102d113"
-          },
-          {
-            "Text": "feat: add jupyter notebooks to upload data",
-            "SHA": "ddd0818953e1ded4ba1e5a6f280414cfa4fa775d",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-01-30T13:32:48Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-data/commit/ddd0818953e1ded4ba1e5a6f280414cfa4fa775d"
-          },
-          {
-            "Text": "Merge pull request #118 from PRODYNA-YASM/feat/324-project-image",
-            "SHA": "712a98811db434c6f696ad26a3d191fa4d41be47",
-            "Author": {
-              "name": "coding4kay",
-              "link": "https://github.com/coding4kay"
-            },
-            "Timestamp": "2025-01-30T13:13:00Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-data/commit/712a98811db434c6f696ad26a3d191fa4d41be47"
-          },
-          {
-            "Text": "Separate layouts into separate file",
-            "SHA": "393f5d9a72cb7c8b10c1d9ea0a43b6aa436b0865",
-            "Author": {
-              "name": "jding31",
-              "link": "https://github.com/jding31"
-            },
-            "Timestamp": "2025-01-30T06:17:28Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-data/commit/393f5d9a72cb7c8b10c1d9ea0a43b6aa436b0865"
-          },
-          {
-            "Text": "correct the device type",
-            "SHA": "bd3eb1792a33e56e1485eb42127307bf17c83e67",
-            "Author": {
-              "name": "jding31",
-              "link": "https://github.com/jding31"
-            },
-            "Timestamp": "2025-01-29T15:58:41Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-data/commit/bd3eb1792a33e56e1485eb42127307bf17c83e67"
-          },
-          {
-            "Text": "feat: Add layouts data",
-            "SHA": "c1bb4d4f54893c0bd203e73bc04166d07ca16ce2",
-            "Author": {
-              "name": "jding31",
-              "link": "https://github.com/jding31"
-            },
-            "Timestamp": "2025-01-29T15:53:03Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-data/commit/c1bb4d4f54893c0bd203e73bc04166d07ca16ce2"
-          }
-        ]
-      },
-      "DefaultBranch": "main",
-      "Tags": null,
-      "Workflows": {
-        "Link": "https://github.com/prodyna-yasm/yasm-data/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
-      }
-    },
-    {
       "Name": "yasm-external",
       "Error": "",
       "Environments": [
@@ -1266,8 +1100,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 4,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "Bump hashicorp/azurerm from 4.57.0 to 4.58.0 in /terraform/kubernetes",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1219"
+          },
+          {
+            "Title": "Bump hashicorp/azurerm from 4.57.0 to 4.58.0 in /terraform/azure",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1218"
+          },
           {
             "Title": "Bump DataDog/datadog from 3.84.0 to 3.85.0 in /terraform/kubernetes",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1216"
@@ -2133,14 +1975,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "pre release updates (#296)",
-            "Timestamp": "2026-01-22T13:22:49Z",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/actions/runs/21250089167"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     }
   ],
@@ -2158,5 +1994,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-01-22T13:30:07Z"
+  "LastUpdated": "2026-01-23T07:38:15Z"
 }
