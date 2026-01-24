@@ -1,26 +1,26 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-01-23T07:38:15Z
+Component Status overview. Last update 2026-01-24T07:34:37Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.81.0 |  :red_square: 5313caa |  :green_square: 1.81.0 |  :red_square: 1.76.1 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: 7f05c2c |  :green_square: 1.81.0 |  :red_square: 1.76.1 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.81.1 |  :green_square: 1.81.1 |  :green_square: 1.81.1 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.81.2 |  :green_square: 1.81.2 |  :green_square: 1.81.2 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.81.0 |  :green_square: 1.81.0 |  :green_square: 1.81.0 |  :red_square: 1.76.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.26.5 |  :green_square: 1.26.5 |  :green_square: 1.26.5 |  :red_square: 1.26.4 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :green_square: 0 | :green_square: 0 | 1.81.0 |  :green_square: 1.81.0 |  :green_square: 1.81.0 |  :red_square: 1.76.6 | 
-| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 |  :green_square: 1.13.5 | 
-| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [9](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.7..HEAD) | :green_square: 0 | 1.15.7 |  :red_square: 849a2dc |  :green_square: 1.15.7 |  :green_square: 1.15.7 | 
-| [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [2](https://github.com/prodyna-yasm/yasm-external/compare/1.2.15..HEAD) | :green_square: 0 | 1.2.15 |  :red_square: adb41b2 |  :green_square: 1.2.15 |  :green_square: 1.2.15 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :green_square: 0 | :green_square: 0 | 1.81.1 |  :green_square: 1.81.1 |  :green_square: 1.81.1 |  :red_square: 1.76.6 | 
+| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.14.1 |  :green_square: 1.14.1 |  :green_square: 1.14.1 |  :green_square: 1.14.1 | 
+| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.15.8 |  :green_square: 1.15.8 |  :green_square: 1.15.8 |  :green_square: 1.15.8 | 
+| [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.16 |  :green_square: 1.2.16 |  :green_square: 1.2.16 |  :green_square: 1.2.16 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [5](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-0..HEAD) | :green_square: 0 | 8.26.0-0 |  :red_square: 87a70b7 |  :green_square: 8.26.0-0 |  :red_square: 8.24.0-0 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.81.0 |  :green_square: 1.81.0 |  :green_square: 1.81.0 |  :red_square: 1.77.0 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.76.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.76.2 | 
-| [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.81.0 | 
+| [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm/pulls) | 1.81.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.81.0 | 
-| [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :green_square: 0 | 1.81.0 | 
+| [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm/pulls) | 1.81.0 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [2](https://github.com/prodyna-yasm/yasm-test/compare/v1.74.1..HEAD) | :yellow_square: [16](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
-| [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [2](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.8.8..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-mainproject/pulls) | 1.8.8 |  :red_square: fe9151a |  :green_square: 1.8.8 |  :green_square: 1.8.8 | 
+| [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-mainproject/pulls) | 1.8.9 |  :green_square: 1.8.9 |  :green_square: 1.8.9 |  :green_square: 1.8.9 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [15](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :green_square: 0 | 1.3.0 |  :red_square: b00e5e6 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :green_square: 0 | :yellow_square: [9](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.1.0 |  :green_square: 2.1.0 |  :green_square: 2.1.0 |  :green_square: 2.1.0 | 
 
@@ -138,16 +138,14 @@ Component Status overview. Last update 2026-01-23T07:38:15Z
 
 
 
-## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.81.1
+## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.81.2
 
 
 
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (3)
-
-- [Bump github.com/microsoftgraph/msgraph-sdk-go from 1.93.0 to 1.94.0](https://github.com/PRODYNA-YASM/yasm-integration/pull/876)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (2)
 
 - [Fix: Prevent anonymization of Entra ID users with invalid Maconomy data](https://github.com/PRODYNA-YASM/yasm-integration/pull/873)
 
@@ -159,25 +157,25 @@ Component Status overview. Last update 2026-01-23T07:38:15Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  1.81.1 |  1.81.1 | 
+| Version |  1.81.2 |  1.81.2 | 
 | Release |  :green_square: |  :green_square: | 
 | Current |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Fix images](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.81.2) on 2026-01-23 12:16:00 +0000 UTC
+
 - [Trigger anonymization based on employment termination date](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.81.1) on 2026-01-22 23:05:42 +0000 UTC
 
 - [Remove EntraID Extension Attributes, replaced by MaconomyDHW, new sync coredata (incomplete), cleanups, bug fixes](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.81.0) on 2026-01-22 12:13:05 +0000 UTC
-
-- [Remove platforms](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.76.11) on 2026-01-16 13:51:06 +0000 UTC
 
 
 
 
 ### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (1)
 
-- [Trigger anonymization based on employment termination date from Macon…](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/21268669703) created on 2026-01-22 23:30:15 +0000 UTC
+- [Remove caching (#880)](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/21286231929) created on 2026-01-23 12:31:08 +0000 UTC
 
 
 
@@ -254,7 +252,7 @@ Component Status overview. Last update 2026-01-23T07:38:15Z
 
 
 
-## [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) 1.81.0
+## [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) 1.81.1
 
 
 
@@ -266,30 +264,30 @@ Component Status overview. Last update 2026-01-23T07:38:15Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.81.0 |  1.81.0 |  1.76.6 | 
+| Version |  1.81.1 |  1.81.1 |  1.76.6 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
 | Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
 
+- [Fix images](https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.81.1) on 2026-01-23 12:05:57 +0000 UTC
+
 - [API 1.81.0](https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.81.0) on 2026-01-21 08:12:06 +0000 UTC
 
 - [Remove platform](https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.76.6) on 2026-01-16 13:04:56 +0000 UTC
-
-- [Fix platforms](https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.76.5) on 2026-01-06 12:00:06 +0000 UTC
 
 
 
 
 ### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-metrics/actions?query=is%3Awaiting) (1)
 
-- [Merge pull request #320 from PRODYNA-YASM/dependabot/go_modules/githu…](https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/21249784506) created on 2026-01-22 13:13:13 +0000 UTC
+- [Merge pull request #321 from PRODYNA-YASM/feature/simplify-pipeline](https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/21286283543) created on 2026-01-23 12:33:05 +0000 UTC
 
 
 
 
-## [yasm-github](https://github.com/prodyna-yasm/yasm-github) 1.13.5
+## [yasm-github](https://github.com/prodyna-yasm/yasm-github) 1.14.1
 
 
 
@@ -306,48 +304,27 @@ Component Status overview. Last update 2026-01-23T07:38:15Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.13.5 |  1.13.5 |  1.13.5 | 
+| Version |  1.14.1 |  1.14.1 |  1.14.1 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
 | Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [qemu](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.14.1) on 2026-01-23 09:21:11 +0000 UTC
+
 - [Remove platform](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.13.5) on 2026-01-16 13:05:57 +0000 UTC
 
 - [Fix platforms](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.13.4) on 2026-01-06 11:57:25 +0000 UTC
 
-- [Workflow logic, reduce resources](https://github.com/PRODYNA-YASM/yasm-github/releases/tag/1.13.1) on 2025-12-19 14:27:25 +0000 UTC
 
 
 
 
 
-
-## [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) 1.15.7
-
+## [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) 1.15.8
 
 
-
-### [Commits on main since 1.15.7](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.7..HEAD) (9)
-
-- [Merge pull request #314 from PRODYNA-YASM/dependabot/docker/golang-1.25.6-alpine3.22](https://github.com/prodyna-yasm/yasm-geocoding/commit/849a2dc5db4b2429d406bea2e3863112fa0b64e7) by [dkrizic](https://github.com/dkrizic) on 2026-01-20 16:59:40 +0000 UTC
-
-- [Bump golang from 1.25.5-alpine3.22 to 1.25.6-alpine3.22](https://github.com/prodyna-yasm/yasm-geocoding/commit/15c889d25e66a9cd91fc53bf87deca68101253ce) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-01-20 16:53:50 +0000 UTC
-
-- [Merge pull request #312 from PRODYNA-YASM/copilot/replace-cobra-and-viper](https://github.com/prodyna-yasm/yasm-geocoding/commit/db11453b17d922863031da22edfd6b4eff853e2f) by [dkrizic](https://github.com/dkrizic) on 2026-01-19 00:45:36 +0000 UTC
-
-- [Add safe type assertion for shutdown function](https://github.com/prodyna-yasm/yasm-geocoding/commit/1ebb753f3d2b7ecb287d13dbf17dff9aff34e4ce) by [Copilot](https://github.com/Copilot) on 2026-01-19 00:37:17 +0000 UTC
-
-- [Remove global otelShutdown variable, use context instead](https://github.com/prodyna-yasm/yasm-geocoding/commit/be2de452f2feff806cb67ec8702b6cff6b71b159) by [Copilot](https://github.com/Copilot) on 2026-01-19 00:35:53 +0000 UTC
-
-- [Update constant/constant.go](https://github.com/prodyna-yasm/yasm-geocoding/commit/680c41ed5d5b55b0d3ef726f1f187c0e8b894aad) by [dkrizic](https://github.com/dkrizic) on 2026-01-19 00:30:19 +0000 UTC
-
-- [Fix redundant nil initialization](https://github.com/prodyna-yasm/yasm-geocoding/commit/231569a9be9f81c13655c52953b501cc5632e9f1) by [Copilot](https://github.com/Copilot) on 2026-01-19 00:09:46 +0000 UTC
-
-- [Replace cobra/viper with urfave/cli](https://github.com/prodyna-yasm/yasm-geocoding/commit/82c6e9edafb6fed550231df2f3879f6d6453e616) by [Copilot](https://github.com/Copilot) on 2026-01-19 00:07:00 +0000 UTC
-
-- [Initial plan](https://github.com/prodyna-yasm/yasm-geocoding/commit/9e55a94390a7880cb58fcc0208063b52225ed2aa) by [Copilot](https://github.com/Copilot) on 2026-01-19 00:01:08 +0000 UTC
 
 
 
@@ -357,34 +334,27 @@ Component Status overview. Last update 2026-01-23T07:38:15Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  849a2dc |  1.15.7 |  1.15.7 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.15.8 |  1.15.8 |  1.15.8 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
+
+- [Qemu](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.15.8) on 2026-01-23 11:34:00 +0000 UTC
 
 - [Remove platform, some library updates](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.15.7) on 2026-01-16 13:12:50 +0000 UTC
 
 - [OpenTelemetry 1.39.0](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.15.6) on 2025-12-19 14:36:30 +0000 UTC
 
-- [Improve docker image, resources, build caching, pipeline, Go 1.25.5](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.15.5) on 2025-12-04 16:51:13 +0000 UTC
 
 
 
 
 
-
-## [yasm-external](https://github.com/prodyna-yasm/yasm-external) 1.2.15
-
+## [yasm-external](https://github.com/prodyna-yasm/yasm-external) 1.2.16
 
 
-
-### [Commits on main since 1.2.15](https://github.com/prodyna-yasm/yasm-external/compare/1.2.15..HEAD) (2)
-
-- [Merge pull request #169 from PRODYNA-YASM/dependabot/docker/golang-1.25.6-alpine3.22](https://github.com/prodyna-yasm/yasm-external/commit/adb41b2a04c6de7adebc339f003569c7ab375f68) by [dkrizic](https://github.com/dkrizic) on 2026-01-20 09:55:50 +0000 UTC
-
-- [Bump golang from 1.25.5-alpine3.22 to 1.25.6-alpine3.22](https://github.com/prodyna-yasm/yasm-external/commit/4b8864e31e85f2fada6f3fb769e0ef6e44ebd68a) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-01-20 09:44:23 +0000 UTC
 
 
 
@@ -394,18 +364,18 @@ Component Status overview. Last update 2026-01-23T07:38:15Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  adb41b2 |  1.2.15 |  1.2.15 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.2.16 |  1.2.16 |  1.2.16 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Qemu](https://github.com/PRODYNA-YASM/yasm-external/releases/tag/1.2.16) on 2026-01-23 11:32:42 +0000 UTC
+
 - [Remove platform](https://github.com/PRODYNA-YASM/yasm-external/releases/tag/1.2.15) on 2026-01-16 12:59:36 +0000 UTC
 
 - [OpenTelemetry 1.39.0](https://github.com/PRODYNA-YASM/yasm-external/releases/tag/1.2.14) on 2025-12-19 14:31:10 +0000 UTC
-
-- [Go 1.25.5, resources and other updates](https://github.com/PRODYNA-YASM/yasm-external/releases/tag/1.2.13) on 2025-12-03 11:01:43 +0000 UTC
 
 
 
@@ -556,6 +526,11 @@ Component Status overview. Last update 2026-01-23T07:38:15Z
 
 
 
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm/pulls) (1)
+
+- [Document fix for double slash in GitHub profile URLs](https://github.com/PRODYNA-YASM/yasm/pull/1028)
+
+
 
 ### Environments
 
@@ -619,6 +594,11 @@ Component Status overview. Last update 2026-01-23T07:38:15Z
 
 
 
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm/pulls) (1)
+
+- [Document fix for double slash in GitHub profile URLs](https://github.com/PRODYNA-YASM/yasm/pull/1028)
 
 
 
@@ -716,21 +696,16 @@ Component Status overview. Last update 2026-01-23T07:38:15Z
 
 
 
-## [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) 1.8.8
+## [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) 1.8.9
 
 
 
 
-### [Commits on main since 1.8.8](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.8.8..HEAD) (2)
-
-- [Merge pull request #194 from PRODYNA-YASM/dependabot/docker/golang-1.25.6-alpine3.22](https://github.com/prodyna-yasm/yasm-mainproject/commit/fe9151ad893c425cfc5901786254ef773763572e) by [dkrizic](https://github.com/dkrizic) on 2026-01-20 16:32:03 +0000 UTC
-
-- [Bump golang from 1.25.5-alpine3.22 to 1.25.6-alpine3.22](https://github.com/prodyna-yasm/yasm-mainproject/commit/2b60f3865b0f4a3b2d626e2bf13d180ea8abbe27) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-01-20 16:14:20 +0000 UTC
 
 
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-mainproject/pulls) (2)
 
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-mainproject/pulls) (1)
+- [No buildx](https://github.com/PRODYNA-YASM/yasm-mainproject/pull/196)
 
 - [Update libs](https://github.com/PRODYNA-YASM/yasm-mainproject/pull/191)
 
@@ -740,18 +715,18 @@ Component Status overview. Last update 2026-01-23T07:38:15Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  fe9151a |  1.8.8 |  1.8.8 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.8.9 |  1.8.9 |  1.8.9 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Qemu](https://github.com/PRODYNA-YASM/yasm-mainproject/releases/tag/1.8.9) on 2026-01-23 11:35:35 +0000 UTC
+
 - [Remove platforms](https://github.com/PRODYNA-YASM/yasm-mainproject/releases/tag/1.8.8) on 2026-01-16 13:10:21 +0000 UTC
 
 - [OpenTelemetry 1.39.0](https://github.com/PRODYNA-YASM/yasm-mainproject/releases/tag/1.8.7) on 2025-12-19 14:37:31 +0000 UTC
-
-- [Go 1.25.5, workflow optimizations, other updates, resources](https://github.com/PRODYNA-YASM/yasm-mainproject/releases/tag/1.8.6) on 2025-12-04 17:10:16 +0000 UTC
 
 
 
