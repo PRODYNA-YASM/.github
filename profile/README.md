@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-01-24T07:34:37Z
+Component Status overview. Last update 2026-01-25T07:35:49Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -14,7 +14,7 @@ Component Status overview. Last update 2026-01-24T07:34:37Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.15.8 |  :green_square: 1.15.8 |  :green_square: 1.15.8 |  :green_square: 1.15.8 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.16 |  :green_square: 1.2.16 |  :green_square: 1.2.16 |  :green_square: 1.2.16 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [5](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-0..HEAD) | :green_square: 0 | 8.26.0-0 |  :red_square: 87a70b7 |  :green_square: 8.26.0-0 |  :red_square: 8.24.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.81.0 |  :green_square: 1.81.0 |  :green_square: 1.81.0 |  :red_square: 1.77.0 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [9](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.81.0 |  :red_square: 0f3e0de |  :green_square: 1.81.0 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.76.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.76.2 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm/pulls) | 1.81.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.81.0 | 
@@ -430,6 +430,27 @@ Component Status overview. Last update 2026-01-24T07:34:37Z
 
 
 
+### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.0..HEAD) (9)
+
+- [UPdate to 0.5.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0f3e0de6618d828c17db9fc707520e5f70edc15b) by [dkrizic](https://github.com/dkrizic) on 2026-01-25 01:29:08 +0000 UTC
+
+- [Merge pull request #1224 from PRODYNA-YASM/1220-install-feature-for-frontend](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/af26c1f30483941804ea5facf23e364e8280f70a) by [dkrizic](https://github.com/dkrizic) on 2026-01-25 01:09:49 +0000 UTC
+
+- [Use new restart feature](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/695964f5f752842306595697e0293e5e4ad1978d) by [dkrizic](https://github.com/dkrizic) on 2026-01-25 00:53:48 +0000 UTC
+
+- [Merge pull request #1223 from PRODYNA-YASM/1220-install-feature-for-frontend](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e92b584569b2fae836c10b20660dd4134a685b58) by [dkrizic](https://github.com/dkrizic) on 2026-01-25 00:10:58 +0000 UTC
+
+- [Put config in right place](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/099e671df6cf727c887e19e0b4099f9f9716ddf7) by [dkrizic](https://github.com/dkrizic) on 2026-01-25 00:07:29 +0000 UTC
+
+- [Merge pull request #1222 from PRODYNA-YASM/1220-install-feature-for-frontend](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/96b3ff7d49583dd91ddc314a12b9984fb72c4e42) by [dkrizic](https://github.com/dkrizic) on 2026-01-24 23:58:17 +0000 UTC
+
+- [Fix notification](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/69f58bc20216162765a3afe9f8e9eeebdaf45e85) by [dkrizic](https://github.com/dkrizic) on 2026-01-24 23:52:27 +0000 UTC
+
+- [Merge pull request #1221 from PRODYNA-YASM/1220-install-feature-for-frontend](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/45089c730a657e31d7e22e0af661853928c0e880) by [dkrizic](https://github.com/dkrizic) on 2026-01-24 23:40:22 +0000 UTC
+
+- [Install feature for frontend](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e7cdd2d7251989a99be4a7e54c160bba325b81ff) by [dkrizic](https://github.com/dkrizic) on 2026-01-24 23:33:08 +0000 UTC
+
+
 
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) (6)
@@ -450,11 +471,11 @@ Component Status overview. Last update 2026-01-24T07:34:37Z
 
 ### Environments
 
-| Environment |  dev |  staging |  prod | 
-| --- |  --- |  --- |  --- | 
-| Version |  1.81.0 |  1.81.0 |  1.77.0 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Environment |  dev |  staging | 
+| --- |  --- |  --- | 
+| Version |  0f3e0de |  1.81.0 | 
+| Release |  :red_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: | 
 
 
 ### Last releases

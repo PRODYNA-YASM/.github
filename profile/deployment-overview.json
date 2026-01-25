@@ -933,9 +933,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.81.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "0f3e0de",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -943,13 +943,6 @@
           "Version": "1.81.0",
           "IsRelease": true,
           "IsCurrent": true
-        },
-        {
-          "Name": "prod",
-          "Link": "",
-          "Version": "1.77.0",
-          "IsRelease": true,
-          "IsCurrent": false
         }
       ],
       "LatestRelease": {
@@ -1015,8 +1008,99 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 9,
+        "Commits": [
+          {
+            "Text": "UPdate to 0.5.1",
+            "SHA": "0f3e0de6618d828c17db9fc707520e5f70edc15b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-25T01:29:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0f3e0de6618d828c17db9fc707520e5f70edc15b"
+          },
+          {
+            "Text": "Merge pull request #1224 from PRODYNA-YASM/1220-install-feature-for-frontend",
+            "SHA": "af26c1f30483941804ea5facf23e364e8280f70a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-25T01:09:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/af26c1f30483941804ea5facf23e364e8280f70a"
+          },
+          {
+            "Text": "Use new restart feature",
+            "SHA": "695964f5f752842306595697e0293e5e4ad1978d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-25T00:53:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/695964f5f752842306595697e0293e5e4ad1978d"
+          },
+          {
+            "Text": "Merge pull request #1223 from PRODYNA-YASM/1220-install-feature-for-frontend",
+            "SHA": "e92b584569b2fae836c10b20660dd4134a685b58",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-25T00:10:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e92b584569b2fae836c10b20660dd4134a685b58"
+          },
+          {
+            "Text": "Put config in right place",
+            "SHA": "099e671df6cf727c887e19e0b4099f9f9716ddf7",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-25T00:07:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/099e671df6cf727c887e19e0b4099f9f9716ddf7"
+          },
+          {
+            "Text": "Merge pull request #1222 from PRODYNA-YASM/1220-install-feature-for-frontend",
+            "SHA": "96b3ff7d49583dd91ddc314a12b9984fb72c4e42",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-24T23:58:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/96b3ff7d49583dd91ddc314a12b9984fb72c4e42"
+          },
+          {
+            "Text": "Fix notification",
+            "SHA": "69f58bc20216162765a3afe9f8e9eeebdaf45e85",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-24T23:52:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/69f58bc20216162765a3afe9f8e9eeebdaf45e85"
+          },
+          {
+            "Text": "Merge pull request #1221 from PRODYNA-YASM/1220-install-feature-for-frontend",
+            "SHA": "45089c730a657e31d7e22e0af661853928c0e880",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-24T23:40:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/45089c730a657e31d7e22e0af661853928c0e880"
+          },
+          {
+            "Text": "Install feature for frontend",
+            "SHA": "e7cdd2d7251989a99be4a7e54c160bba325b81ff",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-24T23:33:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e7cdd2d7251989a99be4a7e54c160bba325b81ff"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1871,5 +1955,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-01-24T07:34:37Z"
+  "LastUpdated": "2026-01-25T07:35:49Z"
 }
