@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-01-25T07:35:49Z
+Component Status overview. Last update 2026-01-26T07:39:44Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -14,7 +14,7 @@ Component Status overview. Last update 2026-01-25T07:35:49Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.15.8 |  :green_square: 1.15.8 |  :green_square: 1.15.8 |  :green_square: 1.15.8 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.16 |  :green_square: 1.2.16 |  :green_square: 1.2.16 |  :green_square: 1.2.16 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [5](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-0..HEAD) | :green_square: 0 | 8.26.0-0 |  :red_square: 87a70b7 |  :green_square: 8.26.0-0 |  :red_square: 8.24.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [9](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.81.0 |  :red_square: 0f3e0de |  :green_square: 1.81.0 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [12](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.81.0 |  :red_square: be33e26 |  :green_square: 1.81.0 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.76.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.76.2 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm/pulls) | 1.81.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.81.0 | 
@@ -40,9 +40,9 @@ Component Status overview. Last update 2026-01-25T07:35:49Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (4)
 
-- [build(deps-dev): bump com.diffplug.spotless:spotless-maven-plugin from 3.1.0 to 3.2.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/992)
+- [build(deps): bump quarkus.platform.version from 3.30.6 to 3.30.8](https://github.com/PRODYNA-YASM/yasm-backend/pull/993)
 
-- [build(deps): bump quarkus.platform.version from 3.30.6 to 3.30.7](https://github.com/PRODYNA-YASM/yasm-backend/pull/990)
+- [build(deps-dev): bump com.diffplug.spotless:spotless-maven-plugin from 3.1.0 to 3.2.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/992)
 
 - [build(deps): bump xml-apis:xml-apis from 1.4.01 to 2.0.2](https://github.com/PRODYNA-YASM/yasm-backend/pull/902)
 
@@ -430,7 +430,13 @@ Component Status overview. Last update 2026-01-25T07:35:49Z
 
 
 
-### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.0..HEAD) (9)
+### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.0..HEAD) (12)
+
+- [Limit editing to field MAINTENACE_FLOW](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/be33e2634a80cdca260bdfb661f4b105ce14a783) by [dkrizic](https://github.com/dkrizic) on 2026-01-25 23:32:11 +0000 UTC
+
+- [Feature 0.6.0 with authentication enabled](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3f30bc5f124a22302497b8faf6b5208ed794ba20) by [dkrizic](https://github.com/dkrizic) on 2026-01-25 19:24:09 +0000 UTC
+
+- [Enable httproute](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c5dbf1b39d232bc76e342fd399de5701e3009241) by [dkrizic](https://github.com/dkrizic) on 2026-01-25 14:22:13 +0000 UTC
 
 - [UPdate to 0.5.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0f3e0de6618d828c17db9fc707520e5f70edc15b) by [dkrizic](https://github.com/dkrizic) on 2026-01-25 01:29:08 +0000 UTC
 
@@ -473,7 +479,7 @@ Component Status overview. Last update 2026-01-25T07:35:49Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  0f3e0de |  1.81.0 | 
+| Version |  be33e26 |  1.81.0 | 
 | Release |  :red_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: | 
 

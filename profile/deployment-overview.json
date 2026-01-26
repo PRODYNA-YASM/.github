@@ -62,12 +62,12 @@
         "Count": 4,
         "PullRequests": [
           {
-            "Title": "build(deps-dev): bump com.diffplug.spotless:spotless-maven-plugin from 3.1.0 to 3.2.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/992"
+            "Title": "build(deps): bump quarkus.platform.version from 3.30.6 to 3.30.8",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/993"
           },
           {
-            "Title": "build(deps): bump quarkus.platform.version from 3.30.6 to 3.30.7",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/990"
+            "Title": "build(deps-dev): bump com.diffplug.spotless:spotless-maven-plugin from 3.1.0 to 3.2.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/992"
           },
           {
             "Title": "build(deps): bump xml-apis:xml-apis from 1.4.01 to 2.0.2",
@@ -933,7 +933,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0f3e0de",
+          "Version": "be33e26",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1008,8 +1008,38 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.0..HEAD",
-        "Count": 9,
+        "Count": 12,
         "Commits": [
+          {
+            "Text": "Limit editing to field MAINTENACE_FLOW",
+            "SHA": "be33e2634a80cdca260bdfb661f4b105ce14a783",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-25T23:32:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/be33e2634a80cdca260bdfb661f4b105ce14a783"
+          },
+          {
+            "Text": "Feature 0.6.0 with authentication enabled",
+            "SHA": "3f30bc5f124a22302497b8faf6b5208ed794ba20",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-25T19:24:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3f30bc5f124a22302497b8faf6b5208ed794ba20"
+          },
+          {
+            "Text": "Enable httproute",
+            "SHA": "c5dbf1b39d232bc76e342fd399de5701e3009241",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-25T14:22:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c5dbf1b39d232bc76e342fd399de5701e3009241"
+          },
           {
             "Text": "UPdate to 0.5.1",
             "SHA": "0f3e0de6618d828c17db9fc707520e5f70edc15b",
@@ -1955,5 +1985,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-01-25T07:35:49Z"
+  "LastUpdated": "2026-01-26T07:39:44Z"
 }
