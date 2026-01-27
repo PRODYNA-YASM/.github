@@ -1,10 +1,10 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-01-26T07:39:44Z
+Component Status overview. Last update 2026-01-27T07:39:47Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.81.0 |  :red_square: 5313caa |  :green_square: 1.81.0 |  :red_square: 1.76.1 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.81.0 |  :red_square: 5313caa |  :green_square: 1.81.0 |  :red_square: 1.76.1 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: 7f05c2c |  :green_square: 1.81.0 |  :red_square: 1.76.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.81.2 |  :green_square: 1.81.2 |  :green_square: 1.81.2 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.81.0 |  :green_square: 1.81.0 |  :green_square: 1.81.0 |  :red_square: 1.76.1 | 
@@ -14,7 +14,7 @@ Component Status overview. Last update 2026-01-26T07:39:44Z
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.15.8 |  :green_square: 1.15.8 |  :green_square: 1.15.8 |  :green_square: 1.15.8 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.16 |  :green_square: 1.2.16 |  :green_square: 1.2.16 |  :green_square: 1.2.16 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [5](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-0..HEAD) | :green_square: 0 | 8.26.0-0 |  :red_square: 87a70b7 |  :green_square: 8.26.0-0 |  :red_square: 8.24.0-0 | 
-| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [12](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.81.0 |  :red_square: be33e26 |  :green_square: 1.81.0 | 
+| [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [17](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.81.0 |  :red_square: 6a435c2 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [3](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.76.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.76.2 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm/pulls) | 1.81.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.81.0 | 
@@ -38,7 +38,9 @@ Component Status overview. Last update 2026-01-26T07:39:44Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (4)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (5)
+
+- [fix: Feature/1025: Profile PDF display issues](https://github.com/PRODYNA-YASM/yasm-backend/pull/994)
 
 - [build(deps): bump quarkus.platform.version from 3.30.6 to 3.30.8](https://github.com/PRODYNA-YASM/yasm-backend/pull/993)
 
@@ -430,7 +432,17 @@ Component Status overview. Last update 2026-01-26T07:39:44Z
 
 
 
-### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.0..HEAD) (12)
+### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.0..HEAD) (17)
+
+- [Install feature 0.9.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/6a435c2fb2dfce95476e1e68099b5d826653e6b1) by [dkrizic](https://github.com/dkrizic) on 2026-01-26 21:15:04 +0000 UTC
+
+- [Feature 0.8.2](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/740f75b0cd00ade73ca5091242f0ce1ab661c40f) by [dkrizic](https://github.com/dkrizic) on 2026-01-26 17:30:56 +0000 UTC
+
+- [Feature 0.8.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/31ef621c9ff0d9770a90e58c3d33c8d7408414e9) by [dkrizic](https://github.com/dkrizic) on 2026-01-26 17:02:38 +0000 UTC
+
+- [Feature 0.8.0](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/bf079bab72d935895ec4908322fa540be36bba32) by [dkrizic](https://github.com/dkrizic) on 2026-01-26 11:55:54 +0000 UTC
+
+- [Feature 0.7.1](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/605f34a8f82437157202a171fc587ccbce26908f) by [dkrizic](https://github.com/dkrizic) on 2026-01-26 11:06:29 +0000 UTC
 
 - [Limit editing to field MAINTENACE_FLOW](https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/be33e2634a80cdca260bdfb661f4b105ce14a783) by [dkrizic](https://github.com/dkrizic) on 2026-01-25 23:32:11 +0000 UTC
 
@@ -477,11 +489,11 @@ Component Status overview. Last update 2026-01-26T07:39:44Z
 
 ### Environments
 
-| Environment |  dev |  staging | 
-| --- |  --- |  --- | 
-| Version |  be33e26 |  1.81.0 | 
-| Release |  :red_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: | 
+| Environment |  dev | 
+| --- |  --- | 
+| Version |  6a435c2 | 
+| Release |  :red_square: | 
+| Current |  :red_square: | 
 
 
 ### Last releases
