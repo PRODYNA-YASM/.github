@@ -62,16 +62,16 @@
         "Count": 5,
         "PullRequests": [
           {
+            "Title": "build(deps-dev): bump com.diffplug.spotless:spotless-maven-plugin from 3.1.0 to 3.2.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/995"
+          },
+          {
             "Title": "fix: Feature/1025: Profile PDF display issues",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/994"
           },
           {
             "Title": "build(deps): bump quarkus.platform.version from 3.30.6 to 3.30.8",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/993"
-          },
-          {
-            "Title": "build(deps-dev): bump com.diffplug.spotless:spotless-maven-plugin from 3.1.0 to 3.2.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/992"
           },
           {
             "Title": "build(deps): bump xml-apis:xml-apis from 1.4.01 to 2.0.2",
@@ -175,12 +175,12 @@
         "Count": 9,
         "PullRequests": [
           {
-            "Title": "chore: bump lodash from 4.17.21 to 4.17.23 in the npm_and_yarn group across 1 directory",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1162"
+            "Title": "chore: bump node from 25.3.0-slim to 25.5.0-slim",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1164"
           },
           {
-            "Title": "chore: bump node from 25.3.0-slim to 25.4.0-slim",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1159"
+            "Title": "chore: bump lodash from 4.17.21 to 4.17.23 in the npm_and_yarn group across 1 directory",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1162"
           },
           {
             "Title": "chore: bump vite from 6.4.1 to 7.3.1",
@@ -551,8 +551,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "build(deps): bump alpine from 3.23.2 to 3.23.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/322"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
@@ -862,8 +867,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump gotenberg/gotenberg from 8.25.1 to 8.26.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/pull/103"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
@@ -2032,5 +2042,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-01-27T07:39:47Z"
+  "LastUpdated": "2026-01-28T07:39:06Z"
 }
