@@ -1,16 +1,16 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-01-29T07:44:26Z
+Component Status overview. Last update 2026-01-30T07:44:51Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.81.0 |  :red_square: 977a8bd |  :green_square: 1.81.0 |  :red_square: 1.76.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [7](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: c4755c0 |  :green_square: 1.81.0 |  :red_square: 1.76.1 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.81.3 |  :green_square: 1.81.3 |  :green_square: 1.81.3 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [13](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: 712082e |  :green_square: 1.81.0 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [1](https://github.com/prodyna-yasm/yasm-integration/compare/1.81.3..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.81.3 |  :red_square: 60c4790 |  :green_square: 1.81.3 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.81.0 |  :green_square: 1.81.0 |  :green_square: 1.81.0 |  :red_square: 1.76.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.26.5 |  :green_square: 1.26.5 |  :green_square: 1.26.5 |  :red_square: 1.26.4 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [2](https://github.com/prodyna-yasm/yasm-metrics/compare/1.81.1..HEAD) | :green_square: 0 | 1.81.1 |  :red_square: 3bd9b8f |  :green_square: 1.81.1 |  :red_square: 1.76.6 | 
-| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.14.1 |  :green_square: 1.14.1 |  :green_square: 1.14.1 |  :green_square: 1.14.1 | 
+| [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [2](https://github.com/prodyna-yasm/yasm-github/compare/1.14.1..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.14.1 |  :red_square: 2246b8f |  :green_square: 1.14.1 |  :green_square: 1.14.1 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [2](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.15.8..HEAD) | :green_square: 0 | 1.15.8 |  :red_square: e460fcb |  :green_square: 1.15.8 |  :green_square: 1.15.8 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.16 |  :green_square: 1.2.16 |  :green_square: 1.2.16 |  :green_square: 1.2.16 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [7](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-0..HEAD) | :green_square: 0 | 8.26.0-0 |  :red_square: 55369dd |  :green_square: 8.26.0-0 |  :red_square: 8.24.0-0 | 
@@ -84,7 +84,19 @@ Component Status overview. Last update 2026-01-29T07:44:26Z
 
 
 
-### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) (7)
+### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) (13)
+
+- [feat: add working build chunk resolution rules for optimized chunk naming (#1172)](https://github.com/prodyna-yasm/yasm-frontend/commit/712082e81e1e3055302e43a2095c0973f87cb128) by [TD99](https://github.com/TD99) on 2026-01-29 10:57:30 +0000 UTC
+
+- [Revert "feat: implement build chunk resolution rules to optimize chunk sizes …" (#1171)](https://github.com/prodyna-yasm/yasm-frontend/commit/2184da7cb9b008f43a80e9d7af80699797628b1a) by [TD99](https://github.com/TD99) on 2026-01-29 10:14:08 +0000 UTC
+
+- [feat: implement build chunk resolution rules to optimize chunk sizes (#1167)](https://github.com/prodyna-yasm/yasm-frontend/commit/055b3f4900798d32fdc151ba715a3c7a06804418) by [TD99](https://github.com/TD99) on 2026-01-29 09:44:38 +0000 UTC
+
+- [chore: bump @fontsource/roboto from 5.2.5 to 5.2.9 (#1170)](https://github.com/prodyna-yasm/yasm-frontend/commit/7272ff30ea847106f96a99bd13be309796fceb43) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-01-29 08:47:31 +0000 UTC
+
+- [chore: bump @opentelemetry/instrumentation-document-load (#1169)](https://github.com/prodyna-yasm/yasm-frontend/commit/70df0f9eda23635f0eeb2103810439d30fdf552b) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-01-29 08:47:12 +0000 UTC
+
+- [chore: bump uuid from 11.1.0 to 13.0.0 (#1168)](https://github.com/prodyna-yasm/yasm-frontend/commit/59751f9ba7ce08cd2171b8d18b97419cc8f44a3c) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-01-29 08:46:45 +0000 UTC
 
 - [chore: update @azure/msal-browser to version 4.28.1 (#1148)](https://github.com/prodyna-yasm/yasm-frontend/commit/c4755c0ec0772685cb74d099ac78e4fb930ab4bf) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-01-28 16:50:01 +0000 UTC
 
@@ -103,15 +115,13 @@ Component Status overview. Last update 2026-01-29T07:44:26Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (8)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
 
-- [chore: bump @fontsource/roboto from 5.2.5 to 5.2.9](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1170)
+- [chore: bump html-react-parser from 5.2.11 to 5.2.14](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1175)
 
-- [chore: bump @opentelemetry/instrumentation-document-load from 0.48.0 to 0.56.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1169)
+- [chore: bump react-select from 5.6.1 to 5.10.2](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1174)
 
-- [chore: bump uuid from 11.1.0 to 13.0.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1168)
-
-- [feat: implement build chunk resolution rules to optimize chunk sizes](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1167)
+- [chore: bump yup from 1.6.1 to 1.7.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1173)
 
 - [chore: bump react and @types/react](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1154)
 
@@ -125,11 +135,11 @@ Component Status overview. Last update 2026-01-29T07:44:26Z
 
 ### Environments
 
-| Environment |  dev |  staging |  prod | 
-| --- |  --- |  --- |  --- | 
-| Version |  c4755c0 |  1.81.0 |  1.76.1 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :red_square: | 
+| Environment |  dev |  staging | 
+| --- |  --- |  --- | 
+| Version |  712082e |  1.81.0 | 
+| Release |  :red_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: | 
 
 
 ### Last releases
@@ -155,11 +165,14 @@ Component Status overview. Last update 2026-01-29T07:44:26Z
 
 
 
+### [Commits on main since 1.81.3](https://github.com/prodyna-yasm/yasm-integration/compare/1.81.3..HEAD) (1)
+
+- [Bump alpine from 3.23.2 to 3.23.3 (#884)](https://github.com/prodyna-yasm/yasm-integration/commit/60c4790b9df1f8a7b67691192cb7f8db71fac3a2) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-01-29 08:32:33 +0000 UTC
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (3)
 
-- [Bump alpine from 3.23.2 to 3.23.3](https://github.com/PRODYNA-YASM/yasm-integration/pull/884)
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (2)
 
 - [Fix: Prevent anonymization of Entra ID users with invalid Maconomy data](https://github.com/PRODYNA-YASM/yasm-integration/pull/873)
 
@@ -171,9 +184,9 @@ Component Status overview. Last update 2026-01-29T07:44:26Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  1.81.3 |  1.81.3 | 
-| Release |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: | 
+| Version |  60c4790 |  1.81.3 | 
+| Release |  :red_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: | 
 
 
 ### Last releases
@@ -313,11 +326,16 @@ Component Status overview. Last update 2026-01-29T07:44:26Z
 
 
 
+### [Commits on main since 1.14.1](https://github.com/prodyna-yasm/yasm-github/compare/1.14.1..HEAD) (2)
+
+- [Merge pull request #322 from PRODYNA-YASM/dependabot/go_modules/github.com/golang-jwt/jwt/v5-5.3.1](https://github.com/prodyna-yasm/yasm-github/commit/2246b8fc5b9cdb107b1002d4b822354ab14a1d03) by [dkrizic](https://github.com/dkrizic) on 2026-01-29 08:34:53 +0000 UTC
+
+- [Bump github.com/golang-jwt/jwt/v5 from 5.3.0 to 5.3.1](https://github.com/prodyna-yasm/yasm-github/commit/527a721406961810b5eb588cf76c4e9d1467706f) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-01-28 23:53:27 +0000 UTC
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-github/pulls) (3)
 
-- [Bump github.com/golang-jwt/jwt/v5 from 5.3.0 to 5.3.1](https://github.com/PRODYNA-YASM/yasm-github/pull/322)
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-github/pulls) (2)
 
 - [Bump alpine from 3.23.2 to 3.23.3](https://github.com/PRODYNA-YASM/yasm-github/pull/321)
 
@@ -329,9 +347,9 @@ Component Status overview. Last update 2026-01-29T07:44:26Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.14.1 |  1.14.1 |  1.14.1 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  2246b8f |  1.14.1 |  1.14.1 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases

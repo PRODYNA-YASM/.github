@@ -127,7 +127,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "c4755c0",
+          "Version": "712082e",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -137,13 +137,6 @@
           "Version": "1.81.0",
           "IsRelease": true,
           "IsCurrent": true
-        },
-        {
-          "Name": "prod",
-          "Link": "",
-          "Version": "1.76.1",
-          "IsRelease": true,
-          "IsCurrent": false
         }
       ],
       "LatestRelease": {
@@ -178,23 +171,19 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 8,
+        "Count": 7,
         "PullRequests": [
           {
-            "Title": "chore: bump @fontsource/roboto from 5.2.5 to 5.2.9",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1170"
+            "Title": "chore: bump html-react-parser from 5.2.11 to 5.2.14",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1175"
           },
           {
-            "Title": "chore: bump @opentelemetry/instrumentation-document-load from 0.48.0 to 0.56.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1169"
+            "Title": "chore: bump react-select from 5.6.1 to 5.10.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1174"
           },
           {
-            "Title": "chore: bump uuid from 11.1.0 to 13.0.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1168"
-          },
-          {
-            "Title": "feat: implement build chunk resolution rules to optimize chunk sizes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1167"
+            "Title": "chore: bump yup from 1.6.1 to 1.7.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1173"
           },
           {
             "Title": "chore: bump react and @types/react",
@@ -217,8 +206,68 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD",
-        "Count": 7,
+        "Count": 13,
         "Commits": [
+          {
+            "Text": "feat: add working build chunk resolution rules for optimized chunk naming (#1172)",
+            "SHA": "712082e81e1e3055302e43a2095c0973f87cb128",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-01-29T10:57:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/712082e81e1e3055302e43a2095c0973f87cb128"
+          },
+          {
+            "Text": "Revert \"feat: implement build chunk resolution rules to optimize chunk sizes …\" (#1171)",
+            "SHA": "2184da7cb9b008f43a80e9d7af80699797628b1a",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-01-29T10:14:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2184da7cb9b008f43a80e9d7af80699797628b1a"
+          },
+          {
+            "Text": "feat: implement build chunk resolution rules to optimize chunk sizes (#1167)",
+            "SHA": "055b3f4900798d32fdc151ba715a3c7a06804418",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-01-29T09:44:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/055b3f4900798d32fdc151ba715a3c7a06804418"
+          },
+          {
+            "Text": "chore: bump @fontsource/roboto from 5.2.5 to 5.2.9 (#1170)",
+            "SHA": "7272ff30ea847106f96a99bd13be309796fceb43",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-01-29T08:47:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7272ff30ea847106f96a99bd13be309796fceb43"
+          },
+          {
+            "Text": "chore: bump @opentelemetry/instrumentation-document-load (#1169)",
+            "SHA": "70df0f9eda23635f0eeb2103810439d30fdf552b",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-01-29T08:47:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/70df0f9eda23635f0eeb2103810439d30fdf552b"
+          },
+          {
+            "Text": "chore: bump uuid from 11.1.0 to 13.0.0 (#1168)",
+            "SHA": "59751f9ba7ce08cd2171b8d18b97419cc8f44a3c",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-01-29T08:46:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/59751f9ba7ce08cd2171b8d18b97419cc8f44a3c"
+          },
           {
             "Text": "chore: update @azure/msal-browser to version 4.28.1 (#1148)",
             "SHA": "c4755c0ec0772685cb74d099ac78e4fb930ab4bf",
@@ -312,9 +361,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.81.3",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "60c4790",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -356,12 +405,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 3,
+        "Count": 2,
         "PullRequests": [
-          {
-            "Title": "Bump alpine from 3.23.2 to 3.23.3",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/884"
-          },
           {
             "Title": "Fix: Prevent anonymization of Entra ID users with invalid Maconomy data",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/873"
@@ -375,8 +420,19 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.81.3..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "Bump alpine from 3.23.2 to 3.23.3 (#884)",
+            "SHA": "60c4790b9df1f8a7b67691192cb7f8db71fac3a2",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-01-29T08:32:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/60c4790b9df1f8a7b67691192cb7f8db71fac3a2"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -668,9 +724,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.14.1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "2246b8f",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -719,12 +775,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/pulls",
-        "Count": 3,
+        "Count": 2,
         "PullRequests": [
-          {
-            "Title": "Bump github.com/golang-jwt/jwt/v5 from 5.3.0 to 5.3.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/322"
-          },
           {
             "Title": "Bump alpine from 3.23.2 to 3.23.3",
             "Link": "https://github.com/PRODYNA-YASM/yasm-github/pull/321"
@@ -738,8 +790,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.14.1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #322 from PRODYNA-YASM/dependabot/go_modules/github.com/golang-jwt/jwt/v5-5.3.1",
+            "SHA": "2246b8fc5b9cdb107b1002d4b822354ab14a1d03",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-01-29T08:34:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/2246b8fc5b9cdb107b1002d4b822354ab14a1d03"
+          },
+          {
+            "Text": "Bump github.com/golang-jwt/jwt/v5 from 5.3.0 to 5.3.1",
+            "SHA": "527a721406961810b5eb588cf76c4e9d1467706f",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-01-28T23:53:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/527a721406961810b5eb588cf76c4e9d1467706f"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2009,5 +2082,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-01-29T07:44:26Z"
+  "LastUpdated": "2026-01-30T07:44:51Z"
 }
