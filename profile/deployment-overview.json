@@ -127,7 +127,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "712082e",
+          "Version": "38a28a6",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -171,20 +171,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 4,
         "PullRequests": [
-          {
-            "Title": "chore: bump html-react-parser from 5.2.11 to 5.2.14",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1175"
-          },
-          {
-            "Title": "chore: bump react-select from 5.6.1 to 5.10.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1174"
-          },
-          {
-            "Title": "chore: bump yup from 1.6.1 to 1.7.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1173"
-          },
           {
             "Title": "chore: bump react and @types/react",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1154"
@@ -206,8 +194,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD",
-        "Count": 13,
+        "Count": 17,
         "Commits": [
+          {
+            "Text": "Revert \"chore: bump react-select from 5.6.1 to 5.10.2 (#1174)\" (#1176)",
+            "SHA": "38a28a6d3a8c8eef5a8622154ef47b31c587aa10",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-01-30T14:06:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/38a28a6d3a8c8eef5a8622154ef47b31c587aa10"
+          },
+          {
+            "Text": "chore: bump yup from 1.6.1 to 1.7.1 (#1173)",
+            "SHA": "620e17d099706a144c1687b9034dcd78f8f61c4e",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-01-30T13:14:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/620e17d099706a144c1687b9034dcd78f8f61c4e"
+          },
+          {
+            "Text": "chore: bump react-select from 5.6.1 to 5.10.2 (#1174)",
+            "SHA": "95d28e614a9fdc111acb7e003ecae240f58c52e2",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-01-30T13:13:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/95d28e614a9fdc111acb7e003ecae240f58c52e2"
+          },
+          {
+            "Text": "chore: bump html-react-parser from 5.2.11 to 5.2.14 (#1175)",
+            "SHA": "373f9069dd279847d066f81079e1e95f2191fcb2",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-01-30T12:55:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/373f9069dd279847d066f81079e1e95f2191fcb2"
+          },
           {
             "Text": "feat: add working build chunk resolution rules for optimized chunk naming (#1172)",
             "SHA": "712082e81e1e3055302e43a2095c0973f87cb128",
@@ -859,8 +887,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Go 1.25.6",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/317"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
@@ -1104,26 +1137,33 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.81.1",
+          "Version": "1.81.2",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.81.1",
+          "Version": "1.81.2",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.81.1",
+        "Tag": "1.81.2",
         "SHA": "",
-        "Title": "Feature frontend, some component updates",
-        "Timestamp": "2026-01-28T15:21:21Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.81.1"
+        "Title": "Kubernetes 1.34.2",
+        "Timestamp": "2026-01-30T16:03:47Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.81.2"
       },
       "Releases": [
+        {
+          "Tag": "1.81.2",
+          "SHA": "",
+          "Title": "Kubernetes 1.34.2",
+          "Timestamp": "2026-01-30T15:30:17Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.81.2"
+        },
         {
           "Tag": "1.81.1",
           "SHA": "",
@@ -1137,31 +1177,12 @@
           "Title": "Restructe secrets for yams-integration, component updates",
           "Timestamp": "2026-01-22T12:23:05Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.81.0"
-        },
-        {
-          "Tag": "1.77.0",
-          "SHA": "",
-          "Title": "Current providers and chart versions",
-          "Timestamp": "2026-01-16T14:33:29Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/releases/tag/1.77.0"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls",
-        "Count": 6,
+        "Count": 3,
         "PullRequests": [
-          {
-            "Title": "Bump DataDog/datadog from 3.84.0 to 3.86.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1226"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 4.57.0 to 4.58.0 in /terraform/kubernetes",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1219"
-          },
-          {
-            "Title": "Bump hashicorp/azurerm from 4.57.0 to 4.58.0 in /terraform/azure",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1218"
-          },
           {
             "Title": "Optimize observability stack: reduce resources, implement tail sampling, standardize retention",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/pull/1191"
@@ -1178,7 +1199,7 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.1..HEAD",
+        "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.2..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -1186,8 +1207,13 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 3,
         "Workflows": [
+          {
+            "Name": "Merge pull request #1227 from PRODYNA-YASM/feature/kubernetes-1.34.2",
+            "Timestamp": "2026-01-30T16:03:49Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/21522135452"
+          },
           {
             "Name": "Back to Traefik 38.0.2",
             "Timestamp": "2026-01-28T15:21:30Z",
@@ -2031,5 +2057,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-01-30T10:36:25Z"
+  "LastUpdated": "2026-01-31T07:40:25Z"
 }
