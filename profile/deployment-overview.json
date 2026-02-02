@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 4,
+        "Count": 5,
         "PullRequests": [
+          {
+            "Title": "build(deps-dev): bump org.apache.maven.plugins:maven-compiler-plugin from 3.14.1 to 3.15.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/997"
+          },
           {
             "Title": "build(deps): bump quarkus.platform.version from 3.30.6 to 3.31.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/996"
@@ -171,8 +175,20 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 4,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "chore: bump react-select from 5.6.1 to 5.10.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1180"
+          },
+          {
+            "Title": "chore: bump @azure/msal-browser from 4.28.1 to 5.1.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1179"
+          },
+          {
+            "Title": "chore: bump @opentelemetry/auto-instrumentations-web from 0.41.0 to 0.56.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1178"
+          },
           {
             "Title": "chore: bump react and @types/react",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1154"
@@ -1421,8 +1437,19 @@
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.81.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "chore: bump org.apache.maven.plugins:maven-compiler-plugin (#338)",
+            "SHA": "b6e12659023f615e8235c5975674f2831ca9ae12",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-02-02T05:56:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/b6e12659023f615e8235c5975674f2831ca9ae12"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2057,5 +2084,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-02-01T07:42:56Z"
+  "LastUpdated": "2026-02-02T07:46:34Z"
 }
