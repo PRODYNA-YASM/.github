@@ -164,3 +164,33 @@ These guidelines are living documents. If you find areas for improvement:
 2. Propose changes via pull request
 3. Document lessons learned from incidents
 4. Share knowledge with the team
+
+## Go
+
+Additional instructions for Go
+
+* Use `slog` for logging. If a context is available always use the Context version of the methods, e.g. `slog.InfoContext(ctx, ..)` instead of `slog.Info(...)`. Log in JSON by default and include a `ctx` block with `trace_id` and `span_id`
+* Avoid deep nesting of loops and ifs, try to maintain a "happy-path" where `err != nil` results in an early return or continue.
+* Use `net/http` from the standard library for all Web related services. Avoid third-party libraries like `Echo` or `Gin`.
+* Use `urfave/cli` for managing commands and parameters. 
+* Centralize constants into a `/constant` package.
+* Instrument the code with `https://opentelemetry.io/docs/languages/go/` and send metrics and traces to a configurable endpoint.
+* A package called `/meta` has a constant `ServiceName` with the name of the current service and a constant `Version` with the default value of `undefined`. The build process injects the actual version into this variable.
+
+## Dockerfile
+
+Additional instructions for Docker and Dockerfiles
+
+* Always use multi-stages images for building, e.g. a `golang` image for the build stage and a minimalistic image for the actual binary like `scratch`, `alpine` or `distroless`
+* Always use precise versions of container images like `golang:1.25.6-alpine3.22`. This allows dependabot to identify outdated images and increases build stability.
+* The an argument `VERSION` that injects the version into the binary or at least store it in an environment variable for services that don't allow static value injection.
+* Run the application as a non-root user
+
+## GitHub Actions
+
+* The main branch is `main`
+* The pipeline should have clear separation between the `CI` and `CD` phase
+* The `CI` phase builds the image, normally this is basially running the action `build-push-action`
+  * In a pull request against `main` just build the image, but don't push it
+  * In a merge from the pull request, use the short tag (7 characters of the git commit hash) as version number, build and push the image and deploy it to the 'dev' stage.
+  * In case of a `tag` build and push the image with the `tag` as version, the deploy it to `dev`, then `staging` and after a human approval deploy to `prod`
