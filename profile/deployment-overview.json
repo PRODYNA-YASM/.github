@@ -431,16 +431,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "aa2c8c5",
+          "Version": "2b6401d",
           "IsRelease": false,
           "IsCurrent": false
-        },
-        {
-          "Name": "staging",
-          "Link": "",
-          "Version": "1.81.3",
-          "IsRelease": true,
-          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -475,12 +468,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 4,
+        "Count": 3,
         "PullRequests": [
-          {
-            "Title": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.94.0 to 1.95.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/895"
-          },
           {
             "Title": "Bump golang from 1.25.6-alpine3.22 to 1.25.7-alpine3.22",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/893"
@@ -498,8 +487,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.81.3..HEAD",
-        "Count": 6,
+        "Count": 7,
         "Commits": [
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.94.0 to 1.95.0 (#895)",
+            "SHA": "2b6401df601f117c00aa836a78da387d2e7b854d",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-02-06T08:10:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/2b6401df601f117c00aa836a78da387d2e7b854d"
+          },
           {
             "Text": "Remove redundant HttpRoute attribute setting for otelhttp 0.65.0+ (#894)",
             "SHA": "aa2c8c58a7ec2102f1bdd4bc3974354b45d22446",
@@ -809,9 +808,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.26.4",
+          "Version": "1.26.5",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -859,14 +858,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #373 from PRODYNA-YASM/372-include-termination_dat…",
-            "Timestamp": "2026-01-22T23:25:36Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/21268562788"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -2205,19 +2198,24 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "chore: bump org.openapitools:jackson-databind-nullable from 0.2.8 to 0.2.9",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/340"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.81.0..HEAD",
-        "Count": 2,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "chore: bump org.openapitools:jackson-databind-nullable (#340)",
+            "SHA": "befb397caf5f6a99b7de4026e1cca924b4de6d08",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-02-06T08:10:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/befb397caf5f6a99b7de4026e1cca924b4de6d08"
+          },
           {
             "Text": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin (#339)",
             "SHA": "34dc6e6cc91dc3a9c988dc8efa116c49bc7d854a",
@@ -2939,5 +2937,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-02-06T07:45:50Z"
+  "LastUpdated": "2026-02-07T07:41:59Z"
 }
