@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-02-07T07:41:59Z
+Component Status overview. Last update 2026-02-08T07:43:31Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -22,7 +22,7 @@ Component Status overview. Last update 2026-02-07T07:41:59Z
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [2](https://github.com/prodyna-yasm/yasm-test/compare/v1.74.1..HEAD) | :yellow_square: [16](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [6](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.9.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-mainproject/pulls) | 1.9.0 |  :red_square: 0c4ada9 |  :green_square: 1.9.0 |  :green_square: 1.9.0 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [15](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :green_square: 0 | 1.3.0 |  :red_square: b00e5e6 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
-| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :green_square: 0 | :yellow_square: [9](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.1.0 |  :green_square: 2.1.0 |  :green_square: 2.1.0 |  :green_square: 2.1.0 | 
+| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :red_square: [1](https://github.com/prodyna-yasm/fox-and-hound/compare/2.1.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.1.0 |  :red_square: 2027921 |  :green_square: 2.1.0 |  :green_square: 2.1.0 | 
 
 
 
@@ -1032,21 +1032,22 @@ Component Status overview. Last update 2026-02-07T07:41:59Z
 
 
 
+### [Commits on main since 2.1.0](https://github.com/prodyna-yasm/fox-and-hound/compare/2.1.0..HEAD) (1)
+
+- [Merge pull request #291 from PRODYNA-YASM/feature/_159_ShowNotificationInFeWhenThereHasBeenANewRequest](https://github.com/prodyna-yasm/fox-and-hound/commit/20279210648da6a30fd5dbdade904bef8c32adfe) by [sceneo](https://github.com/sceneo) on 2026-02-07 19:04:07 +0000 UTC
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (9)
 
-- [Bump @angular/platform-browser-dynamic from 20.3.7 to 21.0.6 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/295)
 
-- [Bump @angular/cli from 20.3.7 to 21.0.4 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/294)
+### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (7)
 
-- [Bump @angular/animations from 20.3.7 to 21.0.6 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/293)
+- [Introduce backend testing](https://github.com/PRODYNA-YASM/fox-and-hound/pull/302)
 
-- [Bump @azure/msal-browser from 4.25.1 to 4.27.0 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/292)
+- [278 Process overview](https://github.com/PRODYNA-YASM/fox-and-hound/pull/301)
 
-- [159 pop up when new candidate has submitted a request](https://github.com/PRODYNA-YASM/fox-and-hound/pull/291)
+- [197 Show details for categories](https://github.com/PRODYNA-YASM/fox-and-hound/pull/300)
 
-- [Bump the npm_and_yarn group across 1 directory with 3 updates](https://github.com/PRODYNA-YASM/fox-and-hound/pull/289)
+- [298 Add new Request button](https://github.com/PRODYNA-YASM/fox-and-hound/pull/299)
 
 - [Optimize backend Kubernetes resources per KRR analysis](https://github.com/PRODYNA-YASM/fox-and-hound/pull/271)
 
@@ -1060,9 +1061,9 @@ Component Status overview. Last update 2026-02-07T07:41:59Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  2.1.0 |  2.1.0 |  2.1.0 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  2027921 |  2.1.0 |  2.1.0 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases

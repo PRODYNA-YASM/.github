@@ -2817,9 +2817,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2.1.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "2027921",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -2868,31 +2868,23 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 9,
+        "Count": 7,
         "PullRequests": [
           {
-            "Title": "Bump @angular/platform-browser-dynamic from 20.3.7 to 21.0.6 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/295"
+            "Title": "Introduce backend testing",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/302"
           },
           {
-            "Title": "Bump @angular/cli from 20.3.7 to 21.0.4 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/294"
+            "Title": "278 Process overview",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/301"
           },
           {
-            "Title": "Bump @angular/animations from 20.3.7 to 21.0.6 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/293"
+            "Title": "197 Show details for categories",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/300"
           },
           {
-            "Title": "Bump @azure/msal-browser from 4.25.1 to 4.27.0 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/292"
-          },
-          {
-            "Title": "159 pop up when new candidate has submitted a request",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/291"
-          },
-          {
-            "Title": "Bump the npm_and_yarn group across 1 directory with 3 updates",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/289"
+            "Title": "298 Add new Request button",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/299"
           },
           {
             "Title": "Optimize backend Kubernetes resources per KRR analysis",
@@ -2911,8 +2903,19 @@
       "Link": "https://github.com/prodyna-yasm/fox-and-hound",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/compare/2.1.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "Merge pull request #291 from PRODYNA-YASM/feature/_159_ShowNotificationInFeWhenThereHasBeenANewRequest",
+            "SHA": "20279210648da6a30fd5dbdade904bef8c32adfe",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2026-02-07T19:04:07Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/20279210648da6a30fd5dbdade904bef8c32adfe"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2937,5 +2940,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-02-07T07:41:59Z"
+  "LastUpdated": "2026-02-08T07:43:31Z"
 }
