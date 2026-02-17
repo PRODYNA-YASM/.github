@@ -887,8 +887,17 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 2,
+        "PullRequests": [
+          {
+            "Title": "Bump go.opentelemetry.io/contrib/instrumentation/runtime from 0.64.0 to 0.65.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/381"
+          },
+          {
+            "Title": "Bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp from 0.64.0 to 0.65.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/380"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
@@ -1889,8 +1898,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "chore: bump io.smallrye.reactive:mutiny from 3.1.0 to 3.1.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/341"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
@@ -2595,5 +2609,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-02-16T07:46:59Z"
+  "LastUpdated": "2026-02-17T07:46:47Z"
 }
