@@ -1511,7 +1511,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "179fdb0",
+          "Version": "b6e912a",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1582,8 +1582,108 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.3..HEAD",
-        "Count": 4,
+        "Count": 14,
         "Commits": [
+          {
+            "Text": "Merge pull request #1240 from PRODYNA-YASM/copilot/update-neo4j-image-version",
+            "SHA": "b6e912a1c3965ee12536b0f4bbdae253409cb869",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-02-17T23:26:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/b6e912a1c3965ee12536b0f4bbdae253409cb869"
+          },
+          {
+            "Text": "Update helm chart version (without leading zero)",
+            "SHA": "c5355c9f3d91a3d63fb14b3a545cb4f38bef19a8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-02-17T23:21:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c5355c9f3d91a3d63fb14b3a545cb4f38bef19a8"
+          },
+          {
+            "Text": "Update Neo4j image version from 2026.1.4 to 2026.01.4",
+            "SHA": "ee7e3823379562ab801b96dc1f4ad64a0e2d90e2",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-17T23:11:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/ee7e3823379562ab801b96dc1f4ad64a0e2d90e2"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "1d22f8449c73e87445ae6e0676975aaa4c72d993",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-17T23:09:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1d22f8449c73e87445ae6e0676975aaa4c72d993"
+          },
+          {
+            "Text": "Merge pull request #1238 from PRODYNA-YASM/copilot/update-neo4j-version",
+            "SHA": "cb1d8638a023267b70b61f0caf5f4705a32067d0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-02-17T22:57:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/cb1d8638a023267b70b61f0caf5f4705a32067d0"
+          },
+          {
+            "Text": "Update Neo4j from 2025.10.1 to 2026.1.4 including init container image tags",
+            "SHA": "2cd267c6fa2673b5cf49ff6a3644bfad4a737938",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-17T22:47:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/2cd267c6fa2673b5cf49ff6a3644bfad4a737938"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "28cfb49c1e26cf7ae38a0038ed006311b1882635",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-17T22:45:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/28cfb49c1e26cf7ae38a0038ed006311b1882635"
+          },
+          {
+            "Text": "Merge pull request #1236 from PRODYNA-YASM/copilot/update-traefik-to-39-0-1",
+            "SHA": "13e23d7c034bec12998746b96612b6cfad344163",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-02-17T12:55:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/13e23d7c034bec12998746b96612b6cfad344163"
+          },
+          {
+            "Text": "Update Traefik to version 39.0.1 with new values.yaml format",
+            "SHA": "95af30188b99201400b453097bf1a556ebaa7b23",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-17T12:51:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/95af30188b99201400b453097bf1a556ebaa7b23"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "0bd8f8da1fef06d162cd82fa2502aed9fb1d6ee4",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-17T12:48:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0bd8f8da1fef06d162cd82fa2502aed9fb1d6ee4"
+          },
           {
             "Text": "DAPR 1.16.9",
             "SHA": "179fdb0a3d567ee94f70bc8e3ab423ca702097e8",
@@ -1909,8 +2009,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.81.0..HEAD",
-        "Count": 3,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin (#342)",
+            "SHA": "22f6d652693788cb33be94fdcfa5dc7ccc78efa6",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-02-18T01:27:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/22f6d652693788cb33be94fdcfa5dc7ccc78efa6"
+          },
           {
             "Text": "chore: bump org.openapitools:jackson-databind-nullable (#340)",
             "SHA": "befb397caf5f6a99b7de4026e1cca924b4de6d08",
@@ -2609,5 +2719,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-02-17T07:46:47Z"
+  "LastUpdated": "2026-02-18T07:46:50Z"
 }
