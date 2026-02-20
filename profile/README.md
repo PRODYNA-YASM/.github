@@ -1,15 +1,15 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-02-19T07:46:38Z
+Component Status overview. Last update 2026-02-20T07:46:01Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.81.0 |  :red_square: 977a8bd |  :green_square: 1.81.0 |  :red_square: 1.76.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [23](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: d737a54 |  :green_square: 1.81.0 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [1](https://github.com/prodyna-yasm/yasm-integration/compare/1.81.4..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.81.4 |  :red_square: 11b4e11 |  :green_square: 1.81.4 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [24](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: d737a54 |  :green_square: 1.81.0 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.81.4..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.81.4 |  :red_square: 11b4e11 |  :green_square: 1.81.4 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [21](https://github.com/prodyna-yasm/yasmctl/compare/1.81.0..HEAD) | :green_square: 0 | 1.81.0 |  :red_square: 3a8fb6a |  :green_square: 1.81.0 |  :red_square: 1.76.1 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.26.6 |  :green_square: 1.26.6 |  :green_square: 1.26.6 |  :red_square: 1.26.5 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :green_square: 0 | :green_square: 0 | 1.81.2 |  :green_square: 1.81.2 |  :green_square: 1.81.2 |  :red_square: 1.76.6 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [2](https://github.com/prodyna-yasm/yasm-metrics/compare/1.81.2..HEAD) | :green_square: 0 | 1.81.2 |  :red_square: 7f351e0 |  :green_square: 1.81.2 |  :red_square: 1.76.6 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.14.4 |  :green_square: 1.14.4 |  :green_square: 1.14.4 |  :red_square: 1.14.3 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.16.0 |  :green_square: 1.16.0 |  :green_square: 1.16.0 |  :red_square: 1.15.9 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.18 |  :green_square: 1.2.18 |  :green_square: 1.2.18 |  :red_square: 1.2.17 | 
@@ -86,7 +86,9 @@ Component Status overview. Last update 2026-02-19T07:46:38Z
 
 
 
-### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) (23)
+### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) (24)
+
+- [Fixing broken UI issue](https://github.com/prodyna-yasm/yasm-frontend/commit/561a9df45e903b172ddf87e59574fa62d1d90ffc) by [Milos5611](https://github.com/Milos5611) on 2026-02-19 09:59:16 +0000 UTC
 
 - [Remove yasm-integration from changelog (#1145)](https://github.com/prodyna-yasm/yasm-frontend/commit/d737a545a093bf90a57e298bb939bb5f50592a0b) by [dkrizic](https://github.com/dkrizic) on 2026-02-13 12:45:46 +0000 UTC
 
@@ -185,7 +187,9 @@ Component Status overview. Last update 2026-02-19T07:46:38Z
 
 
 
-### [Commits on main since 1.81.4](https://github.com/prodyna-yasm/yasm-integration/compare/1.81.4..HEAD) (1)
+### [Commits on main since 1.81.4](https://github.com/prodyna-yasm/yasm-integration/compare/1.81.4..HEAD) (2)
+
+- [Bump github.com/microsoftgraph/msgraph-sdk-go from 1.95.0 to 1.96.0 (#901)](https://github.com/prodyna-yasm/yasm-integration/commit/ae20fc72dffd363d64f6f535d846722feb9a5ec4) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-02-20 07:39:09 +0000 UTC
 
 - [Fix: Explicitly exit with code 1 on sync errors (#900)](https://github.com/prodyna-yasm/yasm-integration/commit/11b4e1104e4d4ba8c24268fe67d2dfbe4d8cca19) by [Copilot](https://github.com/Copilot) on 2026-02-18 14:39:53 +0000 UTC
 
@@ -354,6 +358,13 @@ Component Status overview. Last update 2026-02-19T07:46:38Z
 
 
 
+### [Commits on main since 1.81.2](https://github.com/prodyna-yasm/yasm-metrics/compare/1.81.2..HEAD) (2)
+
+- [Merge pull request #331 from PRODYNA-YASM/dependabot/go_modules/go_modules-d60cbccd5d](https://github.com/prodyna-yasm/yasm-metrics/commit/7f351e08d9109bfc5957eec04671142e69dca154) by [dkrizic](https://github.com/dkrizic) on 2026-02-19 18:37:28 +0000 UTC
+
+- [build(deps): bump filippo.io/edwards25519](https://github.com/prodyna-yasm/yasm-metrics/commit/f7233afb7e59ef1562fc7abcfb9bed68b7eaf6d7) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-02-19 18:12:39 +0000 UTC
+
+
 
 
 
@@ -361,9 +372,9 @@ Component Status overview. Last update 2026-02-19T07:46:38Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.81.2 |  1.81.2 |  1.76.6 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Version |  7f351e0 |  1.81.2 |  1.76.6 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases

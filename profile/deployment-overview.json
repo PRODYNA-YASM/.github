@@ -206,8 +206,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD",
-        "Count": 23,
+        "Count": 24,
         "Commits": [
+          {
+            "Text": "Fixing broken UI issue",
+            "SHA": "561a9df45e903b172ddf87e59574fa62d1d90ffc",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-02-19T09:59:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/561a9df45e903b172ddf87e59574fa62d1d90ffc"
+          },
           {
             "Text": "Remove yasm-integration from changelog (#1145)",
             "SHA": "d737a545a093bf90a57e298bb939bb5f50592a0b",
@@ -520,8 +530,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.81.4..HEAD",
-        "Count": 1,
+        "Count": 2,
         "Commits": [
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.95.0 to 1.96.0 (#901)",
+            "SHA": "ae20fc72dffd363d64f6f535d846722feb9a5ec4",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-02-20T07:39:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/ae20fc72dffd363d64f6f535d846722feb9a5ec4"
+          },
           {
             "Text": "Fix: Explicitly exit with code 1 on sync errors (#900)",
             "SHA": "11b4e1104e4d4ba8c24268fe67d2dfbe4d8cca19",
@@ -937,9 +957,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.81.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "7f351e0",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -994,8 +1014,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.81.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #331 from PRODYNA-YASM/dependabot/go_modules/go_modules-d60cbccd5d",
+            "SHA": "7f351e08d9109bfc5957eec04671142e69dca154",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-02-19T18:37:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/7f351e08d9109bfc5957eec04671142e69dca154"
+          },
+          {
+            "Text": "build(deps): bump filippo.io/edwards25519",
+            "SHA": "f7233afb7e59ef1562fc7abcfb9bed68b7eaf6d7",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-02-19T18:12:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/f7233afb7e59ef1562fc7abcfb9bed68b7eaf6d7"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2595,5 +2636,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-02-19T07:46:38Z"
+  "LastUpdated": "2026-02-20T07:46:01Z"
 }
