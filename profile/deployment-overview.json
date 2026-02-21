@@ -471,7 +471,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "11b4e11",
+          "Version": "ae20fc7",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -585,13 +585,6 @@
           "Version": "1.81.0",
           "IsRelease": true,
           "IsCurrent": true
-        },
-        {
-          "Name": "prod",
-          "Link": "",
-          "Version": "1.76.1",
-          "IsRelease": true,
-          "IsCurrent": false
         }
       ],
       "LatestRelease": {
@@ -1388,7 +1381,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "b6e912a",
+          "Version": "a9cc152",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1459,8 +1452,188 @@
       "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.3..HEAD",
-        "Count": 14,
+        "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #1247 from PRODYNA-YASM/feature/tempo-39.0.2",
+            "SHA": "a9cc152b62cb04ce4722978876b06d89b8892232",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-02-20T16:23:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a9cc152b62cb04ce4722978876b06d89b8892232"
+          },
+          {
+            "Text": "Traefik 39.0.2",
+            "SHA": "7576e1da9245dc76873a2455295970dd6847c50e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-02-20T15:53:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/7576e1da9245dc76873a2455295970dd6847c50e"
+          },
+          {
+            "Text": "Merge pull request #1246 from PRODYNA-YASM/copilot/fix-otel-collector-config-error",
+            "SHA": "e15de3cd95230044b3ef2df366da3adf75414217",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-02-20T15:29:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e15de3cd95230044b3ef2df366da3adf75414217"
+          },
+          {
+            "Text": "Fix OTel Collector config: remove ToJsonString, add remove operator for _body_json",
+            "SHA": "c6ccb68c05b8d04391e5c66c38817a1052ea9193",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-20T15:23:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/c6ccb68c05b8d04391e5c66c38817a1052ea9193"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "cb4b409e57dd738f5d13164db6dc653ce75c95f5",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-20T15:21:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/cb4b409e57dd738f5d13164db6dc653ce75c95f5"
+          },
+          {
+            "Text": "Merge pull request #1245 from PRODYNA-YASM/copilot/fix-log-processor-error",
+            "SHA": "0a065916e478073e8ed5f3836b6d9160475c125f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-02-20T15:08:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0a065916e478073e8ed5f3836b6d9160475c125f"
+          },
+          {
+            "Text": "fix: use uppercase ToJsonString converter in transform/logs processor",
+            "SHA": "d960f0c772ae1f35775648271f6367158fc2106d",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-20T15:01:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/d960f0c772ae1f35775648271f6367158fc2106d"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "3a9e168ca29b83829e1daad5b97db65629475303",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-20T14:59:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/3a9e168ca29b83829e1daad5b97db65629475303"
+          },
+          {
+            "Text": "Merge pull request #1244 from PRODYNA-YASM/copilot/fix-missing-log-info",
+            "SHA": "8bbb28e2ffe401321440deeada460eba345f042a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-02-20T14:49:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/8bbb28e2ffe401321440deeada460eba345f042a"
+          },
+          {
+            "Text": "Remove ctx field from JSON log body after trace/span extraction",
+            "SHA": "e4a1aa2760a07ca9291f8c55d468d83855dad028",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-20T14:37:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/e4a1aa2760a07ca9291f8c55d468d83855dad028"
+          },
+          {
+            "Text": "Preserve full JSON log body by copying msg to log.message attribute instead of replacing body",
+            "SHA": "29ce26dd14f76efcd285a33e6db467ac2aa312e0",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-20T12:59:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/29ce26dd14f76efcd285a33e6db467ac2aa312e0"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "01e0f4f1569073f2e5ea1baac9b3c6b518cbdb8b",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-20T12:56:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/01e0f4f1569073f2e5ea1baac9b3c6b518cbdb8b"
+          },
+          {
+            "Text": "Merge pull request #1242 from PRODYNA-YASM/copilot/improve-logs-to-traces",
+            "SHA": "1f358ab5c3560fcc1bd971ba9e1f078260e5d5f7",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-02-20T11:36:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/1f358ab5c3560fcc1bd971ba9e1f078260e5d5f7"
+          },
+          {
+            "Text": "Support Quarkus log format: message field fallback and MDC trace context extraction",
+            "SHA": "55586615f957ce806f67efa5721a353757f07315",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-20T11:28:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/55586615f957ce806f67efa5721a353757f07315"
+          },
+          {
+            "Text": "Preserve Go error field from JSON log body as log attribute",
+            "SHA": "f44ce5cda9a74cb05244e0319c3abf227fbc3ec2",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-20T11:26:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/f44ce5cda9a74cb05244e0319c3abf227fbc3ec2"
+          },
+          {
+            "Text": "Optimal JSON log processing: extract msg as body, parse severity, preserve trace attributes",
+            "SHA": "379e3d4c31df24a7d06f93f9aa2b5d4f7f649c81",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-20T11:20:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/379e3d4c31df24a7d06f93f9aa2b5d4f7f649c81"
+          },
+          {
+            "Text": "Improve logs-to-traces: extract trace context in OTel Collector, add label-based derived fields in Grafana",
+            "SHA": "a1fd79a81af1f85aa32aee51eee7238f5dc84cfe",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-20T11:00:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/a1fd79a81af1f85aa32aee51eee7238f5dc84cfe"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "570c420ac0b1f65ce980055fcee10be7c3e4f6d6",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-20T10:55:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/570c420ac0b1f65ce980055fcee10be7c3e4f6d6"
+          },
           {
             "Text": "Merge pull request #1240 from PRODYNA-YASM/copilot/update-neo4j-image-version",
             "SHA": "b6e912a1c3965ee12536b0f4bbdae253409cb869",
@@ -1580,26 +1753,6 @@
             },
             "Timestamp": "2026-02-13T11:56:32Z",
             "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/9241aa270278f018a7199dbff91cb787029daf5d"
-          },
-          {
-            "Text": "Merge branch 'main' of github.com:PRODYNA-YASM/yasm-infrastructure-staged",
-            "SHA": "dcc919db854e7077a7d860b794b8b17c2aea89c1",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-02-13T11:45:33Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/dcc919db854e7077a7d860b794b8b17c2aea89c1"
-          },
-          {
-            "Text": "Some component updates",
-            "SHA": "0493203748c52cda1dfd256a17e0eb66141d8341",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-02-13T11:45:24Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/commit/0493203748c52cda1dfd256a17e0eb66141d8341"
           }
         ]
       },
@@ -2636,5 +2789,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-02-20T07:46:01Z"
+  "LastUpdated": "2026-02-21T07:41:47Z"
 }
