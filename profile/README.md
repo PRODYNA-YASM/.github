@@ -1,14 +1,14 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-02-21T07:41:47Z
+Component Status overview. Last update 2026-02-22T07:42:48Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.81.0 |  :red_square: 977a8bd |  :green_square: 1.81.0 |  :red_square: 1.76.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [24](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: d737a54 |  :green_square: 1.81.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [24](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: d737a54 |  :green_square: 1.81.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.81.4..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.81.4 |  :red_square: ae20fc7 |  :green_square: 1.81.4 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [21](https://github.com/prodyna-yasm/yasmctl/compare/1.81.0..HEAD) | :green_square: 0 | 1.81.0 |  :red_square: 3a8fb6a |  :green_square: 1.81.0 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.26.6 |  :green_square: 1.26.6 |  :green_square: 1.26.6 |  :red_square: 1.26.5 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.6..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.26.6 |  :red_square: d72d1d6 |  :green_square: 1.26.6 |  :red_square: 1.26.5 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [2](https://github.com/prodyna-yasm/yasm-metrics/compare/1.81.2..HEAD) | :green_square: 0 | 1.81.2 |  :red_square: 7f351e0 |  :green_square: 1.81.2 |  :red_square: 1.76.6 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.14.4 |  :green_square: 1.14.4 |  :green_square: 1.14.4 |  :red_square: 1.14.3 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.16.0 |  :green_square: 1.16.0 |  :green_square: 1.16.0 |  :red_square: 1.15.9 | 
@@ -74,11 +74,6 @@ Component Status overview. Last update 2026-02-21T07:41:47Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting) (1)
-
-- [feat: Populate PersonDetails.nationalities from HAS_NATIONALITY relat…](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/21249359111) created on 2026-01-22 12:59:10 +0000 UTC
-
-
 
 
 ## [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) 1.81.0
@@ -139,7 +134,9 @@ Component Status overview. Last update 2026-02-21T07:41:47Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
+
+- [chore: bump ajv from 6.12.6 to 6.14.0 in the npm_and_yarn group across 1 directory](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1188)
 
 - [chore: bump @azure/msal-browser from 4.28.1 to 5.2.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1187)
 
@@ -173,11 +170,6 @@ Component Status overview. Last update 2026-02-21T07:41:47Z
 - [Fix tooltip for total hour on skill in project, green dot in person list updated](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.76.1) on 2025-11-19 19:49:08 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
-
-- [feat: 551 display nationalities in PersonInformation component (#1160)](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/21249421461) created on 2026-01-22 13:01:11 +0000 UTC
 
 
 
@@ -304,11 +296,6 @@ Component Status overview. Last update 2026-02-21T07:41:47Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #513 from PRODYNA-YASM/dependabot/go_modules/githu…](https://github.com/PRODYNA-YASM/yasmctl/actions/runs/21249769278) created on 2026-01-22 13:12:40 +0000 UTC
-
-
 
 
 ## [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) 1.26.6
@@ -316,11 +303,16 @@ Component Status overview. Last update 2026-02-21T07:41:47Z
 
 
 
+### [Commits on main since 1.26.6](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.6..HEAD) (2)
+
+- [Merge pull request #381 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/runtime-0.65.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/d72d1d6ec7e12beeb25a8e7544a15588ea7a5605) by [dkrizic](https://github.com/dkrizic) on 2026-02-21 08:07:46 +0000 UTC
+
+- [Bump go.opentelemetry.io/contrib/instrumentation/runtime](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/d3d981dc49bf9201d843d21f9c2d6223fd6a21f8) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-02-16 14:35:01 +0000 UTC
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) (2)
 
-- [Bump go.opentelemetry.io/contrib/instrumentation/runtime from 0.64.0 to 0.65.0](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/381)
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) (1)
 
 - [Bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp from 0.64.0 to 0.65.0](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/380)
 
@@ -330,9 +322,9 @@ Component Status overview. Last update 2026-02-21T07:41:47Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.26.6 |  1.26.6 |  1.26.5 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Version |  d72d1d6 |  1.26.6 |  1.26.5 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
@@ -644,15 +636,13 @@ Component Status overview. Last update 2026-02-21T07:41:47Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting) (4)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting) (3)
 
 - [Merge pull request #1234 from PRODYNA-YASM/copilot/update-loki-to-6-53-0](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/21906083665) created on 2026-02-11 13:00:52 +0000 UTC
 
 - [Merge pull request #1227 from PRODYNA-YASM/feature/kubernetes-1.34.2](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/21522135452) created on 2026-01-30 16:03:49 +0000 UTC
 
 - [Back to Traefik 38.0.2](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/21444049917) created on 2026-01-28 15:21:30 +0000 UTC
-
-- [Merge pull request #1217 from PRODYNA-YASM/feature/update-components](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/21249465056) created on 2026-01-22 13:02:35 +0000 UTC
 
 
 

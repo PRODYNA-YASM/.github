@@ -114,14 +114,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "feat: Populate PersonDetails.nationalities from HAS_NATIONALITY relat…",
-            "Timestamp": "2026-01-22T12:59:10Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/21249359111"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -175,8 +169,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "chore: bump ajv from 6.12.6 to 6.14.0 in the npm_and_yarn group across 1 directory",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1188"
+          },
           {
             "Title": "chore: bump @azure/msal-browser from 4.28.1 to 5.2.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1187"
@@ -454,14 +452,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "feat: 551 display nationalities in PersonInformation component (#1160)",
-            "Timestamp": "2026-01-22T13:01:11Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/21249421461"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -843,14 +835,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #513 from PRODYNA-YASM/dependabot/go_modules/githu…",
-            "Timestamp": "2026-01-22T13:12:40Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasmctl/actions/runs/21249769278"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -860,9 +846,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.26.6",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "d72d1d6",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -911,12 +897,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "Bump go.opentelemetry.io/contrib/instrumentation/runtime from 0.64.0 to 0.65.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/381"
-          },
           {
             "Title": "Bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp from 0.64.0 to 0.65.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/380"
@@ -926,8 +908,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.6..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #381 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/runtime-0.65.0",
+            "SHA": "d72d1d6ec7e12beeb25a8e7544a15588ea7a5605",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-02-21T08:07:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/d72d1d6ec7e12beeb25a8e7544a15588ea7a5605"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/contrib/instrumentation/runtime",
+            "SHA": "d3d981dc49bf9201d843d21f9c2d6223fd6a21f8",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-02-16T14:35:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/d3d981dc49bf9201d843d21f9c2d6223fd6a21f8"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1760,7 +1763,7 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 4,
+        "Count": 3,
         "Workflows": [
           {
             "Name": "Merge pull request #1234 from PRODYNA-YASM/copilot/update-loki-to-6-53-0",
@@ -1776,11 +1779,6 @@
             "Name": "Back to Traefik 38.0.2",
             "Timestamp": "2026-01-28T15:21:30Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/21444049917"
-          },
-          {
-            "Name": "Merge pull request #1217 from PRODYNA-YASM/feature/update-components",
-            "Timestamp": "2026-01-22T13:02:35Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/21249465056"
           }
         ]
       }
@@ -2789,5 +2787,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-02-21T07:41:47Z"
+  "LastUpdated": "2026-02-22T07:42:48Z"
 }
