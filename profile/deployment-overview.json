@@ -953,7 +953,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "7f351e0",
+          "Version": "14a1406",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1010,8 +1010,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.81.2..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #332 from PRODYNA-YASM/dependabot/go_modules/github.com/pressly/goose/v3-3.27.0",
+            "SHA": "14a140658720885afeeb77f9ce05703c127f669e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-02-23T06:03:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/14a140658720885afeeb77f9ce05703c127f669e"
+          },
+          {
+            "Text": "build(deps): bump github.com/pressly/goose/v3 from 3.26.0 to 3.27.0",
+            "SHA": "7b8a075a3406e217804d2fe026e0fde20b82a2ec",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-02-23T05:17:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/7b8a075a3406e217804d2fe026e0fde20b82a2ec"
+          },
           {
             "Text": "Merge pull request #331 from PRODYNA-YASM/dependabot/go_modules/go_modules-d60cbccd5d",
             "SHA": "7f351e08d9109bfc5957eec04671142e69dca154",
@@ -1303,9 +1323,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8.26.0-1",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "c20dfa7",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -1360,8 +1380,29 @@
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-1..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #105 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.27.0",
+            "SHA": "c20dfa73759b4c4e0f7625303094839590a9b970",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-02-23T06:03:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/c20dfa73759b4c4e0f7625303094839590a9b970"
+          },
+          {
+            "Text": "Bump gotenberg/gotenberg from 8.26.0 to 8.27.0",
+            "SHA": "dd0469bbaf460f00c2e5fd0e7cd8edc0cecf9b9f",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-02-23T00:06:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/dd0469bbaf460f00c2e5fd0e7cd8edc0cecf9b9f"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -2787,5 +2828,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-02-22T07:42:48Z"
+  "LastUpdated": "2026-02-23T07:47:16Z"
 }

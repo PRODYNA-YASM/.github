@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-02-22T07:42:48Z
+Component Status overview. Last update 2026-02-23T07:47:16Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -9,11 +9,11 @@ Component Status overview. Last update 2026-02-22T07:42:48Z
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.81.4..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.81.4 |  :red_square: ae20fc7 |  :green_square: 1.81.4 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [21](https://github.com/prodyna-yasm/yasmctl/compare/1.81.0..HEAD) | :green_square: 0 | 1.81.0 |  :red_square: 3a8fb6a |  :green_square: 1.81.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.6..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.26.6 |  :red_square: d72d1d6 |  :green_square: 1.26.6 |  :red_square: 1.26.5 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [2](https://github.com/prodyna-yasm/yasm-metrics/compare/1.81.2..HEAD) | :green_square: 0 | 1.81.2 |  :red_square: 7f351e0 |  :green_square: 1.81.2 |  :red_square: 1.76.6 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [4](https://github.com/prodyna-yasm/yasm-metrics/compare/1.81.2..HEAD) | :green_square: 0 | 1.81.2 |  :red_square: 14a1406 |  :green_square: 1.81.2 |  :red_square: 1.76.6 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.14.4 |  :green_square: 1.14.4 |  :green_square: 1.14.4 |  :red_square: 1.14.3 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.16.0 |  :green_square: 1.16.0 |  :green_square: 1.16.0 |  :red_square: 1.15.9 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.18 |  :green_square: 1.2.18 |  :green_square: 1.2.18 |  :red_square: 1.2.17 | 
-| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :green_square: 0 | :green_square: 0 | 8.26.0-1 |  :green_square: 8.26.0-1 |  :green_square: 8.26.0-1 |  :red_square: 8.24.0-0 | 
+| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [2](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-1..HEAD) | :green_square: 0 | 8.26.0-1 |  :red_square: c20dfa7 |  :green_square: 8.26.0-1 |  :red_square: 8.24.0-0 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [30](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.3..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.81.3 |  :red_square: a9cc152 |  :green_square: 1.81.3 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [13](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.76.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.76.2 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm/pulls) | 1.81.0 | 
@@ -350,7 +350,11 @@ Component Status overview. Last update 2026-02-22T07:42:48Z
 
 
 
-### [Commits on main since 1.81.2](https://github.com/prodyna-yasm/yasm-metrics/compare/1.81.2..HEAD) (2)
+### [Commits on main since 1.81.2](https://github.com/prodyna-yasm/yasm-metrics/compare/1.81.2..HEAD) (4)
+
+- [Merge pull request #332 from PRODYNA-YASM/dependabot/go_modules/github.com/pressly/goose/v3-3.27.0](https://github.com/prodyna-yasm/yasm-metrics/commit/14a140658720885afeeb77f9ce05703c127f669e) by [dkrizic](https://github.com/dkrizic) on 2026-02-23 06:03:00 +0000 UTC
+
+- [build(deps): bump github.com/pressly/goose/v3 from 3.26.0 to 3.27.0](https://github.com/prodyna-yasm/yasm-metrics/commit/7b8a075a3406e217804d2fe026e0fde20b82a2ec) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-02-23 05:17:27 +0000 UTC
 
 - [Merge pull request #331 from PRODYNA-YASM/dependabot/go_modules/go_modules-d60cbccd5d](https://github.com/prodyna-yasm/yasm-metrics/commit/7f351e08d9109bfc5957eec04671142e69dca154) by [dkrizic](https://github.com/dkrizic) on 2026-02-19 18:37:28 +0000 UTC
 
@@ -364,7 +368,7 @@ Component Status overview. Last update 2026-02-22T07:42:48Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  7f351e0 |  1.81.2 |  1.76.6 | 
+| Version |  14a1406 |  1.81.2 |  1.76.6 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :red_square: | 
 
@@ -502,6 +506,13 @@ Component Status overview. Last update 2026-02-22T07:42:48Z
 
 
 
+### [Commits on main since 8.26.0-1](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-1..HEAD) (2)
+
+- [Merge pull request #105 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.27.0](https://github.com/prodyna-yasm/yasm-gotenberg/commit/c20dfa73759b4c4e0f7625303094839590a9b970) by [dkrizic](https://github.com/dkrizic) on 2026-02-23 06:03:55 +0000 UTC
+
+- [Bump gotenberg/gotenberg from 8.26.0 to 8.27.0](https://github.com/prodyna-yasm/yasm-gotenberg/commit/dd0469bbaf460f00c2e5fd0e7cd8edc0cecf9b9f) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-02-23 00:06:53 +0000 UTC
+
+
 
 
 
@@ -509,9 +520,9 @@ Component Status overview. Last update 2026-02-22T07:42:48Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  8.26.0-1 |  8.26.0-1 |  8.24.0-0 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Version |  c20dfa7 |  8.26.0-1 |  8.24.0-0 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
