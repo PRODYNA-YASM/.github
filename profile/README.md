@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-02-23T07:47:16Z
+Component Status overview. Last update 2026-02-24T07:46:48Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.81.0 |  :red_square: 977a8bd |  :green_square: 1.81.0 |  :red_square: 1.76.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [24](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: d737a54 |  :green_square: 1.81.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [29](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: d737a54 |  :green_square: 1.81.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.81.4..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.81.4 |  :red_square: ae20fc7 |  :green_square: 1.81.4 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [21](https://github.com/prodyna-yasm/yasmctl/compare/1.81.0..HEAD) | :green_square: 0 | 1.81.0 |  :red_square: 3a8fb6a |  :green_square: 1.81.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.6..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.26.6 |  :red_square: d72d1d6 |  :green_square: 1.26.6 |  :red_square: 1.26.5 | 
@@ -17,12 +17,12 @@ Component Status overview. Last update 2026-02-23T07:47:16Z
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [30](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.3..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.81.3 |  :red_square: a9cc152 |  :green_square: 1.81.3 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [13](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.76.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.76.2 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm/pulls) | 1.81.0 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [4](https://github.com/prodyna-yasm/yasm-api/compare/1.81.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.81.0 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [4](https://github.com/prodyna-yasm/yasm-api/compare/1.81.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.81.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm/pulls) | 1.81.0 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [2](https://github.com/prodyna-yasm/yasm-test/compare/v1.74.1..HEAD) | :yellow_square: [16](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :green_square: 0 | :green_square: 0 | 1.9.1 |  :green_square: 1.9.1 |  :green_square: 1.9.1 |  :red_square: 1.9.0 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [15](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :green_square: 0 | 1.3.0 |  :red_square: b00e5e6 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
-| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :red_square: [1](https://github.com/prodyna-yasm/fox-and-hound/compare/2.1.0..HEAD) | :yellow_square: [13](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.1.0 |  :red_square: 2027921 |  :green_square: 2.1.0 |  :green_square: 2.1.0 | 
+| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :red_square: [30](https://github.com/prodyna-yasm/fox-and-hound/compare/2.1.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.1.0 |  :red_square: 9288635 |  :green_square: 2.1.0 |  :green_square: 2.1.0 | 
 
 
 
@@ -81,7 +81,17 @@ Component Status overview. Last update 2026-02-23T07:47:16Z
 
 
 
-### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) (24)
+### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) (29)
+
+- [1047 fix ci/cd node version missmatch](https://github.com/prodyna-yasm/yasm-frontend/commit/b50dd26612b46f3c303051ed81a43bd55682da2e) by [Milos5611](https://github.com/Milos5611) on 2026-02-23 10:49:32 +0000 UTC
+
+- [1047 fix ci/cd node version missmatch](https://github.com/prodyna-yasm/yasm-frontend/commit/6dcb3cc019d4dc56d437d7d531112f3957b93ae6) by [Milos5611](https://github.com/Milos5611) on 2026-02-23 10:44:06 +0000 UTC
+
+- [1047 fix ci/cd node version missmatch](https://github.com/prodyna-yasm/yasm-frontend/commit/ae034c8a075a507dff4766170a6cec3778dcab97) by [Milos5611](https://github.com/Milos5611) on 2026-02-23 10:15:51 +0000 UTC
+
+- [1047 fix ci/cd node version missmatch](https://github.com/prodyna-yasm/yasm-frontend/commit/455536eed4bc4fc4d50c67e2cbe516d14acf04c7) by [Milos5611](https://github.com/Milos5611) on 2026-02-23 10:10:56 +0000 UTC
+
+- [1047 update number of skills that can be exported](https://github.com/prodyna-yasm/yasm-frontend/commit/29cb8c19ae97bc7310bc6c680d8f37700dc406ae) by [Milos5611](https://github.com/Milos5611) on 2026-02-23 09:53:03 +0000 UTC
 
 - [Fixing broken UI issue](https://github.com/prodyna-yasm/yasm-frontend/commit/561a9df45e903b172ddf87e59574fa62d1d90ffc) by [Milos5611](https://github.com/Milos5611) on 2026-02-19 09:59:16 +0000 UTC
 
@@ -134,9 +144,7 @@ Component Status overview. Last update 2026-02-23T07:47:16Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
-
-- [chore: bump ajv from 6.12.6 to 6.14.0 in the npm_and_yarn group across 1 directory](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1188)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
 
 - [chore: bump @azure/msal-browser from 4.28.1 to 5.2.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1187)
 
@@ -775,7 +783,9 @@ Component Status overview. Last update 2026-02-23T07:47:16Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (1)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (2)
+
+- [chore: bump com.fasterxml.jackson.core:jackson-databind from 2.21.0 to 2.21.1](https://github.com/PRODYNA-YASM/yasm-api/pull/343)
 
 - [chore: bump io.smallrye.reactive:mutiny from 3.1.0 to 3.1.1](https://github.com/PRODYNA-YASM/yasm-api/pull/341)
 
@@ -1013,38 +1023,78 @@ Component Status overview. Last update 2026-02-23T07:47:16Z
 
 
 
-### [Commits on main since 2.1.0](https://github.com/prodyna-yasm/fox-and-hound/compare/2.1.0..HEAD) (1)
+### [Commits on main since 2.1.0](https://github.com/prodyna-yasm/fox-and-hound/compare/2.1.0..HEAD) (30)
 
-- [Merge pull request #291 from PRODYNA-YASM/feature/_159_ShowNotificationInFeWhenThereHasBeenANewRequest](https://github.com/prodyna-yasm/fox-and-hound/commit/20279210648da6a30fd5dbdade904bef8c32adfe) by [sceneo](https://github.com/sceneo) on 2026-02-07 19:04:07 +0000 UTC
+- [Merge pull request #301 from PRODYNA-YASM/feature/_278_ProcessOverview](https://github.com/prodyna-yasm/fox-and-hound/commit/9288635a6ee069974f549d1788a57f45d0dec991) by [sceneo](https://github.com/sceneo) on 2026-02-23 20:06:53 +0000 UTC
+
+- [Introduce backend testing](https://github.com/prodyna-yasm/fox-and-hound/commit/06077207a0d0a769f90740ea44d887c37a04970c) by [](https://github.com/) on 2026-02-23 20:06:17 +0000 UTC
+
+- [Introduce backend testing](https://github.com/prodyna-yasm/fox-and-hound/commit/25e01aa15388f9d84c47a020892843b0f7cb5c52) by [](https://github.com/) on 2026-02-23 19:53:39 +0000 UTC
+
+- [Introduce backend testing](https://github.com/prodyna-yasm/fox-and-hound/commit/0e2e61c1b6a6216a47fef3aa27e38b21c416387a) by [](https://github.com/) on 2026-02-23 19:50:30 +0000 UTC
+
+- [Introduce backend testing](https://github.com/prodyna-yasm/fox-and-hound/commit/cb89b88e171c391dc9734bd103718a63865b4033) by [](https://github.com/) on 2026-02-23 19:39:48 +0000 UTC
+
+- [278 Process overview](https://github.com/prodyna-yasm/fox-and-hound/commit/22a09b47785ff7f162c09380efa98ca18137165c) by [](https://github.com/) on 2026-02-07 20:58:03 +0000 UTC
+
+- [Merge pull request #302 from PRODYNA-YASM/introducte_go_tests](https://github.com/prodyna-yasm/fox-and-hound/commit/d22309e3a1c2a0e99d6bbc06a3d9d507444ccc7d) by [sceneo](https://github.com/sceneo) on 2026-02-23 19:28:15 +0000 UTC
+
+- [Introduce backend testing](https://github.com/prodyna-yasm/fox-and-hound/commit/fea70470c3fcf0febe4300cabfb2208df3655104) by [](https://github.com/) on 2026-02-23 19:26:05 +0000 UTC
+
+- [Merge pull request #314 from PRODYNA-YASM/copilot/sub-pr-302-one-more-time](https://github.com/prodyna-yasm/fox-and-hound/commit/9471756abc09d96f3e8ed5fb14605b540ad775d2) by [sceneo](https://github.com/sceneo) on 2026-02-23 19:05:27 +0000 UTC
+
+- [Merge pull request #318 from PRODYNA-YASM/copilot/sub-pr-302-c8945975-408f-40ea-a8b3-c4d8c7478148](https://github.com/prodyna-yasm/fox-and-hound/commit/1b585fab117061cf515eba155b6cd1bcb77cc103) by [sceneo](https://github.com/sceneo) on 2026-02-23 19:04:57 +0000 UTC
+
+- [Remove head_data_test.go as it only tests constructors](https://github.com/prodyna-yasm/fox-and-hound/commit/6ae30de91354dce297e256181d7998aa25b99b13) by [Copilot](https://github.com/Copilot) on 2026-02-23 19:04:33 +0000 UTC
+
+- [Merge pull request #299 from PRODYNA-YASM/feature/_298_ExportAlwaysAllowed](https://github.com/prodyna-yasm/fox-and-hound/commit/1786c9f8afb867997bd7de05efd44ac8552d1ed4) by [sceneo](https://github.com/sceneo) on 2026-02-23 19:04:30 +0000 UTC
+
+- [Merge pull request #319 from PRODYNA-YASM/copilot/sub-pr-302-c65525aa-445f-408b-85a3-e5bdcad4d277](https://github.com/prodyna-yasm/fox-and-hound/commit/d2972be826feda8865bf9ba9d3462106e8ad44ad) by [sceneo](https://github.com/sceneo) on 2026-02-23 19:03:13 +0000 UTC
+
+- [Remove backend/dtos/candidate_dtos_test.go](https://github.com/prodyna-yasm/fox-and-hound/commit/dd251e4253f367bdbfa1cc8d50cdccf8df38a77d) by [Copilot](https://github.com/Copilot) on 2026-02-23 19:02:53 +0000 UTC
+
+- [Merge pull request #317 from PRODYNA-YASM/copilot/sub-pr-302-e0d99540-c46c-4d3b-b022-3785cee59180](https://github.com/prodyna-yasm/fox-and-hound/commit/6c38d3dd13400f581a2d63c3542753fc78c0bf84) by [sceneo](https://github.com/sceneo) on 2026-02-23 19:02:53 +0000 UTC
+
+- [Merge pull request #316 from PRODYNA-YASM/copilot/sub-pr-302-22585aa7-2232-416f-982a-75f351078a25](https://github.com/prodyna-yasm/fox-and-hound/commit/dfec0b16a97cba935815f06b763eb29045297074) by [sceneo](https://github.com/sceneo) on 2026-02-23 19:02:30 +0000 UTC
+
+- [Merge pull request #315 from PRODYNA-YASM/copilot/sub-pr-302-please-work](https://github.com/prodyna-yasm/fox-and-hound/commit/449ff3c1b07ad9003ffa84292ed038374f33530b) by [sceneo](https://github.com/sceneo) on 2026-02-23 19:01:54 +0000 UTC
+
+- [Merge pull request #312 from PRODYNA-YASM/copilot/sub-pr-302-another-one](https://github.com/prodyna-yasm/fox-and-hound/commit/eb8e4e13f7bdbe76bf02f2aa77ddf9b0578715c4) by [sceneo](https://github.com/sceneo) on 2026-02-23 19:01:29 +0000 UTC
+
+- [Merge pull request #313 from PRODYNA-YASM/copilot/sub-pr-302-yet-again](https://github.com/prodyna-yasm/fox-and-hound/commit/5b944ab361d2d768abfdbc31529529cc0abb3901) by [sceneo](https://github.com/sceneo) on 2026-02-23 19:01:08 +0000 UTC
+
+- [Merge pull request #310 from PRODYNA-YASM/copilot/sub-pr-302](https://github.com/prodyna-yasm/fox-and-hound/commit/2ec4e554285e9239d4c5a9aab26885c7e9da0b77) by [sceneo](https://github.com/sceneo) on 2026-02-23 19:00:36 +0000 UTC
+
+- [Merge pull request #311 from PRODYNA-YASM/copilot/sub-pr-302-again](https://github.com/prodyna-yasm/fox-and-hound/commit/bc397aece1e9c0fde2072b0713b11fee838e2594) by [sceneo](https://github.com/sceneo) on 2026-02-23 19:00:12 +0000 UTC
+
+- [Fix seedEmployerTestData to check db.Create errors and fail early](https://github.com/prodyna-yasm/fox-and-hound/commit/523b98e43764f9e8c05f831acc5d88c6b4509c3d) by [Copilot](https://github.com/Copilot) on 2026-02-23 18:59:22 +0000 UTC
+
+- [Remove backend/dtos/employer_dtos_test.go as requested](https://github.com/prodyna-yasm/fox-and-hound/commit/49c1dca5eba2450140e2ed1505d0a7700af087f5) by [Copilot](https://github.com/Copilot) on 2026-02-23 18:59:19 +0000 UTC
+
+- [Return 204 for missing head data instead of 500, update test](https://github.com/prodyna-yasm/fox-and-hound/commit/31c619633048ac6772c8e9012c3f77792cc26a76) by [Copilot](https://github.com/Copilot) on 2026-02-23 18:59:08 +0000 UTC
+
+- [Remove backend/models/access_control_test.go as it only tests compiler behavior](https://github.com/prodyna-yasm/fox-and-hound/commit/e84405b245e49e650e792f18dc007d6f362fe049) by [Copilot](https://github.com/Copilot) on 2026-02-23 18:58:52 +0000 UTC
+
+- [Merge pull request #309 from PRODYNA-YASM/copilot/sub-pr-299](https://github.com/prodyna-yasm/fox-and-hound/commit/6c8918262dd96184f49a75fd564f2087fb500d64) by [sceneo](https://github.com/sceneo) on 2026-02-23 18:58:41 +0000 UTC
+
+- [Update backend/services/ratings_employer_test.go](https://github.com/prodyna-yasm/fox-and-hound/commit/af1e6683b37349b4ac4bf306634257bcf8988383) by [sceneo](https://github.com/sceneo) on 2026-02-23 18:57:01 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/fox-and-hound/commit/79b4556995599930f371dd002d49e36e704b6a06) by [Copilot](https://github.com/Copilot) on 2026-02-23 18:56:37 +0000 UTC
+
+- [Remove duplicate TestUpdateAccessControl_Success from services test](https://github.com/prodyna-yasm/fox-and-hound/commit/535d0eb3a50673763e2e5a5002a0f41e779d19bb) by [Copilot](https://github.com/Copilot) on 2026-02-23 18:56:31 +0000 UTC
+
+- [Initial plan](https://github.com/prodyna-yasm/fox-and-hound/commit/de1f716bb79319a772ecfddc2dcbc9f146ffe89a) by [Copilot](https://github.com/Copilot) on 2026-02-23 18:56:22 +0000 UTC
 
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (13)
+### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (4)
 
-- [Bump the npm_and_yarn group across 1 directory with 7 updates](https://github.com/PRODYNA-YASM/fox-and-hound/pull/308)
+- [Bump the npm_and_yarn group across 1 directory with 9 updates](https://github.com/PRODYNA-YASM/fox-and-hound/pull/321)
 
-- [Bump @angular/animations from 20.3.7 to 21.1.3 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/307)
-
-- [Bump @angular/cli from 20.3.7 to 21.1.3 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/306)
-
-- [Bump zone.js from 0.15.0 to 0.16.0 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/305)
-
-- [Bump @angular/compiler-cli from 20.3.7 to 21.1.3 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/304)
-
-- [Bump @openapitools/openapi-generator-cli from 2.25.0 to 2.28.2 in /frontend](https://github.com/PRODYNA-YASM/fox-and-hound/pull/303)
-
-- [Introduce backend testing](https://github.com/PRODYNA-YASM/fox-and-hound/pull/302)
-
-- [278 Process overview](https://github.com/PRODYNA-YASM/fox-and-hound/pull/301)
-
-- [197 Show details for categories](https://github.com/PRODYNA-YASM/fox-and-hound/pull/300)
-
-- [298 Add new Request button](https://github.com/PRODYNA-YASM/fox-and-hound/pull/299)
+- [Bump the go_modules group across 1 directory with 3 updates](https://github.com/PRODYNA-YASM/fox-and-hound/pull/320)
 
 - [Optimize backend Kubernetes resources per KRR analysis](https://github.com/PRODYNA-YASM/fox-and-hound/pull/271)
-
-- [Bump the go_modules group across 1 directory with 2 updates](https://github.com/PRODYNA-YASM/fox-and-hound/pull/270)
 
 - [Replace styfle/cancel-workflow-action with native concurrency controls](https://github.com/PRODYNA-YASM/fox-and-hound/pull/268)
 
@@ -1054,7 +1104,7 @@ Component Status overview. Last update 2026-02-23T07:47:16Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  2027921 |  2.1.0 |  2.1.0 | 
+| Version |  9288635 |  2.1.0 |  2.1.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 

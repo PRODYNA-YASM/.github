@@ -169,12 +169,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 6,
         "PullRequests": [
-          {
-            "Title": "chore: bump ajv from 6.12.6 to 6.14.0 in the npm_and_yarn group across 1 directory",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1188"
-          },
           {
             "Title": "chore: bump @azure/msal-browser from 4.28.1 to 5.2.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1187"
@@ -204,8 +200,58 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD",
-        "Count": 24,
+        "Count": 29,
         "Commits": [
+          {
+            "Text": "1047 fix ci/cd node version missmatch",
+            "SHA": "b50dd26612b46f3c303051ed81a43bd55682da2e",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-02-23T10:49:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b50dd26612b46f3c303051ed81a43bd55682da2e"
+          },
+          {
+            "Text": "1047 fix ci/cd node version missmatch",
+            "SHA": "6dcb3cc019d4dc56d437d7d531112f3957b93ae6",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-02-23T10:44:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/6dcb3cc019d4dc56d437d7d531112f3957b93ae6"
+          },
+          {
+            "Text": "1047 fix ci/cd node version missmatch",
+            "SHA": "ae034c8a075a507dff4766170a6cec3778dcab97",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-02-23T10:15:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ae034c8a075a507dff4766170a6cec3778dcab97"
+          },
+          {
+            "Text": "1047 fix ci/cd node version missmatch",
+            "SHA": "455536eed4bc4fc4d50c67e2cbe516d14acf04c7",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-02-23T10:10:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/455536eed4bc4fc4d50c67e2cbe516d14acf04c7"
+          },
+          {
+            "Text": "1047 update number of skills that can be exported",
+            "SHA": "29cb8c19ae97bc7310bc6c680d8f37700dc406ae",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-02-23T09:53:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/29cb8c19ae97bc7310bc6c680d8f37700dc406ae"
+          },
           {
             "Text": "Fixing broken UI issue",
             "SHA": "561a9df45e903b172ddf87e59574fa62d1d90ffc",
@@ -2107,8 +2153,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "chore: bump com.fasterxml.jackson.core:jackson-databind from 2.21.0 to 2.21.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/343"
+          },
           {
             "Title": "chore: bump io.smallrye.reactive:mutiny from 3.1.0 to 3.1.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/341"
@@ -2681,7 +2731,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2027921",
+          "Version": "9288635",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2732,55 +2782,19 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 13,
+        "Count": 4,
         "PullRequests": [
           {
-            "Title": "Bump the npm_and_yarn group across 1 directory with 7 updates",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/308"
+            "Title": "Bump the npm_and_yarn group across 1 directory with 9 updates",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/321"
           },
           {
-            "Title": "Bump @angular/animations from 20.3.7 to 21.1.3 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/307"
-          },
-          {
-            "Title": "Bump @angular/cli from 20.3.7 to 21.1.3 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/306"
-          },
-          {
-            "Title": "Bump zone.js from 0.15.0 to 0.16.0 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/305"
-          },
-          {
-            "Title": "Bump @angular/compiler-cli from 20.3.7 to 21.1.3 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/304"
-          },
-          {
-            "Title": "Bump @openapitools/openapi-generator-cli from 2.25.0 to 2.28.2 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/303"
-          },
-          {
-            "Title": "Introduce backend testing",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/302"
-          },
-          {
-            "Title": "278 Process overview",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/301"
-          },
-          {
-            "Title": "197 Show details for categories",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/300"
-          },
-          {
-            "Title": "298 Add new Request button",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/299"
+            "Title": "Bump the go_modules group across 1 directory with 3 updates",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/320"
           },
           {
             "Title": "Optimize backend Kubernetes resources per KRR analysis",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/271"
-          },
-          {
-            "Title": "Bump the go_modules group across 1 directory with 2 updates",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/270"
           },
           {
             "Title": "Replace styfle/cancel-workflow-action with native concurrency controls",
@@ -2791,17 +2805,307 @@
       "Link": "https://github.com/prodyna-yasm/fox-and-hound",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/compare/2.1.0..HEAD",
-        "Count": 1,
+        "Count": 30,
         "Commits": [
           {
-            "Text": "Merge pull request #291 from PRODYNA-YASM/feature/_159_ShowNotificationInFeWhenThereHasBeenANewRequest",
-            "SHA": "20279210648da6a30fd5dbdade904bef8c32adfe",
+            "Text": "Merge pull request #301 from PRODYNA-YASM/feature/_278_ProcessOverview",
+            "SHA": "9288635a6ee069974f549d1788a57f45d0dec991",
             "Author": {
               "name": "sceneo",
               "link": "https://github.com/sceneo"
             },
-            "Timestamp": "2026-02-07T19:04:07Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/20279210648da6a30fd5dbdade904bef8c32adfe"
+            "Timestamp": "2026-02-23T20:06:53Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/9288635a6ee069974f549d1788a57f45d0dec991"
+          },
+          {
+            "Text": "Introduce backend testing",
+            "SHA": "06077207a0d0a769f90740ea44d887c37a04970c",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2026-02-23T20:06:17Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/06077207a0d0a769f90740ea44d887c37a04970c"
+          },
+          {
+            "Text": "Introduce backend testing",
+            "SHA": "25e01aa15388f9d84c47a020892843b0f7cb5c52",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2026-02-23T19:53:39Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/25e01aa15388f9d84c47a020892843b0f7cb5c52"
+          },
+          {
+            "Text": "Introduce backend testing",
+            "SHA": "0e2e61c1b6a6216a47fef3aa27e38b21c416387a",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2026-02-23T19:50:30Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/0e2e61c1b6a6216a47fef3aa27e38b21c416387a"
+          },
+          {
+            "Text": "Introduce backend testing",
+            "SHA": "cb89b88e171c391dc9734bd103718a63865b4033",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2026-02-23T19:39:48Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/cb89b88e171c391dc9734bd103718a63865b4033"
+          },
+          {
+            "Text": "278 Process overview",
+            "SHA": "22a09b47785ff7f162c09380efa98ca18137165c",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2026-02-07T20:58:03Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/22a09b47785ff7f162c09380efa98ca18137165c"
+          },
+          {
+            "Text": "Merge pull request #302 from PRODYNA-YASM/introducte_go_tests",
+            "SHA": "d22309e3a1c2a0e99d6bbc06a3d9d507444ccc7d",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2026-02-23T19:28:15Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/d22309e3a1c2a0e99d6bbc06a3d9d507444ccc7d"
+          },
+          {
+            "Text": "Introduce backend testing",
+            "SHA": "fea70470c3fcf0febe4300cabfb2208df3655104",
+            "Author": {
+              "name": "",
+              "link": "https://github.com/"
+            },
+            "Timestamp": "2026-02-23T19:26:05Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/fea70470c3fcf0febe4300cabfb2208df3655104"
+          },
+          {
+            "Text": "Merge pull request #314 from PRODYNA-YASM/copilot/sub-pr-302-one-more-time",
+            "SHA": "9471756abc09d96f3e8ed5fb14605b540ad775d2",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2026-02-23T19:05:27Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/9471756abc09d96f3e8ed5fb14605b540ad775d2"
+          },
+          {
+            "Text": "Merge pull request #318 from PRODYNA-YASM/copilot/sub-pr-302-c8945975-408f-40ea-a8b3-c4d8c7478148",
+            "SHA": "1b585fab117061cf515eba155b6cd1bcb77cc103",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2026-02-23T19:04:57Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/1b585fab117061cf515eba155b6cd1bcb77cc103"
+          },
+          {
+            "Text": "Remove head_data_test.go as it only tests constructors",
+            "SHA": "6ae30de91354dce297e256181d7998aa25b99b13",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-23T19:04:33Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/6ae30de91354dce297e256181d7998aa25b99b13"
+          },
+          {
+            "Text": "Merge pull request #299 from PRODYNA-YASM/feature/_298_ExportAlwaysAllowed",
+            "SHA": "1786c9f8afb867997bd7de05efd44ac8552d1ed4",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2026-02-23T19:04:30Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/1786c9f8afb867997bd7de05efd44ac8552d1ed4"
+          },
+          {
+            "Text": "Merge pull request #319 from PRODYNA-YASM/copilot/sub-pr-302-c65525aa-445f-408b-85a3-e5bdcad4d277",
+            "SHA": "d2972be826feda8865bf9ba9d3462106e8ad44ad",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2026-02-23T19:03:13Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/d2972be826feda8865bf9ba9d3462106e8ad44ad"
+          },
+          {
+            "Text": "Remove backend/dtos/candidate_dtos_test.go",
+            "SHA": "dd251e4253f367bdbfa1cc8d50cdccf8df38a77d",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-23T19:02:53Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/dd251e4253f367bdbfa1cc8d50cdccf8df38a77d"
+          },
+          {
+            "Text": "Merge pull request #317 from PRODYNA-YASM/copilot/sub-pr-302-e0d99540-c46c-4d3b-b022-3785cee59180",
+            "SHA": "6c38d3dd13400f581a2d63c3542753fc78c0bf84",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2026-02-23T19:02:53Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/6c38d3dd13400f581a2d63c3542753fc78c0bf84"
+          },
+          {
+            "Text": "Merge pull request #316 from PRODYNA-YASM/copilot/sub-pr-302-22585aa7-2232-416f-982a-75f351078a25",
+            "SHA": "dfec0b16a97cba935815f06b763eb29045297074",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2026-02-23T19:02:30Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/dfec0b16a97cba935815f06b763eb29045297074"
+          },
+          {
+            "Text": "Merge pull request #315 from PRODYNA-YASM/copilot/sub-pr-302-please-work",
+            "SHA": "449ff3c1b07ad9003ffa84292ed038374f33530b",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2026-02-23T19:01:54Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/449ff3c1b07ad9003ffa84292ed038374f33530b"
+          },
+          {
+            "Text": "Merge pull request #312 from PRODYNA-YASM/copilot/sub-pr-302-another-one",
+            "SHA": "eb8e4e13f7bdbe76bf02f2aa77ddf9b0578715c4",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2026-02-23T19:01:29Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/eb8e4e13f7bdbe76bf02f2aa77ddf9b0578715c4"
+          },
+          {
+            "Text": "Merge pull request #313 from PRODYNA-YASM/copilot/sub-pr-302-yet-again",
+            "SHA": "5b944ab361d2d768abfdbc31529529cc0abb3901",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2026-02-23T19:01:08Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/5b944ab361d2d768abfdbc31529529cc0abb3901"
+          },
+          {
+            "Text": "Merge pull request #310 from PRODYNA-YASM/copilot/sub-pr-302",
+            "SHA": "2ec4e554285e9239d4c5a9aab26885c7e9da0b77",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2026-02-23T19:00:36Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/2ec4e554285e9239d4c5a9aab26885c7e9da0b77"
+          },
+          {
+            "Text": "Merge pull request #311 from PRODYNA-YASM/copilot/sub-pr-302-again",
+            "SHA": "bc397aece1e9c0fde2072b0713b11fee838e2594",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2026-02-23T19:00:12Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/bc397aece1e9c0fde2072b0713b11fee838e2594"
+          },
+          {
+            "Text": "Fix seedEmployerTestData to check db.Create errors and fail early",
+            "SHA": "523b98e43764f9e8c05f831acc5d88c6b4509c3d",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-23T18:59:22Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/523b98e43764f9e8c05f831acc5d88c6b4509c3d"
+          },
+          {
+            "Text": "Remove backend/dtos/employer_dtos_test.go as requested",
+            "SHA": "49c1dca5eba2450140e2ed1505d0a7700af087f5",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-23T18:59:19Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/49c1dca5eba2450140e2ed1505d0a7700af087f5"
+          },
+          {
+            "Text": "Return 204 for missing head data instead of 500, update test",
+            "SHA": "31c619633048ac6772c8e9012c3f77792cc26a76",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-23T18:59:08Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/31c619633048ac6772c8e9012c3f77792cc26a76"
+          },
+          {
+            "Text": "Remove backend/models/access_control_test.go as it only tests compiler behavior",
+            "SHA": "e84405b245e49e650e792f18dc007d6f362fe049",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-23T18:58:52Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/e84405b245e49e650e792f18dc007d6f362fe049"
+          },
+          {
+            "Text": "Merge pull request #309 from PRODYNA-YASM/copilot/sub-pr-299",
+            "SHA": "6c8918262dd96184f49a75fd564f2087fb500d64",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2026-02-23T18:58:41Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/6c8918262dd96184f49a75fd564f2087fb500d64"
+          },
+          {
+            "Text": "Update backend/services/ratings_employer_test.go",
+            "SHA": "af1e6683b37349b4ac4bf306634257bcf8988383",
+            "Author": {
+              "name": "sceneo",
+              "link": "https://github.com/sceneo"
+            },
+            "Timestamp": "2026-02-23T18:57:01Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/af1e6683b37349b4ac4bf306634257bcf8988383"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "79b4556995599930f371dd002d49e36e704b6a06",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-23T18:56:37Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/79b4556995599930f371dd002d49e36e704b6a06"
+          },
+          {
+            "Text": "Remove duplicate TestUpdateAccessControl_Success from services test",
+            "SHA": "535d0eb3a50673763e2e5a5002a0f41e779d19bb",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-23T18:56:31Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/535d0eb3a50673763e2e5a5002a0f41e779d19bb"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "de1f716bb79319a772ecfddc2dcbc9f146ffe89a",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-23T18:56:22Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/de1f716bb79319a772ecfddc2dcbc9f146ffe89a"
           }
         ]
       },
@@ -2828,5 +3132,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-02-23T07:47:16Z"
+  "LastUpdated": "2026-02-24T07:46:48Z"
 }
