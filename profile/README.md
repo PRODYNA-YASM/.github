@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-02-25T07:47:07Z
+Component Status overview. Last update 2026-02-26T07:46:56Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.81.0 |  :red_square: 977a8bd |  :green_square: 1.81.0 |  :red_square: 1.76.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: d737a54 |  :green_square: 1.81.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: 1.81.1 |  :red_square: 1.81.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [2](https://github.com/prodyna-yasm/yasm-integration/compare/1.81.4..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.81.4 |  :red_square: ae20fc7 |  :green_square: 1.81.4 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [21](https://github.com/prodyna-yasm/yasmctl/compare/1.81.0..HEAD) | :green_square: 0 | 1.81.0 |  :red_square: 3a8fb6a |  :green_square: 1.81.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.6..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.26.6 |  :red_square: d72d1d6 |  :green_square: 1.26.6 |  :red_square: 1.26.5 | 
@@ -83,6 +83,24 @@ Component Status overview. Last update 2026-02-25T07:47:07Z
 
 ### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) (30)
 
+- [Fixing broken pdf export link](https://github.com/prodyna-yasm/yasm-frontend/commit/dbd9a495cd81d8b52599c67a615e7636b2fbe0e7) by [Milos5611](https://github.com/Milos5611) on 2026-02-25 19:26:30 +0000 UTC
+
+- [1032 fix broken UI](https://github.com/prodyna-yasm/yasm-frontend/commit/e1ea8638461467c1c2b34b1e741aa92e585f9d44) by [Milos5611](https://github.com/Milos5611) on 2026-02-25 10:05:30 +0000 UTC
+
+- [1047 fix ci/cd node version missmatch](https://github.com/prodyna-yasm/yasm-frontend/commit/f30e4ab4e3ad75a7c917c34d0ee1e3ecc08e722c) by [Milos5611](https://github.com/Milos5611) on 2026-02-25 09:45:48 +0000 UTC
+
+- [1047 fix ci/cd node version missmatch](https://github.com/prodyna-yasm/yasm-frontend/commit/b96b8e2a7cf3d2eb599cfd8339542b9e7336a68a) by [Milos5611](https://github.com/Milos5611) on 2026-02-25 09:43:08 +0000 UTC
+
+- [1047 fix ci/cd node version missmatch](https://github.com/prodyna-yasm/yasm-frontend/commit/e742d0a00bc9276e0e38d5d23e38069ad79f6f64) by [Milos5611](https://github.com/Milos5611) on 2026-02-25 09:39:32 +0000 UTC
+
+- [1047 fix ci/cd node version missmatch](https://github.com/prodyna-yasm/yasm-frontend/commit/8bbfe974fd0491e4ba1fe7091f9dbeedee3d1c49) by [Milos5611](https://github.com/Milos5611) on 2026-02-25 09:30:02 +0000 UTC
+
+- [1047 fix ci/cd node version missmatch](https://github.com/prodyna-yasm/yasm-frontend/commit/ebf22c64da01cac018f4243d1c7d746e92286bc2) by [Milos5611](https://github.com/Milos5611) on 2026-02-25 09:28:57 +0000 UTC
+
+- [1047 fix ci/cd node version missmatch](https://github.com/prodyna-yasm/yasm-frontend/commit/670db05f395421d18652b5eadb907d8da5cf39f3) by [Milos5611](https://github.com/Milos5611) on 2026-02-25 09:19:01 +0000 UTC
+
+- [1047 fix ci/cd node version missmatch](https://github.com/prodyna-yasm/yasm-frontend/commit/7f295f5cd0c4fd5af782c68ee44c80ddc655dabf) by [Milos5611](https://github.com/Milos5611) on 2026-02-25 09:10:41 +0000 UTC
+
 - [1047 fix ci/cd node version missmatch](https://github.com/prodyna-yasm/yasm-frontend/commit/2f4c9f93125c415a08a120f621caf0b6d9e2eb01) by [Milos5611](https://github.com/Milos5611) on 2026-02-24 11:05:18 +0000 UTC
 
 - [1047 fix ci/cd node version missmatch](https://github.com/prodyna-yasm/yasm-frontend/commit/b50dd26612b46f3c303051ed81a43bd55682da2e) by [Milos5611](https://github.com/Milos5611) on 2026-02-23 10:49:32 +0000 UTC
@@ -125,30 +143,12 @@ Component Status overview. Last update 2026-02-25T07:47:07Z
 
 - [chore: bump @fontsource/roboto from 5.2.5 to 5.2.9 (#1170)](https://github.com/prodyna-yasm/yasm-frontend/commit/7272ff30ea847106f96a99bd13be309796fceb43) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-01-29 08:47:31 +0000 UTC
 
-- [chore: bump @opentelemetry/instrumentation-document-load (#1169)](https://github.com/prodyna-yasm/yasm-frontend/commit/70df0f9eda23635f0eeb2103810439d30fdf552b) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-01-29 08:47:12 +0000 UTC
-
-- [chore: bump uuid from 11.1.0 to 13.0.0 (#1168)](https://github.com/prodyna-yasm/yasm-frontend/commit/59751f9ba7ce08cd2171b8d18b97419cc8f44a3c) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-01-29 08:46:45 +0000 UTC
-
-- [chore: update @azure/msal-browser to version 4.28.1 (#1148)](https://github.com/prodyna-yasm/yasm-frontend/commit/c4755c0ec0772685cb74d099ac78e4fb930ab4bf) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-01-28 16:50:01 +0000 UTC
-
-- [Update package-lock.json with dependency version upgrades (#1165)](https://github.com/prodyna-yasm/yasm-frontend/commit/6f7c47800b9073c5feb7361d3b9707c91833dde8) by [TD99](https://github.com/TD99) on 2026-01-28 16:14:10 +0000 UTC
-
-- [chore: bump lodash in the npm_and_yarn group across 1 directory (#1162)](https://github.com/prodyna-yasm/yasm-frontend/commit/004eee2430a21bf612f8e4b6c99feda6a2eb6c5f) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-01-28 16:06:50 +0000 UTC
-
-- [chore: bump node from 25.3.0-slim to 25.5.0-slim (#1164)](https://github.com/prodyna-yasm/yasm-frontend/commit/2c331e46e3e91c12ef103a7580f1b17e848f4ad1) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-01-28 16:05:27 +0000 UTC
-
-- [chore: bump vite from 6.4.1 to 7.3.1 (#1155)](https://github.com/prodyna-yasm/yasm-frontend/commit/1bbbde48e898152da9f8def2f678795604dd6caa) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-01-28 15:59:26 +0000 UTC
-
-- [chore: bump html-react-parser from 5.2.7 to 5.2.11 (#1153)](https://github.com/prodyna-yasm/yasm-frontend/commit/4afd0c71303bc607bf5fe4cc0b5aeba6473afb66) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-01-28 15:56:45 +0000 UTC
-
-- [feat: Feature/1025 feature request add belongingloyalty batches and employeesince to the profile pdfs (#1163)](https://github.com/prodyna-yasm/yasm-frontend/commit/7f05c2c3aa5843206c991395b4e99781913c3f3b) by [TD99](https://github.com/TD99) on 2026-01-22 14:40:54 +0000 UTC
-
 
 
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
 
-- [chore: bump node from 24.13.1-slim to 25.6.1-slim](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1189)
+- [chore: bump node from 24.13.1-slim to 25.7.0-slim](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1190)
 
 - [chore: bump @editorjs/editorjs from 2.30.8 to 2.31.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1185)
 
@@ -166,9 +166,9 @@ Component Status overview. Last update 2026-02-25T07:47:07Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  d737a54 |  1.81.0 | 
-| Release |  :red_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: | 
+| Version |  1.81.1 |  1.81.1 | 
+| Release |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :red_square: | 
 
 
 ### Last releases
@@ -180,6 +180,11 @@ Component Status overview. Last update 2026-02-25T07:47:07Z
 - [Fix tooltip for total hour on skill in project, green dot in person list updated](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.76.1) on 2025-11-19 19:49:08 +0000 UTC
 
 
+
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
+
+- [Fixing broken pdf export link](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/22412600657) created on 2026-02-25 19:32:23 +0000 UTC
 
 
 

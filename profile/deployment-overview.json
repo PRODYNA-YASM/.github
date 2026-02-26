@@ -125,16 +125,16 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d737a54",
-          "IsRelease": false,
+          "Version": "1.81.1",
+          "IsRelease": true,
           "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.81.0",
+          "Version": "1.81.1",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
@@ -172,8 +172,8 @@
         "Count": 6,
         "PullRequests": [
           {
-            "Title": "chore: bump node from 24.13.1-slim to 25.6.1-slim",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1189"
+            "Title": "chore: bump node from 24.13.1-slim to 25.7.0-slim",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1190"
           },
           {
             "Title": "chore: bump @editorjs/editorjs from 2.30.8 to 2.31.1",
@@ -202,6 +202,96 @@
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Fixing broken pdf export link",
+            "SHA": "dbd9a495cd81d8b52599c67a615e7636b2fbe0e7",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-02-25T19:26:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/dbd9a495cd81d8b52599c67a615e7636b2fbe0e7"
+          },
+          {
+            "Text": "1032 fix broken UI",
+            "SHA": "e1ea8638461467c1c2b34b1e741aa92e585f9d44",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-02-25T10:05:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/e1ea8638461467c1c2b34b1e741aa92e585f9d44"
+          },
+          {
+            "Text": "1047 fix ci/cd node version missmatch",
+            "SHA": "f30e4ab4e3ad75a7c917c34d0ee1e3ecc08e722c",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-02-25T09:45:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/f30e4ab4e3ad75a7c917c34d0ee1e3ecc08e722c"
+          },
+          {
+            "Text": "1047 fix ci/cd node version missmatch",
+            "SHA": "b96b8e2a7cf3d2eb599cfd8339542b9e7336a68a",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-02-25T09:43:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b96b8e2a7cf3d2eb599cfd8339542b9e7336a68a"
+          },
+          {
+            "Text": "1047 fix ci/cd node version missmatch",
+            "SHA": "e742d0a00bc9276e0e38d5d23e38069ad79f6f64",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-02-25T09:39:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/e742d0a00bc9276e0e38d5d23e38069ad79f6f64"
+          },
+          {
+            "Text": "1047 fix ci/cd node version missmatch",
+            "SHA": "8bbfe974fd0491e4ba1fe7091f9dbeedee3d1c49",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-02-25T09:30:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/8bbfe974fd0491e4ba1fe7091f9dbeedee3d1c49"
+          },
+          {
+            "Text": "1047 fix ci/cd node version missmatch",
+            "SHA": "ebf22c64da01cac018f4243d1c7d746e92286bc2",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-02-25T09:28:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ebf22c64da01cac018f4243d1c7d746e92286bc2"
+          },
+          {
+            "Text": "1047 fix ci/cd node version missmatch",
+            "SHA": "670db05f395421d18652b5eadb907d8da5cf39f3",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-02-25T09:19:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/670db05f395421d18652b5eadb907d8da5cf39f3"
+          },
+          {
+            "Text": "1047 fix ci/cd node version missmatch",
+            "SHA": "7f295f5cd0c4fd5af782c68ee44c80ddc655dabf",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-02-25T09:10:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7f295f5cd0c4fd5af782c68ee44c80ddc655dabf"
+          },
           {
             "Text": "1047 fix ci/cd node version missmatch",
             "SHA": "2f4c9f93125c415a08a120f621caf0b6d9e2eb01",
@@ -411,96 +501,6 @@
             },
             "Timestamp": "2026-01-29T08:47:31Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7272ff30ea847106f96a99bd13be309796fceb43"
-          },
-          {
-            "Text": "chore: bump @opentelemetry/instrumentation-document-load (#1169)",
-            "SHA": "70df0f9eda23635f0eeb2103810439d30fdf552b",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-01-29T08:47:12Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/70df0f9eda23635f0eeb2103810439d30fdf552b"
-          },
-          {
-            "Text": "chore: bump uuid from 11.1.0 to 13.0.0 (#1168)",
-            "SHA": "59751f9ba7ce08cd2171b8d18b97419cc8f44a3c",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-01-29T08:46:45Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/59751f9ba7ce08cd2171b8d18b97419cc8f44a3c"
-          },
-          {
-            "Text": "chore: update @azure/msal-browser to version 4.28.1 (#1148)",
-            "SHA": "c4755c0ec0772685cb74d099ac78e4fb930ab4bf",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-01-28T16:50:01Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/c4755c0ec0772685cb74d099ac78e4fb930ab4bf"
-          },
-          {
-            "Text": "Update package-lock.json with dependency version upgrades (#1165)",
-            "SHA": "6f7c47800b9073c5feb7361d3b9707c91833dde8",
-            "Author": {
-              "name": "TD99",
-              "link": "https://github.com/TD99"
-            },
-            "Timestamp": "2026-01-28T16:14:10Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/6f7c47800b9073c5feb7361d3b9707c91833dde8"
-          },
-          {
-            "Text": "chore: bump lodash in the npm_and_yarn group across 1 directory (#1162)",
-            "SHA": "004eee2430a21bf612f8e4b6c99feda6a2eb6c5f",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-01-28T16:06:50Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/004eee2430a21bf612f8e4b6c99feda6a2eb6c5f"
-          },
-          {
-            "Text": "chore: bump node from 25.3.0-slim to 25.5.0-slim (#1164)",
-            "SHA": "2c331e46e3e91c12ef103a7580f1b17e848f4ad1",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-01-28T16:05:27Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2c331e46e3e91c12ef103a7580f1b17e848f4ad1"
-          },
-          {
-            "Text": "chore: bump vite from 6.4.1 to 7.3.1 (#1155)",
-            "SHA": "1bbbde48e898152da9f8def2f678795604dd6caa",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-01-28T15:59:26Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/1bbbde48e898152da9f8def2f678795604dd6caa"
-          },
-          {
-            "Text": "chore: bump html-react-parser from 5.2.7 to 5.2.11 (#1153)",
-            "SHA": "4afd0c71303bc607bf5fe4cc0b5aeba6473afb66",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-01-28T15:56:45Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/4afd0c71303bc607bf5fe4cc0b5aeba6473afb66"
-          },
-          {
-            "Text": "feat: Feature/1025 feature request add belongingloyalty batches and employeesince to the profile pdfs (#1163)",
-            "SHA": "7f05c2c3aa5843206c991395b4e99781913c3f3b",
-            "Author": {
-              "name": "TD99",
-              "link": "https://github.com/TD99"
-            },
-            "Timestamp": "2026-01-22T14:40:54Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7f05c2c3aa5843206c991395b4e99781913c3f3b"
           }
         ]
       },
@@ -508,8 +508,14 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Fixing broken pdf export link",
+            "Timestamp": "2026-02-25T19:32:23Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/22412600657"
+          }
+        ]
       }
     },
     {
@@ -3135,5 +3141,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-02-25T07:47:07Z"
+  "LastUpdated": "2026-02-26T07:46:56Z"
 }
