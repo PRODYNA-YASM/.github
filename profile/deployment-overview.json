@@ -125,8 +125,8 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.81.1",
-          "IsRelease": true,
+          "Version": "0b891db",
+          "IsRelease": false,
           "IsCurrent": false
         },
         {
@@ -169,12 +169,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 5,
         "PullRequests": [
-          {
-            "Title": "chore: bump node from 24.13.1-slim to 25.7.0-slim",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1190"
-          },
           {
             "Title": "chore: bump @editorjs/editorjs from 2.30.8 to 2.31.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1185"
@@ -202,6 +198,16 @@
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "chore: bump node from 24.13.1-slim to 25.7.0-slim (#1190)",
+            "SHA": "0b891db59b9ad5b10617e0798080c1dc678cf3ef",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-02-26T16:42:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/0b891db59b9ad5b10617e0798080c1dc678cf3ef"
+          },
           {
             "Text": "Fixing broken pdf export link",
             "SHA": "dbd9a495cd81d8b52599c67a615e7636b2fbe0e7",
@@ -491,16 +497,6 @@
             },
             "Timestamp": "2026-01-29T09:44:38Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/055b3f4900798d32fdc151ba715a3c7a06804418"
-          },
-          {
-            "Text": "chore: bump @fontsource/roboto from 5.2.5 to 5.2.9 (#1170)",
-            "SHA": "7272ff30ea847106f96a99bd13be309796fceb43",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-01-29T08:47:31Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7272ff30ea847106f96a99bd13be309796fceb43"
           }
         ]
       },
@@ -908,7 +904,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d72d1d6",
+          "Version": "a1a60ba",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -959,19 +955,64 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp from 0.64.0 to 0.65.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/380"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.6..HEAD",
-        "Count": 2,
+        "Count": 7,
         "Commits": [
+          {
+            "Text": "Merge pull request #380 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp-0.65.0",
+            "SHA": "a1a60baeeaf3b3d0aa741ec12d32abd44ce638c8",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-02-26T11:25:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/a1a60baeeaf3b3d0aa741ec12d32abd44ce638c8"
+          },
+          {
+            "Text": "Merge pull request #382 from PRODYNA-YASM/copilot/sub-pr-380",
+            "SHA": "c0c0d983eca692fd6c5f09cf2bb1aacb32d6304f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-02-26T11:10:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/c0c0d983eca692fd6c5f09cf2bb1aacb32d6304f"
+          },
+          {
+            "Text": "Remove WithRouteTag wrappers - removed in otelhttp v0.65.0",
+            "SHA": "c0058f32471e2465c20fc4f539995a0acb258525",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-26T10:48:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/c0058f32471e2465c20fc4f539995a0acb258525"
+          },
+          {
+            "Text": "Initial plan",
+            "SHA": "5bdffc877f094a531a2573f747489aa1f557bb0c",
+            "Author": {
+              "name": "Copilot",
+              "link": "https://github.com/Copilot"
+            },
+            "Timestamp": "2026-02-26T10:43:36Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/5bdffc877f094a531a2573f747489aa1f557bb0c"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+            "SHA": "6d12d71fae132fd2a23ada874e1a809ff4e43ef4",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-02-21T08:09:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/6d12d71fae132fd2a23ada874e1a809ff4e43ef4"
+          },
           {
             "Text": "Merge pull request #381 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/runtime-0.65.0",
             "SHA": "d72d1d6ec7e12beeb25a8e7544a15588ea7a5605",
@@ -3141,5 +3182,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-02-26T07:46:56Z"
+  "LastUpdated": "2026-02-27T07:45:46Z"
 }
