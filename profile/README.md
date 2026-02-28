@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-02-27T07:45:46Z
+Component Status overview. Last update 2026-02-28T07:39:04Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -11,7 +11,7 @@ Component Status overview. Last update 2026-02-27T07:45:46Z
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [7](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.6..HEAD) | :green_square: 0 | 1.26.6 |  :red_square: a1a60ba |  :green_square: 1.26.6 |  :red_square: 1.26.5 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [4](https://github.com/prodyna-yasm/yasm-metrics/compare/1.81.2..HEAD) | :green_square: 0 | 1.81.2 |  :red_square: 14a1406 |  :green_square: 1.81.2 |  :red_square: 1.76.6 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.14.4 |  :green_square: 1.14.4 |  :green_square: 1.14.4 |  :red_square: 1.14.3 | 
-| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.16.0 |  :green_square: 1.16.0 |  :green_square: 1.16.0 |  :red_square: 1.15.9 | 
+| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [2](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.0..HEAD) | :green_square: 0 | 1.16.0 |  :red_square: 18893f8 |  :green_square: 1.16.0 |  :red_square: 1.15.9 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.18 |  :green_square: 1.2.18 |  :green_square: 1.2.18 |  :red_square: 1.2.17 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [2](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-1..HEAD) | :green_square: 0 | 8.26.0-1 |  :red_square: c20dfa7 |  :green_square: 8.26.0-1 |  :red_square: 8.24.0-0 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [30](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.3..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.81.3 |  :red_square: fc0a472 | 
@@ -454,6 +454,13 @@ Component Status overview. Last update 2026-02-27T07:45:46Z
 
 
 
+### [Commits on main since 1.16.0](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.0..HEAD) (2)
+
+- [Merge pull request #327 from PRODYNA-YASM/dependabot/go_modules/github.com/dapr/go-sdk-1.14.0](https://github.com/prodyna-yasm/yasm-geocoding/commit/18893f8302491b0431b9548110405e2520821d1d) by [dkrizic](https://github.com/dkrizic) on 2026-02-27 21:12:21 +0000 UTC
+
+- [Bump github.com/dapr/go-sdk from 1.13.0 to 1.14.0](https://github.com/prodyna-yasm/yasm-geocoding/commit/87f7598ed8a3d3938ce687981760aecedc70e949) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-02-27 16:53:31 +0000 UTC
+
+
 
 
 
@@ -461,9 +468,9 @@ Component Status overview. Last update 2026-02-27T07:45:46Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.16.0 |  1.16.0 |  1.15.9 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :red_square: | 
+| Version |  18893f8 |  1.16.0 |  1.15.9 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
@@ -665,13 +672,11 @@ Component Status overview. Last update 2026-02-27T07:45:46Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting) (3)
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting) (2)
 
 - [Merge pull request #1234 from PRODYNA-YASM/copilot/update-loki-to-6-53-0](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/21906083665) created on 2026-02-11 13:00:52 +0000 UTC
 
 - [Merge pull request #1227 from PRODYNA-YASM/feature/kubernetes-1.34.2](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/21522135452) created on 2026-01-30 16:03:49 +0000 UTC
-
-- [Back to Traefik 38.0.2](https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/21444049917) created on 2026-01-28 15:21:30 +0000 UTC
 
 
 
