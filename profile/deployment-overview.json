@@ -565,8 +565,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Bump github.com/urfave/cli/v3 from 3.6.2 to 3.7.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/902"
+          },
           {
             "Title": "Fix: Prevent anonymization of Entra ID users with invalid Maconomy data",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/873"
@@ -1921,17 +1925,12 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-infrastructure-staged/actions?query=is%3Awaiting",
-        "Count": 2,
+        "Count": 1,
         "Workflows": [
           {
             "Name": "Merge pull request #1234 from PRODYNA-YASM/copilot/update-loki-to-6-53-0",
             "Timestamp": "2026-02-11T13:00:52Z",
             "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/21906083665"
-          },
-          {
-            "Name": "Merge pull request #1227 from PRODYNA-YASM/feature/kubernetes-1.34.2",
-            "Timestamp": "2026-01-30T16:03:49Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-infrastructure-staged/actions/runs/21522135452"
           }
         ]
       }
@@ -2848,8 +2847,28 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 4,
+        "Count": 9,
         "PullRequests": [
+          {
+            "Title": "Bump typescript from 5.8.3 to 5.9.3 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/326"
+          },
+          {
+            "Title": "Bump @angular/platform-browser from 20.3.7 to 21.2.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/325"
+          },
+          {
+            "Title": "Bump rxjs from 7.8.1 to 7.8.2 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/324"
+          },
+          {
+            "Title": "Bump karma-jasmine-html-reporter from 2.1.0 to 2.2.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/323"
+          },
+          {
+            "Title": "Bump github.com/gin-gonic/gin from 1.11.0 to 1.12.0 in /backend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/322"
+          },
           {
             "Title": "Bump the npm_and_yarn group across 1 directory with 9 updates",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/321"
@@ -3198,5 +3217,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-03-01T07:41:58Z"
+  "LastUpdated": "2026-03-02T07:46:28Z"
 }
