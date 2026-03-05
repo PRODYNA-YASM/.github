@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 5,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump docker/login-action from 3 to 4",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/998"
+          },
           {
             "Title": "build(deps-dev): bump org.apache.maven.plugins:maven-compiler-plugin from 3.14.1 to 3.15.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/997"
@@ -525,7 +529,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "7044229",
+          "Version": "ed7801f",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -562,12 +566,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 3,
+        "Count": 2,
         "PullRequests": [
-          {
-            "Title": "Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc from 1.40.0 to 1.41.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/908"
-          },
           {
             "Title": "Fix: Prevent anonymization of Entra ID users with invalid Maconomy data",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/873"
@@ -581,8 +581,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.81.4..HEAD",
-        "Count": 7,
+        "Count": 9,
         "Commits": [
+          {
+            "Text": "Bump docker/login-action from 3 to 4 (#910)",
+            "SHA": "ed7801f0a76de49572ca9dbe62dc48b993389875",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-05T06:46:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/ed7801f0a76de49572ca9dbe62dc48b993389875"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc (#908)",
+            "SHA": "e2a4a8de2e6c4a700ee5ad4b470c1c8f0caf449d",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-04T10:13:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/e2a4a8de2e6c4a700ee5ad4b470c1c8f0caf449d"
+          },
           {
             "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc (#909)",
             "SHA": "7044229ed61148094466606d15491a571983310f",
@@ -676,7 +696,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "29350e6",
+          "Version": "7506286",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -728,6 +748,26 @@
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.81.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #530 from PRODYNA-YASM/dependabot/github_actions/docker/login-action-4",
+            "SHA": "750628613664c4530e083817ab8bbae353d5a754",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-05T06:52:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/750628613664c4530e083817ab8bbae353d5a754"
+          },
+          {
+            "Text": "Bump docker/login-action from 3 to 4",
+            "SHA": "20cdbacb709c42ad6a45248c12f36697967a46f4",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-04T21:12:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/20cdbacb709c42ad6a45248c12f36697967a46f4"
+          },
           {
             "Text": "Merge pull request #529 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/runtime-0.66.0",
             "SHA": "29350e6a955bf9b55abac5d69e008d7f185adc34",
@@ -1007,26 +1047,6 @@
             },
             "Timestamp": "2026-02-03T06:50:49Z",
             "Link": "https://github.com/prodyna-yasm/yasmctl/commit/b2b22ae7f51240fe55cab7732e0e408badca3ef4"
-          },
-          {
-            "Text": "Bump go.opentelemetry.io/otel/sdk from 1.39.0 to 1.40.0",
-            "SHA": "90ebff6fbb5e64317a20c0ff23f89288e09ca2e0",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-02-03T06:48:39Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/90ebff6fbb5e64317a20c0ff23f89288e09ca2e0"
-          },
-          {
-            "Text": "Merge pull request #518 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel-1.40.0",
-            "SHA": "fed46887897d260ca1745e451f573979253e2947",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-02-03T06:47:27Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/fed46887897d260ca1745e451f573979253e2947"
           }
         ]
       },
@@ -1217,7 +1237,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "86a46d2",
+          "Version": "d6f1bf8",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1274,8 +1294,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.81.2..HEAD",
-        "Count": 14,
+        "Count": 16,
         "Commits": [
+          {
+            "Text": "Merge pull request #339 from PRODYNA-YASM/dependabot/github_actions/docker/login-action-4",
+            "SHA": "d6f1bf8edfca0e3370e11799ecf17bd00516fa06",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-05T06:39:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/d6f1bf8edfca0e3370e11799ecf17bd00516fa06"
+          },
+          {
+            "Text": "build(deps): bump docker/login-action from 3 to 4",
+            "SHA": "afdef81a341a5437940860a00711180c44763970",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-05T05:13:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/afdef81a341a5437940860a00711180c44763970"
+          },
           {
             "Text": "Merge pull request #338 from PRODYNA-YASM/dependabot/go_modules/github.com/AzureAD/microsoft-authentication-library-for-go-1.7.0",
             "SHA": "86a46d264cf2ac502de4a9836b629b80df61a936",
@@ -1439,7 +1479,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "afcaba5",
+          "Version": "eb41b43",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1496,8 +1536,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.14.4..HEAD",
-        "Count": 9,
+        "Count": 13,
         "Commits": [
+          {
+            "Text": "Merge pull request #339 from PRODYNA-YASM/dependabot/github_actions/docker/setup-qemu-action-4",
+            "SHA": "eb41b43caa35b8e4b2c8223e6c6737fc80b94e63",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-05T06:55:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/eb41b43caa35b8e4b2c8223e6c6737fc80b94e63"
+          },
+          {
+            "Text": "Merge pull request #340 from PRODYNA-YASM/dependabot/github_actions/docker/login-action-4",
+            "SHA": "2a8686dbe694b313d41c24ec5d9c5282b212cf67",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-05T06:39:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/2a8686dbe694b313d41c24ec5d9c5282b212cf67"
+          },
+          {
+            "Text": "Bump docker/login-action from 3 to 4",
+            "SHA": "79a38e6a68bf14bd92e06438b6d5e13852db12a5",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-04T23:53:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/79a38e6a68bf14bd92e06438b6d5e13852db12a5"
+          },
+          {
+            "Text": "Bump docker/setup-qemu-action from 3 to 4",
+            "SHA": "9fdeb7bfcb9282ca4515c29a067921eae2662dcb",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-04T23:53:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/9fdeb7bfcb9282ca4515c29a067921eae2662dcb"
+          },
           {
             "Text": "Merge pull request #338 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc-1.41.0",
             "SHA": "afcaba51f78794ac9571f303e85c951b21708cff",
@@ -1611,7 +1691,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "7e74b1f",
+          "Version": "a6825f8",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1662,14 +1742,59 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump docker/setup-qemu-action from 3 to 4",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/336"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.0..HEAD",
-        "Count": 12,
+        "Count": 16,
         "Commits": [
+          {
+            "Text": "Merge pull request #335 from PRODYNA-YASM/dependabot/github_actions/docker/login-action-4",
+            "SHA": "a6825f83a7200cb798abd521d37bf73fa542052a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-04T17:40:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/a6825f83a7200cb798abd521d37bf73fa542052a"
+          },
+          {
+            "Text": "Merge pull request #337 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/runtime-0.66.0",
+            "SHA": "22c5074980805adebc5a0bcebfe5ad5b257bf7dc",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-04T17:39:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/22c5074980805adebc5a0bcebfe5ad5b257bf7dc"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/contrib/instrumentation/runtime",
+            "SHA": "ef7769a022d021d65c8a5dacd7cb62e7c677a70b",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-04T16:54:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/ef7769a022d021d65c8a5dacd7cb62e7c677a70b"
+          },
+          {
+            "Text": "Bump docker/login-action from 3 to 4",
+            "SHA": "9e8058d844c9e909038a88b6be0e3085881761b3",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-04T16:53:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/9e8058d844c9e909038a88b6be0e3085881761b3"
+          },
           {
             "Text": "Merge pull request #330 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc-1.41.0",
             "SHA": "7e74b1fae90eac8b593388eb385b0d05785c0151",
@@ -1813,7 +1938,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "21a5505",
+          "Version": "08c4064",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1870,8 +1995,88 @@
       "Link": "https://github.com/prodyna-yasm/yasm-external",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/compare/1.2.18..HEAD",
-        "Count": 4,
+        "Count": 12,
         "Commits": [
+          {
+            "Text": "Merge pull request #189 from PRODYNA-YASM/dependabot/github_actions/docker/login-action-4",
+            "SHA": "08c4064548ee50ed8704ec918a990d1ed41fa706",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-04T10:06:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/08c4064548ee50ed8704ec918a990d1ed41fa706"
+          },
+          {
+            "Text": "Merge pull request #191 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc-1.41.0",
+            "SHA": "bf4a0dc922c2751bd8a95b18387cb113a8654506",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-04T09:58:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/bf4a0dc922c2751bd8a95b18387cb113a8654506"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc",
+            "SHA": "aecb36ddef24229a460062fae7e63ddc29c36c1e",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-04T09:53:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/aecb36ddef24229a460062fae7e63ddc29c36c1e"
+          },
+          {
+            "Text": "Merge pull request #190 from PRODYNA-YASM/dependabot/github_actions/docker/setup-qemu-action-4",
+            "SHA": "f90611d5e46b2ae6811e6d7feeb4185ff23874b5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-04T09:53:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/f90611d5e46b2ae6811e6d7feeb4185ff23874b5"
+          },
+          {
+            "Text": "Merge pull request #192 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc-1.41.0",
+            "SHA": "b020da0bddb29f74c979248312d3135174cf92a2",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-04T09:52:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/b020da0bddb29f74c979248312d3135174cf92a2"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc",
+            "SHA": "33f193d9d77d7ccda898affef75654f0f8102a1d",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-04T09:44:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/33f193d9d77d7ccda898affef75654f0f8102a1d"
+          },
+          {
+            "Text": "Bump docker/setup-qemu-action from 3 to 4",
+            "SHA": "b289021f217e47e3610bc45fb4eb6aefea8e9973",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-04T09:43:58Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/b289021f217e47e3610bc45fb4eb6aefea8e9973"
+          },
+          {
+            "Text": "Bump docker/login-action from 3 to 4",
+            "SHA": "0fa55e3e3554d94799c89b199331983c5a80f9c9",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-04T09:43:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/0fa55e3e3554d94799c89b199331983c5a80f9c9"
+          },
           {
             "Text": "Merge pull request #185 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/runtime-0.66.0",
             "SHA": "21a5505db6b168d912703da9a59e56d247e614aa",
@@ -1935,7 +2140,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "b209550",
+          "Version": "ff0bffb",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1992,8 +2197,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-1..HEAD",
-        "Count": 4,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #107 from PRODYNA-YASM/dependabot/github_actions/docker/login-action-4",
+            "SHA": "ff0bffb9bce5b28b66a924418ba728363c47c01d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-05T06:46:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/ff0bffb9bce5b28b66a924418ba728363c47c01d"
+          },
+          {
+            "Text": "Bump docker/login-action from 3 to 4",
+            "SHA": "fe949be1de857eebf6c2cdf1e3ef6e537e8d4220",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-05T00:07:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/fe949be1de857eebf6c2cdf1e3ef6e537e8d4220"
+          },
           {
             "Text": "Merge pull request #106 from PRODYNA-YASM/feature/gotenberg-1.18.0",
             "SHA": "b209550f2853c1069807de6b9c845faed5c33018",
@@ -2935,7 +3160,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "f589254",
+          "Version": "ba81d5e",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2986,8 +3211,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/pulls",
-        "Count": 1,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc from 1.40.0 to 1.41.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-mainproject/pull/217"
+          },
+          {
+            "Title": "Replace deprecated `WithMetricAttributesFn` with `Labeler` for otelhttp v0.66.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-mainproject/pull/214"
+          },
           {
             "Title": "Bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp from 0.65.0 to 0.66.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-mainproject/pull/210"
@@ -2997,8 +3230,68 @@
       "Link": "https://github.com/prodyna-yasm/yasm-mainproject",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/compare/1.9.1..HEAD",
-        "Count": 2,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Merge pull request #215 from PRODYNA-YASM/dependabot/github_actions/docker/login-action-4",
+            "SHA": "ba81d5e2be65f187e559c3f75910af60806fef1a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-04T17:38:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/ba81d5e2be65f187e559c3f75910af60806fef1a"
+          },
+          {
+            "Text": "Merge pull request #216 from PRODYNA-YASM/dependabot/github_actions/docker/setup-qemu-action-4",
+            "SHA": "addb02c9251d9b65e03c92f79dd336de8e0f7973",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-04T17:38:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/addb02c9251d9b65e03c92f79dd336de8e0f7973"
+          },
+          {
+            "Text": "Merge pull request #218 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc-1.41.0",
+            "SHA": "eeed7a1c2725bb8e81d600a062c55805c6a4a694",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-04T17:37:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/eeed7a1c2725bb8e81d600a062c55805c6a4a694"
+          },
+          {
+            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc",
+            "SHA": "3f8240c99cb734fea0012a215c7e9005011b4c8f",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-04T16:16:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/3f8240c99cb734fea0012a215c7e9005011b4c8f"
+          },
+          {
+            "Text": "Bump docker/setup-qemu-action from 3 to 4",
+            "SHA": "79ccf073cc2394172dfcc5178456f5280be82f90",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-04T16:15:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/79ccf073cc2394172dfcc5178456f5280be82f90"
+          },
+          {
+            "Text": "Bump docker/login-action from 3 to 4",
+            "SHA": "e7d8a2fe9f688d271aaf1c2a6a7a8d56b9ed3885",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-04T16:15:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/e7d8a2fe9f688d271aaf1c2a6a7a8d56b9ed3885"
+          },
           {
             "Text": "Merge pull request #213 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/runtime-0.66.0",
             "SHA": "f5892544d72a75459d76bc9d2b729db85d0bbca9",
@@ -3093,8 +3386,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/sales-copilot/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump docker/login-action from 3 to 4",
+            "Link": "https://github.com/PRODYNA-YASM/sales-copilot/pull/23"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/sales-copilot",
       "Commits": {
@@ -3689,5 +3987,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-03-04T07:43:12Z"
+  "LastUpdated": "2026-03-05T07:45:00Z"
 }
