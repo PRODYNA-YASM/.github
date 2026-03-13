@@ -1,12 +1,12 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-03-12T07:45:55Z
+Component Status overview. Last update 2026-03-13T07:45:51Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.81.0 |  :red_square: 619fc29 |  :green_square: 1.81.0 |  :red_square: 1.76.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: 88c486b |  :red_square: 1.81.1 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [17](https://github.com/prodyna-yasm/yasm-integration/compare/1.81.4..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.81.4 |  :red_square: f96e62b | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: e708fc7 |  :red_square: 1.81.1 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.81.5 |  :green_square: 1.81.5 |  :green_square: 1.81.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.81.0..HEAD) | :green_square: 0 | 1.81.0 |  :red_square: 39e4670 |  :green_square: 1.81.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [15](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.6..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.26.6 |  :red_square: 4560ef5 |  :green_square: 1.26.6 |  :red_square: 1.26.5 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [30](https://github.com/prodyna-yasm/yasm-metrics/compare/1.81.2..HEAD) | :green_square: 0 | 1.81.2 |  :red_square: b99677f |  :green_square: 1.81.2 | 
@@ -88,6 +88,12 @@ Component Status overview. Last update 2026-03-12T07:45:55Z
 
 ### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) (30)
 
+- [feat: add joinUrl utility function for constructing GitHub URLs (#1202)](https://github.com/prodyna-yasm/yasm-frontend/commit/e708fc79e76d31c691b62941cf0ba924186b4e64) by [TD99](https://github.com/TD99) on 2026-03-12 15:40:36 +0000 UTC
+
+- [feat: 801 feature request improvements for skill maintenance (#1199)](https://github.com/prodyna-yasm/yasm-frontend/commit/9b984e1f3594aa390357deab2dde3b464ef5d0f2) by [TD99](https://github.com/TD99) on 2026-03-12 14:57:45 +0000 UTC
+
+- [chore: bump node from 25.8.0-slim to 25.8.1-slim (#1198)](https://github.com/prodyna-yasm/yasm-frontend/commit/f6022aea8295c6c51e324e7bdca44a28f5c8028c) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-12 09:17:07 +0000 UTC
+
 - [chore: bump nginx from 1.29.5-otel to 1.29.6-otel (#1197)](https://github.com/prodyna-yasm/yasm-frontend/commit/88c486b7fd34983e0eead7d233704eca0d6cc8bf) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-11 14:05:37 +0000 UTC
 
 - [Fixed various fixtures](https://github.com/prodyna-yasm/yasm-frontend/commit/39d55464460c75b1c96c9e70bafa7b9df67b6ca3) by [Milos5611](https://github.com/Milos5611) on 2026-03-09 13:32:14 +0000 UTC
@@ -142,26 +148,16 @@ Component Status overview. Last update 2026-03-12T07:45:55Z
 
 - [chore: bump @opentelemetry/sdk-trace-web from 1.30.1 to 2.5.0 (#1183)](https://github.com/prodyna-yasm/yasm-frontend/commit/83bb0a85762ad83bb10f84a67e5b61a977cde39d) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-02-11 13:55:59 +0000 UTC
 
-- [chore: bump @opentelemetry/auto-instrumentations-web (#1178)](https://github.com/prodyna-yasm/yasm-frontend/commit/4b63660b98019a612c1ff966029e90c616b5c721) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-02-06 06:47:40 +0000 UTC
-
-- [chore: bump nginx from 1.29.4-otel to 1.29.5-otel (#1182)](https://github.com/prodyna-yasm/yasm-frontend/commit/0e05e28e819a7b6a47919127880fe3d256809ffb) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-02-05 07:49:34 +0000 UTC
-
-- [chore: bump node from 25.5.0-slim to 25.6.0-slim (#1181)](https://github.com/prodyna-yasm/yasm-frontend/commit/b97d1ee8d8b8782799637fe374c76ab004303de0) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-02-04 17:38:10 +0000 UTC
 
 
 
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
-
-- [chore: bump node from 25.8.0-slim to 25.8.1-slim](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1198)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (4)
 
 - [chore: bump @editorjs/editorjs from 2.30.8 to 2.31.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1185)
 
 - [chore: bump react-select from 5.6.1 to 5.10.2](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1180)
 
 - [chore: bump react and @types/react](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1154)
-
-- [feat: 551 add nationalities to side profile in employee details page](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1098)
 
 - [chore: bump react-dom and @types/react-dom](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1025)
 
@@ -171,7 +167,7 @@ Component Status overview. Last update 2026-03-12T07:45:55Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  88c486b |  1.81.1 | 
+| Version |  e708fc7 |  1.81.1 | 
 | Release |  :red_square: |  :green_square: | 
 | Current |  :red_square: |  :red_square: | 
 
@@ -194,46 +190,9 @@ Component Status overview. Last update 2026-03-12T07:45:55Z
 
 
 
-## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.81.4
+## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.81.5
 
 
-
-
-### [Commits on main since 1.81.4](https://github.com/prodyna-yasm/yasm-integration/compare/1.81.4..HEAD) (17)
-
-- [Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc (#917)](https://github.com/prodyna-yasm/yasm-integration/commit/f96e62b47538d1838332ed103809d828f1c87710) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-11 21:52:31 +0000 UTC
-
-- [fix: ensure inactive users are reactivated when they exist in entra id (#921)](https://github.com/prodyna-yasm/yasm-integration/commit/e8e7df7cfd477728c0f95a4b4041dc7429f0dbc5) by [TD99](https://github.com/TD99) on 2026-03-11 16:16:32 +0000 UTC
-
-- [Bump go.opentelemetry.io/contrib/instrumentation/runtime (#918)](https://github.com/prodyna-yasm/yasm-integration/commit/245e7d5f8aca1c9a910fd5050bcf272c56d6946a) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-10 07:35:35 +0000 UTC
-
-- [Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc (#913)](https://github.com/prodyna-yasm/yasm-integration/commit/3d35894f3e29d1982531998f973ab541d078f4d4) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-09 08:52:05 +0000 UTC
-
-- [Bump docker/build-push-action from 6 to 7 (#911)](https://github.com/prodyna-yasm/yasm-integration/commit/4db23ce0820de0e5b065b83b9ca61f612a70871a) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-09 08:51:53 +0000 UTC
-
-- [Bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp (#912)](https://github.com/prodyna-yasm/yasm-integration/commit/70ea48b0f75cc29dbe7666c671d5cf3ac1e2e256) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-09 07:20:05 +0000 UTC
-
-- [Bump go.opentelemetry.io/otel/sdk/metric from 1.41.0 to 1.42.0 (#915)](https://github.com/prodyna-yasm/yasm-integration/commit/f2d532ee5f3181909fa26cbcbb3894065256f2ee) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-09 07:19:31 +0000 UTC
-
-- [Fix: Prevent anonymization of Entra ID users with invalid Maconomy data (#873)](https://github.com/prodyna-yasm/yasm-integration/commit/306e165acae0651431d9e0f004fd84b089c580d3) by [Copilot](https://github.com/Copilot) on 2026-03-05 08:11:15 +0000 UTC
-
-- [Bump docker/login-action from 3 to 4 (#910)](https://github.com/prodyna-yasm/yasm-integration/commit/ed7801f0a76de49572ca9dbe62dc48b993389875) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-05 06:46:24 +0000 UTC
-
-- [Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc (#908)](https://github.com/prodyna-yasm/yasm-integration/commit/e2a4a8de2e6c4a700ee5ad4b470c1c8f0caf449d) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-04 10:13:15 +0000 UTC
-
-- [Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc (#909)](https://github.com/prodyna-yasm/yasm-integration/commit/7044229ed61148094466606d15491a571983310f) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-04 06:26:22 +0000 UTC
-
-- [Bump go.opentelemetry.io/contrib/instrumentation/runtime (#905)](https://github.com/prodyna-yasm/yasm-integration/commit/8e92a4b58f2a9b6903837bf679671a4ce63bb24f) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-03 08:31:09 +0000 UTC
-
-- [Bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp (#907)](https://github.com/prodyna-yasm/yasm-integration/commit/a886faa968b5a2e10a248b3f15fab33244257cdc) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-03 07:58:28 +0000 UTC
-
-- [Bump go.opentelemetry.io/otel from 1.40.0 to 1.41.0 (#906)](https://github.com/prodyna-yasm/yasm-integration/commit/edc28262e43348a69f5bed817ab37004baff9da0) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-03 07:14:17 +0000 UTC
-
-- [Bump github.com/urfave/cli/v3 from 3.6.2 to 3.7.0 (#902)](https://github.com/prodyna-yasm/yasm-integration/commit/8c599d775861ad36f783b5a66c8100219504df34) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-02 07:52:55 +0000 UTC
-
-- [Bump github.com/microsoftgraph/msgraph-sdk-go from 1.95.0 to 1.96.0 (#901)](https://github.com/prodyna-yasm/yasm-integration/commit/ae20fc72dffd363d64f6f535d846722feb9a5ec4) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-02-20 07:39:09 +0000 UTC
-
-- [Fix: Explicitly exit with code 1 on sync errors (#900)](https://github.com/prodyna-yasm/yasm-integration/commit/11b4e1104e4d4ba8c24268fe67d2dfbe4d8cca19) by [Copilot](https://github.com/Copilot) on 2026-02-18 14:39:53 +0000 UTC
 
 
 
@@ -246,27 +205,27 @@ Component Status overview. Last update 2026-03-12T07:45:55Z
 
 ### Environments
 
-| Environment |  dev | 
-| --- |  --- | 
-| Version |  f96e62b | 
-| Release |  :red_square: | 
-| Current |  :red_square: | 
+| Environment |  dev |  staging | 
+| --- |  --- |  --- | 
+| Version |  1.81.5 |  1.81.5 | 
+| Release |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Reactivate inactive users when they exist in Entra ID and other fixes and updates](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.81.5) on 2026-03-11 21:52:31 +0000 UTC
+
 - [Go 1.26 and other library updates](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.81.4) on 2026-02-12 14:34:18 +0000 UTC
 
 - [Add configurable grace period for anonymization](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.81.3) on 2026-01-28 11:09:57 +0000 UTC
-
-- [Fix images](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.81.2) on 2026-01-23 12:16:00 +0000 UTC
 
 
 
 
 ### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (1)
 
-- [Go 1.26 (#896)](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/21986615220) created on 2026-02-13 12:20:10 +0000 UTC
+- [Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc …](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/22999092314) created on 2026-03-12 11:10:49 +0000 UTC
 
 
 
