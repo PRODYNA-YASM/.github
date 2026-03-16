@@ -4338,8 +4338,24 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 2,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "Bump @azure/msal-angular from 4.0.20 to 5.1.2 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/333"
+          },
+          {
+            "Title": "Bump @angular/build from 20.3.8 to 21.2.2 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/332"
+          },
+          {
+            "Title": "Bump @angular/forms from 20.3.7 to 21.2.4 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/331"
+          },
+          {
+            "Title": "Bump @azure/msal-browser from 4.25.1 to 5.5.0 in /frontend",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/330"
+          },
           {
             "Title": "Bump the npm_and_yarn group across 1 directory with 15 updates",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/329"
@@ -4680,5 +4696,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-03-15T07:45:18Z"
+  "LastUpdated": "2026-03-16T07:56:23Z"
 }
