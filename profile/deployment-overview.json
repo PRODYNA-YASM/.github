@@ -1292,8 +1292,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "build(deps): bump google.golang.org/grpc from 1.79.2 to 1.79.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/348"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
@@ -4720,5 +4725,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-03-17T07:47:46Z"
+  "LastUpdated": "2026-03-18T07:46:58Z"
 }
