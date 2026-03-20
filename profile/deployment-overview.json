@@ -153,7 +153,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "e708fc7",
+          "Version": "3e81340",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -222,6 +222,26 @@
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "feat: refine automatic HTTPS and implement HTTP to HTTPS redirection on dev when using --host (#1204)",
+            "SHA": "3e81340f40c3065fb71b115fe38f929ba32d3253",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-03-19T16:42:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/3e81340f40c3065fb71b115fe38f929ba32d3253"
+          },
+          {
+            "Text": "feat: conditionally enable SSL in Vite with optional plugin (#1203)",
+            "SHA": "b404b38851799a0bc51740a777b2e20d2cd3761c",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-03-19T15:02:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b404b38851799a0bc51740a777b2e20d2cd3761c"
+          },
           {
             "Text": "feat: add joinUrl utility function for constructing GitHub URLs (#1202)",
             "SHA": "e708fc79e76d31c691b62941cf0ba924186b4e64",
@@ -501,26 +521,6 @@
             },
             "Timestamp": "2026-02-13T12:45:46Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d737a545a093bf90a57e298bb939bb5f50592a0b"
-          },
-          {
-            "Text": "chore: bump node from 25.6.0-slim to 25.6.1-slim (#1186)",
-            "SHA": "83d8c4d2158787d050b2055aacfa2f586bc5e44a",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-02-12T07:58:52Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/83d8c4d2158787d050b2055aacfa2f586bc5e44a"
-          },
-          {
-            "Text": "chore: bump @opentelemetry/sdk-trace-web from 1.30.1 to 2.5.0 (#1183)",
-            "SHA": "83bb0a85762ad83bb10f84a67e5b61a977cde39d",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-02-11T13:55:59Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/83bb0a85762ad83bb10f84a67e5b61a977cde39d"
           }
         ]
       },
@@ -1648,14 +1648,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #329 from PRODYNA-YASM/feature/go-1.26",
-            "Timestamp": "2026-02-14T18:51:52Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/22022520272"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -4822,5 +4816,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-03-19T07:46:06Z"
+  "LastUpdated": "2026-03-20T07:45:45Z"
 }

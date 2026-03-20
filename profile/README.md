@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-03-19T07:46:06Z
+Component Status overview. Last update 2026-03-20T07:45:45Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.81.0 |  :red_square: 76f12dd |  :green_square: 1.81.0 |  :red_square: 1.76.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: e708fc7 |  :red_square: 1.81.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: 3e81340 |  :red_square: 1.81.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [1](https://github.com/prodyna-yasm/yasm-integration/compare/1.81.5..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.81.5 |  :red_square: be32b99 |  :green_square: 1.81.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.81.0..HEAD) | :green_square: 0 | 1.81.0 |  :red_square: 6195758 |  :green_square: 1.81.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [19](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.6..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.26.6 |  :red_square: f873cb0 |  :green_square: 1.26.6 |  :red_square: 1.26.5 | 
@@ -90,6 +90,10 @@ Component Status overview. Last update 2026-03-19T07:46:06Z
 
 ### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) (30)
 
+- [feat: refine automatic HTTPS and implement HTTP to HTTPS redirection on dev when using --host (#1204)](https://github.com/prodyna-yasm/yasm-frontend/commit/3e81340f40c3065fb71b115fe38f929ba32d3253) by [TD99](https://github.com/TD99) on 2026-03-19 16:42:45 +0000 UTC
+
+- [feat: conditionally enable SSL in Vite with optional plugin (#1203)](https://github.com/prodyna-yasm/yasm-frontend/commit/b404b38851799a0bc51740a777b2e20d2cd3761c) by [TD99](https://github.com/TD99) on 2026-03-19 15:02:03 +0000 UTC
+
 - [feat: add joinUrl utility function for constructing GitHub URLs (#1202)](https://github.com/prodyna-yasm/yasm-frontend/commit/e708fc79e76d31c691b62941cf0ba924186b4e64) by [TD99](https://github.com/TD99) on 2026-03-12 15:40:36 +0000 UTC
 
 - [feat: 801 feature request improvements for skill maintenance (#1199)](https://github.com/prodyna-yasm/yasm-frontend/commit/9b984e1f3594aa390357deab2dde3b464ef5d0f2) by [TD99](https://github.com/TD99) on 2026-03-12 14:57:45 +0000 UTC
@@ -146,10 +150,6 @@ Component Status overview. Last update 2026-03-19T07:46:06Z
 
 - [Remove yasm-integration from changelog (#1145)](https://github.com/prodyna-yasm/yasm-frontend/commit/d737a545a093bf90a57e298bb939bb5f50592a0b) by [dkrizic](https://github.com/dkrizic) on 2026-02-13 12:45:46 +0000 UTC
 
-- [chore: bump node from 25.6.0-slim to 25.6.1-slim (#1186)](https://github.com/prodyna-yasm/yasm-frontend/commit/83d8c4d2158787d050b2055aacfa2f586bc5e44a) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-02-12 07:58:52 +0000 UTC
-
-- [chore: bump @opentelemetry/sdk-trace-web from 1.30.1 to 2.5.0 (#1183)](https://github.com/prodyna-yasm/yasm-frontend/commit/83bb0a85762ad83bb10f84a67e5b61a977cde39d) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-02-11 13:55:59 +0000 UTC
-
 
 
 
@@ -169,7 +169,7 @@ Component Status overview. Last update 2026-03-19T07:46:06Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  e708fc7 |  1.81.1 | 
+| Version |  3e81340 |  1.81.1 | 
 | Release |  :red_square: |  :green_square: | 
 | Current |  :red_square: |  :red_square: | 
 
@@ -507,11 +507,6 @@ Component Status overview. Last update 2026-03-19T07:46:06Z
 - [API 1.81.0](https://github.com/PRODYNA-YASM/yasm-metrics/releases/tag/1.81.0) on 2026-01-21 08:12:06 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-metrics/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #329 from PRODYNA-YASM/feature/go-1.26](https://github.com/PRODYNA-YASM/yasm-metrics/actions/runs/22022520272) created on 2026-02-14 18:51:52 +0000 UTC
 
 
 
