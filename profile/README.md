@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-03-20T07:45:45Z
+Component Status overview. Last update 2026-03-21T07:42:14Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.81.0 |  :red_square: 76f12dd |  :green_square: 1.81.0 |  :red_square: 1.76.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: 3e81340 |  :red_square: 1.81.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: 5f4cff7 |  :red_square: 1.81.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [1](https://github.com/prodyna-yasm/yasm-integration/compare/1.81.5..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.81.5 |  :red_square: be32b99 |  :green_square: 1.81.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.81.0..HEAD) | :green_square: 0 | 1.81.0 |  :red_square: 6195758 |  :green_square: 1.81.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [19](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.6..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.26.6 |  :red_square: f873cb0 |  :green_square: 1.26.6 |  :red_square: 1.26.5 | 
@@ -90,6 +90,10 @@ Component Status overview. Last update 2026-03-20T07:45:45Z
 
 ### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) (30)
 
+- [Update flatted package to version 3.4.2 (#1206)](https://github.com/prodyna-yasm/yasm-frontend/commit/5f4cff7f408ecc2430132b379e287f49bec789cf) by [TD99](https://github.com/TD99) on 2026-03-20 16:01:33 +0000 UTC
+
+- [fix: 1068 bug initial trigger for search on ios is missing (#1205)](https://github.com/prodyna-yasm/yasm-frontend/commit/9dbe0ded37de20e5948d5c498cecbf2e3e8689c7) by [TD99](https://github.com/TD99) on 2026-03-20 11:29:26 +0000 UTC
+
 - [feat: refine automatic HTTPS and implement HTTP to HTTPS redirection on dev when using --host (#1204)](https://github.com/prodyna-yasm/yasm-frontend/commit/3e81340f40c3065fb71b115fe38f929ba32d3253) by [TD99](https://github.com/TD99) on 2026-03-19 16:42:45 +0000 UTC
 
 - [feat: conditionally enable SSL in Vite with optional plugin (#1203)](https://github.com/prodyna-yasm/yasm-frontend/commit/b404b38851799a0bc51740a777b2e20d2cd3761c) by [TD99](https://github.com/TD99) on 2026-03-19 15:02:03 +0000 UTC
@@ -146,14 +150,12 @@ Component Status overview. Last update 2026-03-20T07:45:45Z
 
 - [1047 update number of skills that can be exported](https://github.com/prodyna-yasm/yasm-frontend/commit/29cb8c19ae97bc7310bc6c680d8f37700dc406ae) by [Milos5611](https://github.com/Milos5611) on 2026-02-23 09:53:03 +0000 UTC
 
-- [Fixing broken UI issue](https://github.com/prodyna-yasm/yasm-frontend/commit/561a9df45e903b172ddf87e59574fa62d1d90ffc) by [Milos5611](https://github.com/Milos5611) on 2026-02-19 09:59:16 +0000 UTC
-
-- [Remove yasm-integration from changelog (#1145)](https://github.com/prodyna-yasm/yasm-frontend/commit/d737a545a093bf90a57e298bb939bb5f50592a0b) by [dkrizic](https://github.com/dkrizic) on 2026-02-13 12:45:46 +0000 UTC
 
 
 
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (5)
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (4)
+- [feat: citizenship filter dropdown shows only countries with employees](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1208)
 
 - [chore: bump @editorjs/editorjs from 2.30.8 to 2.31.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1185)
 
@@ -169,7 +171,7 @@ Component Status overview. Last update 2026-03-20T07:45:45Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  3e81340 |  1.81.1 | 
+| Version |  5f4cff7 |  1.81.1 | 
 | Release |  :red_square: |  :green_square: | 
 | Current |  :red_square: |  :red_square: | 
 
@@ -696,11 +698,6 @@ Component Status overview. Last update 2026-03-20T07:45:45Z
 - [Qemu](https://github.com/PRODYNA-YASM/yasm-geocoding/releases/tag/1.15.8) on 2026-01-23 11:34:00 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-geocoding/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #326 from PRODYNA-YASM/feature/go-1.26](https://github.com/PRODYNA-YASM/yasm-geocoding/actions/runs/22138112782) created on 2026-02-18 11:35:42 +0000 UTC
 
 
 
@@ -1266,11 +1263,6 @@ Component Status overview. Last update 2026-03-20T07:45:45Z
 - [Qemu](https://github.com/PRODYNA-YASM/yasm-mainproject/releases/tag/1.8.9) on 2026-01-23 11:35:35 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-mainproject/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #207 from PRODYNA-YASM/feature/git-1.26](https://github.com/PRODYNA-YASM/yasm-mainproject/actions/runs/21986602438) created on 2026-02-13 12:19:43 +0000 UTC
 
 
 
