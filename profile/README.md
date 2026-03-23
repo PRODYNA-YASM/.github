@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-03-22T07:43:32Z
+Component Status overview. Last update 2026-03-23T07:50:14Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -13,11 +13,11 @@ Component Status overview. Last update 2026-03-22T07:43:32Z
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [29](https://github.com/prodyna-yasm/yasm-github/compare/1.14.4..HEAD) | :green_square: 0 | 1.14.4 |  :red_square: 4e9d9bb |  :green_square: 1.14.4 |  :red_square: 1.14.3 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [30](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.0..HEAD) | :green_square: 0 | 1.16.0 |  :red_square: 39c72ca |  :green_square: 1.16.0 |  :red_square: 1.15.9 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [26](https://github.com/prodyna-yasm/yasm-external/compare/1.2.18..HEAD) | :green_square: 0 | 1.2.18 |  :red_square: 4283425 |  :green_square: 1.2.18 |  :red_square: 1.2.17 | 
-| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [8](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-1..HEAD) | :green_square: 0 | 8.26.0-1 |  :red_square: 65c1733 |  :green_square: 8.26.0-1 |  :red_square: 8.24.0-0 | 
+| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [10](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-1..HEAD) | :green_square: 0 | 8.26.0-1 |  :red_square: 8fcaf14 |  :green_square: 8.26.0-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [30](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.3..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.81.3 |  :red_square: 6d55ae4 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [13](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.76.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.76.2 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :red_square: [1](https://github.com/prodyna-yasm/yasm/compare/1.81.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm/pulls) | 1.81.0 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [4](https://github.com/prodyna-yasm/yasm-api/compare/1.81.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.81.0 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [5](https://github.com/prodyna-yasm/yasm-api/compare/1.81.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.81.0 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [2](https://github.com/prodyna-yasm/yasm-test/compare/v1.74.1..HEAD) | :yellow_square: [16](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.74.1 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [29](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.9.1..HEAD) | :green_square: 0 | 1.9.1 |  :red_square: b44a52f |  :green_square: 1.9.1 |  :red_square: 1.9.0 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [15](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :red_square: b00e5e6 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
@@ -408,11 +408,6 @@ Component Status overview. Last update 2026-03-22T07:43:32Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #374 from PRODYNA-YASM/dependabot/go_modules/go.op…](https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/21986632550) created on 2026-02-13 12:20:46 +0000 UTC
-
-
 
 
 ## [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) 1.81.2
@@ -602,11 +597,6 @@ Component Status overview. Last update 2026-03-22T07:43:32Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #332 from PRODYNA-YASM/feature/git-1.26](https://github.com/PRODYNA-YASM/yasm-github/actions/runs/22022619112) created on 2026-02-14 18:59:57 +0000 UTC
-
-
 
 
 ## [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) 1.16.0
@@ -785,11 +775,6 @@ Component Status overview. Last update 2026-03-22T07:43:32Z
 
 
 
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-external/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #183 from PRODYNA-YASM/feature/git-1.26](https://github.com/PRODYNA-YASM/yasm-external/actions/runs/22022629725) created on 2026-02-14 19:00:37 +0000 UTC
-
-
 
 
 ## [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) 8.26.0-1
@@ -797,7 +782,11 @@ Component Status overview. Last update 2026-03-22T07:43:32Z
 
 
 
-### [Commits on main since 8.26.0-1](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-1..HEAD) (8)
+### [Commits on main since 8.26.0-1](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-1..HEAD) (10)
+
+- [Merge pull request #109 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.28.0](https://github.com/prodyna-yasm/yasm-gotenberg/commit/8fcaf148001a89755f5275b795396ddebc04d6ed) by [dkrizic](https://github.com/dkrizic) on 2026-03-23 05:27:30 +0000 UTC
+
+- [Bump gotenberg/gotenberg from 8.27.0 to 8.28.0](https://github.com/prodyna-yasm/yasm-gotenberg/commit/bdfa691d22b6166c71e5806164356313a8af568a) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-23 00:05:52 +0000 UTC
 
 - [Merge pull request #108 from PRODYNA-YASM/dependabot/github_actions/docker/build-push-action-7](https://github.com/prodyna-yasm/yasm-gotenberg/commit/65c17337527c53e8dde14a1845896c7d653d6ac3) by [dkrizic](https://github.com/dkrizic) on 2026-03-06 06:32:20 +0000 UTC
 
@@ -821,11 +810,11 @@ Component Status overview. Last update 2026-03-22T07:43:32Z
 
 ### Environments
 
-| Environment |  dev |  staging |  prod | 
-| --- |  --- |  --- |  --- | 
-| Version |  65c1733 |  8.26.0-1 |  8.24.0-0 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :red_square: | 
+| Environment |  dev |  staging | 
+| --- |  --- |  --- | 
+| Version |  8fcaf14 |  8.26.0-1 | 
+| Release |  :red_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: | 
 
 
 ### Last releases
@@ -837,11 +826,6 @@ Component Status overview. Last update 2026-03-22T07:43:32Z
 - [Gotenberg 8.25.0](https://github.com/PRODYNA-YASM/yasm-gotenberg/releases/tag/8.25.0-0) on 2025-11-17 08:06:32 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting) (1)
-
-- [Merge pull request #104 from PRODYNA-YASM/feature/gotenberg-1.17.0](https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/22024585870) created on 2026-02-14 21:30:50 +0000 UTC
 
 
 
@@ -1061,7 +1045,9 @@ Component Status overview. Last update 2026-03-22T07:43:32Z
 
 
 
-### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-api/compare/1.81.0..HEAD) (4)
+### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-api/compare/1.81.0..HEAD) (5)
+
+- [chore: bump com.fasterxml.jackson.core:jackson-databind (#344)](https://github.com/prodyna-yasm/yasm-api/commit/f43c70021a26174a06fd7dbfd006f9a1584c81bd) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-23 05:26:40 +0000 UTC
 
 - [chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin (#342)](https://github.com/prodyna-yasm/yasm-api/commit/22f6d652693788cb33be94fdcfa5dc7ccc78efa6) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-02-18 01:27:28 +0000 UTC
 
@@ -1074,9 +1060,7 @@ Component Status overview. Last update 2026-03-22T07:43:32Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (2)
-
-- [chore: bump com.fasterxml.jackson.core:jackson-databind from 2.21.0 to 2.21.1](https://github.com/PRODYNA-YASM/yasm-api/pull/343)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (1)
 
 - [chore: bump io.smallrye.reactive:mutiny from 3.1.0 to 3.1.1](https://github.com/PRODYNA-YASM/yasm-api/pull/341)
 

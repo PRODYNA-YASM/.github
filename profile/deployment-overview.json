@@ -1272,14 +1272,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #374 from PRODYNA-YASM/dependabot/go_modules/go.op…",
-            "Timestamp": "2026-02-13T12:20:46Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/actions/runs/21986632550"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -2018,14 +2012,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #332 from PRODYNA-YASM/feature/git-1.26",
-            "Timestamp": "2026-02-14T18:59:57Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-github/actions/runs/22022619112"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -2736,14 +2724,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #183 from PRODYNA-YASM/feature/git-1.26",
-            "Timestamp": "2026-02-14T19:00:37Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-external/actions/runs/22022629725"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -2753,7 +2735,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "65c1733",
+          "Version": "8fcaf14",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2763,13 +2745,6 @@
           "Version": "8.26.0-1",
           "IsRelease": true,
           "IsCurrent": true
-        },
-        {
-          "Name": "prod",
-          "Link": "",
-          "Version": "8.24.0-0",
-          "IsRelease": true,
-          "IsCurrent": false
         }
       ],
       "LatestRelease": {
@@ -2810,8 +2785,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-1..HEAD",
-        "Count": 8,
+        "Count": 10,
         "Commits": [
+          {
+            "Text": "Merge pull request #109 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.28.0",
+            "SHA": "8fcaf148001a89755f5275b795396ddebc04d6ed",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-23T05:27:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/8fcaf148001a89755f5275b795396ddebc04d6ed"
+          },
+          {
+            "Text": "Bump gotenberg/gotenberg from 8.27.0 to 8.28.0",
+            "SHA": "bdfa691d22b6166c71e5806164356313a8af568a",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-23T00:05:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/bdfa691d22b6166c71e5806164356313a8af568a"
+          },
           {
             "Text": "Merge pull request #108 from PRODYNA-YASM/dependabot/github_actions/docker/build-push-action-7",
             "SHA": "65c17337527c53e8dde14a1845896c7d653d6ac3",
@@ -2898,14 +2893,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Merge pull request #104 from PRODYNA-YASM/feature/gotenberg-1.17.0",
-            "Timestamp": "2026-02-14T21:30:50Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-gotenberg/actions/runs/22024585870"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -3585,12 +3574,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "chore: bump com.fasterxml.jackson.core:jackson-databind from 2.21.0 to 2.21.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/343"
-          },
           {
             "Title": "chore: bump io.smallrye.reactive:mutiny from 3.1.0 to 3.1.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/341"
@@ -3600,8 +3585,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.81.0..HEAD",
-        "Count": 4,
+        "Count": 5,
         "Commits": [
+          {
+            "Text": "chore: bump com.fasterxml.jackson.core:jackson-databind (#344)",
+            "SHA": "f43c70021a26174a06fd7dbfd006f9a1584c81bd",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-23T05:26:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/f43c70021a26174a06fd7dbfd006f9a1584c81bd"
+          },
           {
             "Text": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin (#342)",
             "SHA": "22f6d652693788cb33be94fdcfa5dc7ccc78efa6",
@@ -4808,5 +4803,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-03-22T07:43:32Z"
+  "LastUpdated": "2026-03-23T07:50:14Z"
 }
