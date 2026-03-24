@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 7,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump azure/setup-helm from 4 to 5",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1002"
+          },
           {
             "Title": "build(deps): bump docker/build-push-action from 6 to 7",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/999"
@@ -549,7 +553,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "be32b99",
+          "Version": "584ce13",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -604,8 +608,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.81.5..HEAD",
-        "Count": 1,
+        "Count": 2,
         "Commits": [
+          {
+            "Text": "Bump azure/setup-helm from 4 to 5 (#923)",
+            "SHA": "584ce13a9e5498bb658f56046454f117c7dcf874",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-24T06:35:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/584ce13a9e5498bb658f56046454f117c7dcf874"
+          },
           {
             "Text": "Bump google.golang.org/grpc in the go_modules group across 1 directory (#922)",
             "SHA": "be32b994da89acbdd7187107e3e3143a41ae971f",
@@ -639,7 +653,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "6195758",
+          "Version": "9c36b69",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -691,6 +705,26 @@
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.81.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #540 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-5.0.0",
+            "SHA": "9c36b695b3bd0c4082e9f8f0fb01885918f265af",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-23T21:33:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/9c36b695b3bd0c4082e9f8f0fb01885918f265af"
+          },
+          {
+            "Text": "Bump azure/setup-helm from 4.3.1 to 5.0.0",
+            "SHA": "fe4dd54622e038cdcc2ccec88b1fc9c498f24538",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-23T21:14:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/fe4dd54622e038cdcc2ccec88b1fc9c498f24538"
+          },
           {
             "Text": "Merge pull request #539 from PRODYNA-YASM/dependabot/go_modules/go_modules-9c5197dcb8",
             "SHA": "6195758f264191863ba309b77e185c13cccbf93c",
@@ -970,26 +1004,6 @@
             },
             "Timestamp": "2026-02-12T14:49:31Z",
             "Link": "https://github.com/prodyna-yasm/yasmctl/commit/125d0c2277afd76dfe340f7427ce4ea7f966f48f"
-          },
-          {
-            "Text": "Merge pull request #522 from PRODYNA-YASM/copilot/sub-pr-521",
-            "SHA": "4191e66e74ebdf6f41722a1921832a336d58d398",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-02-12T14:41:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/4191e66e74ebdf6f41722a1921832a336d58d398"
-          },
-          {
-            "Text": "Update go directive to 1.26.0 to match Docker image",
-            "SHA": "c36023617452bb25a8b8d47208e4da89db5b76bf",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2026-02-12T14:39:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/c36023617452bb25a8b8d47208e4da89db5b76bf"
           }
         ]
       },
@@ -1283,7 +1297,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "b99677f",
+          "Version": "423cb21",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1340,6 +1354,26 @@
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.81.2..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #349 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-5",
+            "SHA": "423cb21bd280ae2d4d69d70af20010af642a5669",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-24T06:33:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/423cb21bd280ae2d4d69d70af20010af642a5669"
+          },
+          {
+            "Text": "build(deps): bump azure/setup-helm from 4 to 5",
+            "SHA": "d3bc4de863a0b1bb15b70c4298c8eceaa1be96ca",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-24T05:13:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/d3bc4de863a0b1bb15b70c4298c8eceaa1be96ca"
+          },
           {
             "Text": "Merge pull request #346 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc-1.42.0",
             "SHA": "b99677fb294f9a236fd0f6532b73502c10753463",
@@ -1619,26 +1653,6 @@
             },
             "Timestamp": "2026-02-23T05:17:27Z",
             "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/7b8a075a3406e217804d2fe026e0fde20b82a2ec"
-          },
-          {
-            "Text": "Merge pull request #331 from PRODYNA-YASM/dependabot/go_modules/go_modules-d60cbccd5d",
-            "SHA": "7f351e08d9109bfc5957eec04671142e69dca154",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-02-19T18:37:28Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/7f351e08d9109bfc5957eec04671142e69dca154"
-          },
-          {
-            "Text": "build(deps): bump filippo.io/edwards25519",
-            "SHA": "f7233afb7e59ef1562fc7abcfb9bed68b7eaf6d7",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-02-19T18:12:39Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/f7233afb7e59ef1562fc7abcfb9bed68b7eaf6d7"
           }
         ]
       },
@@ -1657,7 +1671,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "4e9d9bb",
+          "Version": "fcdce98",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1714,8 +1728,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.14.4..HEAD",
-        "Count": 29,
+        "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #352 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-5",
+            "SHA": "fcdce9855ff9ab2e18f9056d1cb32fa02d5869b5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-24T06:36:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/fcdce9855ff9ab2e18f9056d1cb32fa02d5869b5"
+          },
+          {
+            "Text": "Bump azure/setup-helm from 4 to 5",
+            "SHA": "6beebe8ed574b32a24381f494846ef2d2a1e373a",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-23T23:53:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/6beebe8ed574b32a24381f494846ef2d2a1e373a"
+          },
           {
             "Text": "Merge pull request #351 from PRODYNA-YASM/dependabot/go_modules/go_modules-9c5197dcb8",
             "SHA": "4e9d9bb79aa7bdde1859e70a2e7fb156b1b94d4a",
@@ -1995,16 +2029,6 @@
             },
             "Timestamp": "2026-03-03T07:18:30Z",
             "Link": "https://github.com/prodyna-yasm/yasm-github/commit/23178e4b1167f422e5a331658aed4fccf981a8dc"
-          },
-          {
-            "Text": "Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc",
-            "SHA": "f6f02485ea6ec1dcc36e89d2f7d0f2e36a415b75",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-03-03T00:56:23Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/f6f02485ea6ec1dcc36e89d2f7d0f2e36a415b75"
           }
         ]
       },
@@ -2735,7 +2759,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8fcaf14",
+          "Version": "68e8b14",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2785,8 +2809,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-1..HEAD",
-        "Count": 10,
+        "Count": 12,
         "Commits": [
+          {
+            "Text": "Merge pull request #110 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-5",
+            "SHA": "68e8b145f27caa9ed1c9a27110145c595675d596",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-24T06:36:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/68e8b145f27caa9ed1c9a27110145c595675d596"
+          },
+          {
+            "Text": "Bump azure/setup-helm from 4 to 5",
+            "SHA": "ae3515efb552f1699809b8ae442c69c711a398ea",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-24T00:06:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/ae3515efb552f1699809b8ae442c69c711a398ea"
+          },
           {
             "Text": "Merge pull request #109 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.28.0",
             "SHA": "8fcaf148001a89755f5275b795396ddebc04d6ed",
@@ -3585,8 +3629,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.81.0..HEAD",
-        "Count": 5,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "chore: bump org.openapitools:jackson-databind-nullable (#345)",
+            "SHA": "ca7b315e50db67924bce2b3bb1de6313565ce024",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-24T06:35:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/ca7b315e50db67924bce2b3bb1de6313565ce024"
+          },
           {
             "Text": "chore: bump com.fasterxml.jackson.core:jackson-databind (#344)",
             "SHA": "f43c70021a26174a06fd7dbfd006f9a1584c81bd",
@@ -4803,5 +4857,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-03-23T07:50:14Z"
+  "LastUpdated": "2026-03-24T07:47:15Z"
 }
