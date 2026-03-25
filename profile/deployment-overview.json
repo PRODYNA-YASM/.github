@@ -157,7 +157,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "5f4cff7",
+          "Version": "8a3a099",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -230,6 +230,16 @@
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "chore: bump nginx from 1.29.6-otel to 1.29.7-otel (#1209)",
+            "SHA": "8a3a0995e3aa0f1fe49e053baf05c228c4ee1da7",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-25T06:33:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/8a3a0995e3aa0f1fe49e053baf05c228c4ee1da7"
+          },
           {
             "Text": "Update flatted package to version 3.4.2 (#1206)",
             "SHA": "5f4cff7f408ecc2430132b379e287f49bec789cf",
@@ -519,16 +529,6 @@
             },
             "Timestamp": "2026-02-23T10:10:56Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/455536eed4bc4fc4d50c67e2cbe516d14acf04c7"
-          },
-          {
-            "Text": "1047 update number of skills that can be exported",
-            "SHA": "29cb8c19ae97bc7310bc6c680d8f37700dc406ae",
-            "Author": {
-              "name": "Milos5611",
-              "link": "https://github.com/Milos5611"
-            },
-            "Timestamp": "2026-02-23T09:53:03Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/29cb8c19ae97bc7310bc6c680d8f37700dc406ae"
           }
         ]
       },
@@ -2047,7 +2047,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "39c72ca",
+          "Version": "8bdb270",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2106,6 +2106,26 @@
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #348 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-5",
+            "SHA": "8bdb270c08e466cbf193a6fd5a65aedc0f41dfd0",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-24T16:55:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/8bdb270c08e466cbf193a6fd5a65aedc0f41dfd0"
+          },
+          {
+            "Text": "Bump azure/setup-helm from 4 to 5",
+            "SHA": "145dc2086c43192f2314c2621ba26f7bb22845d2",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-24T16:53:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/145dc2086c43192f2314c2621ba26f7bb22845d2"
+          },
           {
             "Text": "Merge pull request #347 from PRODYNA-YASM/dependabot/go_modules/go_modules-9c5197dcb8",
             "SHA": "39c72ca45034283f278ebc426caa463f7ac2d5ea",
@@ -2385,26 +2405,6 @@
             },
             "Timestamp": "2026-03-03T16:54:14Z",
             "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/d5ab6384b681b6984a7af5a51ef6d02be8f5d2f5"
-          },
-          {
-            "Text": "Merge pull request #328 from PRODYNA-YASM/dependabot/go_modules/github.com/urfave/cli/v3-3.7.0",
-            "SHA": "42fe2450044eca140fd0d9dca778467d432fcf4f",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-03-02T20:15:06Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/42fe2450044eca140fd0d9dca778467d432fcf4f"
-          },
-          {
-            "Text": "Merge pull request #329 from PRODYNA-YASM/dependabot/go_modules/github.com/dapr/go-sdk-1.14.1",
-            "SHA": "7ed215722f60a72388748a0f20e55af6995e41ab",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-03-02T20:14:48Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/7ed215722f60a72388748a0f20e55af6995e41ab"
           }
         ]
       },
@@ -2423,7 +2423,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "4283425",
+          "Version": "5825f6b",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2480,8 +2480,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-external",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/compare/1.2.18..HEAD",
-        "Count": 26,
+        "Count": 28,
         "Commits": [
+          {
+            "Text": "Merge pull request #202 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-5",
+            "SHA": "5825f6b230bf73facdf448968c5452272c23f7e4",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-24T09:47:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/5825f6b230bf73facdf448968c5452272c23f7e4"
+          },
+          {
+            "Text": "Bump azure/setup-helm from 4 to 5",
+            "SHA": "6119f8e34a88d5f7bf64a4fa9ed84d62c44972a6",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-24T09:43:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/6119f8e34a88d5f7bf64a4fa9ed84d62c44972a6"
+          },
           {
             "Text": "Merge pull request #201 from PRODYNA-YASM/dependabot/go_modules/go_modules-9c5197dcb8",
             "SHA": "4283425ccabb5de0571514bb924cb4cfb70d2ccb",
@@ -3898,8 +3918,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump azure/setup-helm from 4 to 5",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-mainproject/pull/228"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-mainproject",
       "Commits": {
@@ -4264,8 +4289,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/sales-copilot/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "Bump azure/setup-helm from 4 to 5",
+            "Link": "https://github.com/PRODYNA-YASM/sales-copilot/pull/25"
+          },
           {
             "Title": "Bump docker/build-push-action from 6 to 7",
             "Link": "https://github.com/PRODYNA-YASM/sales-copilot/pull/24"
@@ -4857,5 +4886,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-03-24T07:47:15Z"
+  "LastUpdated": "2026-03-25T07:47:22Z"
 }
