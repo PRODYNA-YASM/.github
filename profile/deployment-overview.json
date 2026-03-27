@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 8,
+        "Count": 9,
         "PullRequests": [
+          {
+            "Title": "Fix \"Last Profile Edit\" always showing \"-\" due to broken audit update logic",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1003"
+          },
           {
             "Title": "build(deps): bump azure/setup-helm from 4 to 5",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1002"
@@ -157,7 +161,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "5f98538",
+          "Version": "431e7c3",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -201,23 +205,19 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 6,
         "PullRequests": [
           {
-            "Title": "chore: bump node from 25.8.1-slim to 25.8.2-slim",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1214"
+            "Title": "chore: bump @mui/material from 7.3.8 to 7.3.9",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1219"
           },
           {
-            "Title": "chore: bump @rollup/rollup-linux-x64-gnu from 4.59.0 to 4.60.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1213"
+            "Title": "chore: bump @types/node from 22.19.11 to 25.5.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1218"
           },
           {
             "Title": "chore: bump @azure/msal-react from 3.0.27 to 5.1.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1212"
-          },
-          {
-            "Title": "chore: bump the npm_and_yarn group across 1 directory with 1 update",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1211"
           },
           {
             "Title": "chore: update React and React-DOM to version 19, adjust JSX.Element types",
@@ -238,6 +238,66 @@
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "feat: 1074 feature request new filter citizenship (#1217)",
+            "SHA": "431e7c3f42cf3c32e989eafc0c3c2f5c2514e432",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-03-26T14:16:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/431e7c3f42cf3c32e989eafc0c3c2f5c2514e432"
+          },
+          {
+            "Text": "chore: bump yaml from 2.8.2 to 2.8.3 (#1216)",
+            "SHA": "a018e7b6c774c5930446aa74e3d60b8c17ca8cf8",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-03-26T11:13:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/a018e7b6c774c5930446aa74e3d60b8c17ca8cf8"
+          },
+          {
+            "Text": "chore: bump @rollup/rollup-linux-x64-gnu from 4.59.0 to 4.60.0 (#1213)",
+            "SHA": "63b2b5eda44459128107e57a9f5236e62951e914",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-26T11:03:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/63b2b5eda44459128107e57a9f5236e62951e914"
+          },
+          {
+            "Text": "chore: bump the npm_and_yarn group across 1 directory with 1 update (#1211)",
+            "SHA": "7472f87e6f6ed23f1c94f867dbfafefb89a8605f",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-26T10:49:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7472f87e6f6ed23f1c94f867dbfafefb89a8605f"
+          },
+          {
+            "Text": "chore: bump node from 25.8.1-slim to 25.8.2-slim (#1214)",
+            "SHA": "b54eb785e00f92ecc3929731023df300c09c640d",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-26T10:48:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b54eb785e00f92ecc3929731023df300c09c640d"
+          },
+          {
+            "Text": "fix: add getClassNames and selectProps to Heading component in index.tsx (#1215)",
+            "SHA": "08835b50824911f3de03d654ebbf5dd2413bfcbb",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-03-26T10:43:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/08835b50824911f3de03d654ebbf5dd2413bfcbb"
+          },
           {
             "Text": "chore: bump react-select from 5.6.1 to 5.10.2 (#1180)",
             "SHA": "5f98538a94a0fdd53af0f1c4eece2c0775715d06",
@@ -477,66 +537,6 @@
             },
             "Timestamp": "2026-02-25T09:30:02Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/8bbfe974fd0491e4ba1fe7091f9dbeedee3d1c49"
-          },
-          {
-            "Text": "1047 fix ci/cd node version missmatch",
-            "SHA": "ebf22c64da01cac018f4243d1c7d746e92286bc2",
-            "Author": {
-              "name": "Milos5611",
-              "link": "https://github.com/Milos5611"
-            },
-            "Timestamp": "2026-02-25T09:28:57Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ebf22c64da01cac018f4243d1c7d746e92286bc2"
-          },
-          {
-            "Text": "1047 fix ci/cd node version missmatch",
-            "SHA": "670db05f395421d18652b5eadb907d8da5cf39f3",
-            "Author": {
-              "name": "Milos5611",
-              "link": "https://github.com/Milos5611"
-            },
-            "Timestamp": "2026-02-25T09:19:01Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/670db05f395421d18652b5eadb907d8da5cf39f3"
-          },
-          {
-            "Text": "1047 fix ci/cd node version missmatch",
-            "SHA": "7f295f5cd0c4fd5af782c68ee44c80ddc655dabf",
-            "Author": {
-              "name": "Milos5611",
-              "link": "https://github.com/Milos5611"
-            },
-            "Timestamp": "2026-02-25T09:10:41Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7f295f5cd0c4fd5af782c68ee44c80ddc655dabf"
-          },
-          {
-            "Text": "1047 fix ci/cd node version missmatch",
-            "SHA": "2f4c9f93125c415a08a120f621caf0b6d9e2eb01",
-            "Author": {
-              "name": "Milos5611",
-              "link": "https://github.com/Milos5611"
-            },
-            "Timestamp": "2026-02-24T11:05:18Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2f4c9f93125c415a08a120f621caf0b6d9e2eb01"
-          },
-          {
-            "Text": "1047 fix ci/cd node version missmatch",
-            "SHA": "b50dd26612b46f3c303051ed81a43bd55682da2e",
-            "Author": {
-              "name": "Milos5611",
-              "link": "https://github.com/Milos5611"
-            },
-            "Timestamp": "2026-02-23T10:49:32Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b50dd26612b46f3c303051ed81a43bd55682da2e"
-          },
-          {
-            "Text": "1047 fix ci/cd node version missmatch",
-            "SHA": "6dcb3cc019d4dc56d437d7d531112f3957b93ae6",
-            "Author": {
-              "name": "Milos5611",
-              "link": "https://github.com/Milos5611"
-            },
-            "Timestamp": "2026-02-23T10:44:06Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/6dcb3cc019d4dc56d437d7d531112f3957b93ae6"
           }
         ]
       },
@@ -561,7 +561,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "584ce13",
+          "Version": "db96be6",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -605,12 +605,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "Bump github.com/urfave/cli/v3 from 3.7.0 to 3.8.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/924"
-          },
           {
             "Title": "Add sync for locations and organizations core data",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/872"
@@ -620,8 +616,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.81.5..HEAD",
-        "Count": 2,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "Bump github.com/urfave/cli/v3 from 3.7.0 to 3.8.0 (#924)",
+            "SHA": "db96be620e478e04242cee91ef15d97ca1cedce9",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-27T05:01:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/db96be620e478e04242cee91ef15d97ca1cedce9"
+          },
           {
             "Text": "Bump azure/setup-helm from 4 to 5 (#923)",
             "SHA": "584ce13a9e5498bb658f56046454f117c7dcf874",
@@ -3774,8 +3780,28 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 1,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "chore(deps): Bump auth0-js from 9.28.0 to 9.32.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/418"
+          },
+          {
+            "Title": "chore(deps): Bump node-forge from 1.3.2 to 1.4.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/417"
+          },
+          {
+            "Title": "chore(deps-dev): Bump cy-verify-downloads from 0.2.6 to 0.3.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/416"
+          },
+          {
+            "Title": "chore(deps-dev): Bump @types/mochawesome from 6.2.4 to 6.2.5",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/415"
+          },
+          {
+            "Title": "chore(deps): Bump actions/setup-node from 5 to 6",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/414"
+          },
           {
             "Title": "Xray poc",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/245"
@@ -4822,5 +4848,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-03-26T07:50:08Z"
+  "LastUpdated": "2026-03-27T07:49:07Z"
 }
