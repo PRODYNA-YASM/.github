@@ -205,8 +205,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "chore: bump brace-expansion from 1.1.12 to 1.1.13 in the npm_and_yarn group across 1 directory",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1220"
+          },
           {
             "Title": "chore: bump @mui/material from 7.3.8 to 7.3.9",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1219"
@@ -544,14 +548,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "Fixing broken pdf export link",
-            "Timestamp": "2026-02-25T19:32:23Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/22412600657"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -4848,5 +4846,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-03-27T07:49:07Z"
+  "LastUpdated": "2026-03-28T07:45:05Z"
 }

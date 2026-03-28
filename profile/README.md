@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-03-27T07:49:07Z
+Component Status overview. Last update 2026-03-28T07:45:05Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.81.0 |  :red_square: 76f12dd |  :green_square: 1.81.0 |  :red_square: 1.76.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: 431e7c3 |  :red_square: 1.81.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: 431e7c3 |  :red_square: 1.81.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [3](https://github.com/prodyna-yasm/yasm-integration/compare/1.81.5..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.81.5 |  :red_square: db96be6 |  :green_square: 1.81.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.81.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.81.0 |  :red_square: 9c36b69 |  :green_square: 1.81.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [19](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.6..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.26.6 |  :red_square: f873cb0 |  :green_square: 1.26.6 |  :red_square: 1.26.5 | 
@@ -157,7 +157,9 @@ Component Status overview. Last update 2026-03-27T07:49:07Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
+
+- [chore: bump brace-expansion from 1.1.12 to 1.1.13 in the npm_and_yarn group across 1 directory](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1220)
 
 - [chore: bump @mui/material from 7.3.8 to 7.3.9](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1219)
 
@@ -191,11 +193,6 @@ Component Status overview. Last update 2026-03-27T07:49:07Z
 - [Fix tooltip for total hour on skill in project, green dot in person list updated](https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.76.1) on 2025-11-19 19:49:08 +0000 UTC
 
 
-
-
-### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting) (1)
-
-- [Fixing broken pdf export link](https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/22412600657) created on 2026-02-25 19:32:23 +0000 UTC
 
 
 
