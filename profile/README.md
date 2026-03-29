@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-03-28T07:45:05Z
+Component Status overview. Last update 2026-03-29T07:47:14Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -18,7 +18,7 @@ Component Status overview. Last update 2026-03-28T07:45:05Z
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [13](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.76.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.76.2 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :red_square: [1](https://github.com/prodyna-yasm/yasm/compare/1.81.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm/pulls) | 1.81.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [6](https://github.com/prodyna-yasm/yasm-api/compare/1.81.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.81.0 | 
-| [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :green_square: 0 | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.81.0 | 
+| [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [10](https://github.com/prodyna-yasm/yasm-test/compare/v1.81.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.81.0 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [29](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.9.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-mainproject/pulls) | 1.9.1 |  :red_square: b44a52f |  :green_square: 1.9.1 |  :red_square: 1.9.0 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [15](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :red_square: b00e5e6 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :red_square: [30](https://github.com/prodyna-yasm/fox-and-hound/compare/2.1.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.1.0 |  :red_square: e04aaa1 |  :green_square: 2.1.0 |  :green_square: 2.1.0 | 
@@ -1117,19 +1117,34 @@ Component Status overview. Last update 2026-03-28T07:45:05Z
 
 
 
+### [Commits on main since v1.81.0](https://github.com/prodyna-yasm/yasm-test/compare/v1.81.0..HEAD) (10)
+
+- [Merge pull request #420 from PRODYNA-YASM/dependabot/npm_and_yarn/picomatch-2.3.2](https://github.com/prodyna-yasm/yasm-test/commit/4061ef1e030f361b3f7016f83d6724161444661b) by [codinski](https://github.com/codinski) on 2026-03-28 08:58:42 +0000 UTC
+
+- [Merge pull request #419 from PRODYNA-YASM/dependabot/npm_and_yarn/brace-expansion-2.0.3](https://github.com/prodyna-yasm/yasm-test/commit/e347ac5239bbe45ca6fcc09fa9fa85b905871761) by [codinski](https://github.com/codinski) on 2026-03-28 08:58:38 +0000 UTC
+
+- [Merge pull request #416 from PRODYNA-YASM/dependabot/npm_and_yarn/cy-verify-downloads-0.3.0](https://github.com/prodyna-yasm/yasm-test/commit/cde443aba25e6f03f935bf579c7571a5aca56fc0) by [codinski](https://github.com/codinski) on 2026-03-28 08:58:30 +0000 UTC
+
+- [chore(deps-dev): Bump cy-verify-downloads from 0.2.6 to 0.3.0](https://github.com/prodyna-yasm/yasm-test/commit/2312f1f7e99f8568c5644d79e9fe24745d945c20) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-28 08:43:28 +0000 UTC
+
+- [chore(deps-dev): Bump @types/mochawesome from 6.2.4 to 6.2.5 (#415)](https://github.com/prodyna-yasm/yasm-test/commit/cc6df28aaf15d27db9333d89b8e64f134fa50285) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-28 08:42:11 +0000 UTC
+
+- [chore(deps): Bump node-forge from 1.3.2 to 1.4.0 (#417)](https://github.com/prodyna-yasm/yasm-test/commit/15b020fb921409ebdc928f5b671d729f4cbb372c) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-28 08:41:43 +0000 UTC
+
+- [chore(deps-dev): Bump picomatch from 2.3.1 to 2.3.2](https://github.com/prodyna-yasm/yasm-test/commit/f2261cb8107cbdc9c5222aa510aab06352c59c0a) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-28 08:39:13 +0000 UTC
+
+- [chore(deps): Bump brace-expansion from 2.0.2 to 2.0.3](https://github.com/prodyna-yasm/yasm-test/commit/60fae87e7d6a59fc9f322ae9a8bee4010b0fae88) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-28 08:39:11 +0000 UTC
+
+- [chore(deps): Bump actions/setup-node from 5 to 6 (#414)](https://github.com/prodyna-yasm/yasm-test/commit/4426b92137c9f81f301fe395ebacf7f5e01b666f) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-28 08:38:39 +0000 UTC
+
+- [chore(deps): Bump auth0-js from 9.28.0 to 9.32.0 (#418)](https://github.com/prodyna-yasm/yasm-test/commit/7d00c1f2ef1e7dab36021ed869422688ff296a21) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-28 08:38:11 +0000 UTC
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (6)
 
-- [chore(deps): Bump auth0-js from 9.28.0 to 9.32.0](https://github.com/PRODYNA-YASM/yasm-test/pull/418)
 
-- [chore(deps): Bump node-forge from 1.3.2 to 1.4.0](https://github.com/PRODYNA-YASM/yasm-test/pull/417)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (2)
 
-- [chore(deps-dev): Bump cy-verify-downloads from 0.2.6 to 0.3.0](https://github.com/PRODYNA-YASM/yasm-test/pull/416)
-
-- [chore(deps-dev): Bump @types/mochawesome from 6.2.4 to 6.2.5](https://github.com/PRODYNA-YASM/yasm-test/pull/415)
-
-- [chore(deps): Bump actions/setup-node from 5 to 6](https://github.com/PRODYNA-YASM/yasm-test/pull/414)
+- [Feature/stabilizing selectors](https://github.com/PRODYNA-YASM/yasm-test/pull/421)
 
 - [Xray poc](https://github.com/PRODYNA-YASM/yasm-test/pull/245)
 

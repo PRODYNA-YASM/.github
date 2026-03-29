@@ -3778,27 +3778,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 6,
+        "Count": 2,
         "PullRequests": [
           {
-            "Title": "chore(deps): Bump auth0-js from 9.28.0 to 9.32.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/418"
-          },
-          {
-            "Title": "chore(deps): Bump node-forge from 1.3.2 to 1.4.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/417"
-          },
-          {
-            "Title": "chore(deps-dev): Bump cy-verify-downloads from 0.2.6 to 0.3.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/416"
-          },
-          {
-            "Title": "chore(deps-dev): Bump @types/mochawesome from 6.2.4 to 6.2.5",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/415"
-          },
-          {
-            "Title": "chore(deps): Bump actions/setup-node from 5 to 6",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/414"
+            "Title": "Feature/stabilizing selectors",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/421"
           },
           {
             "Title": "Xray poc",
@@ -3809,8 +3793,109 @@
       "Link": "https://github.com/prodyna-yasm/yasm-test",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/compare/v1.81.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 10,
+        "Commits": [
+          {
+            "Text": "Merge pull request #420 from PRODYNA-YASM/dependabot/npm_and_yarn/picomatch-2.3.2",
+            "SHA": "4061ef1e030f361b3f7016f83d6724161444661b",
+            "Author": {
+              "name": "codinski",
+              "link": "https://github.com/codinski"
+            },
+            "Timestamp": "2026-03-28T08:58:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/4061ef1e030f361b3f7016f83d6724161444661b"
+          },
+          {
+            "Text": "Merge pull request #419 from PRODYNA-YASM/dependabot/npm_and_yarn/brace-expansion-2.0.3",
+            "SHA": "e347ac5239bbe45ca6fcc09fa9fa85b905871761",
+            "Author": {
+              "name": "codinski",
+              "link": "https://github.com/codinski"
+            },
+            "Timestamp": "2026-03-28T08:58:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/e347ac5239bbe45ca6fcc09fa9fa85b905871761"
+          },
+          {
+            "Text": "Merge pull request #416 from PRODYNA-YASM/dependabot/npm_and_yarn/cy-verify-downloads-0.3.0",
+            "SHA": "cde443aba25e6f03f935bf579c7571a5aca56fc0",
+            "Author": {
+              "name": "codinski",
+              "link": "https://github.com/codinski"
+            },
+            "Timestamp": "2026-03-28T08:58:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/cde443aba25e6f03f935bf579c7571a5aca56fc0"
+          },
+          {
+            "Text": "chore(deps-dev): Bump cy-verify-downloads from 0.2.6 to 0.3.0",
+            "SHA": "2312f1f7e99f8568c5644d79e9fe24745d945c20",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-28T08:43:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/2312f1f7e99f8568c5644d79e9fe24745d945c20"
+          },
+          {
+            "Text": "chore(deps-dev): Bump @types/mochawesome from 6.2.4 to 6.2.5 (#415)",
+            "SHA": "cc6df28aaf15d27db9333d89b8e64f134fa50285",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-28T08:42:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/cc6df28aaf15d27db9333d89b8e64f134fa50285"
+          },
+          {
+            "Text": "chore(deps): Bump node-forge from 1.3.2 to 1.4.0 (#417)",
+            "SHA": "15b020fb921409ebdc928f5b671d729f4cbb372c",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-28T08:41:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/15b020fb921409ebdc928f5b671d729f4cbb372c"
+          },
+          {
+            "Text": "chore(deps-dev): Bump picomatch from 2.3.1 to 2.3.2",
+            "SHA": "f2261cb8107cbdc9c5222aa510aab06352c59c0a",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-28T08:39:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/f2261cb8107cbdc9c5222aa510aab06352c59c0a"
+          },
+          {
+            "Text": "chore(deps): Bump brace-expansion from 2.0.2 to 2.0.3",
+            "SHA": "60fae87e7d6a59fc9f322ae9a8bee4010b0fae88",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-28T08:39:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/60fae87e7d6a59fc9f322ae9a8bee4010b0fae88"
+          },
+          {
+            "Text": "chore(deps): Bump actions/setup-node from 5 to 6 (#414)",
+            "SHA": "4426b92137c9f81f301fe395ebacf7f5e01b666f",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-28T08:38:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/4426b92137c9f81f301fe395ebacf7f5e01b666f"
+          },
+          {
+            "Text": "chore(deps): Bump auth0-js from 9.28.0 to 9.32.0 (#418)",
+            "SHA": "7d00c1f2ef1e7dab36021ed869422688ff296a21",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-28T08:38:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/7d00c1f2ef1e7dab36021ed869422688ff296a21"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -4846,5 +4931,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-03-28T07:45:05Z"
+  "LastUpdated": "2026-03-29T07:47:14Z"
 }
