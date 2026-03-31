@@ -1043,7 +1043,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "f873cb0",
+          "Version": "406eadd",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1109,8 +1109,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.6..HEAD",
-        "Count": 19,
+        "Count": 23,
         "Commits": [
+          {
+            "Text": "Merge pull request #394 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-5",
+            "SHA": "406eaddf5430b31eb705a43dcfb5077573bf5e54",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-30T16:57:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/406eaddf5430b31eb705a43dcfb5077573bf5e54"
+          },
+          {
+            "Text": "Merge pull request #395 from PRODYNA-YASM/dependabot/go_modules/github.com/urfave/cli/v3-3.8.0",
+            "SHA": "92ac99fc6e3539d286db358f1a8803468743084b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-30T15:07:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/92ac99fc6e3539d286db358f1a8803468743084b"
+          },
+          {
+            "Text": "Bump github.com/urfave/cli/v3 from 3.7.0 to 3.8.0",
+            "SHA": "0009686ff623c620e1255b28e1c3eef769e1a30f",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-30T14:45:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/0009686ff623c620e1255b28e1c3eef769e1a30f"
+          },
+          {
+            "Text": "Bump azure/setup-helm from 4 to 5",
+            "SHA": "59c64678bb0ef09104125cac6f300eec10d8652c",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-30T14:45:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/59c64678bb0ef09104125cac6f300eec10d8652c"
+          },
           {
             "Text": "Merge pull request #393 from PRODYNA-YASM/dependabot/go_modules/go_modules-9c5197dcb8",
             "SHA": "f873cb0ddf5fedc9feefbb101baf3adb17b8ab2e",
@@ -2800,7 +2840,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "860ac0e",
+          "Version": "83d1af2",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2850,8 +2890,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-1..HEAD",
-        "Count": 14,
+        "Count": 16,
         "Commits": [
+          {
+            "Text": "Merge pull request #112 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.29.1",
+            "SHA": "83d1af2d97db6815241c2fa95ac8cbaeac115f78",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-03-31T04:50:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/83d1af2d97db6815241c2fa95ac8cbaeac115f78"
+          },
+          {
+            "Text": "Bump gotenberg/gotenberg from 8.29.0 to 8.29.1",
+            "SHA": "9157b70bc9c106b3cbc7c9c0dba0d1bbf2632e26",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-03-31T00:06:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/9157b70bc9c106b3cbc7c9c0dba0d1bbf2632e26"
+          },
           {
             "Text": "Merge pull request #111 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.29.0",
             "SHA": "860ac0e34991d0319990a3431af772bb242ad0f9",
@@ -3798,12 +3858,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "Feature/stabilizing selectors",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/421"
-          },
           {
             "Title": "Xray poc",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/245"
@@ -3813,8 +3869,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-test",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/compare/v1.81.0..HEAD",
-        "Count": 11,
+        "Count": 12,
         "Commits": [
+          {
+            "Text": "Feature/stabilizing selectors (#421)",
+            "SHA": "466c1988847cf2b6208d7d917ffa107e86368e6d",
+            "Author": {
+              "name": "codinski",
+              "link": "https://github.com/codinski"
+            },
+            "Timestamp": "2026-03-30T08:13:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-test/commit/466c1988847cf2b6208d7d917ffa107e86368e6d"
+          },
           {
             "Text": "docs: add Copilot instructions for YASM-Test repository",
             "SHA": "58ac8b273d27f695e898fb49a67b620cd90497ca",
@@ -4961,5 +5027,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-03-30T08:04:46Z"
+  "LastUpdated": "2026-03-31T07:54:24Z"
 }
