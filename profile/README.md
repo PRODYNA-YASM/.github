@@ -1,15 +1,15 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-03-31T07:54:24Z
+Component Status overview. Last update 2026-04-01T08:00:51Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.81.0 |  :red_square: 76f12dd |  :green_square: 1.81.0 |  :red_square: 1.76.1 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [5](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.81.0 |  :red_square: v1.76.2 |  :red_square: v1.76.2 |  :red_square: 1.76.1 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: 431e7c3 |  :red_square: 1.81.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [3](https://github.com/prodyna-yasm/yasm-integration/compare/1.81.5..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.81.5 |  :red_square: db96be6 |  :green_square: 1.81.5 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.81.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.81.0 |  :red_square: 9c36b69 |  :green_square: 1.81.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [23](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.6..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.26.6 |  :red_square: 406eadd |  :green_square: 1.26.6 |  :red_square: 1.26.5 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [30](https://github.com/prodyna-yasm/yasm-metrics/compare/1.81.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-metrics/pulls) | 1.81.2 |  :red_square: 423cb21 |  :green_square: 1.81.2 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [30](https://github.com/prodyna-yasm/yasm-metrics/compare/1.81.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-metrics/pulls) | 1.81.2 |  :red_square: 9a5baca |  :green_square: 1.81.2 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [30](https://github.com/prodyna-yasm/yasm-github/compare/1.14.4..HEAD) | :green_square: 0 | 1.14.4 |  :red_square: fcdce98 |  :green_square: 1.14.4 |  :red_square: 1.14.3 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [30](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.0..HEAD) | :green_square: 0 | 1.16.0 |  :red_square: 5edb3f3 |  :green_square: 1.16.0 |  :red_square: 1.15.9 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [28](https://github.com/prodyna-yasm/yasm-external/compare/1.2.18..HEAD) | :green_square: 0 | 1.2.18 |  :red_square: 5825f6b |  :green_square: 1.2.18 |  :red_square: 1.2.17 | 
@@ -30,7 +30,9 @@ Component Status overview. Last update 2026-03-31T07:54:24Z
 
 
 
-### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) (4)
+### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) (5)
+
+- [fix(1080): Missing Employee Search Results when Searching by Skill (#1004)](https://github.com/prodyna-yasm/yasm-backend/commit/5f6a4b733a2abf8330c8dc6ee4e52a073bcc723a) by [coding4kay](https://github.com/coding4kay) on 2026-03-31 15:22:44 +0000 UTC
 
 - [fix: 1059 Bug "Last Profile Edit" shows only a "-" (#1001)](https://github.com/prodyna-yasm/yasm-backend/commit/76f12dd30be914a7a8215d314cdf36d1e87a7fca) by [TD99](https://github.com/TD99) on 2026-03-18 16:00:03 +0000 UTC
 
@@ -69,9 +71,9 @@ Component Status overview. Last update 2026-03-31T07:54:24Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  76f12dd |  1.81.0 |  1.76.1 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :red_square: | 
+| Version |  v1.76.2 |  v1.76.2 |  1.76.1 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :red_square: |  :red_square: | 
 
 
 ### Last releases
@@ -83,6 +85,11 @@ Component Status overview. Last update 2026-03-31T07:54:24Z
 - [Create new endpoint for calling third-party organization logo service, dependency updates](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.76.0) on 2025-10-24 10:56:14 +0000 UTC
 
 
+
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting) (1)
+
+- [hotfix 1080](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/23806107249) created on 2026-03-31 15:41:22 +0000 UTC
 
 
 
@@ -437,6 +444,10 @@ Component Status overview. Last update 2026-03-31T07:54:24Z
 
 ### [Commits on main since 1.81.2](https://github.com/prodyna-yasm/yasm-metrics/compare/1.81.2..HEAD) (30)
 
+- [Merge pull request #350 from PRODYNA-YASM/dependabot/go_modules/github.com/XSAM/otelsql-0.42.0](https://github.com/prodyna-yasm/yasm-metrics/commit/9a5baca5ee83500f7de9b0826f962149e157a5a7) by [dkrizic](https://github.com/dkrizic) on 2026-04-01 05:29:54 +0000 UTC
+
+- [build(deps): bump github.com/XSAM/otelsql from 0.41.0 to 0.42.0](https://github.com/prodyna-yasm/yasm-metrics/commit/fb36c0756a764e7838b2fb614d3a98dffb594a1b) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-04-01 05:19:24 +0000 UTC
+
 - [Merge pull request #349 from PRODYNA-YASM/dependabot/github_actions/azure/setup-helm-5](https://github.com/prodyna-yasm/yasm-metrics/commit/423cb21bd280ae2d4d69d70af20010af642a5669) by [dkrizic](https://github.com/dkrizic) on 2026-03-24 06:33:57 +0000 UTC
 
 - [build(deps): bump azure/setup-helm from 4 to 5](https://github.com/prodyna-yasm/yasm-metrics/commit/d3bc4de863a0b1bb15b70c4298c8eceaa1be96ca) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-24 05:13:42 +0000 UTC
@@ -493,10 +504,6 @@ Component Status overview. Last update 2026-03-31T07:54:24Z
 
 - [build(deps): bump go.opentelemetry.io/contrib/instrumentation/runtime](https://github.com/prodyna-yasm/yasm-metrics/commit/826b6db396cac4d1a442959bd5d6d2b42751ae90) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-03 05:14:56 +0000 UTC
 
-- [Merge pull request #332 from PRODYNA-YASM/dependabot/go_modules/github.com/pressly/goose/v3-3.27.0](https://github.com/prodyna-yasm/yasm-metrics/commit/14a140658720885afeeb77f9ce05703c127f669e) by [dkrizic](https://github.com/dkrizic) on 2026-02-23 06:03:00 +0000 UTC
-
-- [build(deps): bump github.com/pressly/goose/v3 from 3.26.0 to 3.27.0](https://github.com/prodyna-yasm/yasm-metrics/commit/7b8a075a3406e217804d2fe026e0fde20b82a2ec) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-02-23 05:17:27 +0000 UTC
-
 
 
 
@@ -510,7 +517,7 @@ Component Status overview. Last update 2026-03-31T07:54:24Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  423cb21 |  1.81.2 | 
+| Version |  9a5baca |  1.81.2 | 
 | Release |  :red_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: | 
 
