@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-04-08T08:00:01Z
+Component Status overview. Last update 2026-04-09T08:01:38Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -18,7 +18,7 @@ Component Status overview. Last update 2026-04-08T08:00:01Z
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [13](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.76.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.76.2 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :red_square: [1](https://github.com/prodyna-yasm/yasm/compare/1.81.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm/pulls) | 1.81.0 | 
 | [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [6](https://github.com/prodyna-yasm/yasm-api/compare/1.81.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.81.0 | 
-| [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [12](https://github.com/prodyna-yasm/yasm-test/compare/v1.81.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.81.0 | 
+| [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [12](https://github.com/prodyna-yasm/yasm-test/compare/v1.81.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.81.0 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [30](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.9.1..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-mainproject/pulls) | 1.9.1 |  :red_square: f34398c |  :green_square: 1.9.1 |  :red_square: 1.9.0 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [15](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :red_square: b00e5e6 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :red_square: [30](https://github.com/prodyna-yasm/fox-and-hound/compare/2.1.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.1.0 |  :red_square: e04aaa1 |  :green_square: 2.1.0 |  :green_square: 2.1.0 | 
@@ -1221,7 +1221,11 @@ Component Status overview. Last update 2026-04-08T08:00:01Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (4)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (6)
+
+- [chore(deps-dev): Bump cypress from 15.13.0 to 15.13.1](https://github.com/PRODYNA-YASM/yasm-test/pull/428)
+
+- [chore(deps): Bump cypress/included from 15.13.0 to 15.13.1](https://github.com/PRODYNA-YASM/yasm-test/pull/427)
 
 - [chore(deps-dev): Bump dotenv from 17.3.1 to 17.4.1](https://github.com/PRODYNA-YASM/yasm-test/pull/426)
 
