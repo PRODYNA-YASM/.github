@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 9,
+        "Count": 10,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump actions/github-script from 8 to 9",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1005"
+          },
           {
             "Title": "Fix \"Last Profile Edit\" always showing \"-\" due to broken audit update logic",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1003"
@@ -4031,8 +4035,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "chore(deps-dev): Bump lodash from 4.17.23 to 4.18.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/429"
+          },
           {
             "Title": "chore(deps-dev): Bump cypress from 15.13.0 to 15.13.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/428"
@@ -5238,5 +5246,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-04-09T08:01:38Z"
+  "LastUpdated": "2026-04-10T08:03:11Z"
 }
