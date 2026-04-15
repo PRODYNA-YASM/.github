@@ -1,10 +1,10 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-04-14T08:06:20Z
+Component Status overview. Last update 2026-04-15T08:06:51Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [6](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.81.0 |  :red_square: 936cf49 |  :red_square: v1.76.2 |  :red_square: v1.76.2 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [7](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.81.0 |  :red_square: 1.81.1 |  :red_square: 1.81.1 |  :red_square: v1.76.2 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: 8bcbe62 |  :red_square: 1.81.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [8](https://github.com/prodyna-yasm/yasm-integration/compare/1.81.5..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.81.5 |  :red_square: 4a29830 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.81.0..HEAD) | :green_square: 0 | 1.81.0 |  :red_square: 15a7401 |  :green_square: 1.81.0 | 
@@ -30,7 +30,9 @@ Component Status overview. Last update 2026-04-14T08:06:20Z
 
 
 
-### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) (6)
+### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) (7)
+
+- [fix: make more room pdf exoprt (#1007)](https://github.com/prodyna-yasm/yasm-backend/commit/99c08ec13be52e19ab94f156407998966451a67b) by [Milos5611](https://github.com/Milos5611) on 2026-04-14 08:14:56 +0000 UTC
 
 - [feat: Redesign Awards and Certifications to have more room (#1006)](https://github.com/prodyna-yasm/yasm-backend/commit/936cf49d84862daad4e8ff098e3925063b9557ef) by [Milos5611](https://github.com/Milos5611) on 2026-04-14 07:48:49 +0000 UTC
 
@@ -75,8 +77,8 @@ Component Status overview. Last update 2026-04-14T08:06:20Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  936cf49 |  v1.76.2 |  v1.76.2 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.81.1 |  1.81.1 |  v1.76.2 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :red_square: |  :red_square: | 
 
 
@@ -89,6 +91,11 @@ Component Status overview. Last update 2026-04-14T08:06:20Z
 - [Create new endpoint for calling third-party organization logo service, dependency updates](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.76.0) on 2025-10-24 10:56:14 +0000 UTC
 
 
+
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting) (1)
+
+- [fix: make more room pdf exoprt (#1007)](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/24394576929) created on 2026-04-14 10:41:48 +0000 UTC
 
 
 
