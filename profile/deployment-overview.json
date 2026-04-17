@@ -8,8 +8,8 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.81.1",
-          "IsRelease": true,
+          "Version": "dbeefe2",
+          "IsRelease": false,
           "IsCurrent": false
         },
         {
@@ -106,8 +106,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD",
-        "Count": 7,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "fix: extend pdf capabilities (#1008)",
+            "SHA": "dbeefe2e57dd462eb7cfafafc46ba83281511d59",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-04-16T09:39:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/dbeefe2e57dd462eb7cfafafc46ba83281511d59"
+          },
           {
             "Text": "fix: make more room pdf exoprt (#1007)",
             "SHA": "99c08ec13be52e19ab94f156407998966451a67b",
@@ -2246,7 +2256,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "b512205",
+          "Version": "82a6fb7",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2298,6 +2308,26 @@
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #357 from PRODYNA-YASM/dependabot/docker/alpine-3.23.4",
+            "SHA": "82a6fb73f74d30a7617d922bbfd995472ba674f9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-04-17T04:25:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/82a6fb73f74d30a7617d922bbfd995472ba674f9"
+          },
+          {
+            "Text": "Bump alpine from 3.23.3 to 3.23.4",
+            "SHA": "bf8ec46fdd5e51688b15ab958213cad65c27baf2",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-04-16T16:53:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/bf8ec46fdd5e51688b15ab958213cad65c27baf2"
+          },
           {
             "Text": "Merge pull request #351 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc-1.43.0",
             "SHA": "b51220502596dedb54c760a6613f82bfb9446732",
@@ -2577,26 +2607,6 @@
             },
             "Timestamp": "2026-03-05T17:29:42Z",
             "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/4a945879deb23e321fc40b464cad7ab510f1a8f2"
-          },
-          {
-            "Text": "Merge pull request #336 from PRODYNA-YASM/dependabot/github_actions/docker/setup-qemu-action-4",
-            "SHA": "fda11dcaf41eb13e152b2e1ce117b16c5063c67a",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-03-05T08:11:54Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/fda11dcaf41eb13e152b2e1ce117b16c5063c67a"
-          },
-          {
-            "Text": "Merge pull request #335 from PRODYNA-YASM/dependabot/github_actions/docker/login-action-4",
-            "SHA": "a6825f83a7200cb798abd521d37bf73fa542052a",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-03-04T17:40:22Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/a6825f83a7200cb798abd521d37bf73fa542052a"
           }
         ]
       },
@@ -5216,5 +5226,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-04-16T08:06:10Z"
+  "LastUpdated": "2026-04-17T08:06:19Z"
 }
