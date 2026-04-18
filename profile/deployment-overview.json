@@ -2256,7 +2256,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "82a6fb7",
+          "Version": "80ef84e",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2308,6 +2308,26 @@
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #358 from PRODYNA-YASM/dependabot/go_modules/go_modules-0eaf1ff94a",
+            "SHA": "80ef84e144d2591ec03c1bba05ef1b1f39ddc0f9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-04-17T23:16:33Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/80ef84e144d2591ec03c1bba05ef1b1f39ddc0f9"
+          },
+          {
+            "Text": "Bump github.com/dapr/dapr in the go_modules group across 1 directory",
+            "SHA": "333d985f1cf84955f5218b29a0374e3ae377ccdb",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-04-17T22:22:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/333d985f1cf84955f5218b29a0374e3ae377ccdb"
+          },
           {
             "Text": "Merge pull request #357 from PRODYNA-YASM/dependabot/docker/alpine-3.23.4",
             "SHA": "82a6fb73f74d30a7617d922bbfd995472ba674f9",
@@ -2587,26 +2607,6 @@
             },
             "Timestamp": "2026-03-06T16:54:13Z",
             "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/76cf4826554ecfa93cabf66b481968aca0676f35"
-          },
-          {
-            "Text": "Merge pull request #338 from PRODYNA-YASM/dependabot/github_actions/docker/setup-buildx-action-4",
-            "SHA": "26bc50eb65c721182348ed8c131f16db4be6cf6c",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-03-05T18:55:18Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/26bc50eb65c721182348ed8c131f16db4be6cf6c"
-          },
-          {
-            "Text": "Bump docker/setup-buildx-action from 3 to 4",
-            "SHA": "4a945879deb23e321fc40b464cad7ab510f1a8f2",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-03-05T17:29:42Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/4a945879deb23e321fc40b464cad7ab510f1a8f2"
           }
         ]
       },
@@ -4035,16 +4035,16 @@
         "Count": 7,
         "PullRequests": [
           {
+            "Title": "chore(deps): Bump cypress/included from 15.13.0 to 15.14.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/430"
+          },
+          {
             "Title": "chore(deps-dev): Bump lodash from 4.17.23 to 4.18.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/429"
           },
           {
             "Title": "chore(deps-dev): Bump cypress from 15.13.0 to 15.13.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/428"
-          },
-          {
-            "Title": "chore(deps): Bump cypress/included from 15.13.0 to 15.13.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/427"
           },
           {
             "Title": "chore(deps-dev): Bump dotenv from 17.3.1 to 17.4.1",
@@ -5226,5 +5226,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-04-17T08:06:19Z"
+  "LastUpdated": "2026-04-18T07:49:43Z"
 }

@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-04-17T08:06:19Z
+Component Status overview. Last update 2026-04-18T07:49:43Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -11,7 +11,7 @@ Component Status overview. Last update 2026-04-17T08:06:19Z
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [30](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.6..HEAD) | :green_square: 0 | 1.26.6 |  :red_square: ad063ef |  :green_square: 1.26.6 |  :red_square: 1.26.5 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [30](https://github.com/prodyna-yasm/yasm-metrics/compare/1.81.2..HEAD) | :green_square: 0 | 1.81.2 |  :red_square: 24fe385 |  :green_square: 1.81.2 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [30](https://github.com/prodyna-yasm/yasm-github/compare/1.14.4..HEAD) | :green_square: 0 | 1.14.4 |  :red_square: 8964b17 |  :green_square: 1.14.4 |  :red_square: 1.14.3 | 
-| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [30](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.0..HEAD) | :green_square: 0 | 1.16.0 |  :red_square: 82a6fb7 |  :green_square: 1.16.0 | 
+| [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [30](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.0..HEAD) | :green_square: 0 | 1.16.0 |  :red_square: 80ef84e |  :green_square: 1.16.0 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [30](https://github.com/prodyna-yasm/yasm-external/compare/1.2.18..HEAD) | :green_square: 0 | 1.2.18 |  :red_square: a7ca4d8 |  :green_square: 1.2.18 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [18](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-1..HEAD) | :green_square: 0 | 8.26.0-1 |  :red_square: e44e6ef |  :green_square: 8.26.0-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [30](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.81.3..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.81.3 |  :red_square: 6d55ae4 | 
@@ -647,6 +647,10 @@ Component Status overview. Last update 2026-04-17T08:06:19Z
 
 ### [Commits on main since 1.16.0](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.0..HEAD) (30)
 
+- [Merge pull request #358 from PRODYNA-YASM/dependabot/go_modules/go_modules-0eaf1ff94a](https://github.com/prodyna-yasm/yasm-geocoding/commit/80ef84e144d2591ec03c1bba05ef1b1f39ddc0f9) by [dkrizic](https://github.com/dkrizic) on 2026-04-17 23:16:33 +0000 UTC
+
+- [Bump github.com/dapr/dapr in the go_modules group across 1 directory](https://github.com/prodyna-yasm/yasm-geocoding/commit/333d985f1cf84955f5218b29a0374e3ae377ccdb) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-04-17 22:22:21 +0000 UTC
+
 - [Merge pull request #357 from PRODYNA-YASM/dependabot/docker/alpine-3.23.4](https://github.com/prodyna-yasm/yasm-geocoding/commit/82a6fb73f74d30a7617d922bbfd995472ba674f9) by [dkrizic](https://github.com/dkrizic) on 2026-04-17 04:25:12 +0000 UTC
 
 - [Bump alpine from 3.23.3 to 3.23.4](https://github.com/prodyna-yasm/yasm-geocoding/commit/bf8ec46fdd5e51688b15ab958213cad65c27baf2) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-04-16 16:53:29 +0000 UTC
@@ -703,10 +707,6 @@ Component Status overview. Last update 2026-04-17T08:06:19Z
 
 - [Bump docker/build-push-action from 6 to 7](https://github.com/prodyna-yasm/yasm-geocoding/commit/76cf4826554ecfa93cabf66b481968aca0676f35) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-06 16:54:13 +0000 UTC
 
-- [Merge pull request #338 from PRODYNA-YASM/dependabot/github_actions/docker/setup-buildx-action-4](https://github.com/prodyna-yasm/yasm-geocoding/commit/26bc50eb65c721182348ed8c131f16db4be6cf6c) by [dkrizic](https://github.com/dkrizic) on 2026-03-05 18:55:18 +0000 UTC
-
-- [Bump docker/setup-buildx-action from 3 to 4](https://github.com/prodyna-yasm/yasm-geocoding/commit/4a945879deb23e321fc40b464cad7ab510f1a8f2) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-05 17:29:42 +0000 UTC
-
 
 
 
@@ -715,7 +715,7 @@ Component Status overview. Last update 2026-04-17T08:06:19Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  82a6fb7 |  1.16.0 | 
+| Version |  80ef84e |  1.16.0 | 
 | Release |  :red_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: | 
 
@@ -1191,11 +1191,11 @@ Component Status overview. Last update 2026-04-17T08:06:19Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (7)
 
+- [chore(deps): Bump cypress/included from 15.13.0 to 15.14.0](https://github.com/PRODYNA-YASM/yasm-test/pull/430)
+
 - [chore(deps-dev): Bump lodash from 4.17.23 to 4.18.1](https://github.com/PRODYNA-YASM/yasm-test/pull/429)
 
 - [chore(deps-dev): Bump cypress from 15.13.0 to 15.13.1](https://github.com/PRODYNA-YASM/yasm-test/pull/428)
-
-- [chore(deps): Bump cypress/included from 15.13.0 to 15.13.1](https://github.com/PRODYNA-YASM/yasm-test/pull/427)
 
 - [chore(deps-dev): Bump dotenv from 17.3.1 to 17.4.1](https://github.com/PRODYNA-YASM/yasm-test/pull/426)
 
