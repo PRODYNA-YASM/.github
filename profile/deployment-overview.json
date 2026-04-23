@@ -8,14 +8,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "dbeefe2",
-          "IsRelease": false,
+          "Version": "1.81.2",
+          "IsRelease": true,
           "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.81.1",
+          "Version": "1.81.2",
           "IsRelease": true,
           "IsCurrent": false
         },
@@ -106,8 +106,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD",
-        "Count": 8,
+        "Count": 10,
         "Commits": [
+          {
+            "Text": "fix:Feature/citizenship filter export pdf inverse (#1010)",
+            "SHA": "65dd0d7c1f4637ddf3b3a8191eeccc6f9de31999",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-04-22T11:34:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/65dd0d7c1f4637ddf3b3a8191eeccc6f9de31999"
+          },
+          {
+            "Text": "fix: update citizenship filter and pdf update (#1009)",
+            "SHA": "53fceabded2d97db0840100d49530baa17c2ac20",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-04-22T11:15:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/53fceabded2d97db0840100d49530baa17c2ac20"
+          },
           {
             "Text": "fix: extend pdf capabilities (#1008)",
             "SHA": "dbeefe2e57dd462eb7cfafafc46ba83281511d59",
@@ -197,9 +217,9 @@
         "Count": 1,
         "Workflows": [
           {
-            "Name": "fix: make more room pdf exoprt (#1007)",
-            "Timestamp": "2026-04-14T10:41:48Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/24394576929"
+            "Name": "fix:Feature/citizenship filter export pdf inverse (#1010)",
+            "Timestamp": "2026-04-22T18:22:50Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/24795253817"
           }
         ]
       }
@@ -211,14 +231,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8bcbe62",
-          "IsRelease": false,
+          "Version": "1.81.2",
+          "IsRelease": true,
           "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.81.1",
+          "Version": "1.81.2",
           "IsRelease": true,
           "IsCurrent": false
         }
@@ -292,6 +312,26 @@
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Remove filter on certificates",
+            "SHA": "e4699065c1cac60111df16dd28d141810307ed1c",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-04-22T11:59:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/e4699065c1cac60111df16dd28d141810307ed1c"
+          },
+          {
+            "Text": "PDF improvements and fixed filtering by nationalities",
+            "SHA": "c752e805781129ef8ec0a5ba52d07b97d2811177",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-04-22T11:43:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/c752e805781129ef8ec0a5ba52d07b97d2811177"
+          },
           {
             "Text": "chore: bump node from 25.8.2-slim to 25.9.0-slim (#1222)",
             "SHA": "8bcbe62a6e6b0d6717b46577b499787b587be50d",
@@ -571,26 +611,6 @@
             },
             "Timestamp": "2026-02-25T10:05:30Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/e1ea8638461467c1c2b34b1e741aa92e585f9d44"
-          },
-          {
-            "Text": "1047 fix ci/cd node version missmatch",
-            "SHA": "f30e4ab4e3ad75a7c917c34d0ee1e3ecc08e722c",
-            "Author": {
-              "name": "Milos5611",
-              "link": "https://github.com/Milos5611"
-            },
-            "Timestamp": "2026-02-25T09:45:48Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/f30e4ab4e3ad75a7c917c34d0ee1e3ecc08e722c"
-          },
-          {
-            "Text": "1047 fix ci/cd node version missmatch",
-            "SHA": "b96b8e2a7cf3d2eb599cfd8339542b9e7336a68a",
-            "Author": {
-              "name": "Milos5611",
-              "link": "https://github.com/Milos5611"
-            },
-            "Timestamp": "2026-02-25T09:43:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b96b8e2a7cf3d2eb599cfd8339542b9e7336a68a"
           }
         ]
       },
@@ -598,8 +618,14 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "Remove filter on certificates",
+            "Timestamp": "2026-04-22T18:24:15Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/24795320189"
+          }
+        ]
       }
     },
     {
@@ -609,7 +635,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "4771651",
+          "Version": "4bed174",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -657,8 +683,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.81.5..HEAD",
-        "Count": 10,
+        "Count": 11,
         "Commits": [
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.81.0 to 1.83.0 (#935)",
+            "SHA": "4bed1743fd41b31db570d01852cee8e4b61b0579",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-04-23T06:08:00Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/4bed1743fd41b31db570d01852cee8e4b61b0579"
+          },
           {
             "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.96.0 to 1.97.0 (#934)",
             "SHA": "4771651c72cf72e18912b38ec9143389895985e6",
@@ -1521,7 +1557,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "24fe385",
+          "Version": "d832ee1",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1573,6 +1609,26 @@
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.81.2..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #360 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.83.0",
+            "SHA": "d832ee18a280313052c66bd15d5bbecbf7c6e972",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-04-23T06:07:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/d832ee18a280313052c66bd15d5bbecbf7c6e972"
+          },
+          {
+            "Text": "build(deps): bump github.com/prodyna-yasm/yasm-api-go",
+            "SHA": "6e099f0bc883056167b8e50803657bfb994d61e4",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-04-23T05:08:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/6e099f0bc883056167b8e50803657bfb994d61e4"
+          },
           {
             "Text": "Merge pull request #359 from PRODYNA-YASM/dependabot/docker/alpine-3.23.4",
             "SHA": "24fe385319373c7b2b7c299f8ef6f6cf5bdf9c87",
@@ -1852,26 +1908,6 @@
             },
             "Timestamp": "2026-03-09T07:18:49Z",
             "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/b98c25465c5a74e8f9dfa152497203a0d4945172"
-          },
-          {
-            "Text": "Merge pull request #345 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/sdk-1.42.0",
-            "SHA": "e0db4d80cc23f1f7c316546e8dacd8d9b2aea425",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-03-09T07:17:37Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/e0db4d80cc23f1f7c316546e8dacd8d9b2aea425"
-          },
-          {
-            "Text": "build(deps): bump go.opentelemetry.io/otel/sdk from 1.41.0 to 1.42.0",
-            "SHA": "f251a924d94b92d01d27d49d8439b50f38106715",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-03-09T05:17:32Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/f251a924d94b92d01d27d49d8439b50f38106715"
           }
         ]
       },
@@ -3943,8 +3979,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.78 to 3.0.79",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/346"
+          },
           {
             "Title": "chore: bump io.smallrye.reactive:mutiny from 3.1.0 to 3.1.1",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/341"
@@ -3954,8 +3994,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.81.0..HEAD",
-        "Count": 6,
+        "Count": 7,
         "Commits": [
+          {
+            "Text": "feat: added nationalities",
+            "SHA": "98ab6f35bf891f8192c8cbd99bd5d095e34dbf58",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-04-22T10:32:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/98ab6f35bf891f8192c8cbd99bd5d095e34dbf58"
+          },
           {
             "Text": "chore: bump org.openapitools:jackson-databind-nullable (#345)",
             "SHA": "ca7b315e50db67924bce2b3bb1de6313565ce024",
@@ -4065,8 +4115,8 @@
         "Count": 7,
         "PullRequests": [
           {
-            "Title": "chore(deps): Bump cypress/included from 15.13.0 to 15.14.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/430"
+            "Title": "chore(deps): Bump cypress/included from 15.13.0 to 15.14.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/431"
           },
           {
             "Title": "chore(deps-dev): Bump lodash from 4.17.23 to 4.18.1",
@@ -5256,5 +5306,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-04-22T08:07:30Z"
+  "LastUpdated": "2026-04-23T08:09:21Z"
 }
