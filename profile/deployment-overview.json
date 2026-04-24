@@ -812,16 +812,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "15a7401",
+          "Version": "d7f5a89",
           "IsRelease": false,
           "IsCurrent": false
-        },
-        {
-          "Name": "staging",
-          "Link": "",
-          "Version": "1.81.0",
-          "IsRelease": true,
-          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -864,6 +857,26 @@
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.81.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #549 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.83.0",
+            "SHA": "d7f5a897b6b645a0c973126eb048bca05ea80eb9",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-04-24T04:35:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/d7f5a897b6b645a0c973126eb048bca05ea80eb9"
+          },
+          {
+            "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.81.0 to 1.83.0",
+            "SHA": "4fa5955869b8587319d6d6548f5570e3f99b5c72",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-04-23T21:13:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/4fa5955869b8587319d6d6548f5570e3f99b5c72"
+          },
           {
             "Text": "Merge pull request #542 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp-1.43.0",
             "SHA": "15a7401f3fc5ebf6d450bd4ba89bcbcaa88de011",
@@ -1143,26 +1156,6 @@
             },
             "Timestamp": "2026-03-06T21:13:01Z",
             "Link": "https://github.com/prodyna-yasm/yasmctl/commit/5d16022a3f0db0779a1c62815db969344d151fd3"
-          },
-          {
-            "Text": "Merge pull request #530 from PRODYNA-YASM/dependabot/github_actions/docker/login-action-4",
-            "SHA": "750628613664c4530e083817ab8bbae353d5a754",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-03-05T06:52:30Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/750628613664c4530e083817ab8bbae353d5a754"
-          },
-          {
-            "Text": "Bump docker/login-action from 3 to 4",
-            "SHA": "20cdbacb709c42ad6a45248c12f36697967a46f4",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-03-04T21:12:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/20cdbacb709c42ad6a45248c12f36697967a46f4"
           }
         ]
       },
@@ -5306,5 +5299,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-04-23T08:09:21Z"
+  "LastUpdated": "2026-04-24T08:14:23Z"
 }

@@ -1,13 +1,13 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-04-23T08:09:21Z
+Component Status overview. Last update 2026-04-24T08:14:23Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [10](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.81.0 |  :red_square: 1.81.2 |  :red_square: 1.81.2 |  :red_square: v1.76.2 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: 1.81.2 |  :red_square: 1.81.2 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [11](https://github.com/prodyna-yasm/yasm-integration/compare/1.81.5..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.81.5 |  :red_square: 4bed174 | 
-| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.81.0..HEAD) | :green_square: 0 | 1.81.0 |  :red_square: 15a7401 |  :green_square: 1.81.0 | 
+| [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.81.0..HEAD) | :green_square: 0 | 1.81.0 |  :red_square: d7f5a89 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [30](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.6..HEAD) | :green_square: 0 | 1.26.6 |  :red_square: ad063ef |  :green_square: 1.26.6 |  :red_square: 1.26.5 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [30](https://github.com/prodyna-yasm/yasm-metrics/compare/1.81.2..HEAD) | :green_square: 0 | 1.81.2 |  :red_square: d832ee1 |  :green_square: 1.81.2 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [30](https://github.com/prodyna-yasm/yasm-github/compare/1.14.4..HEAD) | :green_square: 0 | 1.14.4 |  :red_square: 8964b17 |  :green_square: 1.14.4 |  :red_square: 1.14.3 | 
@@ -288,6 +288,10 @@ Component Status overview. Last update 2026-04-23T08:09:21Z
 
 ### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasmctl/compare/1.81.0..HEAD) (30)
 
+- [Merge pull request #549 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.83.0](https://github.com/prodyna-yasm/yasmctl/commit/d7f5a897b6b645a0c973126eb048bca05ea80eb9) by [dkrizic](https://github.com/dkrizic) on 2026-04-24 04:35:15 +0000 UTC
+
+- [Bump github.com/prodyna-yasm/yasm-api-go from 1.81.0 to 1.83.0](https://github.com/prodyna-yasm/yasmctl/commit/4fa5955869b8587319d6d6548f5570e3f99b5c72) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-04-23 21:13:54 +0000 UTC
+
 - [Merge pull request #542 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp-1.43.0](https://github.com/prodyna-yasm/yasmctl/commit/15a7401f3fc5ebf6d450bd4ba89bcbcaa88de011) by [dkrizic](https://github.com/dkrizic) on 2026-04-13 09:01:16 +0000 UTC
 
 - [Merge pull request #541 from PRODYNA-YASM/dependabot/go_modules/github.com/urfave/cli/v3-3.8.0](https://github.com/prodyna-yasm/yasmctl/commit/790fc89b3a7f6971ba356e7c9ec008c4e6a3f719) by [dkrizic](https://github.com/dkrizic) on 2026-04-12 23:49:48 +0000 UTC
@@ -344,21 +348,17 @@ Component Status overview. Last update 2026-04-23T08:09:21Z
 
 - [Bump docker/build-push-action from 6 to 7](https://github.com/prodyna-yasm/yasmctl/commit/5d16022a3f0db0779a1c62815db969344d151fd3) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-06 21:13:01 +0000 UTC
 
-- [Merge pull request #530 from PRODYNA-YASM/dependabot/github_actions/docker/login-action-4](https://github.com/prodyna-yasm/yasmctl/commit/750628613664c4530e083817ab8bbae353d5a754) by [dkrizic](https://github.com/dkrizic) on 2026-03-05 06:52:30 +0000 UTC
-
-- [Bump docker/login-action from 3 to 4](https://github.com/prodyna-yasm/yasmctl/commit/20cdbacb709c42ad6a45248c12f36697967a46f4) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-04 21:12:58 +0000 UTC
-
 
 
 
 
 ### Environments
 
-| Environment |  dev |  staging | 
-| --- |  --- |  --- | 
-| Version |  15a7401 |  1.81.0 | 
-| Release |  :red_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: | 
+| Environment |  dev | 
+| --- |  --- | 
+| Version |  d7f5a89 | 
+| Release |  :red_square: | 
+| Current |  :red_square: | 
 
 
 ### Last releases
