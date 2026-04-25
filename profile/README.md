@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-04-24T08:14:23Z
+Component Status overview. Last update 2026-04-25T07:53:57Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [10](https://github.com/prodyna-yasm/yasm-backend/compare/1.81.0..HEAD) | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.81.0 |  :red_square: 1.81.2 |  :red_square: 1.81.2 |  :red_square: v1.76.2 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: 1.81.2 |  :red_square: 1.81.2 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.81.0 |  :red_square: 727d267 |  :red_square: 1.81.2 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [11](https://github.com/prodyna-yasm/yasm-integration/compare/1.81.5..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.81.5 |  :red_square: 4bed174 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.81.0..HEAD) | :green_square: 0 | 1.81.0 |  :red_square: d7f5a89 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [30](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.26.6..HEAD) | :green_square: 0 | 1.26.6 |  :red_square: ad063ef |  :green_square: 1.26.6 |  :red_square: 1.26.5 | 
@@ -113,6 +113,16 @@ Component Status overview. Last update 2026-04-24T08:14:23Z
 
 ### [Commits on main since 1.81.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD) (30)
 
+- [chore: bump lodash-es in the npm_and_yarn group across 1 directory (#1225)](https://github.com/prodyna-yasm/yasm-frontend/commit/727d267e860e405db35ad63cf7d3291dce4b5fe1) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-04-24 09:55:49 +0000 UTC
+
+- [chore: bump the npm_and_yarn group across 1 directory with 4 updates (#1224)](https://github.com/prodyna-yasm/yasm-frontend/commit/3f55119070b360b6f5b1be1255f30df043cfab87) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-04-24 09:50:07 +0000 UTC
+
+- [chore: bump @types/node from 22.19.11 to 25.5.0 (#1218)](https://github.com/prodyna-yasm/yasm-frontend/commit/b83595f129a7cea99b45ee8afcc437457a56e5b8) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-04-24 09:44:29 +0000 UTC
+
+- [chore: bump @mui/material from 7.3.8 to 7.3.9 (#1219)](https://github.com/prodyna-yasm/yasm-frontend/commit/c1baaf564c5154ff1e16ee0fbacc4ee0ce43b48d) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-04-24 09:36:28 +0000 UTC
+
+- [chore: bump brace-expansion in the npm_and_yarn group across 1 directory (#1220)](https://github.com/prodyna-yasm/yasm-frontend/commit/01035505d7e78aab0f08db9df11d4439a3197f78) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-04-24 09:33:47 +0000 UTC
+
 - [Remove filter on certificates](https://github.com/prodyna-yasm/yasm-frontend/commit/e4699065c1cac60111df16dd28d141810307ed1c) by [Milos5611](https://github.com/Milos5611) on 2026-04-22 11:59:20 +0000 UTC
 
 - [PDF improvements and fixed filtering by nationalities](https://github.com/prodyna-yasm/yasm-frontend/commit/c752e805781129ef8ec0a5ba52d07b97d2811177) by [Milos5611](https://github.com/Milos5611) on 2026-04-22 11:43:08 +0000 UTC
@@ -163,26 +173,10 @@ Component Status overview. Last update 2026-04-24T08:14:23Z
 
 - [feat: 1034 feature request minor improvements for production ready release 181x (#1193)](https://github.com/prodyna-yasm/yasm-frontend/commit/a942a5e5aee4fa74f9d3be2da9f4b9d945c6e186) by [TD99](https://github.com/TD99) on 2026-03-06 10:27:58 +0000 UTC
 
-- [feat: implement stored card view hook for search pages (#1192)](https://github.com/prodyna-yasm/yasm-frontend/commit/bc922d1380b132f80ecbac67e35e3d22a90d383c) by [TD99](https://github.com/TD99) on 2026-03-05 14:11:54 +0000 UTC
-
-- [chore: bump node from 25.7.0-slim to 25.8.0-slim (#1191)](https://github.com/prodyna-yasm/yasm-frontend/commit/4616546f34fd233cf3f409a71169495eb1e047b2) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-03-05 09:24:45 +0000 UTC
-
-- [chore: bump node from 24.13.1-slim to 25.7.0-slim (#1190)](https://github.com/prodyna-yasm/yasm-frontend/commit/0b891db59b9ad5b10617e0798080c1dc678cf3ef) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-02-26 16:42:27 +0000 UTC
-
-- [Fixing broken pdf export link](https://github.com/prodyna-yasm/yasm-frontend/commit/dbd9a495cd81d8b52599c67a615e7636b2fbe0e7) by [Milos5611](https://github.com/Milos5611) on 2026-02-25 19:26:30 +0000 UTC
-
-- [1032 fix broken UI](https://github.com/prodyna-yasm/yasm-frontend/commit/e1ea8638461467c1c2b34b1e741aa92e585f9d44) by [Milos5611](https://github.com/Milos5611) on 2026-02-25 10:05:30 +0000 UTC
 
 
 
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
-
-- [chore: bump brace-expansion from 1.1.12 to 1.1.13 in the npm_and_yarn group across 1 directory](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1220)
-
-- [chore: bump @mui/material from 7.3.8 to 7.3.9](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1219)
-
-- [chore: bump @types/node from 22.19.11 to 25.5.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1218)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (4)
 
 - [chore: bump @azure/msal-react from 3.0.27 to 5.1.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1212)
 
@@ -198,8 +192,8 @@ Component Status overview. Last update 2026-04-24T08:14:23Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  1.81.2 |  1.81.2 | 
-| Release |  :green_square: |  :green_square: | 
+| Version |  727d267 |  1.81.2 | 
+| Release |  :red_square: |  :green_square: | 
 | Current |  :red_square: |  :red_square: | 
 
 
