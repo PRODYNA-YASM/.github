@@ -231,14 +231,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "727d267",
-          "IsRelease": false,
+          "Version": "1.81.3",
+          "IsRelease": true,
           "IsCurrent": false
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.81.2",
+          "Version": "1.81.3",
           "IsRelease": true,
           "IsCurrent": false
         }
@@ -275,11 +275,39 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 4,
+        "Count": 11,
         "PullRequests": [
           {
-            "Title": "chore: bump @azure/msal-react from 3.0.27 to 5.1.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1212"
+            "Title": "chore: bump @azure/msal-react from 3.0.27 to 5.3.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1233"
+          },
+          {
+            "Title": "chore: bump eslint-plugin-react-hooks from 5.2.0 to 7.1.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1232"
+          },
+          {
+            "Title": "chore: bump @editorjs/editorjs from 2.31.5 to 2.31.6",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1231"
+          },
+          {
+            "Title": "chore: bump amannn/action-semantic-pull-request from 5 to 6",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1230"
+          },
+          {
+            "Title": "chore: bump github/codeql-action from 3 to 4",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1229"
+          },
+          {
+            "Title": "chore: bump docker/login-action from 3 to 4",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1228"
+          },
+          {
+            "Title": "chore: bump azure/setup-helm from 4 to 5",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1227"
+          },
+          {
+            "Title": "chore: bump docker/build-push-action from 6 to 7",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1226"
           },
           {
             "Title": "chore: update React and React-DOM to version 19, adjust JSX.Element types",
@@ -300,6 +328,16 @@
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.81.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Rename export year of experiance text",
+            "SHA": "030d58211f1326084d33bc74514aa6f94246c484",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-04-27T07:30:22Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/030d58211f1326084d33bc74514aa6f94246c484"
+          },
           {
             "Text": "chore: bump lodash-es in the npm_and_yarn group across 1 directory (#1225)",
             "SHA": "727d267e860e405db35ad63cf7d3291dce4b5fe1",
@@ -589,16 +627,6 @@
             },
             "Timestamp": "2026-03-06T14:49:08Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/3242caaa4687152333c561f387ee34e5f70ef978"
-          },
-          {
-            "Text": "feat: 1034 feature request minor improvements for production ready release 181x (#1193)",
-            "SHA": "a942a5e5aee4fa74f9d3be2da9f4b9d945c6e186",
-            "Author": {
-              "name": "TD99",
-              "link": "https://github.com/TD99"
-            },
-            "Timestamp": "2026-03-06T10:27:58Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/a942a5e5aee4fa74f9d3be2da9f4b9d945c6e186"
           }
         ]
       },
@@ -609,9 +637,9 @@
         "Count": 1,
         "Workflows": [
           {
-            "Name": "Remove filter on certificates",
-            "Timestamp": "2026-04-22T18:24:15Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/24795320189"
+            "Name": "Rename export year of experiance text",
+            "Timestamp": "2026-04-27T07:30:58Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/actions/runs/24982239057"
           }
         ]
       }
@@ -1582,8 +1610,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "build(deps): bump github.com/pressly/goose/v3 from 3.27.0 to 3.27.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/361"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
@@ -5287,5 +5320,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-04-26T08:00:53Z"
+  "LastUpdated": "2026-04-27T08:16:28Z"
 }
