@@ -3993,15 +3993,19 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 2,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "chore: bump io.smallrye.reactive:mutiny from 3.1.0 to 3.2.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/348"
+          },
+          {
+            "Title": "chore: bump com.fasterxml.jackson.core:jackson-databind from 2.21.2 to 2.21.3",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/347"
+          },
           {
             "Title": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin from 3.0.78 to 3.0.79",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/346"
-          },
-          {
-            "Title": "chore: bump io.smallrye.reactive:mutiny from 3.1.0 to 3.1.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/341"
           }
         ]
       },
@@ -4966,35 +4970,24 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 5,
-        "PullRequests": [
-          {
-            "Title": "Bump @azure/msal-browser from 4.29.0 to 5.6.3 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/340"
-          },
-          {
-            "Title": "Bump @angular/common from 20.3.17 to 21.2.8 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/339"
-          },
-          {
-            "Title": "Bump @angular/material from 20.2.14 to 21.2.6 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/338"
-          },
-          {
-            "Title": "Bump @angular/platform-browser-dynamic from 20.3.17 to 21.2.8 in /frontend",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/337"
-          },
-          {
-            "Title": "Bump the npm_and_yarn group across 1 directory with 10 updates",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/336"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/fox-and-hound",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/compare/2.1.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "chore: remove Dependabot configuration \u0026 add copilot instructions",
+            "SHA": "c98f391dea855d349a8343018058b89009b686d3",
+            "Author": {
+              "name": "TomLederer",
+              "link": "https://github.com/TomLederer"
+            },
+            "Timestamp": "2026-04-28T09:07:00Z",
+            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/c98f391dea855d349a8343018058b89009b686d3"
+          },
           {
             "Text": "Merge pull request #328 from PRODYNA-YASM/feature/#327_bumpVersions",
             "SHA": "e04aaa1e20209268edc95cbf03d03633c3bc7fc4",
@@ -5284,16 +5277,6 @@
             },
             "Timestamp": "2026-02-23T18:58:41Z",
             "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/6c8918262dd96184f49a75fd564f2087fb500d64"
-          },
-          {
-            "Text": "Update backend/services/ratings_employer_test.go",
-            "SHA": "af1e6683b37349b4ac4bf306634257bcf8988383",
-            "Author": {
-              "name": "sceneo",
-              "link": "https://github.com/sceneo"
-            },
-            "Timestamp": "2026-02-23T18:57:01Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/af1e6683b37349b4ac4bf306634257bcf8988383"
           }
         ]
       },
@@ -5320,5 +5303,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-04-28T08:16:38Z"
+  "LastUpdated": "2026-04-29T08:15:52Z"
 }
