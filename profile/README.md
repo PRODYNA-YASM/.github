@@ -1,15 +1,15 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-04-29T14:13:47Z
+Component Status overview. Last update 2026-04-30T08:16:25Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :green_square: 0 | :yellow_square: [11](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.0..HEAD) | :yellow_square: [11](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.0 |  :red_square: acf19f5 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :green_square: 0 | :green_square: 0 | 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.27.0 |  :green_square: 1.27.0 |  :green_square: 1.27.0 |  :green_square: 1.27.0 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [1](https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD) | :green_square: 0 | 1.83.0 |  :red_square: 3967242 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [3](https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD) | :green_square: 0 | 1.83.0 |  :red_square: c36817c |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.19 |  :green_square: 1.2.19 |  :green_square: 1.2.19 |  :green_square: 1.2.19 | 
@@ -83,15 +83,20 @@ Component Status overview. Last update 2026-04-29T14:13:47Z
 
 
 
+### [Commits on main since 1.83.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.0..HEAD) (1)
+
+- [chore: bump @editorjs/editorjs from 2.31.5 to 2.31.6 (#1231)](https://github.com/prodyna-yasm/yasm-frontend/commit/acf19f548de5065c7e8d28d0cc9a9abde520d6ad) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-04-29 15:40:20 +0000 UTC
+
+
 
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (11)
 
-- [chore: bump @azure/msal-react from 3.0.27 to 5.3.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1233)
+- [chore: bump postcss from 8.5.6 to 8.5.12 in the npm_and_yarn group across 1 directory](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1234)
+
+- [chore: bump @azure/msal-react from 3.0.27 to 5.3.2](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1233)
 
 - [chore: bump eslint-plugin-react-hooks from 5.2.0 to 7.1.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1232)
-
-- [chore: bump @editorjs/editorjs from 2.31.5 to 2.31.6](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1231)
 
 - [chore: bump amannn/action-semantic-pull-request from 5 to 6](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1230)
 
@@ -115,9 +120,9 @@ Component Status overview. Last update 2026-04-29T14:13:47Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.83.0 |  1.83.0 |  1.83.0 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  acf19f5 |  1.83.0 |  1.83.0 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -233,7 +238,11 @@ Component Status overview. Last update 2026-04-29T14:13:47Z
 
 
 
-### [Commits on main since 1.83.0](https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD) (1)
+### [Commits on main since 1.83.0](https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD) (3)
+
+- [Merge pull request #362 from PRODYNA-YASM/dependabot/go_modules/github.com/go-sql-driver/mysql-1.10.0](https://github.com/prodyna-yasm/yasm-metrics/commit/c36817ccbd04aec377e34534b19593afb7a16080) by [dkrizic](https://github.com/dkrizic) on 2026-04-30 06:10:08 +0000 UTC
+
+- [build(deps): bump github.com/go-sql-driver/mysql from 1.9.3 to 1.10.0](https://github.com/prodyna-yasm/yasm-metrics/commit/828d6394556a3a1726d623d4c36daf100d7766b3) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-04-30 05:10:21 +0000 UTC
 
 - [Merge pull request #361 from PRODYNA-YASM/dependabot/go_modules/github.com/pressly/goose/v3-3.27.1](https://github.com/prodyna-yasm/yasm-metrics/commit/3967242b8c3055802701df102a8be056a3cec57e) by [dkrizic](https://github.com/dkrizic) on 2026-04-29 14:05:40 +0000 UTC
 
@@ -245,7 +254,7 @@ Component Status overview. Last update 2026-04-29T14:13:47Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  3967242 |  1.83.0 |  1.83.0 | 
+| Version |  c36817c |  1.83.0 |  1.83.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
