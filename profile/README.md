@@ -1,15 +1,15 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-05-03T08:12:21Z
+Component Status overview. Last update 2026-05-04T08:17:15Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [9](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.0 |  :red_square: bd91536 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [1](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.0 |  :red_square: 0dd6933 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [2](https://github.com/prodyna-yasm/yasmctl/compare/1.83.0..HEAD) | :green_square: 0 | 1.83.0 |  :red_square: 3e411e2 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.27.0 |  :green_square: 1.27.0 |  :green_square: 1.27.0 |  :green_square: 1.27.0 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [3](https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD) | :green_square: 0 | 1.83.0 |  :red_square: c36817c |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [7](https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD) | :green_square: 0 | 1.83.0 |  :red_square: 074216e |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :green_square: 0 | :green_square: 0 | 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 |  :green_square: 1.15.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :green_square: 0 | :green_square: 0 | 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :green_square: 0 | :green_square: 0 | 1.2.19 |  :green_square: 1.2.19 |  :green_square: 1.2.19 |  :green_square: 1.2.19 | 
@@ -149,6 +149,11 @@ Component Status overview. Last update 2026-05-03T08:12:21Z
 
 
 
+### [Commits on main since 1.83.0](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.0..HEAD) (1)
+
+- [Bump github.com/prodyna-yasm/yasm-api-go from 1.83.0 to 1.84.0 (#936)](https://github.com/prodyna-yasm/yasm-integration/commit/0dd69337238e58d17535e8098af1321bcef5eb1b) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-05-04 05:25:56 +0000 UTC
+
+
 
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-integration/pulls) (1)
@@ -161,9 +166,9 @@ Component Status overview. Last update 2026-05-03T08:12:21Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  1.83.0 |  1.83.0 |  1.83.0 | 
-| Release |  :green_square: |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: |  :green_square: | 
+| Version |  0dd6933 |  1.83.0 |  1.83.0 | 
+| Release |  :red_square: |  :green_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
@@ -251,7 +256,15 @@ Component Status overview. Last update 2026-05-03T08:12:21Z
 
 
 
-### [Commits on main since 1.83.0](https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD) (3)
+### [Commits on main since 1.83.0](https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD) (7)
+
+- [Merge pull request #363 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.84.0](https://github.com/prodyna-yasm/yasm-metrics/commit/074216eeba351c247ba0117480f73796a2ac77a5) by [dkrizic](https://github.com/dkrizic) on 2026-05-04 05:35:15 +0000 UTC
+
+- [Merge pull request #364 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.81.0](https://github.com/prodyna-yasm/yasm-metrics/commit/508deca494da51c0b4eed80970209cfb38d81710) by [dkrizic](https://github.com/dkrizic) on 2026-05-04 05:34:52 +0000 UTC
+
+- [build(deps): bump google.golang.org/grpc from 1.80.0 to 1.81.0](https://github.com/prodyna-yasm/yasm-metrics/commit/ae6b7aa1078d37fdceb8fb4fb3451837b0998c3e) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-05-04 05:30:42 +0000 UTC
+
+- [build(deps): bump github.com/prodyna-yasm/yasm-api-go](https://github.com/prodyna-yasm/yasm-metrics/commit/2f98e594d5bcad6389c68f72876a2582a2a354d5) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-05-04 05:30:31 +0000 UTC
 
 - [Merge pull request #362 from PRODYNA-YASM/dependabot/go_modules/github.com/go-sql-driver/mysql-1.10.0](https://github.com/prodyna-yasm/yasm-metrics/commit/c36817ccbd04aec377e34534b19593afb7a16080) by [dkrizic](https://github.com/dkrizic) on 2026-04-30 06:10:08 +0000 UTC
 
@@ -267,7 +280,7 @@ Component Status overview. Last update 2026-05-03T08:12:21Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  c36817c |  1.83.0 |  1.83.0 | 
+| Version |  074216e |  1.83.0 |  1.83.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
