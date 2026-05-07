@@ -124,7 +124,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "bd91536",
+          "Version": "9467044",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -175,8 +175,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "chore: bump node from 25.9.0-slim to 26.0.0-slim",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1239"
+          },
           {
             "Title": "chore: bump @azure/msal-react from 3.0.27 to 5.3.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1238"
@@ -206,8 +210,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.0..HEAD",
-        "Count": 9,
+        "Count": 10,
         "Commits": [
+          {
+            "Text": "Recomendations",
+            "SHA": "94670444cc80e756de29d2a57cf8ecc5278814f9",
+            "Author": {
+              "name": "Milos5611",
+              "link": "https://github.com/Milos5611"
+            },
+            "Timestamp": "2026-05-05T15:51:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/94670444cc80e756de29d2a57cf8ecc5278814f9"
+          },
           {
             "Text": "chore: bump actions/checkout from 4 to 6 (#1235)",
             "SHA": "bd91536cb0df181ba4cacd51673df34a82e83633",
@@ -2104,8 +2118,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "Bump the npm_and_yarn group across 1 directory with 13 updates",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/342"
+          },
           {
             "Title": "Feature/#278 process overview diagram",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/341"
@@ -2442,5 +2460,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-05-05T08:15:01Z"
+  "LastUpdated": "2026-05-07T08:17:43Z"
 }
