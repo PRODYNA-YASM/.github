@@ -178,8 +178,8 @@
         "Count": 7,
         "PullRequests": [
           {
-            "Title": "chore: bump node from 25.9.0-slim to 26.0.0-slim",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1239"
+            "Title": "chore: bump node from 25.9.0-slim to 26.1.0-slim",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1240"
           },
           {
             "Title": "chore: bump @azure/msal-react from 3.0.27 to 5.3.2",
@@ -329,7 +329,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0dd6933",
+          "Version": "b113c27",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -391,8 +391,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.83.0..HEAD",
-        "Count": 1,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "Bump github.com/microsoft/kiota-http-go (#938)",
+            "SHA": "b113c27dd7535c8dcd4249c5edc42ca09afb15df",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-05-08T06:16:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/b113c27dd7535c8dcd4249c5edc42ca09afb15df"
+          },
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.97.0 to 1.98.0 (#937)",
+            "SHA": "1dce45bb5ad5e34c5146494df7b5fff9da40a7d1",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-05-08T05:05:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/1dce45bb5ad5e34c5146494df7b5fff9da40a7d1"
+          },
           {
             "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.83.0 to 1.84.0 (#936)",
             "SHA": "0dd69337238e58d17535e8098af1321bcef5eb1b",
@@ -1579,8 +1599,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-test/pulls",
-        "Count": 7,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "chore(deps): Bump auth0-js from 9.32.0 to 10.0.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/433"
+          },
           {
             "Title": "chore(deps): Bump cypress/included from 15.13.0 to 15.14.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/432"
@@ -2460,5 +2484,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-05-07T08:17:43Z"
+  "LastUpdated": "2026-05-08T08:03:00Z"
 }
