@@ -175,15 +175,23 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 5,
+        "Count": 7,
         "PullRequests": [
           {
-            "Title": "chore: bump @azure/msal-react from 3.0.27 to 5.3.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1238"
+            "Title": "chore: bump @azure/msal-browser from 4.29.0 to 5.10.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1244"
           },
           {
-            "Title": "chore: bump @azure/msal-browser from 4.29.0 to 5.9.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1237"
+            "Title": "chore: bump @azure/msal-react from 3.0.27 to 5.4.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1243"
+          },
+          {
+            "Title": "chore: bump @mui/x-date-pickers from 8.27.2 to 9.1.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1242"
+          },
+          {
+            "Title": "chore: bump actions/dependency-review-action from 4 to 5",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1241"
           },
           {
             "Title": "chore: update React and React-DOM to version 19, adjust JSX.Element types",
@@ -341,7 +349,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "b113c27",
+          "Version": "9d4ab26",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -403,8 +411,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.83.0..HEAD",
-        "Count": 3,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Bump actions/dependency-review-action from 4 to 5 (#939)",
+            "SHA": "9d4ab26f075d2262753ca5f5de24a010b042d935",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-05-11T06:26:09Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/9d4ab26f075d2262753ca5f5de24a010b042d935"
+          },
           {
             "Text": "Bump github.com/microsoft/kiota-http-go (#938)",
             "SHA": "b113c27dd7535c8dcd4249c5edc42ca09afb15df",
@@ -643,7 +661,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "074216e",
+          "Version": "a040717",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -700,8 +718,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD",
-        "Count": 7,
+        "Count": 9,
         "Commits": [
+          {
+            "Text": "Merge pull request #365 from PRODYNA-YASM/dependabot/github_actions/actions/dependency-review-action-5",
+            "SHA": "a04071780be7b3b635b4c641897960c3d91e41d4",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-05-11T06:23:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/a04071780be7b3b635b4c641897960c3d91e41d4"
+          },
+          {
+            "Text": "build(deps): bump actions/dependency-review-action from 4 to 5",
+            "SHA": "071375c49abd3badc14005097533427c760aca9b",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-05-11T05:42:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/071375c49abd3badc14005097533427c760aca9b"
+          },
           {
             "Text": "Merge pull request #363 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.84.0",
             "SHA": "074216eeba351c247ba0117480f73796a2ac77a5",
@@ -2521,5 +2559,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-05-10T08:14:39Z"
+  "LastUpdated": "2026-05-11T08:37:47Z"
 }
