@@ -175,8 +175,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "chore: bump protobufjs from 8.0.1 to 8.2.0 in the npm_and_yarn group across 1 directory",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1245"
+          },
           {
             "Title": "chore: bump @azure/msal-browser from 4.29.0 to 5.10.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1244"
@@ -349,7 +353,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "9d4ab26",
+          "Version": "3c373e1",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -411,8 +415,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.83.0..HEAD",
-        "Count": 4,
+        "Count": 5,
         "Commits": [
+          {
+            "Text": "Bump github.com/urfave/cli/v3 from 3.8.0 to 3.9.0 (#940)",
+            "SHA": "3c373e147cb9d19bbed09786ae3c417e8f611ff0",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-05-13T04:39:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/3c373e147cb9d19bbed09786ae3c417e8f611ff0"
+          },
           {
             "Text": "Bump actions/dependency-review-action from 4 to 5 (#939)",
             "SHA": "9d4ab26f075d2262753ca5f5de24a010b042d935",
@@ -470,7 +484,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "8af780c",
+          "Version": "b1a0425",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -527,8 +541,28 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.83.0..HEAD",
-        "Count": 4,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Merge pull request #552 from PRODYNA-YASM/dependabot/go_modules/github.com/urfave/cli/v3-3.9.0",
+            "SHA": "b1a04252df57951b74122333fe8bbaaf2111b874",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-05-13T04:38:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/b1a04252df57951b74122333fe8bbaaf2111b874"
+          },
+          {
+            "Text": "Bump github.com/urfave/cli/v3 from 3.8.0 to 3.9.0",
+            "SHA": "61a4eb8e60513caac1b8c08f76515f59e32b4a24",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-05-13T00:05:12Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/61a4eb8e60513caac1b8c08f76515f59e32b4a24"
+          },
           {
             "Text": "Merge pull request #551 from PRODYNA-YASM/dependabot/github_actions/actions/dependency-review-action-5",
             "SHA": "8af780c07462a0aab20ad9ab6fcb986bd1e4003e",
@@ -733,8 +767,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "build(deps): bump github.com/AzureAD/microsoft-authentication-library-for-go from 1.7.1 to 1.7.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/366"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
@@ -928,7 +967,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "27a95b3",
+          "Version": "ff38646",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -985,8 +1024,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.1..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #360 from PRODYNA-YASM/dependabot/go_modules/github.com/urfave/cli/v3-3.9.0",
+            "SHA": "ff3864644c6462f9057866ef0b1c25f76b7d9b40",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-05-12T22:45:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/ff3864644c6462f9057866ef0b1c25f76b7d9b40"
+          },
+          {
+            "Text": "Bump github.com/urfave/cli/v3 from 3.8.0 to 3.9.0",
+            "SHA": "5b6e56ffc169e6770b04c278c0e3738c477597c3",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-05-12T21:56:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/5b6e56ffc169e6770b04c278c0e3738c477597c3"
+          },
           {
             "Text": "Merge pull request #359 from PRODYNA-YASM/dependabot/go_modules/github.com/riandyrn/otelchi-0.12.3",
             "SHA": "27a95b35d5af0cc907d9f9722bf52f48dc44bf17",
@@ -1719,12 +1778,12 @@
         "Count": 8,
         "PullRequests": [
           {
-            "Title": "chore(deps): Bump auth0-js from 9.32.0 to 10.0.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/433"
+            "Title": "chore(deps): Bump cypress/included from 15.13.0 to 15.15.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/434"
           },
           {
-            "Title": "chore(deps): Bump cypress/included from 15.13.0 to 15.14.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/432"
+            "Title": "chore(deps): Bump auth0-js from 9.32.0 to 10.0.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/433"
           },
           {
             "Title": "chore(deps-dev): Bump lodash from 4.17.23 to 4.18.1",
@@ -2605,5 +2664,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-05-12T08:17:54Z"
+  "LastUpdated": "2026-05-13T08:23:57Z"
 }
