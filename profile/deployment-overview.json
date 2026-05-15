@@ -414,8 +414,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "Bump github.com/microsoftgraph/msgraph-sdk-go-core from 1.4.0 to 1.4.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/941"
+          },
           {
             "Title": "Add sync for locations and organizations core data",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/872"
@@ -726,7 +730,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "a040717",
+          "Version": "6c07567",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -788,8 +792,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD",
-        "Count": 9,
+        "Count": 11,
         "Commits": [
+          {
+            "Text": "Merge pull request #367 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.81.1",
+            "SHA": "6c07567252af68299e4052a06bd3594881f896ed",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-05-15T05:32:50Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/6c07567252af68299e4052a06bd3594881f896ed"
+          },
+          {
+            "Text": "build(deps): bump google.golang.org/grpc from 1.81.0 to 1.81.1",
+            "SHA": "b218b46cb55a3e3afa78b20256d9a8c987bd76e4",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-05-15T05:13:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/b218b46cb55a3e3afa78b20256d9a8c987bd76e4"
+          },
           {
             "Text": "Merge pull request #365 from PRODYNA-YASM/dependabot/github_actions/actions/dependency-review-action-5",
             "SHA": "a04071780be7b3b635b4c641897960c3d91e41d4",
@@ -2678,5 +2702,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-05-14T08:19:48Z"
+  "LastUpdated": "2026-05-15T08:25:45Z"
 }
