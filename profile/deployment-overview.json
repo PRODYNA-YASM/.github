@@ -363,7 +363,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "3c373e1",
+          "Version": "d5f5cab",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -414,12 +414,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 2,
+        "Count": 1,
         "PullRequests": [
-          {
-            "Title": "Bump github.com/microsoftgraph/msgraph-sdk-go-core from 1.4.0 to 1.4.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/941"
-          },
           {
             "Title": "Add sync for locations and organizations core data",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/872"
@@ -429,8 +425,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.83.0..HEAD",
-        "Count": 5,
+        "Count": 6,
         "Commits": [
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go-core from 1.4.0 to 1.4.1 (#941)",
+            "SHA": "d5f5cabd876dce27f55df04252e60aea4be68513",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-05-15T15:20:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/d5f5cabd876dce27f55df04252e60aea4be68513"
+          },
           {
             "Text": "Bump github.com/urfave/cli/v3 from 3.8.0 to 3.9.0 (#940)",
             "SHA": "3c373e147cb9d19bbed09786ae3c417e8f611ff0",
@@ -2702,5 +2708,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-05-15T08:25:45Z"
+  "LastUpdated": "2026-05-16T08:14:30Z"
 }
