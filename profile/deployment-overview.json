@@ -124,7 +124,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "dc88850",
+          "Version": "7d7b224",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -175,12 +175,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 8,
+        "Count": 6,
         "PullRequests": [
-          {
-            "Title": "chore: bump protobufjs from 8.0.1 to 8.2.0 in the npm_and_yarn group across 1 directory",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1245"
-          },
           {
             "Title": "chore: bump @azure/msal-browser from 4.29.0 to 5.10.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1244"
@@ -192,10 +188,6 @@
           {
             "Title": "chore: bump @mui/x-date-pickers from 8.27.2 to 9.1.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1242"
-          },
-          {
-            "Title": "chore: bump actions/dependency-review-action from 4 to 5",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1241"
           },
           {
             "Title": "chore: update React and React-DOM to version 19, adjust JSX.Element types",
@@ -214,8 +206,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.0..HEAD",
-        "Count": 13,
+        "Count": 15,
         "Commits": [
+          {
+            "Text": "chore: bump actions/dependency-review-action from 4 to 5 (#1241)",
+            "SHA": "7d7b22470b54e1478ae6ca9d7d253c9fff3e87ba",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-05-18T15:34:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7d7b22470b54e1478ae6ca9d7d253c9fff3e87ba"
+          },
+          {
+            "Text": "chore: bump protobufjs in the npm_and_yarn group across 1 directory (#1245)",
+            "SHA": "58ecb99bf2a561f8771f804cb35e9e20bb789b11",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-05-18T15:34:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/58ecb99bf2a561f8771f804cb35e9e20bb789b11"
+          },
           {
             "Text": "chore: bump nginx from 1.29.8-otel to 1.31.0-otel (#1246)",
             "SHA": "dc88850ca90ab46edf2b686b420d7ae82b3ef6f6",
@@ -640,7 +652,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "34313a8",
+          "Version": "ed97475",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -697,8 +709,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.27.0..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #405 from PRODYNA-YASM/dependabot/go_modules/github.com/urfave/cli/v3-3.9.0",
+            "SHA": "ed97475fe8a2f192ebf28c4268148001d0658f26",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-05-19T06:11:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/ed97475fe8a2f192ebf28c4268148001d0658f26"
+          },
+          {
+            "Text": "Bump github.com/urfave/cli/v3 from 3.8.0 to 3.9.0",
+            "SHA": "583a01aa57326a6c1905ea69e90d9b58d6e0a65f",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-05-18T23:24:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/583a01aa57326a6c1905ea69e90d9b58d6e0a65f"
+          },
           {
             "Text": "Merge pull request #404 from PRODYNA-YASM/dependabot/github_actions/actions/dependency-review-action-5",
             "SHA": "34313a8d750fa113fdd96cc02dfc903a38b68e57",
@@ -2708,5 +2740,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-05-18T08:45:19Z"
+  "LastUpdated": "2026-05-19T08:38:21Z"
 }
