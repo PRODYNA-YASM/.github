@@ -124,7 +124,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "7d7b224",
+          "Version": "fe735da",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -206,8 +206,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.0..HEAD",
-        "Count": 15,
+        "Count": 16,
         "Commits": [
+          {
+            "Text": "chore: bump node from 26.1.0-slim to 26.2.0-slim (#1247)",
+            "SHA": "fe735da13151d39b60b328be29493dc6750b7553",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-05-21T06:28:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/fe735da13151d39b60b328be29493dc6750b7553"
+          },
           {
             "Text": "chore: bump actions/dependency-review-action from 4 to 5 (#1241)",
             "SHA": "7d7b22470b54e1478ae6ca9d7d253c9fff3e87ba",
@@ -2750,5 +2760,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-05-20T08:36:59Z"
+  "LastUpdated": "2026-05-21T08:41:39Z"
 }
