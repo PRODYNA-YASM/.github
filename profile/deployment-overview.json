@@ -431,9 +431,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.83.2",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "77e818d",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -493,8 +493,19 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.83.2..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "Bump docker/setup-buildx-action from 3 to 4 (#954)",
+            "SHA": "77e818d9abef0965e6115d010075566886ca73db",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-06-01T05:13:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/77e818d9abef0965e6115d010075566886ca73db"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1515,7 +1526,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "cbe696d",
+          "Version": "9377219",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1565,8 +1576,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-1..HEAD",
-        "Count": 22,
+        "Count": 24,
         "Commits": [
+          {
+            "Text": "Merge pull request #116 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.33.0",
+            "SHA": "937721908af7cf8e026a0fa59de5295191ed2bac",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-06-01T05:14:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/937721908af7cf8e026a0fa59de5295191ed2bac"
+          },
+          {
+            "Text": "Bump gotenberg/gotenberg from 8.32.0 to 8.33.0",
+            "SHA": "342ffd173c1dc570e4d2f26ceec98b6313567766",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-06-01T00:08:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/342ffd173c1dc570e4d2f26ceec98b6313567766"
+          },
           {
             "Text": "Merge pull request #115 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.32.0",
             "SHA": "cbe696dea0a69ada2f1809f642ba086c44f0f8d4",
@@ -2079,8 +2110,8 @@
         "Count": 1,
         "PullRequests": [
           {
-            "Title": "chore: bump com.fasterxml.jackson.core:jackson-databind from 2.21.2 to 2.21.3",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/347"
+            "Title": "chore: bump com.fasterxml.jackson.core:jackson-databind from 2.21.2 to 2.22.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/353"
           }
         ]
       },
@@ -3073,5 +3104,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-05-31T08:28:28Z"
+  "LastUpdated": "2026-06-01T09:16:52Z"
 }
