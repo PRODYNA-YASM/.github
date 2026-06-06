@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-06-05T08:44:53Z
+Component Status overview. Last update 2026-06-06T08:18:12Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [20](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.0..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.0 |  :red_square: 95ba5ec |  :red_square: 1.83.1 |  :red_square: 1.83.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [22](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.0..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.0 |  :red_square: 434b984 |  :red_square: 1.83.1 |  :red_square: 1.83.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [1](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.2 |  :red_square: 77e818d |  :green_square: 1.83.2 |  :green_square: 1.83.2 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [14](https://github.com/prodyna-yasm/yasmctl/compare/1.83.0..HEAD) | :green_square: 0 | 1.83.0 |  :red_square: 93d22a3 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.28.0 |  :green_square: 1.28.0 |  :green_square: 1.28.0 |  :green_square: 1.28.0 | 
@@ -83,7 +83,11 @@ Component Status overview. Last update 2026-06-05T08:44:53Z
 
 
 
-### [Commits on main since 1.83.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.0..HEAD) (20)
+### [Commits on main since 1.83.0](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.0..HEAD) (22)
+
+- [chore: bump react-router in the npm_and_yarn group across 1 directory (#1251)](https://github.com/prodyna-yasm/yasm-frontend/commit/434b9845d6abe2d176a80c03381825d24b8cbea3) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-06-05 14:31:19 +0000 UTC
+
+- [chore: bump node from 26.2.0-slim to 26.3.0-slim (#1250)](https://github.com/prodyna-yasm/yasm-frontend/commit/242fb56b6bb430638cf003e8aa69cfa85c3af539) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-06-05 14:29:44 +0000 UTC
 
 - [chore: bump brace-expansion from 5.0.5 to 5.0.6 (#1249)](https://github.com/prodyna-yasm/yasm-frontend/commit/95ba5ec8b9d74832b21cce2a61a4d930f5348b9a) by [TD99](https://github.com/TD99) on 2026-05-29 14:27:47 +0000 UTC
 
@@ -128,11 +132,7 @@ Component Status overview. Last update 2026-06-05T08:44:53Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (8)
-
-- [chore: bump react-router from 7.13.1 to 7.16.0 in the npm_and_yarn group across 1 directory](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1251)
-
-- [chore: bump node from 26.2.0-slim to 26.3.0-slim](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1250)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
 
 - [chore: bump @azure/msal-browser from 4.29.0 to 5.10.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1244)
 
@@ -152,7 +152,7 @@ Component Status overview. Last update 2026-06-05T08:44:53Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  95ba5ec |  1.83.1 |  1.83.1 | 
+| Version |  434b984 |  1.83.1 |  1.83.1 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :red_square: |  :red_square: | 
 

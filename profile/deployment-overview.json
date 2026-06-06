@@ -124,7 +124,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "95ba5ec",
+          "Version": "434b984",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -175,16 +175,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 8,
+        "Count": 6,
         "PullRequests": [
-          {
-            "Title": "chore: bump react-router from 7.13.1 to 7.16.0 in the npm_and_yarn group across 1 directory",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1251"
-          },
-          {
-            "Title": "chore: bump node from 26.2.0-slim to 26.3.0-slim",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1250"
-          },
           {
             "Title": "chore: bump @azure/msal-browser from 4.29.0 to 5.10.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1244"
@@ -214,8 +206,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.0..HEAD",
-        "Count": 20,
+        "Count": 22,
         "Commits": [
+          {
+            "Text": "chore: bump react-router in the npm_and_yarn group across 1 directory (#1251)",
+            "SHA": "434b9845d6abe2d176a80c03381825d24b8cbea3",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-06-05T14:31:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/434b9845d6abe2d176a80c03381825d24b8cbea3"
+          },
+          {
+            "Text": "chore: bump node from 26.2.0-slim to 26.3.0-slim (#1250)",
+            "SHA": "242fb56b6bb430638cf003e8aa69cfa85c3af539",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-06-05T14:29:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/242fb56b6bb430638cf003e8aa69cfa85c3af539"
+          },
           {
             "Text": "chore: bump brace-expansion from 5.0.5 to 5.0.6 (#1249)",
             "SHA": "95ba5ec8b9d74832b21cce2a61a4d930f5348b9a",
@@ -3165,5 +3177,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-06-05T08:44:53Z"
+  "LastUpdated": "2026-06-06T08:18:12Z"
 }
