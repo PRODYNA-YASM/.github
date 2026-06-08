@@ -133,24 +133,31 @@
           "Link": "",
           "Version": "1.83.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
           "Version": "1.83.1",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "1.83.0",
+        "Tag": "1.83.1",
         "SHA": "",
-        "Title": "1.83.0 loyality batches, citizenship, improvements, bug fixes",
-        "Timestamp": "2026-04-29T13:30:49Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.83.0"
+        "Title": "1.83.1",
+        "Timestamp": "2026-06-08T08:04:17Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.83.1"
       },
       "Releases": [
+        {
+          "Tag": "1.83.1",
+          "SHA": "",
+          "Title": "1.83.1",
+          "Timestamp": "2026-05-28T12:10:13Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.83.1"
+        },
         {
           "Tag": "1.83.0",
           "SHA": "",
@@ -164,13 +171,6 @@
           "Title": "More person details, badges for employment years, nationalities",
           "Timestamp": "2026-01-22T08:58:48Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.81.0"
-        },
-        {
-          "Tag": "1.76.2",
-          "SHA": "",
-          "Title": "keep export wizzard open and share search by URL",
-          "Timestamp": "2026-01-15T17:13:30Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/releases/tag/1.76.2"
         }
       ],
       "PullRequests": {
@@ -205,230 +205,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-frontend",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.0..HEAD",
-        "Count": 22,
-        "Commits": [
-          {
-            "Text": "chore: bump react-router in the npm_and_yarn group across 1 directory (#1251)",
-            "SHA": "434b9845d6abe2d176a80c03381825d24b8cbea3",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-06-05T14:31:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/434b9845d6abe2d176a80c03381825d24b8cbea3"
-          },
-          {
-            "Text": "chore: bump node from 26.2.0-slim to 26.3.0-slim (#1250)",
-            "SHA": "242fb56b6bb430638cf003e8aa69cfa85c3af539",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-06-05T14:29:44Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/242fb56b6bb430638cf003e8aa69cfa85c3af539"
-          },
-          {
-            "Text": "chore: bump brace-expansion from 5.0.5 to 5.0.6 (#1249)",
-            "SHA": "95ba5ec8b9d74832b21cce2a61a4d930f5348b9a",
-            "Author": {
-              "name": "TD99",
-              "link": "https://github.com/TD99"
-            },
-            "Timestamp": "2026-05-29T14:27:47Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/95ba5ec8b9d74832b21cce2a61a4d930f5348b9a"
-          },
-          {
-            "Text": "chore: bump nginx from 1.31.0-otel to 1.31.1-otel (#1248)",
-            "SHA": "9f45571773637863d56d6a69a5790a9470ebc1ab",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-05-29T14:13:00Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/9f45571773637863d56d6a69a5790a9470ebc1ab"
-          },
-          {
-            "Text": "Add skill recomendaton to employee project participation page too",
-            "SHA": "42344e924b209066398786a9c1985bb8fbb93f85",
-            "Author": {
-              "name": "Milos5611",
-              "link": "https://github.com/Milos5611"
-            },
-            "Timestamp": "2026-05-28T12:10:13Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/42344e924b209066398786a9c1985bb8fbb93f85"
-          },
-          {
-            "Text": "Update recomendation to filter first by experience",
-            "SHA": "dac94cd933d2f86469d0464ca0b8650ce81bd58f",
-            "Author": {
-              "name": "Milos5611",
-              "link": "https://github.com/Milos5611"
-            },
-            "Timestamp": "2026-05-28T08:47:11Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/dac94cd933d2f86469d0464ca0b8650ce81bd58f"
-          },
-          {
-            "Text": "chore: bump node from 26.1.0-slim to 26.2.0-slim (#1247)",
-            "SHA": "fe735da13151d39b60b328be29493dc6750b7553",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-05-21T06:28:16Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/fe735da13151d39b60b328be29493dc6750b7553"
-          },
-          {
-            "Text": "chore: bump actions/dependency-review-action from 4 to 5 (#1241)",
-            "SHA": "7d7b22470b54e1478ae6ca9d7d253c9fff3e87ba",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-05-18T15:34:40Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7d7b22470b54e1478ae6ca9d7d253c9fff3e87ba"
-          },
-          {
-            "Text": "chore: bump protobufjs in the npm_and_yarn group across 1 directory (#1245)",
-            "SHA": "58ecb99bf2a561f8771f804cb35e9e20bb789b11",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-05-18T15:34:02Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/58ecb99bf2a561f8771f804cb35e9e20bb789b11"
-          },
-          {
-            "Text": "chore: bump nginx from 1.29.8-otel to 1.31.0-otel (#1246)",
-            "SHA": "dc88850ca90ab46edf2b686b420d7ae82b3ef6f6",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-05-14T06:51:38Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/dc88850ca90ab46edf2b686b420d7ae82b3ef6f6"
-          },
-          {
-            "Text": "chore: bump @opentelemetry/auto-instrumentations-web (#1236)",
-            "SHA": "a5aec7e18e1a4678601b7893fa4b4a4647ee9950",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-05-08T13:40:40Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/a5aec7e18e1a4678601b7893fa4b4a4647ee9950"
-          },
-          {
-            "Text": "chore: bump node from 25.9.0-slim to 26.1.0-slim (#1240)",
-            "SHA": "66b3c32a65db4259a48989f483c95f62e9b6c859",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-05-08T13:33:05Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/66b3c32a65db4259a48989f483c95f62e9b6c859"
-          },
-          {
-            "Text": "Recomendations",
-            "SHA": "94670444cc80e756de29d2a57cf8ecc5278814f9",
-            "Author": {
-              "name": "Milos5611",
-              "link": "https://github.com/Milos5611"
-            },
-            "Timestamp": "2026-05-05T15:51:05Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/94670444cc80e756de29d2a57cf8ecc5278814f9"
-          },
-          {
-            "Text": "chore: bump actions/checkout from 4 to 6 (#1235)",
-            "SHA": "bd91536cb0df181ba4cacd51673df34a82e83633",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-05-01T07:32:12Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/bd91536cb0df181ba4cacd51673df34a82e83633"
-          },
-          {
-            "Text": "chore: bump amannn/action-semantic-pull-request from 5 to 6 (#1230)",
-            "SHA": "dda6fd9baa28b1c5e2120366318830a98c69b5f2",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-04-30T09:10:23Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/dda6fd9baa28b1c5e2120366318830a98c69b5f2"
-          },
-          {
-            "Text": "chore: bump docker/build-push-action from 6 to 7 (#1226)",
-            "SHA": "9eb095f351b335427394f1657bd8722e4d6a8f02",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-04-30T09:08:15Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/9eb095f351b335427394f1657bd8722e4d6a8f02"
-          },
-          {
-            "Text": "chore: bump azure/setup-helm from 4 to 5 (#1227)",
-            "SHA": "34e07e081845b3b3a279467b582b29aad24f7836",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-04-30T09:05:30Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/34e07e081845b3b3a279467b582b29aad24f7836"
-          },
-          {
-            "Text": "chore: bump docker/login-action from 3 to 4 (#1228)",
-            "SHA": "48fcfcb27d06bf36b9ef788b18c14c42d3842c97",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-04-30T09:03:48Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/48fcfcb27d06bf36b9ef788b18c14c42d3842c97"
-          },
-          {
-            "Text": "chore: bump github/codeql-action from 3 to 4 (#1229)",
-            "SHA": "9dc493f49b1a716ba1aa10ba36447ea803a5ab4f",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-04-30T09:02:18Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/9dc493f49b1a716ba1aa10ba36447ea803a5ab4f"
-          },
-          {
-            "Text": "chore: bump eslint-plugin-react-hooks from 5.2.0 to 7.1.1 (#1232)",
-            "SHA": "e83d394ea4c028e31f18f01cc024fafabe51bc92",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-04-30T08:57:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/e83d394ea4c028e31f18f01cc024fafabe51bc92"
-          },
-          {
-            "Text": "chore: bump postcss in the npm_and_yarn group across 1 directory (#1234)",
-            "SHA": "b9ce1da399e9c551c42231571eeee6b027c0b39c",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-04-30T08:48:17Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b9ce1da399e9c551c42231571eeee6b027c0b39c"
-          },
-          {
-            "Text": "chore: bump @editorjs/editorjs from 2.31.5 to 2.31.6 (#1231)",
-            "SHA": "acf19f548de5065c7e8d28d0cc9a9abde520d6ad",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-04-29T15:40:20Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/acf19f548de5065c7e8d28d0cc9a9abde520d6ad"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -3177,5 +2956,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-06-07T08:32:20Z"
+  "LastUpdated": "2026-06-08T08:06:18Z"
 }
