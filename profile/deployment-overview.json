@@ -235,7 +235,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "77e818d",
+          "Version": "559c34e",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -297,8 +297,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.83.2..HEAD",
-        "Count": 1,
+        "Count": 2,
         "Commits": [
+          {
+            "Text": "Bump alpine from 3.23.4 to 3.24.0 (#955)",
+            "SHA": "559c34eb22a88c9e041b79d0ac1415d4fbca506e",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-06-10T04:19:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/559c34eb22a88c9e041b79d0ac1415d4fbca506e"
+          },
           {
             "Text": "Bump docker/setup-buildx-action from 3 to 4 (#954)",
             "SHA": "77e818d9abef0965e6115d010075566886ca73db",
@@ -617,7 +627,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "e7efacf",
+          "Version": "9a54a0f",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -674,8 +684,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD",
-        "Count": 22,
+        "Count": 24,
         "Commits": [
+          {
+            "Text": "Merge pull request #374 from PRODYNA-YASM/dependabot/docker/alpine-3.24.0",
+            "SHA": "9a54a0fdf556408d167ff51af95a8681eed9219e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-06-10T05:06:59Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/9a54a0fdf556408d167ff51af95a8681eed9219e"
+          },
+          {
+            "Text": "build(deps): bump alpine from 3.23.4 to 3.24.0",
+            "SHA": "038ac9e3dae061f8edd3dfa004db2cfa6b48406b",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-06-10T05:04:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/038ac9e3dae061f8edd3dfa004db2cfa6b48406b"
+          },
           {
             "Text": "Merge pull request #373 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/common-0.68.1",
             "SHA": "e7efacf330a7757efa099d9661c3742006cfd66f",
@@ -913,7 +943,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1798c50",
+          "Version": "950428a",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -979,8 +1009,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-github",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-github/compare/1.15.0..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #368 from PRODYNA-YASM/dependabot/docker/alpine-3.24.0",
+            "SHA": "950428a20d127a0a393cc02c1cf02de47d5afae2",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-06-10T04:20:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/950428a20d127a0a393cc02c1cf02de47d5afae2"
+          },
+          {
+            "Text": "Bump alpine from 3.23.4 to 3.24.0",
+            "SHA": "51cbf8a4186757dde3a67068f4e009065b1376fe",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-06-09T23:53:07Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-github/commit/51cbf8a4186757dde3a67068f4e009065b1376fe"
+          },
           {
             "Text": "Fix linting",
             "SHA": "1798c502d0f0126ed9c9d02fd5939114c5736a48",
@@ -2967,5 +3017,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-06-09T08:40:04Z"
+  "LastUpdated": "2026-06-10T08:46:09Z"
 }
