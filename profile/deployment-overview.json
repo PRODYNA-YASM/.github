@@ -175,8 +175,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 7,
         "PullRequests": [
+          {
+            "Title": "feat: Feature 1115 add \"Add Project\" button to project overview",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1255"
+          },
           {
             "Title": "chore: bump @azure/msal-browser from 4.29.0 to 5.10.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1244"
@@ -235,7 +239,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "559c34e",
+          "Version": "421e1e1",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -297,8 +301,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.83.2..HEAD",
-        "Count": 2,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "Bump github.com/urfave/cli/v3 from 3.9.0 to 3.9.1 (#956)",
+            "SHA": "421e1e137b6d08e4062a49d07070e7b786e16bd3",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-06-11T06:36:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/421e1e137b6d08e4062a49d07070e7b786e16bd3"
+          },
           {
             "Text": "Bump alpine from 3.23.4 to 3.24.0 (#955)",
             "SHA": "559c34eb22a88c9e041b79d0ac1415d4fbca506e",
@@ -336,7 +350,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "93d22a3",
+          "Version": "b5ec945",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -393,8 +407,28 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.83.0..HEAD",
-        "Count": 14,
+        "Count": 16,
         "Commits": [
+          {
+            "Text": "Merge pull request #560 from PRODYNA-YASM/dependabot/go_modules/github.com/urfave/cli/v3-3.9.1",
+            "SHA": "b5ec94567502bd08f214e8a6772d168f2b2f6894",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-06-11T01:13:27Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/b5ec94567502bd08f214e8a6772d168f2b2f6894"
+          },
+          {
+            "Text": "Bump github.com/urfave/cli/v3 from 3.9.0 to 3.9.1",
+            "SHA": "11f97fb5fade777132c5a22bcf1939f30c9e3176",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-06-10T21:12:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/11f97fb5fade777132c5a22bcf1939f30c9e3176"
+          },
           {
             "Text": "Merge pull request #558 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp-0.69.0",
             "SHA": "93d22a3c1f16765b9e9c5131d751ecc6edb0fbab",
@@ -1068,7 +1102,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "5890be4",
+          "Version": "82bc049",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1119,8 +1153,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "Bump alpine from 3.23.4 to 3.24.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/369"
+          },
           {
             "Title": "Bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc from 1.43.0 to 1.44.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-geocoding/pull/362"
@@ -1130,8 +1168,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.1..HEAD",
-        "Count": 16,
+        "Count": 18,
         "Commits": [
+          {
+            "Text": "Merge pull request #368 from PRODYNA-YASM/dependabot/go_modules/github.com/urfave/cli/v3-3.9.1",
+            "SHA": "82bc049fcce0e140f7adb972c9578f5826310c57",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-06-11T06:31:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/82bc049fcce0e140f7adb972c9578f5826310c57"
+          },
+          {
+            "Text": "Bump github.com/urfave/cli/v3 from 3.9.0 to 3.9.1",
+            "SHA": "e0b9b3efbbb3d08ce1d601746543610d611b26d1",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-06-10T16:53:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/e0b9b3efbbb3d08ce1d601746543610d611b26d1"
+          },
           {
             "Text": "Merge pull request #367 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/runtime-0.69.0",
             "SHA": "d47dc5a155c0f987e343336ccca9955ed3f8e2c9",
@@ -2098,12 +2156,12 @@
         "Count": 10,
         "PullRequests": [
           {
-            "Title": "chore(deps-dev): Bump tmp from 0.2.5 to 0.2.7",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/437"
+            "Title": "chore(deps): Bump cypress/included from 15.13.0 to 15.17.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/438"
           },
           {
-            "Title": "chore(deps): Bump cypress/included from 15.13.0 to 15.16.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/436"
+            "Title": "chore(deps-dev): Bump tmp from 0.2.5 to 0.2.7",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-test/pull/437"
           },
           {
             "Title": "chore(deps-dev): Bump systeminformation from 5.31.5 to 5.31.6",
@@ -3017,5 +3075,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-06-10T08:46:09Z"
+  "LastUpdated": "2026-06-11T08:59:57Z"
 }
