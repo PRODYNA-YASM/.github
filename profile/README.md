@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-06-13T08:34:09Z
+Component Status overview. Last update 2026-06-14T08:44:31Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: e8c3d16 |  :green_square: 1.83.1 |  :green_square: 1.83.1 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: e8c3d16 |  :green_square: 1.83.1 |  :green_square: 1.83.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [3](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.2 |  :red_square: 421e1e1 |  :green_square: 1.83.2 |  :green_square: 1.83.2 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [16](https://github.com/prodyna-yasm/yasmctl/compare/1.83.0..HEAD) | :green_square: 0 | 1.83.0 |  :red_square: b5ec945 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.28.0 |  :green_square: 1.28.0 |  :green_square: 1.28.0 |  :green_square: 1.28.0 | 
@@ -92,21 +92,9 @@ Component Status overview. Last update 2026-06-13T08:34:09Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
-
-- [chore: bump esbuild from 0.27.3 to removed in the npm_and_yarn group across 1 directory](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1263)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (1)
 
 - [feat: Add "add Member" function to project detail page.](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1262)
-
-- [chore: bump @opentelemetry/api from 1.9.0 to 1.9.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1261)
-
-- [chore: bump @nivo/bar from 0.88.0 to 0.99.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1260)
-
-- [chore: bump @azure/msal-browser from 4.29.0 to 5.13.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1259)
-
-- [chore: bump eslint from 9.39.3 to 10.4.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1258)
-
-- [chore: bump typescript-eslint from 8.56.1 to 8.61.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1257)
 
 
 
