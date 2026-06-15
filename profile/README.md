@@ -1,19 +1,19 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-06-14T08:44:31Z
+Component Status overview. Last update 2026-06-15T09:36:43Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: e8c3d16 |  :green_square: 1.83.1 |  :green_square: 1.83.1 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [3](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.2 |  :red_square: 421e1e1 |  :green_square: 1.83.2 |  :green_square: 1.83.2 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [2](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: e8c3d16 |  :green_square: 1.83.1 |  :green_square: 1.83.1 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [4](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.2 |  :red_square: 36779b7 |  :green_square: 1.83.2 |  :green_square: 1.83.2 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [16](https://github.com/prodyna-yasm/yasmctl/compare/1.83.0..HEAD) | :green_square: 0 | 1.83.0 |  :red_square: b5ec945 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.28.0 |  :green_square: 1.28.0 |  :green_square: 1.28.0 |  :green_square: 1.28.0 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [24](https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD) | :green_square: 0 | 1.83.0 |  :red_square: 9a54a0f |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [4](https://github.com/prodyna-yasm/yasm-github/compare/1.15.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.15.0 |  :red_square: 950428a |  :green_square: 1.15.0 |  :green_square: 1.15.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [18](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.1..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-geocoding/pulls) | 1.16.1 |  :red_square: 82bc049 |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [5](https://github.com/prodyna-yasm/yasm-external/compare/1.2.19..HEAD) | :green_square: 0 | 1.2.19 |  :red_square: ab664f7 |  :green_square: 1.2.19 |  :green_square: 1.2.19 | 
-| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [24](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-1..HEAD) | :green_square: 0 | 8.26.0-1 |  :red_square: 9377219 |  :green_square: 8.26.0-1 | 
+| [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [26](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-1..HEAD) | :green_square: 0 | 8.26.0-1 |  :red_square: 963c057 |  :green_square: 8.26.0-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.83.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :red_square: [3](https://github.com/prodyna-yasm/yasm/compare/1.83.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm/pulls) | 1.83.0 | 
@@ -92,7 +92,17 @@ Component Status overview. Last update 2026-06-14T08:44:31Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (1)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
+
+- [chore: bump @azure/msal-react from 3.0.27 to 5.4.4](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1268)
+
+- [chore: bump @mui/x-tree-view from 8.27.2 to 9.4.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1267)
+
+- [chore: bump @rollup/rollup-linux-x64-gnu from 4.60.0 to 4.62.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1266)
+
+- [chore: bump stylis from 4.3.6 to 4.4.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1265)
+
+- [chore: bump esbuild from 0.27.3 to removed in the npm_and_yarn group across 1 directory](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1264)
 
 - [feat: Add "add Member" function to project detail page.](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1262)
 
@@ -125,7 +135,9 @@ Component Status overview. Last update 2026-06-14T08:44:31Z
 
 
 
-### [Commits on main since 1.83.2](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.2..HEAD) (3)
+### [Commits on main since 1.83.2](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.2..HEAD) (4)
+
+- [Bump github.com/urfave/cli/v3 from 3.9.1 to 3.10.0 (#957)](https://github.com/prodyna-yasm/yasm-integration/commit/36779b71ac60f2fb3049e479c265211e146195ab) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-06-15 08:07:05 +0000 UTC
 
 - [Bump github.com/urfave/cli/v3 from 3.9.0 to 3.9.1 (#956)](https://github.com/prodyna-yasm/yasm-integration/commit/421e1e137b6d08e4062a49d07070e7b786e16bd3) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-06-11 06:36:47 +0000 UTC
 
@@ -146,7 +158,7 @@ Component Status overview. Last update 2026-06-14T08:44:31Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  421e1e1 |  1.83.2 |  1.83.2 | 
+| Version |  36779b7 |  1.83.2 |  1.83.2 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -514,7 +526,11 @@ Component Status overview. Last update 2026-06-14T08:44:31Z
 
 
 
-### [Commits on main since 8.26.0-1](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-1..HEAD) (24)
+### [Commits on main since 8.26.0-1](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-1..HEAD) (26)
+
+- [Merge pull request #117 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.34.0](https://github.com/prodyna-yasm/yasm-gotenberg/commit/963c05717db54586cb50a0deb20f12f4b1abf41e) by [dkrizic](https://github.com/dkrizic) on 2026-06-15 00:09:52 +0000 UTC
+
+- [Bump gotenberg/gotenberg from 8.33.0 to 8.34.0](https://github.com/prodyna-yasm/yasm-gotenberg/commit/2577e6da66131c26e0043cccba066e670d4b96a4) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-06-15 00:04:01 +0000 UTC
 
 - [Merge pull request #116 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.33.0](https://github.com/prodyna-yasm/yasm-gotenberg/commit/937721908af7cf8e026a0fa59de5295191ed2bac) by [dkrizic](https://github.com/dkrizic) on 2026-06-01 05:14:24 +0000 UTC
 
@@ -572,7 +588,7 @@ Component Status overview. Last update 2026-06-14T08:44:31Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  9377219 |  8.26.0-1 | 
+| Version |  963c057 |  8.26.0-1 | 
 | Release |  :red_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: | 
 

@@ -175,8 +175,28 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 1,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "chore: bump @azure/msal-react from 3.0.27 to 5.4.4",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1268"
+          },
+          {
+            "Title": "chore: bump @mui/x-tree-view from 8.27.2 to 9.4.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1267"
+          },
+          {
+            "Title": "chore: bump @rollup/rollup-linux-x64-gnu from 4.60.0 to 4.62.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1266"
+          },
+          {
+            "Title": "chore: bump stylis from 4.3.6 to 4.4.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1265"
+          },
+          {
+            "Title": "chore: bump esbuild from 0.27.3 to removed in the npm_and_yarn group across 1 directory",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1264"
+          },
           {
             "Title": "feat: Add \"add Member\" function to project detail page.",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1262"
@@ -225,7 +245,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "421e1e1",
+          "Version": "36779b7",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -287,8 +307,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.83.2..HEAD",
-        "Count": 3,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Bump github.com/urfave/cli/v3 from 3.9.1 to 3.10.0 (#957)",
+            "SHA": "36779b71ac60f2fb3049e479c265211e146195ab",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-06-15T08:07:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/36779b71ac60f2fb3049e479c265211e146195ab"
+          },
           {
             "Text": "Bump github.com/urfave/cli/v3 from 3.9.0 to 3.9.1 (#956)",
             "SHA": "421e1e137b6d08e4062a49d07070e7b786e16bd3",
@@ -1483,7 +1513,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "9377219",
+          "Version": "963c057",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1533,8 +1563,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-gotenberg",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-1..HEAD",
-        "Count": 24,
+        "Count": 26,
         "Commits": [
+          {
+            "Text": "Merge pull request #117 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.34.0",
+            "SHA": "963c05717db54586cb50a0deb20f12f4b1abf41e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-06-15T00:09:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/963c05717db54586cb50a0deb20f12f4b1abf41e"
+          },
+          {
+            "Text": "Bump gotenberg/gotenberg from 8.33.0 to 8.34.0",
+            "SHA": "2577e6da66131c26e0043cccba066e670d4b96a4",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-06-15T00:04:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-gotenberg/commit/2577e6da66131c26e0043cccba066e670d4b96a4"
+          },
           {
             "Text": "Merge pull request #116 from PRODYNA-YASM/dependabot/docker/gotenberg/gotenberg-8.33.0",
             "SHA": "937721908af7cf8e026a0fa59de5295191ed2bac",
@@ -3065,5 +3115,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-06-14T08:44:31Z"
+  "LastUpdated": "2026-06-15T09:36:43Z"
 }
