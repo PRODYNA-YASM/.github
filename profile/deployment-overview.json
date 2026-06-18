@@ -175,8 +175,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 5,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "chore: bump nginx from 1.31.1-otel to 1.31.2-otel",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1269"
+          },
           {
             "Title": "chore: bump @azure/msal-react from 3.0.27 to 5.4.4",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1268"
@@ -744,7 +748,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "93904db",
+          "Version": "e88942b",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -801,8 +805,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD",
-        "Count": 26,
+        "Count": 28,
         "Commits": [
+          {
+            "Text": "Merge pull request #376 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/common-0.69.0",
+            "SHA": "e88942bf660024627d4dd95920c0f8b2bd43ed8e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-06-18T06:34:20Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/e88942bf660024627d4dd95920c0f8b2bd43ed8e"
+          },
+          {
+            "Text": "build(deps): bump github.com/prometheus/common from 0.68.1 to 0.69.0",
+            "SHA": "2174d118e6cc464cb50c11fb67782c88a5678172",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-06-18T05:04:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/2174d118e6cc464cb50c11fb67782c88a5678172"
+          },
           {
             "Text": "Merge pull request #375 from PRODYNA-YASM/dependabot/docker/alpine-3.24.1",
             "SHA": "93904dbb0f490b4b21b8209615306716f622ae64",
@@ -3258,5 +3282,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-06-17T09:10:21Z"
+  "LastUpdated": "2026-06-18T09:00:31Z"
 }
