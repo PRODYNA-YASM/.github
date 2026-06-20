@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-06-19T09:11:31Z
+Component Status overview. Last update 2026-06-20T08:31:42Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -12,13 +12,13 @@ Component Status overview. Last update 2026-06-19T09:11:31Z
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [30](https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD) | :green_square: 0 | 1.83.0 |  :red_square: 38001fb |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [8](https://github.com/prodyna-yasm/yasm-github/compare/1.15.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.15.0 |  :red_square: 4cfc100 |  :green_square: 1.15.0 |  :green_square: 1.15.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [26](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-geocoding/pulls) | 1.16.1 |  :red_square: 4ad525b |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
-| [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [5](https://github.com/prodyna-yasm/yasm-external/compare/1.2.19..HEAD) | :green_square: 0 | 1.2.19 |  :red_square: ab664f7 |  :green_square: 1.2.19 |  :green_square: 1.2.19 | 
+| [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [7](https://github.com/prodyna-yasm/yasm-external/compare/1.2.19..HEAD) | :green_square: 0 | 1.2.19 |  :red_square: ca199ce |  :green_square: 1.2.19 |  :green_square: 1.2.19 | 
 | [yasm-gotenberg](https://github.com/prodyna-yasm/yasm-gotenberg) | :red_square: [28](https://github.com/prodyna-yasm/yasm-gotenberg/compare/8.26.0-1..HEAD) | :green_square: 0 | 8.26.0-1 |  :red_square: 36d7327 |  :green_square: 8.26.0-1 | 
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :green_square: 0 | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.83.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :red_square: [3](https://github.com/prodyna-yasm/yasm/compare/1.83.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm/pulls) | 1.83.0 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.84.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.84.0 | 
-| [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [12](https://github.com/prodyna-yasm/yasm-test/compare/v1.81.0..HEAD) | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.81.0 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [4](https://github.com/prodyna-yasm/yasm-api/compare/1.84.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.84.0 | 
+| [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [12](https://github.com/prodyna-yasm/yasm-test/compare/v1.81.0..HEAD) | :yellow_square: [11](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.81.0 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [4](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.9.2..HEAD) | :green_square: 0 | 1.9.2 |  :red_square: 22f1a3e |  :green_square: 1.9.2 |  :green_square: 1.9.2 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [15](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :red_square: b00e5e6 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
 | [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :red_square: [30](https://github.com/prodyna-yasm/fox-and-hound/compare/2.1.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.1.0 |  :red_square: e04aaa1 |  :green_square: 2.1.0 |  :green_square: 2.1.0 | 
@@ -540,7 +540,11 @@ Component Status overview. Last update 2026-06-19T09:11:31Z
 
 
 
-### [Commits on main since 1.2.19](https://github.com/prodyna-yasm/yasm-external/compare/1.2.19..HEAD) (5)
+### [Commits on main since 1.2.19](https://github.com/prodyna-yasm/yasm-external/compare/1.2.19..HEAD) (7)
+
+- [Merge pull request #218 from PRODYNA-YASM/dependabot/github_actions/actions/checkout-7](https://github.com/prodyna-yasm/yasm-external/commit/ca199ce95d725ae6fe8dcc76a09a7dbd9bd8b46b) by [dkrizic](https://github.com/dkrizic) on 2026-06-19 10:34:41 +0000 UTC
+
+- [Bump actions/checkout from 6 to 7](https://github.com/prodyna-yasm/yasm-external/commit/6ca86f4c27a8e94ff56d150098830432b50ba1eb) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-06-19 09:42:46 +0000 UTC
 
 - [Update all libs](https://github.com/prodyna-yasm/yasm-external/commit/ab664f7fa263e20ee6cc03bca0158afc490c7e20) by [dkrizic](https://github.com/dkrizic) on 2026-05-28 10:49:08 +0000 UTC
 
@@ -560,7 +564,7 @@ Component Status overview. Last update 2026-06-19T09:11:31Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  ab664f7 |  1.2.19 |  1.2.19 | 
+| Version |  ca199ce |  1.2.19 |  1.2.19 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -794,7 +798,9 @@ Component Status overview. Last update 2026-06-19T09:11:31Z
 
 
 
-### [Commits on main since 1.84.0](https://github.com/prodyna-yasm/yasm-api/compare/1.84.0..HEAD) (3)
+### [Commits on main since 1.84.0](https://github.com/prodyna-yasm/yasm-api/compare/1.84.0..HEAD) (4)
+
+- [feat: revise MatchMode.yaml enums for more precise match modes (#355)](https://github.com/prodyna-yasm/yasm-api/commit/97a61bf8ad922ad82bb110cafe8e1b7abe7ecf58) by [TD99](https://github.com/TD99) on 2026-06-19 12:06:38 +0000 UTC
 
 - [chore: bump actions/checkout from 6 to 7 (#354)](https://github.com/prodyna-yasm/yasm-api/commit/19b96aafb358c1e671558c3ae77d8bd41f3b4521) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-06-19 06:15:14 +0000 UTC
 
@@ -867,7 +873,9 @@ Component Status overview. Last update 2026-06-19T09:11:31Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (10)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (11)
+
+- [chore(deps): Bump actions/checkout from 6 to 7](https://github.com/PRODYNA-YASM/yasm-test/pull/439)
 
 - [chore(deps): Bump cypress/included from 15.13.0 to 15.17.0](https://github.com/PRODYNA-YASM/yasm-test/pull/438)
 
