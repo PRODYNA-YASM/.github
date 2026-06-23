@@ -175,8 +175,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 7,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "feat: Feature/1256 add funtction to assign others or oneself to an existing project on project details page",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1271"
+          },
           {
             "Title": "chore: bump node from 26.3.0-slim to 26.3.1-slim",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1270"
@@ -679,7 +683,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "419dbdf",
+          "Version": "4eae5d1",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -736,8 +740,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.28.0..HEAD",
-        "Count": 2,
+        "Count": 4,
         "Commits": [
+          {
+            "Text": "Merge pull request #408 from PRODYNA-YASM/dependabot/github_actions/actions/checkout-7",
+            "SHA": "4eae5d1c6aad42adb8a672b34570463d68b8f159",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-06-22T14:07:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/4eae5d1c6aad42adb8a672b34570463d68b8f159"
+          },
+          {
+            "Text": "Bump actions/checkout from 6 to 7",
+            "SHA": "12ea3297fa02c118eeccedff36ff81f0b7c96c6b",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-06-22T13:32:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/12ea3297fa02c118eeccedff36ff81f0b7c96c6b"
+          },
           {
             "Text": "Merge pull request #407 from PRODYNA-YASM/dependabot/go_modules/github.com/urfave/cli/v3-3.10.0",
             "SHA": "419dbdf36dfceaee88383d95ef45781cd91eda58",
@@ -775,7 +799,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "e88942b",
+          "Version": "38001fb",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2435,8 +2459,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.84.0..HEAD",
-        "Count": 4,
+        "Count": 5,
         "Commits": [
+          {
+            "Text": "chore: bump io.smallrye.reactive:mutiny from 3.2.1 to 3.3.0 (#356)",
+            "SHA": "1e0881eea1df127804d2b8a76b9ea96c5acc4673",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-06-23T06:10:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/1e0881eea1df127804d2b8a76b9ea96c5acc4673"
+          },
           {
             "Text": "feat: revise MatchMode.yaml enums for more precise match modes (#355)",
             "SHA": "97a61bf8ad922ad82bb110cafe8e1b7abe7ecf58",
@@ -3473,5 +3507,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-06-22T09:29:35Z"
+  "LastUpdated": "2026-06-23T08:38:15Z"
 }
