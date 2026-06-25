@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-06-24T08:35:39Z
+Component Status overview. Last update 2026-06-25T08:33:09Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -8,7 +8,7 @@ Component Status overview. Last update 2026-06-24T08:35:39Z
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: 58d938a |  :green_square: 1.83.1 |  :green_square: 1.83.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [7](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.2 |  :red_square: 4c86317 |  :green_square: 1.83.2 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [22](https://github.com/prodyna-yasm/yasmctl/compare/1.83.0..HEAD) | :green_square: 0 | 1.83.0 |  :red_square: 0f77ab0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [4](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.28.0..HEAD) | :green_square: 0 | 1.28.0 |  :red_square: 4eae5d1 |  :green_square: 1.28.0 |  :green_square: 1.28.0 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [7](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.28.0..HEAD) | :green_square: 0 | 1.28.0 |  :red_square: 9d85fb9 |  :green_square: 1.28.0 |  :green_square: 1.28.0 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [30](https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD) | :green_square: 0 | 1.83.0 |  :red_square: 38001fb |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [8](https://github.com/prodyna-yasm/yasm-github/compare/1.15.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.15.0 |  :red_square: 4cfc100 |  :green_square: 1.15.0 |  :green_square: 1.15.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [26](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-geocoding/pulls) | 1.16.1 |  :red_square: 4ad525b |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
@@ -270,7 +270,13 @@ Component Status overview. Last update 2026-06-24T08:35:39Z
 
 
 
-### [Commits on main since 1.28.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.28.0..HEAD) (4)
+### [Commits on main since 1.28.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.28.0..HEAD) (7)
+
+- [Merge pull request #409 from PRODYNA-YASM/feature/698-feature-request-feature-highlight-service-manager-and-project-lead-of-projects](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/9d85fb90f8f08fbee4aa8c60746ddb94a58fbd8b) by [dkrizic](https://github.com/dkrizic) on 2026-06-25 08:12:42 +0000 UTC
+
+- [Apply suggestions from code review](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/da42428f827c8bd65d69e53dc2f17f47066f8490) by [dkrizic](https://github.com/dkrizic) on 2026-06-25 08:10:44 +0000 UTC
+
+- [add new statement projectmanagerinfo](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/d4bb337996d1ed51518096dac79370f9eb98b0cb) by [bsever](https://github.com/bsever) on 2026-06-25 08:02:07 +0000 UTC
 
 - [Merge pull request #408 from PRODYNA-YASM/dependabot/github_actions/actions/checkout-7](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/4eae5d1c6aad42adb8a672b34570463d68b8f159) by [dkrizic](https://github.com/dkrizic) on 2026-06-22 14:07:43 +0000 UTC
 
@@ -288,7 +294,7 @@ Component Status overview. Last update 2026-06-24T08:35:39Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  4eae5d1 |  1.28.0 |  1.28.0 | 
+| Version |  9d85fb9 |  1.28.0 |  1.28.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
@@ -887,11 +893,11 @@ Component Status overview. Last update 2026-06-24T08:35:39Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-test/pulls) (12)
 
+- [chore(deps): Bump cypress/included from 15.13.0 to 15.18.0](https://github.com/PRODYNA-YASM/yasm-test/pull/441)
+
 - [chore(deps): Bump form-data from 4.0.4 to 4.0.6](https://github.com/PRODYNA-YASM/yasm-test/pull/440)
 
 - [chore(deps): Bump actions/checkout from 6 to 7](https://github.com/PRODYNA-YASM/yasm-test/pull/439)
-
-- [chore(deps): Bump cypress/included from 15.13.0 to 15.17.0](https://github.com/PRODYNA-YASM/yasm-test/pull/438)
 
 - [chore(deps-dev): Bump tmp from 0.2.5 to 0.2.7](https://github.com/PRODYNA-YASM/yasm-test/pull/437)
 
