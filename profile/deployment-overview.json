@@ -418,7 +418,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1e34694",
+          "Version": "1129c30",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -475,8 +475,28 @@
       "Link": "https://github.com/prodyna-yasm/yasmctl",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.83.0..HEAD",
-        "Count": 24,
+        "Count": 26,
         "Commits": [
+          {
+            "Text": "Merge pull request #565 from PRODYNA-YASM/dependabot/go_modules/github.com/urfave/cli/v3-3.10.1",
+            "SHA": "1129c3048cccff94e1fa85bc2b57457bafe296eb",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-06-30T07:20:46Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/1129c3048cccff94e1fa85bc2b57457bafe296eb"
+          },
+          {
+            "Text": "Bump github.com/urfave/cli/v3 from 3.10.0 to 3.10.1",
+            "SHA": "28e9b58787752889414037ae5ca95eb2e4845c62",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-06-29T21:12:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/28e9b58787752889414037ae5ca95eb2e4845c62"
+          },
           {
             "Text": "Merge pull request #564 from PRODYNA-YASM/dependabot/go_modules/github.com/prodyna-yasm/yasm-api-go-1.85.0",
             "SHA": "1e346947ee1583aa780f0151ec68b843f3a4995a",
@@ -734,7 +754,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "9d85fb9",
+          "Version": "44e929b",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -791,8 +811,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.28.0..HEAD",
-        "Count": 7,
+        "Count": 9,
         "Commits": [
+          {
+            "Text": "Merge pull request #410 from PRODYNA-YASM/dependabot/go_modules/github.com/urfave/cli/v3-3.10.1",
+            "SHA": "44e929b5ce52f52df2f43d5b07c8dd7c4d901afe",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-06-29T13:47:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/44e929b5ce52f52df2f43d5b07c8dd7c4d901afe"
+          },
+          {
+            "Text": "Bump github.com/urfave/cli/v3 from 3.10.0 to 3.10.1",
+            "SHA": "ebb17693988dcdbe7fa902fc890b50f7bbcac043",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-06-29T13:32:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/ebb17693988dcdbe7fa902fc890b50f7bbcac043"
+          },
           {
             "Text": "Merge pull request #409 from PRODYNA-YASM/feature/698-feature-request-feature-highlight-service-manager-and-project-lead-of-projects",
             "SHA": "9d85fb90f8f08fbee4aa8c60746ddb94a58fbd8b",
@@ -1426,7 +1466,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "4ad525b",
+          "Version": "1c14cc7",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1488,8 +1528,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-geocoding",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.1..HEAD",
-        "Count": 26,
+        "Count": 28,
         "Commits": [
+          {
+            "Text": "Merge pull request #374 from PRODYNA-YASM/dependabot/go_modules/github.com/urfave/cli/v3-3.10.1",
+            "SHA": "1c14cc70bf90a522c32a66df3a73cf87f331b9f6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-06-30T06:53:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/1c14cc70bf90a522c32a66df3a73cf87f331b9f6"
+          },
+          {
+            "Text": "Bump github.com/urfave/cli/v3 from 3.10.0 to 3.10.1",
+            "SHA": "a00a290395d45f71ff43f9c1a421673486999f01",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-06-29T16:53:01Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/a00a290395d45f71ff43f9c1a421673486999f01"
+          },
           {
             "Text": "Merge pull request #362 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc-1.44.0",
             "SHA": "4ad525b16e90cfac7a4355f158b584ae3c4574bc",
@@ -3154,33 +3214,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "e04aaa1",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "2.2.0",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "2.1.0",
+          "Version": "2.2.0",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "2.1.0",
+          "Version": "2.2.0",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "2.1.0",
+        "Tag": "2.2.0",
         "SHA": "",
-        "Title": "Admin area",
-        "Timestamp": "2026-01-22T13:22:47Z",
-        "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/releases/tag/2.1.0"
+        "Title": "Management Release",
+        "Timestamp": "2026-06-29T09:23:10Z",
+        "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/releases/tag/2.2.0"
       },
       "Releases": [
+        {
+          "Tag": "2.2.0",
+          "SHA": "",
+          "Title": "Management Release",
+          "Timestamp": "2026-04-28T09:07:00Z",
+          "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/releases/tag/2.2.0"
+        },
         {
           "Tag": "2.1.0",
           "SHA": "",
@@ -3194,13 +3261,6 @@
           "Title": "Technical Improvements",
           "Timestamp": "2025-10-21T22:48:04Z",
           "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/releases/tag/2.0.3"
-        },
-        {
-          "Tag": "2.0.0",
-          "SHA": "",
-          "Title": "Upgrade to angular 20 \u0026 multiple improvements",
-          "Timestamp": "2025-07-20T18:14:12Z",
-          "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/releases/tag/2.0.0"
         }
       ],
       "PullRequests": {
@@ -3223,310 +3283,9 @@
       },
       "Link": "https://github.com/prodyna-yasm/fox-and-hound",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/fox-and-hound/compare/2.1.0..HEAD",
-        "Count": 30,
-        "Commits": [
-          {
-            "Text": "chore: remove Dependabot configuration \u0026 add copilot instructions",
-            "SHA": "c98f391dea855d349a8343018058b89009b686d3",
-            "Author": {
-              "name": "TomLederer",
-              "link": "https://github.com/TomLederer"
-            },
-            "Timestamp": "2026-04-28T09:07:00Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/c98f391dea855d349a8343018058b89009b686d3"
-          },
-          {
-            "Text": "Merge pull request #328 from PRODYNA-YASM/feature/#327_bumpVersions",
-            "SHA": "e04aaa1e20209268edc95cbf03d03633c3bc7fc4",
-            "Author": {
-              "name": "sceneo",
-              "link": "https://github.com/sceneo"
-            },
-            "Timestamp": "2026-03-18T17:00:40Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/e04aaa1e20209268edc95cbf03d03633c3bc7fc4"
-          },
-          {
-            "Text": "#327 bump versions",
-            "SHA": "05c897abfb4691a756922a596e87a60207733824",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2026-03-10T08:13:58Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/05c897abfb4691a756922a596e87a60207733824"
-          },
-          {
-            "Text": "#327 bump versions",
-            "SHA": "17d5c2723c0fb20a95cabc7c4d2dd5bda705b9a6",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2026-03-10T08:10:38Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/17d5c2723c0fb20a95cabc7c4d2dd5bda705b9a6"
-          },
-          {
-            "Text": "Merge pull request #301 from PRODYNA-YASM/feature/_278_ProcessOverview",
-            "SHA": "9288635a6ee069974f549d1788a57f45d0dec991",
-            "Author": {
-              "name": "sceneo",
-              "link": "https://github.com/sceneo"
-            },
-            "Timestamp": "2026-02-23T20:06:53Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/9288635a6ee069974f549d1788a57f45d0dec991"
-          },
-          {
-            "Text": "Introduce backend testing",
-            "SHA": "06077207a0d0a769f90740ea44d887c37a04970c",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2026-02-23T20:06:17Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/06077207a0d0a769f90740ea44d887c37a04970c"
-          },
-          {
-            "Text": "Introduce backend testing",
-            "SHA": "25e01aa15388f9d84c47a020892843b0f7cb5c52",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2026-02-23T19:53:39Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/25e01aa15388f9d84c47a020892843b0f7cb5c52"
-          },
-          {
-            "Text": "Introduce backend testing",
-            "SHA": "0e2e61c1b6a6216a47fef3aa27e38b21c416387a",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2026-02-23T19:50:30Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/0e2e61c1b6a6216a47fef3aa27e38b21c416387a"
-          },
-          {
-            "Text": "Introduce backend testing",
-            "SHA": "cb89b88e171c391dc9734bd103718a63865b4033",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2026-02-23T19:39:48Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/cb89b88e171c391dc9734bd103718a63865b4033"
-          },
-          {
-            "Text": "278 Process overview",
-            "SHA": "22a09b47785ff7f162c09380efa98ca18137165c",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2026-02-07T20:58:03Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/22a09b47785ff7f162c09380efa98ca18137165c"
-          },
-          {
-            "Text": "Merge pull request #302 from PRODYNA-YASM/introducte_go_tests",
-            "SHA": "d22309e3a1c2a0e99d6bbc06a3d9d507444ccc7d",
-            "Author": {
-              "name": "sceneo",
-              "link": "https://github.com/sceneo"
-            },
-            "Timestamp": "2026-02-23T19:28:15Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/d22309e3a1c2a0e99d6bbc06a3d9d507444ccc7d"
-          },
-          {
-            "Text": "Introduce backend testing",
-            "SHA": "fea70470c3fcf0febe4300cabfb2208df3655104",
-            "Author": {
-              "name": "",
-              "link": "https://github.com/"
-            },
-            "Timestamp": "2026-02-23T19:26:05Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/fea70470c3fcf0febe4300cabfb2208df3655104"
-          },
-          {
-            "Text": "Merge pull request #314 from PRODYNA-YASM/copilot/sub-pr-302-one-more-time",
-            "SHA": "9471756abc09d96f3e8ed5fb14605b540ad775d2",
-            "Author": {
-              "name": "sceneo",
-              "link": "https://github.com/sceneo"
-            },
-            "Timestamp": "2026-02-23T19:05:27Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/9471756abc09d96f3e8ed5fb14605b540ad775d2"
-          },
-          {
-            "Text": "Merge pull request #318 from PRODYNA-YASM/copilot/sub-pr-302-c8945975-408f-40ea-a8b3-c4d8c7478148",
-            "SHA": "1b585fab117061cf515eba155b6cd1bcb77cc103",
-            "Author": {
-              "name": "sceneo",
-              "link": "https://github.com/sceneo"
-            },
-            "Timestamp": "2026-02-23T19:04:57Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/1b585fab117061cf515eba155b6cd1bcb77cc103"
-          },
-          {
-            "Text": "Remove head_data_test.go as it only tests constructors",
-            "SHA": "6ae30de91354dce297e256181d7998aa25b99b13",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2026-02-23T19:04:33Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/6ae30de91354dce297e256181d7998aa25b99b13"
-          },
-          {
-            "Text": "Merge pull request #299 from PRODYNA-YASM/feature/_298_ExportAlwaysAllowed",
-            "SHA": "1786c9f8afb867997bd7de05efd44ac8552d1ed4",
-            "Author": {
-              "name": "sceneo",
-              "link": "https://github.com/sceneo"
-            },
-            "Timestamp": "2026-02-23T19:04:30Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/1786c9f8afb867997bd7de05efd44ac8552d1ed4"
-          },
-          {
-            "Text": "Merge pull request #319 from PRODYNA-YASM/copilot/sub-pr-302-c65525aa-445f-408b-85a3-e5bdcad4d277",
-            "SHA": "d2972be826feda8865bf9ba9d3462106e8ad44ad",
-            "Author": {
-              "name": "sceneo",
-              "link": "https://github.com/sceneo"
-            },
-            "Timestamp": "2026-02-23T19:03:13Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/d2972be826feda8865bf9ba9d3462106e8ad44ad"
-          },
-          {
-            "Text": "Remove backend/dtos/candidate_dtos_test.go",
-            "SHA": "dd251e4253f367bdbfa1cc8d50cdccf8df38a77d",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2026-02-23T19:02:53Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/dd251e4253f367bdbfa1cc8d50cdccf8df38a77d"
-          },
-          {
-            "Text": "Merge pull request #317 from PRODYNA-YASM/copilot/sub-pr-302-e0d99540-c46c-4d3b-b022-3785cee59180",
-            "SHA": "6c38d3dd13400f581a2d63c3542753fc78c0bf84",
-            "Author": {
-              "name": "sceneo",
-              "link": "https://github.com/sceneo"
-            },
-            "Timestamp": "2026-02-23T19:02:53Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/6c38d3dd13400f581a2d63c3542753fc78c0bf84"
-          },
-          {
-            "Text": "Merge pull request #316 from PRODYNA-YASM/copilot/sub-pr-302-22585aa7-2232-416f-982a-75f351078a25",
-            "SHA": "dfec0b16a97cba935815f06b763eb29045297074",
-            "Author": {
-              "name": "sceneo",
-              "link": "https://github.com/sceneo"
-            },
-            "Timestamp": "2026-02-23T19:02:30Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/dfec0b16a97cba935815f06b763eb29045297074"
-          },
-          {
-            "Text": "Merge pull request #315 from PRODYNA-YASM/copilot/sub-pr-302-please-work",
-            "SHA": "449ff3c1b07ad9003ffa84292ed038374f33530b",
-            "Author": {
-              "name": "sceneo",
-              "link": "https://github.com/sceneo"
-            },
-            "Timestamp": "2026-02-23T19:01:54Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/449ff3c1b07ad9003ffa84292ed038374f33530b"
-          },
-          {
-            "Text": "Merge pull request #312 from PRODYNA-YASM/copilot/sub-pr-302-another-one",
-            "SHA": "eb8e4e13f7bdbe76bf02f2aa77ddf9b0578715c4",
-            "Author": {
-              "name": "sceneo",
-              "link": "https://github.com/sceneo"
-            },
-            "Timestamp": "2026-02-23T19:01:29Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/eb8e4e13f7bdbe76bf02f2aa77ddf9b0578715c4"
-          },
-          {
-            "Text": "Merge pull request #313 from PRODYNA-YASM/copilot/sub-pr-302-yet-again",
-            "SHA": "5b944ab361d2d768abfdbc31529529cc0abb3901",
-            "Author": {
-              "name": "sceneo",
-              "link": "https://github.com/sceneo"
-            },
-            "Timestamp": "2026-02-23T19:01:08Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/5b944ab361d2d768abfdbc31529529cc0abb3901"
-          },
-          {
-            "Text": "Merge pull request #310 from PRODYNA-YASM/copilot/sub-pr-302",
-            "SHA": "2ec4e554285e9239d4c5a9aab26885c7e9da0b77",
-            "Author": {
-              "name": "sceneo",
-              "link": "https://github.com/sceneo"
-            },
-            "Timestamp": "2026-02-23T19:00:36Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/2ec4e554285e9239d4c5a9aab26885c7e9da0b77"
-          },
-          {
-            "Text": "Merge pull request #311 from PRODYNA-YASM/copilot/sub-pr-302-again",
-            "SHA": "bc397aece1e9c0fde2072b0713b11fee838e2594",
-            "Author": {
-              "name": "sceneo",
-              "link": "https://github.com/sceneo"
-            },
-            "Timestamp": "2026-02-23T19:00:12Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/bc397aece1e9c0fde2072b0713b11fee838e2594"
-          },
-          {
-            "Text": "Fix seedEmployerTestData to check db.Create errors and fail early",
-            "SHA": "523b98e43764f9e8c05f831acc5d88c6b4509c3d",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2026-02-23T18:59:22Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/523b98e43764f9e8c05f831acc5d88c6b4509c3d"
-          },
-          {
-            "Text": "Remove backend/dtos/employer_dtos_test.go as requested",
-            "SHA": "49c1dca5eba2450140e2ed1505d0a7700af087f5",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2026-02-23T18:59:19Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/49c1dca5eba2450140e2ed1505d0a7700af087f5"
-          },
-          {
-            "Text": "Return 204 for missing head data instead of 500, update test",
-            "SHA": "31c619633048ac6772c8e9012c3f77792cc26a76",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2026-02-23T18:59:08Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/31c619633048ac6772c8e9012c3f77792cc26a76"
-          },
-          {
-            "Text": "Remove backend/models/access_control_test.go as it only tests compiler behavior",
-            "SHA": "e84405b245e49e650e792f18dc007d6f362fe049",
-            "Author": {
-              "name": "Copilot",
-              "link": "https://github.com/Copilot"
-            },
-            "Timestamp": "2026-02-23T18:58:52Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/e84405b245e49e650e792f18dc007d6f362fe049"
-          },
-          {
-            "Text": "Merge pull request #309 from PRODYNA-YASM/copilot/sub-pr-299",
-            "SHA": "6c8918262dd96184f49a75fd564f2087fb500d64",
-            "Author": {
-              "name": "sceneo",
-              "link": "https://github.com/sceneo"
-            },
-            "Timestamp": "2026-02-23T18:58:41Z",
-            "Link": "https://github.com/prodyna-yasm/fox-and-hound/commit/6c8918262dd96184f49a75fd564f2087fb500d64"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/fox-and-hound/compare/2.2.0..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -3551,5 +3310,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-06-29T09:07:49Z"
+  "LastUpdated": "2026-06-30T08:38:08Z"
 }
