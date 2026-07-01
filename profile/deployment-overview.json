@@ -920,7 +920,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "38001fb",
+          "Version": "839cb95",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -984,6 +984,46 @@
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #379 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.82.0",
+            "SHA": "839cb95f1353422b975a295334d034a0c7369913",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-07-01T06:28:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/839cb95f1353422b975a295334d034a0c7369913"
+          },
+          {
+            "Text": "Merge pull request #380 from PRODYNA-YASM/dependabot/go_modules/github.com/pressly/goose/v3-3.27.2",
+            "SHA": "bc64042172d92d4ff3fba09e300ca46dcc47a0a5",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-07-01T06:27:41Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/bc64042172d92d4ff3fba09e300ca46dcc47a0a5"
+          },
+          {
+            "Text": "build(deps): bump github.com/pressly/goose/v3 from 3.27.1 to 3.27.2",
+            "SHA": "dda4b9eb1c5f976a33b90381ceb6c8654cb4e21a",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-07-01T05:06:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/dda4b9eb1c5f976a33b90381ceb6c8654cb4e21a"
+          },
+          {
+            "Text": "build(deps): bump google.golang.org/grpc from 1.81.1 to 1.82.0",
+            "SHA": "9f811f53baa05d3d4a0428fbd31595f45dafb2f3",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-07-01T05:05:57Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/9f811f53baa05d3d4a0428fbd31595f45dafb2f3"
+          },
           {
             "Text": "Merge pull request #377 from PRODYNA-YASM/dependabot/github_actions/actions/checkout-7",
             "SHA": "38001fbec3add0998d46017cf2ecffcddfcc4bf8",
@@ -1243,46 +1283,6 @@
             },
             "Timestamp": "2026-05-04T05:30:42Z",
             "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/ae6b7aa1078d37fdceb8fb4fb3451837b0998c3e"
-          },
-          {
-            "Text": "build(deps): bump github.com/prodyna-yasm/yasm-api-go",
-            "SHA": "2f98e594d5bcad6389c68f72876a2582a2a354d5",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-05-04T05:30:31Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/2f98e594d5bcad6389c68f72876a2582a2a354d5"
-          },
-          {
-            "Text": "Merge pull request #362 from PRODYNA-YASM/dependabot/go_modules/github.com/go-sql-driver/mysql-1.10.0",
-            "SHA": "c36817ccbd04aec377e34534b19593afb7a16080",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-04-30T06:10:08Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/c36817ccbd04aec377e34534b19593afb7a16080"
-          },
-          {
-            "Text": "build(deps): bump github.com/go-sql-driver/mysql from 1.9.3 to 1.10.0",
-            "SHA": "828d6394556a3a1726d623d4c36daf100d7766b3",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-04-30T05:10:21Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/828d6394556a3a1726d623d4c36daf100d7766b3"
-          },
-          {
-            "Text": "Merge pull request #361 from PRODYNA-YASM/dependabot/go_modules/github.com/pressly/goose/v3-3.27.1",
-            "SHA": "3967242b8c3055802701df102a8be056a3cec57e",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-04-29T14:05:40Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/3967242b8c3055802701df102a8be056a3cec57e"
           }
         ]
       },
@@ -3310,5 +3310,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-06-30T08:38:08Z"
+  "LastUpdated": "2026-07-01T08:46:38Z"
 }
