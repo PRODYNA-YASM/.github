@@ -3214,33 +3214,40 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "2.2.0",
+          "Version": "2.2.1",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "2.2.0",
+          "Version": "2.2.1",
           "IsRelease": true,
           "IsCurrent": true
         },
         {
           "Name": "prod",
           "Link": "",
-          "Version": "2.2.0",
+          "Version": "2.2.1",
           "IsRelease": true,
           "IsCurrent": true
         }
       ],
       "LatestRelease": {
-        "Tag": "2.2.0",
+        "Tag": "2.2.1",
         "SHA": "",
-        "Title": "Management Release",
-        "Timestamp": "2026-06-29T09:23:10Z",
-        "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/releases/tag/2.2.0"
+        "Title": "Management Release including fix",
+        "Timestamp": "2026-07-02T14:46:16Z",
+        "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/releases/tag/2.2.1"
       },
       "Releases": [
+        {
+          "Tag": "2.2.1",
+          "SHA": "",
+          "Title": "Management Release including fix",
+          "Timestamp": "2026-07-02T14:41:16Z",
+          "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/releases/tag/2.2.1"
+        },
         {
           "Tag": "2.2.0",
           "SHA": "",
@@ -3254,36 +3261,21 @@
           "Title": "Admin area",
           "Timestamp": "2026-01-22T12:54:12Z",
           "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/releases/tag/2.1.0"
-        },
-        {
-          "Tag": "2.0.3",
-          "SHA": "",
-          "Title": "Technical Improvements",
-          "Timestamp": "2025-10-21T22:48:04Z",
-          "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/releases/tag/2.0.3"
         }
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 3,
+        "Count": 1,
         "PullRequests": [
           {
-            "Title": "Bump the go_modules group across 1 directory with 3 updates",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/343"
-          },
-          {
-            "Title": "Bump the npm_and_yarn group across 1 directory with 13 updates",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/342"
-          },
-          {
-            "Title": "Feature/#278 process overview diagram",
-            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/341"
+            "Title": "Bump the npm_and_yarn group across 1 directory with 27 updates",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/345"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/fox-and-hound",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/fox-and-hound/compare/2.2.0..HEAD",
+        "Link": "https://github.com/prodyna-yasm/fox-and-hound/compare/2.2.1..HEAD",
         "Count": 0,
         "Commits": null
       },
@@ -3310,5 +3302,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-07-02T08:29:20Z"
+  "LastUpdated": "2026-07-03T08:32:07Z"
 }

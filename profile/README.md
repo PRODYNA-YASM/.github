@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-07-02T08:29:20Z
+Component Status overview. Last update 2026-07-03T08:32:07Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -21,7 +21,7 @@ Component Status overview. Last update 2026-07-02T08:29:20Z
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [12](https://github.com/prodyna-yasm/yasm-test/compare/v1.81.0..HEAD) | :yellow_square: [13](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.81.0 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [4](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.9.2..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-mainproject/pulls) | 1.9.2 |  :red_square: 22f1a3e |  :green_square: 1.9.2 |  :green_square: 1.9.2 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [15](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :red_square: b00e5e6 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
-| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.2.0 |  :green_square: 2.2.0 |  :green_square: 2.2.0 |  :green_square: 2.2.0 | 
+| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.2.1 |  :green_square: 2.2.1 |  :green_square: 2.2.1 |  :green_square: 2.2.1 | 
 
 
 
@@ -1077,20 +1077,16 @@ Component Status overview. Last update 2026-07-02T08:29:20Z
 
 
 
-## [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) 2.2.0
+## [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) 2.2.1
 
 
 
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (3)
+### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (1)
 
-- [Bump the go_modules group across 1 directory with 3 updates](https://github.com/PRODYNA-YASM/fox-and-hound/pull/343)
-
-- [Bump the npm_and_yarn group across 1 directory with 13 updates](https://github.com/PRODYNA-YASM/fox-and-hound/pull/342)
-
-- [Feature/#278 process overview diagram](https://github.com/PRODYNA-YASM/fox-and-hound/pull/341)
+- [Bump the npm_and_yarn group across 1 directory with 27 updates](https://github.com/PRODYNA-YASM/fox-and-hound/pull/345)
 
 
 
@@ -1098,18 +1094,18 @@ Component Status overview. Last update 2026-07-02T08:29:20Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  2.2.0 |  2.2.0 |  2.2.0 | 
+| Version |  2.2.1 |  2.2.1 |  2.2.1 | 
 | Release |  :green_square: |  :green_square: |  :green_square: | 
 | Current |  :green_square: |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
+- [Management Release including fix](https://github.com/PRODYNA-YASM/fox-and-hound/releases/tag/2.2.1) on 2026-07-02 14:41:16 +0000 UTC
+
 - [Management Release](https://github.com/PRODYNA-YASM/fox-and-hound/releases/tag/2.2.0) on 2026-04-28 09:07:00 +0000 UTC
 
 - [Admin area](https://github.com/PRODYNA-YASM/fox-and-hound/releases/tag/2.1.0) on 2026-01-22 12:54:12 +0000 UTC
-
-- [Technical Improvements](https://github.com/PRODYNA-YASM/fox-and-hound/releases/tag/2.0.3) on 2025-10-21 22:48:04 +0000 UTC
 
 
 
