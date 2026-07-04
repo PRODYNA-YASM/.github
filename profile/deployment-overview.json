@@ -3265,8 +3265,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "Bump the go_modules group across 1 directory with 4 updates",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/346"
+          },
           {
             "Title": "Bump the npm_and_yarn group across 1 directory with 27 updates",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/345"
@@ -3302,5 +3306,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-07-03T08:32:07Z"
+  "LastUpdated": "2026-07-04T08:17:35Z"
 }
