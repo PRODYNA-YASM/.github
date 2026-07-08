@@ -2614,8 +2614,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "chore: bump com.fasterxml.jackson.core:jackson-databind from 2.22.0 to 2.22.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/361"
+          },
           {
             "Title": "feat: 359 add role to projectParticipationUpdate",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/360"
@@ -3326,5 +3330,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-07-07T08:39:25Z"
+  "LastUpdated": "2026-07-08T08:16:46Z"
 }
