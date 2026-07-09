@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-07-08T08:16:46Z
+Component Status overview. Last update 2026-07-09T08:40:46Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -98,7 +98,7 @@ Component Status overview. Last update 2026-07-08T08:16:46Z
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (8)
 
-- [chore: bump node from 26.3.0-slim to 26.4.0-slim](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1272)
+- [chore: bump node from 26.3.0-slim to 26.5.0-slim](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1273)
 
 - [feat: Feature/1256 add funtction to assign others or oneself to an existing project on project details page](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1271)
 
