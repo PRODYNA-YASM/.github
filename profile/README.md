@@ -1,12 +1,12 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-07-10T08:39:21Z
+Component Status overview. Last update 2026-07-11T08:10:40Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [11](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: 58d938a |  :green_square: 1.83.1 |  :green_square: 1.83.1 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [8](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.2..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.2 |  :red_square: fa01230 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [9](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.2..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.2 |  :red_square: a1966d3 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [26](https://github.com/prodyna-yasm/yasmctl/compare/1.83.0..HEAD) | :green_square: 0 | 1.83.0 |  :red_square: 1129c30 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [9](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.28.0..HEAD) | :green_square: 0 | 1.28.0 |  :red_square: 44e929b |  :green_square: 1.28.0 |  :green_square: 1.28.0 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [30](https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-metrics/pulls) | 1.83.0 |  :red_square: 839cb95 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
@@ -143,7 +143,9 @@ Component Status overview. Last update 2026-07-10T08:39:21Z
 
 
 
-### [Commits on main since 1.83.2](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.2..HEAD) (8)
+### [Commits on main since 1.83.2](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.2..HEAD) (9)
+
+- [Bump golang.org/x/crypto in the go_modules group across 1 directory (#965)](https://github.com/prodyna-yasm/yasm-integration/commit/a1966d3928206cd18931c02c6ac344082df930d9) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-07-10 19:07:18 +0000 UTC
 
 - [Bump github.com/prodyna-yasm/yasm-api-go from 1.84.0 to 1.85.0 (#962)](https://github.com/prodyna-yasm/yasm-integration/commit/fa01230e6d1013f2c264d9f74a08eba0f6b5e4bc) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-06-26 06:29:28 +0000 UTC
 
@@ -176,7 +178,7 @@ Component Status overview. Last update 2026-07-10T08:39:21Z
 
 | Environment |  dev | 
 | --- |  --- | 
-| Version |  fa01230 | 
+| Version |  a1966d3 | 
 | Release |  :red_square: | 
 | Current |  :red_square: | 
 

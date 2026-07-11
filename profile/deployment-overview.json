@@ -267,7 +267,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "fa01230",
+          "Version": "a1966d3",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -319,8 +319,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.83.2..HEAD",
-        "Count": 8,
+        "Count": 9,
         "Commits": [
+          {
+            "Text": "Bump golang.org/x/crypto in the go_modules group across 1 directory (#965)",
+            "SHA": "a1966d3928206cd18931c02c6ac344082df930d9",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-07-10T19:07:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/a1966d3928206cd18931c02c6ac344082df930d9"
+          },
           {
             "Text": "Bump github.com/prodyna-yasm/yasm-api-go from 1.84.0 to 1.85.0 (#962)",
             "SHA": "fa01230e6d1013f2c264d9f74a08eba0f6b5e4bc",
@@ -3330,5 +3340,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-07-10T08:39:21Z"
+  "LastUpdated": "2026-07-11T08:10:40Z"
 }
