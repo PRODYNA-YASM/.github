@@ -267,7 +267,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "a1966d3",
+          "Version": "5db7b0c",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -319,8 +319,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.83.2..HEAD",
-        "Count": 9,
+        "Count": 10,
         "Commits": [
+          {
+            "Text": "Bump github.com/microsoftgraph/msgraph-sdk-go from 1.99.0 to 1.100.0 (#966)",
+            "SHA": "5db7b0c70c5a32980266d2e8899e9e69289eabc0",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-07-13T06:04:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/5db7b0c70c5a32980266d2e8899e9e69289eabc0"
+          },
           {
             "Text": "Bump golang.org/x/crypto in the go_modules group across 1 directory (#965)",
             "SHA": "a1966d3928206cd18931c02c6ac344082df930d9",
@@ -930,7 +940,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "839cb95",
+          "Version": "49ee992",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -981,8 +991,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump github.com/prometheus/common from 0.69.0 to 0.70.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/382"
+          },
           {
             "Title": "build(deps): bump github.com/prodyna-yasm/yasm-api-go from 1.84.0 to 1.85.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/378"
@@ -994,6 +1008,26 @@
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #381 from PRODYNA-YASM/dependabot/go_modules/github.com/XSAM/otelsql-0.43.0",
+            "SHA": "49ee9925fcee81f0c817c4edcdbfae5e2cf06f3a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-07-13T06:06:49Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/49ee9925fcee81f0c817c4edcdbfae5e2cf06f3a"
+          },
+          {
+            "Text": "build(deps): bump github.com/XSAM/otelsql from 0.42.0 to 0.43.0",
+            "SHA": "08d4ae61d11683425ac6391b81c9be03b4355d7b",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-07-13T05:05:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/08d4ae61d11683425ac6391b81c9be03b4355d7b"
+          },
           {
             "Text": "Merge pull request #379 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.82.0",
             "SHA": "839cb95f1353422b975a295334d034a0c7369913",
@@ -1273,26 +1307,6 @@
             },
             "Timestamp": "2026-05-04T05:35:15Z",
             "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/074216eeba351c247ba0117480f73796a2ac77a5"
-          },
-          {
-            "Text": "Merge pull request #364 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.81.0",
-            "SHA": "508deca494da51c0b4eed80970209cfb38d81710",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-05-04T05:34:52Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/508deca494da51c0b4eed80970209cfb38d81710"
-          },
-          {
-            "Text": "build(deps): bump google.golang.org/grpc from 1.80.0 to 1.81.0",
-            "SHA": "ae6b7aa1078d37fdceb8fb4fb3451837b0998c3e",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-05-04T05:30:42Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/ae6b7aa1078d37fdceb8fb4fb3451837b0998c3e"
           }
         ]
       },
@@ -3340,5 +3354,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-07-12T08:15:45Z"
+  "LastUpdated": "2026-07-13T08:31:14Z"
 }
