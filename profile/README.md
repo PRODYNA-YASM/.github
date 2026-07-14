@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-07-13T08:31:14Z
+Component Status overview. Last update 2026-07-14T08:14:32Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -8,7 +8,7 @@ Component Status overview. Last update 2026-07-13T08:31:14Z
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [3](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: 58d938a |  :green_square: 1.83.1 |  :green_square: 1.83.1 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [10](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.2..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.2 |  :red_square: 5db7b0c | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [26](https://github.com/prodyna-yasm/yasmctl/compare/1.83.0..HEAD) | :green_square: 0 | 1.83.0 |  :red_square: 1129c30 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
-| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [9](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.28.0..HEAD) | :green_square: 0 | 1.28.0 |  :red_square: 44e929b |  :green_square: 1.28.0 |  :green_square: 1.28.0 | 
+| [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [11](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.28.0..HEAD) | :green_square: 0 | 1.28.0 |  :red_square: 1648d37 |  :green_square: 1.28.0 |  :green_square: 1.28.0 | 
 | [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [30](https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-metrics/pulls) | 1.83.0 |  :red_square: 49ee992 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [8](https://github.com/prodyna-yasm/yasm-github/compare/1.15.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.15.0 |  :red_square: 4cfc100 |  :green_square: 1.15.0 |  :green_square: 1.15.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [30](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.1..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-geocoding/pulls) | 1.16.1 |  :red_square: 262e9c2 |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
@@ -288,7 +288,11 @@ Component Status overview. Last update 2026-07-13T08:31:14Z
 
 
 
-### [Commits on main since 1.28.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.28.0..HEAD) (9)
+### [Commits on main since 1.28.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.28.0..HEAD) (11)
+
+- [Merge pull request #411 from PRODYNA-YASM/dependabot/go_modules/github.com/XSAM/otelsql-0.43.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/1648d373d779089abd79e0175bbe48ee03fcdb8f) by [dkrizic](https://github.com/dkrizic) on 2026-07-13 13:42:21 +0000 UTC
+
+- [Bump github.com/XSAM/otelsql from 0.42.0 to 0.43.0](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/3cd6e8d48380f1c18cb63710a9ee8e463a461594) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-07-13 13:33:17 +0000 UTC
 
 - [Merge pull request #410 from PRODYNA-YASM/dependabot/go_modules/github.com/urfave/cli/v3-3.10.1](https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/44e929b5ce52f52df2f43d5b07c8dd7c4d901afe) by [dkrizic](https://github.com/dkrizic) on 2026-06-29 13:47:40 +0000 UTC
 
@@ -316,7 +320,7 @@ Component Status overview. Last update 2026-07-13T08:31:14Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  44e929b |  1.28.0 |  1.28.0 | 
+| Version |  1648d37 |  1.28.0 |  1.28.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 

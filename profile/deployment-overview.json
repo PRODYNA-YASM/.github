@@ -774,7 +774,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "44e929b",
+          "Version": "1648d37",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -831,8 +831,28 @@
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.28.0..HEAD",
-        "Count": 9,
+        "Count": 11,
         "Commits": [
+          {
+            "Text": "Merge pull request #411 from PRODYNA-YASM/dependabot/go_modules/github.com/XSAM/otelsql-0.43.0",
+            "SHA": "1648d373d779089abd79e0175bbe48ee03fcdb8f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-07-13T13:42:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/1648d373d779089abd79e0175bbe48ee03fcdb8f"
+          },
+          {
+            "Text": "Bump github.com/XSAM/otelsql from 0.42.0 to 0.43.0",
+            "SHA": "3cd6e8d48380f1c18cb63710a9ee8e463a461594",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-07-13T13:33:17Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/3cd6e8d48380f1c18cb63710a9ee8e463a461594"
+          },
           {
             "Text": "Merge pull request #410 from PRODYNA-YASM/dependabot/go_modules/github.com/urfave/cli/v3-3.10.1",
             "SHA": "44e929b5ce52f52df2f43d5b07c8dd7c4d901afe",
@@ -3354,5 +3374,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-07-13T08:31:14Z"
+  "LastUpdated": "2026-07-14T08:14:32Z"
 }
