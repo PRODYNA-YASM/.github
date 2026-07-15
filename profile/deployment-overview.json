@@ -2673,8 +2673,19 @@
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.85.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 1,
+        "Commits": [
+          {
+            "Text": "chore: bump actions/setup-node from 6 to 7 (#362)",
+            "SHA": "77994cfb09ee12308f5f1bf0319bee2c7b0ce35d",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-07-15T06:07:51Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/77994cfb09ee12308f5f1bf0319bee2c7b0ce35d"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -3374,5 +3385,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-07-14T08:14:32Z"
+  "LastUpdated": "2026-07-15T08:14:55Z"
 }
