@@ -2683,8 +2683,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.85.0..HEAD",
-        "Count": 1,
+        "Count": 2,
         "Commits": [
+          {
+            "Text": "chore: bump actions/setup-go from 6 to 7 (#363)",
+            "SHA": "5febb8622f9c1b0ad0dfd18ea70ca6e4d8433fe0",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-07-17T06:50:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/5febb8622f9c1b0ad0dfd18ea70ca6e4d8433fe0"
+          },
           {
             "Text": "chore: bump actions/setup-node from 6 to 7 (#362)",
             "SHA": "77994cfb09ee12308f5f1bf0319bee2c7b0ce35d",
@@ -2939,7 +2949,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "22f1a3e",
+          "Version": "ab860e6",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2990,19 +3000,54 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump actions/cache from 5 to 6",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-mainproject/pull/243"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-mainproject",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/compare/1.9.2..HEAD",
-        "Count": 4,
+        "Count": 8,
         "Commits": [
+          {
+            "Text": "Merge pull request #243 from PRODYNA-YASM/dependabot/github_actions/actions/cache-6",
+            "SHA": "ab860e6a29cb8a485e796ecb9296ab748453af3e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-07-16T16:54:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/ab860e6a29cb8a485e796ecb9296ab748453af3e"
+          },
+          {
+            "Text": "Merge pull request #244 from PRODYNA-YASM/dependabot/github_actions/actions/setup-go-7",
+            "SHA": "71026ae406ba2872e835a4890781f8674e27384e",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-07-16T16:20:16Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/71026ae406ba2872e835a4890781f8674e27384e"
+          },
+          {
+            "Text": "Bump actions/setup-go from 6 to 7",
+            "SHA": "e394560f15e7ec487aab4c5523424fa0ff692674",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-07-16T16:13:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/e394560f15e7ec487aab4c5523424fa0ff692674"
+          },
+          {
+            "Text": "Bump actions/cache from 5 to 6",
+            "SHA": "87b76b4e778a30abe3cd55444f9816f981cafcad",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-06-23T16:12:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/87b76b4e778a30abe3cd55444f9816f981cafcad"
+          },
           {
             "Text": "Merge pull request #242 from PRODYNA-YASM/dependabot/github_actions/actions/checkout-7",
             "SHA": "22f1a3ef4eaa47e46b11c33bcf6a6ea04b3865cc",
@@ -3395,5 +3440,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-07-16T08:15:14Z"
+  "LastUpdated": "2026-07-17T08:14:55Z"
 }
