@@ -179,8 +179,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 9,
+        "Count": 10,
         "PullRequests": [
+          {
+            "Title": "Feature/yasm ai chat screen",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1277"
+          },
           {
             "Title": "Enhance local development with local backend connection possibility",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1276"
@@ -281,14 +285,14 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "5e02830",
-          "IsRelease": false,
-          "IsCurrent": false
+          "Version": "1.83.4",
+          "IsRelease": true,
+          "IsCurrent": true
         },
         {
           "Name": "staging",
           "Link": "",
-          "Version": "1.83.3",
+          "Version": "1.83.4",
           "IsRelease": true,
           "IsCurrent": true
         },
@@ -297,17 +301,24 @@
           "Link": "",
           "Version": "1.83.3",
           "IsRelease": true,
-          "IsCurrent": true
+          "IsCurrent": false
         }
       ],
       "LatestRelease": {
-        "Tag": "1.83.3",
+        "Tag": "1.83.4",
         "SHA": "",
-        "Title": "1.83.3",
-        "Timestamp": "2026-07-21T13:05:07Z",
-        "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.83.3"
+        "Title": "Fix unreliable certificate and person lookups ",
+        "Timestamp": "2026-07-27T08:02:25Z",
+        "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.83.4"
       },
       "Releases": [
+        {
+          "Tag": "1.83.4",
+          "SHA": "",
+          "Title": "Fix unreliable certificate and person lookups ",
+          "Timestamp": "2026-07-24T14:01:52Z",
+          "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.83.4"
+        },
         {
           "Tag": "1.83.3",
           "SHA": "",
@@ -321,13 +332,6 @@
           "Title": "Fix whitespace in employee numbers",
           "Timestamp": "2026-05-29T12:44:51Z",
           "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.83.2"
-        },
-        {
-          "Tag": "1.83.1",
-          "SHA": "",
-          "Title": "Correct employmentStatart for employees who changes companies",
-          "Timestamp": "2026-05-29T11:05:11Z",
-          "Link": "https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.83.1"
         }
       ],
       "PullRequests": {
@@ -350,27 +354,22 @@
       },
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
-        "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.83.3..HEAD",
-        "Count": 1,
-        "Commits": [
-          {
-            "Text": "fix: certificate and person lookup using index access (#971)",
-            "SHA": "5e02830023f6719f0d34313a6ae2cc1e70800be5",
-            "Author": {
-              "name": "TD99",
-              "link": "https://github.com/TD99"
-            },
-            "Timestamp": "2026-07-24T14:01:52Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/5e02830023f6719f0d34313a6ae2cc1e70800be5"
-          }
-        ]
+        "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.83.4..HEAD",
+        "Count": 0,
+        "Commits": null
       },
       "DefaultBranch": "main",
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 0,
-        "Workflows": null
+        "Count": 1,
+        "Workflows": [
+          {
+            "Name": "fix: certificate and person lookup using index access (#971)",
+            "Timestamp": "2026-07-27T08:02:27Z",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/30248339913"
+          }
+        ]
       }
     },
     {
@@ -811,7 +810,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "ae06585",
+          "Version": "171d66e",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -870,6 +869,26 @@
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #388 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.24.1",
+            "SHA": "171d66e08773b03fa8ea71f27236f049d2923867",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-07-27T05:42:21Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/171d66e08773b03fa8ea71f27236f049d2923867"
+          },
+          {
+            "Text": "build(deps): bump github.com/prometheus/client_golang",
+            "SHA": "64194d3fa2a7b6d9db9411c7bc93b664548e7d41",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-07-27T05:05:26Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/64194d3fa2a7b6d9db9411c7bc93b664548e7d41"
+          },
           {
             "Text": "Merge pull request #387 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/common-0.70.1",
             "SHA": "ae06585729c6cdc95dd5d2737de0bf502d3752df",
@@ -1149,26 +1168,6 @@
             },
             "Timestamp": "2026-06-01T12:33:49Z",
             "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/fbf28405ebf9cc697b066ea05d07175e5f2bfbf7"
-          },
-          {
-            "Text": "Update all libs",
-            "SHA": "8ddcf08adf8cee5c2aad45194e2106cfd590011c",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-05-28T10:19:31Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/8ddcf08adf8cee5c2aad45194e2106cfd590011c"
-          },
-          {
-            "Text": "Merge pull request #366 from PRODYNA-YASM/dependabot/go_modules/github.com/AzureAD/microsoft-authentication-library-for-go-1.7.2",
-            "SHA": "8f1895f7619f499fa932d8729af6068dd5bed813",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-05-28T10:18:15Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/8f1895f7619f499fa932d8729af6068dd5bed813"
           }
         ]
       },
@@ -3342,5 +3341,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-07-26T08:16:26Z"
+  "LastUpdated": "2026-07-27T08:42:20Z"
 }

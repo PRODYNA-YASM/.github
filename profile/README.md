@@ -1,15 +1,15 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-07-26T08:16:26Z
+Component Status overview. Last update 2026-07-27T08:42:20Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [11](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.83.1 |  :green_square: 1.83.1 |  :green_square: 1.83.1 |  :green_square: 1.83.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: dfcad45 |  :green_square: 1.83.1 |  :green_square: 1.83.1 | 
-| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [1](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.3..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.3 |  :red_square: 5e02830 |  :green_square: 1.83.3 |  :green_square: 1.83.3 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [4](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: dfcad45 |  :green_square: 1.83.1 |  :green_square: 1.83.1 | 
+| [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.4 |  :green_square: 1.83.4 |  :green_square: 1.83.4 |  :red_square: 1.83.3 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [28](https://github.com/prodyna-yasm/yasmctl/compare/1.83.0..HEAD) | :green_square: 0 | 1.83.0 |  :red_square: 4cfefce |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :green_square: 0 | :green_square: 0 | 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
-| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [30](https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD) | :green_square: 0 | 1.83.0 |  :red_square: ae06585 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
+| [yasm-metrics](https://github.com/prodyna-yasm/yasm-metrics) | :red_square: [30](https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD) | :green_square: 0 | 1.83.0 |  :red_square: 171d66e |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-github](https://github.com/prodyna-yasm/yasm-github) | :red_square: [8](https://github.com/prodyna-yasm/yasm-github/compare/1.15.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-github/pulls) | 1.15.0 |  :red_square: 4cfc100 |  :green_square: 1.15.0 |  :green_square: 1.15.0 | 
 | [yasm-geocoding](https://github.com/prodyna-yasm/yasm-geocoding) | :red_square: [30](https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.1..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-geocoding/pulls) | 1.16.1 |  :red_square: 90052ef |  :green_square: 1.16.1 |  :green_square: 1.16.1 | 
 | [yasm-external](https://github.com/prodyna-yasm/yasm-external) | :red_square: [11](https://github.com/prodyna-yasm/yasm-external/compare/1.2.19..HEAD) | :green_square: 0 | 1.2.19 |  :red_square: f93af87 |  :green_square: 1.2.19 |  :green_square: 1.2.19 | 
@@ -98,7 +98,9 @@ Component Status overview. Last update 2026-07-26T08:16:26Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (9)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (10)
+
+- [Feature/yasm ai chat screen](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1277)
 
 - [Enhance local development with local backend connection possibility](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1276)
 
@@ -142,14 +144,9 @@ Component Status overview. Last update 2026-07-26T08:16:26Z
 
 
 
-## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.83.3
+## [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) 1.83.4
 
 
-
-
-### [Commits on main since 1.83.3](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.3..HEAD) (1)
-
-- [fix: certificate and person lookup using index access (#971)](https://github.com/prodyna-yasm/yasm-integration/commit/5e02830023f6719f0d34313a6ae2cc1e70800be5) by [TD99](https://github.com/TD99) on 2026-07-24 14:01:52 +0000 UTC
 
 
 
@@ -168,20 +165,25 @@ Component Status overview. Last update 2026-07-26T08:16:26Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  5e02830 |  1.83.3 |  1.83.3 | 
-| Release |  :red_square: |  :green_square: |  :green_square: | 
-| Current |  :red_square: |  :green_square: |  :green_square: | 
+| Version |  1.83.4 |  1.83.4 |  1.83.3 | 
+| Release |  :green_square: |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: |  :red_square: | 
 
 
 ### Last releases
+
+- [Fix unreliable certificate and person lookups ](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.83.4) on 2026-07-24 14:01:52 +0000 UTC
 
 - [1.83.3](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.83.3) on 2026-07-21 12:54:03 +0000 UTC
 
 - [Fix whitespace in employee numbers](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.83.2) on 2026-05-29 12:44:51 +0000 UTC
 
-- [Correct employmentStatart for employees who changes companies](https://github.com/PRODYNA-YASM/yasm-integration/releases/tag/1.83.1) on 2026-05-29 11:05:11 +0000 UTC
 
 
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting) (1)
+
+- [fix: certificate and person lookup using index access (#971)](https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/30248339913) created on 2026-07-27 08:02:27 +0000 UTC
 
 
 
@@ -312,6 +314,10 @@ Component Status overview. Last update 2026-07-26T08:16:26Z
 
 ### [Commits on main since 1.83.0](https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD) (30)
 
+- [Merge pull request #388 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.24.1](https://github.com/prodyna-yasm/yasm-metrics/commit/171d66e08773b03fa8ea71f27236f049d2923867) by [dkrizic](https://github.com/dkrizic) on 2026-07-27 05:42:21 +0000 UTC
+
+- [build(deps): bump github.com/prometheus/client_golang](https://github.com/prodyna-yasm/yasm-metrics/commit/64194d3fa2a7b6d9db9411c7bc93b664548e7d41) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-07-27 05:05:26 +0000 UTC
+
 - [Merge pull request #387 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/common-0.70.1](https://github.com/prodyna-yasm/yasm-metrics/commit/ae06585729c6cdc95dd5d2737de0bf502d3752df) by [dkrizic](https://github.com/dkrizic) on 2026-07-23 05:49:08 +0000 UTC
 
 - [build(deps): bump github.com/prometheus/common from 0.70.0 to 0.70.1](https://github.com/prodyna-yasm/yasm-metrics/commit/265d18822f917a465b18452fcabd80033de44874) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-07-23 05:26:58 +0000 UTC
@@ -368,10 +374,6 @@ Component Status overview. Last update 2026-07-26T08:16:26Z
 
 - [build(deps): bump github.com/prometheus/common from 0.67.5 to 0.68.0](https://github.com/prodyna-yasm/yasm-metrics/commit/fbf28405ebf9cc697b066ea05d07175e5f2bfbf7) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-06-01 12:33:49 +0000 UTC
 
-- [Update all libs](https://github.com/prodyna-yasm/yasm-metrics/commit/8ddcf08adf8cee5c2aad45194e2106cfd590011c) by [dkrizic](https://github.com/dkrizic) on 2026-05-28 10:19:31 +0000 UTC
-
-- [Merge pull request #366 from PRODYNA-YASM/dependabot/go_modules/github.com/AzureAD/microsoft-authentication-library-for-go-1.7.2](https://github.com/prodyna-yasm/yasm-metrics/commit/8f1895f7619f499fa932d8729af6068dd5bed813) by [dkrizic](https://github.com/dkrizic) on 2026-05-28 10:18:15 +0000 UTC
-
 
 
 
@@ -380,7 +382,7 @@ Component Status overview. Last update 2026-07-26T08:16:26Z
 
 | Environment |  dev |  staging |  prod | 
 | --- |  --- |  --- |  --- | 
-| Version |  ae06585 |  1.83.0 |  1.83.0 | 
+| Version |  171d66e |  1.83.0 |  1.83.0 | 
 | Release |  :red_square: |  :green_square: |  :green_square: | 
 | Current |  :red_square: |  :green_square: |  :green_square: | 
 
