@@ -186,7 +186,7 @@
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1277"
           },
           {
-            "Title": "Enhance local development with local backend connection possibility",
+            "Title": "feat: enhance local development with local backend connection possibility",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1276"
           },
           {
@@ -299,9 +299,9 @@
         {
           "Name": "prod",
           "Link": "",
-          "Version": "1.83.3",
+          "Version": "1.83.4",
           "IsRelease": true,
-          "IsCurrent": false
+          "IsCurrent": true
         }
       ],
       "LatestRelease": {
@@ -362,14 +362,8 @@
       "Tags": null,
       "Workflows": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/actions?query=is%3Awaiting",
-        "Count": 1,
-        "Workflows": [
-          {
-            "Name": "fix: certificate and person lookup using index access (#971)",
-            "Timestamp": "2026-07-27T08:02:27Z",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/actions/runs/30248339913"
-          }
-        ]
+        "Count": 0,
+        "Workflows": null
       }
     },
     {
@@ -786,8 +780,13 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "Bump github.com/prometheus/client_golang from 1.24.0 to 1.24.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/414"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
@@ -3341,5 +3340,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-07-27T08:42:20Z"
+  "LastUpdated": "2026-07-28T08:17:31Z"
 }
