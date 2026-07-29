@@ -59,7 +59,7 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 11,
+        "Count": 10,
         "PullRequests": [
           {
             "Title": "build(deps): bump actions/checkout from 6 to 7",
@@ -68,10 +68,6 @@
           {
             "Title": "build(deps): bump actions/dependency-review-action from 4 to 5",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1015"
-          },
-          {
-            "Title": "fix(neo4j): add unique constraint on Certification.name in tests to prevent duplicates (#1100)",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1014"
           },
           {
             "Title": "feat: 1011 add role to projectparticipation. when reading, creating or upda…",
@@ -179,8 +175,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 10,
+        "Count": 11,
         "PullRequests": [
+          {
+            "Title": "fix: improve mobile chart tooltips and availability details",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1278"
+          },
           {
             "Title": "Feature/yasm ai chat screen",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1277"
@@ -809,7 +809,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "171d66e",
+          "Version": "fe220c7",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -868,6 +868,26 @@
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #389 from PRODYNA-YASM/dependabot/go_modules/github.com/AzureAD/microsoft-authentication-library-for-go-1.8.0",
+            "SHA": "fe220c742146acae51428759ed83b4154cc98ba1",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-07-29T06:12:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/fe220c742146acae51428759ed83b4154cc98ba1"
+          },
+          {
+            "Text": "build(deps): bump github.com/AzureAD/microsoft-authentication-library-for-go",
+            "SHA": "e8ef4d6ba2f9848e0b70ddc5d79a323cb3f3ceca",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-07-29T05:05:15Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/e8ef4d6ba2f9848e0b70ddc5d79a323cb3f3ceca"
+          },
           {
             "Text": "Merge pull request #388 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.24.1",
             "SHA": "171d66e08773b03fa8ea71f27236f049d2923867",
@@ -1147,26 +1167,6 @@
             },
             "Timestamp": "2026-06-03T22:19:16Z",
             "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/40e97eedcb6872a6a684ac2c63c4075e446adb32"
-          },
-          {
-            "Text": "Merge pull request #372 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/common-0.68.0",
-            "SHA": "6410598b49da138ccaea391fc2b56a0cda980743",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-06-01T13:09:52Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/6410598b49da138ccaea391fc2b56a0cda980743"
-          },
-          {
-            "Text": "build(deps): bump github.com/prometheus/common from 0.67.5 to 0.68.0",
-            "SHA": "fbf28405ebf9cc697b066ea05d07175e5f2bfbf7",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-06-01T12:33:49Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/fbf28405ebf9cc697b066ea05d07175e5f2bfbf7"
           }
         ]
       },
@@ -3340,5 +3340,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-07-28T08:17:31Z"
+  "LastUpdated": "2026-07-29T08:17:53Z"
 }
