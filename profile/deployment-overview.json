@@ -179,8 +179,24 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 8,
+        "Count": 12,
         "PullRequests": [
+          {
+            "Title": "chore: bump esbuild and vite",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1288"
+          },
+          {
+            "Title": "chore: bump protobufjs from 8.2.0 to 8.7.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1287"
+          },
+          {
+            "Title": "chore: bump the npm_and_yarn group across 1 directory with 4 updates",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1286"
+          },
+          {
+            "Title": "feat: enhance UI consistency and improve menu styles",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1285"
+          },
           {
             "Title": "chore: bump @opentelemetry/instrumentation-user-interaction from 0.55.0 to 0.65.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1284"
@@ -782,9 +798,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "1.29.0",
-          "IsRelease": true,
-          "IsCurrent": true
+          "Version": "746e66d",
+          "IsRelease": false,
+          "IsCurrent": false
         },
         {
           "Name": "staging",
@@ -833,19 +849,35 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls",
-        "Count": 1,
-        "PullRequests": [
-          {
-            "Title": "Bump github.com/prometheus/client_golang from 1.24.0 to 1.24.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-proxy-odbc/pull/414"
-          }
-        ]
+        "Count": 0,
+        "PullRequests": null
       },
       "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.29.0..HEAD",
-        "Count": 0,
-        "Commits": null
+        "Count": 2,
+        "Commits": [
+          {
+            "Text": "Merge pull request #414 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.24.1",
+            "SHA": "746e66d249906382b76092de727531156a6005cc",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-07-31T11:03:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/746e66d249906382b76092de727531156a6005cc"
+          },
+          {
+            "Text": "Bump github.com/prometheus/client_golang from 1.24.0 to 1.24.1",
+            "SHA": "9c069ab0d5e51fb8dbe8b1e4db0ff379606de8e5",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-07-27T13:32:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-proxy-odbc/commit/9c069ab0d5e51fb8dbe8b1e4db0ff379606de8e5"
+          }
+        ]
       },
       "DefaultBranch": "main",
       "Tags": null,
@@ -1443,7 +1475,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "90052ef",
+          "Version": "9659bd9",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1511,6 +1543,26 @@
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.1..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #379 from PRODYNA-YASM/dependabot/github_actions/docker/login-action-4.5.2",
+            "SHA": "9659bd93fd0a5873595c5582b780c3a9447d165d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-07-31T17:03:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/9659bd93fd0a5873595c5582b780c3a9447d165d"
+          },
+          {
+            "Text": "Bump docker/login-action from 4 to 4.5.2",
+            "SHA": "f85febe10a9f406b9535fb616987262b0d2f24e3",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-07-31T16:54:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/f85febe10a9f406b9535fb616987262b0d2f24e3"
+          },
           {
             "Text": "Merge pull request #377 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.24.1",
             "SHA": "90052efbe014672d6fb04cab682f600fb3b7daa3",
@@ -1790,26 +1842,6 @@
             },
             "Timestamp": "2026-05-27T19:18:50Z",
             "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/fbd9de7f917bf86e6ae9440075fd031a167495a2"
-          },
-          {
-            "Text": "Merge pull request #361 from PRODYNA-YASM/dependabot/go_modules/github.com/go-chi/chi/v5-5.3.0",
-            "SHA": "cf9124160120c4275615c6f1f84e4811d799a51a",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-05-22T19:21:26Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/cf9124160120c4275615c6f1f84e4811d799a51a"
-          },
-          {
-            "Text": "Bump github.com/go-chi/chi/v5 from 5.2.5 to 5.3.0",
-            "SHA": "32e12b3f5cb8605a69be07483cc6c0c22f5ecc10",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-05-22T16:54:33Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/32e12b3f5cb8605a69be07483cc6c0c22f5ecc10"
           }
         ]
       },
@@ -1828,7 +1860,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "f93af87",
+          "Version": "eff7314",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1885,8 +1917,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-external",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-external/compare/1.2.19..HEAD",
-        "Count": 11,
+        "Count": 15,
         "Commits": [
+          {
+            "Text": "Merge pull request #221 from PRODYNA-YASM/dependabot/github_actions/github/codeql-action-4.37.3",
+            "SHA": "eff7314112206a07c638f7c241aaa9adf446ef1d",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-07-31T09:48:45Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/eff7314112206a07c638f7c241aaa9adf446ef1d"
+          },
+          {
+            "Text": "Merge pull request #222 from PRODYNA-YASM/dependabot/github_actions/docker/login-action-4.5.2",
+            "SHA": "fac1405c5699dac05a656ecf1469710a8f86fe6f",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-07-31T09:48:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/fac1405c5699dac05a656ecf1469710a8f86fe6f"
+          },
+          {
+            "Text": "Bump docker/login-action from 4 to 4.5.2",
+            "SHA": "e4f4f8f2523689390810df485219f435e0823c46",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-07-31T09:45:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/e4f4f8f2523689390810df485219f435e0823c46"
+          },
+          {
+            "Text": "Bump github/codeql-action from 4 to 4.37.3",
+            "SHA": "1e96d400a4943b7983f12063ba4437e41192d8c5",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-07-31T09:44:39Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-external/commit/1e96d400a4943b7983f12063ba4437e41192d8c5"
+          },
           {
             "Text": "Merge pull request #220 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.24.1",
             "SHA": "f93af875664723f20c0d1ff0f5857e34a66001a4",
@@ -2922,7 +2994,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "552bf5e",
+          "Version": "4adfbf3",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2979,8 +3051,48 @@
       "Link": "https://github.com/prodyna-yasm/yasm-mainproject",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-mainproject/compare/1.9.2..HEAD",
-        "Count": 12,
+        "Count": 16,
         "Commits": [
+          {
+            "Text": "Merge pull request #248 from PRODYNA-YASM/dependabot/github_actions/docker/login-action-4.5.2",
+            "SHA": "4adfbf32d2310df7c4d98c4a1c1237773eb30f7a",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-07-31T17:02:53Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/4adfbf32d2310df7c4d98c4a1c1237773eb30f7a"
+          },
+          {
+            "Text": "Merge pull request #247 from PRODYNA-YASM/dependabot/github_actions/github/codeql-action-4.37.3",
+            "SHA": "7eaaea3a906e3e6ffc073fe7b51d3da077ce1b39",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-07-31T17:02:25Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/7eaaea3a906e3e6ffc073fe7b51d3da077ce1b39"
+          },
+          {
+            "Text": "Bump docker/login-action from 4 to 4.5.2",
+            "SHA": "96f7dc36e9ed87d6a521a533a58dc0b99774602a",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-07-31T16:15:23Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/96f7dc36e9ed87d6a521a533a58dc0b99774602a"
+          },
+          {
+            "Text": "Bump github/codeql-action from 4 to 4.37.3",
+            "SHA": "2b77dccd4a7345be503a60f810b7931f313cf834",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-07-31T16:14:47Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-mainproject/commit/2b77dccd4a7345be503a60f810b7931f313cf834"
+          },
           {
             "Text": "Merge pull request #246 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/client_golang-1.24.1",
             "SHA": "552bf5ed2521210830b9e06fc64fa10cc181c6fc",
@@ -3453,5 +3565,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-07-31T08:21:51Z"
+  "LastUpdated": "2026-08-01T08:15:49Z"
 }
