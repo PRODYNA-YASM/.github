@@ -59,8 +59,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 11,
+        "Count": 12,
         "PullRequests": [
+          {
+            "Title": "Implement proxy to YASM-AI",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1019"
+          },
           {
             "Title": "build(deps): bump docker/login-action from 4 to 4.5.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1018"
@@ -317,7 +321,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "408d44c",
+          "Version": "972ac4f",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -387,8 +391,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.83.6..HEAD",
-        "Count": 6,
+        "Count": 7,
         "Commits": [
+          {
+            "Text": "Bump github/codeql-action from 4.37.4 to 4.37.5 (#980)",
+            "SHA": "972ac4fe782fd4d466db7e2757f27afa1dfda598",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-08-06T06:05:18Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/972ac4fe782fd4d466db7e2757f27afa1dfda598"
+          },
           {
             "Text": "fix(entraid): avoid unchanged employment start updates",
             "SHA": "408d44cd2469cab23b045bbf9c0a1f5d3ab84e52",
@@ -958,7 +972,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "555a2e0",
+          "Version": "0d6b806",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -1017,6 +1031,26 @@
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #395 from PRODYNA-YASM/dependabot/github_actions/github/codeql-action-4.37.5",
+            "SHA": "0d6b806cafc63fec1cd40868f2ca3b6c88800e37",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-08-06T06:06:31Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/0d6b806cafc63fec1cd40868f2ca3b6c88800e37"
+          },
+          {
+            "Text": "build(deps): bump github/codeql-action from 4.37.4 to 4.37.5",
+            "SHA": "7e0b90d139071123a05381e941d948390176405e",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-08-06T05:07:54Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/7e0b90d139071123a05381e941d948390176405e"
+          },
           {
             "Text": "Merge pull request #393 from PRODYNA-YASM/dependabot/github_actions/docker/login-action-4.6.0",
             "SHA": "555a2e00d1b27fc05aff0fd0ec17c9fa0224c7c0",
@@ -1296,26 +1330,6 @@
             },
             "Timestamp": "2026-07-01T06:27:41Z",
             "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/bc64042172d92d4ff3fba09e300ca46dcc47a0a5"
-          },
-          {
-            "Text": "build(deps): bump github.com/pressly/goose/v3 from 3.27.1 to 3.27.2",
-            "SHA": "dda4b9eb1c5f976a33b90381ceb6c8654cb4e21a",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-07-01T05:06:05Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/dda4b9eb1c5f976a33b90381ceb6c8654cb4e21a"
-          },
-          {
-            "Text": "build(deps): bump google.golang.org/grpc from 1.81.1 to 1.82.0",
-            "SHA": "9f811f53baa05d3d4a0428fbd31595f45dafb2f3",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-07-01T05:05:57Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/9f811f53baa05d3d4a0428fbd31595f45dafb2f3"
           }
         ]
       },
@@ -3749,5 +3763,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-08-05T08:17:38Z"
+  "LastUpdated": "2026-08-06T08:17:00Z"
 }
