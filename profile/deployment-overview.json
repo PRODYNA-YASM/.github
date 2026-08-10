@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "5982bc7",
+          "Version": "d46f12d",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -62,24 +62,64 @@
         "Count": 3,
         "PullRequests": [
           {
+            "Title": "build(deps): bump quarkus.platform.version from 3.30.6 to 3.38.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1024"
+          },
+          {
             "Title": "Implement proxy to YASM-AI",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1019"
           },
           {
             "Title": "feat: 1011 add role to projectparticipation. when reading, creating or upda…",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1012"
-          },
-          {
-            "Title": "build(deps): bump quarkus.platform.version from 3.30.6 to 3.38.0",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/996"
           }
         ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.83.1..HEAD",
-        "Count": 7,
+        "Count": 11,
         "Commits": [
+          {
+            "Text": "build(deps-dev): bump org.apache.maven.plugins:maven-dependency-plugin from 3.9.0 to 3.11.0 (#1026)",
+            "SHA": "d46f12d4a5ab9e6777ab25f0b1e240b80b23f2bf",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-08-10T07:40:19Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/d46f12d4a5ab9e6777ab25f0b1e240b80b23f2bf"
+          },
+          {
+            "Text": "build(deps-dev): bump com.diffplug.spotless:spotless-maven-plugin from 3.2.1 to 3.9.0 (#1023)",
+            "SHA": "e200b9e536a1955c117f9d0ca05b21ceb9621690",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-08-10T07:39:10Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/e200b9e536a1955c117f9d0ca05b21ceb9621690"
+          },
+          {
+            "Text": "build(deps-dev): bump io.smallrye:jandex-maven-plugin from 3.5.3 to 3.6.0 (#1025)",
+            "SHA": "f771d872aff90ed457eff594096c6c1a683be4a7",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-08-10T07:37:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/f771d872aff90ed457eff594096c6c1a683be4a7"
+          },
+          {
+            "Text": "build(deps-dev): bump org.apache.maven.plugins:maven-enforcer-plugin from 3.6.2 to 3.6.3 (#1027)",
+            "SHA": "4374761fa827beffc425c292b0664956be41d123",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-08-10T07:34:38Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/4374761fa827beffc425c292b0664956be41d123"
+          },
           {
             "Text": "build(deps-dev): bump org.apache.maven.plugins:maven-compiler-plugin from 3.14.1 to 3.15.0 (#997)",
             "SHA": "08fb852a995f0dad210a76464c5e1c10803b587b",
@@ -218,8 +258,28 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 4,
+        "Count": 9,
         "PullRequests": [
+          {
+            "Title": "chore: bump globals from 16.5.0 to 17.9.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1304"
+          },
+          {
+            "Title": "chore: bump @types/lodash from 4.17.24 to 4.17.25",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1303"
+          },
+          {
+            "Title": "chore: bump @mui/material from 7.3.9 to 9.3.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1302"
+          },
+          {
+            "Title": "chore: bump node from 26.5.1-slim to 26.7.0-slim",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1301"
+          },
+          {
+            "Title": "chore: bump typescript from 5.9.3 to 7.0.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1300"
+          },
           {
             "Title": "chore: bump eslint from 9.39.3 to 10.8.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1280"
@@ -470,7 +530,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d9757aa",
+          "Version": "ec97711",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -507,8 +567,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/pulls",
-        "Count": 1,
+        "Count": 3,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp from 0.69.0 to 0.70.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/988"
+          },
+          {
+            "Title": "build(deps): bump github.com/microsoftgraph/msgraph-sdk-go from 1.100.0 to 1.101.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/987"
+          },
           {
             "Title": "Add sync for locations and organizations core data",
             "Link": "https://github.com/PRODYNA-YASM/yasm-integration/pull/872"
@@ -518,8 +586,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.83.6..HEAD",
-        "Count": 14,
+        "Count": 15,
         "Commits": [
+          {
+            "Text": "build(deps): bump go.opentelemetry.io/contrib/instrumentation/runtime (#989)",
+            "SHA": "ec9771104131788f84504b5d9b2efd070f7de9e2",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-08-10T06:25:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/ec9771104131788f84504b5d9b2efd070f7de9e2"
+          },
           {
             "Text": "build(deps): bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc (#983)",
             "SHA": "d9757aafe49fac4301d0908e0755f7dceb4cf5f7",
@@ -1174,16 +1252,9 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "e54b6c8",
+          "Version": "74aec5d",
           "IsRelease": false,
           "IsCurrent": false
-        },
-        {
-          "Name": "staging",
-          "Link": "",
-          "Version": "1.83.0",
-          "IsRelease": true,
-          "IsCurrent": true
         },
         {
           "Name": "prod",
@@ -1225,8 +1296,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp from 0.69.0 to 0.70.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/402"
+          },
           {
             "Title": "build(deps): bump go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc from 1.44.0 to 1.45.0",
             "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/399"
@@ -1238,6 +1313,26 @@
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #403 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/contrib/instrumentation/runtime-0.70.0",
+            "SHA": "74aec5d2a4bb0a86c0af7d88744de9991e5985f6",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-08-10T06:23:44Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/74aec5d2a4bb0a86c0af7d88744de9991e5985f6"
+          },
+          {
+            "Text": "build(deps): bump go.opentelemetry.io/contrib/instrumentation/runtime",
+            "SHA": "91e0b46fd77cd788b551dd936ea37a8f9f072f0d",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-08-10T05:06:55Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/91e0b46fd77cd788b551dd936ea37a8f9f072f0d"
+          },
           {
             "Text": "Merge pull request #400 from PRODYNA-YASM/dependabot/go_modules/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc-1.45.0",
             "SHA": "e54b6c84fefb139f6a782c769e196fea964e2529",
@@ -1517,26 +1612,6 @@
             },
             "Timestamp": "2026-07-21T05:05:21Z",
             "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/2e4dce657bb21a0e73940ce86a39020d6892d072"
-          },
-          {
-            "Text": "Merge pull request #383 from PRODYNA-YASM/dependabot/go_modules/google.golang.org/grpc-1.82.1",
-            "SHA": "cf7e9cae6b7908d97a097b26438ff7de656860c0",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-07-16T06:05:32Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/cf7e9cae6b7908d97a097b26438ff7de656860c0"
-          },
-          {
-            "Text": "build(deps): bump google.golang.org/grpc from 1.82.0 to 1.82.1",
-            "SHA": "fe62d7e4d5fd686d6244966cd49a71e35aa87085",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-07-16T05:05:22Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/fe62d7e4d5fd686d6244966cd49a71e35aa87085"
           }
         ]
       },
@@ -4206,5 +4281,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-08-09T07:46:59Z"
+  "LastUpdated": "2026-08-10T08:06:36Z"
 }
