@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-08-12T07:59:59Z
+Component Status overview. Last update 2026-08-13T08:01:17Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [16](https://github.com/prodyna-yasm/yasm-backend/compare/1.83.1..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.83.1 |  :red_square: 76f8e31 |  :green_square: 1.83.1 |  :green_square: 1.83.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: 098e04b | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: 0ea63ec | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [17](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.6..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.6 |  :red_square: 3a463ae | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.83.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.83.0 |  :red_square: 54b37d1 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [10](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.29.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.29.0 |  :red_square: 89dae94 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
@@ -104,6 +104,8 @@ Component Status overview. Last update 2026-08-12T07:59:59Z
 
 ### [Commits on main since 1.83.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) (30)
 
+- [chore: 1299 upgrade vite from 7 to 8 (#1318)](https://github.com/prodyna-yasm/yasm-frontend/commit/0ea63eca63fdad2996d20b440f5e07be3c7bb8e2) by [TD99](https://github.com/TD99) on 2026-08-12 09:14:28 +0000 UTC
+
 - [chore: bump material-symbols from 0.40.2 to 0.45.10 (#1315)](https://github.com/prodyna-yasm/yasm-frontend/commit/098e04bb8fbdb7c197b7314084eddf3523abac90) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-12 07:52:20 +0000 UTC
 
 - [chore: bump vite-plugin-checker from 0.9.3 to 0.14.5 (#1314)](https://github.com/prodyna-yasm/yasm-frontend/commit/c5e1a2db5e92cdb13114b5b5145db1b06c4e02a1) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-12 07:35:00 +0000 UTC
@@ -162,18 +164,24 @@ Component Status overview. Last update 2026-08-12T07:59:59Z
 
 - [feat: enhance UI consistency and improve menu styles (#1285)](https://github.com/prodyna-yasm/yasm-frontend/commit/2bd0d6c1468fee6e6115337a82719d5f635a4539) by [TD99](https://github.com/TD99) on 2026-08-06 09:47:47 +0000 UTC
 
-- [chore: bump node from 26.3.0-slim to 26.5.1-slim (#1289)](https://github.com/prodyna-yasm/yasm-frontend/commit/d9dd5fe33af35dba4d7a49d489f024a66e70e006) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-06 09:45:26 +0000 UTC
 
 
 
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (9)
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (5)
+- [chore: bump prettier from 3.8.1 to 3.9.6](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1324)
 
-- [chore: bump vite from 7.3.6 to 8.2.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1316)
+- [chore: bump @azure/msal-react from 3.0.27 to 5.5.5](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1323)
+
+- [chore: bump typescript from 6.0.3 to 7.0.2](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1322)
+
+- [chore: bump @eslint/js from 9.39.5 to 10.0.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1321)
+
+- [chore: bump @opentelemetry/instrumentation-document-load from 0.56.0 to 0.66.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1320)
+
+- [chore: 1299 upgrade react router from 7 to 8](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1319)
 
 - [refactor: modernize queries to use native TanStack v5 APIs](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1313)
-
-- [chore: bump eslint from 9.39.5 to 10.8.1](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1312)
 
 - [Feature/yasm ai chat screen](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1277)
 
@@ -185,7 +193,7 @@ Component Status overview. Last update 2026-08-12T07:59:59Z
 
 | Environment |  dev | 
 | --- |  --- | 
-| Version |  098e04b | 
+| Version |  0ea63ec | 
 | Release |  :red_square: | 
 | Current |  :red_square: | 
 

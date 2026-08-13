@@ -253,7 +253,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "098e04b",
+          "Version": "0ea63ec",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -290,19 +290,35 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 5,
+        "Count": 9,
         "PullRequests": [
           {
-            "Title": "chore: bump vite from 7.3.6 to 8.2.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1316"
+            "Title": "chore: bump prettier from 3.8.1 to 3.9.6",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1324"
+          },
+          {
+            "Title": "chore: bump @azure/msal-react from 3.0.27 to 5.5.5",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1323"
+          },
+          {
+            "Title": "chore: bump typescript from 6.0.3 to 7.0.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1322"
+          },
+          {
+            "Title": "chore: bump @eslint/js from 9.39.5 to 10.0.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1321"
+          },
+          {
+            "Title": "chore: bump @opentelemetry/instrumentation-document-load from 0.56.0 to 0.66.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1320"
+          },
+          {
+            "Title": "chore: 1299 upgrade react router from 7 to 8",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1319"
           },
           {
             "Title": "refactor: modernize queries to use native TanStack v5 APIs",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1313"
-          },
-          {
-            "Title": "chore: bump eslint from 9.39.5 to 10.8.1",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1312"
           },
           {
             "Title": "Feature/yasm ai chat screen",
@@ -319,6 +335,16 @@
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "chore: 1299 upgrade vite from 7 to 8 (#1318)",
+            "SHA": "0ea63eca63fdad2996d20b440f5e07be3c7bb8e2",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-08-12T09:14:28Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/0ea63eca63fdad2996d20b440f5e07be3c7bb8e2"
+          },
           {
             "Text": "chore: bump material-symbols from 0.40.2 to 0.45.10 (#1315)",
             "SHA": "098e04bb8fbdb7c197b7314084eddf3523abac90",
@@ -608,16 +634,6 @@
             },
             "Timestamp": "2026-08-06T09:47:47Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2bd0d6c1468fee6e6115337a82719d5f635a4539"
-          },
-          {
-            "Text": "chore: bump node from 26.3.0-slim to 26.5.1-slim (#1289)",
-            "SHA": "d9dd5fe33af35dba4d7a49d489f024a66e70e006",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-08-06T09:45:26Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d9dd5fe33af35dba4d7a49d489f024a66e70e006"
           }
         ]
       },
@@ -4525,5 +4541,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-08-12T07:59:59Z"
+  "LastUpdated": "2026-08-13T08:01:17Z"
 }
