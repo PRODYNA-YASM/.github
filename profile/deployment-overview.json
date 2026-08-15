@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "db4957a",
+          "Version": "fbb6811",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -59,12 +59,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 3,
+        "Count": 2,
         "PullRequests": [
-          {
-            "Title": "build(deps): bump org.apache.maven.wrapper:maven-wrapper from 3.2.0 to 3.3.4",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1033"
-          },
           {
             "Title": "Implement proxy to YASM-AI",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1019"
@@ -78,8 +74,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-backend",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.83.1..HEAD",
-        "Count": 17,
+        "Count": 18,
         "Commits": [
+          {
+            "Text": "build(deps): bump org.apache.maven.wrapper:maven-wrapper from 3.2.0 to 3.3.4 (#1033)",
+            "SHA": "fbb68115d8dd8f2f68ce43f7cb9c36d7d5301aad",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-08-14T08:08:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/fbb68115d8dd8f2f68ce43f7cb9c36d7d5301aad"
+          },
           {
             "Text": "build(deps): bump org.apache.maven:apache-maven from 3.9.6 to 3.9.16 (#1032)",
             "SHA": "db4957a563b365dc446451f1d06f90a05897a9d8",
@@ -267,7 +273,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "b6108dc",
+          "Version": "2615f56",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -304,8 +310,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 3,
+        "Count": 4,
         "PullRequests": [
+          {
+            "Title": "fix: availability filtering slider",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1331"
+          },
           {
             "Title": "refactor: modernize queries to use native TanStack v5 APIs",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1313"
@@ -325,6 +335,16 @@
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "chore: update nanoid to version 3.3.18 and remove rollup-linux dependency (#1330)",
+            "SHA": "2615f565225a7deb3dbcb580b03b6dd3aa910640",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-08-14T13:48:04Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2615f565225a7deb3dbcb580b03b6dd3aa910640"
+          },
           {
             "Text": "chore: bump @rollup/rollup-linux-x64-gnu from 4.60.0 to 4.62.4 (#1329)",
             "SHA": "b6108dcdb65318e10770ff8b7475920bd3fd6664",
@@ -614,16 +634,6 @@
             },
             "Timestamp": "2026-08-07T08:04:42Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/03fee28c012f9848c9a65d83416c23a1d3925ad6"
-          },
-          {
-            "Text": "chore: bump protobufjs from 8.2.0 to 8.7.1 (#1287)",
-            "SHA": "4be09be4510ecfbb838b0dc8c026bcda61535a5f",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-08-07T07:56:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/4be09be4510ecfbb838b0dc8c026bcda61535a5f"
           }
         ]
       },
@@ -4531,5 +4541,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-08-14T07:58:33Z"
+  "LastUpdated": "2026-08-15T07:40:28Z"
 }
