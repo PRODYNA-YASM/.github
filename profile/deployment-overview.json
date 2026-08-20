@@ -299,7 +299,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "f0f80fc",
+          "Version": "b384a88",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -336,12 +336,8 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 3,
+        "Count": 2,
         "PullRequests": [
-          {
-            "Title": "feat: 1184 feature request persist search filters in the url",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1338"
-          },
           {
             "Title": "refactor: modernize queries to use native TanStack v5 APIs",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1313"
@@ -357,6 +353,46 @@
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "chore: bump dayjs from 1.11.21 to 1.11.22 (#1342)",
+            "SHA": "b384a88003f2b680c419f4bfa464ded7ed817a9b",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-08-20T07:40:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b384a88003f2b680c419f4bfa464ded7ed817a9b"
+          },
+          {
+            "Text": "feat: improve availability chart layout (#1341)",
+            "SHA": "c233923a98f2ccc0b29aedc11add0e94fdd027a5",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-08-19T16:05:32Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/c233923a98f2ccc0b29aedc11add0e94fdd027a5"
+          },
+          {
+            "Text": "feat: add upcoming employee trophy indicator (#1340)",
+            "SHA": "5f7b48879cb37c38750bf2156a530e0b39b127fc",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-08-19T12:15:43Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/5f7b48879cb37c38750bf2156a530e0b39b127fc"
+          },
+          {
+            "Text": "feat: 1184 feature request persist search filters in the url (#1338)",
+            "SHA": "d1ad7779a3160a123c471629da42e18c4fbbe536",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-08-19T11:11:30Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d1ad7779a3160a123c471629da42e18c4fbbe536"
+          },
           {
             "Text": "feat: show scheduled starters as newcomers too (#1339)",
             "SHA": "f0f80fc2f9c8a0e4415f5b75909364c5915d39e4",
@@ -616,46 +652,6 @@
             },
             "Timestamp": "2026-08-11T12:22:57Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/2f8eccd462ece14c2f8ad56b9b1ba1952de224aa"
-          },
-          {
-            "Text": "chore: bump @opentelemetry/instrumentation from 0.211.0 to 0.221.0 (#1311)",
-            "SHA": "7c372a5f8d5d9ffb5907ce88f714e280ad4b9b46",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-08-11T12:22:36Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7c372a5f8d5d9ffb5907ce88f714e280ad4b9b46"
-          },
-          {
-            "Text": "refactor: remove tooltip state management from PersonInformation component (#1306)",
-            "SHA": "48fc23f6d941d7b542dce02aa91f84c0ddb697d5",
-            "Author": {
-              "name": "TD99",
-              "link": "https://github.com/TD99"
-            },
-            "Timestamp": "2026-08-10T15:08:57Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/48fc23f6d941d7b542dce02aa91f84c0ddb697d5"
-          },
-          {
-            "Text": "feat: enhance local development with local backend connection possibility (#1276)",
-            "SHA": "d88d60edfa1d9c815f9b06b49e7a993a490ec679",
-            "Author": {
-              "name": "TD99",
-              "link": "https://github.com/TD99"
-            },
-            "Timestamp": "2026-08-10T13:51:22Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d88d60edfa1d9c815f9b06b49e7a993a490ec679"
-          },
-          {
-            "Text": "chore: bump typescript from 5.9.3 to 6.0.3 (#1300)",
-            "SHA": "0f34afa2b86d2fd8fcc0825199ee49ea78de1ccd",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-08-10T12:49:41Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/0f34afa2b86d2fd8fcc0825199ee49ea78de1ccd"
           }
         ]
       },
@@ -674,7 +670,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "f9db74f",
+          "Version": "7c96df1",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -722,8 +718,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-integration",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.83.6..HEAD",
-        "Count": 19,
+        "Count": 20,
         "Commits": [
+          {
+            "Text": "build(deps): bump github.com/urfave/cli/v3 from 3.10.1 to 3.11.0 (#992)",
+            "SHA": "7c96df148487634c1a019ef65247426248e5dbfe",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-08-20T06:32:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/7c96df148487634c1a019ef65247426248e5dbfe"
+          },
           {
             "Text": "build(deps): bump github.com/stretchr/testify from 1.11.1 to 1.12.0 (#991)",
             "SHA": "f9db74f93c35ae1acd6d5a864ebf91a986957bc1",
@@ -931,7 +937,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "9c30fcd",
+          "Version": "4df7571",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -999,6 +1005,26 @@
         "Link": "https://github.com/prodyna-yasm/yasmctl/compare/1.83.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #581 from PRODYNA-YASM/dependabot/go_modules/github.com/urfave/cli/v3-3.11.0",
+            "SHA": "4df7571d7cb4d29104049b5c5ee2ce8fe9edab78",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-08-19T22:58:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/4df7571d7cb4d29104049b5c5ee2ce8fe9edab78"
+          },
+          {
+            "Text": "Bump github.com/urfave/cli/v3 from 3.10.1 to 3.11.0",
+            "SHA": "5ae7f67b8ed73029f67aa7cb7bf17400a5cee045",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-08-19T21:13:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/5ae7f67b8ed73029f67aa7cb7bf17400a5cee045"
+          },
           {
             "Text": "Merge pull request #580 from PRODYNA-YASM/dependabot/github_actions/github/codeql-action-4.37.7",
             "SHA": "9c30fcde5a7858c79d76eb8e898fc61d1e821b88",
@@ -1278,26 +1304,6 @@
             },
             "Timestamp": "2026-06-23T21:12:31Z",
             "Link": "https://github.com/prodyna-yasm/yasmctl/commit/58cce980411708d40075899d8b4d6e523a4333e4"
-          },
-          {
-            "Text": "Merge pull request #562 from PRODYNA-YASM/dependabot/github_actions/actions/checkout-7",
-            "SHA": "d5299fb62f0d8631a7271635f64c4eabfb02118b",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-06-18T22:19:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/d5299fb62f0d8631a7271635f64c4eabfb02118b"
-          },
-          {
-            "Text": "Bump actions/checkout from 6 to 7",
-            "SHA": "cc61c94fdc6cf3618ecaedb85171803f32b88fe4",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-06-18T21:12:28Z",
-            "Link": "https://github.com/prodyna-yasm/yasmctl/commit/cc61c94fdc6cf3618ecaedb85171803f32b88fe4"
           }
         ]
       },
@@ -2300,7 +2306,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "a20a1ff",
+          "Version": "50e0a14",
           "IsRelease": false,
           "IsCurrent": false
         },
@@ -2372,6 +2378,26 @@
         "Link": "https://github.com/prodyna-yasm/yasm-geocoding/compare/1.16.1..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #387 from PRODYNA-YASM/dependabot/go_modules/github.com/urfave/cli/v3-3.11.0",
+            "SHA": "50e0a147702ac195f9309353acfdb504dff057ee",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-08-19T17:02:05Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/50e0a147702ac195f9309353acfdb504dff057ee"
+          },
+          {
+            "Text": "Bump github.com/urfave/cli/v3 from 3.10.1 to 3.11.0",
+            "SHA": "0eec191258d1794c6822b6e2adfd551ebe784384",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-08-19T16:53:02Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/0eec191258d1794c6822b6e2adfd551ebe784384"
+          },
           {
             "Text": "Merge pull request #386 from PRODYNA-YASM/dependabot/go_modules/github.com/stretchr/testify-1.12.0",
             "SHA": "a20a1ffa4c6ba956e73523f0268aa6ad8e170ee7",
@@ -2651,26 +2677,6 @@
             },
             "Timestamp": "2026-06-15T16:53:15Z",
             "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/37b3cd9a8ca5b0bfb92e3ce9825d05e0c0c95d33"
-          },
-          {
-            "Text": "Merge pull request #368 from PRODYNA-YASM/dependabot/go_modules/github.com/urfave/cli/v3-3.9.1",
-            "SHA": "82bc049fcce0e140f7adb972c9578f5826310c57",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-06-11T06:31:13Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/82bc049fcce0e140f7adb972c9578f5826310c57"
-          },
-          {
-            "Text": "Bump github.com/urfave/cli/v3 from 3.9.0 to 3.9.1",
-            "SHA": "e0b9b3efbbb3d08ce1d601746543610d611b26d1",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-06-10T16:53:05Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-geocoding/commit/e0b9b3efbbb3d08ce1d601746543610d611b26d1"
           }
         ]
       },
@@ -3799,8 +3805,18 @@
       "Link": "https://github.com/prodyna-yasm/yasm-api",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/compare/1.86.0..HEAD",
-        "Count": 2,
+        "Count": 3,
         "Commits": [
+          {
+            "Text": "chore: bump com.fasterxml.jackson.core:jackson-databind (#368)",
+            "SHA": "f9e37e0dcaad0cad9993a91e9fef587d5b83cd11",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-08-20T06:32:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-api/commit/f9e37e0dcaad0cad9993a91e9fef587d5b83cd11"
+          },
           {
             "Text": "chore: bump io.swagger.codegen.v3:swagger-codegen-maven-plugin (#367)",
             "SHA": "7a0b3b87c8918448ab16ea063d79743a7d5769e3",
@@ -4737,5 +4753,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-08-19T07:44:12Z"
+  "LastUpdated": "2026-08-20T07:44:49Z"
 }
