@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-08-21T07:44:55Z
+Component Status overview. Last update 2026-08-22T07:41:12Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [22](https://github.com/prodyna-yasm/yasm-backend/compare/1.83.1..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.83.1 |  :red_square: 43f8fb5 |  :green_square: 1.83.1 |  :green_square: 1.83.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: d2f0853 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: 1363fa3 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [21](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.6..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.6 |  :red_square: 09e486c | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.83.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.83.0 |  :red_square: 4df7571 |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [12](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.29.0..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-proxy-odbc/pulls) | 1.29.0 |  :red_square: 8fb1d7a |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
@@ -17,7 +17,7 @@ Component Status overview. Last update 2026-08-21T07:44:55Z
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [4](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.83.0..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.83.0 |  :red_square: c6b25be |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [4](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.83.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.83.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :red_square: [3](https://github.com/prodyna-yasm/yasm/compare/1.83.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm/pulls) | 1.83.0 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.86.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.86.0 | 
+| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :red_square: [3](https://github.com/prodyna-yasm/yasm-api/compare/1.86.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.86.0 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [12](https://github.com/prodyna-yasm/yasm-test/compare/v1.81.0..HEAD) | :yellow_square: [13](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.81.0 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [24](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.9.2..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-mainproject/pulls) | 1.9.2 |  :red_square: b6fd5d6 |  :green_square: 1.9.2 |  :green_square: 1.9.2 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [15](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :red_square: b00e5e6 |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
@@ -116,6 +116,18 @@ Component Status overview. Last update 2026-08-21T07:44:55Z
 
 ### [Commits on main since 1.83.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) (30)
 
+- [feat: add availability week range calculation to search page (#1351)](https://github.com/prodyna-yasm/yasm-frontend/commit/1363fa33548da7639576df29220989389c810081) by [TD99](https://github.com/TD99) on 2026-08-21 17:53:08 +0000 UTC
+
+- [fix(search): prevent duplicate employee results (#1350)](https://github.com/prodyna-yasm/yasm-frontend/commit/629b08c258b0e6712043bb318d5055504532c799) by [TD99](https://github.com/TD99) on 2026-08-21 17:30:37 +0000 UTC
+
+- [fix(search): reliably load all infinite-scroll results (#1348)](https://github.com/prodyna-yasm/yasm-frontend/commit/e8071e8703973eeb54f90f031886a9e59911b8db) by [TD99](https://github.com/TD99) on 2026-08-21 15:39:56 +0000 UTC
+
+- [fix(cards): align employee card content (#1347)](https://github.com/prodyna-yasm/yasm-frontend/commit/db8db9dd63430e7d529723a5032831411a89a43a) by [TD99](https://github.com/TD99) on 2026-08-21 15:20:42 +0000 UTC
+
+- [feat: add Back to Top button component and integrate into layout (#1346)](https://github.com/prodyna-yasm/yasm-frontend/commit/7c635baf6c9e9ebe10036230545f61a0feb6fa5a) by [TD99](https://github.com/TD99) on 2026-08-21 14:37:52 +0000 UTC
+
+- [fix: improve availability chart with week range calculations (#1344)](https://github.com/prodyna-yasm/yasm-frontend/commit/4d88861560cc1c8ee8b5bfcbb3b0e4629137f3ef) by [TD99](https://github.com/TD99) on 2026-08-21 08:40:42 +0000 UTC
+
 - [chore: bump dayjs from 1.11.22 to 1.11.23 (#1345)](https://github.com/prodyna-yasm/yasm-frontend/commit/d2f08537de63d6434fc37880f437e2fbe9730b29) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-21 07:40:35 +0000 UTC
 
 - [chore: bump dayjs from 1.11.21 to 1.11.22 (#1342)](https://github.com/prodyna-yasm/yasm-frontend/commit/b384a88003f2b680c419f4bfa464ded7ed817a9b) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-20 07:40:43 +0000 UTC
@@ -164,24 +176,12 @@ Component Status overview. Last update 2026-08-21T07:44:55Z
 
 - [chore: bump prettier from 3.8.1 to 3.9.6 (#1324)](https://github.com/prodyna-yasm/yasm-frontend/commit/f66c5b45a5172e8b0f5f8c6e7b712df39bc977fc) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-13 12:15:48 +0000 UTC
 
-- [chore: 1299 upgrade vite from 7 to 8 (#1318)](https://github.com/prodyna-yasm/yasm-frontend/commit/0ea63eca63fdad2996d20b440f5e07be3c7bb8e2) by [TD99](https://github.com/TD99) on 2026-08-12 09:14:28 +0000 UTC
-
-- [chore: bump material-symbols from 0.40.2 to 0.45.10 (#1315)](https://github.com/prodyna-yasm/yasm-frontend/commit/098e04bb8fbdb7c197b7314084eddf3523abac90) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-12 07:52:20 +0000 UTC
-
-- [chore: bump vite-plugin-checker from 0.9.3 to 0.14.5 (#1314)](https://github.com/prodyna-yasm/yasm-frontend/commit/c5e1a2db5e92cdb13114b5b5145db1b06c4e02a1) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-12 07:35:00 +0000 UTC
-
-- [chore: bump lint-staged from 15.5.2 to 17.3.0 (#1317)](https://github.com/prodyna-yasm/yasm-frontend/commit/28de06c30bd980997b4fdb88b303d2f6fb899bb8) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-12 07:31:38 +0000 UTC
-
-- [chore: 1299 upgrade react from 18 to 19 (#1307)](https://github.com/prodyna-yasm/yasm-frontend/commit/a64167aa3626443399c6d19b9d090ae75f7b7666) by [TD99](https://github.com/TD99) on 2026-08-11 15:45:22 +0000 UTC
-
-- [chore: bump @types/uuid from 9.0.8 to 11.0.0 (#1309)](https://github.com/prodyna-yasm/yasm-frontend/commit/b43384f0d0c4f197e648025517b1c85414468348) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-11 12:23:10 +0000 UTC
-
 
 
 
 ### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (4)
 
-- [fix: improve availability chart with week range calculations](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1344)
+- [feat: add loading skeletons and state handling in search results](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1349)
 
 - [feat: 1033 feature request new filter directindirect hits](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1343)
 
@@ -195,7 +195,7 @@ Component Status overview. Last update 2026-08-21T07:44:55Z
 
 | Environment |  dev | 
 | --- |  --- | 
-| Version |  d2f0853 | 
+| Version |  1363fa3 | 
 | Release |  :red_square: | 
 | Current |  :red_square: | 
 
@@ -1113,7 +1113,9 @@ Component Status overview. Last update 2026-08-21T07:44:55Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (1)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (2)
+
+- [feat: add minHours property to AvailabilityFilter schema](https://github.com/PRODYNA-YASM/yasm-api/pull/369)
 
 - [feat: 359 add role to projectParticipationUpdate](https://github.com/PRODYNA-YASM/yasm-api/pull/360)
 

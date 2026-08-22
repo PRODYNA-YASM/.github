@@ -313,7 +313,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d2f0853",
+          "Version": "1363fa3",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -353,8 +353,8 @@
         "Count": 4,
         "PullRequests": [
           {
-            "Title": "fix: improve availability chart with week range calculations",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1344"
+            "Title": "feat: add loading skeletons and state handling in search results",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1349"
           },
           {
             "Title": "feat: 1033 feature request new filter directindirect hits",
@@ -375,6 +375,66 @@
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "feat: add availability week range calculation to search page (#1351)",
+            "SHA": "1363fa33548da7639576df29220989389c810081",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-08-21T17:53:08Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/1363fa33548da7639576df29220989389c810081"
+          },
+          {
+            "Text": "fix(search): prevent duplicate employee results (#1350)",
+            "SHA": "629b08c258b0e6712043bb318d5055504532c799",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-08-21T17:30:37Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/629b08c258b0e6712043bb318d5055504532c799"
+          },
+          {
+            "Text": "fix(search): reliably load all infinite-scroll results (#1348)",
+            "SHA": "e8071e8703973eeb54f90f031886a9e59911b8db",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-08-21T15:39:56Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/e8071e8703973eeb54f90f031886a9e59911b8db"
+          },
+          {
+            "Text": "fix(cards): align employee card content (#1347)",
+            "SHA": "db8db9dd63430e7d529723a5032831411a89a43a",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-08-21T15:20:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/db8db9dd63430e7d529723a5032831411a89a43a"
+          },
+          {
+            "Text": "feat: add Back to Top button component and integrate into layout (#1346)",
+            "SHA": "7c635baf6c9e9ebe10036230545f61a0feb6fa5a",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-08-21T14:37:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7c635baf6c9e9ebe10036230545f61a0feb6fa5a"
+          },
+          {
+            "Text": "fix: improve availability chart with week range calculations (#1344)",
+            "SHA": "4d88861560cc1c8ee8b5bfcbb3b0e4629137f3ef",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-08-21T08:40:42Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/4d88861560cc1c8ee8b5bfcbb3b0e4629137f3ef"
+          },
           {
             "Text": "chore: bump dayjs from 1.11.22 to 1.11.23 (#1345)",
             "SHA": "d2f08537de63d6434fc37880f437e2fbe9730b29",
@@ -614,66 +674,6 @@
             },
             "Timestamp": "2026-08-13T12:15:48Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/f66c5b45a5172e8b0f5f8c6e7b712df39bc977fc"
-          },
-          {
-            "Text": "chore: 1299 upgrade vite from 7 to 8 (#1318)",
-            "SHA": "0ea63eca63fdad2996d20b440f5e07be3c7bb8e2",
-            "Author": {
-              "name": "TD99",
-              "link": "https://github.com/TD99"
-            },
-            "Timestamp": "2026-08-12T09:14:28Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/0ea63eca63fdad2996d20b440f5e07be3c7bb8e2"
-          },
-          {
-            "Text": "chore: bump material-symbols from 0.40.2 to 0.45.10 (#1315)",
-            "SHA": "098e04bb8fbdb7c197b7314084eddf3523abac90",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-08-12T07:52:20Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/098e04bb8fbdb7c197b7314084eddf3523abac90"
-          },
-          {
-            "Text": "chore: bump vite-plugin-checker from 0.9.3 to 0.14.5 (#1314)",
-            "SHA": "c5e1a2db5e92cdb13114b5b5145db1b06c4e02a1",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-08-12T07:35:00Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/c5e1a2db5e92cdb13114b5b5145db1b06c4e02a1"
-          },
-          {
-            "Text": "chore: bump lint-staged from 15.5.2 to 17.3.0 (#1317)",
-            "SHA": "28de06c30bd980997b4fdb88b303d2f6fb899bb8",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-08-12T07:31:38Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/28de06c30bd980997b4fdb88b303d2f6fb899bb8"
-          },
-          {
-            "Text": "chore: 1299 upgrade react from 18 to 19 (#1307)",
-            "SHA": "a64167aa3626443399c6d19b9d090ae75f7b7666",
-            "Author": {
-              "name": "TD99",
-              "link": "https://github.com/TD99"
-            },
-            "Timestamp": "2026-08-11T15:45:22Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/a64167aa3626443399c6d19b9d090ae75f7b7666"
-          },
-          {
-            "Text": "chore: bump @types/uuid from 9.0.8 to 11.0.0 (#1309)",
-            "SHA": "b43384f0d0c4f197e648025517b1c85414468348",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-08-11T12:23:10Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/b43384f0d0c4f197e648025517b1c85414468348"
           }
         ]
       },
@@ -3826,8 +3826,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-api/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "feat: add minHours property to AvailabilityFilter schema",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/369"
+          },
           {
             "Title": "feat: 359 add role to projectParticipationUpdate",
             "Link": "https://github.com/PRODYNA-YASM/yasm-api/pull/360"
@@ -4785,5 +4789,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-08-21T07:44:55Z"
+  "LastUpdated": "2026-08-22T07:41:12Z"
 }
