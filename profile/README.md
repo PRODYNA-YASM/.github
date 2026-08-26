@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-08-25T07:44:57Z
+Component Status overview. Last update 2026-08-26T07:45:19Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [24](https://github.com/prodyna-yasm/yasm-backend/compare/1.83.1..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.83.1 |  :red_square: 74c051a |  :green_square: 1.83.1 |  :green_square: 1.83.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: 5f5e8de | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: a629c07 | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [23](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.6..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.6 |  :red_square: 4a33fab | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.83.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.83.0 |  :red_square: b8b267c |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [22](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.29.0..HEAD) | :green_square: 0 | 1.29.0 |  :red_square: 3a81d2c |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
@@ -120,6 +120,8 @@ Component Status overview. Last update 2026-08-25T07:44:57Z
 
 ### [Commits on main since 1.83.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) (30)
 
+- [chore: bump @mui/x-date-pickers from 9.11.0 to 9.12.0 (#1360)](https://github.com/prodyna-yasm/yasm-frontend/commit/a629c0726242240bfd22b436c121382cd48535fc) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-25 07:46:57 +0000 UTC
+
 - [chore: bump @rollup/rollup-win32-x64-msvc from 4.62.4 to 4.62.5 (#1359)](https://github.com/prodyna-yasm/yasm-frontend/commit/5f5e8de4eaf0ebac0328a127ea8298007c945fa2) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-25 07:38:48 +0000 UTC
 
 - [chore: bump @mui/x-tree-view from 9.11.0 to 9.12.0 (#1361)](https://github.com/prodyna-yasm/yasm-frontend/commit/b653d5bce430595667a8bdf35c0c4baeb45f5422) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-25 07:38:29 +0000 UTC
@@ -178,14 +180,14 @@ Component Status overview. Last update 2026-08-25T07:44:57Z
 
 - [chore: bump globals from 17.9.0 to 17.11.0 (#1332)](https://github.com/prodyna-yasm/yasm-frontend/commit/a1628b9376a5976d5bcb7ace9132ec179f3c59b3) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-17 07:11:00 +0000 UTC
 
-- [chore: update nanoid to version 3.3.18 and remove rollup-linux dependency (#1330)](https://github.com/prodyna-yasm/yasm-frontend/commit/2615f565225a7deb3dbcb580b03b6dd3aa910640) by [TD99](https://github.com/TD99) on 2026-08-14 13:48:04 +0000 UTC
 
 
 
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (5)
+- [chore: bump @tanstack/react-query from 5.101.4 to 5.102.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1363)
 
-- [chore: bump @mui/x-date-pickers from 9.11.0 to 9.12.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1360)
+- [chore: bump @tanstack/react-query-devtools from 5.101.4 to 5.102.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1362)
 
 - [feat: add loading skeletons and state handling in search results](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1349)
 
@@ -201,7 +203,7 @@ Component Status overview. Last update 2026-08-25T07:44:57Z
 
 | Environment |  dev | 
 | --- |  --- | 
-| Version |  5f5e8de | 
+| Version |  a629c07 | 
 | Release |  :red_square: | 
 | Current |  :red_square: | 
 
