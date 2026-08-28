@@ -347,7 +347,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "0c64933",
+          "Version": "f68873f",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -384,8 +384,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 4,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "feat: add mobile filter experience",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1369"
+          },
+          {
+            "Title": "feat: handle external option load states in filters",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1368"
+          },
           {
             "Title": "feat: add loading skeletons and state handling in search results",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1349"
@@ -409,6 +417,56 @@
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "chore: bump @tanstack/react-query-devtools from 5.102.2 to 5.102.3 (#1373)",
+            "SHA": "f68873f796fd58c0c5255e93034eecdf4891a683",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-08-28T09:28:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/f68873f796fd58c0c5255e93034eecdf4891a683"
+          },
+          {
+            "Text": "chore: bump typescript-eslint from 8.67.0 to 8.68.0 (#1372)",
+            "SHA": "85629cc091b52934dafafdb269e7c3c9a1da202e",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-08-28T09:24:52Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/85629cc091b52934dafafdb269e7c3c9a1da202e"
+          },
+          {
+            "Text": "chore: bump @types/node from 26.2.0 to 26.3.0 (#1371)",
+            "SHA": "1223d94c610d2bcd8701baadc2740b79e5b146bb",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-08-28T09:24:40Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/1223d94c610d2bcd8701baadc2740b79e5b146bb"
+          },
+          {
+            "Text": "chore: bump @tanstack/react-query from 5.102.2 to 5.102.3 (#1370)",
+            "SHA": "56f6b149d8b184eab76f77c77dae9937212ef280",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-08-28T09:24:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/56f6b149d8b184eab76f77c77dae9937212ef280"
+          },
+          {
+            "Text": "feat: improve mobile availability chart (#1367)",
+            "SHA": "3dadd269a52a3e17f55b44a5c896a983efe07807",
+            "Author": {
+              "name": "TD99",
+              "link": "https://github.com/TD99"
+            },
+            "Timestamp": "2026-08-27T16:14:06Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/3dadd269a52a3e17f55b44a5c896a983efe07807"
+          },
           {
             "Text": "chore: bump @tanstack/react-query-devtools from 5.101.4 to 5.102.2 (#1364)",
             "SHA": "0c649336250ec001ee292f63378f9d6424ca22f2",
@@ -658,56 +716,6 @@
             },
             "Timestamp": "2026-08-18T15:40:32Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/f0f80fc2f9c8a0e4415f5b75909364c5915d39e4"
-          },
-          {
-            "Text": "feat: 1182 improved availability filtering UX (#1331)",
-            "SHA": "9c9bd49246fab9226df7073ed504d4fcdcb8dec9",
-            "Author": {
-              "name": "TD99",
-              "link": "https://github.com/TD99"
-            },
-            "Timestamp": "2026-08-18T14:52:24Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/9c9bd49246fab9226df7073ed504d4fcdcb8dec9"
-          },
-          {
-            "Text": "feat: yasm-ai chat screen (#1277)",
-            "SHA": "f44d1875a5fc81dc69ca2277ba7eca09b0999b6e",
-            "Author": {
-              "name": "Benkari",
-              "link": "https://github.com/Benkari"
-            },
-            "Timestamp": "2026-08-18T10:28:36Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/f44d1875a5fc81dc69ca2277ba7eca09b0999b6e"
-          },
-          {
-            "Text": "feat: 1183 bug search query is not consistently persisted in the url (#1337)",
-            "SHA": "ba8220d2ecc06b5fde0859a3c6c2ccda1c3b9680",
-            "Author": {
-              "name": "TD99",
-              "link": "https://github.com/TD99"
-            },
-            "Timestamp": "2026-08-17T18:21:26Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ba8220d2ecc06b5fde0859a3c6c2ccda1c3b9680"
-          },
-          {
-            "Text": "chore: bump material-symbols from 0.45.10 to 0.46.0 (#1336)",
-            "SHA": "1a1c268f1bd0175c8fee487c8c3d81f51da4f8bd",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-08-17T07:15:03Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/1a1c268f1bd0175c8fee487c8c3d81f51da4f8bd"
-          },
-          {
-            "Text": "chore: bump @opentelemetry/semantic-conventions from 1.39.0 to 1.43.0 (#1333)",
-            "SHA": "c79a80c49fd19f954ea27a8e38d9c643c9db81d0",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-08-17T07:14:15Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/c79a80c49fd19f954ea27a8e38d9c643c9db81d0"
           }
         ]
       },
@@ -4963,5 +4971,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-08-27T10:47:04Z"
+  "LastUpdated": "2026-08-28T11:12:58Z"
 }

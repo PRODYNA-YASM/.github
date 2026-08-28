@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-08-27T10:47:04Z
+Component Status overview. Last update 2026-08-28T11:12:58Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [25](https://github.com/prodyna-yasm/yasm-backend/compare/1.83.1..HEAD) | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.83.1 |  :red_square: 2e6be01 |  :green_square: 1.83.1 |  :green_square: 1.83.1 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [4](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: 0c64933 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [6](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: f68873f | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [23](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.6..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.6 |  :red_square: 4a33fab | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.83.0..HEAD) | :yellow_square: [2](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.83.0 |  :red_square: b8b267c |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [22](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.29.0..HEAD) | :green_square: 0 | 1.29.0 |  :red_square: 3a81d2c |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
@@ -124,6 +124,16 @@ Component Status overview. Last update 2026-08-27T10:47:04Z
 
 ### [Commits on main since 1.83.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) (30)
 
+- [chore: bump @tanstack/react-query-devtools from 5.102.2 to 5.102.3 (#1373)](https://github.com/prodyna-yasm/yasm-frontend/commit/f68873f796fd58c0c5255e93034eecdf4891a683) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-28 09:28:24 +0000 UTC
+
+- [chore: bump typescript-eslint from 8.67.0 to 8.68.0 (#1372)](https://github.com/prodyna-yasm/yasm-frontend/commit/85629cc091b52934dafafdb269e7c3c9a1da202e) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-28 09:24:52 +0000 UTC
+
+- [chore: bump @types/node from 26.2.0 to 26.3.0 (#1371)](https://github.com/prodyna-yasm/yasm-frontend/commit/1223d94c610d2bcd8701baadc2740b79e5b146bb) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-28 09:24:40 +0000 UTC
+
+- [chore: bump @tanstack/react-query from 5.102.2 to 5.102.3 (#1370)](https://github.com/prodyna-yasm/yasm-frontend/commit/56f6b149d8b184eab76f77c77dae9937212ef280) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-28 09:24:11 +0000 UTC
+
+- [feat: improve mobile availability chart (#1367)](https://github.com/prodyna-yasm/yasm-frontend/commit/3dadd269a52a3e17f55b44a5c896a983efe07807) by [TD99](https://github.com/TD99) on 2026-08-27 16:14:06 +0000 UTC
+
 - [chore: bump @tanstack/react-query-devtools from 5.101.4 to 5.102.2 (#1364)](https://github.com/prodyna-yasm/yasm-frontend/commit/0c649336250ec001ee292f63378f9d6424ca22f2) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-27 09:38:16 +0000 UTC
 
 - [chore: bump @tanstack/react-query from 5.101.4 to 5.102.2 (#1365)](https://github.com/prodyna-yasm/yasm-frontend/commit/de042ee62d7e7df1bb03ba0776c269af7b9c0f7c) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-27 09:36:03 +0000 UTC
@@ -174,20 +184,14 @@ Component Status overview. Last update 2026-08-27T10:47:04Z
 
 - [feat: show scheduled starters as newcomers too (#1339)](https://github.com/prodyna-yasm/yasm-frontend/commit/f0f80fc2f9c8a0e4415f5b75909364c5915d39e4) by [TD99](https://github.com/TD99) on 2026-08-18 15:40:32 +0000 UTC
 
-- [feat: 1182 improved availability filtering UX (#1331)](https://github.com/prodyna-yasm/yasm-frontend/commit/9c9bd49246fab9226df7073ed504d4fcdcb8dec9) by [TD99](https://github.com/TD99) on 2026-08-18 14:52:24 +0000 UTC
-
-- [feat: yasm-ai chat screen (#1277)](https://github.com/prodyna-yasm/yasm-frontend/commit/f44d1875a5fc81dc69ca2277ba7eca09b0999b6e) by [Benkari](https://github.com/Benkari) on 2026-08-18 10:28:36 +0000 UTC
-
-- [feat: 1183 bug search query is not consistently persisted in the url (#1337)](https://github.com/prodyna-yasm/yasm-frontend/commit/ba8220d2ecc06b5fde0859a3c6c2ccda1c3b9680) by [TD99](https://github.com/TD99) on 2026-08-17 18:21:26 +0000 UTC
-
-- [chore: bump material-symbols from 0.45.10 to 0.46.0 (#1336)](https://github.com/prodyna-yasm/yasm-frontend/commit/1a1c268f1bd0175c8fee487c8c3d81f51da4f8bd) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-17 07:15:03 +0000 UTC
-
-- [chore: bump @opentelemetry/semantic-conventions from 1.39.0 to 1.43.0 (#1333)](https://github.com/prodyna-yasm/yasm-frontend/commit/c79a80c49fd19f954ea27a8e38d9c643c9db81d0) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-17 07:14:15 +0000 UTC
 
 
 
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (6)
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (4)
+- [feat: add mobile filter experience](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1369)
+
+- [feat: handle external option load states in filters](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1368)
 
 - [feat: add loading skeletons and state handling in search results](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1349)
 
@@ -203,7 +207,7 @@ Component Status overview. Last update 2026-08-27T10:47:04Z
 
 | Environment |  dev | 
 | --- |  --- | 
-| Version |  0c64933 | 
+| Version |  f68873f | 
 | Release |  :red_square: | 
 | Current |  :red_square: | 
 
