@@ -1,6 +1,6 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-09-05T07:32:45Z
+Component Status overview. Last update 2026-09-06T07:33:20Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
@@ -21,7 +21,7 @@ Component Status overview. Last update 2026-09-05T07:32:45Z
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [12](https://github.com/prodyna-yasm/yasm-test/compare/v1.81.0..HEAD) | :yellow_square: [13](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.81.0 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [30](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.9.2..HEAD) | :green_square: 0 | 1.9.2 |  :red_square: 6b33c88 |  :green_square: 1.9.2 |  :green_square: 1.9.2 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [23](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :red_square: 26e60da |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
-| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :green_square: 0 | :yellow_square: [1](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.2.1 |  :green_square: 2.2.1 |  :green_square: 2.2.1 |  :green_square: 2.2.1 | 
+| [fox-and-hound](https://github.com/prodyna-yasm/fox-and-hound) | :green_square: 0 | :yellow_square: [2](https://github.com/prodyna-yasm/fox-and-hound/pulls) | 2.2.1 |  :green_square: 2.2.1 |  :green_square: 2.2.1 |  :green_square: 2.2.1 | 
 
 
 
@@ -1468,7 +1468,9 @@ Component Status overview. Last update 2026-09-05T07:32:45Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (1)
+### [Open Pull Requests](https://github.com/prodyna-yasm/fox-and-hound/pulls) (2)
+
+- [Bump the npm_and_yarn group across 1 directory with 26 updates](https://github.com/PRODYNA-YASM/fox-and-hound/pull/348)
 
 - [Bulk changes before migration to new gihub](https://github.com/PRODYNA-YASM/fox-and-hound/pull/347)
 

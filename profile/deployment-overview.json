@@ -5187,8 +5187,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/fox-and-hound/pulls",
-        "Count": 1,
+        "Count": 2,
         "PullRequests": [
+          {
+            "Title": "Bump the npm_and_yarn group across 1 directory with 26 updates",
+            "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/348"
+          },
           {
             "Title": "Bulk changes before migration to new gihub",
             "Link": "https://github.com/PRODYNA-YASM/fox-and-hound/pull/347"
@@ -5224,5 +5228,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-09-05T07:32:45Z"
+  "LastUpdated": "2026-09-06T07:33:20Z"
 }
