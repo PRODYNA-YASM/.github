@@ -45,8 +45,12 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 5,
+        "Count": 6,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump quarkus.platform.version from 3.39.1 to 3.39.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1052"
+          },
           {
             "Title": "feat: filter employees by available hours per week instead of %",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1050"
@@ -428,8 +432,28 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 6,
+        "Count": 11,
         "PullRequests": [
+          {
+            "Title": "chore: bump @azure/msal-browser from 5.20.0 to 5.21.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1411"
+          },
+          {
+            "Title": "chore: bump globals from 17.11.0 to 17.12.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1410"
+          },
+          {
+            "Title": "chore: bump @types/react-dom from 19.2.5 to 19.2.7",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1409"
+          },
+          {
+            "Title": "chore: bump @opentelemetry/instrumentation-document-load from 0.66.0 to 0.67.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1408"
+          },
+          {
+            "Title": "chore: bump @types/node from 26.4.0 to 26.4.1",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1407"
+          },
           {
             "Title": "feat: implement week picker for availability filtering and add minAvailableHours to employee filter",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1399"
@@ -778,7 +802,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "b5e4a91",
+          "Version": "ea6eb48",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -828,6 +852,16 @@
         "Link": "https://github.com/prodyna-yasm/yasm-integration/compare/1.83.6..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "build(deps): bump github.com/microsoftgraph/msgraph-sdk-go (#1005)",
+            "SHA": "ea6eb48b0b2042fe40687f9d38ea30cd96d5955a",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-09-07T04:24:11Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/ea6eb48b0b2042fe40687f9d38ea30cd96d5955a"
+          },
           {
             "Text": "build(deps): bump golang from 1.27.0-alpine3.24 to 1.27.1-alpine3.24 (#1004)",
             "SHA": "b5e4a915d6b376917298f4e9932bf21353a07e70",
@@ -1117,16 +1151,6 @@
             },
             "Timestamp": "2026-07-31T06:23:27Z",
             "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/110ce95faacb0487b888f24082b4e19c08317548"
-          },
-          {
-            "Text": "Bump docker/login-action from 4 to 4.5.2 (#976)",
-            "SHA": "08c4db7a8e9303042564d2a2107e5ab327624244",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-07-31T06:23:07Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-integration/commit/08c4db7a8e9303042564d2a2107e5ab327624244"
           }
         ]
       },
@@ -1897,7 +1921,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "ef98532",
+          "Version": "8f614eb",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -1934,14 +1958,39 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/pulls",
-        "Count": 0,
-        "PullRequests": null
+        "Count": 1,
+        "PullRequests": [
+          {
+            "Title": "build(deps): bump github.com/pressly/goose/v3 from 3.27.3 to 3.28.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-metrics/pull/416"
+          }
+        ]
       },
       "Link": "https://github.com/prodyna-yasm/yasm-metrics",
       "Commits": {
         "Link": "https://github.com/prodyna-yasm/yasm-metrics/compare/1.83.0..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "Merge pull request #417 from PRODYNA-YASM/dependabot/go_modules/github.com/go-sql-driver/mysql-1.10.1",
+            "SHA": "8f614eb2641f5c05f4fd460b2e8570354e47092b",
+            "Author": {
+              "name": "dkrizic",
+              "link": "https://github.com/dkrizic"
+            },
+            "Timestamp": "2026-09-07T05:59:14Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/8f614eb2641f5c05f4fd460b2e8570354e47092b"
+          },
+          {
+            "Text": "build(deps): bump github.com/go-sql-driver/mysql from 1.10.0 to 1.10.1",
+            "SHA": "41431d764fbf4d2cf5ef18cf1ee22e2d98b8c692",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-09-07T05:07:29Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/41431d764fbf4d2cf5ef18cf1ee22e2d98b8c692"
+          },
           {
             "Text": "Merge pull request #415 from PRODYNA-YASM/dependabot/go_modules/github.com/prometheus/common-0.71.0",
             "SHA": "ef98532a411eb463b9a43fb7dcb3dd8984e0ca0d",
@@ -2221,26 +2270,6 @@
             },
             "Timestamp": "2026-08-06T05:07:54Z",
             "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/7e0b90d139071123a05381e941d948390176405e"
-          },
-          {
-            "Text": "Merge pull request #393 from PRODYNA-YASM/dependabot/github_actions/docker/login-action-4.6.0",
-            "SHA": "555a2e00d1b27fc05aff0fd0ec17c9fa0224c7c0",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-08-03T06:15:55Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/555a2e00d1b27fc05aff0fd0ec17c9fa0224c7c0"
-          },
-          {
-            "Text": "Merge pull request #394 from PRODYNA-YASM/dependabot/github_actions/github/codeql-action-4.37.4",
-            "SHA": "9dbffc89f03a2eee06e1ddde861ba2f868102bb4",
-            "Author": {
-              "name": "dkrizic",
-              "link": "https://github.com/dkrizic"
-            },
-            "Timestamp": "2026-08-03T06:15:38Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-metrics/commit/9dbffc89f03a2eee06e1ddde861ba2f868102bb4"
           }
         ]
       },
@@ -5228,5 +5257,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-09-06T07:33:20Z"
+  "LastUpdated": "2026-09-07T07:43:12Z"
 }
