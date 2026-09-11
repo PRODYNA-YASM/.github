@@ -45,8 +45,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 6,
+        "Count": 8,
         "PullRequests": [
+          {
+            "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 6.7.1 to 6.7.2",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1057"
+          },
+          {
+            "Title": "feat: add additional info fields for Project",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1056"
+          },
           {
             "Title": "build(deps): bump eclipse-temurin from 25-jre-ubi10-minimal to 26-jre-ubi10-minimal",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1055"
@@ -432,8 +440,16 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 10,
+        "Count": 12,
         "PullRequests": [
+          {
+            "Title": "chore: bump @types/node from 26.4.1 to 26.5.0",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1423"
+          },
+          {
+            "Title": "chore: bump typescript-eslint from 8.69.0 to 8.70.0 in the build-tooling group",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1422"
+          },
           {
             "Title": "chore: bump node from 26.8.1-slim to 26.8.2-slim",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1421"
@@ -5264,5 +5280,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-09-10T07:36:13Z"
+  "LastUpdated": "2026-09-11T07:36:34Z"
 }
