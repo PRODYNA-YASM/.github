@@ -8,7 +8,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "fa6f199",
+          "Version": "25b9ffb",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -45,15 +45,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-backend/pulls",
-        "Count": 8,
+        "Count": 7,
         "PullRequests": [
           {
             "Title": "build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 6.7.1 to 6.7.2",
             "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1057"
-          },
-          {
-            "Title": "feat: add additional info fields for Project",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-backend/pull/1056"
           },
           {
             "Title": "build(deps): bump eclipse-temurin from 25-jre-ubi10-minimal to 26-jre-ubi10-minimal",
@@ -86,6 +82,16 @@
         "Link": "https://github.com/prodyna-yasm/yasm-backend/compare/1.83.1..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "feat: add additional info fields for Project (#1056)",
+            "SHA": "25b9ffb99e5b469592744ac26b7d2db210f73443",
+            "Author": {
+              "name": "dimitrije-glisic",
+              "link": "https://github.com/dimitrije-glisic"
+            },
+            "Timestamp": "2026-09-11T12:21:13Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/25b9ffb99e5b469592744ac26b7d2db210f73443"
+          },
           {
             "Text": "build(deps-dev): bump com.diffplug.spotless:spotless-maven-plugin from 3.10.1 to 3.10.2 (#1054)",
             "SHA": "fa6f199fb7b11680049e18eb002186648735e8a5",
@@ -375,16 +381,6 @@
             },
             "Timestamp": "2026-08-07T14:43:22Z",
             "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/08fb852a995f0dad210a76464c5e1c10803b587b"
-          },
-          {
-            "Text": "build(deps): bump org.jsoup:jsoup from 1.22.1 to 1.23.1 (#1021)",
-            "SHA": "5982bc78de201ebf3c4f21427cae964e7ba00957",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-08-07T14:42:59Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-backend/commit/5982bc78de201ebf3c4f21427cae964e7ba00957"
           }
         ]
       },
@@ -440,7 +436,7 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 12,
+        "Count": 11,
         "PullRequests": [
           {
             "Title": "chore: bump @types/node from 26.4.1 to 26.5.0",
@@ -453,10 +449,6 @@
           {
             "Title": "chore: bump node from 26.8.1-slim to 26.8.2-slim",
             "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1421"
-          },
-          {
-            "Title": "chore: bump js-yaml from 4.3.1 to 4.3.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1420"
           },
           {
             "Title": "chore: bump lint-staged from 17.4.1 to 17.5.0",
@@ -497,6 +489,16 @@
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "feat: add additional info fields for project (project links) (#1424)",
+            "SHA": "c022e279fa9e609045194dbb692828be1d13be00",
+            "Author": {
+              "name": "dimitrije-glisic",
+              "link": "https://github.com/dimitrije-glisic"
+            },
+            "Timestamp": "2026-09-11T13:36:48Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/c022e279fa9e609045194dbb692828be1d13be00"
+          },
           {
             "Text": "chore: bump the mui group with 2 updates (#1418)",
             "SHA": "e4a7e8634575daebf91190f24eac37ce7f984e8f",
@@ -786,16 +788,6 @@
             },
             "Timestamp": "2026-09-02T08:04:49Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/a0c9014b7d229c8ff0c8daa12e74b5391d0ed89b"
-          },
-          {
-            "Text": "chore: bump @vitejs/plugin-react from 6.1.0 to 6.1.1 (#1390)",
-            "SHA": "7a84278efd9646a2fd9fb9083a5063923f03eb6b",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-09-02T08:04:36Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/7a84278efd9646a2fd9fb9083a5063923f03eb6b"
           }
         ]
       },
@@ -5280,5 +5272,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-09-11T07:36:34Z"
+  "LastUpdated": "2026-09-12T07:33:04Z"
 }

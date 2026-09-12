@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-09-11T07:36:34Z
+Component Status overview. Last update 2026-09-12T07:33:04Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-backend/compare/1.83.1..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.83.1 |  :red_square: fa6f199 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [12](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: c00abba | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-backend/compare/1.83.1..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.83.1 |  :red_square: 25b9ffb | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [11](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: c00abba | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [30](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.6..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.6 |  :red_square: ea6eb48 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.83.0..HEAD) | :green_square: 0 | 1.83.0 |  :red_square: 67172dd |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [30](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.29.0..HEAD) | :green_square: 0 | 1.29.0 |  :red_square: 38940cb |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
@@ -31,6 +31,8 @@ Component Status overview. Last update 2026-09-11T07:36:34Z
 
 
 ### [Commits on main since 1.83.1](https://github.com/prodyna-yasm/yasm-backend/compare/1.83.1..HEAD) (30)
+
+- [feat: add additional info fields for Project (#1056)](https://github.com/prodyna-yasm/yasm-backend/commit/25b9ffb99e5b469592744ac26b7d2db210f73443) by [dimitrije-glisic](https://github.com/dimitrije-glisic) on 2026-09-11 12:21:13 +0000 UTC
 
 - [build(deps-dev): bump com.diffplug.spotless:spotless-maven-plugin from 3.10.1 to 3.10.2 (#1054)](https://github.com/prodyna-yasm/yasm-backend/commit/fa6f199fb7b11680049e18eb002186648735e8a5) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-09-08 09:53:23 +0000 UTC
 
@@ -90,16 +92,12 @@ Component Status overview. Last update 2026-09-11T07:36:34Z
 
 - [build(deps-dev): bump org.apache.maven.plugins:maven-compiler-plugin from 3.14.1 to 3.15.0 (#997)](https://github.com/prodyna-yasm/yasm-backend/commit/08fb852a995f0dad210a76464c5e1c10803b587b) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-07 14:43:22 +0000 UTC
 
-- [build(deps): bump org.jsoup:jsoup from 1.22.1 to 1.23.1 (#1021)](https://github.com/prodyna-yasm/yasm-backend/commit/5982bc78de201ebf3c4f21427cae964e7ba00957) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-07 14:42:59 +0000 UTC
 
 
 
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (8)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (7)
 
 - [build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 6.7.1 to 6.7.2](https://github.com/PRODYNA-YASM/yasm-backend/pull/1057)
-
-- [feat: add additional info fields for Project](https://github.com/PRODYNA-YASM/yasm-backend/pull/1056)
 
 - [build(deps): bump eclipse-temurin from 25-jre-ubi10-minimal to 26-jre-ubi10-minimal](https://github.com/PRODYNA-YASM/yasm-backend/pull/1055)
 
@@ -119,7 +117,7 @@ Component Status overview. Last update 2026-09-11T07:36:34Z
 
 | Environment |  dev | 
 | --- |  --- | 
-| Version |  fa6f199 | 
+| Version |  25b9ffb | 
 | Release |  :red_square: | 
 | Current |  :red_square: | 
 
@@ -143,6 +141,8 @@ Component Status overview. Last update 2026-09-11T07:36:34Z
 
 
 ### [Commits on main since 1.83.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) (30)
+
+- [feat: add additional info fields for project (project links) (#1424)](https://github.com/prodyna-yasm/yasm-frontend/commit/c022e279fa9e609045194dbb692828be1d13be00) by [dimitrije-glisic](https://github.com/dimitrije-glisic) on 2026-09-11 13:36:48 +0000 UTC
 
 - [chore: bump the mui group with 2 updates (#1418)](https://github.com/prodyna-yasm/yasm-frontend/commit/e4a7e8634575daebf91190f24eac37ce7f984e8f) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-09-08 09:53:46 +0000 UTC
 
@@ -202,20 +202,16 @@ Component Status overview. Last update 2026-09-11T07:36:34Z
 
 - [chore: bump @rollup/rollup-win32-x64-msvc from 4.62.5 to 4.63.1 (#1389)](https://github.com/prodyna-yasm/yasm-frontend/commit/a0c9014b7d229c8ff0c8daa12e74b5391d0ed89b) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-09-02 08:04:49 +0000 UTC
 
-- [chore: bump @vitejs/plugin-react from 6.1.0 to 6.1.1 (#1390)](https://github.com/prodyna-yasm/yasm-frontend/commit/7a84278efd9646a2fd9fb9083a5063923f03eb6b) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-09-02 08:04:36 +0000 UTC
 
 
 
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (12)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (11)
 
 - [chore: bump @types/node from 26.4.1 to 26.5.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1423)
 
 - [chore: bump typescript-eslint from 8.69.0 to 8.70.0 in the build-tooling group](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1422)
 
 - [chore: bump node from 26.8.1-slim to 26.8.2-slim](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1421)
-
-- [chore: bump js-yaml from 4.3.1 to 4.3.2](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1420)
 
 - [chore: bump lint-staged from 17.4.1 to 17.5.0](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1419)
 
