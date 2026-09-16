@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-09-15T07:37:55Z
+Component Status overview. Last update 2026-09-16T07:37:52Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-backend/compare/1.83.1..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.83.1 |  :red_square: 148d412 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: d37f96e | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.88.0 |  :green_square: 1.88.0 |  :green_square: 1.88.0 | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: d37f96e | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [30](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.6..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.6 |  :red_square: 3e382e2 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.83.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.83.0 |  :red_square: 5637f04 |  :green_square: 1.83.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [30](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.29.0..HEAD) | :green_square: 0 | 1.29.0 |  :red_square: a116079 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
@@ -25,83 +25,28 @@ Component Status overview. Last update 2026-09-15T07:37:55Z
 
 
 
-## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.83.1
+## [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) 1.88.0
 
 
 
 
-### [Commits on main since 1.83.1](https://github.com/prodyna-yasm/yasm-backend/compare/1.83.1..HEAD) (30)
-
-- [build(deps): bump the quarkus group with 2 updates (#1058)](https://github.com/prodyna-yasm/yasm-backend/commit/148d41266e94e23e03f8210c7f9336100eab4da1) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-09-14 09:11:51 +0000 UTC
-
-- [build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 6.7.1 to 6.7.2 (#1057)](https://github.com/prodyna-yasm/yasm-backend/commit/f7ac87dd3ba9ba733ae8f949b3d42cf0f89e3af9) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-09-14 09:11:30 +0000 UTC
-
-- [build(deps): bump eclipse-temurin from 25-jre-ubi10-minimal to 26-jre-ubi10-minimal (#1055)](https://github.com/prodyna-yasm/yasm-backend/commit/dea22a81a8e303926ce73d580ba92c4df7e5b364) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-09-14 09:11:17 +0000 UTC
-
-- [feat: add additional info fields for Project (#1056)](https://github.com/prodyna-yasm/yasm-backend/commit/25b9ffb99e5b469592744ac26b7d2db210f73443) by [dimitrije-glisic](https://github.com/dimitrije-glisic) on 2026-09-11 12:21:13 +0000 UTC
-
-- [build(deps-dev): bump com.diffplug.spotless:spotless-maven-plugin from 3.10.1 to 3.10.2 (#1054)](https://github.com/prodyna-yasm/yasm-backend/commit/fa6f199fb7b11680049e18eb002186648735e8a5) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-09-08 09:53:23 +0000 UTC
-
-- [chore(dependabot): configure backend dependency updates (#1053)](https://github.com/prodyna-yasm/yasm-backend/commit/c71a1551408b5af6c9a58949bb383b6bc04d236c) by [TD99](https://github.com/TD99) on 2026-09-07 11:33:15 +0000 UTC
-
-- [build(deps): bump quarkus.platform.version from 3.39.1 to 3.39.2 (#1052)](https://github.com/prodyna-yasm/yasm-backend/commit/748da486672d4af12b9ea8b58e249c7c4ea4c3e3) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-09-07 07:56:30 +0000 UTC
-
-- [build(deps-dev): bump org.apache.maven.plugins:maven-surefire-plugin from 3.5.6 to 3.6.0 (#1051)](https://github.com/prodyna-yasm/yasm-backend/commit/8cb24fb1dc48f9540867c6e869a2a5090c4b2368) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-09-04 08:14:21 +0000 UTC
-
-- [build(deps-dev): bump org.apache.maven.plugins:maven-compiler-plugin from 3.15.0 to 3.16.0 (#1049)](https://github.com/prodyna-yasm/yasm-backend/commit/bf2cb1a9b6895ccb2924213c77701b31aed251d7) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-09-03 07:37:52 +0000 UTC
-
-- [style: reduce padding for button elements in style.html (#1046)](https://github.com/prodyna-yasm/yasm-backend/commit/739aa05c39cd7f7dfbf95b1c5544bf1f8dac8ac2) by [TD99](https://github.com/TD99) on 2026-08-31 11:05:33 +0000 UTC
-
-- [fix(pdf): long text handling and additional skill/award support (#1045)](https://github.com/prodyna-yasm/yasm-backend/commit/b7e6b30cfe20eb3762afaf215a3514331608a2e0) by [TD99](https://github.com/TD99) on 2026-08-31 09:36:18 +0000 UTC
-
-- [build(deps): bump org.jsoup:jsoup from 1.23.1 to 1.23.2 (#1042)](https://github.com/prodyna-yasm/yasm-backend/commit/3afd882a69d5ce660e28816d7f6e3a5d51ca5bc7) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-31 07:36:17 +0000 UTC
-
-- [build(deps): bump quarkus.platform.version from 3.38.3 to 3.39.1 (#1043)](https://github.com/prodyna-yasm/yasm-backend/commit/986bbd3321b18c44cb01acf5ca6ee666d6ce9fdc) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-31 07:36:02 +0000 UTC
-
-- [build(deps-dev): bump com.diffplug.spotless:spotless-maven-plugin from 3.10.0 to 3.10.1 (#1044)](https://github.com/prodyna-yasm/yasm-backend/commit/896f9d9503d13608b89b212fe3742cf340e0a1db) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-31 05:49:35 +0000 UTC
-
-- [build(deps): bump actions/setup-java from 5 to 6 (#1041)](https://github.com/prodyna-yasm/yasm-backend/commit/2e6be017e41da10d81703033345b0db322c281e2) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-27 09:40:31 +0000 UTC
-
-- [build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 6.7.0 to 6.7.1 (#1039)](https://github.com/prodyna-yasm/yasm-backend/commit/74c051ad71c3fa139449ac6e520c184e1a6add3e) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-25 07:38:00 +0000 UTC
-
-- [build(deps): bump quarkus.platform.version from 3.38.2 to 3.38.3 (#1038)](https://github.com/prodyna-yasm/yasm-backend/commit/fe903eb92f67d753e8077b347a9aa6131fd0b507) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-24 14:37:08 +0000 UTC
-
-- [build(deps-dev): bump com.diffplug.spotless:spotless-maven-plugin from 3.9.0 to 3.10.0 (#1037)](https://github.com/prodyna-yasm/yasm-backend/commit/43f8fb5b421359bbe5cd126dfe0b33177e561aca) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-21 07:40:06 +0000 UTC
-
-- [feat: 1182 improved availability filtering dates handling (#1035)](https://github.com/prodyna-yasm/yasm-backend/commit/095af4cc55fbe19bfe1812b4bc7a0de5d1171802) by [TD99](https://github.com/TD99) on 2026-08-18 14:50:30 +0000 UTC
-
-- [feat: implement proxy to yasm-ai (#1019)](https://github.com/prodyna-yasm/yasm-backend/commit/771d0705db9a9cd73f8361663f6e516bbfd96f7a) by [Benkari](https://github.com/Benkari) on 2026-08-18 10:18:53 +0000 UTC
-
-- [build(deps): bump quarkus.platform.version from 3.38.1 to 3.38.2 (#1034)](https://github.com/prodyna-yasm/yasm-backend/commit/d61a0bfea60ae047d62075bb32c2d02d4ccbed6a) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-17 07:18:17 +0000 UTC
-
-- [build(deps): bump org.apache.maven.wrapper:maven-wrapper from 3.2.0 to 3.3.4 (#1033)](https://github.com/prodyna-yasm/yasm-backend/commit/fbb68115d8dd8f2f68ce43f7cb9c36d7d5301aad) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-14 08:08:48 +0000 UTC
-
-- [build(deps): bump org.apache.maven:apache-maven from 3.9.6 to 3.9.16 (#1032)](https://github.com/prodyna-yasm/yasm-backend/commit/db4957a563b365dc446451f1d06f90a05897a9d8) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-14 07:44:34 +0000 UTC
-
-- [refactor: directly implement ObjectMapperCustomizer (#1031)](https://github.com/prodyna-yasm/yasm-backend/commit/76f8e31b52a4274e356be76ccb3f334517fd8efd) by [TD99](https://github.com/TD99) on 2026-08-11 16:12:01 +0000 UTC
-
-- [build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 6.2.0 to 6.7.0 (#1028)](https://github.com/prodyna-yasm/yasm-backend/commit/12e3fe7259876d8c9404ecefe853cb5e6e3098bb) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-11 16:06:10 +0000 UTC
-
-- [build(deps-dev): bump org.apache.maven.plugins:maven-surefire-plugin from 3.5.4 to 3.5.6 (#1029)](https://github.com/prodyna-yasm/yasm-backend/commit/bd5e8ee52eefbe688a1d6185d72c60d9aaba7b7e) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-11 16:05:53 +0000 UTC
-
-- [build(deps-dev): bump org.jacoco:jacoco-maven-plugin from 0.8.14 to 0.8.15 (#1030)](https://github.com/prodyna-yasm/yasm-backend/commit/1f6fea6353a4f1ab93237ec29f8e9f655dd32449) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-11 16:05:36 +0000 UTC
-
-- [build(deps): bump quarkus.platform.version from 3.30.6 to 3.38.1 (#1024)](https://github.com/prodyna-yasm/yasm-backend/commit/c1c2f5615c57b0d86e30897dd54470a1bd47cf5d) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-10 09:24:33 +0000 UTC
-
-- [build(deps-dev): bump org.apache.maven.plugins:maven-dependency-plugin from 3.9.0 to 3.11.0 (#1026)](https://github.com/prodyna-yasm/yasm-backend/commit/d46f12d4a5ab9e6777ab25f0b1e240b80b23f2bf) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-10 07:40:19 +0000 UTC
-
-- [build(deps-dev): bump com.diffplug.spotless:spotless-maven-plugin from 3.2.1 to 3.9.0 (#1023)](https://github.com/prodyna-yasm/yasm-backend/commit/e200b9e536a1955c117f9d0ca05b21ceb9621690) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-08-10 07:39:10 +0000 UTC
 
 
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (9)
 
+- [build(deps-dev): bump org.openapitools:openapi-generator-maven-plugin from 7.16.0 to 7.25.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/1065)
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (5)
+- [build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 6.7.1 to 6.7.2](https://github.com/PRODYNA-YASM/yasm-backend/pull/1064)
+
+- [build(deps-dev): bump the build-tooling group with 2 updates](https://github.com/PRODYNA-YASM/yasm-backend/pull/1063)
+
+- [build(deps): bump the quarkus group with 2 updates](https://github.com/PRODYNA-YASM/yasm-backend/pull/1062)
+
+- [Use PAT fallback for API package publish token in `API packages` workflow](https://github.com/PRODYNA-YASM/yasm-backend/pull/1061)
 
 - [feat: filter employees by available hours per week instead of %](https://github.com/PRODYNA-YASM/yasm-backend/pull/1050)
 
 - [feat: add skill profile filter](https://github.com/PRODYNA-YASM/yasm-backend/pull/1048)
-
-- [feat: mono repo](https://github.com/PRODYNA-YASM/yasm-backend/pull/1047)
 
 - [feat: 1033 feature request new filter directindirect hits](https://github.com/PRODYNA-YASM/yasm-backend/pull/1036)
 
@@ -111,22 +56,27 @@ Component Status overview. Last update 2026-09-15T07:37:55Z
 
 ### Environments
 
-| Environment |  dev | 
-| --- |  --- | 
-| Version |  148d412 | 
-| Release |  :red_square: | 
-| Current |  :red_square: | 
+| Environment |  dev |  staging | 
+| --- |  --- |  --- | 
+| Version |  1.88.0 |  1.88.0 | 
+| Release |  :green_square: |  :green_square: | 
+| Current |  :green_square: |  :green_square: | 
 
 
 ### Last releases
 
-- [More memory for backend to prevent OOMs](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.83.1) on 2026-07-23 13:47:42 +0000 UTC
+- [Test API Release](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.88.0) on 2026-09-15 16:55:58 +0000 UTC
 
-- [1.83.0 Citizenship filter, pdf export improvement](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.83.0) on 2026-04-22 11:34:39 +0000 UTC
+- [1.85.0](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.85.0) on 2026-09-15 16:35:59 +0000 UTC
 
-- [More person details, Java 25, optimizations](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.81.0) on 2026-01-20 18:42:14 +0000 UTC
+- [API mono repo](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.84.0) on 2026-09-15 09:20:04 +0000 UTC
 
 
+
+
+### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting) (1)
+
+- [feat: Make API package publish workflow idempotent for pre-existing n…](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/34998210781) created on 2026-09-15 16:57:16 +0000 UTC
 
 
 
@@ -201,7 +151,13 @@ Component Status overview. Last update 2026-09-15T07:37:55Z
 
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (7)
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (10)
+
+- [chore: bump @rollup/rollup-win32-x64-msvc from 4.63.1 to 4.63.2](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1433)
+
+- [chore: bump @rollup/rollup-linux-x64-gnu from 4.63.1 to 4.63.2](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1432)
+
+- [chore: bump nginx from 1.31.5-otel to 1.31.6-otel](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1431)
 
 - [feat: 1200 feature request improve search bar autocomplete ux](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1417)
 
