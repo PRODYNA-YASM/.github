@@ -1,11 +1,11 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-09-16T07:37:52Z
+Component Status overview. Last update 2026-09-17T07:39:30Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
 | [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.88.0 |  :green_square: 1.88.0 |  :green_square: 1.88.0 | 
-| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [10](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: d37f96e | 
+| [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: 787d14b | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [30](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.6..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.6 |  :red_square: 3e382e2 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.83.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.83.0 |  :red_square: 5637f04 |  :green_square: 1.83.0 | 
 | [yasm-proxy-odbc](https://github.com/prodyna-yasm/yasm-proxy-odbc) | :red_square: [30](https://github.com/prodyna-yasm/yasm-proxy-odbc/compare/1.29.0..HEAD) | :green_square: 0 | 1.29.0 |  :red_square: a116079 |  :green_square: 1.29.0 |  :green_square: 1.29.0 | 
@@ -88,6 +88,12 @@ Component Status overview. Last update 2026-09-16T07:37:52Z
 
 ### [Commits on main since 1.83.1](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) (30)
 
+- [chore: bump @rollup/rollup-win32-x64-msvc from 4.63.1 to 4.63.2 (#1433)](https://github.com/prodyna-yasm/yasm-frontend/commit/787d14b3d231b7eb7b22553869d42ffa998dbfab) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-09-16 08:07:03 +0000 UTC
+
+- [chore: bump @rollup/rollup-linux-x64-gnu from 4.63.1 to 4.63.2 (#1432)](https://github.com/prodyna-yasm/yasm-frontend/commit/ad523134200eb6729292d9ecf568fb1287ab01d1) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-09-16 08:03:24 +0000 UTC
+
+- [chore: bump nginx from 1.31.5-otel to 1.31.6-otel (#1431)](https://github.com/prodyna-yasm/yasm-frontend/commit/ca9b3b428cd2b658d48ab35172b59c4d7899652a) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-09-16 08:01:35 +0000 UTC
+
 - [chore: bump yaml from 2.9.0 to 2.9.1 (#1430)](https://github.com/prodyna-yasm/yasm-frontend/commit/d37f96e463197770d17f0f29a27864ba4386245d) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-09-15 07:03:18 +0000 UTC
 
 - [chore: bump the react group across 1 directory with 4 updates (#1425)](https://github.com/prodyna-yasm/yasm-frontend/commit/d133c7b1b3176963ce1500b1861ebea099635887) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-09-14 09:14:10 +0000 UTC
@@ -142,22 +148,12 @@ Component Status overview. Last update 2026-09-16T07:37:52Z
 
 - [fix: keep availability chart bars consistent when filtered (#1398)](https://github.com/prodyna-yasm/yasm-frontend/commit/8aa71fc3dd06f0757562dc68c095b8106aefae57) by [TD99](https://github.com/TD99) on 2026-09-03 15:43:00 +0000 UTC
 
-- [feat: improve availability chart data visualization (#1397)](https://github.com/prodyna-yasm/yasm-frontend/commit/d9607eea2fd098de5c2b7461b29c04a8678ca0ae) by [TD99](https://github.com/TD99) on 2026-09-03 08:31:50 +0000 UTC
-
-- [chore: bump the npm_and_yarn group across 1 directory with 2 updates (#1395)](https://github.com/prodyna-yasm/yasm-frontend/commit/3cb1b4393d2b6165ef113200ac611b33f845b7e6) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-09-03 07:37:19 +0000 UTC
-
-- [chore: bump nginx from 1.31.4-otel to 1.31.5-otel (#1396)](https://github.com/prodyna-yasm/yasm-frontend/commit/277dd219c644bff5dadf4681ff39c69f29fc1dc9) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-09-03 05:53:05 +0000 UTC
 
 
 
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (8)
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-frontend/pulls) (10)
-
-- [chore: bump @rollup/rollup-win32-x64-msvc from 4.63.1 to 4.63.2](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1433)
-
-- [chore: bump @rollup/rollup-linux-x64-gnu from 4.63.1 to 4.63.2](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1432)
-
-- [chore: bump nginx from 1.31.5-otel to 1.31.6-otel](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1431)
+- [chore: bump node from 26.8.2-slim to 26.9.0-slim](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1434)
 
 - [feat: 1200 feature request improve search bar autocomplete ux](https://github.com/PRODYNA-YASM/yasm-frontend/pull/1417)
 
@@ -179,7 +175,7 @@ Component Status overview. Last update 2026-09-16T07:37:52Z
 
 | Environment |  dev | 
 | --- |  --- | 
-| Version |  d37f96e | 
+| Version |  787d14b | 
 | Release |  :red_square: | 
 | Current |  :red_square: | 
 

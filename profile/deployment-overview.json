@@ -119,7 +119,7 @@
         {
           "Name": "dev",
           "Link": "",
-          "Version": "d37f96e",
+          "Version": "787d14b",
           "IsRelease": false,
           "IsCurrent": false
         }
@@ -156,19 +156,11 @@
       ],
       "PullRequests": {
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/pulls",
-        "Count": 10,
+        "Count": 8,
         "PullRequests": [
           {
-            "Title": "chore: bump @rollup/rollup-win32-x64-msvc from 4.63.1 to 4.63.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1433"
-          },
-          {
-            "Title": "chore: bump @rollup/rollup-linux-x64-gnu from 4.63.1 to 4.63.2",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1432"
-          },
-          {
-            "Title": "chore: bump nginx from 1.31.5-otel to 1.31.6-otel",
-            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1431"
+            "Title": "chore: bump node from 26.8.2-slim to 26.9.0-slim",
+            "Link": "https://github.com/PRODYNA-YASM/yasm-frontend/pull/1434"
           },
           {
             "Title": "feat: 1200 feature request improve search bar autocomplete ux",
@@ -205,6 +197,36 @@
         "Link": "https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD",
         "Count": 30,
         "Commits": [
+          {
+            "Text": "chore: bump @rollup/rollup-win32-x64-msvc from 4.63.1 to 4.63.2 (#1433)",
+            "SHA": "787d14b3d231b7eb7b22553869d42ffa998dbfab",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-09-16T08:07:03Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/787d14b3d231b7eb7b22553869d42ffa998dbfab"
+          },
+          {
+            "Text": "chore: bump @rollup/rollup-linux-x64-gnu from 4.63.1 to 4.63.2 (#1432)",
+            "SHA": "ad523134200eb6729292d9ecf568fb1287ab01d1",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-09-16T08:03:24Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ad523134200eb6729292d9ecf568fb1287ab01d1"
+          },
+          {
+            "Text": "chore: bump nginx from 1.31.5-otel to 1.31.6-otel (#1431)",
+            "SHA": "ca9b3b428cd2b658d48ab35172b59c4d7899652a",
+            "Author": {
+              "name": "dependabot[bot]",
+              "link": "https://github.com/dependabot[bot]"
+            },
+            "Timestamp": "2026-09-16T08:01:35Z",
+            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/ca9b3b428cd2b658d48ab35172b59c4d7899652a"
+          },
           {
             "Text": "chore: bump yaml from 2.9.0 to 2.9.1 (#1430)",
             "SHA": "d37f96e463197770d17f0f29a27864ba4386245d",
@@ -474,36 +496,6 @@
             },
             "Timestamp": "2026-09-03T15:43:00Z",
             "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/8aa71fc3dd06f0757562dc68c095b8106aefae57"
-          },
-          {
-            "Text": "feat: improve availability chart data visualization (#1397)",
-            "SHA": "d9607eea2fd098de5c2b7461b29c04a8678ca0ae",
-            "Author": {
-              "name": "TD99",
-              "link": "https://github.com/TD99"
-            },
-            "Timestamp": "2026-09-03T08:31:50Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/d9607eea2fd098de5c2b7461b29c04a8678ca0ae"
-          },
-          {
-            "Text": "chore: bump the npm_and_yarn group across 1 directory with 2 updates (#1395)",
-            "SHA": "3cb1b4393d2b6165ef113200ac611b33f845b7e6",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-09-03T07:37:19Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/3cb1b4393d2b6165ef113200ac611b33f845b7e6"
-          },
-          {
-            "Text": "chore: bump nginx from 1.31.4-otel to 1.31.5-otel (#1396)",
-            "SHA": "277dd219c644bff5dadf4681ff39c69f29fc1dc9",
-            "Author": {
-              "name": "dependabot[bot]",
-              "link": "https://github.com/dependabot[bot]"
-            },
-            "Timestamp": "2026-09-03T05:53:05Z",
-            "Link": "https://github.com/prodyna-yasm/yasm-frontend/commit/277dd219c644bff5dadf4681ff39c69f29fc1dc9"
           }
         ]
       },
@@ -4986,5 +4978,5 @@
       "Link": "https://yasm.prodyna.com"
     }
   ],
-  "LastUpdated": "2026-09-16T07:37:52Z"
+  "LastUpdated": "2026-09-17T07:39:30Z"
 }
