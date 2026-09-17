@@ -1,10 +1,10 @@
 # YASM Deployment Overview
 
-Component Status overview. Last update 2026-09-17T07:39:30Z
+Component Status overview. Last update 2026-09-17T12:14:03Z
 
 | Repository | Commits | PRs | Latest Release |  [dev](https://dev-yasm.prodyna.com) |  [staging](https://staging-yasm.prodyna.com) |  [prod](https://yasm.prodyna.com) | 
 | --- | --- | --- | -- |  --- |  --- |  --- | 
-| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :green_square: 0 | :yellow_square: [9](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.88.0 |  :green_square: 1.88.0 |  :green_square: 1.88.0 | 
+| [yasm-backend](https://github.com/prodyna-yasm/yasm-backend) | :red_square: [7](https://github.com/prodyna-yasm/yasm-backend/compare/1.88.0..HEAD) | :yellow_square: [7](https://github.com/prodyna-yasm/yasm-backend/pulls) | 1.88.0 |  :red_square: df8c59e |  :green_square: 1.88.0 | 
 | [yasm-frontend](https://github.com/prodyna-yasm/yasm-frontend) | :red_square: [30](https://github.com/prodyna-yasm/yasm-frontend/compare/1.83.1..HEAD) | :yellow_square: [8](https://github.com/prodyna-yasm/yasm-frontend/pulls) | 1.83.1 |  :red_square: 787d14b | 
 | [yasm-integration](https://github.com/prodyna-yasm/yasm-integration) | :red_square: [30](https://github.com/prodyna-yasm/yasm-integration/compare/1.83.6..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-integration/pulls) | 1.83.6 |  :red_square: 3e382e2 | 
 | [yasmctl](https://github.com/prodyna-yasm/yasmctl) | :red_square: [30](https://github.com/prodyna-yasm/yasmctl/compare/1.83.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasmctl/pulls) | 1.83.0 |  :red_square: 5637f04 |  :green_square: 1.83.0 | 
@@ -17,7 +17,6 @@ Component Status overview. Last update 2026-09-17T07:39:30Z
 | [yasm-infrastructure-staged](https://github.com/prodyna-yasm/yasm-infrastructure-staged) | :red_square: [4](https://github.com/prodyna-yasm/yasm-infrastructure-staged/compare/1.83.0..HEAD) | :yellow_square: [5](https://github.com/prodyna-yasm/yasm-infrastructure-staged/pulls) | 1.83.0 |  :red_square: c6b25be |  :green_square: 1.83.0 |  :green_square: 1.83.0 | 
 | [yasm-infrastructure-common](https://github.com/prodyna-yasm/yasm-infrastructure-common) | :red_square: [4](https://github.com/prodyna-yasm/yasm-infrastructure-common/compare/1.83.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm-infrastructure-common/pulls) | 1.83.0 | 
 | [yasm](https://github.com/prodyna-yasm/yasm) | :red_square: [4](https://github.com/prodyna-yasm/yasm/compare/1.83.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/yasm/pulls) | 1.83.0 | 
-| [yasm-api](https://github.com/prodyna-yasm/yasm-api) | :green_square: 0 | :yellow_square: [3](https://github.com/prodyna-yasm/yasm-api/pulls) | 1.87.0 | 
 | [yasm-test](https://github.com/prodyna-yasm/yasm-test) | :red_square: [12](https://github.com/prodyna-yasm/yasm-test/compare/v1.81.0..HEAD) | :yellow_square: [13](https://github.com/prodyna-yasm/yasm-test/pulls) | v1.81.0 | 
 | [yasm-mainproject](https://github.com/prodyna-yasm/yasm-mainproject) | :red_square: [30](https://github.com/prodyna-yasm/yasm-mainproject/compare/1.9.2..HEAD) | :green_square: 0 | 1.9.2 |  :red_square: ca730fe |  :green_square: 1.9.2 |  :green_square: 1.9.2 | 
 | [sales-copilot](https://github.com/prodyna-yasm/sales-copilot) | :red_square: [23](https://github.com/prodyna-yasm/sales-copilot/compare/1.3.0..HEAD) | :yellow_square: [1](https://github.com/prodyna-yasm/sales-copilot/pulls) | 1.3.0 |  :red_square: 26e60da |  :green_square: 1.3.0 |  :green_square: 1.3.0 | 
@@ -30,17 +29,30 @@ Component Status overview. Last update 2026-09-17T07:39:30Z
 
 
 
+### [Commits on main since 1.88.0](https://github.com/prodyna-yasm/yasm-backend/compare/1.88.0..HEAD) (7)
+
+- [Remove axios package from API workflow](https://github.com/prodyna-yasm/yasm-backend/commit/df8c59eb805ed9ebf947d3189c2ad2bd518845ce) by [dkrizic](https://github.com/dkrizic) on 2026-09-17 12:03:50 +0000 UTC
+
+- [Use PUBLISH_PACKAGE secret](https://github.com/prodyna-yasm/yasm-backend/commit/87195544475708bd24a3dfe6a9c50d04f56ade41) by [dkrizic](https://github.com/dkrizic) on 2026-09-17 11:58:21 +0000 UTC
+
+- [Use package publish PAT](https://github.com/prodyna-yasm/yasm-backend/commit/08e4722aa5c9f3a5f91465319297c6db233cfcd4) by [dkrizic](https://github.com/dkrizic) on 2026-09-17 11:51:24 +0000 UTC
+
+- [Restore API packages workflow](https://github.com/prodyna-yasm/yasm-backend/commit/42d82790fb1ef3e93cbfd2920eb4b61ec67f563c) by [dkrizic](https://github.com/dkrizic) on 2026-09-17 11:28:33 +0000 UTC
+
+- [Fix API package publish token](https://github.com/prodyna-yasm/yasm-backend/commit/41b82abea3bd1d8a5dc5f38bcd5b3e1faaa1e0d4) by [dkrizic](https://github.com/dkrizic) on 2026-09-17 11:20:29 +0000 UTC
+
+- [build(deps): bump the quarkus group with 2 updates (#1062)](https://github.com/prodyna-yasm/yasm-backend/commit/cfd7ccbe064637d0598673f95ddccf1245bf66f1) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-09-17 10:53:06 +0000 UTC
+
+- [build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 6.7.1 to 6.7.2 (#1064)](https://github.com/prodyna-yasm/yasm-backend/commit/631d43ca4654a3cf57aef8a15f8c1d069613bd25) by [dependabot[bot]](https://github.com/dependabot[bot]) on 2026-09-17 10:51:55 +0000 UTC
 
 
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (9)
+
+
+### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-backend/pulls) (7)
 
 - [build(deps-dev): bump org.openapitools:openapi-generator-maven-plugin from 7.16.0 to 7.25.0](https://github.com/PRODYNA-YASM/yasm-backend/pull/1065)
 
-- [build(deps): bump io.quarkiverse.neo4j:quarkus-neo4j from 6.7.1 to 6.7.2](https://github.com/PRODYNA-YASM/yasm-backend/pull/1064)
-
-- [build(deps-dev): bump the build-tooling group with 2 updates](https://github.com/PRODYNA-YASM/yasm-backend/pull/1063)
-
-- [build(deps): bump the quarkus group with 2 updates](https://github.com/PRODYNA-YASM/yasm-backend/pull/1062)
+- [build(deps-dev): bump the build-tooling group across 1 directory with 2 updates](https://github.com/PRODYNA-YASM/yasm-backend/pull/1063)
 
 - [Use PAT fallback for API package publish token in `API packages` workflow](https://github.com/PRODYNA-YASM/yasm-backend/pull/1061)
 
@@ -58,14 +70,14 @@ Component Status overview. Last update 2026-09-17T07:39:30Z
 
 | Environment |  dev |  staging | 
 | --- |  --- |  --- | 
-| Version |  1.88.0 |  1.88.0 | 
-| Release |  :green_square: |  :green_square: | 
-| Current |  :green_square: |  :green_square: | 
+| Version |  df8c59e |  1.88.0 | 
+| Release |  :red_square: |  :green_square: | 
+| Current |  :red_square: |  :green_square: | 
 
 
 ### Last releases
 
-- [Test API Release](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.88.0) on 2026-09-15 16:55:58 +0000 UTC
+- [Test API Release](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.88.0) on 2026-09-17 12:03:50 +0000 UTC
 
 - [1.85.0](https://github.com/PRODYNA-YASM/yasm-backend/releases/tag/1.85.0) on 2026-09-15 16:35:59 +0000 UTC
 
@@ -76,7 +88,7 @@ Component Status overview. Last update 2026-09-17T07:39:30Z
 
 ### [Workflows requiring approval](https://github.com/prodyna-yasm/yasm-backend/actions?query=is%3Awaiting) (1)
 
-- [feat: Make API package publish workflow idempotent for pre-existing n…](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/34998210781) created on 2026-09-15 16:57:16 +0000 UTC
+- [Remove axios package from API workflow](https://github.com/PRODYNA-YASM/yasm-backend/actions/runs/35219034652) created on 2026-09-17 12:04:00 +0000 UTC
 
 
 
@@ -1104,45 +1116,6 @@ Component Status overview. Last update 2026-09-17T07:39:30Z
 - [More person details, employee since, nice badges for employment years, nationality](https://github.com/PRODYNA-YASM/yasm/releases/tag/1.81.0) on 2025-05-27 07:53:20 +0000 UTC
 
 - [Imrovements/BugFix](https://github.com/PRODYNA-YASM/yasm/releases/tag/1.76.2) on 2025-05-27 07:53:20 +0000 UTC
-
-
-
-
-
-
-## [yasm-api](https://github.com/prodyna-yasm/yasm-api) 1.87.0
-
-
-
-
-
-
-### [Open Pull Requests](https://github.com/prodyna-yasm/yasm-api/pulls) (3)
-
-- [feat: add skill profile filter](https://github.com/PRODYNA-YASM/yasm-api/pull/371)
-
-- [feat: add minHours property to AvailabilityFilter schema](https://github.com/PRODYNA-YASM/yasm-api/pull/369)
-
-- [feat: 359 add role to projectParticipationUpdate](https://github.com/PRODYNA-YASM/yasm-api/pull/360)
-
-
-
-### Environments
-
-| Environment | 
-| --- | 
-| Version | 
-| Release | 
-| Current | 
-
-
-### Last releases
-
-- [1.87.0](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.87.0) on 2026-09-09 13:43:23 +0000 UTC
-
-- [Allow combination of match modes in search](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.86.0) on 2026-07-21 08:50:25 +0000 UTC
-
-- [Project participants can be normal, service manager or project manager](https://github.com/PRODYNA-YASM/yasm-api/releases/tag/1.85.0) on 2026-06-25 08:53:28 +0000 UTC
 
 
 
